@@ -1,0 +1,96 @@
+================================================================================
+RELATÓRIO SAGE AGREGADO - HUMANO_VS_MAQUINA
+================================================================================
+
+CONFIGURAÇÃO:
+  Diretórios Humano:
+    - /home/pedrest/Projects/noticias_falsas_humano_maquina_caracterizacao/corpus/FakeTrue.Br-main/fake
+    - /home/pedrest/Projects/noticias_falsas_humano_maquina_caracterizacao/corpus/Fake.br-Corpus-master/full_texts/fake_br_clean
+  Diretórios IA:
+    - /home/pedrest/Projects/noticias_falsas_humano_maquina_caracterizacao/corpus/fake-news-llm-ptbr-main/fake-news-llm-ptbr-main/data/FakeTrueBR
+    - /home/pedrest/Projects/noticias_falsas_humano_maquina_caracterizacao/corpus/fake-news-llm-ptbr-main/fake-news-llm-ptbr-main/data/Fake.Br
+
+  Total textos humanos: 5391
+  Total textos IA: 5391
+  Total de textos: 10782
+  Vocabulário: 3000 termos
+  Regularização L1: 0.1
+
+================================================================================
+INTERPRETAÇÃO DOS RESULTADOS:
+================================================================================
+  - Distintividade POSITIVA: termo mais frequente em textos HUMANOS
+  - Distintividade NEGATIVA: termo mais frequente em textos de IA
+  - Quanto maior o valor absoluto, mais distintivo o termo
+
+================================================================================
+TOP 30 TERMOS MAIS DISTINTIVOS DE HUMANOS
+================================================================================
+
+   1. voce quiser                    +6.9482
+   2. org entre                      +6.9084
+   3. com gente                      +6.9083
+   4. quiser sugerir                 +6.8962
+   5. gente pelo                     +6.8686
+   6. span                           +6.7290
+   7. site facebook                  +6.7184
+   8. ao boatos                      +6.6557
+   9. ps esse                        +6.5877
+  10. esse artigo                    +6.2893
+  11. telefone 61                    +6.1492
+  12. ps                             +6.0977
+  13. artigo uma                     +6.0667
+  14. tema ao                        +6.0405
+  15. facebook whatsapp              +5.9109
+  16. sugerir um                     +5.3591
+  17. uma sugestao                   +4.5395
+  18. ou seja                        +4.4653
+  19. boatos org                     +4.3231
+  20. ly                             +4.1204
+  21. bit                            +4.1203
+  22. bit ly                         +4.1203
+  23. quiser                         +4.0817
+  24. diz que                        +4.0480
+  25. pra                            +3.9990
+  26. leia tambem                    +3.9692
+  27. um tema                        +3.9555
+  28. org                            +3.9507
+  29. ta                             +3.9189
+  30. no telefone                    +3.8756
+
+================================================================================
+TOP 30 TERMOS MAIS DISTINTIVOS DE IA
+================================================================================
+
+   1. fontes anonimas                -6.1411
+   2. anonimas                       -5.6040
+   3. reviravolta surpreendente      -5.4727
+   4. fontes internas                -5.3049
+   5. fontes nao                     -5.1523
+   6. cruciais                       -5.1022
+   7. revelacao bombastica           -5.0236
+   8. enfatizando                    -4.8986
+   9. exclusivas                     -4.8962
+  10. acalorados                     -4.8876
+  11. debates acalorados             -4.8597
+  12. controversia                   -4.8254
+  13. destacando que                 -4.8248
+  14. fontes exclusivas              -4.8138
+  15. anonimas afirmam               -4.8021
+  16. video viral                    -4.7721
+  17. apesar das                     -4.7361
+  18. novas evidencias               -4.6900
+  19. uma conspiracao                -4.6408
+  20. uma reviravolta                -4.5769
+  21. especialistas afirmam          -4.5393
+  22. que promete                    -4.5320
+  23. levantando                     -4.5007
+  24. expectativa que                -4.4879
+  25. expoe                          -4.4030
+  26. documentos secretos            -4.3248
+  27. agora enfrenta                 -4.2756
+  28. entrevista bombastica          -4.2012
+  29. alimentando                    -4.1952
+  30. especialistas alertam          -4.1475
+
+================================================================================
