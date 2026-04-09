@@ -1,0 +1,215 @@
+# sent_id = S0001
+# text = New York Times: Brasileiros estão com nojo de seus líderes.
+1	New	New	PROPN	_	_	8	nsubj	_	_
+2	York	York	PROPN	_	_	1	flat:name	_	_
+3	Times	Times	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	Brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	nojo	nojo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Indicação de Lula foi ridícula.
+1	Indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Lula	Lula	PROPN	_	_	1	nmod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	ridícula	ridículo	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = O americano "The New York Times" publicou ontem (18) que Dilma Rousseff "luta por sobrevivência política" e achou que " teria vantagem política de sobra" quando indicou o Lula para a Casa Civil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	americano	americano	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	The	The	PROPN	_	_	2	nmod	_	_
+5	New	New	PROPN	_	_	4	flat:name	_	_
+6	York	York	PROPN	_	_	4	flat:name	_	_
+7	Times	Times	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	4	punct	_	_
+9	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	ontem	ontem	ADV	_	_	9	advmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	18	18	NUM	_	NumType=Card	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	que	que	SCONJ	_	_	18	mark	_	_
+15	Dilma	Dilma	PROPN	_	_	18	nsubj	_	_
+16	Rousseff	Rousseff	PROPN	_	_	15	flat:name	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	luta	lutar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	sobrevivência	sobrevivência	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+21	política	político	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	18	punct	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	achou	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+25	que	que	SCONJ	_	_	27	mark	_	_
+26	"	"	PUNCT	_	_	27	punct	_	_
+27	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	24	ccomp	_	_
+28	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+29	política	político	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	sobra	sobra	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	27	punct	_	_
+33	quando	quando	SCONJ	_	_	34	mark	_	_
+34	indicou	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	advcl	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Lula	Lula	PROPN	_	_	34	obj	_	_
+37	para	para	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Casa	Casa	PROPN	_	_	34	obl	_	_
+40	Civil	Civil	PROPN	_	_	39	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = O editorial diz que Dilma criou outra crise ao indicar Lula como ministro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	editorial	editorial	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	Dilma	Dilma	PROPN	_	_	6	nsubj	_	_
+6	criou	criar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	crise	crise	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	ExtPos=SCONJ	11	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	_
+11	indicar	indicar	VERB	_	VerbForm=Inf	6	advcl	_	_
+12	Lula	Lula	PROPN	_	_	11	obj	_	_
+13	como	como	ADP	_	_	14	case	_	_
+14	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = "Dilma quis retardar o o dia do julgamento de Lula dando a ele as proteções da Justiça [foro privilegiado] ".
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+3	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	retardar	retardar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dia	dia	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Lula	Lula	PROPN	_	_	10	nmod	_	_
+13	dando	dar	VERB	_	VerbForm=Ger	4	advcl	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	proteções	proteção	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Justiça	Justiça	PROPN	_	_	17	nmod	_	_
+21	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	foro	foro	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
+23	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	22	amod	_	SpaceAfter=No
+24	]	]	PUNCT	_	_	22	punct	_	_
+25	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A publicação diz ainda que: Lula foi indicado por ser um negociador de talento.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ainda	ainda	ADV	_	_	3	advmod	_	_
+5	que	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	9	punct	_	_
+7	Lula	Lula	PROPN	_	_	9	nsubj:pass	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	indicado	indicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	por	por	ADP	_	_	13	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	13	cop	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	negociador	negociador	NOUN	_	Gender=Masc|Number=Sing	9	advcl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	talento	talento	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Sua indicação foi ridícula Aproximadamente cinquenta autoridades [incluindo políticos de vários partidos] estão envolvidos no escândalo da Petrobras.
+1	Sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	ridícula	ridículo	ADJ	_	Gender=Fem|Number=Sing	16	root	_	_
+5	Aproximadamente	aproximadamente	ADV	_	_	6	advmod	_	_
+6	cinquenta	cinquenta	NUM	_	NumType=Card	7	nummod	_	_
+7	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	incluindo	incluir	VERB	_	VerbForm=Ger	7	acl	_	_
+10	políticos	político	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	9	punct	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	envolvidos	envolvido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Petrobras	Petrobras	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0015
+# text =  Os brasileiros estão com nojo de seus líderes.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	nojo	nojo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = O última cartada do governo Dilma fez manifestantes irem às ruas pedir sua renúncia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	cartada	cartada	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	governo	governo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Dilma	Dilma	PROPN	_	_	6	nmod	_	_
+8	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	manifestantes	manifestante	NOUN	_	Number=Plur	8	obj	_	_
+10	irem	ir	VERB	_	Number=Plur|Person=3|VerbForm=Inf	8	xcomp	_	_
+11-12	às	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+14	pedir	pedir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	renúncia	renúncia	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Dilma acabou acelerando o impeachment e só pode culpar a si mesma.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	acelerando	acelerar	VERB	_	VerbForm=Ger	2	xcomp	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	só	só	ADV	_	_	8	advmod	_	_
+8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	culpar	culpar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	si	si	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+

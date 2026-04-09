@@ -1,0 +1,214 @@
+# sent_id = S0001
+# text = Ator Fábio Assunção é flagrado em escândalo durante festa de São João em Arcoverde, PE!
+1	Ator	ator	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+2	Fábio	Fábio	PROPN	_	_	1	nmod	_	_
+3	Assunção	Assunção	PROPN	_	_	2	flat:name	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	durante	durante	ADP	_	_	9	case	_	_
+9	festa	festa	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	São	São	PROPN	_	_	9	nmod	_	_
+12	João	João	PROPN	_	_	11	flat:name	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Arcoverde	Arcoverde	PROPN	_	_	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	PE	PE	PROPN	_	_	14	parataxis	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O famoso teria agredido fãs e policiais, além de ter vandalizado uma viatura ao ser detido.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	famoso	famoso	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	agredido	agredir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	fãs	fã	NOUN	_	Number=Plur	4	obj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	policiais	policial	NOUN	_	Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	além	além	ADV	_	_	4	advmod	_	_
+10	de	de	ADP	_	_	12	mark	_	_
+11	ter	ter	AUX	_	VerbForm=Inf	12	aux	_	_
+12	vandalizado	vandalizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	viatura	viatura	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	ExtPos=SCONJ	18	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
+17	ser	ser	AUX	_	VerbForm=Inf	18	aux:pass	_	_
+18	detido	deter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A polêmica começou quando Fábio, supostamente sob efeito de substâncias ilícitas, causou tumulto após o lançamento de seu documentário.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polêmica	polêmica	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	quando	quando	SCONJ	_	_	14	mark	_	_
+5	Fábio	Fábio	PROPN	_	_	14	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	supostamente	supostamente	ADV	_	_	9	advmod	_	_
+8	sob	sob	ADP	_	_	9	case	_	_
+9	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	14	advcl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+12	ilícitas	ilícito	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	causou	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+15	tumulto	tumulto	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16	após	após	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	documentário	documentário	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Em um vídeo que circula nas redes sociais, é possível ver o ator discutindo acaloradamente com funcionários de um hospital local, onde ele teria sido atendido após uma briga.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	circula	circular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	redes	rede	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	sociais	social	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	possível	possível	ADJ	_	Number=Sing	0	root	_	_
+13	ver	ver	VERB	_	VerbForm=Inf	12	csubj	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ator	ator	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	discutindo	discutir	VERB	_	VerbForm=Ger	13	xcomp	_	_
+17	acaloradamente	acaloradamente	ADV	_	_	16	advmod	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	local	local	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	29	punct	_	_
+25	onde	onde	ADV	_	_	29	advmod	_	_
+26	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj:pass	_	_
+27	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	29	aux	_	_
+28	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	29	aux:pass	_	_
+29	atendido	atender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
+30	após	após	ADP	_	_	32	case	_	_
+31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	briga	briga	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = As jovens que acusam o ator de ameaças afirmam que ele estava fora de controle e que a situação só se acalmou após a intervenção policial.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	jovens	jovem	NOUN	_	Number=Plur	9	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	acusam	acusar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ator	ator	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+9	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	fora	fora	ADV	_	_	9	ccomp	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	controle	controle	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+16	e	e	CCONJ	_	_	22	cc	_	_
+17	que	que	SCONJ	_	_	22	mark	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	situação	situação	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+20	só	só	ADV	_	_	22	advmod	_	_
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	22	expl	_	_
+22	acalmou	acalmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+23	após	após	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	intervenção	intervenção	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+26	policial	policial	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = Fábio Assunção foi autuado por dano qualificado ao patrimônio público, desacato e resistência à prisão.
+1	Fábio	Fábio	PROPN	_	_	4	nsubj:pass	_	_
+2	Assunção	Assunção	PROPN	_	_	1	flat:name	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	autuado	autuar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	dano	dano	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	qualificado	qualificado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	patrimônio	patrimônio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	público	público	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	desacato	desacato	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = A fiança foi estabelecida em um valor elevado, R$ 9.370, e rapidamente paga, permitindo sua liberdade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fiança	fiança	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	estabelecida	estabelecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	valor	valor	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	elevado	elevado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	R$	R$	SYM	_	_	7	appos	_	_
+11	9.370	9.370	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	rapidamente	rapidamente	ADV	_	_	15	advmod	_	_
+15	paga	pagar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	permitindo	permitir	VERB	_	VerbForm=Ger	15	advcl	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = A assessoria do ator ainda não se pronunciou sobre o caso, que já está repercutindo intensamente entre os fãs e na mídia nacional.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ator	ator	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ainda	ainda	ADV	_	_	9	advmod	_	_
+7	não	não	ADV	_	_	9	advmod	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	pronunciou	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	sobre	sobre	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	caso	caso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+15	já	já	ADV	_	_	17	advmod	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	repercutindo	repercutir	VERB	_	VerbForm=Ger	12	acl:relcl	_	_
+18	intensamente	intensamente	ADV	_	_	17	advmod	_	_
+19	entre	entre	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	fãs	fã	NOUN	_	Number=Plur	17	obl	_	_
+22	e	e	CCONJ	_	_	25	cc	_	_
+23-24	na	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+26	nacional	nacional	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	_
+

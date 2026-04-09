@@ -1,0 +1,59 @@
+# sent_id = S0001
+# text = Padre pede para fiéis orarem pelo príncipe George: "Vamos rezar para que ele seja gay".
+1	Padre	padre	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	para	para	ADP	_	_	5	mark	_	_
+4	fiéis	fiéi	NOUN	_	Number=Plur	5	nsubj	_	_
+5	orarem	orar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	2	ccomp	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	príncipe	príncipe	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	George	George	PROPN	_	_	8	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	13	punct	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	rezar	rezar	VERB	_	VerbForm=Inf	2	ccomp:speech	_	_
+14	para	para	ADP	_	ExtPos=SCONJ	18	mark	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_
+16	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	gay	gay	ADJ	_	Number=Sing	13	ccomp	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = "Os cristãos devem rezar para que o príncipe George seja gay para forçar a Igreja da Inglaterra a apoiar o casamento homossexual", disse o ministro anglicano.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cristãos	cristão	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp:speech	_	_
+5	rezar	rezar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	para	para	ADP	_	ExtPos=SCONJ	12	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	príncipe	príncipe	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	George	George	PROPN	_	_	9	nmod	_	_
+11	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	gay	gay	ADJ	_	Number=Sing	5	ccomp	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	forçar	forçar	VERB	_	VerbForm=Inf	12	advcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Igreja	Igreja	PROPN	_	_	14	obj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Inglaterra	Inglaterra	PROPN	_	_	16	flat:name	_	_
+20	a	a	ADP	_	_	21	mark	_	_
+21	apoiar	apoiar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	casamento	casamento	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	homossexual	homossexual	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	4	punct	_	_
+27	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+30	anglicano	anglicano	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	27	punct	_	_
+

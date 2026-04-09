@@ -1,0 +1,519 @@
+# sent_id = S0001
+# text = Ex-funcionário do Depto.
+1	Ex-funcionário	ex-funcionário	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Depto	Depto	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0002
+# text = de Defesa dos EUA diz que "Washington planeja destruir a Rússia e a China".
+1	de	de	ADP	_	_	2	case	_	_
+2	Defesa	Defesa	PROPN	_	_	6	obl	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	EUA	EUA	PROPN	_	_	2	nmod	_	_
+6	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	Washington	Washington	PROPN	_	_	10	nsubj	_	_
+10	planeja	planejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	destruir	destruir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Rússia	Rússia	PROPN	_	_	11	obj	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	China	China	PROPN	_	_	13	conj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0004
+# text = "A América está prestes a lançar ataques surpresa em dois de seus maiores rivais, a Rússia e a China" disse Roberts.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	América	América	PROPN	_	_	5	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	prestes	preste	ADJ	_	Number=Plur	23	ccomp:speech	_	_
+6	a	a	ADP	_	_	7	mark	_	_
+7	lançar	lançar	VERB	_	VerbForm=Inf	5	acl	_	_
+8	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	dois	dois	NUM	_	Gender=Masc|NumType=Card	7	obl	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+14	maiores	maior	ADJ	_	Number=Plur	15	amod	_	_
+15	rivais	rival	NOUN	_	Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Rússia	Rússia	PROPN	_	_	15	appos	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	China	China	PROPN	_	_	18	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	5	punct	_	_
+23	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	Roberts	Roberts	PROPN	_	_	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0006
+# text = A Coréia do Norte e os Estados Unidos estão à beira de uma guerra total com as tensões em ponto de ebulição [...] isso o mundo já sabe.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Coréia	Coréia	PROPN	_	_	13	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Norte	Norte	PROPN	_	_	2	flat:name	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Estados	Estados	PROPN	_	_	2	conj	_	_
+9	Unidos	Unidos	PROPN	_	_	8	flat:name	_	_
+10	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	beira	beira	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	total	total	ADJ	_	Number=Sing	16	amod	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	ebulição	ebulição	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	[	[	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	33	parataxis	_	SpaceAfter=No
+27	..	..	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	]	]	PUNCT	_	_	26	punct	_	_
+29	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	33	obj	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+32	já	já	ADV	_	_	33	advmod	_	_
+33	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0008
+# text = O que chamou a atenção da mídia norte-americana hoje foi a declaração de um ex-funcionário do governo que serviu o ex-presidente Ronald Reagan.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	norte-americana	norte-americano	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	hoje	hoje	ADV	_	_	13	advmod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ex-funcionário	ex-funcionário	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	governo	governo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	serviu	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ex-presidente	ex-presidente	NOUN	_	Number=Sing	21	obj	_	_
+24	Ronald	Ronald	PROPN	_	_	23	nmod	_	_
+25	Reagan	Reagan	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0010
+# text = Paul Craig Roberts escreveu: "Durante os últimos anos tenho apontado, através de documentos escritos, que houve mudanças na doutrina de guerra dos EUA que apontam claramente que Washington está preparando um ataque nuclear preventivo contra a Rússia e a China".
+1	Paul	Paul	PROPN	_	_	4	nsubj	_	_
+2	Craig	Craig	PROPN	_	_	1	flat:name	_	_
+3	Roberts	Roberts	PROPN	_	_	1	flat:name	_	_
+4	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	12	punct	_	_
+6	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+7	Durante	durante	ADP	_	_	10	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	últimos	último	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+10	anos	ano	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+11	tenho	ter	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	apontado	apontar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp:speech	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	através	através	ADV	_	_	12	advmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+17	escritos	escrito	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	14	punct	_	_
+19	que	que	SCONJ	_	_	20	mark	_	_
+20	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+21	mudanças	mudança	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	doutrina	doutrina	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27-28	dos	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	EUA	EUA	PROPN	_	_	24	nmod	_	_
+30	que	que	PRON	_	PronType=Rel	31	nsubj	_	_
+31	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+32	claramente	claramente	ADV	_	_	31	advmod	_	_
+33	que	que	SCONJ	_	_	36	mark	_	_
+34	Washington	Washington	PROPN	_	_	36	nsubj	_	_
+35	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	preparando	preparar	VERB	_	VerbForm=Ger	31	ccomp	_	_
+37	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
+39	nuclear	nuclear	ADJ	_	Number=Sing	38	amod	_	_
+40	preventivo	preventivo	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+41	contra	contra	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Rússia	Rússia	PROPN	_	_	38	nmod	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	China	China	PROPN	_	_	43	conj	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0012
+# text = Roberts acredita que os EUA podem lançar um ataque surpresa para que nenhuma das duas nações seja capaz de retaliar.
+1	Roberts	Roberts	PROPN	_	_	2	nsubj	_	_
+2	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	EUA	EUA	PROPN	_	_	6	nsubj	_	_
+6	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	lançar	lançar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	para	para	ADP	_	ExtPos=SCONJ	19	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	nenhuma	nenhum	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	19	nsubj	_	_
+14-15	das	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	duas	dois	NUM	_	Gender=Fem|NumType=Card	17	nummod	_	_
+17	nações	nação	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+18	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	capaz	capaz	ADJ	_	Number=Sing	7	advcl	_	_
+20	de	de	ADP	_	_	21	mark	_	_
+21	retaliar	retaliar	VERB	_	VerbForm=Inf	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0014
+# text = Ele também acredita que os EUA têm espalhado propagandas antirússia em uma tentativa de justificar o ataque: É impossível imaginar um ato mais imprudente e irresponsável, mas isso é exatamente o que Washington planeja.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	EUA	EUA	PROPN	_	_	8	nsubj	_	_
+7	têm	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	espalhado	espalhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	ccomp	_	_
+9	propagandas	propaganda	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	antirússia	antirússia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	justificar	justificar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	20	punct	_	_
+19	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	impossível	impossível	ADJ	_	Number=Sing	3	parataxis	_	_
+21	imaginar	imaginar	VERB	_	VerbForm=Inf	20	csubj	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ato	ato	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	mais	mais	ADV	_	_	25	advmod	_	_
+25	imprudente	imprudente	ADJ	_	Number=Sing	23	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	irresponsável	irresponsável	ADJ	_	Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	33	punct	_	_
+29	mas	mas	CCONJ	_	_	33	cc	_	_
+30	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	33	nsubj	_	_
+31	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	exatamente	exatamente	ADV	_	_	33	advmod	_	_
+33	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	conj	_	_
+34	que	que	PRON	_	PronType=Rel	36	obj	_	_
+35	Washington	Washington	PROPN	_	_	36	nsubj	_	_
+36	planeja	planejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0016
+# text = Em suma, Washington está se preparando para lançar uma guerra nuclear.
+1	Em	em	ADP	_	_	2	case	_	_
+2	suma	sumo	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Washington	Washington	PROPN	_	_	7	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	preparando	preparar	VERB	_	VerbForm=Ger	0	root	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	lançar	lançar	VERB	_	VerbForm=Inf	7	advcl	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	nuclear	nuclear	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0018
+# text = A teoria de Paul Craig parece não combinar com as recentes ações do presidente Donald Trump, que chegou a elogiar suas relações com o presidente chinês Xi Jinping.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	teoria	teoria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Paul	Paul	PROPN	_	_	2	nmod	_	_
+5	Craig	Craig	PROPN	_	_	4	flat:name	_	_
+6	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	combinar	combinar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	com	com	ADP	_	_	12	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	recentes	recente	ADJ	_	Number=Plur	12	amod	_	_
+12	ações	ação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presidente	presidente	NOUN	_	Number=Sing	12	nmod	_	_
+16	Donald	Donald	PROPN	_	_	15	nmod	_	_
+17	Trump	Trump	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+21	a	a	ADP	_	_	22	mark	_	_
+22	elogiar	elogiar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+23	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	relações	relação	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+25	com	com	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	presidente	presidente	NOUN	_	Number=Sing	24	nmod	_	_
+28	chinês	chinês	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+29	Xi	Xi	PROPN	_	_	27	nmod	_	_
+30	Jinping	Jinping	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0020
+# text = Além do mais, um relatório militar do início deste ano indicou que os EUA perderiam qualquer conflito contra a Rússia ou a China devido aos equipamentos superiores dos dois países, caso eles agissem em conjunto.
+1	Além	além	ADV	_	_	15	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	obl	_	_
+4	mais	mais	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+8	militar	militar	ADJ	_	Number=Sing	7	amod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	início	início	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+12-13	deste	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	ano	ano	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	indicou	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	que	que	SCONJ	_	_	19	mark	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	EUA	EUA	PROPN	_	_	19	nsubj	_	_
+19	perderiam	perder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	15	ccomp	_	_
+20	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	21	det	_	_
+21	conflito	conflito	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	contra	contra	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Rússia	Rússia	PROPN	_	_	21	nmod	_	_
+25	ou	ou	CCONJ	_	_	27	cc	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	China	China	PROPN	_	_	24	conj	_	_
+28	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	advcl	_	_
+29-30	aos	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
+32	superiores	superior	ADJ	_	Number=Plur	31	amod	_	_
+33-34	dos	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	36	case	_	_
+34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+35	dois	dois	NUM	_	Gender=Masc|NumType=Card	36	nummod	_	_
+36	países	país	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	40	punct	_	_
+38	caso	caso	SCONJ	_	_	40	mark	_	_
+39	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	40	nsubj	_	_
+40	agissem	agir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	_
+41	em	em	ADP	_	_	42	case	_	_
+42	conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0022
+# text = Roberts parece não se importar com as autoridades de seu país e declarou em seu blog: É extremamente perigoso para toda a humanidade saber que Washington está preparando um ataque preventivo duas potência nucleares.
+1	Roberts	Roberts	PROPN	_	_	2	nsubj	_	_
+2	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	não	não	ADV	_	_	5	advmod	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	importar	importar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	país	país	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	blog	blog	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	20	punct	_	_
+18	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	extremamente	extremamente	ADV	_	_	20	advmod	_	_
+20	perigoso	perigoso	ADJ	_	Gender=Masc|Number=Sing	2	parataxis	_	_
+21	para	para	ADP	_	_	24	case	_	_
+22	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	24	det	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+25	saber	saber	VERB	_	VerbForm=Inf	20	csubj	_	_
+26	que	que	SCONJ	_	_	29	mark	_	_
+27	Washington	Washington	PROPN	_	_	29	nsubj	_	_
+28	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	preparando	preparar	VERB	_	VerbForm=Ger	25	ccomp	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32	preventivo	preventivo	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33	duas	dois	NUM	_	Gender=Fem|NumType=Card	34	nummod	_	_
+34	potência	potência	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+35	nucleares	nuclear	ADJ	_	Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0024
+# text = É impossível imaginar um ato mais imprudente e irresponsável, mas é exatamente isso que Washington está planejando.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	impossível	impossível	ADJ	_	Number=Sing	0	root	_	_
+3	imaginar	imaginar	VERB	_	VerbForm=Inf	2	csubj	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ato	ato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	imprudente	imprudente	ADJ	_	Number=Sing	5	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	irresponsável	irresponsável	ADJ	_	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	mas	mas	CCONJ	_	_	14	cc	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	exatamente	exatamente	ADV	_	_	14	advmod	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	conj	_	_
+15	que	que	PRON	_	PronType=Rel	18	obj	_	_
+16	Washington	Washington	PROPN	_	_	18	nsubj	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	planejando	planejar	VERB	_	VerbForm=Ger	14	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0026
+# text = Sim, os neoconservadores americanos insanos estão determinados a exercer hegemonia sobre o mundo.
+1	Sim	sim	ADV	_	_	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	neoconservadores	neoconservador	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	americanos	americano	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	insanos	insano	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+7	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	determinados	determinado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+9	a	a	ADP	_	_	10	mark	_	_
+10	exercer	exercer	VERB	_	VerbForm=Inf	8	acl	_	_
+11	hegemonia	hegemonia	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	sobre	sobre	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0027
+# text = encerrou Roberts.
+1	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Roberts	Roberts	PROPN	_	_	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = Paul Craig Roberts foi Secretário Adjunto do Tesouro dos EUA.
+1	Paul	Paul	PROPN	_	_	5	nsubj	_	_
+2	Craig	Craig	PROPN	_	_	1	flat:name	_	_
+3	Roberts	Roberts	PROPN	_	_	1	flat:name	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	Secretário	Secretário	PROPN	_	_	0	root	_	_
+6	Adjunto	Adjunto	PROPN	_	_	5	flat:name	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Tesouro	Tesouro	PROPN	_	_	5	nmod	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	EUA	EUA	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0031
+# text = De 1975 a 1978, o Dr. Roberts foi consultor do Congresso, onde redigiu o projeto de lei Kemp-Roth.
+1	De	de	ADP	_	_	2	case	_	_
+2	1975	1975	NUM	_	NumType=Card	10	nmod	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	1978	1978	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Dr.	Dr.	PROPN	_	_	10	nsubj	_	_
+8	Roberts	Roberts	PROPN	_	_	7	flat:name	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	consultor	consultor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Congresso	Congresso	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	onde	onde	ADV	_	_	16	advmod	_	_
+16	redigiu	redigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	lei	lei	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	Kemp-Roth	Kemp-Roth	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0033
+# text = Depois de deixar o Tesouro, serviu como consultor do Departamento de Defesa dos EUA e do Departamento de Comércio dos EUA.
+1	Depois	depois	ADV	_	_	7	advmod	_	_
+2	de	de	ADP	_	_	3	mark	_	_
+3	deixar	deixar	VERB	_	VerbForm=Inf	1	acl	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Tesouro	Tesouro	PROPN	_	_	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	serviu	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	consultor	consultor	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Departamento	Departamento	PROPN	_	_	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Defesa	Defesa	PROPN	_	_	12	flat:name	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	EUA	EUA	PROPN	_	_	12	nmod	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Departamento	Departamento	PROPN	_	_	12	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Comércio	Comércio	PROPN	_	_	21	flat:name	_	_
+24-25	dos	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	EUA	EUA	PROPN	_	_	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0034
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

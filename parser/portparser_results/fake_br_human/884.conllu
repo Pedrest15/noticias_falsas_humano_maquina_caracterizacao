@@ -1,0 +1,41 @@
+# sent_id = S0001
+# text = Kim Jong-un prova que é lunático: "Amo a paz, mas nenhum americano sairá vivo daqui".
+1	Kim	Kim	PROPN	_	_	3	nsubj	_	_
+2	Jong-un	Jong-un	PROPN	_	_	1	flat:name	_	_
+3	prova	provar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	lunático	lunático	ADJ	_	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	9	punct	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Amo	amar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	paz	paz	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	mas	mas	CCONJ	_	_	16	cc	_	_
+14	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
+15	americano	americano	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+16	sairá	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
+17	vivo	vivo	ADJ	_	Gender=Masc|Number=Sing	16	xcomp	_	_
+18-19	daqui	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	aqui	aqui	ADV	_	_	16	advmod	_	_
+20	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = A afirmação foi divulgada pela agência estatal de notícias KCNA.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	afirmação	afirmação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	agência	agência	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	estatal	estatal	ADJ	_	Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+11	KCNA	KCNA	PROPN	_	_	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+

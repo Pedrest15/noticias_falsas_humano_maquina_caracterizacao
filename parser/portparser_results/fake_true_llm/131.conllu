@@ -1,0 +1,110 @@
+# sent_id = S0001
+# text = Urgente: Ministério Público Militar aceita pedido histórico de prisão preventiva contra Alexandre de Moraes, presidente do TSE! A decisão inédita foi tomada após supostas evidências de interferência eleitoral serem apresentadas por uma fonte anônima.
+1	Urgente	urgente	ADJ	_	Number=Sing	6	dislocated	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Ministério	Ministério	PROPN	_	_	6	nsubj	_	_
+4	Público	Público	PROPN	_	_	3	flat:name	_	_
+5	Militar	Militar	PROPN	_	_	3	flat:name	_	_
+6	aceita	aceitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	histórico	histórico	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	contra	contra	ADP	_	_	13	case	_	_
+13	Alexandre	Alexandre	PROPN	_	_	7	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Moraes	Moraes	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	presidente	presidente	NOUN	_	Number=Sing	13	appos	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	TSE	TSE	PROPN	_	_	17	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	6	punct	_	_
+22	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+24	inédita	inédito	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	root	_	_
+27	após	após	ADP	_	_	34	mark	_	_
+28	supostas	suposto	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	29	amod	_	_
+29	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	34	nsubj:pass	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	interferência	interferência	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	eleitoral	eleitoral	ADJ	_	Number=Sing	31	amod	_	_
+33	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	34	aux:pass	_	_
+34	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	26	advcl	_	_
+35	por	por	ADP	_	_	37	case	_	_
+36	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	34	obl:agent	_	_
+38	anônima	anônimo	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Alega-se que o ministro teria violado normas de imparcialidade, colocando em risco a integridade das próximas eleições.
+1-2	Alega-se	_	_	_	_	_	_	_	_
+1	Alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl:impers	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+7	violado	violar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	_
+8	normas	norma	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	imparcialidade	imparcialidade	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	colocando	colocar	VERB	_	VerbForm=Ger	7	advcl	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	risco	risco	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+20	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = O Superior Tribunal Militar (STM) agora está sob pressão para agir rapidamente e avaliar a gravidade das acusações.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Superior	Superior	PROPN	_	_	11	nsubj	_	_
+3	Tribunal	Tribunal	PROPN	_	_	2	flat:name	_	_
+4	Militar	Militar	PROPN	_	_	2	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	STM	STM	PROPN	_	_	2	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	agora	agora	ADV	_	_	11	advmod	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	sob	sob	ADP	_	_	11	case	_	_
+11	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	agir	agir	VERB	_	VerbForm=Inf	11	acl	_	_
+14	rapidamente	rapidamente	ADV	_	_	13	advmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	avaliar	avaliar	VERB	_	VerbForm=Inf	13	conj	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Internautas reagem com surpresa e exigem transparência nas investigações.
+1	Internautas	internauta	NOUN	_	Number=Plur	2	nsubj	_	_
+2	reagem	reagir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	exigem	exigir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+

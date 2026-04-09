@@ -1,0 +1,505 @@
+# sent_id = S0001
+# text = EUA: Médicos que chegaram perto de encontrar a cura do câncer estariam "desaparecendo" misteriosamente.
+1	EUA	EUA	PROPN	_	_	16	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Médicos	médico	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	chegaram	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	perto	perto	ADV	_	_	5	advmod	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	encontrar	encontrar	VERB	_	VerbForm=Inf	6	acl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cura	cura	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	16	aux	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	desaparecendo	desaparecer	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	misteriosamente	misteriosamente	ADV	_	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0003
+# text = Em todo o mundo, 8,2 milhões morrem a cada ano vítimas do câncer.
+1	Em	em	ADP	_	_	4	case	_	_
+2	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	8,2	8,2	NUM	_	NumType=Card	7	nummod	_	_
+7	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	morrem	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	cada	cada	DET	_	Number=Sing|PronType=Ind	11	det	_	_
+11	ano	ano	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = No Brasil de 2016, estima-se a ocorrência de mais de 596 mil casos da doença no país, de acordo com dados do Instituto Nacional de Câncer.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Brasil	Brasil	PROPN	_	_	7	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	2016	2016	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7-8	estima-se	_	_	_	_	_	_	_	_
+7	estima	estimar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl:impers	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11	de	de	ADP	_	_	16	case	_	_
+12	mais	mais	ADV	_	ExtPos=ADV	14	advmod	_	_
+13	de	de	ADP	_	_	12	fixed	_	_
+14	596	596	NUM	_	NumType=Card	16	nummod	_	_
+15	mil	mil	NUM	_	NumType=Card	14	flat	_	_
+16	casos	caso	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	doença	doença	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	país	país	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+26	com	com	ADP	_	_	27	case	_	_
+27	dados	dado	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Instituto	Instituto	PROPN	_	_	27	nmod	_	_
+31	Nacional	Nacional	PROPN	_	_	30	flat:name	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Câncer	Câncer	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = Um vasto progresso já foi feito no tratamento de diversos tipos de tumores, porém a cura para tratar todos os tipos da doença ainda não foi encontrada.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vasto	vasto	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	progresso	progresso	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+4	já	já	ADV	_	_	6	advmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	tumores	tumor	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	30	punct	_	_
+16	porém	porém	CCONJ	_	_	30	cc	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cura	cura	NOUN	_	Gender=Fem|Number=Sing	30	nsubj:pass	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	tratar	tratar	VERB	_	VerbForm=Inf	18	acl	_	_
+21	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	doença	doença	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	ainda	ainda	ADV	_	_	30	advmod	_	_
+28	não	não	ADV	_	_	30	advmod	_	_
+29	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
+30	encontrada	encontrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Milheres de médicos que atuam "penosamente" em diferentes áreas da saúde trabalham no intuito de encontrar uma cura, com destaque para um grupo denominado" médicos holísticos".
+1	Milheres	milhere	NOUN	_	Number=Plur	15	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	médicos	médico	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	atuam	atuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	penosamente	penosamente	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	diferentes	diferente	ADJ	_	Number=Plur	11	amod	_	_
+11	áreas	área	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	trabalham	trabalhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	encontrar	encontrar	VERB	_	VerbForm=Inf	18	acl	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	cura	cura	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+26	para	para	ADP	_	_	28	case	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	acl	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	31	punct	_	_
+31	médicos	médico	NOUN	_	Gender=Masc|Number=Plur	29	xcomp	_	_
+32	holísticos	holístico	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = Leia na Wikipedia a definição de medicina holística.
+1	Leia	ler	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	na	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wikipedia	Wikipedia	PROPN	_	_	1	obl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	definição	definição	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	medicina	medicina	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	holística	holístico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = No entanto, uma grande coincidência preocupa a classe médica: uma alta taxa de morte entre os profissionais holísticos.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	8	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	grande	grande	ADJ	_	Number=Sing	7	amod	_	_
+7	coincidência	coincidência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	preocupa	preocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	classe	classe	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	médica	médico	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	15	punct	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	alta	alto	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	morte	morte	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	entre	entre	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	profissionais	profissional	NOUN	_	Number=Plur	15	nmod	_	_
+21	holísticos	holístico	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = A comunidade médica está à procura de respostas para o "sumiço" desses profissionais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	médica	médico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	procura	procura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	respostas	resposta	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	para	para	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	sumiço	sumiço	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15-16	desses	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+17	profissionais	profissional	NOUN	_	Number=Plur	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = Um exemplo concreto é o Dr. Jeff Bradstreet, MD (Medical Doctor) da Flórida.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	concreto	concreto	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Dr.	Dr.	PROPN	_	_	0	root	_	_
+7	Jeff	Jeff	PROPN	_	_	6	nmod	_	_
+8	Bradstreet	Bradstreet	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	MD	MD	PROPN	_	_	6	appos	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Medical	Medical	PROPN	_	_	10	appos	_	_
+13	Doctor	Doctor	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	12	punct	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Flórida	Flórida	PROPN	_	_	10	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Jeff foi encontrado morto em um rio, no ano de 2015.
+1	Jeff	Jeff	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	morto	morto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	xcomp	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rio	rio	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ano	ano	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	2015	2015	NUM	_	NumType=Card	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Seu relatório apontou a morte como suicídio, ressaltando o fato de que ele tinha um ferimento de bala no peito.
+1	Seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	apontou	apontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	morte	morte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	como	como	ADP	_	_	7	case	_	_
+7	suicídio	suicídio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	ressaltando	ressaltar	VERB	_	VerbForm=Ger	3	advcl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fato	fato	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	ExtPos=SCONJ	15	mark	_	_
+13	que	que	SCONJ	_	_	12	fixed	_	_
+14	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ferimento	ferimento	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	bala	bala	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	peito	peito	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Posteriormente a "causa mortis" foi alterada e descobriu-se que ele havia sido assassinado.
+1	Posteriormente	posteriormente	ADV	_	_	8	advmod	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	causa	causa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+5	mortis	mortis	ADJ	_	Foreign=Yes	4	amod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	4	punct	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	alterada	alterar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10-11	descobriu-se	_	_	_	_	_	_	_	_
+10	descobriu	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl:impers	_	_
+12	que	que	SCONJ	_	_	16	mark	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	_
+14	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+15	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	16	aux:pass	_	_
+16	assassinado	assassinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0025
+# text = Jeff é apenas 1 dos 7 óbitos misteriosos ocorridos entre 2015 a 2017.
+1	Jeff	Jeff	PROPN	_	_	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	apenas	apenas	ADV	_	_	4	advmod	_	_
+4	1	1	NUM	_	NumType=Card	0	root	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	7	7	NUM	_	NumType=Card	8	nummod	_	_
+8	óbitos	óbito	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+9	misteriosos	misterioso	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	ocorridos	ocorrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+11	entre	entre	ADP	_	_	12	case	_	_
+12	2015	2015	NUM	_	NumType=Card	10	obl	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	2017	2017	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = O que intriga ainda mais a trama é que todos os médicos mortos estavam focados em trabalhar com uma proteína humana denominada GcMAF.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj:outer	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	intriga	intrigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	ainda	ainda	ADV	_	_	5	advmod	_	_
+5	mais	mais	ADV	_	_	3	advmod	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	trama	trama	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+9	que	que	SCONJ	_	_	15	mark	_	_
+10	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	médicos	médico	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+13	mortos	mortos	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_
+14	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	focados	focado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+16	em	em	ADP	_	_	17	mark	_	_
+17	trabalhar	trabalhar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	proteína	proteína	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	humana	humano	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	_
+23	GcMAF	GcMAF	PROPN	_	_	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0029
+# text = O GcMAF é uma proteína natural e essencial presente em nosso organismo responsável pela remoção de um número significativo de doenças, incluindo o câncer.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	GcMAF	GcMAF	PROPN	_	_	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	proteína	proteína	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	natural	natural	ADJ	_	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	essencial	essencial	ADJ	_	Number=Sing	6	conj	_	_
+9	presente	presente	ADJ	_	Number=Sing	5	amod	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	organismo	organismo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	responsável	responsável	ADJ	_	Number=Sing	5	amod	_	_
+14-15	pela	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	número	número	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	incluindo	incluir	VERB	_	VerbForm=Ger	22	acl	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0031
+# text = Todos os humanos saudáveis produzem GcMAF [...] essa proteína natural habilita o próprio corpo a se curar.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	humanos	humano	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	saudáveis	saudável	ADJ	_	Number=Plur	3	amod	_	_
+5	produzem	produzir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	GcMAF	GcMAF	PROPN	_	_	5	obj	_	_
+7	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	14	parataxis	_	SpaceAfter=No
+9	..	..	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	]	]	PUNCT	_	_	8	punct	_	_
+11	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	proteína	proteína	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	natural	natural	ADJ	_	Number=Sing	12	amod	_	_
+14	habilita	habilitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+18	a	a	ADP	_	_	20	mark	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+20	curar	curar	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0033
+# text = A idéia dos estudos é que através da administração desta proteína para as pessoas portadoras de diversos tipos de câncer, o sistema imunológico possa ser fortalecido, ajudando assim o combate à doença.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	idéia	idéia	NOUN	_	Gender=Fem|Number=Sing	28	nsubj:outer	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+7	que	que	SCONJ	_	_	28	mark	_	_
+8	através	através	ADV	_	_	28	advmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	administração	administração	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	desta	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	proteína	proteína	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+18	portadoras	portador	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	17	punct	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+27	imunológico	imunológico	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	ser	ser	AUX	_	VerbForm=Inf	30	aux:pass	_	_
+30	fortalecido	fortalecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	ajudando	ajudar	VERB	_	VerbForm=Ger	28	advcl	_	_
+33	assim	assim	ADV	_	_	32	advmod	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	combate	combate	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
+36-37	à	_	_	_	_	_	_	_	_
+36	a	a	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	doença	doença	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = S0035
+# text = Seria apenas uma coincidência o fato de que tantos médicos envolvidos nesses estudos estariam morrendo de uma hora para outra?
+1	Seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	cop	_	_
+2	apenas	apenas	ADV	_	_	4	advmod	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	coincidência	coincidência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	de	de	ADP	_	ExtPos=SCONJ	16	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	tantos	tanto	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	médicos	médico	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+11	envolvidos	envolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	10	acl	_	_
+12-13	nesses	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+15	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	16	aux	_	_
+16	morrendo	morrer	VERB	_	VerbForm=Ger	6	acl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	hora	hora	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	para	para	ADP	_	_	21	case	_	_
+21	outra	outro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	19	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0037
+# text = Conspiradores chegam a dizer que grandes empresas farmacêuticas estariam por trás dos "sumiços".
+1	Conspiradores	conspirador	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	chegam	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	_	_	4	mark	_	_
+4	dizer	dizer	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	que	que	SCONJ	_	_	11	mark	_	_
+6	grandes	grande	ADJ	_	Number=Plur	7	amod	_	_
+7	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+8	farmacêuticas	farmacêutico	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	11	cop	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	trás	trás	ADV	_	_	4	ccomp	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	sumiços	sumiço	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+

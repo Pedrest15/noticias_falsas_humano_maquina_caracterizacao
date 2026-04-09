@@ -1,0 +1,366 @@
+# sent_id = S0001
+# text = Ex-deputados famosos chocam ao mudar votos no impeachment de Dilma Rousseff.
+1	Ex-deputados	ex-deputados	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	famosos	famoso	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	chocam	chocar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	ExtPos=SCONJ	6	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	mudar	mudar	VERB	_	VerbForm=Inf	3	advcl	_	_
+7	votos	voto	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Dilma	Dilma	PROPN	_	_	10	nmod	_	_
+13	Rousseff	Rousseff	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Tiririca (PR-SP), que havia prometido se manter neutro, surpreendeu a todos ao votar contra o impeachment, alegando uma visão "mais humanizada" do Brasil.
+1	Tiririca	Tiririca	PROPN	_	_	13	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	PR-SP	PR-SP	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+7	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	prometido	prometer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl:relcl	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	manter	manter	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	neutro	neutro	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	_
+13	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	ExtPos=SCONJ	18	mark	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
+18	votar	votar	VERB	_	VerbForm=Inf	13	advcl	_	_
+19	contra	contra	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	alegando	alegar	VERB	_	VerbForm=Ger	13	advcl	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	visão	visão	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	mais	mais	ADV	_	_	28	advmod	_	_
+28	humanizada	humanizado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	25	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Brasil	Brasil	PROPN	_	_	25	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = "Senhor presidente, pensei muito e vi que precisamos de compaixão, voto não", declarou emocionado.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Senhor	senhor	NOUN	_	Gender=Masc|Number=Sing	5	parataxis	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	pensei	pensar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	ccomp:speech	_	_
+6	muito	muito	ADV	_	_	5	advmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	vi	ver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	compaixão	compaixão	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	voto	votar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+15	não	não	ADV	_	_	14	advmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	5	punct	_	_
+18	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	emocionado	emocionado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0007
+# text = O ex-presidente do Corinthians, Andrés Sanchez (PT-SP), que inicialmente iria seguir a linha partidária, mudou de ideia após uma suposta ameaça de perder o cargo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	21	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Corinthians	Corinthians	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Andrés	Andrés	PROPN	_	_	2	appos	_	_
+8	Sanchez	Sanchez	PROPN	_	_	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	PT-SP	PT-SP	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+14	inicialmente	inicialmente	ADV	_	_	16	advmod	_	_
+15	iria	ir	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	16	aux	_	_
+16	seguir	seguir	VERB	_	VerbForm=Inf	2	acl:relcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	linha	linha	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	partidária	partidário	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+24	após	após	ADP	_	_	27	case	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	27	amod	_	_
+27	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+28	de	de	ADP	_	_	29	mark	_	_
+29	perder	perder	VERB	_	VerbForm=Inf	27	acl	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0009
+# text = Achei que era melhor reconsiderar.
+1	Achei	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	4	mark	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	melhor	melhor	ADJ	_	Number=Sing	1	ccomp	_	_
+5	reconsiderar	reconsiderar	VERB	_	VerbForm=Inf	4	csubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Voto sim, afirmou, gerando surpresa entre seus colegas.
+1	Voto	votar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp:speech	_	_
+2	sim	sim	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	gerando	gerar	VERB	_	VerbForm=Ger	4	advcl	_	_
+7	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	entre	entre	ADP	_	_	10	case	_	_
+9	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Jean Wyllys (PSOL-RJ), conhecido por suas posições firmes, fez uma reviravolta surpreendente.
+1	Jean	Jean	PROPN	_	_	13	nsubj	_	_
+2	Wyllys	Wyllys	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	PSOL-RJ	PSOL-RJ	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	amod	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	posições	posição	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+11	firmes	firme	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	reviravolta	reviravolta	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	surpreendente	surpreendente	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = Após novas evidências, vejo que meu voto deve ser a favor do impeachment.
+1	Após	após	ADP	_	_	3	case	_	_
+2	novas	novo	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+3	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	vejo	ver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
+8	voto	voto	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	ser	ser	AUX	_	VerbForm=Inf	12	cop	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	favor	favor	NOUN	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Durmam com essa, canalhas, declarou, confundindo seus seguidores.
+1	Durmam	dormir	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	7	ccomp:speech	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	canalhas	canalha	NOUN	_	Number=Plur	1	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	confundindo	confundir	VERB	_	VerbForm=Ger	7	advcl	_	_
+10	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	seguidores	seguidor	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0019
+# text = Celso Russomanno (PRB-SP), o deputado mais votado de São Paulo e apresentador de TV, mudou seu discurso habitual e votou contra o impeachment, citando "novos interesses do povo brasileiro".
+1	Celso	Celso	PROPN	_	_	19	nsubj	_	_
+2	Russomanno	Russomanno	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	PRB-SP	PRB-SP	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+9	mais	mais	ADV	_	_	10	advmod	_	_
+10	votado	votado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	São	São	PROPN	_	_	8	nmod	_	_
+13	Paulo	Paulo	PROPN	_	_	12	flat:name	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	8	punct	_	_
+19	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	habitual	habitual	ADJ	_	Number=Sing	21	amod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	votou	votar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+25	contra	contra	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	citando	citar	VERB	_	VerbForm=Ger	19	advcl	_	_
+30	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+31	novos	novo	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
+32	interesses	interesse	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	povo	povo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+36	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0021
+# text = "Pelo meu Estado e pela família brasileira, voto não", disse Russomanno, contrariando expectativas.
+1	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+2-3	Pelo	_	_	_	_	_	_	_	_
+2	Por	por	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+5	Estado	Estado	PROPN	_	_	12	obl	_	_
+6	e	e	CCONJ	_	_	9	cc	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	família	família	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+10	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	voto	votar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp:speech	_	_
+13	não	não	ADV	_	_	12	advmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	12	punct	_	_
+16	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Russomanno	Russomanno	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	contrariando	contrariar	VERB	_	VerbForm=Ger	16	advcl	_	_
+20	expectativas	expectativa	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0023
+# text = O cantor Sérgio Reis (PRB-SP) também alterou seu posicionamento, votando contra o impeachment, alegando "interesses maiores pela paz no país".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	Sérgio	Sérgio	PROPN	_	_	2	nmod	_	_
+4	Reis	Reis	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PRB-SP	PRB-SP	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	também	também	ADV	_	_	9	advmod	_	_
+9	alterou	alterar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	posicionamento	posicionamento	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	votando	votar	VERB	_	VerbForm=Ger	9	advcl	_	_
+14	contra	contra	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	alegando	alegar	VERB	_	VerbForm=Ger	9	advcl	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	interesses	interesse	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+21	maiores	maior	ADJ	_	Number=Plur	20	amod	_	_
+22-23	pela	_	_	_	_	_	_	_	_
+22	por	por	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	paz	paz	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	país	país	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0025
+# text = Nesse plenário, ninguém conhece o Brasil como eu.
+1-2	Nesse	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	6	nsubj	_	_
+6	conhece	conhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Brasil	Brasil	PROPN	_	_	6	obj	_	_
+9	como	como	ADP	_	_	10	case	_	_
+10	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0027
+# text = Precisamos de união, meu voto é não, proclamou.
+1	Precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp:speech	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	união	união	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	voto	voto	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	não	não	ADV	_	_	1	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	proclamou	proclamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0029
+# text = Os esportistas Danrlei (PSD-RS) e João Derly (Rede-RS), que antes votaram a favor, agora afirmam que foram coagidos e corrigiram seus votos para "não" em uma suposta recontagem secreta.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	esportistas	esportista	NOUN	_	Number=Plur	21	nsubj	_	_
+3	Danrlei	Danrlei	PROPN	_	_	2	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	PSD-RS	PSD-RS	PROPN	_	_	3	parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	João	João	PROPN	_	_	3	conj	_	_
+9	Derly	Derly	PROPN	_	_	8	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Rede-RS	Rede-RS	PROPN	_	_	8	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+15	antes	antes	ADV	_	_	16	advmod	_	_
+16	votaram	votar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	favor	favor	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	16	punct	_	_
+20	agora	agora	ADV	_	_	21	advmod	_	_
+21	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	que	que	SCONJ	_	_	24	mark	_	_
+23	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	coagidos	coagir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	ccomp	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	corrigiram	corrigir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+27	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	votos	voto	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	não	não	ADV	_	_	26	obl	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	_
+33	em	em	ADP	_	_	36	case	_	_
+34	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	36	amod	_	_
+36	recontagem	recontagem	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+37	secreta	secreto	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	21	punct	_	_
+

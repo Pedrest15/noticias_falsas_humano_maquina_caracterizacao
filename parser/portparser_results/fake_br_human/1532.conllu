@@ -1,0 +1,269 @@
+# sent_id = S0001
+# text = Lobista do PMDB (que está nos EUA) vai se entregar à PF.
+1	Lobista	lobista	NOUN	_	Number=Sing	14	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PMDB	PMDB	PROPN	_	_	1	nmod	_	_
+5	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+6	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8-9	nos	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	EUA	EUA	PROPN	_	_	1	acl:relcl	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	entregar	entregar	VERB	_	VerbForm=Inf	0	root	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	PF	PF	PROPN	_	_	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0003
+# text = O senado vai desabar na próxima semana!.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senado	senado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	desabar	desabar	VERB	_	VerbForm=Inf	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	semana	semana	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com delação de Nestor Cerveró, Jorge Luz teria repassado 6 milhões de dólares a Renan Calheiros.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	delação	delação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Nestor	Nestor	PROPN	_	_	4	nmod	_	_
+7	Cerveró	Cerveró	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	Jorge	Jorge	PROPN	_	_	12	nsubj	_	_
+10	Luz	Luz	PROPN	_	_	9	flat:name	_	_
+11	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	12	aux	_	_
+12	repassado	repassar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	6	6	NUM	_	NumType=Card	14	nummod	_	_
+14	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	Renan	Renan	PROPN	_	_	12	obl	_	_
+19	Calheiros	Calheiros	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = Luz também é apontado por outros delatores como operador oficial de propinas para o PMDB no Senado.
+1	Luz	Luz	PROPN	_	_	4	nsubj:pass	_	_
+2	também	também	ADV	_	_	4	advmod	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	apontado	apontar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	delatores	delator	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	operador	operador	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10	oficial	oficial	ADJ	_	Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	PMDB	PMDB	PROPN	_	_	9	nmod	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Senado	Senado	PROPN	_	_	9	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = A Operação Blackout da PF foi deflagrada hoje e os agentes não conseguiram encontrar Jorge Luz e seu filho Bruno Luz, alvos da Operação.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Operação	Operação	PROPN	_	_	8	nsubj:pass	_	_
+3	Blackout	Blackout	PROPN	_	_	2	flat:name	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	PF	PF	PROPN	_	_	2	nmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	deflagrada	deflagrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	hoje	hoje	ADV	_	_	8	advmod	_	_
+10	e	e	CCONJ	_	_	14	cc	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	agentes	agente	NOUN	_	Number=Plur	14	nsubj	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	conseguiram	conseguir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	encontrar	encontrar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	Jorge	Jorge	PROPN	_	_	15	obj	_	_
+17	Luz	Luz	PROPN	_	_	16	flat:name	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	filho	filho	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+21	Bruno	Bruno	PROPN	_	_	20	nmod	_	_
+22	Luz	Luz	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	alvos	alvo	NOUN	_	Gender=Masc|Number=Plur	16	appos	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Operação	Operação	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Foram expedidos mandados de prisão contra os dois.
+1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	expedidos	expedir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	mandados	mandado	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	contra	contra	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	dois	dois	NUM	_	Gender=Masc|NumType=Card	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = De acordo com investigadores, eles estão nos EUA.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	investigadores	investigador	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+7	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8-9	nos	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	EUA	EUA	PROPN	_	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = O lobista é considerado um dos maiores operadores da Petrobras.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lobista	lobista	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	um	um	NUM	_	Gender=Masc|NumType=Card	4	xcomp	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	maiores	maior	ADJ	_	Number=Plur	9	amod	_	_
+9	operadores	operador	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Petrobras	Petrobras	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Ele e o filho são classificados como colaboradores de pagamentos ilegais na estatal.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+2	e	e	CCONJ	_	_	4	cc	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	filho	filho	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	classificados	classificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	colaboradores	colaborador	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	pagamentos	pagamento	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	ilegais	ilegal	ADJ	_	Number=Plur	10	amod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	estatal	estatal	NOUN	_	Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Renan Calheiros disse que não há chances de encontrar irregularidades em suas contas pessoais ou eleitorais.
+1	Renan	Renan	PROPN	_	_	3	nsubj	_	_
+2	Calheiros	Calheiros	PROPN	_	_	1	flat:name	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	chances	chance	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	encontrar	encontrar	VERB	_	VerbForm=Inf	7	acl	_	_
+10	irregularidades	irregularidade	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	contas	conta	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+14	pessoais	pessoal	ADJ	_	Number=Plur	13	amod	_	_
+15	ou	ou	CCONJ	_	_	16	cc	_	_
+16	eleitorais	eleitoral	ADJ	_	Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = O senador disse que suas relações com com empresas e/ou pessoas investigadas cumprem os limites institucionais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	relações	relação	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10	e/ou	e/ou	CCONJ	_	_	11	cc	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
+12	investigadas	investigar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+13	cumprem	cumprir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	limites	limite	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	institucionais	institucional	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Os advogados de Jorge Luz e de seu filho Bruno, ambos apontados como operadores do PMDB no esquema de corrupção na Petrobrás, disseram que seus clientes se apresentarão às autoridades o mais breve possível.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Jorge	Jorge	PROPN	_	_	2	nmod	_	_
+5	Luz	Luz	PROPN	_	_	4	flat:name	_	_
+6	e	e	CCONJ	_	_	9	cc	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	filho	filho	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+10	Bruno	Bruno	PROPN	_	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	13	appos	_	_
+13	apontados	apontar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+14	como	como	ADP	_	_	15	case	_	_
+15	operadores	operador	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	PMDB	PMDB	PROPN	_	_	15	nmod	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Petrobrás	Petrobrás	PROPN	_	_	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	13	punct	_	_
+28	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+29	que	que	SCONJ	_	_	33	mark	_	_
+30	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	clientes	cliente	NOUN	_	Number=Plur	33	nsubj	_	_
+32	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	33	expl	_	_
+33	apresentarão	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	28	ccomp	_	_
+34-35	às	_	_	_	_	_	_	_	_
+34	a	a	ADP	_	_	36	case	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	33	obl	_	_
+37	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	33	obl	_	_
+38	mais	mais	ADV	_	_	39	advmod	_	_
+39	breve	breve	ADJ	_	Number=Sing	37	amod	_	_
+40	possível	possível	ADJ	_	Number=Sing	37	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	28	punct	_	_
+

@@ -1,0 +1,163 @@
+# sent_id = S0001
+# text = alberto fernández revoga direito de herança de imóveis na argentina argentina presidente comunista alberto fernandez revogou o direito de herança.
+1	alberto	alberto	PROPN	_	_	3	nsubj	_	_
+2	fernández	fernández	PROPN	_	_	1	flat:name	_	_
+3	revoga	revogar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	direito	direito	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	herança	herança	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	imóveis	imóvel	NOUN	_	Number=Plur	6	nmod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	argentina	argentino	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+12	argentina	argentino	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	presidente	presidente	NOUN	_	Number=Sing	17	nsubj	_	_
+14	comunista	comunista	ADJ	_	Number=Sing	13	amod	_	_
+15	alberto	alberto	PROPN	_	_	13	nmod	_	_
+16	fernandez	fernandez	PROPN	_	_	15	flat:name	_	_
+17	revogou	revogar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	root	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	direito	direito	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	herança	herança	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = ao morrer as propriedades agora serão herdadas pelo estado.
+1-2	ao	_	_	_	_	_	_	_	_
+1	a	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	morrer	morrer	VERB	_	VerbForm=Inf	8	advcl	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+6	agora	agora	ADV	_	_	8	advmod	_	_
+7	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	herdadas	herdar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	estado	estado	NOUN	_	Gender=Masc|Number=Sing	8	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = não mais pelos filhos.
+1	não	não	ADV	_	_	0	root	_	_
+2	mais	mais	ADV	_	_	1	advmod	_	_
+3-4	pelos	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = sabe quem é o ídolo de fernandez?
+1	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quem	quem	PRON	_	PronType=Ind	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ídolo	ídolo	NOUN	_	Gender=Masc|Number=Sing	1	ccomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	fernandez	fernandez	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = ?, alberto fernández atual presidente da argentina declara que os imóveis ficarão na posse dos atuais proprietários somente enquanto eles viverem depois os filhos não herdarão mais as propriedades passarão automaticamente para o estado comunista inclusive as fazendas., o ditador amigo do lulu ladrão que é presidente da argentina o alberto fernandes revogou o direito de herança, o imóvel deixa de ser herança da família e passa a ser do gov.
+1	?	?	PUNCT	_	_	10	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	alberto	alberto	PROPN	_	_	10	nsubj	_	_
+4	fernández	fernández	PROPN	_	_	3	flat:name	_	_
+5	atual	atual	ADJ	_	Number=Sing	6	amod	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	3	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	argentina	argentino	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	declara	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	imóveis	imóvel	NOUN	_	Number=Plur	14	nsubj	_	_
+14	ficarão	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	ccomp	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	posse	posse	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	dos	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	21	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	atuais	atual	ADJ	_	Number=Plur	21	amod	_	_
+21	proprietários	proprietário	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+22	somente	somente	ADV	_	_	30	advmod	_	_
+23	enquanto	enquanto	SCONJ	_	_	25	mark	_	_
+24	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	viverem	viver	VERB	_	Number=Plur|Person=3|VerbForm=Inf	14	advcl	_	_
+26	depois	depois	ADV	_	_	30	advmod	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
+29	não	não	ADV	_	_	30	advmod	_	_
+30	herdarão	herdar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	69	advcl	_	_
+31	mais	mais	ADV	_	_	30	advmod	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	30	nsubj	_	_
+34	passarão	passar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	69	conj	_	_
+35	automaticamente	automaticamente	ADV	_	_	34	advmod	_	_
+36	para	para	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	estado	estado	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
+39	comunista	comunista	ADJ	_	Number=Sing	38	amod	_	_
+40	inclusive	inclusive	ADV	_	_	42	advmod	_	_
+41	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	fazendas	fazenda	NOUN	_	Gender=Fem|Number=Plur	38	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	69	punct	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	69	punct	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	61	nsubj	_	_
+47	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	46	amod	_	_
+48-49	do	_	_	_	_	_	_	_	_
+48	de	de	ADP	_	_	50	case	_	_
+49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	lulu	lulu	PROPN	_	_	47	nmod	_	_
+51	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	50	amod	_	_
+52	que	que	PRON	_	PronType=Rel	54	nsubj	_	_
+53	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
+54	presidente	presidente	NOUN	_	Number=Sing	46	acl:relcl	_	_
+55-56	da	_	_	_	_	_	_	_	_
+55	de	de	ADP	_	_	57	case	_	_
+56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	argentina	argentino	NOUN	_	Gender=Fem|Number=Sing	54	nmod	_	_
+58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	alberto	alberto	NOUN	_	Gender=Masc|Number=Sing	61	nsubj	_	_
+60	fernandes	fernandes	NOUN	_	_	59	nmod	_	_
+61	revogou	revogar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	root	_	_
+62	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	direito	direito	NOUN	_	Gender=Masc|Number=Sing	61	obj	_	_
+64	de	de	ADP	_	_	65	case	_	_
+65	herança	herança	NOUN	_	Gender=Fem|Number=Sing	63	nmod	_	SpaceAfter=No
+66	,	,	PUNCT	_	_	69	punct	_	_
+67	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	imóvel	imóvel	NOUN	_	Number=Sing	69	nsubj	_	_
+69	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+70	de	de	ADP	_	_	72	mark	_	_
+71	ser	ser	AUX	_	VerbForm=Inf	72	cop	_	_
+72	herança	herança	NOUN	_	Gender=Fem|Number=Sing	69	xcomp	_	_
+73-74	da	_	_	_	_	_	_	_	_
+73	de	de	ADP	_	_	75	case	_	_
+74	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	75	det	_	_
+75	família	família	NOUN	_	Gender=Fem|Number=Sing	72	nmod	_	_
+76	e	e	CCONJ	_	_	77	cc	_	_
+77	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	conj	_	_
+78	a	a	ADP	_	_	82	mark	_	_
+79	ser	ser	AUX	_	VerbForm=Inf	72	cop	_	_
+80-81	do	_	_	_	_	_	_	_	_
+80	de	de	ADP	_	_	82	case	_	_
+81	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
+82	gov.	gov.	PUNCT	_	_	61	punct	_	_
+
+# sent_id = S0011
+# text = vai vendo brasil.
+1	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	vendo	ver	VERB	_	VerbForm=Ger	0	root	_	_
+3	brasil	brasil	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+

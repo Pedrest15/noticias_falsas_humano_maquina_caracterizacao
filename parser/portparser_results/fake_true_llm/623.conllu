@@ -1,0 +1,388 @@
+# sent_id = S0001
+# text = Ex-presidente Luiz Inácio Lula da Silva, candidato à presidência, foi flagrado em vídeo mencionando o nome "Marcola" durante um comício.
+1	Ex-presidente	ex-presidente	NOUN	_	Number=Sing	15	nsubj:pass	_	_
+2	Luiz	Luiz	PROPN	_	_	1	nmod	_	_
+3	Inácio	Inácio	PROPN	_	_	2	flat:name	_	_
+4	Lula	Lula	PROPN	_	_	2	flat:name	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Silva	Silva	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	mencionando	mencionar	VERB	_	VerbForm=Ger	15	advcl	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	nome	nome	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Marcola	Marcola	PROPN	_	_	20	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	durante	durante	ADP	_	_	26	case	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	comício	comício	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0003
+# text = A gravação rapidamente se espalhou pelas redes sociais, gerando especulações de que Lula estaria se referindo ao famoso criminoso Marcos Willians Herbas Camacho, conhecido como Marcola.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	rapidamente	rapidamente	ADV	_	_	5	advmod	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	espalhou	espalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	pelas	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	redes	rede	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	sociais	social	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	gerando	gerar	VERB	_	VerbForm=Ger	5	advcl	_	_
+12	especulações	especulação	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	de	de	ADP	_	ExtPos=SCONJ	18	mark	_	_
+14	que	que	SCONJ	_	_	13	fixed	_	_
+15	Lula	Lula	PROPN	_	_	18	nsubj	_	_
+16	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
+17	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	_	_
+18	referindo	referir	VERB	_	VerbForm=Ger	12	acl	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	22	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	criminoso	criminoso	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+23	Marcos	Marcos	PROPN	_	_	22	nmod	_	_
+24	Willians	Willians	PROPN	_	_	23	flat:name	_	_
+25	Herbas	Herbas	PROPN	_	_	23	flat:name	_	_
+26	Camacho	Camacho	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+29	como	como	ADP	_	_	30	case	_	_
+30	Marcola	Marcola	PROPN	_	_	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Nas imagens, Lula afirma: Para não ficar só comício.
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+6	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	10	punct	_	_
+8	Para	para	ADP	_	_	10	mark	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	ficar	ficar	VERB	_	VerbForm=Inf	6	ccomp:speech	_	_
+11	só	só	ADV	_	_	12	advmod	_	_
+12	comício	comício	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Para ficar um comício e interação com a sociedade.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	ficar	ficar	VERB	_	VerbForm=Inf	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	comício	comício	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	interação	interação	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = A experiência no Rio foi muito boa.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Rio	Rio	PROPN	_	_	2	nmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	muito	muito	ADV	_	_	8	advmod	_	_
+8	boa	bom	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Só que não dá para ficar cinco dias em cada estado.
+1	Só	só	ADV	_	ExtPos=CCONJ	4	cc	_	_
+2	que	que	CCONJ	_	_	1	fixed	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	ficar	ficar	VERB	_	VerbForm=Inf	4	csubj	_	_
+7	cinco	cinco	NUM	_	NumType=Card	8	nummod	_	_
+8	dias	dia	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	cada	cada	DET	_	Number=Sing|PronType=Ind	11	det	_	_
+11	estado	estado	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Nós temos que ficar pouco tempo.
+1	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	ADP	_	_	4	mark	_	_
+4	ficar	ficar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	pouco	pouco	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Aqui em São Paulo, eu, por exemplo, estou esperando que o Marcola apresente uma agenda para ir a Campinas, para ir a Osasco, para ir a Guarulhos, para ir nessas grandes cidades aqui, para ir ao ABC, sabe, junto com o Haddad, que vai ser governador do estado de São Paulo.
+1	Aqui	aqui	ADV	_	_	12	advmod	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	São	São	PROPN	_	_	12	obl	_	_
+4	Paulo	Paulo	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	esperando	esperar	VERB	_	VerbForm=Ger	0	root	_	_
+13	que	que	SCONJ	_	_	16	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Marcola	Marcola	PROPN	_	_	16	nsubj	_	_
+16	apresente	apresentar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	agenda	agenda	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	ir	ir	VERB	_	VerbForm=Inf	16	advcl	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	Campinas	Campinas	PROPN	_	_	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	ir	ir	VERB	_	VerbForm=Inf	20	conj	_	_
+26	a	a	ADP	_	_	27	case	_	_
+27	Osasco	Osasco	PROPN	_	_	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	para	para	ADP	_	_	30	mark	_	_
+30	ir	ir	VERB	_	VerbForm=Inf	20	conj	_	_
+31	a	a	ADP	_	_	32	case	_	_
+32	Guarulhos	Guarulhos	PROPN	_	_	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	para	para	ADP	_	_	35	mark	_	_
+35	ir	ir	VERB	_	VerbForm=Inf	20	conj	_	_
+36-37	nessas	_	_	_	_	_	_	_	_
+36	em	em	ADP	_	_	39	case	_	_
+37	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	39	det	_	_
+38	grandes	grande	ADJ	_	Number=Plur	39	amod	_	_
+39	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	35	obl	_	_
+40	aqui	aqui	ADV	_	_	30	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	para	para	ADP	_	_	43	mark	_	_
+43	ir	ir	VERB	_	VerbForm=Inf	20	conj	_	_
+44-45	ao	_	_	_	_	_	_	_	_
+44	a	a	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	ABC	ABC	PROPN	_	_	43	obl	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	junto	junto	ADV	_	_	48	advmod	_	_
+51	com	com	ADP	_	_	53	case	_	_
+52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	Haddad	Haddad	PROPN	_	_	50	obl	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	50	punct	_	_
+55	que	que	SCONJ	_	_	58	mark	_	_
+56	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
+57	ser	ser	AUX	_	VerbForm=Inf	58	cop	_	_
+58	governador	governador	NOUN	_	Gender=Masc|Number=Sing	48	ccomp	_	_
+59-60	do	_	_	_	_	_	_	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	estado	estado	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	_
+62	de	de	ADP	_	_	63	case	_	_
+63	São	São	PROPN	_	_	61	nmod	_	_
+64	Paulo	Paulo	PROPN	_	_	63	flat:name	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0019
+# text = Segundo fontes anônimas, Lula teria uma conexão próxima com o líder do Primeiro Comando da Capital (PCC), o que levanta suspeitas sobre suas intenções políticas e a segurança das agendas mencionadas.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+3	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+6	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	conexão	conexão	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	líder	líder	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Primeiro	Primeiro	PROPN	_	_	12	nmod	_	_
+16	Comando	Comando	PROPN	_	_	15	flat:name	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Capital	Capital	PROPN	_	_	15	flat:name	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	PCC	PCC	PROPN	_	_	15	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
+25	que	que	PRON	_	PronType=Rel	24	fixed	_	_
+26	levanta	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+27	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	sobre	sobre	ADP	_	_	30	case	_	_
+29	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+30	intenções	intenção	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
+31	políticas	político	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
+32	e	e	CCONJ	_	_	34	cc	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	segurança	segurança	NOUN	_	Number=Sing	30	conj	_	_
+35-36	das	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	agendas	agenda	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
+38	mencionadas	mencionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	37	acl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = A equipe de campanha de Lula ainda não se pronunciou sobre o assunto, aumentando ainda mais a especulação.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	4	nmod	_	_
+7	ainda	ainda	ADV	_	_	10	advmod	_	_
+8	não	não	ADV	_	_	10	advmod	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	pronunciou	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	sobre	sobre	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	aumentando	aumentar	VERB	_	VerbForm=Ger	10	advcl	_	_
+16	ainda	ainda	ADV	_	_	17	advmod	_	_
+17	mais	mais	ADV	_	_	15	advmod	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	especulação	especulação	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = Especialistas em segurança pública afirmam que a menção ao nome pode indicar uma tentativa de Lula de obter apoio em setores mais marginalizados, estratégia que seria arriscada e sem precedentes na política brasileira.
+1	Especialistas	especialista	NOUN	_	Number=Plur	5	nsubj	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	segurança	segurança	NOUN	_	Number=Sing	1	nmod	_	_
+4	pública	público	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	12	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	menção	menção	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nome	nome	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+13	indicar	indicar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Lula	Lula	PROPN	_	_	15	nmod	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	obter	obter	VERB	_	VerbForm=Inf	15	acl	_	_
+20	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	setores	setor	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	marginalizados	marginalizado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	15	appos	_	_
+27	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+28	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	29	cop	_	_
+29	arriscada	arriscado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	26	acl:relcl	_	_
+30	e	e	CCONJ	_	_	32	cc	_	_
+31	sem	sem	ADP	_	_	32	case	_	_
+32	precedentes	precedente	NOUN	_	Number=Plur	29	conj	_	_
+33-34	na	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	política	política	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+36	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = O vídeo, que teria sido gravado recentemente durante um encontro com lideranças sindicais, ressurge em um momento crítico da corrida presidencial, gerando debates acalorados entre apoiadores e opositores.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	que	que	PRON	_	PronType=Rel	7	nsubj:pass	_	_
+5	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+6	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	aux:pass	_	_
+7	gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+8	recentemente	recentemente	ADV	_	_	7	advmod	_	_
+9	durante	durante	ADP	_	_	11	case	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	lideranças	liderança	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+14	sindicais	sindical	ADJ	_	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	7	punct	_	_
+16	ressurge	ressurgir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	momento	momento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20	crítico	crítico	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	corrida	corrida	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+24	presidencial	presidencial	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	gerando	gerar	VERB	_	VerbForm=Ger	16	advcl	_	_
+27	debates	debate	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+28	acalorados	acalorado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	27	amod	_	_
+29	entre	entre	ADP	_	_	30	case	_	_
+30	apoiadores	apoiador	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	opositores	opositor	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0027
+# text = Internautas questionam a autenticidade do vídeo e a verdadeira identidade do "Marcola" mencionado, enquanto as redes sociais se dividem entre acusações e defesas.
+1	Internautas	internauta	NOUN	_	Number=Plur	2	nsubj	_	_
+2	questionam	questionar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	autenticidade	autenticidade	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	_	_	11	cc	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	verdadeira	verdadeiro	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	identidade	identidade	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Marcola	Marcola	PROPN	_	_	11	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	24	punct	_	_
+19	enquanto	enquanto	SCONJ	_	_	24	mark	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	redes	rede	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
+22	sociais	social	ADJ	_	Number=Plur	21	amod	_	_
+23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	_	_
+24	dividem	dividir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+25	entre	entre	ADP	_	_	26	case	_	_
+26	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	defesas	defesa	NOUN	_	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+

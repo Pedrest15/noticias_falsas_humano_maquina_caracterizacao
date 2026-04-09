@@ -1,0 +1,295 @@
+# sent_id = S0001
+# text = URGENTE: Chefe da Campanha de Joe Biden, Dallas Jones, Preso por Fraude Eleitoral no Texas!
+1	URGENTE	URGENTE	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	1	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Campanha	Campanha	PROPN	_	_	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Joe	Joe	PROPN	_	_	6	nmod	_	_
+9	Biden	Biden	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	Dallas	Dallas	PROPN	_	_	3	appos	_	_
+12	Jones	Jones	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Preso	preso	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	Fraude	Fraude	PROPN	_	_	14	obl	_	_
+17	Eleitoral	Eleitoral	PROPN	_	_	16	flat:name	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Texas	Texas	PROPN	_	_	14	obl	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Uma foto chocante está circulando nas redes sociais, mostrando a prisão de Dallas Jones, identificado como chefe da campanha do presidente eleito dos Estados Unidos, Joe Biden.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	foto	foto	NOUN	_	Number=Sing	5	nsubj	_	_
+3	chocante	chocante	ADJ	_	Number=Sing	2	amod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	circulando	circular	VERB	_	VerbForm=Ger	0	root	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	redes	rede	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	sociais	social	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	mostrando	mostrar	VERB	_	VerbForm=Ger	5	advcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Dallas	Dallas	PROPN	_	_	13	nmod	_	_
+16	Jones	Jones	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	identificado	identificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	_
+19	como	como	ADP	_	_	20	case	_	_
+20	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	presidente	presidente	NOUN	_	Number=Sing	23	nmod	_	_
+27	eleito	eleito	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	26	amod	_	_
+28-29	dos	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	Estados	Estados	PROPN	_	_	26	nmod	_	_
+31	Unidos	Unidos	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	Joe	Joe	PROPN	_	_	26	appos	_	_
+34	Biden	Biden	PROPN	_	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = A legenda alega que Jones foi detido sob acusações graves de fraude eleitoral, manipulando votos antecipados no Texas para favorecer o candidato democrata.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	legenda	legenda	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	Jones	Jones	PROPN	_	_	7	nsubj:pass	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	detido	deter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+8	sob	sob	ADP	_	_	9	case	_	_
+9	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+10	graves	grave	ADJ	_	Number=Plur	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	eleitoral	eleitoral	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	manipulando	manipular	VERB	_	VerbForm=Ger	7	advcl	_	_
+16	votos	voto	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+17	antecipados	antecipado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Texas	Texas	PROPN	_	_	16	nmod	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22	favorecer	favorecer	VERB	_	VerbForm=Inf	15	advcl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	democrata	democrata	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A imagem, que tem gerado revolta entre internautas, foi capturada em um momento tenso onde Jones supostamente tentava escapar com documentos comprometedores.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	imagem	imagem	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl:relcl	_	_
+7	revolta	revolto	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	entre	entre	ADP	_	_	9	case	_	_
+9	internautas	internauta	NOUN	_	Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	capturada	capturar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	momento	momento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	tenso	tenso	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	onde	onde	ADV	_	_	20	advmod	_	_
+18	Jones	Jones	PROPN	_	_	20	nsubj	_	_
+19	supostamente	supostamente	ADV	_	_	20	advmod	_	_
+20	tentava	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+21	escapar	escapar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+24	comprometedores	comprometedor	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Fontes anônimas afirmam que a polícia encontrou evidências de adulteração de urnas e envelopes de votos em sua posse.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	polícia	polícia	NOUN	_	Number=Sing	7	nsubj	_	_
+7	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	adulteração	adulteração	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	envelopes	envelope	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	votos	voto	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	posse	posse	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A prisão teria ocorrido após uma denúncia de um whistleblower dentro do comitê eleitoral.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	após	após	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	whistleblower	whistleblower	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	7	nmod	_	_
+11	dentro	dentro	ADV	_	_	10	advmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	comitê	comitê	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	eleitoral	eleitoral	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = A imprensa tradicional, segundo a legenda, estaria ignorando este escândalo monumental, reforçando a teoria de que houve uma grande conspiração para influenciar o resultado das eleições.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	tradicional	tradicional	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	segundo	segundo	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	legenda	legenda	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+10	ignorando	ignorar	VERB	_	VerbForm=Ger	0	root	_	_
+11	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	monumental	monumental	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	reforçando	reforçar	VERB	_	VerbForm=Ger	10	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	teoria	teoria	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	ExtPos=SCONJ	20	mark	_	_
+19	que	que	SCONJ	_	_	18	fixed	_	_
+20	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	grande	grande	ADJ	_	Number=Sing	23	amod	_	_
+23	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	influenciar	influenciar	VERB	_	VerbForm=Inf	23	acl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28-29	das	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = A foto, que muitos acreditam ser do ator Cuba Gooding Jr.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	foto	foto	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	obj	_	_
+5	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+6	acreditam	acreditar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	ser	ser	AUX	_	VerbForm=Inf	10	cop	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ator	ator	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+11	Cuba	Cuba	PROPN	_	_	10	nmod	_	_
+12	Gooding	Gooding	PROPN	_	_	11	flat:name	_	_
+13	Jr.	Jr.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = , foi recontextualizada para parecer uma detenção recente e relacionada às eleições.
+1	,	,	PUNCT	_	_	3	punct	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	recontextualizada	recontextualizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	para	para	ADP	_	_	5	mark	_	_
+5	parecer	parecer	VERB	_	VerbForm=Inf	3	advcl	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	detenção	detenção	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	recente	recente	ADJ	_	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	relacionada	relacionado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	8	conj	_	_
+11-12	às	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Até o momento, não houve pronunciamento oficial da equipe de Biden sobre essa acusação, e a narrativa continua a se espalhar, alimentando dúvidas sobre a integridade do processo eleitoral americano.
+1	Até	até	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	oficial	oficial	ADJ	_	Number=Sing	7	amod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Biden	Biden	PROPN	_	_	11	nmod	_	_
+14	sobre	sobre	ADP	_	_	16	case	_	_
+15	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	narrativa	narrativa	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+22	a	a	ADP	_	_	24	mark	_	_
+23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	_	_
+24	espalhar	espalhar	VERB	_	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	alimentando	alimentar	VERB	_	VerbForm=Ger	24	advcl	_	_
+27	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	sobre	sobre	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	processo	processo	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+34	eleitoral	eleitoral	ADJ	_	Number=Sing	33	amod	_	_
+35	americano	americano	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Enquanto isso, os republicanos exigem uma investigação completa e transparente.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	6	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	republicanos	republicano	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	exigem	exigir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	completa	completo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	transparente	transparente	ADJ	_	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+

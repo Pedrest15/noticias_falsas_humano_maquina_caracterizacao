@@ -1,0 +1,247 @@
+# sent_id = S0001
+# text = A carne é fraca mas o patrocínio é forte!.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carne	carne	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fraca	fraco	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+5	mas	mas	CCONJ	_	_	9	cc	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	patrocínio	patrocínio	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	forte	forte	ADJ	_	Number=Sing	4	conj	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Murilo Ramos, da Época, publicou uma informação muito curiosa.
+1	Murilo	Murilo	PROPN	_	_	8	nsubj	_	_
+2	Ramos	Ramos	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Época	Época	PROPN	_	_	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	informação	informação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	muito	muito	ADV	_	_	12	advmod	_	_
+12	curiosa	curioso	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = O deputado Sergio Souza, que comanda a Comissão de Agricultura da Câmara, foi agraciado pela BRF (conglomerado brasileiro do ramo alimentício) com uma doação de duzentos mil reais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+3	Sergio	Sergio	PROPN	_	_	2	nmod	_	_
+4	Souza	Souza	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	comanda	comandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Comissão	Comissão	PROPN	_	_	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Agricultura	Agricultura	PROPN	_	_	9	flat:name	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Câmara	Câmara	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	7	punct	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	agraciado	agraciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+18-19	pela	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	BRF	BRF	PROPN	_	_	17	obl:agent	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	conglomerado	conglomerado	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
+23	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ramo	ramo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+27	alimentício	alimentício	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	22	punct	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	doação	doação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+32	de	de	ADP	_	_	35	case	_	_
+33	duzentos	duzentos	NUM	_	Gender=Masc|NumType=Card	35	nummod	_	_
+34	mil	mil	NUM	_	NumType=Card	33	flat	_	_
+35	reais	real	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = A empresa, que foi um dos alvos da Operação Carne Fraca, da PF, "gratificou" Sergio durante as eleições de 2014.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	um	um	NUM	_	Gender=Masc|NumType=Card	2	acl:relcl	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	alvos	alvo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Operação	Operação	PROPN	_	_	9	nmod	_	_
+13	Carne	Carne	PROPN	_	_	12	flat:name	_	_
+14	Fraca	Fraca	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	PF	PF	PROPN	_	_	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	gratificou	gratificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	Sergio	Sergio	PROPN	_	_	21	obj	_	_
+24	durante	durante	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	2014	2014	NUM	_	NumType=Card	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0009
+# text = O mais interessante vem agora...
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+2	mais	mais	ADV	_	_	3	advmod	_	_
+3	interessante	interessante	ADJ	_	Number=Sing	1	amod	_	_
+4	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	agora	agora	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	...	...	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = A atual senadora e ex-ministra da Agricultura Kátia Abreu (PMDB-TO) relatou que o nobre deputado citado acima fez questão de indicar Daniel Gonçalves Filho para o cargo de superintendente do Ministério da Agricultura.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	atual	atual	ADJ	_	Number=Sing	3	amod	_	_
+3	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	ex-ministra	ex-ministra	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Agricultura	Agricultura	PROPN	_	_	5	nmod	_	_
+9	Kátia	Kátia	PROPN	_	_	3	nmod	_	_
+10	Abreu	Abreu	PROPN	_	_	9	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	PMDB-TO	PMDB-TO	PROPN	_	_	3	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	que	que	SCONJ	_	_	21	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	nobre	nobre	ADJ	_	Number=Sing	18	amod	_	_
+18	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+20	acima	acima	ADV	_	_	19	advmod	_	_
+21	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+22	questão	questão	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+23	de	de	ADP	_	_	24	mark	_	_
+24	indicar	indicar	VERB	_	VerbForm=Inf	22	acl	_	_
+25	Daniel	Daniel	PROPN	_	_	24	obj	_	_
+26	Gonçalves	Gonçalves	PROPN	_	_	25	flat:name	_	_
+27	Filho	Filho	PROPN	_	_	25	flat:name	_	_
+28	para	para	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	superintendente	superintendente	NOUN	_	Number=Sing	30	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Ministério	Ministério	PROPN	_	_	32	nmod	_	_
+36-37	da	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Agricultura	Agricultura	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0013
+# text = Em 2015, Kátia foi contra a indicação do funcionário, que acabou tomando posse por pressão do deputado e também da bancada paranaense no Congresso.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2015	2015	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Kátia	Kátia	PROPN	_	_	5	nsubj	_	_
+5	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	contra	contra	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+15	tomando	tomar	VERB	_	VerbForm=Ger	14	xcomp	_	_
+16	posse	posse	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	_	_	26	cc	_	_
+23	também	também	ADV	_	_	26	advmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+27	paranaense	paranaense	ADJ	_	Number=Sing	26	amod	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Congresso	Congresso	PROPN	_	_	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = Daniel foi preso no último dia 17 acusado de ser o "chefe de uma organização criminosa" no esquema de propinas para liberação de fiscalizações em frigoríficos no Paraná.
+1	Daniel	Daniel	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	último	último	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	dia	dia	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8	17	17	NUM	_	NumType=Card	7	nmod	_	_
+9	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
+10	de	de	ADP	_	_	14	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	14	cop	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	organização	organização	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	14	punct	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+25	para	para	ADP	_	_	26	case	_	_
+26	liberação	liberação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	fiscalizações	fiscalização	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	frigoríficos	frigorífico	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Paraná	Paraná	PROPN	_	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Eita mundo pequeno!
+1	Eita	eita	DET	_	Mood=Imp|Number=Sing|Person=2|PronType=Art	2	det	_	_
+2	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	pequeno	pequeno	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	_
+

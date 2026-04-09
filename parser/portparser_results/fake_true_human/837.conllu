@@ -1,0 +1,215 @@
+# sent_id = S0001
+# text = doria assinou acordo para produção de vacina contra covid-19 em agosto de 219 dória assinou um contrato de desenvolvimento da vacina para covid, com a sinovac, da china e o instituto butantã.
+1	doria	doria	PROPN	_	_	2	nsubj	_	_
+2	assinou	assinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	produção	produção	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	contra	contra	ADP	_	_	9	case	_	_
+9	covid-19	covid-19	NUM	_	NumType=Card	7	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	219	219	NUM	_	NumType=Card	14	nummod	_	_
+14	dória	dória	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	assinou	assinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	root	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	para	para	ADP	_	_	24	case	_	_
+24	covid	covid	NOUN	_	Foreign=Yes	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	com	com	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sinovac	sinovac	X	_	Foreign=Yes	17	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	china	china	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+33	e	e	CCONJ	_	_	35	cc	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	instituto	instituto	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
+36	butantã	butantã	X	_	Foreign=Yes	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = a vacina tem o nome de coronavac.
+1	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nome	nome	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	coronavac	coronavac	NOUN	_	Foreign=Yes	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = o contrato foi assinado em agosto de 219. eu não entendi.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	assinado	assinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	219	219	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	12	punct	_	_
+10	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	entendi	entender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = agosto do ano passado?
+1	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ano	ano	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	passado	passado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = como?
+1	como	como	ADV	_	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = coronavac?
+1	coronavac	coronavac	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = na china, ano passado?
+1-2	na	_	_	_	_	_	_	_	_
+1	em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	china	china	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	ano	ano	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+6	passado	passado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	5	amod	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = como?, dória é um tremendo pilantra.
+1	como	como	ADV	_	_	8	advmod	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	dória	dória	PROPN	_	_	8	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	tremendo	tremendo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	pilantra	pilantra	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = o sujeitinho assinou contrato ano passado?
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sujeitinho	sujeitinho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	assinou	assinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	ano	ano	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	passado	passado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	5	amod	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = como assim?
+1	como	como	ADV	_	_	0	root	_	_
+2	assim	assim	ADV	_	_	1	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = por isso a cloroquina foi tão rejeitada???
+1	por	por	ADP	_	_	2	case	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cloroquina	cloroquina	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+6	tão	tão	ADV	_	_	7	advmod	_	_
+7	rejeitada	rejeitar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = aliás, bastante conveniente o anúncio da vacina chinadória: no mínimo, está querendo se blindar das investigações e do impeachment.
+1	aliás	aliás	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	bastante	bastante	ADV	_	_	4	advmod	_	_
+4	conveniente	conveniente	ADJ	_	Number=Sing	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	anúncio	anúncio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	chinadória	chinadório	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	17	punct	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mínimo	mínimo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	querendo	querer	VERB	_	VerbForm=Ger	4	parataxis	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	blindar	blindar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20-21	das	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	_
+23	e	e	CCONJ	_	_	26	cc	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0025
+# text = , atenção… urgente… vejam isso dória disse que assinou convênio para essa vacina em agosto de 219?
+1	,	,	PUNCT	_	_	4	punct	_	_
+2	atenção…	atenção…	PUNCT	_	_	4	punct	_	_
+3	urgente…	urgente…	PUNCT	_	_	4	punct	_	_
+4	vejam	ver	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+6	dória	dório	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	que	que	SCONJ	_	_	9	mark	_	_
+9	assinou	assinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+10	convênio	convênio	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	219	219	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = escritório são paulo na china e pra vender o estado para os chineses.
+1	escritório	escritório	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	são	são	NOUN	_	_	1	nmod	_	_
+3	paulo	paulo	ADJ	_	_	2	flat:name	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	china	china	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	pra	para	ADP	_	_	9	mark	_	_
+9	vender	vender	VERB	_	VerbForm=Inf	1	conj	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	estado	estado	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	chineses	chinÃªs	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+

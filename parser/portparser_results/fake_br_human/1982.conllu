@@ -1,0 +1,131 @@
+# sent_id = S0001
+# text = Processou a Mônica Iozzi por falar a verdade?
+1	Processou	processar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Mônica	Mônica	PROPN	_	_	1	obj	_	_
+4	Iozzi	Iozzi	PROPN	_	_	3	flat:name	_	_
+5	por	por	ADP	_	_	6	mark	_	_
+6	falar	falar	VERB	_	VerbForm=Inf	1	advcl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Faço minhas as palavras dela!
+1	Faço	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	minhas	meu	PRON	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	1	obj	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+5-6	dela	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+7	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Vai me processar também?.
+1	Vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	processar	processar	VERB	_	VerbForm=Inf	0	root	_	_
+4	também	também	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Ricardo Boechat deu sua opinião sobre o recente caso envolvendo Monica Iozzi e o ministro do STF, Gilmar Mendes.
+1	Ricardo	Ricardo	PROPN	_	_	3	nsubj	_	_
+2	Boechat	Boechat	PROPN	_	_	1	flat:name	_	_
+3	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	sobre	sobre	ADP	_	_	9	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	recente	recente	ADJ	_	Number=Sing	9	amod	_	_
+9	caso	caso	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	envolvendo	envolver	VERB	_	VerbForm=Ger	9	acl	_	_
+11	Monica	Monica	PROPN	_	_	10	obj	_	_
+12	Iozzi	Iozzi	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	STF	STF	PROPN	_	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Gilmar	Gilmar	PROPN	_	_	15	appos	_	_
+21	Mendes	Mendes	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = "Quero aqui manifestar minha solidariedade à jornalista Monica Iozzi e faço minhas as palavras dela", disse "Isso é uma piada, uma brincadeira [...] um ministro da mais alta corte do país se exponha ao ridículo de processar uma jornalista por um delito de opinião" continuou.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	59	ccomp:speech	_	_
+3	aqui	aqui	ADV	_	_	2	advmod	_	_
+4	manifestar	manifestar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	solidariedade	solidariedade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	jornalista	jornalista	NOUN	_	Number=Sing	6	nmod	_	_
+10	Monica	Monica	PROPN	_	_	9	nmod	_	_
+11	Iozzi	Iozzi	PROPN	_	_	10	flat:name	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	faço	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	conj	_	_
+14	minhas	meu	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+17-18	dela	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	2	punct	_	_
+21	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+23	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	26	nsubj	_	_
+24	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	piada	piada	NOUN	_	Gender=Fem|Number=Sing	21	ccomp:speech	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	brincadeira	brincadeira	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+30	[	[	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	26	parataxis	_	SpaceAfter=No
+32	..	..	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	]	]	PUNCT	_	_	31	punct	_	_
+34	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	45	nsubj	_	_
+36-37	da	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	40	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+38	mais	mais	ADV	_	_	39	advmod	_	_
+39	alta	alto	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
+40	corte	corte	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	país	país	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+44	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	45	expl	_	_
+45	exponha	expor	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+46-47	ao	_	_	_	_	_	_	_	_
+46	a	a	ADP	_	_	48	case	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	ridículo	ridículo	NOUN	_	Gender=Masc|Number=Sing	45	obl	_	_
+49	de	de	ADP	_	_	50	mark	_	_
+50	processar	processar	VERB	_	VerbForm=Inf	48	acl	_	_
+51	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	jornalista	jornalista	NOUN	_	Number=Sing	50	obj	_	_
+53	por	por	ADP	_	_	55	case	_	_
+54	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	delito	delito	NOUN	_	Gender=Masc|Number=Sing	50	obl	_	_
+56	de	de	ADP	_	_	57	case	_	_
+57	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	SpaceAfter=No
+58	"	"	PUNCT	_	_	2	punct	_	_
+59	continuou	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	root	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0010
+# text = confira:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

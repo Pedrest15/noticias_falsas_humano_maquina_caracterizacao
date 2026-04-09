@@ -1,0 +1,202 @@
+# sent_id = S0001
+# text = Advogado de Lula desrespeita Sérgio Moro durante audiência e é repreendido: "Respeite o juízo!".
+1	Advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Lula	Lula	PROPN	_	_	1	nmod	_	_
+4	desrespeita	desrespeitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Sérgio	Sérgio	PROPN	_	_	4	obj	_	_
+6	Moro	Moro	PROPN	_	_	5	flat:name	_	_
+7	durante	durante	ADP	_	_	8	case	_	_
+8	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	repreendido	repreender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Respeite	respeitar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	11	ccomp:speech	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	juízo	juízo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	14	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Sérgio Moro fazia uma pergunta para José Sérgio Gabrielli (ex-chefão da Petrobras) em um processo que Lula é acusado de ter "ganhado" o apartamento do Guarujá, o famoso Triplex... quando um dos advogados do ex-presidente interrompeu o juiz e o acusou de "induzir" a resposta da testemunha.
+1	Sérgio	Sérgio	PROPN	_	_	3	nsubj	_	_
+2	Moro	Moro	PROPN	_	_	1	flat:name	_	_
+3	fazia	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pergunta	pergunta	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	José	José	PROPN	_	_	5	nmod	_	_
+8	Sérgio	Sérgio	PROPN	_	_	7	flat:name	_	_
+9	Gabrielli	Gabrielli	PROPN	_	_	7	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	ex-chefão	ex-chefão	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Petrobras	Petrobras	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	11	punct	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	processo	processo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+19	que	que	PRON	_	PronType=Rel	22	obl	_	_
+20	Lula	Lula	PROPN	_	_	22	nsubj:pass	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+23	de	de	ADP	_	_	26	mark	_	_
+24	ter	ter	AUX	_	VerbForm=Inf	26	aux	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	ganhado	ganhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	xcomp	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Guarujá	Guarujá	PROPN	_	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	36	punct	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+36	Triplex	Triplex	PROPN	_	_	7	appos	_	SpaceAfter=No
+37	...	...	PUNCT	_	_	36	punct	_	_
+38	quando	quando	SCONJ	_	_	46	mark	_	_
+39	um	um	NUM	_	Gender=Masc|NumType=Card	46	nsubj	_	_
+40-41	dos	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	_
+43-44	do	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	ex-presidente	ex-presidente	NOUN	_	Number=Sing	42	nmod	_	_
+46	interrompeu	interromper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	_
+49	e	e	CCONJ	_	_	51	cc	_	_
+50	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	obj	_	_
+51	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	conj	_	_
+52	de	de	ADP	_	_	54	mark	_	_
+53	"	"	PUNCT	_	_	54	punct	_	SpaceAfter=No
+54	induzir	induzir	VERB	_	VerbForm=Inf	51	xcomp	_	SpaceAfter=No
+55	"	"	PUNCT	_	_	54	punct	_	_
+56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	54	obj	_	_
+58-59	da	_	_	_	_	_	_	_	_
+58	de	de	ADP	_	_	60	case	_	_
+59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	testemunha	testemunha	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O magistrado disse: Estou fazendo as perguntas, doutor [...] ouvi pacientemente a defesa e o Ministério Público.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	magistrado	magistrado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	6	punct	_	_
+5	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fazendo	fazer	VERB	_	VerbForm=Ger	3	ccomp:speech	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	perguntas	pergunta	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	doutor	doutor	NOUN	_	Gender=Masc|Number=Sing	15	parataxis	_	_
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	parataxis	_	SpaceAfter=No
+13	..	..	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	12	punct	_	_
+15	ouvi	ouvir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+16	pacientemente	pacientemente	ADV	_	_	15	advmod	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Ministério	Ministério	PROPN	_	_	18	conj	_	_
+22	Público	Público	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Agora faço minhas perguntas.
+1	Agora	agora	ADV	_	_	2	advmod	_	_
+2	faço	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	minhas	meu	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	perguntas	pergunta	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Do outro lado da mesa, outro advogado de Lula tentou atacar: "Suas perguntas são de um inquisidor, não de um juiz".
+1-2	Do	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	4	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	lado	lado	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mesa	mesa	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Lula	Lula	PROPN	_	_	10	nmod	_	_
+13	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	atacar	atacar	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	22	punct	_	_
+16	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+17	Suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	perguntas	pergunta	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
+19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	inquisidor	inquisidor	NOUN	_	Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	não	não	ADV	_	_	27	advmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = Moro respondeu: "Doutor, doutor, respeite o juízo".
+1	Moro	Moro	PROPN	_	_	2	nsubj	_	_
+2	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Doutor	doutor	NOUN	_	Gender=Masc|Number=Sing	2	ccomp:speech	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	doutor	doutor	NOUN	_	Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	respeite	respeitar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	ccomp:speech	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	juízo	juízo	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Qualquer hora dessas Moro vai dar voz de prisão para esses advogados!
+1	Qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	2	det	_	_
+2	hora	hora	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	dessas	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	Moro	Moro	PROPN	_	_	2	nmod	_	_
+6	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dar	dar	VERB	_	VerbForm=Inf	0	root	_	_
+8	voz	voz	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = informações do Antagonista.
+1	informações	informação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Antagonista	Antagonista	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+

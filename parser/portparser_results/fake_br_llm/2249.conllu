@@ -1,0 +1,474 @@
+# sent_id = S0001
+# text = Mulher Escapa de Relacionamento Abusivo com Ajuda de Estranhos: "Ele Tentou Me Matar"!
+1	Mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Escapa	Escapa	PROPN	_	_	1	nmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Relacionamento	Relacionamento	PROPN	_	_	2	flat:name	_	_
+5	Abusivo	Abusivo	PROPN	_	_	2	flat:name	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	Ajuda	Ajuda	PROPN	_	_	2	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Estranhos	Estranhos	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	13	punct	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	Tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp:speech	_	_
+14	Me	Me	PROPN	_	_	13	flat:name	_	_
+15	Matar	Matar	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Uma história chocante está mobilizando a cidade: Lúcia*, uma mulher de 38 anos, revelou ter sobrevivido a um relacionamento abusivo que quase custou sua vida e a de sua filha.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	história	história	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	chocante	chocante	ADJ	_	Number=Sing	2	amod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	mobilizando	mobilizar	VERB	_	VerbForm=Ger	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	18	punct	_	_
+9	Lúcia	Lúcia	PROPN	_	_	18	nsubj	_	SpaceAfter=No
+10	*	*	PUNCT	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	38	38	NUM	_	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	_
+18	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+19	ter	ter	AUX	_	VerbForm=Inf	20	aux	_	_
+20	sobrevivido	sobreviver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	xcomp	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	relacionamento	relacionamento	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	abusivo	abusivo	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+26	quase	quase	ADV	_	_	27	advmod	_	_
+27	custou	custar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+28	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	vida	vida	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	29	conj	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	_
+34	filha	filho	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Em uma narrativa arrepiante, Lúcia detalha como o companheiro, com quem engravidou, transformou-se de um amante carinhoso em um agressor violento.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	narrativa	narrativa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+4	arrepiante	arrepiante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	Lúcia	Lúcia	PROPN	_	_	7	nsubj	_	_
+7	detalha	detalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	como	como	ADV	_	_	16	advmod	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	companheiro	companheiro	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	quem	quem	PRON	_	PronType=Rel	14	obl	_	_
+14	engravidou	engravidar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16-17	transformou-se	_	_	_	_	_	_	_	_
+16	transformou	transformar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+17	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	amante	amante	NOUN	_	Number=Sing	16	obl	_	_
+21	carinhoso	carinhoso	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	agressor	agressor	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+25	violento	violento	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = "Eu não sentia medo no início, mas quando minha barriga começou a crescer, ele também cresceu em crueldade", relata Lúcia.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	sentia	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	25	ccomp:speech	_	_
+5	medo	medo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	início	início	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	20	punct	_	_
+10	mas	mas	CCONJ	_	_	20	cc	_	_
+11	quando	quando	SCONJ	_	_	14	mark	_	_
+12	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	barriga	barriga	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	_	_
+15	a	a	ADP	_	_	16	mark	_	_
+16	crescer	crescer	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	também	também	ADV	_	_	20	advmod	_	_
+20	cresceu	crescer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	crueldade	crueldade	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	4	punct	_	_
+25	relata	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	Lúcia	Lúcia	PROPN	_	_	25	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0009
+# text = Ele me controlava, gritava e, em uma noite terrível, tentou me forçar a tomar remédios perigosos.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	controlava	controlar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	gritava	gritar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+6	e	e	CCONJ	_	_	13	cc	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	noite	noite	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+11	terrível	terrível	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	forçar	forçar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	a	a	ADP	_	_	17	mark	_	_
+17	tomar	tomar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	remédios	remédio	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+19	perigosos	perigoso	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Disse que eu era louca e que minha filha não deveria ser como eu.
+1	Disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	5	mark	_	_
+3	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	louca	louco	ADJ	_	Gender=Fem|Number=Sing	1	ccomp	_	_
+6	e	e	CCONJ	_	_	11	cc	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	filha	filho	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	5	conj	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	14	cop	_	_
+13	como	como	ADP	_	_	14	case	_	_
+14	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = A situação atingiu seu ápice em uma madrugada fria, quando, após uma festa, o parceiro bêbado a expulsou do carro e a agrediu brutalmente em uma rua deserta.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	atingiu	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	ápice	ápice	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+9	fria	frio	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	21	punct	_	_
+11	quando	quando	SCONJ	_	_	21	mark	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	após	após	ADP	_	_	15	case	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	festa	festa	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	parceiro	parceiro	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	bêbado	bêbado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	18	amod	_	_
+20	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	expulsou	expulsar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	carro	carro	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	agrediu	agredir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+28	brutalmente	brutalmente	ADV	_	_	27	advmod	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	rua	rua	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+32	deserta	deserto	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Ele me chamou de vagabunda e me bateu.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	vagabunda	vagabundo	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	bateu	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Quando voltamos para casa, a violência só piorou.
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	voltamos	voltar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	casa	casa	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	violência	violência	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	só	só	ADV	_	_	9	advmod	_	_
+9	piorou	piorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0019
+# text = Acordei no hospital, com hematomas por todo o corpo, mas, milagrosamente, minha filha estava viva.
+1	Acordei	acordar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	hematomas	hematoma	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+8	por	por	ADP	_	_	11	case	_	_
+9	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	20	punct	_	_
+13	mas	mas	CCONJ	_	_	20	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	milagrosamente	milagrosamente	ADV	_	_	20	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
+18	filha	filho	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+19	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+20	viva	vivo	ADJ	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = A esperança parecia ter retornado quando sua filha nasceu saudável, e o agressor, com um sorriso, deu a entender que mudaria.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	esperança	esperança	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	parecia	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ter	ter	AUX	_	VerbForm=Inf	5	aux	_	_
+5	retornado	retornar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	xcomp	_	_
+6	quando	quando	SCONJ	_	_	9	mark	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	filha	filho	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	nasceu	nascer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+10	saudável	saudável	ADJ	_	Number=Sing	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	20	punct	_	_
+12	e	e	CCONJ	_	_	20	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	agressor	agressor	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sorriso	sorriso	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+21	a	a	ADP	_	_	22	mark	_	_
+22	entender	entender	VERB	_	VerbForm=Inf	20	xcomp	_	_
+23	que	que	SCONJ	_	_	24	mark	_	_
+24	mudaria	mudar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	22	ccomp	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Contudo, apenas dez dias depois, a violência recomeçou, desta vez com a cumplicidade da sogra.
+1	Contudo	contudo	CCONJ	_	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	apenas	apenas	ADV	_	_	4	advmod	_	_
+4	dez	dez	NUM	_	NumType=Card	5	nummod	_	_
+5	dias	dia	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+6	depois	depois	ADV	_	_	10	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	violência	violência	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	recomeçou	recomeçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12-13	desta	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	vez	vez	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cumplicidade	cumplicidade	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sogra	sogro	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0025
+# text = Indignada com a decisão judicial que permitia visitas dentro de sua própria casa, Lúcia tomou uma atitude extrema.
+1	Indignada	indignado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	16	advcl	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5	judicial	judicial	ADJ	_	Number=Sing	4	amod	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	permitia	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	visitas	visita	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	dentro	dentro	ADV	_	_	7	advmod	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	casa	casa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	1	punct	_	_
+15	Lúcia	Lúcia	PROPN	_	_	16	nsubj	_	_
+16	tomou	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	extrema	extremo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0027
+# text = Fugi para outra cidade, 500 km distante, para salvar minha filha e a mim mesma.
+1	Fugi	fugir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	para	para	ADP	_	_	4	case	_	_
+3	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	500	500	NUM	_	NumType=Card	7	nummod	_	_
+7	km	quilômetro	NOUN	_	Abbr=Yes|Gender=Masc	4	appos	_	_
+8	distante	distante	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	salvar	salvar	VERB	_	VerbForm=Inf	1	advcl	_	_
+12	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	filha	filho	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	conj	_	_
+17	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = Deixei tudo para trás: trabalho, casa, sonhos.
+1	Deixei	deixar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	tudo	tudo	PRON	_	PronType=Ind	1	obj	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	trás	trás	ADV	_	_	1	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	6	punct	_	_
+6	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	casa	casa	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	sonhos	sonho	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0031
+# text = As pessoas dizem que estou desobedecendo a uma ordem judicial, mas estou apenas tentando sobreviver, desabafa Lúcia, que agora busca apoio legal e emocional.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	desobedecendo	desobedecer	VERB	_	VerbForm=Ger	3	ccomp	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	judicial	judicial	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	mas	mas	CCONJ	_	_	15	cc	_	_
+13	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	apenas	apenas	ADV	_	_	15	advmod	_	_
+15	tentando	tentar	VERB	_	VerbForm=Ger	3	conj	_	_
+16	sobreviver	sobreviver	VERB	_	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	3	punct	_	_
+18	desabafa	desabafar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	Lúcia	Lúcia	PROPN	_	_	18	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+22	agora	agora	ADV	_	_	23	advmod	_	_
+23	busca	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+24	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+25	legal	legal	ADJ	_	Number=Sing	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	emocional	emocional	ADJ	_	Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0033
+# text = A coragem de Lúcia em compartilhar sua história está inspirando outras mulheres a falar sobre suas experiências.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coragem	coragem	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Lúcia	Lúcia	PROPN	_	_	2	nmod	_	_
+5	em	em	ADP	_	_	6	mark	_	_
+6	compartilhar	compartilhar	VERB	_	VerbForm=Inf	2	acl	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	história	história	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	inspirando	inspirar	VERB	_	VerbForm=Ger	0	root	_	_
+11	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	a	a	ADP	_	_	14	mark	_	_
+14	falar	falar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+15	sobre	sobre	ADP	_	_	17	case	_	_
+16	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	experiências	experiência	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0035
+# text = Colunistas famosas do Estadão estão cedendo seus espaços para dar voz a essas vítimas.
+1	Colunistas	colunista	NOUN	_	Number=Plur	7	nsubj	_	_
+2	famosas	famoso	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Estadão	Estadão	PROPN	_	_	1	nmod	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cedendo	ceder	VERB	_	VerbForm=Ger	0	root	_	_
+8	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	espaços	espaço	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	dar	dar	VERB	_	VerbForm=Inf	7	advcl	_	_
+12	voz	voz	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0037
+# text = É uma questão de vida ou morte.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questão	questão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	vida	vida	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	ou	ou	CCONJ	_	_	7	cc	_	_
+7	morte	morte	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0039
+# text = Informe-se, apoie e denuncie, conclama Lúcia.
+1-2	Informe-se	_	_	_	_	_	_	_	_
+1	Informe	informar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	8	ccomp:speech	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	apoie	apoiar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	denuncie	denunciar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	conclama	conclamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Lúcia	Lúcia	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0041
+# text = #DeUmaVozPorTodas *O nome foi trocado para preservar a identidade da vítima.
+1	#DeUmaVozPorTodas	#DeUmaVozPorTodas	PROPN	_	_	6	nsubj:pass	_	_
+2	*	*	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	trocado	trocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	preservar	preservar	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	identidade	identidade	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+

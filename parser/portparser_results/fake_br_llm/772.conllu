@@ -1,0 +1,244 @@
+# sent_id = S0001
+# text = Tribunal Regional Federal da 4a Região (TRF-4) surpreende ao aceitar nova prova bombástica contra Lula!
+1	Tribunal	Tribunal	PROPN	_	_	11	nsubj	_	_
+2	Regional	Regional	PROPN	_	_	1	flat:name	_	_
+3	Federal	Federal	PROPN	_	_	1	flat:name	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	4a	4a	ADJ	_	Gender=Fem|NumType=Ord	7	amod	_	_
+7	Região	Região	PROPN	_	_	1	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	TRF-4	TRF-4	PROPN	_	_	1	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	surpreende	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	ExtPos=SCONJ	14	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	_	_
+14	aceitar	aceitar	VERB	_	VerbForm=Inf	11	advcl	_	_
+15	nova	novo	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	prova	prova	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	contra	contra	ADP	_	_	19	case	_	_
+19	Lula	Lula	PROPN	_	_	16	nmod	_	SpaceAfter=No
+20	!	!	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = Documentos secretos do sistema Drousys, que estavam escondidos na Suíça, revelam transações milionárias de propina da Odebrecht diretamente ligadas ao ex-presidente.
+1	Documentos	documento	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+2	secretos	secreto	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	Drousys	Drousys	PROPN	_	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+9	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	escondidos	escondido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl:relcl	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Suíça	Suíça	PROPN	_	_	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	transações	transação	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+17	milionárias	milionário	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	propina	propina	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Odebrecht	Odebrecht	PROPN	_	_	19	nmod	_	_
+23	diretamente	diretamente	ADV	_	_	24	advmod	_	_
+24	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	16	acl	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ex-presidente	ex-presidente	NOUN	_	Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0005
+# text = O juiz Sérgio Moro, aclamado por sua atuação na Operação Lava Jato, teria recebido informações cruciais que indicam que Lula não apenas recebeu imóveis de alto valor em São Bernardo do Campo (SP), mas também que a empreiteira custeou uma luxuosa reforma em sua residência principal, além de financiar campanhas eleitorais do PT com recursos ilícitos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	Sérgio	Sérgio	PROPN	_	_	2	nmod	_	_
+4	Moro	Moro	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	aclamado	aclamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Operação	Operação	PROPN	_	_	9	nmod	_	_
+13	Lava	Lava	PROPN	_	_	12	flat:name	_	_
+14	Jato	Jato	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	6	punct	_	_
+16	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	17	aux	_	_
+17	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+18	informações	informação	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	cruciais	crucial	ADJ	_	Number=Plur	18	amod	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	que	que	SCONJ	_	_	26	mark	_	_
+23	Lula	Lula	PROPN	_	_	26	nsubj	_	_
+24	não	não	ADV	_	_	25	advmod	_	_
+25	apenas	apenas	ADV	_	_	26	advmod	_	_
+26	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+27	imóveis	imóvel	NOUN	_	Number=Plur	26	obj	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	alto	alto	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	valor	valor	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	São	São	PROPN	_	_	26	obl	_	_
+33	Bernardo	Bernardo	PROPN	_	_	32	flat:name	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Campo	Campo	PROPN	_	_	32	flat:name	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	SP	SP	PROPN	_	_	32	parataxis	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	46	punct	_	_
+41	mas	mas	CCONJ	_	_	46	cc	_	_
+42	também	também	ADV	_	_	46	advmod	_	_
+43	que	que	SCONJ	_	_	46	mark	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	empreiteira	empreiteiro	NOUN	_	Gender=Fem|Number=Sing	46	nsubj	_	_
+46	custeou	custear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	conj	_	_
+47	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	luxuosa	luxuoso	ADJ	_	Gender=Fem|Number=Sing	49	amod	_	_
+49	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	_
+50	em	em	ADP	_	_	52	case	_	_
+51	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	52	det	_	_
+52	residência	residência	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
+53	principal	principal	ADJ	_	Number=Sing	52	amod	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	55	punct	_	_
+55	além	além	ADV	_	_	46	advmod	_	_
+56	de	de	ADP	_	_	57	mark	_	_
+57	financiar	financiar	VERB	_	VerbForm=Inf	55	acl	_	_
+58	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	57	obj	_	_
+59	eleitorais	eleitoral	ADJ	_	Number=Plur	58	amod	_	_
+60-61	do	_	_	_	_	_	_	_	_
+60	de	de	ADP	_	_	62	case	_	_
+61	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	PT	PT	PROPN	_	_	58	nmod	_	_
+63	com	com	ADP	_	_	64	case	_	_
+64	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	57	obl	_	_
+65	ilícitos	ilícito	ADJ	_	Gender=Masc|Number=Plur	64	amod	_	SpaceAfter=No
+66	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = Advogados de Lula acusam Moro de manipulação e afirmam que as provas são forjadas.
+1	Advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Lula	Lula	PROPN	_	_	1	nmod	_	_
+4	acusam	acusar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Moro	Moro	PROPN	_	_	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	manipulação	manipulação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	provas	prova	NOUN	_	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	forjadas	forjar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = O G1 tentou contato com a defesa do petista, que promete uma coletiva de imprensa para desmascarar o que chamam de "armação".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	G1	G1	PROPN	_	_	3	nsubj	_	_
+3	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	contato	contato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	petista	petista	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	coletiva	coletiva	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	desmascarar	desmascarar	VERB	_	VerbForm=Inf	13	advcl	_	_
+20	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	obj	_	_
+21	que	que	PRON	_	PronType=Rel	22	obj	_	_
+22	chamam	chamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	armação	armação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Enquanto isso, os desembargadores Gebran Neto, Leandro Paulsen e Nivaldo Brunoni, substituindo Victor Laus em férias, defendem a autenticidade das provas e a necessidade de novas perícias.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	21	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	desembargadores	desembargador	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+6	Gebran	Gebran	PROPN	_	_	5	nmod	_	_
+7	Neto	Neto	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Leandro	Leandro	PROPN	_	_	6	conj	_	_
+10	Paulsen	Paulsen	PROPN	_	_	9	flat:name	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Nivaldo	Nivaldo	PROPN	_	_	6	conj	_	_
+13	Brunoni	Brunoni	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	substituindo	substituir	VERB	_	VerbForm=Ger	5	acl	_	_
+16	Victor	Victor	PROPN	_	_	15	obj	_	_
+17	Laus	Laus	PROPN	_	_	16	flat:name	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	férias	féria	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	15	punct	_	_
+21	defendem	defender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	autenticidade	autenticidade	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	das	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	provas	prova	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	novas	novo	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	_
+32	perícias	perícia	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0013
+# text = Será que novas revelações podem mudar o rumo do julgamento?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+2	que	que	SCONJ	_	_	5	discourse	_	_
+3	novas	novo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+4	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	mudar	mudar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = Fique atento para os próximos desdobramentos!
+1	Fique	ficar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	atento	atento	ADJ	_	Gender=Masc|Number=Sing	1	xcomp	_	_
+3	para	para	ADP	_	_	6	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	desdobramentos	desdobramento	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	1	punct	_	_
+

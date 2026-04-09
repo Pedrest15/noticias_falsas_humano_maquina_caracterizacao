@@ -1,0 +1,558 @@
+# sent_id = S0001
+# text = Exclusivo: Famoso humorista Mauricio Meirelles é preso após show polêmico em Ribeirão Preto.
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	8	dislocated	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	humorista	humorista	NOUN	_	Number=Sing	8	nsubj:pass	_	_
+5	Mauricio	Mauricio	PROPN	_	_	4	nmod	_	_
+6	Meirelles	Meirelles	PROPN	_	_	5	flat:name	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	após	após	ADP	_	_	10	case	_	_
+10	show	show	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11	polêmico	polêmico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	Ribeirão	Ribeirão	PROPN	_	_	10	nmod	_	_
+14	Preto	Preto	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = A apresentação, que prometia abordar temas como depressão e feminismo, terminou com o comediante sendo detido por supostas declarações ofensivas ao vivo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	apresentação	apresentação	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	prometia	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	abordar	abordar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	temas	tema	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	depressão	depressão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	feminismo	feminismo	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	terminou	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	comediante	comediante	NOUN	_	Number=Sing	13	obl	_	_
+17	sendo	ser	AUX	_	VerbForm=Ger	18	aux:pass	_	_
+18	detido	deter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	supostas	suposto	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	21	amod	_	_
+21	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	18	obl:agent	_	_
+22	ofensivas	ofensivo	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+23-24	ao	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vivo	vivo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = A polícia local confirmou a prisão, alegando que as piadas ultrapassaram limites e geraram queixas de diversos espectadores.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	4	nsubj	_	_
+3	local	local	ADJ	_	Number=Sing	2	amod	_	_
+4	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	alegando	alegar	VERB	_	VerbForm=Ger	4	advcl	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	piadas	piada	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+12	ultrapassaram	ultrapassar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+13	limites	limite	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	geraram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+16	queixas	queixa	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	espectadores	espectador	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = O caso reacende o debate sobre liberdade de expressão e censura no humor.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	reacende	reacender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	debate	debate	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	sobre	sobre	ADP	_	_	7	case	_	_
+7	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	censura	censura	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	humor	humor	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Enquanto isso, no Teatro Municipal, a peça "Como ter sexo a vida inteira com a mesma mulher" é cancelada devido a uma controversa envolvendo a atriz Tania Bondezan.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	24	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Teatro	Teatro	PROPN	_	_	24	obl	_	_
+7	Municipal	Municipal	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	peça	peça	NOUN	_	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	Como	como	ADV	_	_	13	advmod	_	_
+13	ter	ter	VERB	_	VerbForm=Inf	10	acl	_	_
+14	sexo	sexo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vida	vida	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	inteira	inteiro	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	com	com	ADP	_	_	21	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	13	punct	_	_
+23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	cancelada	cancelar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+25	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	advcl	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	controversa	controverso	ADJ	_	Gender=Fem|Number=Sing	25	obl	_	_
+29	envolvendo	envolver	VERB	_	VerbForm=Ger	28	acl	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	Tania	Tania	PROPN	_	_	31	nmod	_	_
+33	Bondezan	Bondezan	PROPN	_	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0011
+# text = Fontes afirmam que a artista teria feito comentários inapropriados em entrevistas recentes, levando à decisão de suspender as apresentações.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	artista	artista	NOUN	_	Number=Sing	7	nsubj	_	_
+6	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+7	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+8	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	inapropriados	inapropriado	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	entrevistas	entrevista	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+12	recentes	recente	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	levando	levar	VERB	_	VerbForm=Ger	7	advcl	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	suspender	suspender	VERB	_	VerbForm=Inf	17	acl	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	apresentações	apresentação	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A direção do teatro não deu detalhes adicionais, mas prometeu reembolsar os ingressos já adquiridos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	direção	direção	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	teatro	teatro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	adicionais	adicional	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	mas	mas	CCONJ	_	_	12	cc	_	_
+12	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	reembolsar	reembolsar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	ingressos	ingresso	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	já	já	ADV	_	_	17	advmod	_	_
+17	adquiridos	adquirir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Para os fãs de rock, a banda Don Ramón não decepciona e realiza um show histórico no Milwaukee American Bar.
+1	Para	para	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	fãs	fã	NOUN	_	Number=Plur	12	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	rock	rock	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	banda	banda	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+9	Don	Don	PROPN	_	_	8	nmod	_	_
+10	Ramón	Ramón	PROPN	_	_	9	flat:name	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	decepciona	decepcionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	realiza	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	show	show	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	histórico	histórico	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Milwaukee	Milwaukee	PROPN	_	_	14	obl	_	_
+21	American	American	PROPN	_	_	20	flat:name	_	_
+22	Bar.	Bar.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0017
+# text = O evento, intitulado "Lendas e Mitos do Rock", foi marcado por uma aparição surpresa do lendário rockstar Slash, que subiu ao palco para tocar clássicos do Guns N Roses, deixando o público em êxtase.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	evento	evento	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	intitulado	intitular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Lendas	Lendas	PROPN	_	_	4	xcomp	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	Mitos	Mitos	PROPN	_	_	6	flat:name	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Rock	Rock	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	marcado	marcar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	aparição	aparição	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	_
+19	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	lendário	lendário	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+23	rockstar	rockstar	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+24	Slash	Slash	PROPN	_	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+27	subiu	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	palco	palco	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+31	para	para	ADP	_	_	32	mark	_	_
+32	tocar	tocar	VERB	_	VerbForm=Inf	27	advcl	_	_
+33	clássicos	clássico	NOUN	_	Gender=Masc|Number=Plur	32	obj	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Guns	Guns	PROPN	_	_	33	nmod	_	_
+37	N	N	PROPN	_	_	36	flat:name	_	_
+38	Roses	Roses	PROPN	_	_	36	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	deixando	deixar	VERB	_	VerbForm=Ger	27	advcl	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	público	público	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
+43	em	em	ADP	_	_	44	case	_	_
+44	êxtase	êxtase	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0019
+# text = No Sesc Ribeirão Preto, o espetáculo infantil "O Príncipe" é acusado de plágio.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Sesc	Sesc	PROPN	_	_	15	obl	_	_
+4	Ribeirão	Ribeirão	PROPN	_	_	3	flat:name	_	_
+5	Preto	Preto	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	espetáculo	espetáculo	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+9	infantil	infantil	ADJ	_	Number=Sing	8	amod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	O	O	PROPN	_	_	8	nmod	_	_
+12	Príncipe	Príncipe	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	11	punct	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	plágio	plágio	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0021
+# text = Pais e críticos apontam semelhanças excessivas com a obra original "O Pequeno Príncipe", de Antoine de Saint-Exupéry, e alegam falta de originalidade e criatividade na adaptação.
+1	Pais	pai	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	críticos	crítico	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
+4	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	semelhanças	semelhança	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	excessivas	excessivo	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	obra	obra	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	original	original	ADJ	_	Number=Sing	9	amod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	O	O	PROPN	_	_	9	nmod	_	_
+13	Pequeno	Pequeno	PROPN	_	_	12	flat:name	_	_
+14	Príncipe	Príncipe	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Antoine	Antoine	PROPN	_	_	9	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Saint-Exupéry	Saint-Exupéry	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	18	punct	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	alegam	alegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+24	falta	falta	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	originalidade	originalidade	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	criatividade	criatividade	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+29-30	na	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	adaptação	adaptação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = A produção está sob investigação e as apresentações foram temporariamente suspensas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sob	sob	ADP	_	_	5	case	_	_
+5	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	_	_	11	cc	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	apresentações	apresentação	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+10	temporariamente	temporariamente	ADV	_	_	11	advmod	_	_
+11	suspensas	suspender	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = Em um evento surpresa, o Über Parque Sul "Roberto Francoi" recebeu a visita do famoso ator global Murilo Benício, que participou do passeio de trenzinho com seus filhos.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	evento	evento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+4	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	Über	über	ADJ	_	Gender=Masc|NumType=Ord	8	amod	_	_
+8	Parque	Parque	PROPN	_	_	14	nsubj	_	_
+9	Sul	Sul	PROPN	_	_	8	flat:name	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Roberto	Roberto	PROPN	_	_	8	flat:name	_	_
+12	Francoi	Francoi	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	11	punct	_	_
+14	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	visita	visita	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	ator	ator	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21	global	global	ADJ	_	Number=Sing	20	amod	_	_
+22	Murilo	Murilo	PROPN	_	_	20	nmod	_	_
+23	Benício	Benício	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	participou	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	passeio	passeio	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	trenzinho	trenzinho	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32	com	com	ADP	_	_	34	case	_	_
+33	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	det	_	_
+34	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0027
+# text = O ator distribuiu autógrafos e balões, tornando o dia inesquecível para as crianças presentes.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ator	ator	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	distribuiu	distribuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	autógrafos	autógrafo	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	balões	balão	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	tornando	tornar	VERB	_	VerbForm=Ger	3	advcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dia	dia	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	inesquecível	inesquecível	ADJ	_	Number=Sing	8	xcomp	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+15	presentes	presente	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0029
+# text = No Shopping Iguatemi, a cantora Alessandra Freire, que faria um tributo a Marisa Monte, cancelou a apresentação devido a problemas de saúde.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Shopping	Shopping	PROPN	_	_	19	obl	_	_
+4	Iguatemi	Iguatemi	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cantora	cantor	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+8	Alessandra	Alessandra	PROPN	_	_	7	nmod	_	_
+9	Freire	Freire	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	faria	fazer	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	acl:relcl	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tributo	tributo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	Marisa	Marisa	PROPN	_	_	14	nmod	_	_
+17	Monte	Monte	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	12	punct	_	_
+19	cancelou	cancelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	apresentação	apresentação	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	advcl	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0031
+# text = Fãs lamentaram a notícia, mas desejaram uma rápida recuperação à artista.
+1	Fãs	fã	NOUN	_	Number=Plur	2	nsubj	_	_
+2	lamentaram	lamentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	mas	mas	CCONJ	_	_	7	cc	_	_
+7	desejaram	desejar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	rápida	rápido	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	artista	artista	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0033
+# text = A feira "Magazine Desapego" foi um sucesso estrondoso, com a presença de várias celebridades que apoiaram a troca de livros e histórias em quadrinhos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	feira	feira	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Magazine	Magazine	PROPN	_	_	2	nmod	_	_
+5	Desapego	Desapego	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	4	punct	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+10	estrondoso	estrondoso	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	presença	presença	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	celebridades	celebridade	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+18	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+19	apoiaram	apoiar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	troca	troca	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	livros	livro	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	histórias	história	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	quadrinhos	quadrinho	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0035
+# text = Personalidades como Fernanda Lima e Cauã Reymond foram vistas trocando itens e interagindo com os fãs, promovendo o consumo consciente.
+1	Personalidades	personalidade	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+2	como	como	ADP	_	_	3	case	_	_
+3	Fernanda	Fernanda	PROPN	_	_	1	nmod	_	_
+4	Lima	Lima	PROPN	_	_	3	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Cauã	Cauã	PROPN	_	_	3	conj	_	_
+7	Reymond	Reymond	PROPN	_	_	6	flat:name	_	_
+8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	vistas	ver	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	trocando	trocar	VERB	_	VerbForm=Ger	9	advcl	_	_
+11	itens	item	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	interagindo	interagir	VERB	_	VerbForm=Ger	10	conj	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	fãs	fã	NOUN	_	Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	promovendo	promover	VERB	_	VerbForm=Ger	10	advcl	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	consciente	consciente	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0037
+# text = Por fim, a ópera Gianni Schicchi, no Teatro Minaz, foi interrompida por um protesto inesperado.
+1	Por	por	ADP	_	_	2	case	_	_
+2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ópera	ópera	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+6	Gianni	Gianni	PROPN	_	_	5	nmod	_	_
+7	Schicchi	Schicchi	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Teatro	Teatro	PROPN	_	_	5	nmod	_	_
+12	Minaz	Minaz	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	interrompida	interromper	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
+19	inesperado	inesperado	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0039
+# text = Manifestantes invadiram o palco alegando que a obra desrespeita a memória de imigrantes italianos.
+1	Manifestantes	manifestante	NOUN	_	Number=Plur	2	nsubj	_	_
+2	invadiram	invadir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	palco	palco	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	alegando	alegar	VERB	_	VerbForm=Ger	2	advcl	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	obra	obra	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	desrespeita	desrespeitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	memória	memória	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	imigrantes	imigrante	NOUN	_	Number=Plur	11	nmod	_	_
+14	italianos	italiano	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0041
+# text = A direção do teatro tenta negociar com os grupos para que a apresentação seja retomada em uma nova data.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	direção	direção	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	teatro	teatro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	negociar	negociar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11	para	para	ADP	_	ExtPos=SCONJ	16	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	apresentação	apresentação	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+15	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	retomada	retomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nova	novo	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	data	data	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+

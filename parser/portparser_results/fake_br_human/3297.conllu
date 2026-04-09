@@ -1,0 +1,120 @@
+# sent_id = S0001
+# text = Dilma convida "Pablo Escobar" para compor Conselhão do governo.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	convida	convidar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Pablo	Pablo	PROPN	_	_	2	obj	_	_
+5	Escobar	Escobar	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	4	punct	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	compor	compor	VERB	_	VerbForm=Inf	2	advcl	_	_
+9	Conselhão	Conselhão	PROPN	_	_	8	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	governo	governo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O governo acredita que o ator "tem um importante trabalho na sociedade" e pode "contribuir com propostas" para o país.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ator	ator	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	importante	importante	ADJ	_	Number=Sing	11	amod	_	_
+11	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	8	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	contribuir	contribuir	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	com	com	ADP	_	_	21	case	_	_
+21	propostas	proposta	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	para	para	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Dilma decidiu ressucitar o Conselhão, cuja última reunião havia sido no primeiro semestre de 2014, por dica do vice Michel Temer.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ressucitar	ressucitar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Conselhão	Conselhão	PROPN	_	_	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	15	punct	_	_
+7	cuja	cujo	DET	_	Gender=Fem|Number=Sing|PronType=Rel	9	det	_	_
+8	última	último	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+10	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+11	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	15	cop	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	semestre	semestre	NOUN	_	Number=Sing	5	acl:relcl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	2014	2014	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	dica	dica	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	vice	vice	NOUN	_	Number=Sing	20	nmod	_	_
+24	Michel	Michel	PROPN	_	_	23	nmod	_	_
+25	Temer	Temer	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Também foram convidados empresários e personalidades como Abílio Diniz, Luiza Trajano e o neurocientista petista Miguel "exoesqueleto" Nicolelis.
+1	Também	também	ADV	_	_	3	advmod	_	_
+2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	convidados	convidar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+4	empresários	empresário	NOUN	_	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	personalidades	personalidade	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	Abílio	Abílio	PROPN	_	_	6	nmod	_	_
+9	Diniz	Diniz	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	Luiza	Luiza	PROPN	_	_	8	conj	_	_
+12	Trajano	Trajano	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	neurocientista	neurocientista	NOUN	_	Number=Sing	8	conj	_	_
+16	petista	petista	ADJ	_	Number=Sing	15	amod	_	_
+17	Miguel	Miguel	PROPN	_	_	15	nmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	exoesqueleto	exoesqueleto	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	Nicolelis	Nicolelis	PROPN	_	_	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O portal G1 confirmou informa que o ator já teria aceitado o convite.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	portal	portal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	G1	G1	PROPN	_	_	2	nmod	_	_
+4	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	informa	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	xcomp	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ator	ator	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	já	já	ADV	_	_	11	advmod	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	aceitado	aceitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	ccomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	convite	convite	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+

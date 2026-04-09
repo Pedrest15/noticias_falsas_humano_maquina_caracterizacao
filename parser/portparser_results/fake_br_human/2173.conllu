@@ -1,0 +1,170 @@
+# sent_id = S0001
+# text = Em depoimento para Sérgio Moro, Léo Pinheiro destrói Lula e Dilma.
+1	Em	em	ADP	_	_	2	case	_	_
+2	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	Sérgio	Sérgio	PROPN	_	_	2	nmod	_	_
+5	Moro	Moro	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Léo	Léo	PROPN	_	_	9	nsubj	_	_
+8	Pinheiro	Pinheiro	PROPN	_	_	7	flat:name	_	_
+9	destrói	destruir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Lula	Lula	PROPN	_	_	9	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Dilma	Dilma	PROPN	_	_	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = O executivo da OAS conta detalhes de como ele ajudou a interferir na CPI da Petrobras para evitar que os governos petistas de Lula e Dilma fossem prejudicados.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	executivo	executivo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	OAS	OAS	PROPN	_	_	2	nmod	_	_
+6	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	de	de	ADP	_	_	11	mark	_	_
+9	como	como	ADV	_	_	11	advmod	_	_
+10	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	ajudou	ajudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	interferir	interferir	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	CPI	CPI	PROPN	_	_	13	obl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Petrobras	Petrobras	PROPN	_	_	16	nmod	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	evitar	evitar	VERB	_	VerbForm=Inf	13	advcl	_	_
+22	que	que	SCONJ	_	_	31	mark	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	governos	governo	NOUN	_	Gender=Masc|Number=Plur	31	nsubj:pass	_	_
+25	petistas	petista	ADJ	_	Number=Plur	24	amod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Lula	Lula	PROPN	_	_	24	nmod	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	Dilma	Dilma	PROPN	_	_	27	conj	_	_
+30	fossem	fossem	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	prejudicados	prejudicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	ccomp	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = Léo Pinheiro relata que todas as CPIs criadas pelo governo petista já estavam programadas para acabarem em nada.
+1	Léo	Léo	PROPN	_	_	3	nsubj	_	_
+2	Pinheiro	Pinheiro	PROPN	_	_	1	flat:name	_	_
+3	relata	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	15	mark	_	_
+5	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	CPIs	CPIs	PROPN	_	_	15	nsubj	_	_
+8	criadas	criar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	governo	governo	NOUN	_	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	petista	petista	ADJ	_	Number=Sing	11	amod	_	_
+13	já	já	ADV	_	_	15	advmod	_	_
+14	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	programadas	programado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	3	ccomp	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	acabarem	acabar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	15	advcl	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O executivo ainda diz que se não fosse pela Lava-Jato, a Petrobras ainda teria o mesmo rumo [...] ou seja, a roubalheira continuaria a todo vapor.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	executivo	executivo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	16	mark	_	_
+6	se	se	SCONJ	_	_	11	mark	_	_
+7	não	não	ADV	_	_	11	advmod	_	_
+8	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Lava-Jato	Lava-Jato	PROPN	_	_	16	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Petrobras	Petrobras	PROPN	_	_	16	nsubj	_	_
+15	ainda	ainda	ADV	_	_	16	advmod	_	_
+16	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+20	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	..	..	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	21	punct	_	_
+24	ou	ou	CCONJ	_	ExtPos=CCONJ	29	cc	_	_
+25	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	fixed	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	24	punct	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	roubalheira	roubalheira	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
+29	continuaria	continuar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	_
+30	a	a	ADP	_	_	32	case	_	_
+31	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
+32	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Aos 21 minutos e 30 segundos do vídeo, podemos entender (de acordo com o depoimento de Léo) que os políticos criam CPIs em época de eleição simplesmente para arrecadar recursos para campanhas.
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	21	21	NUM	_	NumType=Card	4	nummod	_	_
+4	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	30	30	NUM	_	NumType=Card	7	nummod	_	_
+7	segundos	segundo	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	entender	entender	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	de	de	ADP	_	_	16	case	_	_
+16	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Léo	Léo	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	16	punct	_	_
+23	que	que	SCONJ	_	_	26	mark	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	políticos	político	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
+26	criam	criar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+27	CPIs	CPIs	PROPN	_	_	26	obj	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	época	época	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	simplesmente	simplesmente	ADV	_	_	34	advmod	_	_
+33	para	para	ADP	_	_	34	mark	_	_
+34	arrecadar	arrecadar	VERB	_	VerbForm=Inf	26	advcl	_	_
+35	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	_
+36	para	para	ADP	_	_	37	case	_	_
+37	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = A função principal de uma CPI seria investigar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	função	função	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	principal	principal	ADJ	_	Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	CPI	CPI	PROPN	_	_	2	nmod	_	_
+7	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	cop	_	_
+8	investigar	investigar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+

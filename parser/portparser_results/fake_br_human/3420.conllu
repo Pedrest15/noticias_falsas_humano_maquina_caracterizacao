@@ -1,0 +1,216 @@
+# sent_id = S0001
+# text = Avião presidencial brasileiro ficou retido na Argentina.
+1	Avião	avião	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	presidencial	presidencial	ADJ	_	Number=Sing	1	amod	_	_
+3	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+4	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	retido	retido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	xcomp	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Argentina	Argentina	PROPN	_	_	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Dilma perdeu a posse de Maurício Macri.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	posse	posse	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Maurício	Maurício	PROPN	_	_	4	nmod	_	_
+7	Macri	Macri	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O avião da presidente Dilma Roussef foi obrigado a entrar numa fila de voos comerciais e ficou retido por 20 minutos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	avião	avião	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	_	Number=Sing	2	nmod	_	_
+6	Dilma	Dilma	PROPN	_	_	5	nmod	_	_
+7	Roussef	Roussef	PROPN	_	_	6	flat:name	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	obrigado	obrigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	entrar	entrar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12-13	numa	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fila	fila	NOUN	_	Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	voos	voo	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	comerciais	comercial	ADJ	_	Number=Plur	16	amod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+20	retido	retido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	xcomp	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	20	20	NUM	_	NumType=Card	23	nummod	_	_
+23	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = A presidente brasileira perdeu a posse de Mauricio Macri no Congresso e resolveu se deslocar diretamente para a Casa Rosada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	posse	posse	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Mauricio	Mauricio	PROPN	_	_	6	nmod	_	_
+9	Macri	Macri	PROPN	_	_	8	flat:name	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Congresso	Congresso	PROPN	_	_	6	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	deslocar	deslocar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	diretamente	diretamente	ADV	_	_	16	advmod	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Casa	Casa	PROPN	_	_	16	obl	_	_
+21	Rosada	Rosada	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = O voo de Dilma deveria chegar ao Aeroporto às 11h20m, mas pousou apenas às 11h45m O ministro da Defesa da Argentina, Agustin Rossi, não deixou assinado o decreto de exclusão aérea, que previa prioridade para o pouso de chefes de Estado e de governo convidados para a posse.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	voo	voo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Dilma	Dilma	PROPN	_	_	2	nmod	_	_
+5	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	chegar	chegar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Aeroporto	Aeroporto	PROPN	_	_	6	obl	_	_
+10-11	às	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	11h20m	11h20m	NOUN	_	_	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	mas	mas	CCONJ	_	_	15	cc	_	_
+15	pousou	pousar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	apenas	apenas	ADV	_	_	19	advmod	_	_
+17-18	às	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	11h45m	11h45m	NOUN	_	_	15	obl	_	_
+20	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Defesa	Defesa	PROPN	_	_	21	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Argentina	Argentina	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	Agustin	Agustin	PROPN	_	_	21	appos	_	_
+30	Rossi	Rossi	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	não	não	ADV	_	_	33	advmod	_	_
+33	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+34	assinado	assinado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	33	xcomp	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	exclusão	exclusão	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+39	aérea	aéreo	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	_
+41	que	que	PRON	_	PronType=Rel	42	nsubj	_	_
+42	previa	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	acl:relcl	_	_
+43	prioridade	prioridade	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	_
+44	para	para	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	pouso	pouso	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	chefes	chefe	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	Estado	Estado	PROPN	_	_	48	nmod	_	_
+51	e	e	CCONJ	_	_	53	cc	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	governo	governo	NOUN	_	Gender=Masc|Number=Sing	50	conj	_	_
+54	convidados	convidar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	48	acl	_	_
+55	para	para	ADP	_	_	57	case	_	_
+56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	posse	posse	NOUN	_	Gender=Fem|Number=Sing	54	obl	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Com isso, o avião do governo brasileiro foi obrigado a entrar em uma fila de voos.
+1	Com	com	ADP	_	_	2	case	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	avião	avião	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	governo	governo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	obrigado	obrigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	entrar	entrar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fila	fila	NOUN	_	Number=Sing	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	voos	voo	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = Macri discursou e, ao sair do Congresso, fez uma expressão de preocupação e perguntou a um assessor: "Mas o que houve"?
+1	Macri	Macri	PROPN	_	_	2	nsubj	_	_
+2	discursou	discursar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	_	_	12	cc	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	ExtPos=SCONJ	7	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
+7	sair	sair	VERB	_	VerbForm=Inf	12	advcl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Congresso	Congresso	PROPN	_	_	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	preocupação	preocupação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	perguntou	perguntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	assessor	assessor	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	27	punct	_	_
+23	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+24	Mas	mas	CCONJ	_	_	27	cc	_	_
+25	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	27	obj	_	_
+26	que	que	PRON	_	PronType=Int	25	fixed	_	_
+27	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	ccomp:speech	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = As informações são de JANAÍNA FIGUEIREDO do Globo.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	JANAÍNA	JANAÍNA	PROPN	_	_	0	root	_	_
+6	FIGUEIREDO	FIGUEIREDO	PROPN	_	_	5	flat:name	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Globo	Globo	PROPN	_	_	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+

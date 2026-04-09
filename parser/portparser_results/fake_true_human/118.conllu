@@ -1,0 +1,117 @@
+# sent_id = S0001
+# text = picanha card do programa minha picanha, minha vida foi lançado pelo governo lula se não chegar nessa semana o picanha card, chega na próxima!
+1	picanha	picanha	X	_	Foreign=Yes	12	nsubj:pass	_	_
+2	card	card	X	_	Foreign=Yes	1	flat:foreign	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	programa	programa	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	_
+7	picanha	picanha	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
+10	vida	vida	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13-14	pelo	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	lula	lula	ADJ	_	Number=Sing	15	nmod	_	_
+17	se	se	SCONJ	_	_	19	mark	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	chegar	chegar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+20-21	nessa	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	semana	semana	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	picanha	picanha	X	_	Foreign=Yes	19	nsubj	_	_
+25	card	card	X	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	!	!	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = desculpa ter falado mal o meu chegou hoje!
+1	desculpa	desculpar	VERB	_	Gender=Fem|Number=Sing	0	root	_	_
+2	ter	ter	AUX	_	VerbForm=Inf	3	aux	_	_
+3	falado	falar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	xcomp	_	_
+4	mal	mal	ADV	_	_	3	advmod	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meu	meu	PRON	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nsubj	_	_
+7	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	root	_	_
+8	hoje	hoje	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = , pessoal, para quem tiver interesse.
+1	,	,	PUNCT	_	_	2	punct	_	_
+2	pessoal	pessoal	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	quem	quem	PRON	_	PronType=Ind	2	obl	_	_
+6	tiver	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	acl:relcl	_	_
+7	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = já está disponível o cadastro do picanha card no app caixa tem.
+1	já	já	ADV	_	_	3	advmod	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	disponível	disponível	ADJ	_	Number=Sing	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cadastro	cadastro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	picanha	picanha	X	_	Foreign=Yes	5	nmod	_	_
+9	card	card	X	_	Foreign=Yes	8	flat:foreign	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	app	app	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+13	caixa	caixa	NOUN	_	Number=Sing	12	nmod	_	_
+14	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = , pra vcs q votaram no lula já esta disponível na caixa econmica e só ir lá e adquirir o seu picanha card kkkkkk faz o l lllllll.
+1	,	,	PUNCT	_	_	11	punct	_	_
+2	pra	para	ADP	_	_	3	case	_	_
+3	vcs	vc	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	obl	_	_
+4	q	q	ADJ	_	Gender=Masc|NumType=Ord	5	nsubj	_	_
+5	votaram	votar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lula	lula	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	já	já	ADV	_	_	11	advmod	_	_
+10	esta	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	disponível	disponível	ADJ	_	Number=Sing	0	root	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	caixa	caixa	NOUN	_	Number=Sing	11	obl	_	_
+15	econmica	econmico	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	só	só	ADV	_	_	18	advmod	_	_
+18	ir	ir	VERB	_	VerbForm=Inf	11	conj	_	_
+19	lá	lá	ADV	_	_	18	advmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	adquirir	adquirir	VERB	_	VerbForm=Inf	18	conj	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	picanha	picanha	X	_	Foreign=Yes	21	obj	_	_
+25	card	card	X	_	Foreign=Yes	24	flat:foreign	_	_
+26	kkkkkk	kkkkkk	PUNCT	_	_	27	punct	_	_
+27	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	l	litro	NOUN	_	Abbr=Yes|Gender=Masc	27	obj	_	_
+30	lllllll	lllllll	X	_	Foreign=Yes	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	11	punct	_	_
+

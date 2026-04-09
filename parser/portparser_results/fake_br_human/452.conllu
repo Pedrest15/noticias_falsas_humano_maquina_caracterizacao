@@ -1,0 +1,144 @@
+# sent_id = S0001
+# text = Lula não quer ser chamado de excelência: "Vossa excelência é a PQP".
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	14	punct	_	_
+9	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+10	Vossa	vosso	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	det	_	_
+11	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	PQP	PQP	PROPN	_	_	3	parataxis	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Na manhã de hoje, o ex-presidente Lula participou de uma reunião com a cúpula do Partido dos Trabalhadores.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	hoje	hoje	ADV	_	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ex-presidente	ex-presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+9	Lula	Lula	PROPN	_	_	8	nmod	_	_
+10	participou	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cúpula	cúpula	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Partido	Partido	PROPN	_	_	16	nmod	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	Trabalhadores	Trabalhadores	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Ele declarou que o PT é infinitamente melhor do que a "turma que governa" o país: "É só olhar na cara deles..." disse.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	root	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PT	PT	PROPN	_	_	8	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	infinitamente	infinitamente	ADV	_	_	8	advmod	_	_
+8	melhor	melhor	ADJ	_	Number=Sing	2	ccomp	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	ExtPos=SCONJ	14	mark	_	_
+10	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	fixed	_	_
+11	que	que	PRON	_	PronType=Rel	9	fixed	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	turma	turma	NOUN	_	Gender=Fem|Number=Sing	8	advcl	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	governa	governar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	país	país	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	24	punct	_	_
+21	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+22	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	só	só	ADV	_	_	24	advmod	_	_
+24	olhar	olhar	VERB	_	VerbForm=Inf	2	parataxis	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cara	cara	NOUN	_	Number=Sing	24	obl	_	_
+28-29	deles	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	nmod	_	_
+30	...	...	PUNCT	_	_	24	punct	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	24	punct	_	_
+32	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = S0007
+# text = Para não perder o costume, Lula convocou os vermelhinhos para o ataque: Temos que usar a tribuna todo dia.
+1	Para	para	ADP	_	_	3	mark	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	perder	perder	VERB	_	VerbForm=Inf	8	advcl	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	costume	costume	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+8	convocou	convocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	vermelhinhos	vermelhinho	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	15	punct	_	_
+15	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+16	que	que	ADP	_	_	17	mark	_	_
+17	usar	usar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tribuna	tribuna	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	dia	dia	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Se alguém nos chamar de ladrão, vamos responder na hora e se nos chamar de vossa excelência, digam que vossa excelência é a PQP.
+1	Se	se	SCONJ	_	_	4	mark	_	_
+2	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+4	chamar	chamar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	9	advcl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	responder	responder	VERB	_	VerbForm=Inf	0	root	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	hora	hora	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	e	e	CCONJ	_	_	21	cc	_	_
+14	se	se	SCONJ	_	_	16	mark	_	_
+15	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+16	chamar	chamar	VERB	_	VerbForm=Inf	21	advcl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	vossa	vosso	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	19	det	_	_
+19	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	digam	dizer	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	9	conj	_	_
+22	que	que	SCONJ	_	_	27	mark	_	_
+23	vossa	vosso	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	24	det	_	_
+24	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	PQP	PQP	PROPN	_	_	21	ccomp	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	9	punct	_	_
+

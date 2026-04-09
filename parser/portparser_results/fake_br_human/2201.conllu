@@ -1,0 +1,113 @@
+# sent_id = S0001
+# text = Que nojo!
+1	Que	que	DET	_	PronType=Ind	2	det	_	_
+2	nojo	nojo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Assista esse vídeo e saiba como são feitas as famosas "jujubinhas".
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	saiba	saber	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	como	como	ADV	_	_	8	advmod	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+10	famosas	famoso	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	jujubinhas	jujubinha	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Um vídeo produzido por uma TV belga está viralizando no mundo inteiro.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	produzido	produzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	3	obl:agent	_	_
+7	belga	belga	ADJ	_	Number=Sing	6	amod	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	viralizando	viralizar	VERB	_	VerbForm=Ger	0	root	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	inteiro	inteiro	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Sabe aquela balinha que você conhece como jujuba?
+1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	balinha	balinho	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	que	que	PRON	_	PronType=Rel	6	obj	_	_
+5	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	conhece	conhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	jujuba	jujuba	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Pois bem, o docinho bonitinho e colorido é feito a partir de porcos.
+1	Pois	pois	CCONJ	_	_	2	cc	_	_
+2	bem	bem	ADV	_	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	docinho	docinho	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+6	bonitinho	bonitinho	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	colorido	colorido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	conj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	partir	partir	VERB	_	VerbForm=Inf	10	advcl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	porcos	porco	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = O porquinho não foi abatido exclusivamente para se fazer uma jujubinhas [...] é claro que outras partes do animal (como a carne) também são aproveitadas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	porquinho	porquinho	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	não	não	ADV	_	_	5	advmod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	abatido	abater	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	exclusivamente	exclusivamente	ADV	_	_	5	advmod	_	_
+7	para	para	ADP	_	_	9	mark	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl:impers	_	_
+9	fazer	fazer	VERB	_	VerbForm=Inf	5	advcl	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	jujubinhas	jujubinha	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	claro	claro	ADJ	_	Gender=Masc|Number=Sing	5	parataxis	_	_
+18	que	que	SCONJ	_	_	31	mark	_	_
+19	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	partes	parte	NOUN	_	Gender=Fem|Number=Plur	31	nsubj:pass	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	animal	animal	NOUN	_	Number=Sing	20	nmod	_	_
+24	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+25	como	como	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	carne	carne	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	também	também	ADV	_	_	31	advmod	_	_
+30	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	aproveitadas	aproveitar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	17	csubj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Assista abaixo:
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	abaixo	abaixo	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

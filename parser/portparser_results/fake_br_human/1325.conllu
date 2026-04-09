@@ -1,0 +1,394 @@
+# sent_id = S0001
+# text = China coloca bombardeiros em estado de alerta máximo, diz EUA.
+1	China	China	PROPN	_	_	2	nsubj	_	_
+2	coloca	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp:speech	_	_
+3	bombardeiros	bombardeiro	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	estado	estado	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	alerta	alerta	NOUN	_	Number=Sing	5	nmod	_	_
+8	máximo	máximo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	EUA	EUA	PROPN	_	_	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = A China colocou aviões bombardeiros "em estado máximo de alerta".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	China	China	PROPN	_	_	3	nsubj	_	_
+3	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	aviões	avião	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	bombardeiros	bombardeiro	NOUN	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	em	em	ADP	_	_	8	case	_	_
+8	estado	estado	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+9	máximo	máximo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	alerta	alerta	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Os EUA vêm evidências de que os militares chineses estão se preparando para tomar uma atitude com relação à situação na Coréia do Norte.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	EUA	EUA	PROPN	_	_	3	nsubj	_	_
+3	vêm	vir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	de	de	ADP	_	ExtPos=SCONJ	12	mark	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	militares	militar	NOUN	_	Number=Plur	12	nsubj	_	_
+9	chineses	chinÃªs	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	preparando	preparar	VERB	_	VerbForm=Ger	4	acl	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	tomar	tomar	VERB	_	VerbForm=Inf	12	advcl	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	relação	relação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19-20	à	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	situação	situação	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Coréia	Coréia	PROPN	_	_	21	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Norte	Norte	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Um funcionário do Departamento de Defesa norte-americano afirmou que um número excepcional de aeronaves militares chinesas estão sendo preparadas para um combate imediato.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Departamento	Departamento	PROPN	_	_	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Defesa	Defesa	PROPN	_	_	5	flat:name	_	_
+8	norte-americano	norte-americano	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+9	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	20	mark	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	número	número	NOUN	_	Gender=Masc|Number=Sing	20	nsubj:pass	_	_
+13	excepcional	excepcional	ADJ	_	Number=Sing	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	aeronaves	aeronave	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+16	militares	militar	ADJ	_	Number=Plur	15	amod	_	_
+17	chinesas	chinÃªs	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+18	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	sendo	ser	AUX	_	VerbForm=Ger	20	aux:pass	_	_
+20	preparadas	preparar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	combate	combate	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	imediato	imediato	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = As medidas fazem parte do esforço da China para "reduzir o tempo de reação a um provável ataque por parte da Coréia do Norte", disse o militar dos EUA.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp:speech	_	_
+4	parte	parte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	esforço	esforço	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	China	China	PROPN	_	_	7	nmod	_	_
+11	para	para	ADP	_	_	13	mark	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	reduzir	reduzir	VERB	_	VerbForm=Inf	7	acl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	reação	reação	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	a	a	ADP	_	_	21	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	provável	provável	ADJ	_	Number=Sing	21	amod	_	_
+21	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+22	por	por	ADP	_	_	23	case	_	_
+23	parte	parte	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Coréia	Coréia	PROPN	_	_	23	nmod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Norte	Norte	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	3	punct	_	_
+32	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	militar	militar	NOUN	_	Number=Sing	32	nsubj	_	_
+35-36	dos	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	EUA	EUA	PROPN	_	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = S0011
+# text = O Ministério da Defesa Nacional da China ainda não confirmou oficialmente essa versão e declarou apenas que: "Nossos militares estão na fronteira entre a China e a Coréia do Norte para manter um nível de prontidão e treinamentos para combate", disse o ministério em comunicado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministério	Ministério	PROPN	_	_	12	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Defesa	Defesa	PROPN	_	_	2	flat:name	_	_
+6	Nacional	Nacional	PROPN	_	_	2	flat:name	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	China	China	PROPN	_	_	2	flat:name	_	_
+10	ainda	ainda	ADV	_	_	12	advmod	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	ccomp:speech	_	_
+13	oficialmente	oficialmente	ADV	_	_	12	advmod	_	_
+14	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	versão	versão	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+18	apenas	apenas	ADV	_	_	17	advmod	_	_
+19	que	que	SCONJ	_	_	27	mark	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	27	punct	_	_
+21	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+22	Nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	militares	militar	NOUN	_	Number=Plur	27	nsubj	_	_
+24	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	fronteira	fronteira	NOUN	_	Gender=Fem|Number=Sing	17	ccomp	_	_
+28	entre	entre	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	China	China	PROPN	_	_	27	nmod	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Coréia	Coréia	PROPN	_	_	30	conj	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Norte	Norte	PROPN	_	_	33	flat:name	_	_
+37	para	para	ADP	_	_	38	mark	_	_
+38	manter	manter	VERB	_	VerbForm=Inf	27	advcl	_	_
+39	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	nível	nível	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	prontidão	prontidão	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	treinamentos	treinamento	NOUN	_	Gender=Masc|Number=Plur	40	conj	_	_
+45	para	para	ADP	_	_	46	case	_	_
+46	combate	combate	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	12	punct	_	_
+49	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	ministério	ministério	NOUN	_	Gender=Masc|Number=Sing	49	nsubj	_	_
+52	em	em	ADP	_	_	53	case	_	_
+53	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = S0013
+# text = Xi Jinping tem se preocupado com a possível instabilidade na Coréia do Norte.
+1	Xi	Xi	PROPN	_	_	5	nsubj	_	_
+2	Jinping	Jinping	PROPN	_	_	1	flat:name	_	_
+3	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	preocupado	preocupar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+6	com	com	ADP	_	_	9	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	possível	possível	ADJ	_	Number=Sing	9	amod	_	_
+9	instabilidade	instabilidade	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Coréia	Coréia	PROPN	_	_	9	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Norte	Norte	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = Caso o regime de Pyongyang entrar em colapso, o resultado poderá ser um fluxo de milhões de refugiados.
+1	Caso	caso	SCONJ	_	_	6	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	regime	regime	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Pyongyang	Pyongyang	PROPN	_	_	3	nmod	_	_
+6	entrar	entrar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	12	advcl	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	colapso	colapso	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	15	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	12	xcomp	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	refugiados	refugiado	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0017
+# text = A China também fez questão de destacar que não concorda com as instalações de mísseis americanos de defesa anti-aérea (THAAD) no território da Coréia do Sul.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	China	China	PROPN	_	_	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	questão	questão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	destacar	destacar	VERB	_	VerbForm=Inf	5	acl	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	concorda	concordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	instalações	instalação	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	mísseis	míssil	NOUN	_	Number=Plur	13	nmod	_	_
+16	americanos	americano	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	anti-aérea	anti-aérea	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	THAAD	THAAD	PROPN	_	_	15	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	território	território	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Coréia	Coréia	PROPN	_	_	25	nmod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Sul	Sul	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Resumindo: Aparentemente podemos perceber que a China quer resolver o problema sozinha, sem a ajuda dos EUA!
+1	Resumindo	resumir	VERB	_	VerbForm=Ger	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Aparentemente	aparentemente	ADV	_	_	4	advmod	_	_
+4	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	perceber	perceber	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	China	China	PROPN	_	_	9	nsubj	_	_
+9	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	resolver	resolver	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	problema	problema	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	sozinha	sozinho	ADJ	_	Gender=Fem|Number=Sing	10	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	sem	sem	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+18-19	dos	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	EUA	EUA	PROPN	_	_	17	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = É óbvio que o presidente chinês Xi Jinping teme que Trump se aproveite de toda a situação que envolve a Coreia do Norte e desencadeie mais conflitos do que o necessário, inclusive envolvendo países como Japão, Rússia e a própria China.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	óbvio	óbvio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	13	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	_	Number=Sing	9	nsubj	_	_
+6	chinês	chinês	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	Xi	Xi	PROPN	_	_	5	nmod	_	_
+8	Jinping	Jinping	PROPN	_	_	7	flat:name	_	_
+9	teme	temer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	Trump	Trump	PROPN	_	_	13	nsubj	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	aproveite	aproveitar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	situação	situação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+18	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+19	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Coreia	Coreia	PROPN	_	_	19	obj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Norte	Norte	PROPN	_	_	21	flat:name	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	desencadeie	desencadear	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+27	mais	mais	DET	_	PronType=Ind	28	det	_	_
+28	conflitos	conflito	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	ExtPos=SCONJ	32	mark	_	_
+30	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	fixed	_	_
+31	que	que	PRON	_	PronType=Rel	29	fixed	_	_
+32	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	advcl	_	_
+33	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	inclusive	inclusive	ADV	_	_	36	advmod	_	_
+36	envolvendo	envolver	VERB	_	VerbForm=Ger	26	advcl	_	_
+37	países	país	NOUN	_	Gender=Masc|Number=Plur	36	obj	_	_
+38	como	como	ADP	_	_	39	case	_	_
+39	Japão	Japão	PROPN	_	_	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	Rússia	Rússia	PROPN	_	_	39	conj	_	_
+42	e	e	CCONJ	_	_	45	cc	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
+45	China	China	PROPN	_	_	39	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Nenhum país confia plenamente nas qualidades "explosivas" (como o destempero e a impulsividade) do presidente americano.
+1	Nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	país	país	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	confia	confiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	plenamente	plenamente	ADV	_	_	3	advmod	_	_
+5-6	nas	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	qualidades	qualidade	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	explosivas	explosivo	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+12	como	como	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	destempero	destempero	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	impulsividade	impulsividade	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	14	punct	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	presidente	presidente	NOUN	_	Number=Sing	7	nmod	_	_
+22	americano	americano	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = fonte: CNN.
+1	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	CNN	CNN	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

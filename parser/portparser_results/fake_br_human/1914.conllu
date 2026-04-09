@@ -1,0 +1,237 @@
+# sent_id = S0001
+# text = Morre o homem que deixou Cuba na miséria.
+1	Morre	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	homem	homem	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	Cuba	Cuba	PROPN	_	_	5	obj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	miséria	miséria	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Em 2005, sua fortuna era estimada em US$ 550 milhões.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2005	2005	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	fortuna	fortuna	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	estimada	estimar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	US$	US$	SYM	_	_	11	nmod	_	_
+10	550	550	NUM	_	NumType=Card	11	nummod	_	_
+11	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = O ditador cubano faleceu nesta madrugada aos 90 anos em Havana.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	cubano	cubano	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	faleceu	falecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	nesta	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	aos	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	11	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	90	90	NUM	_	NumType=Card	11	nummod	_	_
+11	anos	ano	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	Havana	Havana	PROPN	_	_	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Raúl Castro, irmão de Fidel, fez o anúncio num discurso transmitido pela televisão estatal cubana: É com profunda dor que compareço para informar ao nosso povo, aos amigos da nossa América e do mundo que hoje, 25 de novembro do 2016, às 22h29, faleceu o comandante da Revolução Cubana, Fidel Castro Ruz, disse Raúl Castro, visivelmente emocionado.
+1	Raúl	Raúl	PROPN	_	_	8	nsubj	_	_
+2	Castro	Castro	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Fidel	Fidel	PROPN	_	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	71	ccomp:speech	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	anúncio	anúncio	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	num	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	transmitido	transmitir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+15-16	pela	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	14	obl:agent	_	_
+18	estatal	estatal	ADJ	_	Number=Sing	17	amod	_	_
+19	cubana	cubano	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	26	punct	_	_
+21	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	discourse	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+24	dor	dor	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+25	que	que	SCONJ	_	_	26	discourse	_	_
+26	compareço	comparecer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	71	ccomp:speech	_	_
+27	para	para	ADP	_	_	28	mark	_	_
+28	informar	informar	VERB	_	VerbForm=Inf	26	advcl	_	_
+29-30	ao	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	32	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	det	_	_
+32	povo	povo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	36	punct	_	_
+34-35	aos	_	_	_	_	_	_	_	_
+34	a	a	ADP	_	_	36	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	40	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	40	det	_	_
+40	América	América	PROPN	_	_	36	nmod	_	_
+41	e	e	CCONJ	_	_	44	cc	_	_
+42-43	do	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	40	conj	_	_
+45	que	que	SCONJ	_	_	59	mark	_	_
+46	hoje	hoje	ADV	_	_	59	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	25	25	NUM	_	NumType=Card	59	nsubj	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
+51-52	do	_	_	_	_	_	_	_	_
+51	de	de	ADP	_	_	53	case	_	_
+52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	2016	2016	NUM	_	NumType=Card	50	nmod	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	57	punct	_	_
+55-56	às	_	_	_	_	_	_	_	_
+55	a	a	ADP	_	_	57	case	_	_
+56	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+57	22h29	22h29	NUM	_	NumType=Card	59	obl	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	faleceu	falecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	ccomp	_	_
+60	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	comandante	comandante	NOUN	_	Gender=Masc|Number=Sing	59	nsubj	_	_
+62-63	da	_	_	_	_	_	_	_	_
+62	de	de	ADP	_	_	64	case	_	_
+63	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	Revolução	Revolução	PROPN	_	_	61	nmod	_	_
+65	Cubana	Cubana	PROPN	_	_	64	flat:name	_	SpaceAfter=No
+66	,	,	PUNCT	_	_	67	punct	_	_
+67	Fidel	Fidel	PROPN	_	_	61	appos	_	_
+68	Castro	Castro	PROPN	_	_	67	flat:name	_	_
+69	Ruz	Ruz	PROPN	_	_	67	flat:name	_	SpaceAfter=No
+70	,	,	PUNCT	_	_	26	punct	_	_
+71	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+72	Raúl	Raúl	PROPN	_	_	71	nsubj	_	_
+73	Castro	Castro	PROPN	_	_	72	flat:name	_	SpaceAfter=No
+74	,	,	PUNCT	_	_	76	punct	_	_
+75	visivelmente	visivelmente	ADV	_	_	76	advmod	_	_
+76	emocionado	emocionado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	71	advcl	_	SpaceAfter=No
+77	.	.	PUNCT	_	_	71	punct	_	_
+
+# sent_id = S0009
+# text = Fidel ficou no poder durante 47 anos.
+1	Fidel	Fidel	PROPN	_	_	2	nsubj	_	_
+2	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	poder	poder	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	durante	durante	ADP	_	_	8	case	_	_
+7	47	47	NUM	_	NumType=Card	8	nummod	_	_
+8	anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Só se afastou em 2006, devido a problemas de saúde e passou a liderança do regime comunista ao irmão Raúl.
+1	Só	só	ADV	_	_	3	advmod	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	afastou	afastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	2006	2006	NUM	_	NumType=Card	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	liderança	liderança	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	regime	regime	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	comunista	comunista	ADJ	_	Number=Sing	18	amod	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+23	Raúl	Raúl	PROPN	_	_	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Em 2005, a revista "Forbes" elaborou a lista das pessoas mais ricas do mundo e Fidel tinha acumulado uma fortuna de US$ 550 milhões, dinheiro proveniente de uma rede de negócios uma rede de negócios pertencentes ao Estado.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2005	2005	NUM	_	NumType=Card	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	revista	revista	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Forbes	Forbes	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	elaborou	elaborar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lista	lista	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	ricas	rico	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	Fidel	Fidel	PROPN	_	_	23	nsubj	_	_
+22	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	acumulado	acumular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	conj	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fortuna	fortuna	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	de	de	ADP	_	_	29	case	_	_
+27	US$	US$	SYM	_	_	29	nmod	_	_
+28	550	550	NUM	_	NumType=Card	29	nummod	_	_
+29	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
+32	proveniente	proveniente	ADJ	_	Number=Sing	31	amod	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	rede	rede	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	negócios	negócio	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+38	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	rede	rede	NOUN	_	Gender=Fem|Number=Sing	35	appos	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	negócios	negócio	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	_
+42	pertencentes	pertencente	ADJ	_	Number=Plur	41	amod	_	_
+43-44	ao	_	_	_	_	_	_	_	_
+43	a	a	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Estado	Estado	PROPN	_	_	42	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0014
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

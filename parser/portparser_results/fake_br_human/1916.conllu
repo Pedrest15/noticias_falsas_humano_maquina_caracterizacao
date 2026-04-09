@@ -1,0 +1,97 @@
+# sent_id = S0001
+# text = Lula anunciou que iria se encontrar com Fidel em dezembro!.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	iria	ir	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	encontrar	encontrar	VERB	_	VerbForm=Inf	2	ccomp	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	Fidel	Fidel	PROPN	_	_	6	obl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = A mídia inteira anunciou que Lula iria se encontrar (em dezembro) com Vladimir Putin, numa viagem a Moscou, e também com Fidel e Raul Castro, em Havana.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	inteira	inteiro	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	Lula	Lula	PROPN	_	_	9	nsubj	_	_
+7	iria	ir	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	aux	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	encontrar	encontrar	VERB	_	VerbForm=Inf	4	ccomp	_	_
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	em	em	ADP	_	_	12	case	_	_
+12	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	Vladimir	Vladimir	PROPN	_	_	9	obl	_	_
+16	Putin	Putin	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18-19	numa	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	Moscou	Moscou	PROPN	_	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	e	e	CCONJ	_	_	27	cc	_	_
+25	também	também	ADV	_	_	27	advmod	_	_
+26	com	com	ADP	_	_	27	case	_	_
+27	Fidel	Fidel	PROPN	_	_	15	conj	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	Raul	Raul	PROPN	_	_	27	conj	_	_
+30	Castro	Castro	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	Havana	Havana	PROPN	_	_	27	orphan	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = E agora Lula?
+1	E	e	CCONJ	_	_	2	cc	_	_
+2	agora	agora	ADV	_	_	0	root	_	_
+3	Lula	Lula	PROPN	_	_	2	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Será que você ainda quer encontrar o Fidel?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+2	que	que	SCONJ	_	_	5	discourse	_	_
+3	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+4	ainda	ainda	ADV	_	_	5	advmod	_	_
+5	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	encontrar	encontrar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Fidel	Fidel	PROPN	_	_	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = "Vossa excelência" sabe muito bem onde ele está, né?
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Vossa	vosso	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	det	_	_
+3	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	muito	muito	ADV	_	_	7	advmod	_	_
+7	bem	bem	ADV	_	_	5	advmod	_	_
+8	onde	onde	ADV	_	_	5	advmod	_	_
+9	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	né	né	INTJ	_	_	5	discourse	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Lá é quente e escuro!
+1	Lá	lá	ADV	_	_	3	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	quente	quente	ADJ	_	Number=Sing	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	escuro	escuro	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	_
+

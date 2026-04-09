@@ -1,0 +1,315 @@
+# sent_id = S0001
+# text = Pe.
+1	Pe	pe	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Fábio abre o jogo sobre a Síndrome do Pânico: "Um medo tão grande que eu sentia vontade de morrer".
+1	Fábio	Fábio	PROPN	_	_	2	nsubj	_	_
+2	abre	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	sobre	sobre	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Síndrome	Síndrome	PROPN	_	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Pânico	Pânico	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	medo	medo	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
+15	tão	tão	ADV	_	_	16	advmod	_	_
+16	grande	grande	ADJ	_	Number=Sing	14	amod	_	_
+17	que	que	SCONJ	_	_	19	mark	_	_
+18	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	sentia	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+20	vontade	vontade	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+21	de	de	ADP	_	_	22	mark	_	_
+22	morrer	morrer	VERB	_	VerbForm=Inf	20	acl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Padre Fábio abriu seu coração durante o programa Direção Espiritual, exibido ontem (16) pelo canal Canção Nova.
+1	Padre	Padre	PROPN	_	_	3	nsubj	_	_
+2	Fábio	Fábio	PROPN	_	_	1	flat:name	_	_
+3	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	coração	coração	NOUN	_	Number=Sing	3	obj	_	_
+6	durante	durante	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	programa	programa	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+9	Direção	Direção	PROPN	_	_	8	nmod	_	_
+10	Espiritual	Espiritual	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	exibido	exibir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	acl	_	_
+13	ontem	ontem	ADV	_	_	12	advmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	16	16	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	canal	canal	NOUN	_	Gender=Masc|Number=Sing	12	obl:agent	_	_
+20	Canção	Canção	PROPN	_	_	19	nmod	_	_
+21	Nova	Nova	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O internauta Eduardo Sampaio nos enviou um vídeo (editado) que contém partes do desabafo do Pe.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	internauta	internauta	NOUN	_	Number=Sing	6	nsubj	_	_
+3	Eduardo	Eduardo	PROPN	_	_	2	nmod	_	_
+4	Sampaio	Sampaio	PROPN	_	_	3	flat:name	_	_
+5	nos	nos	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	iobj	_	_
+6	enviou	enviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	editado	editar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	contém	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+14	partes	parte	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	desabafo	desabafo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Pe	Pe	PROPN	_	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Fábio de Melo.
+1	Fábio	Fábio	PROPN	_	_	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Melo	Melo	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Vale a pena assistir e refletir até que ponto estamos sendo "infectados" pela vida moderna.
+1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pena	pena	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	assistir	assistir	VERB	_	VerbForm=Inf	1	csubj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	refletir	refletir	VERB	_	VerbForm=Inf	4	conj	_	_
+7	até	até	ADP	_	_	9	case	_	_
+8	que	que	DET	_	PronType=Ind	9	det	_	_
+9	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+10	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	sendo	ser	AUX	_	VerbForm=Ger	13	aux:pass	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	infectados	infectar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	ccomp	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15-16	pela	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vida	vida	NOUN	_	Gender=Fem|Number=Sing	13	obl:agent	_	_
+18	moderna	moderno	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = "Tive calafrios, taquicardia, uma sensação de medo e opressão, angústia, desconforto e medo de morrer [...]" disse o religioso.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Tive	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	26	ccomp:speech	_	_
+3	calafrios	calafrio	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	taquicardia	taquicardia	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sensação	sensação	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	medo	medo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	opressão	opressão	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	angústia	angústia	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	desconforto	desconforto	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	medo	medo	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	morrer	morrer	VERB	_	VerbForm=Inf	18	acl	_	_
+21	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	..	..	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	]	]	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	2	punct	_	_
+26	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	religioso	religioso	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0015
+# text = Ele conta que está fazendo acompanhamento médico com uma psiquiatra: "Tomo medicamentos para controlar os sintomas, porém não me sinto inteiro" disse.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fazendo	fazer	VERB	_	VerbForm=Ger	2	ccomp	_	_
+6	acompanhamento	acompanhamento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	médico	médico	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	psiquiatra	psiquiatra	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	13	punct	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Tomo	tomar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+14	medicamentos	medicamento	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	controlar	controlar	VERB	_	VerbForm=Inf	13	advcl	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	sintomas	sintoma	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	porém	porém	CCONJ	_	_	23	cc	_	_
+21	não	não	ADV	_	_	23	advmod	_	_
+22	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	23	expl	_	_
+23	sinto	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+24	inteiro	inteiro	ADJ	_	Gender=Masc|Number=Sing	23	xcomp	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	13	punct	_	_
+26	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	root	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Aos 2 minutos e 12 segundos do vídeo, Fábio chora e se emociona: Às vezes eu não tenho tempo de viver o que eu preciso viver.
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	2	2	NUM	_	NumType=Card	4	nummod	_	_
+4	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	12	12	NUM	_	NumType=Card	7	nummod	_	_
+7	segundos	segundo	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	Fábio	Fábio	PROPN	_	_	13	nsubj	_	_
+13	chora	chorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	emociona	emocionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	23	punct	_	_
+18-19	Às	_	_	_	_	_	_	_	_
+18	A	a	ADP	_	ExtPos=ADV	23	advmod	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	fixed	_	_
+20	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	18	fixed	_	_
+21	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	não	não	ADV	_	_	23	advmod	_	_
+23	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+24	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+25	de	de	ADP	_	_	26	mark	_	_
+26	viver	viver	VERB	_	VerbForm=Inf	24	acl	_	_
+27	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	obj	_	_
+28	que	que	PRON	_	PronType=Rel	30	obj	_	_
+29	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+30	preciso	precisar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+31	viver	viver	VERB	_	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = Tudo isso é fruto de escolhas que eu venho fazendo, conscientes ou não [...] eu não sei exatamente o que significa a Síndrome do Pânico, só sei que é uma coisa muito ruim de se sentir.
+1	Tudo	tudo	PRON	_	ExtPos=PRON|PronType=Ind	4	nsubj	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fruto	fruto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	escolhas	escolha	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	que	que	PRON	_	PronType=Rel	10	obj	_	_
+8	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	venho	vir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fazendo	fazer	VERB	_	VerbForm=Ger	6	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	conscientes	consciente	ADJ	_	Number=Plur	6	acl	_	_
+13	ou	ou	CCONJ	_	_	14	cc	_	_
+14	não	não	ADV	_	_	12	conj	_	_
+15	[	[	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+17	..	..	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	]	]	PUNCT	_	_	16	punct	_	_
+19	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	não	não	ADV	_	_	21	advmod	_	_
+21	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+22	exatamente	exatamente	ADV	_	_	21	advmod	_	_
+23	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	_
+24	que	que	PRON	_	PronType=Int	23	fixed	_	_
+25	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Síndrome	Síndrome	PROPN	_	_	25	obj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Pânico	Pânico	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	só	só	ADV	_	_	33	advmod	_	_
+33	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	_
+34	que	que	SCONJ	_	_	37	mark	_	_
+35	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	33	ccomp	_	_
+38	muito	muito	ADV	_	_	39	advmod	_	_
+39	ruim	ruim	ADJ	_	Number=Sing	37	amod	_	_
+40	de	de	ADP	_	_	42	mark	_	_
+41	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	42	expl	_	_
+42	sentir	sentir	VERB	_	Number=Sing|Person=3|VerbForm=Inf	37	acl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Quem já sentiu isso sabe do que estou falando Desejamos sorte ao Pe.
+1	Quem	quem	PRON	_	PronType=Ind	5	nsubj	_	_
+2	já	já	ADV	_	_	3	advmod	_	_
+3	sentiu	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+4	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
+8	que	que	PRON	_	PronType=Int	7	fixed	_	_
+9	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	falando	falar	VERB	_	VerbForm=Ger	5	ccomp	_	_
+11	Desejamos	desejar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Pe	Pe	PROPN	_	_	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = Fábio e esperamos que ele possa se recuperar fisica e espiritualmente das turbulências pelas quais ele tem passado.
+1	Fábio	Fábio	PROPN	_	_	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	esperamos	esperar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+8	recuperar	recuperar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	fisica	fisicamente	ADV	_	_	8	advmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	espiritualmente	espiritualmente	ADV	_	_	9	conj	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	turbulências	turbulência	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+15-16	pelas	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	as	o	PRON	_	ExtPos=PRON|Gender=Fem|Number=Plur|Person=3|PronType=Dem	20	obl	_	_
+17	quais	qual	PRON	_	Number=Plur|PronType=Rel	16	fixed	_	_
+18	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	passado	passar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Boa sorte!
+1	Boa	bom	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+

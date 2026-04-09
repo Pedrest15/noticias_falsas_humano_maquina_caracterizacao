@@ -1,0 +1,421 @@
+# sent_id = S0001
+# text = Urgente: Mega contratação!
+1	Urgente	urgente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	4	punct	_	_
+3	Mega	mega	ADJ	_	Number=Sing	4	amod	_	_
+4	contratação	contratação	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Sete grandes empresas estão oferecendo mais de 2 mil vagas de emprego em todo o país.
+1	Sete	sete	NUM	_	NumType=Card	3	nummod	_	_
+2	grandes	grande	ADJ	_	Number=Plur	3	amod	_	_
+3	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	oferecendo	oferecer	VERB	_	VerbForm=Ger	0	root	_	_
+6	mais	mais	ADV	_	ExtPos=ADV	8	advmod	_	_
+7	de	de	ADP	_	_	6	fixed	_	_
+8	2	2	NUM	_	NumType=Card	10	nummod	_	_
+9	mil	mil	NUM	_	NumType=Card	8	flat	_	_
+10	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Oportunidades incríveis para todos os níveis de escolaridade!
+1	Oportunidades	oportunidade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	incríveis	incrível	ADJ	_	Number=Plur	1	amod	_	_
+3	para	para	ADP	_	_	6	case	_	_
+4	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	escolaridade	escolaridade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = A Atento, líder em serviços de atendimento ao cliente, está com 2 mil vagas em 20 cidades diferentes, prometendo rápido crescimento na carreira.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Atento	Atento	PROPN	_	_	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	líder	líder	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	atendimento	atendimento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cliente	cliente	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	com	com	ADP	_	_	17	case	_	_
+15	2	2	NUM	_	NumType=Card	17	nummod	_	_
+16	mil	mil	NUM	_	NumType=Card	15	flat	_	_
+17	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	20	20	NUM	_	NumType=Card	20	nummod	_	_
+20	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	diferentes	diferente	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	prometendo	prometer	VERB	_	VerbForm=Ger	17	advcl	_	_
+24	rápido	rápido	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+25	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0009
+# text = A startup Quinto Andar, em expansão acelerada, abriu 200 vagas com benefícios exclusivos e possibilidade de trabalho remoto.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	startup	startup	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	Quinto	Quinto	PROPN	_	_	2	nmod	_	_
+4	Andar	Andar	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	acelerada	acelerado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	200	200	NUM	_	NumType=Card	12	nummod	_	_
+12	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+15	exclusivos	exclusivo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	remoto	remoto	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = O famoso restaurante Outback vai inaugurar uma mega unidade em São Paulo e procura 150 novos talentos, oferecendo salários até 50% acima do mercado!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	restaurante	restaurante	NOUN	_	Number=Sing	6	nsubj	_	_
+4	Outback	Outback	PROPN	_	_	3	nmod	_	_
+5	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	inaugurar	inaugurar	VERB	_	VerbForm=Inf	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mega	mega	ADJ	_	Number=Sing	9	amod	_	_
+9	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	São	São	PROPN	_	_	9	nmod	_	_
+12	Paulo	Paulo	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	procura	procurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	150	150	NUM	_	NumType=Card	17	nummod	_	_
+16	novos	novo	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+17	talentos	talento	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	oferecendo	oferecer	VERB	_	VerbForm=Ger	14	advcl	_	_
+20	salários	salário	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+21	até	até	ADP	_	_	23	case	_	_
+22	50	50	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	_	_	24	obl	_	_
+24	acima	acima	ADV	_	_	20	advmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = A Ambev, gigante da cervejaria, está em busca de jovens talentos com salários iniciais de R$ 10 mil, além de bônus anuais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ambev	Ambev	PROPN	_	_	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	gigante	gigante	NOUN	_	Number=Sing	2	appos	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cervejaria	cervejaria	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	busca	busca	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	jovens	jovem	ADJ	_	Number=Plur	14	amod	_	_
+14	talentos	talento	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	salários	salário	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	iniciais	inicial	ADJ	_	Number=Plur	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	R$	R$	SYM	_	_	16	nmod	_	_
+20	10	10	NUM	_	NumType=Card	19	nummod	_	_
+21	mil	mil	NUM	_	NumType=Card	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	além	além	ADV	_	_	16	advmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	bônus	bônu	NOUN	_	Gender=Masc	23	obl	_	_
+26	anuais	anual	ADJ	_	Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Oportunidades para recém-formados com até cinco anos de graduação, inglês fluente e disposição para viagens internacionais.
+1	Oportunidades	oportunidade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	para	para	ADP	_	_	3	case	_	_
+3	recém-formados	recém-formado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+4	com	com	ADP	_	_	7	case	_	_
+5	até	até	ADP	_	_	6	case	_	_
+6	cinco	cinco	NUM	_	NumType=Card	7	nummod	_	_
+7	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	graduação	graduação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	inglês	inglês	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+12	fluente	fluente	ADJ	_	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	disposição	disposição	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+15	para	para	ADP	_	_	16	case	_	_
+16	viagens	viagem	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+17	internacionais	internacional	ADJ	_	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = A Atento também oferece vagas para consultores de vendas com pacotes de benefícios que incluem plano de saúde, odontológico e seguro de vida, exigindo apenas ensino médio completo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Atento	Atento	PROPN	_	_	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	oferece	oferecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	consultores	consultor	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	vendas	venda	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	pacotes	pacote	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	incluem	incluir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	plano	plano	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	odontológico	odontológico	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	seguro	seguro	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	vida	vida	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	exigindo	exigir	VERB	_	VerbForm=Ger	15	advcl	_	_
+27	apenas	apenas	ADV	_	_	28	advmod	_	_
+28	ensino	ensino	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	médio	médio	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	completo	completo	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Quinto Andar tem vagas diversificadas, desde especialistas em finanças até desenvolvedores de software, todas com opção de home office.
+1	Quinto	Quinto	PROPN	_	_	3	nsubj	_	_
+2	Andar	Andar	PROPN	_	_	1	flat:name	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	diversificadas	diversificado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	desde	desde	ADP	_	_	8	case	_	_
+8	especialistas	especialista	NOUN	_	Number=Plur	4	nmod	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	finanças	finanças	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+11	até	até	ADP	_	_	12	case	_	_
+12	desenvolvedores	desenvolvedor	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	software	software	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	todas	todo	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	18	nsubj	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	opção	opção	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	home	home	X	_	Foreign=Yes	18	nmod	_	_
+21	office	office	X	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = A empresa valoriza a diversidade e está contratando profissionais de todos os níveis, inclusive sem exigência de diploma universitário para algumas posições.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	valoriza	valorizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	diversidade	diversidade	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	contratando	contratar	VERB	_	VerbForm=Ger	3	conj	_	_
+9	profissionais	profissional	NOUN	_	Number=Plur	8	obj	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	inclusive	inclusive	ADV	_	_	17	advmod	_	_
+16	sem	sem	ADP	_	_	17	case	_	_
+17	exigência	exigência	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	diploma	diploma	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	universitário	universitário	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	posições	posição	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = O Outback busca não só atendentes e auxiliares, mas também gerentes e chefs de cozinha para sua nova unidade, com salários que podem chegar a R$ 15 mil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Outback	Outback	PROPN	_	_	3	nsubj	_	_
+3	busca	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	só	só	ADV	_	_	6	advmod	_	_
+6	atendentes	atendente	NOUN	_	Number=Plur	3	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	auxiliares	auxiliar	NOUN	_	Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	mas	mas	CCONJ	_	_	12	cc	_	_
+11	também	também	ADV	_	_	12	advmod	_	_
+12	gerentes	gerente	NOUN	_	Number=Plur	6	conj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	chefs	chef	NOUN	_	Foreign=Yes|Number=Plur	12	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	cozinha	cozinha	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	para	para	ADP	_	_	20	case	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+19	nova	novo	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	salários	salário	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	chegar	chegar	VERB	_	VerbForm=Inf	25	xcomp	_	_
+27	a	a	ADP	_	_	28	case	_	_
+28	R$	R$	SYM	_	_	26	obl	_	_
+29	15	15	NUM	_	NumType=Card	28	nummod	_	_
+30	mil	mil	NUM	_	NumType=Card	29	flat	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Prepare-se para uma experiência única e chances reais de promoção!
+1-2	Prepare-se	_	_	_	_	_	_	_	_
+1	Prepare	preparar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+6	única	único	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	chances	chance	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
+9	reais	real	ADJ	_	Number=Plur	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0027
+# text = Não perca a chance de mudar sua vida profissional.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	perca	perder	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	mudar	mudar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	vida	vida	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	profissional	profissional	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0029
+# text = Veja mais detalhes e como se candidatar nas próximas linhas: As vagas na Ambev incluem treinamentos no exterior e plano de carreira acelerado.
+1	Veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mais	mais	DET	_	PronType=Ind	3	det	_	_
+3	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	_	_	7	cc	_	_
+5	como	como	ADV	_	_	7	advmod	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	candidatar	candidatar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	3	conj	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+11	linhas	linha	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	1	punct	_	_
+13	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Ambev	Ambev	PROPN	_	_	14	nmod	_	_
+18	incluem	incluir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+19	treinamentos	treinamento	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	exterior	exterior	NOUN	_	Number=Sing	19	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	plano	plano	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	acelerado	acelerado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	24	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0031
+# text = A Atento oferece condições de trabalho flexíveis e possibilidade de ascensão rápida.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Atento	Atento	PROPN	_	_	3	nsubj	_	_
+3	oferece	oferecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	condições	condição	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	flexíveis	flexível	ADJ	_	Number=Plur	4	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	rápida	rápido	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0033
+# text = Quinto Andar destaca-se com sua cultura inovadora e pacotes de benefícios generosos.
+1	Quinto	Quinto	PROPN	_	_	3	nsubj	_	_
+2	Andar	Andar	PROPN	_	_	1	flat:name	_	_
+3-4	destaca-se	_	_	_	_	_	_	_	_
+3	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+8	inovadora	inovador	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	pacotes	pacote	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	generosos	generoso	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0035
+# text = O Outback promete ambiente dinâmico e oportunidades de ouro para quem busca crescer no setor gastronômico.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Outback	Outback	PROPN	_	_	3	nsubj	_	_
+3	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ambiente	ambiente	NOUN	_	Number=Sing	3	obj	_	_
+5	dinâmico	dinâmico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	oportunidades	oportunidade	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	ouro	ouro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	quem	quem	PRON	_	PronType=Ind	3	obl	_	_
+12	busca	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+13	crescer	crescer	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	setor	setor	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	gastronômico	gastronômico	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+

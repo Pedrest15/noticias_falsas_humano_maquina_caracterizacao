@@ -1,0 +1,664 @@
+# sent_id = S0001
+# text = Jovem de RO revela plano de fuga após vídeo íntimo viralizar: "Queriam me matar".
+1	Jovem	jovem	NOUN	_	Number=Sing	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	RO	RO	PROPN	_	_	1	nmod	_	_
+4	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	plano	plano	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	fuga	fuga	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	após	após	ADP	_	_	11	mark	_	_
+9	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	íntimo	íntimo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	viralizar	viralizar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	4	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Queriam	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	matar	matar	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Dois homens, acusados de estupro e gravação não autorizada, estão foragidos.
+1	Dois	dois	NUM	_	Gender=Masc|NumType=Card	2	nummod	_	_
+2	homens	homem	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	acusados	acusar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	estupro	estupro	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	autorizada	autorizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	foragidos	foragido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Vítima afirma que drogas foram usadas para incapacitá-la e que recebeu ameaças de morte.
+1	Vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	drogas	droga	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+5	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	usadas	usar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8-9	incapacitá-la	_	_	_	_	_	_	_	_
+8	incapacitar	incapacitar	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+13	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	morte	morte	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Uma jovem de 18 anos decidiu fugir de Vilhena (RO) após um vídeo íntimo, onde supostamente aparece em atos sexuais, ter vazado nas redes sociais.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	jovem	jovem	NOUN	_	Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	18	18	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	fugir	fugir	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Vilhena	Vilhena	PROPN	_	_	7	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	RO	RO	PROPN	_	_	9	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	após	após	ADP	_	_	26	mark	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+16	íntimo	íntimo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	onde	onde	ADV	_	_	20	advmod	_	_
+19	supostamente	supostamente	ADV	_	_	20	advmod	_	_
+20	aparece	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	atos	ato	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+23	sexuais	sexual	ADJ	_	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	ter	ter	AUX	_	VerbForm=Inf	26	aux	_	_
+26	vazado	vazar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	ccomp	_	_
+27-28	nas	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	redes	rede	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
+30	sociais	social	ADJ	_	Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = A vítima, que prefere manter sua identidade em sigilo, alega que foi drogada e não tinha consciência dos acontecimentos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	prefere	preferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	manter	manter	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	identidade	identidade	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	sigilo	sigilo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	drogada	drogar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	não	não	ADV	_	_	18	advmod	_	_
+18	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+19	consciência	consciência	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	acontecimentos	acontecimento	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = "Eu só queria sumir, eles queriam me matar", disse a jovem, agora refugiada no Mato Grosso.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	só	só	ADV	_	_	4	advmod	_	_
+4	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	ccomp:speech	_	_
+5	sumir	sumir	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	queriam	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+9	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+10	matar	matar	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	jovem	jovem	NOUN	_	Number=Sing	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	agora	agora	ADV	_	_	18	advmod	_	_
+18	refugiada	refugiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Mato	Mato	PROPN	_	_	18	obl	_	_
+22	Grosso	Grosso	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = A Delegacia Especializada no Atendimento à Mulher (Deam) está à frente do caso, que chocou a cidade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Delegacia	Delegacia	PROPN	_	_	16	nsubj	_	_
+3	Especializada	Especializada	PROPN	_	_	2	flat:name	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Atendimento	Atendimento	PROPN	_	_	2	flat:name	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Mulher	Mulher	PROPN	_	_	2	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Deam	Deam	PROPN	_	_	2	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	frente	frente	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	caso	caso	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+22	chocou	chocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0015
+# text = Dois homens, acusados de estupro e divulgação do vídeo, foram identificados, mas estão em fuga.
+1	Dois	dois	NUM	_	Gender=Masc|NumType=Card	2	nummod	_	_
+2	homens	homem	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	acusados	acusar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	estupro	estupro	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	identificados	identificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	mas	mas	CCONJ	_	_	19	cc	_	_
+17	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	fuga	fuga	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0017
+# text = A jovem relatou ao G1 que estava bebendo com amigos quando dois estranhos lhe ofereceram carona.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	jovem	jovem	NOUN	_	Number=Sing	3	nsubj	_	_
+3	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	G1	G1	PROPN	_	_	3	obl	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	bebendo	beber	VERB	_	VerbForm=Ger	3	ccomp	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+12	quando	quando	SCONJ	_	_	16	mark	_	_
+13	dois	dois	NUM	_	Gender=Masc|NumType=Card	14	nummod	_	_
+14	estranhos	estranho	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+15	lhe	lhe	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+16	ofereceram	oferecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+17	carona	carona	NOUN	_	Number=Sing	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Eu estava muito alterada, mal conseguia me manter de pé.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	muito	muito	ADV	_	_	4	advmod	_	_
+4	alterada	alterado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	mal	mal	ADV	_	_	7	advmod	_	_
+7	conseguia	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	manter	manter	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	pé	pé	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Eles disseram que me ajudariam, mas era uma armadilha, revelou.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	ccomp:speech	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	ajudariam	ajudar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	mas	mas	CCONJ	_	_	10	cc	_	_
+8	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	armadilha	armadilha	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0023
+# text = A vítima não possui memórias do ocorrido após aceitar a carona e acordou em casa, sentindo-se mal.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	memórias	memória	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ocorrido	ocorrido	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	após	após	ADP	_	_	10	mark	_	_
+10	aceitar	aceitar	VERB	_	VerbForm=Inf	4	advcl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	carona	carona	NOUN	_	Number=Sing	10	obj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	acordou	acordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	casa	casa	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18-19	sentindo-se	_	_	_	_	_	_	_	_
+18	sentindo	sentir	VERB	_	VerbForm=Ger	14	advcl	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	_	_
+20	mal	mal	ADV	_	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0025
+# text = As imagens foram compartilhadas amplamente via WhatsApp e redes sociais, gerando uma onda de julgamentos e ameaças.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	compartilhadas	compartilhar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	amplamente	amplamente	ADV	_	_	4	advmod	_	_
+6	via	via	ADP	_	_	7	case	_	_
+7	WhatsApp	WhatsApp	PROPN	_	_	4	obl	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	redes	rede	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
+10	sociais	social	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	gerando	gerar	VERB	_	VerbForm=Ger	4	advcl	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	onda	onda	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	julgamentos	julgamento	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = Comecei a receber mensagens anônimas com ameaças de morte.
+1	Comecei	comeÃ§ar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	_	_	3	mark	_	_
+3	receber	receber	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	mensagens	mensagem	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	morte	morte	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = Diziam que eu tinha estragado a vida deles e que não iriam deixar isso barato, afirmou a vítima, que teme nunca mais poder voltar à sua cidade natal.
+1	Diziam	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	ccomp:speech	_	_
+2	que	que	SCONJ	_	_	5	mark	_	_
+3	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	estragado	estragar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vida	vida	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	deles	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	_
+10	e	e	CCONJ	_	_	14	cc	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	iriam	ir	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	14	aux	_	_
+14	deixar	deixar	VERB	_	VerbForm=Inf	5	conj	_	_
+15	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	obj	_	_
+16	barato	barato	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	1	punct	_	_
+18	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+23	teme	temer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	nunca	nunca	ADV	_	_	26	advmod	_	_
+25	mais	mais	ADV	_	_	23	advmod	_	_
+26	poder	poder	VERB	_	VerbForm=Inf	23	xcomp	_	_
+27	voltar	voltar	VERB	_	VerbForm=Inf	26	xcomp	_	_
+28-29	à	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	31	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+32	natal	natal	ADJ	_	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0031
+# text = A mãe da jovem, desolada, viajou de madrugada para dar suporte à filha.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	jovem	jovem	NOUN	_	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	desolada	desolado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	viajou	viajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	dar	dar	VERB	_	VerbForm=Inf	9	advcl	_	_
+14	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	filha	filho	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0033
+# text = Foi devastador ver o sofrimento dela e saber que nossa família foi exposta dessa forma.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	devastador	devastador	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	ver	ver	VERB	_	VerbForm=Inf	2	csubj	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sofrimento	sofrimento	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	dela	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	saber	saber	VERB	_	VerbForm=Inf	3	conj	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	família	família	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	exposta	expor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+15-16	dessa	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	forma	forma	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0035
+# text = Nossa prioridade agora é protegê-la, disse.
+1	Nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	prioridade	prioridade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	agora	agora	ADV	_	_	5	advmod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5-6	protegê-la	_	_	_	_	_	_	_	_
+5	proteger	proteger	VERB	_	VerbForm=Inf	8	ccomp:speech	_	_
+6	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0037
+# text = A delegada Solângela Guimarães, responsável pela investigação, destacou que as substâncias usadas podem ter comprometido a capacidade da vítima de resistir e consentir.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	Solângela	Solângela	PROPN	_	_	2	nmod	_	_
+4	Guimarães	Guimarães	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	responsável	responsável	NOUN	_	Number=Sing	2	appos	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	16	mark	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+15	usadas	usar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	_
+16	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+17	ter	ter	AUX	_	VerbForm=Inf	18	aux	_	_
+18	comprometido	comprometer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	xcomp	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	de	de	ADP	_	_	25	mark	_	_
+25	resistir	resistir	VERB	_	VerbForm=Inf	20	acl	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	consentir	consentir	VERB	_	VerbForm=Inf	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0039
+# text = Investigamos a possibilidade de estupro com uso de drogas que anulam a vontade da vítima, além da difamação.
+1	Investigamos	investigar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	estupro	estupro	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	uso	uso	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	drogas	droga	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	anulam	anular	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vontade	vontade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	além	além	ADV	_	_	11	advmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	difamação	difamação	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0041
+# text = O vídeo não deixa claro que ela tinha qualquer noção da gravação, identificaram-na por uma tatuagem, enfatizou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp:speech	_	_
+5	claro	claro	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	que	que	SCONJ	_	_	8	mark	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+9	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	10	det	_	_
+10	noção	noção	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	identificaram-na	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tatuagem	tatuagem	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	4	punct	_	_
+20	enfatizou	enfatizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0043
+# text = Enquanto isso, a jovem busca refúgio e apoio psicológico no Mato Grosso, tentando reconstruir sua vida.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	6	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	jovem	jovem	NOUN	_	Number=Sing	6	nsubj	_	_
+6	busca	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	refúgio	refúgio	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+10	psicológico	psicológico	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Mato	Mato	PROPN	_	_	6	obl	_	_
+14	Grosso	Grosso	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	tentando	tentar	VERB	_	VerbForm=Ger	6	advcl	_	_
+17	reconstruir	reconstruir	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	vida	vida	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0045
+# text = Eu me sinto culpada, mas sei que a culpa não é minha.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	sinto	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	culpada	culpado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	mas	mas	CCONJ	_	_	7	cc	_	_
+7	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	que	que	SCONJ	_	_	13	mark	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	culpa	culpa	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	não	não	ADV	_	_	13	advmod	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0047
+# text = Quero que a justiça seja feita, declarou.
+1	Quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+2	que	que	SCONJ	_	_	6	mark	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+5	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0049
+# text = O caso gerou grande repercussão nas redes sociais, com muitos usuários manifestando apoio à vítima e clamando por justiça.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	gerou	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	grande	grande	ADJ	_	Number=Sing	5	amod	_	_
+5	repercussão	repercussão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	redes	rede	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+9	sociais	social	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+13	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+14	manifestando	manifestar	VERB	_	VerbForm=Ger	3	advcl	_	_
+15	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	clamando	clamar	VERB	_	VerbForm=Ger	14	conj	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0051
+# text = "Isso é um absurdo, precisamos proteger as nossas e acabar com esse tipo de violência", comentou uma usuária.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	absurdo	absurdo	NOUN	_	Gender=Masc|Number=Sing	20	ccomp:speech	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	proteger	proteger	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	nossas	nosso	PRON	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	acabar	acabar	VERB	_	VerbForm=Inf	8	conj	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	violência	violência	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	5	punct	_	_
+20	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	usuária	usuário	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0053
+# text = Outro internauta destacou: "A verdade precisa vir à tona, e esses criminosos precisam pagar pelo que fizeram".
+1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	internauta	internauta	NOUN	_	Number=Sing	3	nsubj	_	_
+3	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	8	punct	_	_
+5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp:speech	_	_
+9	vir	vir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tona	tona	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+16	criminosos	criminoso	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+17	precisam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	pagar	pagar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19-20	pelo	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	obl	_	_
+21	que	que	PRON	_	PronType=Rel	22	obj	_	_
+22	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0055
+# text = A polícia pede à população que forneça informações que possam levar à captura dos suspeitos, prometendo sigilo total.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	3	nsubj	_	_
+3	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	população	população	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	forneça	fornecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	informações	informação	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	levar	levar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	captura	captura	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	suspeitos	suspeito	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	prometendo	prometer	VERB	_	VerbForm=Ger	8	advcl	_	_
+21	sigilo	sigilo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	total	total	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+

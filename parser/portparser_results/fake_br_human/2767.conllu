@@ -1,0 +1,236 @@
+# sent_id = S0001
+# text = Folha: "Sarney prometeu ajudar investigado da Lava-Jato a "escapar" de Sérgio Moro".
+1	Folha	Folha	PROPN	_	_	5	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	Sarney	Sarney	PROPN	_	_	5	nsubj	_	_
+5	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ajudar	ajudar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	investigado	investigado	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lava-Jato	Lava-Jato	PROPN	_	_	7	nmod	_	_
+11	a	a	ADP	_	_	13	mark	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	escapar	escapar	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Sérgio	Sérgio	PROPN	_	_	13	obl	_	_
+17	Moro	Moro	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Sérgio Machado é investigado na Lava Jato e Sarney queria ajudá-lo "sem meter advogado no meio", de acordo com informação da Folha de S. Paulo.
+1	Sérgio	Sérgio	PROPN	_	_	4	nsubj:pass	_	_
+2	Machado	Machado	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	investigado	investigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Lava	Lava	PROPN	_	_	4	obl	_	_
+8	Jato	Jato	PROPN	_	_	7	flat:name	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	Sarney	Sarney	PROPN	_	_	11	nsubj	_	_
+11	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+12-13	ajudá-lo	_	_	_	_	_	_	_	_
+12	ajudar	ajudar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	sem	sem	ADP	_	_	16	mark	_	_
+16	meter	meter	VERB	_	VerbForm=Inf	12	advcl	_	_
+17	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	meio	meio	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	informação	informação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Folha	Folha	PROPN	_	_	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	S.	S.	PROPN	_	_	29	flat:name	_	_
+32	Paulo	Paulo	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A conversa foi gravada por Sérgio Machado, que fechou acordo de delação premiada no STF hoje (25) A Folha também informou que, em uma das conversas, Sarney se mostrou preocupado com uma eventual delação de Machado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	gravada	gravar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	Sérgio	Sérgio	PROPN	_	_	4	obl:agent	_	_
+7	Machado	Machado	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	fechou	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+11	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	delação	delação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	STF	STF	PROPN	_	_	10	obl	_	_
+18	hoje	hoje	ADV	_	_	10	advmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	25	25	NUM	_	NumType=Card	18	parataxis	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Folha	Folha	PROPN	_	_	25	nsubj	_	_
+24	também	também	ADV	_	_	25	advmod	_	_
+25	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	root	_	_
+26	que	que	SCONJ	_	_	36	mark	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	uma	um	NUM	_	Gender=Fem|NumType=Card	36	obl	_	_
+30-31	das	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	29	punct	_	_
+34	Sarney	Sarney	PROPN	_	_	36	nsubj	_	_
+35	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	36	expl	_	_
+36	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	ccomp	_	_
+37	preocupado	preocupado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	36	xcomp	_	_
+38	com	com	ADP	_	_	41	case	_	_
+39	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	eventual	eventual	ADJ	_	Number=Sing	41	amod	_	_
+41	delação	delação	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	Machado	Machado	PROPN	_	_	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = "Nós temos é que fazer o nosso negócio e ver como é que está o teu advogado, até onde eles falando com ele em delação premiada", disse o ex-presidente.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	31	ccomp:speech	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	discourse	_	_
+5	que	que	ADP	_	_	6	mark	_	_
+6	fazer	fazer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	negócio	negócio	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	ver	ver	VERB	_	VerbForm=Inf	6	conj	_	_
+12	como	como	ADV	_	_	11	advmod	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+14	que	que	SCONJ	_	_	18	discourse	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	teu	teu	DET	_	Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	18	det	_	_
+18	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	até	até	ADP	_	_	21	case	_	_
+21	onde	onde	ADV	_	_	23	advmod	_	_
+22	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+23	falando	falar	VERB	_	VerbForm=Ger	18	parataxis	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	delação	delação	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+28	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	3	punct	_	_
+31	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ex-presidente	ex-presidente	NOUN	_	Number=Sing	31	nsubj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = S0009
+# text = Machado conta que Sarney teria dito as seguintes palavras: nós temos é que conseguir isso (o pleito de Machado).
+1	Machado	Machado	PROPN	_	_	2	nsubj	_	_
+2	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	Sarney	Sarney	PROPN	_	_	6	nsubj	_	_
+5	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+6	dito	dizer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	seguintes	seguinte	ADJ	_	Number=Plur	9	amod	_	_
+9	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	12	punct	_	_
+11	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	discourse	_	_
+14	que	que	ADP	_	_	15	mark	_	_
+15	conseguir	conseguir	VERB	_	VerbForm=Inf	12	xcomp	_	_
+16	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	obj	_	_
+17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pleito	pleito	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Machado	Machado	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Sem meter advogado no meio.
+1	Sem	sem	ADP	_	_	2	mark	_	_
+2	meter	meter	VERB	_	VerbForm=Inf	0	root	_	_
+3	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meio	meio	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Então Machado disse a Sarney: "advogado não pode participar disso", "de jeito nenhum" e que "advogado é perigoso".
+1	Então	então	ADV	_	_	3	advmod	_	_
+2	Machado	Machado	PROPN	_	_	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	Sarney	Sarney	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	10	punct	_	_
+7	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp:speech	_	_
+11	participar	participar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12-13	disso	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	obl	_	_
+14	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	de	de	ADP	_	_	18	case	_	_
+18	jeito	jeito	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+19	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	18	det	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	18	punct	_	_
+21	e	e	CCONJ	_	_	26	cc	_	_
+22	que	que	SCONJ	_	_	26	mark	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	perigoso	perigoso	ADJ	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Palos áudios, não dá pra identificar qual seria a estratégia estabelecida por Sarney.
+1	Palos	palo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+2	áudios	áudio	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	pra	para	ADP	_	_	7	mark	_	_
+7	identificar	identificar	VERB	_	VerbForm=Inf	5	csubj	_	_
+8	qual	qual	PRON	_	Number=Sing|PronType=Int	11	nsubj	_	_
+9	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	cop	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	7	ccomp	_	_
+12	estabelecida	estabelecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	Sarney	Sarney	PROPN	_	_	12	obl:agent	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+

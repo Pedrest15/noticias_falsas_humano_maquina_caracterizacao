@@ -1,0 +1,263 @@
+# sent_id = S0001
+# text = Próximo Presidente?
+1	Próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+2	Presidente	Presidente	PROPN	_	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Nem pensar!
+1	Nem	nem	ADV	_	_	2	advmod	_	_
+2	pensar	pensar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Cunha manda recado para Maia: "Tem um capítulo só seu na minha delação".
+1	Cunha	Cunha	PROPN	_	_	2	nsubj	_	_
+2	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	recado	recado	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	Maia	Maia	PROPN	_	_	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	só	só	ADV	_	_	12	advmod	_	_
+12	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	amod	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+16	delação	delação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Cunha já esperou demais e nenhum peemedebista apareceu para salvá-lo das garras de Sérgio Moro.
+1	Cunha	Cunha	PROPN	_	_	3	nsubj	_	_
+2	já	já	ADV	_	_	3	advmod	_	_
+3	esperou	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	demais	demais	ADV	_	_	3	advmod	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	peemedebista	peemedebista	NOUN	_	Number=Sing	8	nsubj	_	_
+8	apareceu	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10-11	salvá-lo	_	_	_	_	_	_	_	_
+10	salvar	salvar	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	garras	garra	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Sérgio	Sérgio	PROPN	_	_	14	nmod	_	_
+17	Moro	Moro	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Através de seus advogados, o ex-presidente da Câmara dos Deputados decidiu agir e firmou um acordo de delação premiada com a PGR.
+1	Através	através	ADV	_	_	14	advmod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ex-presidente	ex-presidente	NOUN	_	Number=Sing	14	nsubj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Câmara	Câmara	PROPN	_	_	7	nmod	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Deputados	Deputados	PROPN	_	_	10	flat:name	_	_
+14	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	agir	agir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	firmou	firmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	delação	delação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	21	amod	_	_
+23	com	com	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	PGR	PGR	PROPN	_	_	17	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0011
+# text = Há relatos de que a colaboração de Cunha já tenha atingido a marca de 100 anexos [...] grande parte do PMDB, PT e PSDB serão atingidos em cheio com as revelações do ex-deputado.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+3	de	de	ADP	_	ExtPos=SCONJ	11	mark	_	_
+4	que	que	SCONJ	_	_	3	fixed	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	colaboração	colaboração	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Cunha	Cunha	PROPN	_	_	6	nmod	_	_
+9	já	já	ADV	_	_	11	advmod	_	_
+10	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	atingido	atingir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	marca	marca	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	100	100	NUM	_	NumType=Card	16	nummod	_	_
+16	anexos	anexo	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17	[	[	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	31	parataxis	_	SpaceAfter=No
+19	..	..	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	]	]	PUNCT	_	_	18	punct	_	_
+21	grande	grande	ADJ	_	Number=Sing	22	amod	_	_
+22	parte	parte	NOUN	_	Gender=Fem|Number=Sing	31	nsubj:pass	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	PMDB	PMDB	PROPN	_	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	PT	PT	PROPN	_	_	25	conj	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	PSDB	PSDB	PROPN	_	_	25	conj	_	_
+30	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	31	aux:pass	_	_
+31	atingidos	atingir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	cheio	cheio	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+34	com	com	ADP	_	_	36	case	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	31	obl	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Em uma matéria publicada na noite de ontem, a revista Veja informou que Eduardo Cunha pediu que um amigo enviasse um "recadinho especial" para o atual presidente da Câmara, Rodrigo Maia.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+4	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	noite	noite	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	ontem	ontem	ADV	_	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	revista	revista	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	Veja	Veja	PROPN	_	_	12	nmod	_	_
+14	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	que	que	SCONJ	_	_	18	mark	_	_
+16	Eduardo	Eduardo	PROPN	_	_	18	nsubj	_	_
+17	Cunha	Cunha	PROPN	_	_	16	flat:name	_	_
+18	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+19	que	que	SCONJ	_	_	22	mark	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	enviasse	enviar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	recadinho	recadinho	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+26	especial	especial	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	25	punct	_	_
+28	para	para	ADP	_	_	31	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	atual	atual	ADJ	_	Number=Sing	31	amod	_	_
+31	presidente	presidente	NOUN	_	Number=Sing	22	obl	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Câmara	Câmara	PROPN	_	_	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	Rodrigo	Rodrigo	PROPN	_	_	31	appos	_	_
+37	Maia	Maia	PROPN	_	_	36	flat:name	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0015
+# text = As palavras foram claras: "Avisa o Rodrigo que ele também será lembrado".
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	claras	claro	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	7	punct	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Avisa	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Rodrigo	Rodrigo	PROPN	_	_	7	obj	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	_
+12	também	também	ADV	_	_	14	advmod	_	_
+13	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+14	lembrado	lembrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	ccomp	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = De acordo com a revista, Rodrigo Maia figura nas delações de Cunha como "representante de grandes empresas dentro do Congresso e recebedor de recursos ilícitos".
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	revista	revista	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Rodrigo	Rodrigo	PROPN	_	_	9	nsubj	_	_
+8	Maia	Maia	PROPN	_	_	7	flat:name	_	_
+9	figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	nas	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	delações	delação	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Cunha	Cunha	PROPN	_	_	12	nmod	_	_
+15	como	como	ADP	_	_	17	case	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	representante	representante	NOUN	_	Number=Sing	9	obl	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	grandes	grande	ADJ	_	Number=Plur	20	amod	_	_
+20	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	dentro	dentro	ADV	_	_	20	advmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Congresso	Congresso	PROPN	_	_	21	obl	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	recebedor	recebedor	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+29	ilícitos	ilícito	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0019
+# text = Para aqueles que clamam para que Maia ocupe o lugar de Temer (incluindo a grande mídia), a notícia caiu como um balde de água fria.
+1	Para	para	ADP	_	_	2	case	_	_
+2	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	22	obl	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	clamam	clamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	para	para	ADP	_	ExtPos=SCONJ	8	mark	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	Maia	Maia	PROPN	_	_	8	nsubj	_	_
+8	ocupe	ocupar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Temer	Temer	PROPN	_	_	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	incluindo	incluir	VERB	_	VerbForm=Ger	8	advcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	grande	grande	ADJ	_	Number=Sing	17	amod	_	_
+17	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	2	punct	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	como	como	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	balde	balde	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	água	água	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+28	fria	frio	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	22	punct	_	_
+

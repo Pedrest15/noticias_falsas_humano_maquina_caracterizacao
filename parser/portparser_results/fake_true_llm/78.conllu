@@ -1,0 +1,485 @@
+# sent_id = S0001
+# text = URGENTE: Novo Método Revolucionário Contra o Alzheimer!
+1	URGENTE	URGENTE	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	4	punct	_	_
+3	Novo	Novo	PROPN	_	_	1	parataxis	_	_
+4	Método	Método	PROPN	_	_	1	flat:name	_	_
+5	Revolucionário	Revolucionário	PROPN	_	_	4	flat:name	_	_
+6	Contra	Contra	PROPN	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Alzheimer	Alzheimer	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Dr.
+1	Dr.	Dr.	PUNCT	_	_	0	punct	_	_
+
+# sent_id = S0005
+# text = Roberto Klaus, renomado virologista e médico do renomado Hospital Albert Einstein de São Paulo, revela uma descoberta incrível: exercícios simples com a língua podem reduzir significativamente o risco de desenvolver a doença de Alzheimer! Essa técnica milagrosa também promete melhorar diversos aspectos da saúde, incluindo perda de peso, controle da hipertensão e até mesmo a visão.
+1	Roberto	Roberto	PROPN	_	_	18	nsubj	_	_
+2	Klaus	Klaus	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	renomado	renomado	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	virologista	virologista	NOUN	_	Number=Sing	1	appos	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	médico	médico	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	renomado	renomado	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	Hospital	Hospital	PROPN	_	_	7	nmod	_	_
+12	Albert	Albert	PROPN	_	_	11	flat:name	_	_
+13	Einstein	Einstein	PROPN	_	_	11	flat:name	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	São	São	PROPN	_	_	11	nmod	_	_
+16	Paulo	Paulo	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	5	punct	_	_
+18	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	descoberta	descoberto	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	incrível	incrível	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	28	punct	_	_
+23	exercícios	exercício	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+24	simples	simples	ADJ	_	_	23	amod	_	_
+25	com	com	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	língua	língua	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+28	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+29	reduzir	reduzir	VERB	_	VerbForm=Inf	28	xcomp	_	_
+30	significativamente	significativamente	ADV	_	_	29	advmod	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	risco	risco	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+33	de	de	ADP	_	_	34	mark	_	_
+34	desenvolver	desenvolver	VERB	_	VerbForm=Inf	32	acl	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	doença	doença	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	Alzheimer	Alzheimer	PROPN	_	_	36	nmod	_	SpaceAfter=No
+39	!	!	PUNCT	_	_	44	punct	_	_
+40	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	41	det	_	_
+41	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
+42	milagrosa	milagroso	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
+43	também	também	ADV	_	_	44	advmod	_	_
+44	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+45	melhorar	melhorar	VERB	_	VerbForm=Inf	44	xcomp	_	_
+46	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	47	det	_	_
+47	aspectos	aspecto	NOUN	_	Gender=Masc|Number=Plur	45	obj	_	_
+48-49	da	_	_	_	_	_	_	_	_
+48	de	de	ADP	_	_	50	case	_	_
+49	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	incluindo	incluir	VERB	_	VerbForm=Ger	47	acl	_	_
+53	perda	perda	NOUN	_	Gender=Fem|Number=Sing	52	obj	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	peso	peso	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	57	punct	_	_
+57	controle	controle	NOUN	_	Gender=Masc|Number=Sing	53	conj	_	_
+58-59	da	_	_	_	_	_	_	_	_
+58	de	de	ADP	_	_	60	case	_	_
+59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	hipertensão	hipertensão	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
+61	e	e	CCONJ	_	_	65	cc	_	_
+62	até	até	ADV	_	_	65	advmod	_	_
+63	mesmo	mesmo	ADV	_	_	65	advmod	_	_
+64	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	visão	visão	NOUN	_	Gender=Fem|Number=Sing	53	conj	_	SpaceAfter=No
+66	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0007
+# text = "Depois dos 60 anos, muitas doenças começam a nos assombrar, mas o Alzheimer é a que mais me preocupa", afirmou Dr.
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	Depois	depois	ADV	_	_	10	advmod	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	60	60	NUM	_	NumType=Card	6	nummod	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	muitas	muito	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+9	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+10	começam	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp:speech	_	_
+11	a	a	ADP	_	_	13	mark	_	_
+12	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+13	assombrar	assombrar	VERB	_	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	mas	mas	CCONJ	_	_	19	cc	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Alzheimer	Alzheimer	PROPN	_	_	19	nsubj	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	10	conj	_	_
+20	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+21	mais	mais	ADV	_	_	23	advmod	_	_
+22	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	23	obj	_	_
+23	preocupa	preocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	10	punct	_	_
+26	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	Dr.	Dr.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0009
+# text = Klaus.
+1	Klaus	Klaus	PROPN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Um amigo médico me ensinou um exercício com a língua que tem se mostrado eficaz.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	médico	médico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	ensinou	ensinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	exercício	exercício	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	língua	língua	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+12	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	mostrado	mostrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl:relcl	_	_
+15	eficaz	eficaz	ADJ	_	Number=Sing	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Desde que comecei, notei melhorias notáveis na minha capacidade cognitiva e bem-estar geral.
+1	Desde	desde	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	comecei	comeÃ§ar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	notei	notar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+6	melhorias	melhoria	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	notáveis	notávei	ADJ	_	Number=Plur	6	amod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+12	cognitiva	cognitivo	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	bem-estar	bem-estar	NOUN	_	Gender=Masc	11	conj	_	_
+15	geral	geral	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = O exercício é fácil: todas as manhãs, ao se olhar no espelho enquanto lava o rosto, estique a língua e movimente-a para a direita e para a esquerda por 10 vezes seguidas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	exercício	exercício	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fácil	fácil	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	22	punct	_	_
+6	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	manhãs	manhã	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	ExtPos=SCONJ	13	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	olhar	olhar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	22	advcl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	espelho	espelho	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	enquanto	enquanto	SCONJ	_	_	18	mark	_	_
+18	lava	lavar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	rosto	rosto	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	13	punct	_	_
+22	estique	esticar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	4	csubj	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	língua	língua	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26-27	movimente-a	_	_	_	_	_	_	_	_
+26	movimente	movimentar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	22	conj	_	_
+27	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	para	para	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	direita	direita	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+31	e	e	CCONJ	_	_	34	cc	_	_
+32	para	para	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+35	por	por	ADP	_	_	37	case	_	_
+36	10	10	NUM	_	NumType=Card	37	nummod	_	_
+37	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
+38	seguidas	seguido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Segundo Dr.
+1	Segundo	segundo	ADP	_	_	0	root	_	_
+2	Dr.	Dr.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Klaus, essa prática pode:
+1	Klaus	Klaus	PROPN	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	prática	prática	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = Melhorar a visão de longe.
+1	Melhorar	melhorar	VERB	_	VerbForm=Inf	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	visão	visão	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	longe	longe	ADV	_	_	1	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0028
+# text = Eliminar tonturas.
+1	Eliminar	eliminar	VERB	_	VerbForm=Inf	0	root	_	_
+2	tonturas	tontura	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0031
+# text = Aumentar o bem-estar geral.
+1	Aumentar	aumentar	VERB	_	VerbForm=Inf	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bem-estar	bem-estar	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	geral	geral	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0034
+# text = Facilitar a digestão.
+1	Facilitar	facilitar	VERB	_	VerbForm=Inf	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	digestão	digestão	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0037
+# text = Reduzir gripes.
+1	Reduzir	reduzir	VERB	_	VerbForm=Inf	0	root	_	_
+2	gripes	gripe	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0040
+# text = Fortalecer e agilizar o corpo.
+1	Fortalecer	fortalecer	VERB	_	VerbForm=Inf	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	agilizar	agilizar	VERB	_	VerbForm=Inf	1	conj	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0042
+# text = Estudos recentes, segundo a mensagem, indicam que a rigidez da língua é um dos primeiros sinais de declínio cerebral.
+1	Estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+2	recentes	recente	ADJ	_	Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	segundo	segundo	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	16	mark	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rigidez	rigidez	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	língua	língua	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	um	um	NUM	_	Gender=Masc|NumType=Card	8	ccomp	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	20	amod	_	_
+20	sinais	sinal	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	declínio	declínio	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	cerebral	cerebral	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0044
+# text = Ao exercitar a língua, você estimula o cérebro e aumenta sua reserva cognitiva, prevenindo doenças neurodegenerativas.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	exercitar	exercitar	VERB	_	VerbForm=Inf	8	advcl	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	língua	língua	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	estimula	estimular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cérebro	cérebro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	aumenta	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	reserva	reserva	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	cognitiva	cognitivo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	prevenindo	prevenir	VERB	_	VerbForm=Ger	8	advcl	_	_
+18	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	neurodegenerativas	neurodegenerativo	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0046
+# text = Dr.
+1	Dr.	Dr.	PUNCT	_	_	0	punct	_	_
+
+# sent_id = S0048
+# text = Klaus incentiva o compartilhamento dessa informação vital para que mais pessoas possam se beneficiar e melhorar a qualidade de vida, reduzindo tremores nas mãos e pernas e promovendo uma mente mais clara e produtiva.
+1	Klaus	Klaus	PROPN	_	_	2	nsubj	_	_
+2	incentiva	incentivar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	compartilhamento	compartilhamento	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	dessa	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	vital	vital	ADJ	_	Number=Sing	7	amod	_	_
+9	para	para	ADP	_	ExtPos=SCONJ	13	mark	_	_
+10	que	que	SCONJ	_	_	9	fixed	_	_
+11	mais	mais	DET	_	PronType=Ind	12	det	_	_
+12	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	beneficiar	beneficiar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	melhorar	melhorar	VERB	_	VerbForm=Inf	15	conj	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	vida	vida	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	reduzindo	reduzir	VERB	_	VerbForm=Ger	13	advcl	_	_
+24	tremores	tremor	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+25-26	nas	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	pernas	perna	NOUN	_	Gender=Fem|Number=Plur	27	conj	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	promovendo	promover	VERB	_	VerbForm=Ger	23	conj	_	_
+32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	mente	mente	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	mais	mais	ADV	_	_	35	advmod	_	_
+35	clara	claro	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	produtiva	produtivo	ADJ	_	Gender=Fem|Number=Sing	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0050
+# text = Compartilhe esta mensagem com 5 contatos ou grupos! Vamos combater o Alzheimer juntos!
+1	Compartilhe	compartilhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	5	5	NUM	_	NumType=Card	6	nummod	_	_
+6	contatos	contato	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+7	ou	ou	CCONJ	_	_	8	cc	_	_
+8	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	11	punct	_	_
+10	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	combater	combater	VERB	_	VerbForm=Inf	1	parataxis	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Alzheimer	Alzheimer	PROPN	_	_	11	obj	_	_
+14	juntos	junto	ADJ	_	Gender=Masc|Number=Plur	11	advcl	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0052
+# text = Nota: Especialistas em saúde mental e envelhecimento confirmam a importância de novos aprendizados cognitivos e atividades físicas aeróbicas, mas alertam que a mensagem sobre os exercícios da língua é infundada e não tem respaldo científico.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Especialistas	especialista	NOUN	_	Number=Plur	9	nsubj	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	mental	mental	ADJ	_	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+9	confirmam	confirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	importância	importância	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	novos	novo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	aprendizados	aprendizado	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+15	cognitivos	cognitivo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+18	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	aeróbicas	aeróbico	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	mas	mas	CCONJ	_	_	22	cc	_	_
+22	alertam	alertar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+23	que	que	SCONJ	_	_	33	mark	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
+26	sobre	sobre	ADP	_	_	28	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	exercícios	exercício	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	língua	língua	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	infundada	infundado	ADJ	_	Gender=Fem|Number=Sing	22	ccomp	_	_
+34	e	e	CCONJ	_	_	36	cc	_	_
+35	não	não	ADV	_	_	36	advmod	_	_
+36	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+37	respaldo	respaldo	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
+38	científico	científico	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0054
+# text = Ainda assim, a mensagem sobre o Dr.
+1	Ainda	ainda	ADV	_	ExtPos=ADV	5	advmod	_	_
+2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	sobre	sobre	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Dr.	Dr.	PUNCT	_	_	5	nmod	_	_
+
+# sent_id = S0056
+# text = Roberto Klaus tem se espalhado rapidamente, gerando esperança entre a população.
+1	Roberto	Roberto	PROPN	_	_	5	nsubj	_	_
+2	Klaus	Klaus	PROPN	_	_	1	flat:name	_	_
+3	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	espalhado	espalhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+6	rapidamente	rapidamente	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	gerando	gerar	VERB	_	VerbForm=Ger	5	advcl	_	_
+9	esperança	esperança	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	entre	entre	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	população	população	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0058
+# text = Será que há algo de verdade nisso ou é apenas mais uma lenda urbana? Fique atento e informe-se com fontes confiáveis.
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	discourse	_	_
+2	que	que	SCONJ	_	_	3	discourse	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7-8	nisso	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+9	ou	ou	CCONJ	_	_	14	cc	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	apenas	apenas	ADV	_	_	14	advmod	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	nummod	_	_
+14	lenda	lenda	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+15	urbana	urbano	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	?	?	PUNCT	_	_	3	punct	_	_
+17	Fique	ficar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	3	conj	_	_
+18	atento	atento	ADJ	_	Gender=Masc|Number=Sing	17	xcomp	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20-21	informe-se	_	_	_	_	_	_	_	_
+20	informe	informar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	17	conj	_	_
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+24	confiáveis	confiável	ADJ	_	Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+

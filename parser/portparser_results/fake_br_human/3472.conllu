@@ -1,0 +1,142 @@
+# sent_id = S0001
+# text = Deputado Araújo: Agora é oficial.
+1	Deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Araújo	Araújo	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Agora	agora	ADV	_	_	6	advmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	oficial	oficial	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Dilma decretou falência do país ao anunciar a paralisação de serviços básicos.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	decretou	decretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	falência	falência	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	país	país	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	ExtPos=SCONJ	9	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
+9	anunciar	anunciar	VERB	_	VerbForm=Inf	2	advcl	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	paralisação	paralisação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	básicos	básico	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Palavras do deputado Bruno Araújo: A presidente Dilma Rousseff decretou hoje a falência do Estado brasileiro ao anunciar a suspensão de todos pagamentos de serviços de água, luz, telefone, fisc alização ambiental, trabalho, bolsas nacionais e internacionais, passagens e diárias, Receita e Polícia Federal entre outros repasses.
+1	Palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	12	parataxis	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	Bruno	Bruno	PROPN	_	_	4	nmod	_	_
+6	Araújo	Araújo	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	1	punct	_	_
+8	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	_	Number=Sing	12	nsubj	_	_
+10	Dilma	Dilma	PROPN	_	_	9	nmod	_	_
+11	Rousseff	Rousseff	PROPN	_	_	10	flat:name	_	_
+12	decretou	decretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	hoje	hoje	ADV	_	_	12	advmod	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	falência	falência	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Estado	Estado	PROPN	_	_	15	nmod	_	_
+19	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	ExtPos=SCONJ	22	mark	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	_
+22	anunciar	anunciar	VERB	_	VerbForm=Inf	12	advcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	27	det	_	_
+27	pagamentos	pagamento	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	água	água	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	luz	luz	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	fisc	fisc	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
+38	alização	alização	NOUN	_	Gender=Fem|Number=Sing	29	conj	_	_
+39	ambiental	ambiental	ADJ	_	Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	bolsas	bolsa	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
+44	nacionais	nacional	ADJ	_	Number=Plur	43	amod	_	_
+45	e	e	CCONJ	_	_	46	cc	_	_
+46	internacionais	internacional	ADJ	_	Number=Plur	31	conj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	passagens	passagem	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
+49	e	e	CCONJ	_	_	50	cc	_	_
+50	diárias	diária	NOUN	_	Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	Receita	Receita	PROPN	_	_	29	conj	_	_
+53	e	e	CCONJ	_	_	54	cc	_	_
+54	Polícia	Polícia	PROPN	_	_	52	conj	_	_
+55	Federal	Federal	PROPN	_	_	52	flat:name	_	_
+56	entre	entre	ADP	_	_	58	case	_	_
+57	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	58	det	_	_
+58	repasses	repasse	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = O rombo nas contas públicas soma hoje R$ 120 bilhões e o governo não sabe como honrar seus compromissos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rombo	rombo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	nas	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	contas	conta	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	públicas	público	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	soma	somar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	hoje	hoje	ADV	_	_	7	advmod	_	_
+9	R$	R$	SYM	_	_	11	nmod	_	_
+10	120	120	NUM	_	NumType=Card	11	nummod	_	_
+11	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+12	e	e	CCONJ	_	_	16	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	governo	governo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+17	como	como	ADV	_	_	18	advmod	_	_
+18	honrar	honrar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+19	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	compromissos	compromisso	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = É a consequência da escalada de má-gestão, corrupção, mentiras e, principalmente, incompetência.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	consequência	consequência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	escalada	escalada	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	má-gestão	má-gestão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	mentiras	mentira	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
+13	e	e	CCONJ	_	_	17	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	principalmente	principalmente	ADV	_	_	17	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	incompetência	incompetência	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+

@@ -1,0 +1,361 @@
+# sent_id = S0001
+# text = Na cidade argentina de Concordia, um evento chocante revelou a crise humanitária que assola a região.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+4	argentina	argentino	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Concordia	Concordia	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	evento	evento	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	chocante	chocante	ADJ	_	Number=Sing	9	amod	_	_
+11	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	crise	crise	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	humanitária	humanitário	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	assola	assolar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	região	região	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = Recentemente, mais de 70% da população foi flagrada vivendo em condições de extrema pobreza, um aumento vertiginoso atribuído não apenas à pandemia, mas a uma série de decisões governamentais desastrosas.
+1	Recentemente	recentemente	ADV	_	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	mais	mais	ADV	_	ExtPos=ADV	5	advmod	_	_
+4	de	de	ADP	_	_	3	fixed	_	_
+5	70	70	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
+6	%	%	SYM	_	_	11	nsubj:pass	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	população	população	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	flagrada	flagrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	vivendo	viver	VERB	_	VerbForm=Ger	11	advcl	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	condições	condição	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	extrema	extremo	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+17	pobreza	pobreza	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
+21	vertiginoso	vertiginoso	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	atribuído	atribuír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
+23	não	não	ADV	_	_	24	advmod	_	_
+24	apenas	apenas	ADV	_	_	22	advmod	_	_
+25-26	à	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	32	punct	_	_
+29	mas	mas	CCONJ	_	_	32	cc	_	_
+30	a	a	ADP	_	_	32	case	_	_
+31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	série	série	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	_
+35	governamentais	governamental	ADJ	_	Number=Plur	34	amod	_	_
+36	desastrosas	desastroso	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = A Argentina, outrora um dos países mais prósperos da América Latina, enfrenta agora uma batalha sem precedentes para reduzir o índice de pobreza, que atinge níveis alarmantes não vistos em décadas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Argentina	Argentina	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	outrora	outrora	ADV	_	_	5	advmod	_	_
+5	um	um	NUM	_	Gender=Masc|NumType=Card	2	appos	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	países	país	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	mais	mais	ADV	_	_	10	advmod	_	_
+10	prósperos	próspero	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	América	América	PROPN	_	_	8	nmod	_	_
+14	Latina	Latina	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	5	punct	_	_
+16	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	agora	agora	ADV	_	_	16	advmod	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	batalha	batalha	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+20	sem	sem	ADP	_	_	21	case	_	_
+21	precedentes	precedente	NOUN	_	Number=Plur	19	nmod	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	reduzir	reduzir	VERB	_	VerbForm=Inf	19	acl	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	índice	índice	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	pobreza	pobreza	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	que	que	PRON	_	PronType=Rel	30	nsubj	_	_
+30	atinge	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+31	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	30	obj	_	_
+32	alarmantes	alarmante	ADJ	_	Number=Plur	31	amod	_	_
+33	não	não	ADV	_	_	34	advmod	_	_
+34	vistos	ver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	31	acl	_	_
+35	em	em	ADP	_	_	36	case	_	_
+36	décadas	década	NOUN	_	Gender=Fem|Number=Plur	34	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = Julio, um catador de resíduos, relata cenas de desespero: Durante a quarentena, foi um verdadeiro caos.
+1	Julio	Julio	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	catador	catador	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	relata	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	cenas	cena	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	desespero	desespero	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	20	punct	_	_
+13	Durante	durante	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	quarentena	quarentena	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	caos	caos	NOUN	_	Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = As ruas eram bloqueadas e, sem poder trabalhar, vi minha família passar fome.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	bloqueadas	bloquear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	e	e	CCONJ	_	_	11	cc	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	sem	sem	ADP	_	_	8	mark	_	_
+8	poder	poder	VERB	_	VerbForm=Inf	11	advcl	_	_
+9	trabalhar	trabalhar	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	vi	ver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	família	família	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	passar	passar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+15	fome	fome	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Minha mulher estava grávida e era uma escolha cruel: sair em busca de comida, arriscando a saúde, ou ficar em casa sem nada para comer.
+1	Minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	grávida	grávido	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+9	cruel	cruel	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	11	punct	_	_
+11	sair	sair	VERB	_	VerbForm=Inf	8	parataxis	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	busca	busca	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	comida	comida	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	arriscando	arriscar	VERB	_	VerbForm=Ger	11	advcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	ou	ou	CCONJ	_	_	22	cc	_	_
+22	ficar	ficar	VERB	_	VerbForm=Inf	11	conj	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	casa	casa	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+25	sem	sem	ADP	_	_	26	case	_	_
+26	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	22	obl	_	_
+27	para	para	ADP	_	_	28	mark	_	_
+28	comer	comer	VERB	_	VerbForm=Inf	26	acl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Trabalhando no Campo del Abasto, um imenso aterro sanitário, Julio e muitas outras famílias sobrevivem revirando o lixo em busca de itens recicláveis e alimentos.
+1	Trabalhando	trabalhar	VERB	_	VerbForm=Ger	18	advcl	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Campo	Campo	PROPN	_	_	1	obl	_	_
+5	del	del	PROPN	_	_	4	flat:name	_	_
+6	Abasto	Abasto	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	imenso	imenso	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	aterro	aterro	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+11	sanitário	sanitário	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	Julio	Julio	PROPN	_	_	18	nsubj	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15	muitas	muito	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+16	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	famílias	família	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
+18	sobrevivem	sobreviver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	revirando	revirar	VERB	_	VerbForm=Ger	18	advcl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lixo	lixo	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	busca	busca	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	itens	item	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+26	recicláveis	reciclável	ADJ	_	Number=Plur	25	amod	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	alimentos	alimento	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0017
+# text = Esse local tornou-se a última esperança para centenas de pessoas deslocadas pela crise econômica.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	local	local	NOUN	_	Number=Sing	3	nsubj	_	_
+3-4	tornou-se	_	_	_	_	_	_	_	_
+3	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	última	último	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	esperança	esperança	NOUN	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	centenas	centena	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+12	deslocadas	deslocar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	crise	crise	NOUN	_	Gender=Fem|Number=Sing	12	obl:agent	_	_
+16	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Pedro Sena, diretor da organização beneficente Cáritas Concordia, destaca: A situação está piorando a olhos vistos.
+1	Pedro	Pedro	PROPN	_	_	12	nsubj	_	_
+2	Sena	Sena	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	organização	organização	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	beneficente	beneficente	ADJ	_	Number=Sing	7	amod	_	_
+9	Cáritas	Cáritas	PROPN	_	_	7	nmod	_	_
+10	Concordia	Concordia	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	17	punct	_	_
+14	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	situação	situação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	piorando	piorar	VERB	_	VerbForm=Ger	12	ccomp:speech	_	_
+18	a	a	ADP	_	_	19	case	_	_
+19	olhos	olho	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+20	vistos	ver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0021
+# text = Novos bairros de lata surgem diariamente, e o que é mais preocupante é a juventude sendo forçada a viver em condições subumanas.
+1	Novos	novo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+2	bairros	bairro	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	lata	lata	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	surgem	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	diariamente	diariamente	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	16	punct	_	_
+8	e	e	CCONJ	_	_	16	cc	_	_
+9	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
+10	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	preocupante	preocupante	ADJ	_	Number=Sing	9	acl:relcl	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	juventude	juventude	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+17	sendo	ser	AUX	_	VerbForm=Ger	18	aux:pass	_	_
+18	forçada	forçar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
+19	a	a	ADP	_	_	20	mark	_	_
+20	viver	viver	VERB	_	VerbForm=Inf	18	xcomp	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	condições	condição	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+23	subumanas	subumano	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = Eles formam famílias, mas não têm perspectivas de futuro.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	formam	formar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	famílias	família	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	mas	mas	CCONJ	_	_	7	cc	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	perspectivas	perspectiva	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Um vídeo exclusivo da BBC News Mundo, gravado pela repórter Agustina Latourette, expõe os impactos devastadores da pandemia e das políticas econômicas em Concordia, uma das áreas mais vulneráveis da Argentina, mostrando imagens comoventes que chocaram o mundo.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	BBC	BBC	PROPN	_	_	2	nmod	_	_
+7	News	News	PROPN	_	_	6	flat:name	_	_
+8	Mundo	Mundo	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+11-12	pela	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14	Agustina	Agustina	PROPN	_	_	13	nmod	_	_
+15	Latourette	Latourette	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	10	punct	_	_
+17	expõe	expor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	impactos	impacto	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+20	devastadores	devastador	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+24	e	e	CCONJ	_	_	27	cc	_	_
+25-26	das	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	políticas	política	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
+28	econômicas	econômico	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	Concordia	Concordia	PROPN	_	_	19	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	uma	um	NUM	_	Gender=Fem|NumType=Card	30	appos	_	_
+33-34	das	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	áreas	área	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	_
+36	mais	mais	ADV	_	_	37	advmod	_	_
+37	vulneráveis	vulnerável	ADJ	_	Number=Plur	35	amod	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Argentina	Argentina	PROPN	_	_	35	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	mostrando	mostrar	VERB	_	VerbForm=Ger	17	advcl	_	_
+43	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	42	obj	_	_
+44	comoventes	comovente	ADJ	_	Number=Plur	43	amod	_	_
+45	que	que	PRON	_	PronType=Rel	46	nsubj	_	_
+46	chocaram	chocar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	43	acl:relcl	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	17	punct	_	_
+

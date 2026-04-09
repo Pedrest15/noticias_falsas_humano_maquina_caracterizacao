@@ -1,0 +1,185 @@
+# sent_id = S0001
+# text = Advogado não acredita na cliente?
+1	Advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cliente	cliente	NOUN	_	Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Tributarista abandona defesa de Dilma na Câmara.
+1	Tributarista	tributarista	NOUN	_	Number=Sing	2	nsubj	_	_
+2	abandona	abandonar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Dilma	Dilma	PROPN	_	_	3	nmod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Câmara	Câmara	PROPN	_	_	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O professor Direito Tributário da UERJ, Dr. Ricardo Lodi Ribeiro, agravou a situação de Dilma ao afirmar que "pode haver interpretação diferente" em relação às pedaladas fiscais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	professor	professor	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	Direito	Direito	PROPN	_	_	2	nmod	_	_
+4	Tributário	Tributário	PROPN	_	_	3	flat:name	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	UERJ	UERJ	PROPN	_	_	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Dr.	Dr.	PROPN	_	_	2	appos	_	_
+10	Ricardo	Ricardo	PROPN	_	_	9	flat:name	_	_
+11	Lodi	Lodi	PROPN	_	_	9	flat:name	_	_
+12	Ribeiro	Ribeiro	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	agravou	agravar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	situação	situação	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Dilma	Dilma	PROPN	_	_	16	nmod	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	ExtPos=SCONJ	21	mark	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	_	_
+21	afirmar	afirmar	VERB	_	VerbForm=Inf	14	advcl	_	_
+22	que	que	SCONJ	_	_	24	mark	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+25	haver	haver	VERB	_	VerbForm=Inf	24	xcomp	_	_
+26	interpretação	interpretação	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+27	diferente	diferente	ADJ	_	Number=Sing	26	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	24	punct	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	relação	relação	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+31-32	às	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	pedaladas	pedalada	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+34	fiscais	fiscal	ADJ	_	Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = Lodi foi indicado por governistas para defender a presidente na comissão especial do impeachment, na Câmara.
+1	Lodi	Lodi	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	indicado	indicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	governistas	governista	NOUN	_	Number=Plur	3	obl:agent	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	defender	defender	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	_	Number=Sing	7	obj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	comissão	comissão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+13	especial	especial	ADJ	_	Number=Sing	12	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Câmara	Câmara	PROPN	_	_	12	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O professor abandonou a função para a qual foi convocado e avisou que compete à Advocacia Geral da União (AGU) defender a presidente da República.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	professor	professor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	abandonou	abandonar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	função	função	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	a	o	PRON	_	ExtPos=PRON|Gender=Fem|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
+8	qual	qual	PRON	_	Number=Sing|PronType=Rel	7	fixed	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	convocado	convocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	avisou	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_
+14	compete	competir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Advocacia	Advocacia	PROPN	_	_	14	obl	_	_
+18	Geral	Geral	PROPN	_	_	17	flat:name	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	União	União	PROPN	_	_	17	flat:name	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	AGU	AGU	PROPN	_	_	17	appos	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	defender	defender	VERB	_	VerbForm=Inf	14	xcomp	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	presidente	presidente	NOUN	_	Number=Sing	25	obj	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	República	República	PROPN	_	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Lodi não considerou o impeachment como golpe.
+1	Lodi	Lodi	PROPN	_	_	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	considerou	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	como	como	ADP	_	_	7	case	_	_
+7	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = A audiência na comissão de ontem (31 ) terminou em confusão e agressão física.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	comissão	comissão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	ontem	ontem	ADV	_	_	2	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	31	31	NUM	_	NumType=Card	7	appos	_	_
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	terminou	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	confusão	confusão	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	agressão	agressão	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+16	física	físico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Houve gritaria ainda sobre contrato com o ministro do Supremo Tribunal Federal (STF) Luís Roberto Barroso.
+1	Houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	gritaria	gritaria	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	ainda	ainda	ADV	_	_	1	advmod	_	_
+4	sobre	sobre	ADP	_	_	5	case	_	_
+5	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Supremo	Supremo	PROPN	_	_	8	nmod	_	_
+12	Tribunal	Tribunal	PROPN	_	_	11	flat:name	_	_
+13	Federal	Federal	PROPN	_	_	11	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	STF	STF	PROPN	_	_	11	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	Luís	Luís	PROPN	_	_	8	nmod	_	_
+18	Roberto	Roberto	PROPN	_	_	17	flat:name	_	_
+19	Barroso	Barroso	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,103 @@
+# sent_id = S0001
+# text = estudo alemao prova que altas taxas de vitamina d diminuem taxa de mortalidade por covid-19 covid-19.
+1	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	alemao	alemao	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	prova	provar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	altas	alto	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+6	taxas	taxa	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	d	d	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+10	diminuem	diminuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	covid-19	covid-19	NUM	_	NumType=Card	13	nmod	_	_
+16	covid-19	covid-19	NUM	_	NumType=Card	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = taxa de mortalidade vs niveis de vitamina d. estudos realizados na alemanha e conduzidos por dr. bernd glauner e lorenz borsche com 780 pacientes com covid-19, chegou a seguinte conclusao: vitamina d acima de 34ng/ml: zero mortes.
+1	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	vs	versus	ADP	_	_	5	case	_	_
+5	niveis	nivel	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	d.	d.	PUNCT	_	_	29	punct	_	_
+9	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	29	nsubj	_	_
+10	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	alemanha	alemanha	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	conduzidos	conduzir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	conj	_	_
+16	por	por	ADP	_	_	17	case	_	_
+17	dr.	dr.	NOUN	_	_	15	obl:agent	_	_
+18	bernd	bernd	X	_	Foreign=Yes	17	nmod	_	_
+19	glauner	glauner	X	_	Foreign=Yes	18	flat:name	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	lorenz	lorenz	X	_	Foreign=Yes	18	conj	_	_
+22	borsche	borsche	X	_	Foreign=Yes	21	nmod	_	_
+23	com	com	ADP	_	_	25	case	_	_
+24	780	780	NUM	_	NumType=Card	25	nummod	_	_
+25	pacientes	paciente	NOUN	_	Number=Plur	15	obl	_	_
+26	com	com	ADP	_	_	27	case	_	_
+27	covid-19	covid-19	NUM	_	NumType=Card	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	9	punct	_	_
+29	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	seguinte	seguinte	ADJ	_	Number=Sing	32	amod	_	_
+32	conclusao	conclusao	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	34	punct	_	_
+34	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	32	appos	_	_
+35	d	d	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+36	acima	acima	ADV	_	_	34	advmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	34ng/ml	34ng/ml	NOUN	_	_	36	obl	_	SpaceAfter=No
+39	:	:	PUNCT	_	_	41	punct	_	_
+40	zero	zero	NUM	_	NumType=Card	41	nummod	_	_
+41	mortes	morte	NOUN	_	Gender=Fem|Number=Plur	34	parataxis	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0005
+# text = vitamina d acima de 60ng/ml: sintomas de gripe.
+1	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	d	d	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	acima	acima	ADV	_	_	1	advmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	60ng/ml	60ng/ml	NOUN	_	_	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	7	punct	_	_
+7	sintomas	sintoma	NOUN	_	Gender=Masc|Number=Plur	1	parataxis	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	gripe	gripe	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = vitamina d acima de 80ng/ml: nenhum sintoma.
+1	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	d	d	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	acima	acima	ADV	_	_	1	advmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	80ng/ml	80ng/ml	NOUN	_	_	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	sintoma	sintoma	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = vitamina d acima de 80ng/ml: nenhum sintoma.
+1	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	d	d	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	acima	acima	ADV	_	_	1	advmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	80ng/ml	80ng/ml	NOUN	_	_	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	sintoma	sintoma	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+

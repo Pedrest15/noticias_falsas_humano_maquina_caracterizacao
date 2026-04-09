@@ -1,0 +1,177 @@
+# sent_id = S0001
+# text = Presidente do Peru quer expulsar a Odebrecht do país: "Eles estão contaminados pela corrupção".
+1	Presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Peru	Peru	PROPN	_	_	1	nmod	_	_
+5	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	expulsar	expulsar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Odebrecht	Odebrecht	PROPN	_	_	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	país	país	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	16	punct	_	_
+13	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	contaminados	contaminado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	5	parataxis	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O Presidente afirmou que a Odebrecht deve deixar o país e vender seus projetos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Presidente	Presidente	PROPN	_	_	3	nsubj	_	_
+3	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Odebrecht	Odebrecht	PROPN	_	_	7	nsubj	_	_
+7	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	deixar	deixar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	país	país	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	vender	vender	VERB	_	VerbForm=Inf	8	conj	_	_
+13	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	projetos	projeto	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Pedro Paulo Kuczynski, presidente do Peru, disse em alto e bom tom: Alguns projetos da empresa como fornecimento de eletricidade, rodovias e outros são bons, porém, eles estão contaminados pela corrupção.
+1	Pedro	Pedro	PROPN	_	_	10	nsubj	_	_
+2	Paulo	Paulo	PROPN	_	_	1	flat:name	_	_
+3	Kuczynski	Kuczynski	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	presidente	presidente	NOUN	_	Number=Sing	1	appos	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Peru	Peru	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	em	em	ADP	_	_	15	case	_	_
+12	alto	alto	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	bom	bom	ADJ	_	Gender=Masc|Number=Sing	12	conj	_	_
+15	tom	tom	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	31	punct	_	_
+17	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	projetos	projeto	NOUN	_	Gender=Masc|Number=Plur	31	nsubj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	como	como	ADP	_	_	23	case	_	_
+23	fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	eletricidade	eletricidade	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	rodovias	rodovia	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	23	conj	_	_
+30	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	bons	bom	ADJ	_	Gender=Masc|Number=Plur	10	ccomp:speech	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	37	punct	_	_
+33	porém	porém	CCONJ	_	_	37	cc	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	_
+36	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+37	contaminados	contaminado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	31	conj	_	_
+38-39	pela	_	_	_	_	_	_	_	_
+38	por	por	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = A Odebrecht tem que ir embora, acabou , disse.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Odebrecht	Odebrecht	PROPN	_	_	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp:speech	_	_
+4	que	que	ADP	_	_	5	mark	_	_
+5	ir	ir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	embora	embora	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = A empresa já admitiu o pagamento de propinas em 3 governos peruanos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	já	já	ADV	_	_	4	advmod	_	_
+4	admitiu	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	3	3	NUM	_	NumType=Card	11	nummod	_	_
+11	governos	governo	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+12	peruanos	peruano	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Entre os anos de 2005 a 2014, as quantias pagas em suborno chegam a 29 milhões de dólares.
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	2005	2005	NUM	_	NumType=Card	3	nmod	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	2014	2014	NUM	_	NumType=Card	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	quantias	quantia	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
+11	pagas	pagar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	suborno	suborno	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+14	chegam	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	29	29	NUM	_	NumType=Card	17	nummod	_	_
+17	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0013
+# text = Na última semana, o presidente Juan Manuel Santos, da Colômbia, também informou que pretende expulsar a Odebrecht do país.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	semana	semana	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	_	Number=Sing	17	nsubj	_	_
+8	Juan	Juan	PROPN	_	_	7	nmod	_	_
+9	Manuel	Manuel	PROPN	_	_	8	flat:name	_	_
+10	Santos	Santos	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Colômbia	Colômbia	PROPN	_	_	7	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	também	também	ADV	_	_	17	advmod	_	_
+17	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	que	que	SCONJ	_	_	19	mark	_	_
+19	pretende	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+20	expulsar	expulsar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Odebrecht	Odebrecht	PROPN	_	_	20	obj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	17	punct	_	_
+

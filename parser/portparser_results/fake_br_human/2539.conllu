@@ -1,0 +1,209 @@
+# sent_id = S0001
+# text = Na Espanha, Messi é condenado a 21 meses de prisão por fraude fiscal.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Espanha	Espanha	PROPN	_	_	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Messi	Messi	PROPN	_	_	7	nsubj:pass	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	21	21	NUM	_	NumType=Card	10	nummod	_	_
+10	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+15	fiscal	fiscal	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Lionel Messi seu pai Jorge Horacio Messi, foram condenados a 21 meses de prisão por crime fiscal na Espanha.
+1	Lionel	Lionel	PROPN	_	_	10	nsubj:pass	_	_
+2	Messi	Messi	PROPN	_	_	1	flat:name	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	pai	pai	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+5	Jorge	Jorge	PROPN	_	_	4	nmod	_	_
+6	Horacio	Horacio	PROPN	_	_	5	flat:name	_	_
+7	Messi	Messi	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	condenados	condenar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	21	21	NUM	_	NumType=Card	13	nummod	_	_
+13	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	por	por	ADP	_	_	17	case	_	_
+17	crime	crime	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+18	fiscal	fiscal	ADJ	_	Number=Sing	17	amod	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Espanha	Espanha	PROPN	_	_	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = O jogador e seu pai utilizavam empresas em paraísos fiscais para burlar a receita espanhola.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	pai	pai	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+6	utilizavam	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	paraísos	paraíso	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	fiscais	fiscal	ADJ	_	Number=Plur	9	amod	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	burlar	burlar	VERB	_	VerbForm=Inf	6	advcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	receita	receita	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	espanhola	espanhol	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com o processo, ambos sonegaram 4, 1 milhões de euros em impostos.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	processo	processo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+8	sonegaram	sonegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	4	4	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	1	1	NUM	_	NumType=Card	12	nummod	_	_
+12	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Messi foi considerado culpado de três acusações de fraude fiscal, disse o tribunal em comunicado.
+1	Messi	Messi	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	ccomp:speech	_	_
+4	culpado	culpado	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	três	três	NUM	_	NumType=Card	7	nummod	_	_
+7	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	fiscal	fiscal	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Horacio Messi, pai do jogador, também foi condenado pelos mesmos crimes.
+1	Horacio	Horacio	PROPN	_	_	11	nsubj:pass	_	_
+2	Messi	Messi	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	pai	pai	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	também	também	ADV	_	_	11	advmod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12-13	pelos	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	mesmos	mesmo	DET	_	Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = A lei espanhola permite que uma sentença de prisão menor que dois anos possa ser servida sob condicional, o que significa que Messi e seu pai provavelmente não irão à prisão.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lei	lei	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	espanhola	espanhol	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	14	mark	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sentença	sentença	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	menor	menor	ADJ	_	Number=Sing	9	amod	_	_
+11	que	que	ADP	_	_	13	mark	_	_
+12	dois	dois	NUM	_	Gender=Masc|NumType=Card	13	nummod	_	_
+13	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	16	aux:pass	_	_
+16	servida	servir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+17	sob	sob	ADP	_	_	18	case	_	_
+18	condicional	condicional	NOUN	_	Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	_
+21	que	que	PRON	_	PronType=Rel	20	fixed	_	_
+22	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+23	que	que	SCONJ	_	_	30	mark	_	_
+24	Messi	Messi	PROPN	_	_	30	nsubj	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	pai	pai	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+28	provavelmente	provavelmente	ADV	_	_	30	advmod	_	_
+29	não	não	ADV	_	_	30	advmod	_	_
+30	irão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	ccomp	_	_
+31-32	à	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Messi terá que pagar uma multa de 2 milhões de euros e seu pai 1, 5 milhão pelos crimes.
+1	Messi	Messi	PROPN	_	_	2	nsubj	_	_
+2	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	que	que	ADP	_	_	4	mark	_	_
+4	pagar	pagar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	multa	multa	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	2	2	NUM	_	NumType=Card	9	nummod	_	_
+9	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	pai	pai	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+15	1	1	NUM	_	NumType=Card	14	orphan	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	5	5	NUM	_	NumType=Card	18	nummod	_	_
+18	milhão	milhão	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
+19-20	pelos	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Cabe recurso contra a sentença junto à Suprema Corte da Espanha.
+1	Cabe	caber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+3	contra	contra	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sentença	sentença	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	junto	junto	ADV	_	_	1	advmod	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Suprema	Suprema	PROPN	_	_	6	obl	_	_
+10	Corte	Corte	PROPN	_	_	9	flat:name	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Espanha	Espanha	PROPN	_	_	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+

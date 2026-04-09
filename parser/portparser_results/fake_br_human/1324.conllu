@@ -1,0 +1,348 @@
+# sent_id = S0001
+# text = O problema não é gastar 10 mil no cabelo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	não	não	ADV	_	_	5	advmod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	gastar	gastar	VERB	_	VerbForm=Inf	0	root	_	_
+6	10	10	NUM	_	NumType=Card	5	obj	_	_
+7	mil	mil	NUM	_	NumType=Card	6	flat	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = A questão é o resultado!.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	questão	questão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = (Patrícia Carvalho de Brasília) De acordo com a informação de Maurício Lima (Radar on-line), o casal João Santana e Mônica Moura (marqueteiros do PT condenados pela Lava-Jato) irá confirmar para Sérgio Moro que a ex-presidenta (aquela que estoca vento) gastava algo em torno de 10 mil reais por mês para dar um "tapa na peruca".
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Patrícia	Patrícia	PROPN	_	_	38	nsubj	_	_
+3	Carvalho	Carvalho	PROPN	_	_	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Brasília	Brasília	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	2	punct	_	_
+7	De	de	ADP	_	_	8	case	_	_
+8	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	informação	informação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Maurício	Maurício	PROPN	_	_	11	nmod	_	_
+14	Lima	Lima	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Radar	Radar	PROPN	_	_	13	parataxis	_	_
+17	on-line	on-line	X	_	Foreign=Yes	16	flat:name	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	8	punct	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	casal	casal	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+22	João	João	PROPN	_	_	21	nmod	_	_
+23	Santana	Santana	PROPN	_	_	22	flat:name	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	Mônica	Mônica	PROPN	_	_	22	conj	_	_
+26	Moura	Moura	PROPN	_	_	25	flat:name	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	marqueteiros	marqueteiro	NOUN	_	Gender=Masc|Number=Plur	44	appos	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	PT	PT	PROPN	_	_	28	nmod	_	_
+32	condenados	condenar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	28	acl	_	_
+33-34	pela	_	_	_	_	_	_	_	_
+33	por	por	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Lava-Jato	Lava-Jato	PROPN	_	_	32	obl:agent	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	28	punct	_	_
+37	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	aux	_	_
+38	confirmar	confirmar	VERB	_	VerbForm=Inf	0	root	_	_
+39	para	para	ADP	_	_	40	case	_	_
+40	Sérgio	Sérgio	PROPN	_	_	38	obl	_	_
+41	Moro	Moro	PROPN	_	_	40	flat:name	_	_
+42	que	que	SCONJ	_	_	51	mark	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	ex-presidenta	ex-presidenta	NOUN	_	Gender=Fem|Number=Sing	51	nsubj	_	_
+45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
+46	aquela	aquele	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	44	appos	_	_
+47	que	que	PRON	_	PronType=Rel	48	nsubj	_	_
+48	estoca	estocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+49	vento	vento	NOUN	_	Gender=Masc|Number=Sing	48	obj	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	46	punct	_	_
+51	gastava	gastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	ccomp	_	_
+52	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	51	obj	_	_
+53	em	em	ADP	_	ExtPos=ADV	56	advmod	_	_
+54	torno	torno	NOUN	_	Gender=Masc|Number=Sing	53	fixed	_	_
+55	de	de	ADP	_	_	53	fixed	_	_
+56	10	10	NUM	_	NumType=Card	58	nummod	_	_
+57	mil	mil	NUM	_	NumType=Card	56	flat	_	_
+58	reais	real	NOUN	_	Gender=Masc|Number=Plur	51	obj	_	_
+59	por	por	ADP	_	_	60	case	_	_
+60	mês	mês	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	_
+61	para	para	ADP	_	_	62	mark	_	_
+62	dar	dar	VERB	_	VerbForm=Inf	51	advcl	_	_
+63	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+64	"	"	PUNCT	_	_	65	punct	_	SpaceAfter=No
+65	tapa	tapa	NOUN	_	Gender=Fem|Number=Sing	62	obj	_	_
+66-67	na	_	_	_	_	_	_	_	_
+66	em	em	ADP	_	_	68	case	_	_
+67	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
+68	peruca	peruca	NOUN	_	Gender=Fem|Number=Sing	65	nmod	_	SpaceAfter=No
+69	"	"	PUNCT	_	_	65	punct	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = S0007
+# text = Como a corrupção já se tornou algo sistêmico, o que mais me revolta é ver que o dinheiro público (provavelmente originário de propinas da Petrobras) foi usado no cabelo de Dilma de maneira ineficaz!
+1	Como	como	SCONJ	_	_	6	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	já	já	ADV	_	_	6	advmod	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+7	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	xcomp	_	_
+8	sistêmico	sistêmico	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
+11	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+12	mais	mais	ADV	_	_	14	advmod	_	_
+13	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+14	revolta	revoltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	ver	ver	VERB	_	VerbForm=Inf	0	root	_	_
+17	que	que	SCONJ	_	_	31	mark	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+20	público	público	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+22	provavelmente	provavelmente	ADV	_	_	23	advmod	_	_
+23	originário	originário	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Petrobras	Petrobras	PROPN	_	_	25	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	23	punct	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	ccomp	_	_
+32-33	no	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Dilma	Dilma	PROPN	_	_	34	nmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+39	ineficaz	ineficaz	ADJ	_	Number=Sing	38	amod	_	SpaceAfter=No
+40	!	!	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0009
+# text = [...] não deu retorno algum para ela, coitada!
+1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	6	parataxis	_	SpaceAfter=No
+3	..	..	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	]	]	PUNCT	_	_	2	punct	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+9	para	para	ADP	_	_	10	case	_	_
+10	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	coitada	coitado	NOUN	_	Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = É como as obras do PAC que foram feitas no Brasil!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	como	como	ADP	_	_	4	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	obras	obra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PAC	PAC	PROPN	_	_	4	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	10	nsubj:pass	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Brasil	Brasil	PROPN	_	_	10	obl	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Sabe aquele ditado atribuído ao ex-prefeito de São Paulo, Paulo Maluf, "rouba mas faz"???
+1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	ditado	ditado	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	atribuído	atribuír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ex-prefeito	ex-prefeito	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	São	São	PROPN	_	_	7	nmod	_	_
+10	Paulo	Paulo	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	Paulo	Paulo	PROPN	_	_	7	appos	_	_
+13	Maluf	Maluf	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	rouba	roubar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+17	mas	mas	CCONJ	_	_	18	cc	_	_
+18	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	?	?	PUNCT	_	_	16	punct	_	SpaceAfter=No
+21	?	?	PUNCT	_	_	16	punct	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Pois bem, já que o PT "desviou" dinheiro público para pagar até o cabeleireiro da Dilma, poderia ter caprichado mais no penteado, não acham?
+1	Pois	pois	CCONJ	_	_	2	cc	_	_
+2	bem	bem	ADV	_	_	22	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	já	já	ADV	_	ExtPos=SCONJ	9	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PT	PT	PROPN	_	_	9	nsubj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	desviou	desviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	público	público	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	pagar	pagar	VERB	_	VerbForm=Inf	9	advcl	_	_
+15	até	até	ADV	_	_	17	advmod	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cabeleireiro	cabeleireiro	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Dilma	Dilma	PROPN	_	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	9	punct	_	_
+22	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+23	ter	ter	AUX	_	VerbForm=Inf	24	aux	_	_
+24	caprichado	caprichar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	xcomp	_	_
+25	mais	mais	ADV	_	_	24	advmod	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	penteado	penteado	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	não	não	ADV	_	_	31	advmod	_	_
+31	acham	achar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	SpaceAfter=No
+32	?	?	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0017
+# text = A ex-presidenta deve ter sido vítima dos produtos vencidos que foram encontrado no salão de Kamura, durante uma blitz do Procon, no último dia 27.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidenta	ex-presidenta	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ter	ter	AUX	_	VerbForm=Inf	6	aux	_	_
+5	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	6	cop	_	_
+6	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	vencidos	vencido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	9	amod	_	_
+11	que	que	PRON	_	PronType=Rel	13	nsubj:pass	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	salão	salão	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Kamura	Kamura	PROPN	_	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	durante	durante	ADP	_	_	22	case	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	blitz	blitz	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Procon	Procon	PROPN	_	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	30	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	último	último	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	dia	dia	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+31	27	27	NUM	_	NumType=Card	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Dilma estava usando produtos vencidos nos cabelos!
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	usando	usar	VERB	_	VerbForm=Ger	0	root	_	_
+4	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	vencidos	vencido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_
+6-7	nos	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	cabelos	cabelo	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Só pode!
+1	Só	só	ADV	_	_	2	advmod	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Será que é por isso que não ficou bom?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	discourse	_	_
+2	que	que	SCONJ	_	_	8	discourse	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	discourse	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
+6	que	que	SCONJ	_	_	8	discourse	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	bom	bom	ADJ	_	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0025
+# text = Poxa PT!
+1	Poxa	poxa	INTJ	_	_	2	discourse	_	_
+2	PT	PT	PROPN	_	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Deveria ao menos ter seguido o lema do Maluf!
+1	Deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	ExtPos=ADV	6	advmod	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	fixed	_	_
+4	menos	menos	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	_
+5	ter	ter	AUX	_	VerbForm=Inf	6	aux	_	_
+6	seguido	seguir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lema	lema	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Maluf	Maluf	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = Impeachment já nesse cabeleireiro...
+1	Impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	já	já	ADV	_	_	5	advmod	_	_
+3-4	nesse	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	cabeleireiro	cabeleireiro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	...	...	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,174 @@
+# sent_id = S0001
+# text = Em Curitiba, presos de "alta periculosidade" temem os presos de "altíssima periculosidade".
+1	Em	em	ADP	_	_	2	case	_	_
+2	Curitiba	Curitiba	PROPN	_	_	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	presos	preso	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	alta	alto	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	periculosidade	periculosidade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	temem	temer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	presos	preso	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	de	de	ADP	_	_	16	case	_	_
+14	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	altíssima	altíssimo	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	periculosidade	periculosidade	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = A Revista Época ainda informou neste fim de semana que Eduardo Cunha, Antônio Palocci e dois executivos da Odebrecht dividem uma mesma ala com outros dois presos condenados por tráfico de drogas [...] Apesar de dividirem a mesma ala, Eduardo Cunha é o único que está sozinho numa cela, uma espécie de "XILINDRÓ VIP".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Revista	Revista	PROPN	_	_	5	nsubj	_	_
+3	Época	Época	PROPN	_	_	2	flat:name	_	_
+4	ainda	ainda	ADV	_	_	5	advmod	_	_
+5	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	neste	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	semana	semana	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	que	que	SCONJ	_	_	23	mark	_	_
+12	Eduardo	Eduardo	PROPN	_	_	23	nsubj	_	_
+13	Cunha	Cunha	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Antônio	Antônio	PROPN	_	_	12	conj	_	_
+16	Palocci	Palocci	PROPN	_	_	15	flat:name	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	dois	dois	NUM	_	Gender=Masc|NumType=Card	19	nummod	_	_
+19	executivos	executivo	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Odebrecht	Odebrecht	PROPN	_	_	19	nmod	_	_
+23	dividem	dividir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	ala	ala	NOUN	_	Number=Sing	23	obj	_	_
+27	com	com	ADP	_	_	30	case	_	_
+28	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	30	det	_	_
+29	dois	dois	NUM	_	Gender=Masc|NumType=Card	30	nummod	_	_
+30	presos	preso	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+31	condenados	condenar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	30	acl	_	_
+32	por	por	ADP	_	_	33	case	_	_
+33	tráfico	tráfico	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	drogas	droga	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+36	[	[	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	51	parataxis	_	SpaceAfter=No
+38	..	..	PUNCT	_	_	37	parataxis	_	SpaceAfter=No
+39	]	]	PUNCT	_	_	37	punct	_	_
+40	Apesar	apesar	ADV	_	_	23	advmod	_	_
+41	de	de	ADP	_	_	42	mark	_	_
+42	dividirem	dividir	VERB	_	Number=Plur|Person=3|VerbForm=Inf	40	acl	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
+45	ala	ala	NOUN	_	Number=Sing	42	obj	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	40	punct	_	_
+47	Eduardo	Eduardo	PROPN	_	_	51	nsubj	_	_
+48	Cunha	Cunha	PROPN	_	_	47	flat:name	_	_
+49	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
+50	o	o	PRON	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	único	único	ADJ	_	Gender=Masc|Number=Sing	5	root	_	_
+52	que	que	PRON	_	PronType=Rel	54	nsubj	_	_
+53	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
+54	sozinho	sozinho	ADJ	_	Gender=Masc|Number=Sing	51	acl:relcl	_	_
+55-56	numa	_	_	_	_	_	_	_	_
+55	em	em	ADP	_	_	57	case	_	_
+56	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	cela	cela	NOUN	_	Gender=Fem|Number=Sing	54	obl	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	60	punct	_	_
+59	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	51	appos	_	_
+61	de	de	ADP	_	_	63	case	_	_
+62	"	"	PUNCT	_	_	63	punct	_	SpaceAfter=No
+63	XILINDRÓ	XILINDRÓ	PROPN	_	_	60	nmod	_	_
+64	VIP	VIP	PROPN	_	_	63	nmod	_	SpaceAfter=No
+65	"	"	PUNCT	_	_	63	punct	_	SpaceAfter=No
+66	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Palocci divide a cela com Luiz Eduardo Soares e Olívio Rodrigues, ex-funcionários da Odebrecht.
+1	Palocci	Palocci	PROPN	_	_	2	nsubj	_	_
+2	divide	dividir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cela	cela	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	Luiz	Luiz	PROPN	_	_	2	obl	_	_
+7	Eduardo	Eduardo	PROPN	_	_	6	flat:name	_	_
+8	Soares	Soares	PROPN	_	_	6	flat:name	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Olívio	Olívio	PROPN	_	_	6	conj	_	_
+11	Rodrigues	Rodrigues	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	ex-funcionários	ex-funcionários	NOUN	_	Gender=Masc|Number=Plur	6	appos	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Odebrecht	Odebrecht	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Já os dois traficantes estão preocupados com suas integridades físicas.
+1	Já	já	CCONJ	_	_	6	cc	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	dois	dois	NUM	_	Gender=Masc|NumType=Card	4	nummod	_	_
+4	traficantes	traficante	NOUN	_	Number=Plur	6	nsubj	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	preocupados	preocupado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	integridades	integridade	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+10	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Eles comentaram que estão assustados com o nível de perigo que os políticos representam e querem ser transferidos para outra cadeia.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	comentaram	comentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	assustados	assustado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	2	ccomp	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	nível	nível	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	perigo	perigo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	que	que	PRON	_	PronType=Rel	14	obj	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	políticos	político	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
+14	representam	representar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	querem	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	ser	ser	AUX	_	VerbForm=Inf	18	aux:pass	_	_
+18	transferidos	transferir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Na prisão é assim... manda quem tem dinheiro!
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	assim	assim	ADV	_	_	0	root	_	SpaceAfter=No
+6	...	...	PUNCT	_	_	7	punct	_	_
+7	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	quem	quem	PRON	_	PronType=Ind	7	obj	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Pobres traficantes!
+1	Pobres	pobre	ADJ	_	Number=Plur	2	amod	_	_
+2	traficantes	traficante	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+

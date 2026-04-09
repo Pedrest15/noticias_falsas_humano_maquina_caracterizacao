@@ -1,0 +1,196 @@
+# sent_id = S0001
+# text = "Presidente" Michel Temer já discute nomes para compor nova equipe de governo.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Presidente	presidente	NOUN	_	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	Michel	Michel	PROPN	_	_	7	nsubj	_	_
+5	Temer	Temer	PROPN	_	_	4	flat:name	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	discute	discutir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	compor	compor	VERB	_	VerbForm=Inf	7	advcl	_	_
+11	nova	novo	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = A cúpula da oposição e o vice-presidente Michel Temer já estão discutindo possíveis nomes para integrar o governo, caso o impeachment de Dilma se concretize.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cúpula	cúpula	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vice-presidente	vice-presidente	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+9	Michel	Michel	PROPN	_	_	8	nmod	_	_
+10	Temer	Temer	PROPN	_	_	9	flat:name	_	_
+11	já	já	ADV	_	_	13	advmod	_	_
+12	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	discutindo	discutir	VERB	_	VerbForm=Ger	0	root	_	_
+14	possíveis	possível	ADJ	_	Number=Plur	15	amod	_	_
+15	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	integrar	integrar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	governo	governo	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	27	punct	_	_
+21	caso	caso	SCONJ	_	_	27	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Dilma	Dilma	PROPN	_	_	23	nmod	_	_
+26	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	27	expl	_	_
+27	concretize	concretizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Reportagem do jornal "Folha de S.Paulo" informou que partidos como PSDB, DEM e PPS começaram a dar declarações de que darão apoio a Temer após a queda da presidenta.
+1	Reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Folha	Folha	PROPN	_	_	4	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	S.Paulo	S.Paulo	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	6	punct	_	_
+10	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	19	mark	_	_
+12	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
+13	como	como	ADP	_	_	14	case	_	_
+14	PSDB	PSDB	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	DEM	DEM	PROPN	_	_	14	conj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	PPS	PPS	PROPN	_	_	14	conj	_	_
+19	começaram	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+20	a	a	ADP	_	_	21	mark	_	_
+21	dar	dar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+23	de	de	ADP	_	ExtPos=SCONJ	25	mark	_	_
+24	que	que	SCONJ	_	_	23	fixed	_	_
+25	darão	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	acl	_	_
+26	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+27	a	a	ADP	_	_	28	case	_	_
+28	Temer	Temer	PROPN	_	_	25	obl	_	_
+29	após	após	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	queda	queda	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	presidenta	presidenta	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = O PSDB quer que Temer adote parte das propostas pregadas pela sigla em um eventual governo peemedebista.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PSDB	PSDB	PROPN	_	_	3	nsubj	_	_
+3	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	Temer	Temer	PROPN	_	_	6	nsubj	_	_
+6	adote	adotar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	parte	parte	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	propostas	proposta	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+11	pregadas	pregar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+12-13	pela	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sigla	sigla	NOUN	_	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	eventual	eventual	ADJ	_	Number=Sing	18	amod	_	_
+18	governo	governo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+19	peemedebista	peemedebista	ADJ	_	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Em troca, nomes de peso como Fernando Henrique Cardoso, José Serra (SP) e Aécio Neves (MG), prometem trabalhar para dar sustentação ao governo Temer.
+1	Em	em	ADP	_	_	2	case	_	_
+2	troca	troca	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	peso	peso	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	Fernando	Fernando	PROPN	_	_	4	nmod	_	_
+9	Henrique	Henrique	PROPN	_	_	8	flat:name	_	_
+10	Cardoso	Cardoso	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	José	José	PROPN	_	_	8	conj	_	_
+13	Serra	Serra	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	SP	SP	PROPN	_	_	12	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	Aécio	Aécio	PROPN	_	_	8	conj	_	_
+19	Neves	Neves	PROPN	_	_	18	flat:name	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	MG	MG	PROPN	_	_	18	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	2	punct	_	_
+24	prometem	prometer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	trabalhar	trabalhar	VERB	_	VerbForm=Inf	24	xcomp	_	_
+26	para	para	ADP	_	_	27	mark	_	_
+27	dar	dar	VERB	_	VerbForm=Inf	25	advcl	_	_
+28	sustentação	sustentação	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+29-30	ao	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	governo	governo	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+32	Temer	Temer	PROPN	_	_	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0011
+# text = Aécio declarou que o PSDB "terá grandeza e responsabilidade".
+1	Aécio	Aécio	PROPN	_	_	2	nsubj	_	_
+2	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PSDB	PSDB	PROPN	_	_	7	nsubj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+8	grandeza	grandeza	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = O processo [impeachment] agora é inevitável.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	4	punct	_	_
+6	agora	agora	ADV	_	_	8	advmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	inevitável	inevitável	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = Estamos dispostos a conversar em torno de uma agenda, não de cargos.
+1	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	dispostos	disposto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+3	a	a	ADP	_	_	4	mark	_	_
+4	conversar	conversar	VERB	_	VerbForm=Inf	2	acl	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	torno	torno	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	agenda	agenda	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	não	não	ADV	_	_	13	advmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	cargos	cargo	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+

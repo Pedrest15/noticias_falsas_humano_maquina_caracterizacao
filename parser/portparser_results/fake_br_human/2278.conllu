@@ -1,0 +1,159 @@
+# sent_id = S0001
+# text = Senadores continuam protagonizando baixaria.
+1	Senadores	senador	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	protagonizando	protagonizar	VERB	_	VerbForm=Ger	2	xcomp	_	_
+4	baixaria	baixaria	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Caiado diz para Lindbergh parar de "cheirar" e fazer antidoping.
+1	Caiado	Caiado	PROPN	_	_	2	nsubj	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	para	para	ADP	_	_	5	mark	_	_
+4	Lindbergh	Lindbergh	PROPN	_	_	5	nsubj	_	_
+5	parar	parar	VERB	_	VerbForm=Inf	2	ccomp	_	_
+6	de	de	ADP	_	_	8	mark	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	cheirar	cheirar	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	fazer	fazer	VERB	_	VerbForm=Inf	8	conj	_	_
+12	antidoping	antidoping	NOUN	_	Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = E a briga entre os senadores Ronaldo Caiado e Lindbergh Farias parece não ter fim.
+1	E	e	CCONJ	_	_	12	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	briga	briga	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	entre	entre	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	Ronaldo	Ronaldo	PROPN	_	_	6	nmod	_	_
+8	Caiado	Caiado	PROPN	_	_	7	flat:name	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Lindbergh	Lindbergh	PROPN	_	_	7	conj	_	_
+11	Farias	Farias	PROPN	_	_	10	flat:name	_	_
+12	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	ter	ter	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	fim	fim	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = Mais uma vez, ambos protagonizaram uma vergonha nacional.
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	uma	um	NUM	_	Gender=Fem|NumType=Card	3	nummod	_	_
+3	vez	vez	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+6	protagonizaram	protagonizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vergonha	vergonha	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	nacional	nacional	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Após a senadora Gleisi Hoffmann dizer que os senadores não tinham nenhuma moral para julgar Dilma, senadores pró-impeachment se irritaram: Ronaldo Caiado se levantou e disse: "Eu não sou ladrão de aposentadoria" se referindo ao marido de Gleisi, Paulo Bernardo.
+1	Após	após	ADP	_	_	6	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	Gleisi	Gleisi	PROPN	_	_	3	nmod	_	_
+5	Hoffmann	Hoffmann	PROPN	_	_	4	flat:name	_	_
+6	dizer	dizer	VERB	_	VerbForm=Inf	21	advcl	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	tinham	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+12	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
+13	moral	moral	NOUN	_	Number=Sing	11	obj	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	julgar	julgar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	Dilma	Dilma	PROPN	_	_	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	6	punct	_	_
+18	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+19	pró-impeachment	pró-impeachment	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+20	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	21	expl	_	_
+21	irritaram	irritar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	26	punct	_	_
+23	Ronaldo	Ronaldo	PROPN	_	_	26	nsubj	_	_
+24	Caiado	Caiado	PROPN	_	_	23	flat:name	_	_
+25	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	26	expl	_	_
+26	levantou	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	parataxis	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	conj	_	SpaceAfter=No
+29	:	:	PUNCT	_	_	34	punct	_	_
+30	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+31	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+32	não	não	ADV	_	_	34	advmod	_	_
+33	sou	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	28	ccomp:speech	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	aposentadoria	aposentadoria	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	34	punct	_	_
+38	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	39	expl	_	_
+39	referindo	referir	VERB	_	VerbForm=Ger	26	advcl	_	_
+40-41	ao	_	_	_	_	_	_	_	_
+40	a	a	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	marido	marido	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	Gleisi	Gleisi	PROPN	_	_	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	46	punct	_	_
+46	Paulo	Paulo	PROPN	_	_	42	appos	_	_
+47	Bernardo	Bernardo	PROPN	_	_	46	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0011
+# text = Gleisi respondeu a Caiado: Você é de trabalhador escravo Lindbergh entrou na confusão: Sua ligação é com o Carlinhos Cachoeira disse para Caiado Caiado ficou ficou nervoso e soltou: Tem que fazer antidoping.
+1	Gleisi	Gleisi	PROPN	_	_	2	nsubj	_	_
+2	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	Caiado	Caiado	PROPN	_	_	2	obl	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	9	punct	_	_
+6	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	trabalhador	trabalhador	NOUN	_	Gender=Masc|Number=Sing	2	ccomp:speech	_	_
+10	escravo	escravo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	Lindbergh	Lindbergh	PROPN	_	_	12	nsubj	_	_
+12	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	confusão	confusão	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	24	punct	_	_
+17	Sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	ligação	ligação	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	com	com	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Carlinhos	Carlinhos	PROPN	_	_	24	ccomp:speech	_	_
+23	Cachoeira	Cachoeira	PROPN	_	_	22	flat:name	_	_
+24	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+25	para	para	ADP	_	_	26	case	_	_
+26	Caiado	Caiado	PROPN	_	_	24	obl	_	_
+27	Caiado	Caiado	PROPN	_	_	28	nsubj	_	_
+28	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+29	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	xcomp	_	_
+30	nervoso	nervoso	ADJ	_	Gender=Masc|Number=Sing	29	xcomp	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	soltou	soltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	34	punct	_	_
+34	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis	_	_
+35	que	que	ADP	_	_	36	mark	_	_
+36	fazer	fazer	VERB	_	VerbForm=Inf	34	xcomp	_	_
+37	antidoping	antidoping	NOUN	_	Number=Sing	36	obj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Fica aqui cheirando não disse.
+1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp:speech	_	_
+2	aqui	aqui	ADV	_	_	1	advmod	_	_
+3	cheirando	cheirar	VERB	_	VerbForm=Ger	1	xcomp	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+

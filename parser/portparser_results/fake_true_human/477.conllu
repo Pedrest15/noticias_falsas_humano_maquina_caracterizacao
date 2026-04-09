@@ -1,0 +1,120 @@
+# sent_id = S0001
+# text = centro kennedy tem cursos gratuitos (maquiagem, inglês, espanhol etc) para 219 cursos gratuitos do centro kennedy 219: – maquiagem; – designer de sobrancelhas; – inglês; – espanhol; – informática: word, excel, power point; – danças; – massagem, entre outros.
+1	centro	centro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	kennedy	kennedy	X	_	_	1	nmod	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cursos	curso	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	gratuitos	gratuito	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	maquiagem	maquiagem	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	inglês	inglês	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	espanhol	espanhol	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+12	etc	etc	PRON	_	PronType=Dem	11	cc	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	7	punct	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	219	219	NUM	_	NumType=Card	16	nummod	_	_
+16	cursos	curso	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+17	gratuitos	gratuito	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	centro	centro	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21	kennedy	kennedy	X	_	Foreign=Yes	20	nmod	_	_
+22	219	219	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	25	punct	_	_
+24	–	–	PUNCT	_	_	25	punct	_	_
+25	maquiagem	maquiagem	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
+26	;	;	PUNCT	_	_	28	punct	_	_
+27	–	–	PUNCT	_	_	28	punct	_	_
+28	designer	designer	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	sobrancelhas	sobrancelha	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	;	;	PUNCT	_	_	33	punct	_	_
+32	–	–	PUNCT	_	_	33	punct	_	_
+33	inglês	inglês	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+34	;	;	PUNCT	_	_	36	punct	_	_
+35	–	–	PUNCT	_	_	36	punct	_	_
+36	espanhol	espanhol	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+37	;	;	PUNCT	_	_	39	punct	_	_
+38	–	–	PUNCT	_	_	39	punct	_	_
+39	informática	informática	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+40	:	:	PUNCT	_	_	41	punct	_	_
+41	word	word	X	_	Foreign=Yes	39	parataxis	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	excel	excel	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	41	conj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	power	power	X	_	Foreign=Yes	41	conj	_	_
+46	point	point	X	_	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
+47	;	;	PUNCT	_	_	49	punct	_	_
+48	–	–	PUNCT	_	_	49	punct	_	_
+49	danças	dança	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	SpaceAfter=No
+50	;	;	PUNCT	_	_	52	punct	_	_
+51	–	–	PUNCT	_	_	52	punct	_	_
+52	massagem	massagem	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	55	punct	_	_
+54	entre	entre	ADP	_	_	55	case	_	_
+55	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	25	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = matrículas no local.
+1	matrículas	matrícula	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	local	local	NOUN	_	Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = será feita matrícula/rematrícula mediante xerox de rg, cpf, comprov.
+1	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
+2	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	matrícula/rematrícula	matrícula/rematrícula	NOUN	_	_	2	nsubj:pass	_	_
+4	mediante	mediante	ADP	_	_	5	case	_	_
+5	xerox	xerox	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	rg	rg	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	cpf	cpf	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	comprov	comprov	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = endereço, comprov.
+1	endereço	endereço	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	comprov	comprov	NOUN	_	Gender=Masc	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = de renda e 2 fotos 3x4.
+1	de	de	ADP	_	_	2	case	_	_
+2	renda	renda	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	2	2	NUM	_	NumType=Card	5	nummod	_	_
+5	fotos	foto	NOUN	_	Number=Plur	2	conj	_	_
+6	3x4	3x4	NUM	_	NumType=Card	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = av rio de janeiro 327 – são bernardo.
+1	av	av	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	rio	rio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	327	327	NUM	_	NumType=Card	1	nmod	_	_
+6	–	–	PUNCT	_	_	7	punct	_	_
+7	são	são	NOUN	_	_	1	parataxis	_	_
+8	bernardo	bernardo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = fone: 3272.7224.
+1	fone	fone	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	3272.7224	3272.7224	NUM	_	NumType=Card	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

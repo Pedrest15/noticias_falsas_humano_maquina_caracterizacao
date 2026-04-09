@@ -1,0 +1,123 @@
+# sent_id = S0001
+# text = Os fracassados!
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	fracassados	fracassado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = PT expulsa Rede Globo de coletiva com Fernando Haddad.
+1	PT	PT	PROPN	_	_	2	nsubj	_	_
+2	expulsa	expulsar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Rede	Rede	PROPN	_	_	2	obj	_	_
+4	Globo	Globo	PROPN	_	_	3	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	coletiva	coletiva	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	Fernando	Fernando	PROPN	_	_	6	nmod	_	_
+9	Haddad	Haddad	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = A repórter Andréia Sadi, do canal Globo News foi hostilizada por militantes petistas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3	Andréia	Andréia	PROPN	_	_	2	nmod	_	_
+4	Sadi	Sadi	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	canal	canal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	Globo	Globo	PROPN	_	_	8	nmod	_	_
+10	News	News	PROPN	_	_	9	flat:name	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	hostilizada	hostilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	militantes	militante	NOUN	_	Number=Plur	12	obl:agent	_	_
+15	petistas	petista	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = A equipe da Rede Globo de televisão foi proibida de permanecer na coletiva do Prefeito perdedor Fernando Haddad.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Rede	Rede	PROPN	_	_	2	nmod	_	_
+6	Globo	Globo	PROPN	_	_	5	flat:name	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	proibida	proibir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	de	de	ADP	_	_	12	mark	_	_
+12	permanecer	permanecer	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	coletiva	coletiva	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Prefeito	Prefeito	PROPN	_	_	15	nmod	_	_
+19	perdedor	perdedor	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	Fernando	Fernando	PROPN	_	_	18	nmod	_	_
+21	Haddad	Haddad	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Haddad foi massacrado nas urnas pelo candidato João Dória Jr. Por questões de segurança, tanto a jornalista quanto a equipe de filmagem deixaram o local com medo de serem agredidos.
+1	Haddad	Haddad	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	massacrado	massacrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	nas	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	3	obl:agent	_	_
+10	João	João	PROPN	_	_	9	nmod	_	_
+11	Dória	Dória	PROPN	_	_	10	flat:name	_	_
+12	Jr.	Jr.	PUNCT	_	_	3	punct	_	_
+13	Por	por	ADP	_	_	14	case	_	_
+14	questões	questão	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	segurança	segurança	NOUN	_	Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	tanto	tanto	CCONJ	_	_	20	cc	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	jornalista	jornalista	NOUN	_	Number=Sing	26	nsubj	_	_
+21	quanto	quanto	CCONJ	_	_	23	cc	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	filmagem	filmagem	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	deixaram	deixar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	local	local	NOUN	_	Number=Sing	26	obj	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	medo	medo	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+31	de	de	ADP	_	_	33	mark	_	_
+32	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	33	aux:pass	_	_
+33	agredidos	agredir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	30	acl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Esse é o PT!
+1	Esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PT	PT	PROPN	_	_	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Agora eles vão quebrar tudo!
+1	Agora	agora	ADV	_	_	4	advmod	_	_
+2	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	quebrar	quebrar	VERB	_	VerbForm=Inf	0	root	_	_
+5	tudo	tudo	PRON	_	PronType=Ind	4	obj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	4	punct	_	_
+

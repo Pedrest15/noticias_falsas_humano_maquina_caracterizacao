@@ -1,0 +1,278 @@
+# sent_id = S0001
+# text = STF nega pedido de habeas corpus feito em nome de Lula.
+1	STF	STF	PROPN	_	_	2	nsubj	_	_
+2	nega	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	habeas	habeas	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	corpus	corpus	NOUN	_	Gender=Masc|Number=Sing	5	flat:foreign	_	_
+7	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	nome	nome	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Lula	Lula	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Documento comparou o petista a Getúlio Vargas.
+1	Documento	documento	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	comparou	comparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	petista	petista	NOUN	_	Number=Sing	2	obj	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	Getúlio	Getúlio	PROPN	_	_	2	obl	_	_
+7	Vargas	Vargas	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = A petição foi classificada como "confusa" pela presidente da Suprema Corte.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	petição	petição	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	classificada	classificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	como	como	ADP	_	_	7	case	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	confusa	confuso	ADJ	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	presidente	presidente	NOUN	_	Number=Sing	4	obl:agent	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Suprema	Suprema	PROPN	_	_	11	nmod	_	_
+15	Corte	Corte	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Cármen Lúcia informou que não é incumbência do Supremo julgar um habeas corpus contra futuras decisões de juízes federais.
+1	Cármen	Cármen	PROPN	_	_	3	nsubj	_	_
+2	Lúcia	Lúcia	PROPN	_	_	1	flat:name	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	não	não	ADV	_	_	7	advmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	incumbência	incumbência	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Supremo	Supremo	PROPN	_	_	7	nmod	_	_
+11	julgar	julgar	VERB	_	VerbForm=Inf	7	csubj	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	habeas	habeas	X	_	Foreign=Yes	11	obj	_	_
+14	corpus	corpus	X	_	Foreign=Yes	13	flat:foreign	_	_
+15	contra	contra	ADP	_	_	17	case	_	_
+16	futuras	futuro	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+17	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	juízes	juíze	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+20	federais	federal	ADJ	_	Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O pedido foi negado e os argumentos do autor nem mesmo foram analisados.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	negado	negar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	e	e	CCONJ	_	_	14	cc	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	argumentos	argumento	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	autor	autor	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	nem	nem	ADV	_	_	14	advmod	_	_
+12	mesmo	mesmo	ADV	_	_	11	advmod	_	_
+13	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	analisados	analisar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = A ministra determinou que o documento seja enviado para o Tribunal Regional Federal da 4a Região (TRF4), em Porto Alegre.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	documento	documento	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+7	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	enviado	enviar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Tribunal	Tribunal	PROPN	_	_	8	obl	_	_
+12	Regional	Regional	PROPN	_	_	11	flat:name	_	_
+13	Federal	Federal	PROPN	_	_	11	flat:name	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	4a	4a	ADJ	_	Gender=Fem|NumType=Ord	17	amod	_	_
+17	Região	Região	PROPN	_	_	11	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	TRF4	TRF4	PROPN	_	_	11	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	Porto	Porto	PROPN	_	_	11	nmod	_	_
+24	Alegre	Alegre	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = É para TRF4 que devem ser endereçados os recursos contra as decisões de Moro.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	discourse	_	_
+2	para	para	ADP	_	_	3	case	_	_
+3	TRF4	TRF4	PROPN	_	_	5	obl	_	_
+4	que	que	SCONJ	_	_	5	discourse	_	_
+5	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
+7	endereçados	endereçar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+10	contra	contra	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Moro	Moro	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = O cidadão que tentou defender Lula é apenas um estagiário do curso de direito, de acordo com o cadastro OAB.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	defender	defender	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	Lula	Lula	PROPN	_	_	5	obj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	apenas	apenas	ADV	_	_	10	advmod	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	estagiário	estagiário	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	curso	curso	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	direito	direito	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cadastro	cadastro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	OAB	OAB	PROPN	_	_	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = "Uma eventual prisão de Lula causará enorme clamor social", que pode ser comparado ao suicídio do ex-presidente Getúlio Vargas, em 1954.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	eventual	eventual	ADJ	_	Number=Sing	4	amod	_	_
+4	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	4	nmod	_	_
+7	causará	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	enorme	enorme	ADJ	_	Number=Sing	9	amod	_	_
+9	clamor	clamor	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	social	social	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	16	aux:pass	_	_
+16	comparado	comparar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+17-18	ao	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	suicídio	suicídio	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ex-presidente	ex-presidente	NOUN	_	Number=Sing	19	nmod	_	_
+23	Getúlio	Getúlio	PROPN	_	_	22	nmod	_	_
+24	Vargas	Vargas	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	1954	1954	NUM	_	NumType=Card	19	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0019
+# text = Na argumentação do estagiário, Lula está sofrendo coação de liberdade por abusos cometidos pelo juiz Sérgio Moro: "Sem sombra de dúvida, estamos diante de um CAOS judicial, onde o Poder Judiciário tenta incriminar o paciente sem qualquer indicio de crime de qualquer espécie" disse.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	argumentação	argumentação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	estagiário	estagiário	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	Lula	Lula	PROPN	_	_	10	nsubj	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sofrendo	sofrer	VERB	_	VerbForm=Ger	53	ccomp:speech	_	_
+11	coação	coação	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	abusos	abuso	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+16	cometidos	cometer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	16	obl:agent	_	_
+20	Sérgio	Sérgio	PROPN	_	_	19	nmod	_	_
+21	Moro	Moro	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	30	punct	_	_
+23	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+24	Sem	sem	ADP	_	_	25	case	_	_
+25	sombra	sombra	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	dúvida	dúvida	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	25	punct	_	_
+29	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	diante	diante	ADV	_	_	10	parataxis	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	CAOS	CAOS	PROPN	_	_	30	obl	_	_
+34	judicial	judicial	ADJ	_	Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	40	punct	_	_
+36	onde	onde	ADV	_	_	40	advmod	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Poder	Poder	PROPN	_	_	40	nsubj	_	_
+39	Judiciário	Judiciário	PROPN	_	_	38	flat:name	_	_
+40	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+41	incriminar	incriminar	VERB	_	VerbForm=Inf	40	xcomp	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	paciente	paciente	NOUN	_	Number=Sing	41	obj	_	_
+44	sem	sem	ADP	_	_	46	case	_	_
+45	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	46	det	_	_
+46	indicio	indicio	NOUN	_	Gender=Masc|Number=Sing	41	obl	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	crime	crime	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	51	det	_	_
+51	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+52	"	"	PUNCT	_	_	30	punct	_	_
+53	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	_
+
+# sent_id = S0021
+# text = O futuro advogado não faz parte da equipe de defesa do petista.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	futuro	futuro	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	parte	parte	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	petista	petista	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+

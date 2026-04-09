@@ -1,0 +1,57 @@
+# sent_id = S0001
+# text = Mais um registro do fascismo petista: Deputados "black- blocs" do PT quebram dez urnas no congresso.
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	um	um	NUM	_	Gender=Masc|NumType=Card	3	nummod	_	_
+3	registro	registro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fascismo	fascismo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	petista	petista	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	18	punct	_	_
+9	Deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	black	black	X	_	Foreign=Yes	9	nmod	_	SpaceAfter=No
+12	-	-	X	_	Foreign=Yes	11	flat:foreign	_	_
+13	blocs	blocs	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	11	punct	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	PT	PT	PROPN	_	_	11	nmod	_	_
+18	quebram	quebrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+19	dez	dez	NUM	_	NumType=Card	20	nummod	_	_
+20	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	congresso	congresso	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O jornal Estadão denunciou um total de dez urnas eletrônicas quebradas por deputados do PT e aliados na Câmara.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Estadão	Estadão	PROPN	_	_	2	nmod	_	_
+4	denunciou	denunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	total	total	NOUN	_	Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	dez	dez	NUM	_	NumType=Card	9	nummod	_	_
+9	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10	eletrônicas	eletrônico	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	quebradas	quebrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+12	por	por	ADP	_	_	13	case	_	_
+13	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	11	obl:agent	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	PT	PT	PROPN	_	_	13	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Câmara	Câmara	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+

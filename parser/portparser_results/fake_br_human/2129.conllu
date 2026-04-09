@@ -1,0 +1,131 @@
+# sent_id = S0001
+# text = Palocci poderá pegar mais de 20 anos de cadeia.
+1	Palocci	Palocci	PROPN	_	_	2	nsubj	_	_
+2	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	pegar	pegar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	mais	mais	ADV	_	ExtPos=ADV	6	advmod	_	_
+5	de	de	ADP	_	_	4	fixed	_	_
+6	20	20	NUM	_	NumType=Card	7	nummod	_	_
+7	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Felipe Hille Pace, delegado da Polícia Federal, afirmou durante coletiva que: "Palocci teve um papel maior do que José Dirceu no esquema criminoso de corrupção, lavagem de dinheiro e recebimento de propinas" Dirceu foi condenado pelo juiz Sérgio Moro a 23 anos de prisão.
+1	Felipe	Felipe	PROPN	_	_	11	nsubj	_	_
+2	Hille	Hille	PROPN	_	_	1	flat:name	_	_
+3	Pace	Pace	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polícia	Polícia	PROPN	_	_	5	nmod	_	_
+9	Federal	Federal	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	durante	durante	ADP	_	_	13	case	_	_
+13	coletiva	coletiva	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	que	que	SCONJ	_	_	18	mark	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	18	punct	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	Palocci	Palocci	PROPN	_	_	18	nsubj	_	_
+18	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp:speech	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	papel	papel	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	maior	maior	ADJ	_	Number=Sing	20	amod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	ExtPos=SCONJ	25	mark	_	_
+23	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	fixed	_	_
+24	que	que	PRON	_	PronType=Rel	22	fixed	_	_
+25	José	José	PROPN	_	_	21	advcl	_	_
+26	Dirceu	Dirceu	PROPN	_	_	25	flat:name	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+30	criminoso	criminoso	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+37	e	e	CCONJ	_	_	38	cc	_	_
+38	recebimento	recebimento	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	18	punct	_	_
+42	Dirceu	Dirceu	PROPN	_	_	44	nsubj:pass	_	_
+43	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	aux:pass	_	_
+44	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	root	_	_
+45-46	pelo	_	_	_	_	_	_	_	_
+45	por	por	ADP	_	_	47	case	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	44	obl:agent	_	_
+48	Sérgio	Sérgio	PROPN	_	_	47	nmod	_	_
+49	Moro	Moro	PROPN	_	_	48	flat:name	_	_
+50	a	a	ADP	_	_	52	case	_	_
+51	23	23	NUM	_	NumType=Card	52	nummod	_	_
+52	anos	ano	NOUN	_	Gender=Masc|Number=Plur	44	obl	_	_
+53	de	de	ADP	_	_	54	case	_	_
+54	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	52	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = Seguindo esse raciocínio, Palocci (55 anos) vai passar o resto de sua vida na cadeia [...] a não ser que ele entregue "o chefe".
+1	Seguindo	seguir	VERB	_	VerbForm=Ger	11	advcl	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	raciocínio	raciocínio	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	Palocci	Palocci	PROPN	_	_	11	nsubj	_	_
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	55	55	NUM	_	NumType=Card	8	nummod	_	_
+8	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	passar	passar	VERB	_	VerbForm=Inf	0	root	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	resto	resto	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	vida	vida	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+20	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+22	..	..	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	21	punct	_	_
+24	a	a	ADP	_	ExtPos=SCONJ	29	mark	_	_
+25	não	não	ADV	_	_	24	fixed	_	_
+26	ser	ser	AUX	_	VerbForm=Inf	24	fixed	_	_
+27	que	que	SCONJ	_	_	24	fixed	_	_
+28	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	entregue	entregar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+30	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Fala logo o nome do chefe Palocci, são só 4 letrinhas!
+1	Fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	logo	logo	ADV	_	_	1	advmod	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Palocci	Palocci	PROPN	_	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	só	só	ADV	_	_	12	advmod	_	_
+12	4	4	NUM	_	NumType=Card	13	nummod	_	_
+13	letrinhas	letrinho	NOUN	_	Gender=Fem|Number=Plur	1	parataxis	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	1	punct	_	_
+

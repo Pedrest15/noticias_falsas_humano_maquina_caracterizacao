@@ -1,0 +1,262 @@
+# sent_id = S0001
+# text = Demissão em massa?
+1	Demissão	demissão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	massa	massa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Globo perde mais 2 de seus principais diretores.
+1	Globo	Globo	PROPN	_	_	2	nsubj	_	_
+2	perde	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	2	2	NUM	_	NumType=Card	2	obj	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+7	principais	principal	ADJ	_	Number=Plur	8	amod	_	_
+8	diretores	diretor	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = BOMBA 1.
+1	BOMBA	BOMBA	PROPN	_	_	0	root	_	_
+2	1	1	NUM	_	NumType=Card	1	nmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Primeiro foram jornalistas e atores famosos... agora são os diretores que estão abandonando o barco!
+1	Primeiro	primeiro	ADV	_	_	3	advmod	_	_
+2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	jornalistas	jornalista	NOUN	_	Number=Plur	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	atores	ator	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+6	famosos	famoso	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	...	...	PUNCT	_	_	11	punct	_	_
+8	agora	agora	ADV	_	_	11	advmod	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	diretores	diretor	NOUN	_	Gender=Masc|Number=Plur	3	parataxis	_	_
+12	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+13	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	abandonando	abandonar	VERB	_	VerbForm=Ger	11	acl:relcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	barco	barco	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O pedido de demissão do diretor Luiz Nascimento (chefão do programa Fantástico) apanhou todos de surpresa.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	demissão	demissão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Luiz	Luiz	PROPN	_	_	7	nmod	_	_
+9	Nascimento	Nascimento	PROPN	_	_	8	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	chefão	chefão	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	programa	programa	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	Fantástico	Fantástico	PROPN	_	_	14	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	11	punct	_	_
+17	apanhou	apanhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	17	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0011
+# text = Nascimento compõe a equipe de jornalismo da emissora desde 1993, ou seja, há quase 25 anos.
+1	Nascimento	Nascimento	PROPN	_	_	2	nsubj	_	_
+2	compõe	compor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	jornalismo	jornalismo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+10	desde	desde	ADP	_	_	11	case	_	_
+11	1993	1993	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	ou	ou	CCONJ	_	ExtPos=CCONJ	16	cc	_	_
+14	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	fixed	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	quase	quase	ADV	_	_	18	advmod	_	_
+18	25	25	NUM	_	NumType=Card	19	nummod	_	_
+19	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = De acordo com o jornalista Daniel Castro, a decisão partiu do próprio diretor, que decidiu investir em qualidade de vida e respirar "novos ares" [...] ele vai se mudar para Portugal.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jornalista	jornalista	NOUN	_	Number=Sing	2	nmod	_	_
+6	Daniel	Daniel	PROPN	_	_	5	nmod	_	_
+7	Castro	Castro	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	partiu	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+19	investir	investir	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	vida	vida	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	respirar	respirar	VERB	_	VerbForm=Inf	19	conj	_	_
+26	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	novos	novo	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+28	ares	are	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30	[	[	PUNCT	_	_	37	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	37	parataxis	_	SpaceAfter=No
+32	..	..	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	]	]	PUNCT	_	_	31	punct	_	_
+34	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+35	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+36	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	37	expl	_	_
+37	mudar	mudar	VERB	_	VerbForm=Inf	11	parataxis	_	_
+38	para	para	ADP	_	_	39	case	_	_
+39	Portugal	Portugal	PROPN	_	_	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Com a saída de Nascimento, a globo perderá também a diretora da GloboNews, Eugenia Moreyra, que é esposa do diretor e, assim como ele, decidiu "abraçar a terrinha do ORA POIS".
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	saída	saída	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Nascimento	Nascimento	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	globo	globo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	perderá	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	também	também	ADV	_	_	9	advmod	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	diretora	diretor	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	GloboNews	GloboNews	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Eugenia	Eugenia	PROPN	_	_	12	appos	_	_
+18	Moreyra	Moreyra	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	12	acl:relcl	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	e	e	CCONJ	_	_	32	cc	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	30	punct	_	_
+28	assim	assim	ADV	_	ExtPos=SCONJ	30	mark	_	_
+29	como	como	SCONJ	_	_	28	fixed	_	_
+30	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	advcl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	abraçar	abraçar	VERB	_	VerbForm=Inf	32	xcomp	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	terrinha	terrinha	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	ORA	ORA	PROPN	_	_	36	nmod	_	_
+40	POIS	POIS	PROPN	_	_	39	flat:name	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0017
+# text = Eugênia pediu dispensa e partirá com o marido rumo a Lisboa.
+1	Eugênia	Eugênia	PROPN	_	_	2	nsubj	_	_
+2	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dispensa	dispensa	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	partirá	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marido	marido	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	Lisboa	Lisboa	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = É claro que ninguém é insubstituível e a Rede Globo tem um arsenal de bons profissionais, mas a "pancada na moleira" pegou todos de surpresa!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	6	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	insubstituível	insubstituível	ADJ	_	Number=Sing	2	csubj	_	_
+7	e	e	CCONJ	_	_	11	cc	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Rede	Rede	PROPN	_	_	11	nsubj	_	_
+10	Globo	Globo	PROPN	_	_	9	flat:name	_	_
+11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	arsenal	arsenal	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	bons	bom	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+16	profissionais	profissional	NOUN	_	Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	26	punct	_	_
+18	mas	mas	CCONJ	_	_	26	cc	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	pancada	pancada	NOUN	_	Number=Sing	26	nsubj	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	moleira	moleiro	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	21	punct	_	_
+26	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	csubj	_	_
+27	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	26	obj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = *** a INFORMAÇÃO é do site Na Telinha, do UOL ***.
+1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
+2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
+3	*	*	PUNCT	_	_	1	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	INFORMAÇÃO	INFORMAÇÃO	PROPN	_	_	9	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	site	site	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+10-11	Na	_	_	_	_	_	_	_	_
+10	Em	Em	PROPN	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Telinha	Telinha	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	UOL	UOL	PROPN	_	_	9	nmod	_	_
+17	*	*	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	*	*	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	*	*	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+

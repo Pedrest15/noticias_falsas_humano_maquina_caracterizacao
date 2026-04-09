@@ -1,0 +1,100 @@
+# sent_id = S0001
+# text = Urgente: Nova Política de Privacidade do WhatsApp em Vigor! A partir de amanhã, 1o de novembro, o WhatsApp implementará sua nova política que permite o uso irrestrito de suas fotos e mensagens.
+1	Urgente	urgente	ADJ	_	Number=Sing	24	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	4	punct	_	_
+3	Nova	novo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	Política	Política	PROPN	_	_	1	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Privacidade	Privacidade	PROPN	_	_	4	flat:name	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	WhatsApp	WhatsApp	PROPN	_	_	4	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Vigor	Vigor	PROPN	_	_	4	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	24	punct	_	_
+13	A	a	ADP	_	_	14	mark	_	_
+14	partir	partir	VERB	_	VerbForm=Inf	24	advcl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	amanhã	amanhã	ADV	_	_	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	1o	1o	ADJ	_	Gender=Masc|NumType=Ord	16	appos	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	18	punct	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	WhatsApp	WhatsApp	PROPN	_	_	24	nsubj	_	_
+24	implementará	implementar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+25	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+26	nova	novo	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
+27	política	política	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+28	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+29	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	uso	uso	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32	irrestrito	irrestrito	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
+35	fotos	foto	NOUN	_	Number=Plur	31	nmod	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	mensagens	mensagem	NOUN	_	Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0003
+# text = Especialistas alertam: tudo o que você postou, inclusive mensagens excluídas, poderá ser utilizado em processos judiciais e compartilhado com o Facebook e o Instagram.
+1	Especialistas	especialista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	alertam	alertar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	14	punct	_	_
+4	tudo	tudo	PRON	_	PronType=Ind	14	nsubj	_	_
+5	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	_
+6	que	que	PRON	_	PronType=Rel	5	fixed	_	_
+7	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	postou	postar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	inclusive	inclusive	ADV	_	_	11	case	_	_
+11	mensagens	mensagem	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+12	excluídas	excluir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	16	aux:pass	_	_
+16	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	processos	processo	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+19	judiciais	judicial	ADJ	_	Number=Plur	18	amod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	compartilhado	compartilhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	conj	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Facebook	Facebook	PROPN	_	_	21	obl	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Instagram	Instagram	PROPN	_	_	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Proteja-se agora! Copie e cole esta mensagem em seu status para restringir o acesso às suas informações pessoais.
+1-2	Proteja-se	_	_	_	_	_	_	_	_
+1	Proteja	proteger	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	agora	agora	ADV	_	_	1	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	5	punct	_	_
+5	Copie	copiar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	cole	colar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	status	status	NOUN	_	Gender=Masc	5	obl	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	restringir	restringir	VERB	_	VerbForm=Inf	5	advcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	às	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	20	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	informações	informação	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+21	pessoais	pessoal	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+

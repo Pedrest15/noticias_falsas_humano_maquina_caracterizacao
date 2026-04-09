@@ -1,0 +1,428 @@
+# sent_id = S0001
+# text = ¡Viva la Cuba!
+1	¡Viva	¡vivar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	lo	DET	_	Foreign=Yes|PronType=Art	3	det	_	_
+3	Cuba	Cuba	PROPN	_	_	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Ministro da "in"justiça vai editar MP provisória.
+1	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	in"justiça	in"justiça	NOUN	_	_	1	nmod	_	_
+6	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	editar	editar	VERB	_	VerbForm=Inf	0	root	_	_
+8	MP	MP	PROPN	_	_	7	obj	_	_
+9	provisória	provisório	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = O ministro José Eduardo Cardozo, anunciou na noite de hoje(10) que o governo editará uma medida provisória para endurecer as penalidades aos caminhoneiros que continuarem os bloqueios de rodovias no país.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	José	José	PROPN	_	_	2	nmod	_	_
+4	Eduardo	Eduardo	PROPN	_	_	3	flat:name	_	_
+5	Cardozo	Cardozo	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	noite	noite	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	hoje(10	hoje(10	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	que	que	SCONJ	_	_	17	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	editará	editar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	ccomp	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	medida	medida	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	provisória	provisório	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22	endurecer	endurecer	VERB	_	VerbForm=Inf	17	advcl	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	penalidades	penalidade	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+25-26	aos	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	caminhoneiros	caminhoneiro	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
+28	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+29	continuarem	continuar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	27	acl:relcl	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	bloqueios	bloqueio	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	rodovias	rodovia	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
+34-35	no	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	país	país	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = A multa para quem fizer os bloqueios aumentará de R$ 1.915 para R$ 5.746.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	multa	multa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	quem	quem	PRON	_	PronType=Ind	2	nmod	_	_
+5	fizer	fazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	bloqueios	bloqueio	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8	aumentará	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	R$	R$	SYM	_	_	8	obl	_	_
+11	1.915	1.915	NUM	_	NumType=Card	10	nummod	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	R$	R$	SYM	_	_	8	obl	_	_
+14	5.746	5.746	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Os organizadores de manifestações com bloqueio poderão ser multados em R$ 19.154.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	organizadores	organizador	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	manifestações	manifestação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	bloqueio	bloqueio	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	9	aux:pass	_	_
+9	multados	multar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	R$	R$	SYM	_	_	9	obl	_	_
+12	19.154	19.154	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Estamos criando uma nova situação com a introdução de um novo artigo no Código Nacional de Trânsito: Usar veiculo para deliberadamente interromper, restringir ou perturbar a circulação na via, se classifica como infração gravíssima, e será aplicada multa de R$ 5.746, afirmou o ministro.
+1	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	criando	criar	VERB	_	VerbForm=Ger	49	ccomp:speech	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nova	novo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	situação	situação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	novo	novo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Código	Código	PROPN	_	_	12	nmod	_	_
+16	Nacional	Nacional	PROPN	_	_	15	flat:name	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Trânsito	Trânsito	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	36	punct	_	_
+20	Usar	usar	VERB	_	VerbForm=Inf	36	parataxis	_	_
+21	veiculo	veiculo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	para	para	ADP	_	_	24	mark	_	_
+23	deliberadamente	deliberadamente	ADV	_	_	24	advmod	_	_
+24	interromper	interromper	VERB	_	VerbForm=Inf	20	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	restringir	restringir	VERB	_	VerbForm=Inf	24	conj	_	_
+27	ou	ou	CCONJ	_	_	28	cc	_	_
+28	perturbar	perturbar	VERB	_	VerbForm=Inf	24	conj	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	circulação	circulação	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	via	via	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	20	punct	_	_
+35	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	36	expl	_	_
+36	classifica	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	ccomp:speech	_	_
+37	como	como	ADP	_	_	38	case	_	_
+38	infração	infração	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+39	gravíssima	gravíssimo	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	43	punct	_	_
+41	e	e	CCONJ	_	_	43	cc	_	_
+42	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	43	aux:pass	_	_
+43	aplicada	aplicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	conj	_	_
+44	multa	multa	NOUN	_	Gender=Fem|Number=Sing	43	nsubj:pass	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	R$	R$	SYM	_	_	44	nmod	_	_
+47	5.746	5.746	NUM	_	NumType=Card	46	nummod	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	2	punct	_	_
+49	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	49	nsubj	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = S0013
+# text = Em caso de reincidência, o valor será dobrado (R$ 19.154).
+1	Em	em	ADP	_	_	2	case	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	reincidência	reincidência	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	valor	valor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+8	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	dobrado	dobrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	R$	R$	SYM	_	_	9	parataxis	_	_
+12	19.154	19.154	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = Cardozo disse que a medida será publicada na edição de amanhã(11) do "Diário Oficial da União".
+1	Cardozo	Cardozo	PROPN	_	_	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	medida	medida	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
+7	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	edição	edição	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	amanhã(11	amanhã(11	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	10	punct	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Diário	Diário	PROPN	_	_	10	nmod	_	_
+18	Oficial	Oficial	PROPN	_	_	17	flat:name	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	União	União	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = "Entendemos como inaceitável, no estado democrático, que pessoas utilizem veículos para bloquear estradas", disse o ministro.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Entendemos	entender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	ccomp:speech	_	_
+3	como	como	ADP	_	_	4	case	_	_
+4	inaceitável	inaceitável	ADJ	_	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	estado	estado	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+9	democrático	democrático	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	que	que	SCONJ	_	_	13	mark	_	_
+12	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	utilizem	utilizar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
+14	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	bloquear	bloquear	VERB	_	VerbForm=Inf	13	advcl	_	_
+17	estradas	estrada	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	2	punct	_	_
+20	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0019
+# text = De acordo com a legislação atual, a multa prevista tanto para quem obstrui vias quanto para quem organiza atos com bloqueio é de R$ 1.915.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	legislação	legislação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	atual	atual	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	multa	multa	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+10	prevista	prever	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	tanto	tanto	CCONJ	_	_	13	cc	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	quem	quem	PRON	_	PronType=Ind	10	obl	_	_
+14	obstrui	obstruir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+15	vias	via	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16	quanto	quanto	CCONJ	_	_	18	cc	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	quem	quem	PRON	_	PronType=Ind	13	conj	_	_
+19	organiza	organizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+20	atos	ato	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	bloqueio	bloqueio	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	R$	R$	SYM	_	_	0	root	_	_
+26	1.915	1.915	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0021
+# text = Em caso de reincidência, o valor da multa é dobrado.
+1	Em	em	ADP	_	_	2	case	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	reincidência	reincidência	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	valor	valor	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	multa	multa	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	dobrado	dobrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0023
+# text = Com a medida provisória, também serão diferenciados aqueles que bloqueiam as vias daqueles que organizam os atos.
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	medida	medida	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4	provisória	provisório	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	também	também	ADV	_	_	8	advmod	_	_
+7	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	diferenciados	diferenciar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	8	nsubj:pass	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	bloqueiam	bloquear	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	vias	via	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+14-15	daqueles	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	11	obl	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	organizam	organizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	atos	ato	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0025
+# text = No caso dos organizadores, a multa cobrada passará a ser de R$ 19.154.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	organizadores	organizador	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	multa	multa	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	cobrada	cobrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	passará	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	_	_	15	mark	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	15	cop	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	R$	R$	SYM	_	_	11	xcomp	_	_
+16	19.154	19.154	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0027
+# text = Entre as sanções que serão endurecidas, também estão a proibição, por dez anos, de o grevista receber incentivo de crédito para adquirir veículos.
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sanções	sanção	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj:pass	_	_
+5	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	endurecidas	endurecer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	também	também	ADV	_	_	3	advmod	_	_
+9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	proibição	proibição	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	dez	dez	NUM	_	NumType=Card	15	nummod	_	_
+15	anos	ano	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	de	de	ADP	_	_	20	mark	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	grevista	grevista	NOUN	_	Number=Sing	20	nsubj	_	_
+20	receber	receber	VERB	_	VerbForm=Inf	11	acl	_	_
+21	incentivo	incentivo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	crédito	crédito	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	adquirir	adquirir	VERB	_	VerbForm=Inf	23	acl	_	_
+26	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0029
+# text = Outros pontos, como a suspensão do direito de dirigir por 12 meses e apreensão do veículo, que já estão previstos no Código Nacional de Trânsito, continuam valendo.
+1	Outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	32	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	como	como	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	direito	direito	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	dirigir	dirigir	VERB	_	VerbForm=Inf	9	acl	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	12	12	NUM	_	NumType=Card	14	nummod	_	_
+14	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	apreensão	apreensão	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	que	que	PRON	_	PronType=Rel	24	nsubj	_	_
+22	já	já	ADV	_	_	24	advmod	_	_
+23	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	previstos	previsto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	6	acl:relcl	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Código	Código	PROPN	_	_	24	obl	_	_
+28	Nacional	Nacional	PROPN	_	_	27	flat:name	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Trânsito	Trânsito	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	24	punct	_	_
+32	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+33	valendo	valer	VERB	_	VerbForm=Ger	32	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = S0031
+# text = O texto também inclui que a PRF contrate guinchos particulares para remover os veículos que bloquearem vias.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	texto	texto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	PRF	PRF	PROPN	_	_	8	nsubj	_	_
+8	contrate	contratar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	guinchos	guincho	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	particulares	particular	ADJ	_	Number=Plur	9	amod	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	remover	remover	VERB	_	VerbForm=Inf	8	advcl	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	bloquearem	bloquear	VERB	_	Number=Plur|Person=3|VerbForm=Inf	14	acl:relcl	_	_
+17	vias	via	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0033
+# text = O custo com os guinchos será pago pelo próprio motorista.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	custo	custo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	guinchos	guincho	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
+7	pago	pagar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	motorista	motorista	NOUN	_	Number=Sing	7	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+

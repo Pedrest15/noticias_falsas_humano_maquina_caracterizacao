@@ -1,0 +1,195 @@
+# sent_id = S0001
+# text = VESTIR 100 PEÇAS DE ROUPA Adolescente participa de "desafio virtual" e se desespera após ficar entalada.
+1	VESTIR	VESTIR	PROPN	_	_	7	csubj	_	_
+2	100	100	NUM	_	NumType=Card	3	nummod	_	_
+3	PEÇAS	PEÇAS	PROPN	_	_	1	obj	_	_
+4	DE	de	ADP	_	_	5	case	_	_
+5	ROUPA	ROUPA	PROPN	_	_	3	nmod	_	_
+6	Adolescente	adolescente	NOUN	_	Number=Sing	7	nsubj	_	_
+7	participa	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	virtual	virtual	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	10	punct	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	desespera	desesperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	após	após	ADP	_	_	17	mark	_	_
+17	ficar	ficar	VERB	_	VerbForm=Inf	15	advcl	_	_
+18	entalada	entalado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Identificada como Andréia, a garota filmou o momento em que participa de um desafio entre internautas.
+1	Identificada	identificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl	_	_
+2	como	como	ADP	_	_	3	case	_	_
+3	Andréia	Andréia	PROPN	_	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	garota	garoto	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	filmou	filmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	momento	momento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	que	que	PRON	_	PronType=Rel	12	obl	_	_
+12	participa	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	entre	entre	ADP	_	_	17	case	_	_
+17	internautas	internauta	NOUN	_	Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = (Orlando Flórida) O desafio era vestir cem peças de roupa.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Orlando	Orlando	PROPN	_	_	8	parataxis	_	_
+3	Flórida	Flórida	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	2	punct	_	_
+5	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	vestir	vestir	VERB	_	VerbForm=Inf	0	root	_	_
+9	cem	cem	NUM	_	NumType=Card	10	nummod	_	_
+10	peças	peça	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	roupa	roupa	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Após perceber que não conseguia se mexer, Andréia começou a entrar em pânico.
+1	Após	após	ADP	_	_	2	mark	_	_
+2	perceber	perceber	VERB	_	VerbForm=Inf	10	advcl	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	conseguia	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	mexer	mexer	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	Andréia	Andréia	PROPN	_	_	10	nsubj	_	_
+10	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	entrar	entrar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	pânico	pânico	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Chorando, ela se desespera e diz: Não consigo... não consigo, não posso tirar as roupas.
+1	Chorando	chorar	VERB	_	VerbForm=Ger	5	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	desespera	desesperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	10	punct	_	_
+9	Não	não	ADV	_	_	10	advmod	_	_
+10	consigo	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	ccomp:speech	_	SpaceAfter=No
+11	...	...	PUNCT	_	_	13	punct	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	consigo	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+17	tirar	tirar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Meu Deus.
+1	Meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Deus	Deus	PROPN	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Não estou me sentindo bem Após o momento histérico, vizinhos e amigos que assistiam a cena pela webcam foram até a casa da garota e a ajudaram.
+1	Não	não	ADV	_	_	4	advmod	_	_
+2	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	sentindo	sentir	VERB	_	VerbForm=Ger	0	root	_	_
+5	bem	bem	ADV	_	_	4	xcomp	_	_
+6	Após	após	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	momento	momento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	histérico	histérico	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	vizinhos	vizinho	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	assistiam	assistir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cena	cena	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	pela	pela	ADP	_	_	19	case	_	_
+19	webcam	webcam	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+20	foram	foram	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	root	_	_
+21	até	até	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	casa	casa	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	garota	garoto	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	ajudaram	ajudar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = O vídeo está sendo compartilhado nas redes sociais como uma espécie de alerta aos pais e também aos próprios jovens.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	compartilhado	compartilhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	redes	rede	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	sociais	social	ADJ	_	Number=Plur	8	amod	_	_
+10	como	como	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	alerta	alerta	NOUN	_	Number=Sing	12	nmod	_	_
+15-16	aos	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	pais	pai	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	e	e	CCONJ	_	_	23	cc	_	_
+19	também	também	ADV	_	_	23	advmod	_	_
+20-21	aos	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	23	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	próprios	próprio	DET	_	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
+23	jovens	jovem	NOUN	_	Number=Plur	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = "Pessoas estão colocando a própria vida em risco para participar de desafios virtuais estúpidos" alertou o site New Times.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	colocando	colocar	VERB	_	VerbForm=Ger	17	ccomp:speech	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	vida	vida	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	risco	risco	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	participar	participar	VERB	_	VerbForm=Inf	4	advcl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	desafios	desafio	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+14	virtuais	virtual	ADJ	_	Number=Plur	13	amod	_	_
+15	estúpidos	estúpido	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	4	punct	_	_
+17	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	site	site	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+20	New	New	PROPN	_	_	19	nmod	_	_
+21	Times	Times	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	17	punct	_	_
+

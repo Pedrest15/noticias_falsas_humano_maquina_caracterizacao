@@ -1,0 +1,223 @@
+# sent_id = S0001
+# text = Juíza Federal ajudava Friboi a sonegar impostos e burlar a lei.
+1	Juíza	Juíza	PROPN	_	_	3	nsubj	_	_
+2	Federal	Federal	PROPN	_	_	1	flat:name	_	_
+3	ajudava	ajudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	Friboi	Friboi	PROPN	_	_	3	obj	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	sonegar	sonegar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+7	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	burlar	burlar	VERB	_	VerbForm=Inf	6	conj	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lei	lei	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Ela foi condenada à prisão e perderá o cargo.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	condenada	condenar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	perderá	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Não são só os políticos e funcionários públicos corruptos que estão destruindo o Brasil [...] também temos os chamados corruptores.
+1	Não	não	ADV	_	_	5	advmod	_	_
+2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	só	só	ADV	_	_	5	advmod	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	políticos	político	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+8	públicos	público	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9	corruptos	corrupto	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+10	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+11	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	destruindo	destruir	VERB	_	VerbForm=Ger	5	acl:relcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Brasil	Brasil	PROPN	_	_	12	obj	_	_
+15	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	20	parataxis	_	SpaceAfter=No
+17	..	..	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	]	]	PUNCT	_	_	16	punct	_	_
+19	também	também	ADV	_	_	20	advmod	_	_
+20	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+21	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	20	obj	_	_
+22	chamados	chamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	acl	_	_
+23	corruptores	corruptor	NOUN	_	Gender=Masc|Number=Plur	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Os corruptores também devem ser banidos.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	corruptores	corruptor	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	_	_
+6	banidos	banir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Suas empresas devem ser fechadas e multadas com valores bilionários.
+1	Suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	fechadas	fechar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	multadas	multar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	conj	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+10	bilionários	bilionário	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Seus donos tem que ir para a cadeia.
+1	Seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	donos	dono	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	ADP	_	_	5	mark	_	_
+5	ir	ir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Enquanto existir gente disposta a pagar propinas para burlar as leis, haverá gente disposta a receber propinas.
+1	Enquanto	enquanto	SCONJ	_	_	2	mark	_	_
+2	existir	existir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+3	gente	gente	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	disposta	disposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	3	amod	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	pagar	pagar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	burlar	burlar	VERB	_	VerbForm=Inf	6	advcl	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	leis	lei	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	gente	gente	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15	disposta	disposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	14	amod	_	_
+16	a	a	ADP	_	_	17	mark	_	_
+17	receber	receber	VERB	_	VerbForm=Inf	15	acl	_	_
+18	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = A Folha publicou hoje que a juíza federal Maria Cristina de Luca Barongeno (23a Vara Cível de São Paulo) foi condenada a 6 anos e 8 meses de prisão, pagamento de multa e perda do cargo, por corrupção.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Folha	Folha	PROPN	_	_	3	nsubj	_	_
+3	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	hoje	hoje	ADV	_	_	3	advmod	_	_
+5	que	que	SCONJ	_	_	23	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	juíza	juíz	NOUN	_	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+8	federal	federal	ADJ	_	Number=Sing	7	amod	_	_
+9	Maria	Maria	PROPN	_	_	7	nmod	_	_
+10	Cristina	Cristina	PROPN	_	_	9	flat:name	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Luca	Luca	PROPN	_	_	9	flat:name	_	_
+13	Barongeno	Barongeno	PROPN	_	_	9	flat:name	_	_
+14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	23a	23a	ADJ	_	Gender=Fem|NumType=Ord	16	amod	_	_
+16	Vara	Vara	PROPN	_	_	7	appos	_	_
+17	Cível	Cível	PROPN	_	_	16	flat:name	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	São	São	PROPN	_	_	16	flat:name	_	_
+20	Paulo	Paulo	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	16	punct	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	condenada	condenar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	6	6	NUM	_	NumType=Card	26	nummod	_	_
+26	anos	ano	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	8	8	NUM	_	NumType=Card	29	nummod	_	_
+29	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	multa	multa	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	perda	perda	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	por	por	ADP	_	_	43	case	_	_
+43	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = A juíza desviava ações contra empresas para sua vara.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	juíza	juíz	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	desviava	desviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ações	ação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	contra	contra	ADP	_	_	6	case	_	_
+6	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	vara	vara	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Ela favorecia companhias com dívidas milionárias com a Previdência e a Receita Federal.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	favorecia	favorecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	dívidas	dívida	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+6	milionárias	milionário	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Previdência	Previdência	PROPN	_	_	5	nmod	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Receita	Receita	PROPN	_	_	9	conj	_	_
+13	Federal	Federal	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = Entre essas favorecidas estaria a Friboi.
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	favorecidas	favorecido	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+4	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	cop	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Friboi	Friboi	PROPN	_	_	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = O advogado da Friboi era Joaquim Barongeno, pai da juíza corrupta.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Friboi	Friboi	PROPN	_	_	2	nmod	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	Joaquim	Joaquim	PROPN	_	_	0	root	_	_
+8	Barongeno	Barongeno	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	pai	pai	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	juíza	juíz	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	corrupta	corrupto	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+

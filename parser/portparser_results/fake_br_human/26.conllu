@@ -1,0 +1,313 @@
+# sent_id = S0001
+# text = Sobrinho atira no tio após galinhas comerem seus pés de maconha.
+1	Sobrinho	Sobrinho	PROPN	_	_	2	nsubj	_	_
+2	atira	atirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tio	tio	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	após	após	ADP	_	_	8	mark	_	_
+7	galinhas	galinha	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	comerem	comer	VERB	_	Number=Plur|Person=3|VerbForm=Inf	2	advcl	_	_
+9	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	pés	pé	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	maconha	maconha	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Cuidado!
+1	Cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Se você tem um maconheiro perto de você pode estar correndo risco de morte.
+1	Se	se	SCONJ	_	_	3	mark	_	_
+2	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	maconheiro	maconheiro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	perto	perto	ADV	_	_	3	advmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	obl	_	_
+9	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	estar	estar	AUX	_	VerbForm=Inf	11	aux	_	_
+11	correndo	correr	VERB	_	VerbForm=Ger	9	xcomp	_	_
+12	risco	risco	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	morte	morte	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Veja o que este maconheiro fez com um familiar por causa banal.
+1	Veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	obj	_	_
+3	que	que	PRON	_	PronType=Int	2	fixed	_	_
+4	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	maconheiro	maconheiro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	familiar	familiar	NOUN	_	Number=Sing	6	obl	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	causa	causa	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	banal	banal	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Maconha mata!
+1	Maconha	maconha	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	mata	matar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Maconha é crime!
+1	Maconha	maconha	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	crime	crime	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Maconheiros são criminosos!
+1	Maconheiros	maconheiro	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	criminosos	criminoso	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Um adolescente de 17 anos atirou no próprio tio depois de constatar que as galinhas que a vítima criava tinham comido os seus dois pés de maconha.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	adolescente	adolescente	NOUN	_	Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	17	17	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	atirou	atirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	tio	tio	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+11	depois	depois	ADV	_	_	6	advmod	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	constatar	constatar	VERB	_	VerbForm=Inf	11	acl	_	_
+14	que	que	SCONJ	_	_	22	mark	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	galinhas	galinha	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
+17	que	que	PRON	_	PronType=Rel	20	obj	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	criava	criar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+21	tinham	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	comido	comer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	ccomp	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+24	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+25	dois	dois	NUM	_	Gender=Masc|NumType=Card	26	nummod	_	_
+26	pés	pé	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	maconha	maconha	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = O fato foi registrado pela Polícia Militar no início da tarde desta quinta-feira (10), em Conceição da Barra, Norte do Estado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	registrado	registrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polícia	Polícia	PROPN	_	_	4	obl:agent	_	_
+8	Militar	Militar	PROPN	_	_	7	flat:name	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	início	início	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	desta	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	10	10	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	Conceição	Conceição	PROPN	_	_	4	obl	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Barra	Barra	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	Norte	Norte	PROPN	_	_	23	appos	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Estado	Estado	PROPN	_	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = O tio do jovem contou aos militares que o sobrinho havia plantado os pés da droga no seu quintal sem ele saber.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tio	tio	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jovem	jovem	NOUN	_	Number=Sing	2	nmod	_	_
+6	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	aos	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	militares	militar	NOUN	_	Number=Plur	6	obl	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sobrinho	sobrinho	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	plantado	plantar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	ccomp	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	pés	pé	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	droga	droga	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	23	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	quintal	quintal	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+24	sem	sem	ADP	_	_	26	mark	_	_
+25	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	saber	saber	VERB	_	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Enfurecido com o ocorrido, o menor começou a discutir com o tio e a quebrar alguns móveis da casa onde a vítima mora.
+1	Enfurecido	enfurecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	advcl	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ocorrido	ocorrido	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	menor	menor	NOUN	_	Number=Sing	8	nsubj	_	_
+8	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	_	_	10	mark	_	_
+10	discutir	discutir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tio	tio	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	a	a	ADP	_	_	16	mark	_	_
+16	quebrar	quebrar	VERB	_	VerbForm=Inf	10	conj	_	_
+17	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	móveis	móvel	NOUN	_	Number=Plur	16	obj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	casa	casa	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	onde	onde	ADV	_	_	25	advmod	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+25	mora	morar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0023
+# text = Logo depois, pegou a arma de fogo que estava com o padrasto e atirou.
+1	Logo	logo	ADV	_	_	2	advmod	_	_
+2	depois	depois	ADV	_	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	arma	arma	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+10	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	padrasto	padrasto	NOUN	_	Gender=Masc|Number=Sing	6	acl:relcl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	atirou	atirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0025
+# text = A vítima foi atingida por um disparo no antebraço esquerdo e socorrida para o Hospital Nossa Senhora da Conceição.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	atingida	atingir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	disparo	disparo	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	antebraço	antebraço	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+11	esquerdo	esquerdo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	socorrida	socorrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Hospital	Hospital	PROPN	_	_	13	obl	_	_
+17	Nossa	Nossa	PROPN	_	_	16	flat:name	_	_
+18	Senhora	Senhora	PROPN	_	_	16	flat:name	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Conceição	Conceição	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = De acordo com a PM, ela não corria risco de morte.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	PM	PM	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	corria	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	risco	risco	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	morte	morte	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0029
+# text = Os militares fizeram buscas no local do fato, mas o suspeito não foi localizado.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	militares	militar	NOUN	_	Number=Plur	3	nsubj	_	_
+3	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	buscas	busca	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	local	local	NOUN	_	Number=Sing	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fato	fato	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	17	punct	_	_
+12	mas	mas	CCONJ	_	_	17	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	suspeito	suspeito	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+15	não	não	ADV	_	_	17	advmod	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	localizado	localizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0031
+# text = O caso deve ser investigado pela Polícia Civil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	investigado	investigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polícia	Polícia	PROPN	_	_	5	obl:agent	_	_
+9	Civil	Civil	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+

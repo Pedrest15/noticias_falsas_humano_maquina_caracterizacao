@@ -1,0 +1,90 @@
+# sent_id = S0001
+# text = Bolsonaro: "Lula é um covarde que tem medo de ir à luta".
+1	Bolsonaro	Bolsonaro	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	7	punct	_	_
+3	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+4	Lula	Lula	PROPN	_	_	7	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	covarde	covarde	NOUN	_	Number=Sing	0	root	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	medo	medo	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	de	de	ADP	_	_	12	mark	_	_
+12	ir	ir	VERB	_	VerbForm=Inf	10	acl	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	luta	luta	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Quando o assunto é o PT, Bolsonaro não poupa palavras e rasga o verbo.
+1	Quando	quando	SCONJ	_	_	6	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	PT	PT	PROPN	_	_	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Bolsonaro	Bolsonaro	PROPN	_	_	10	nsubj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	poupa	poupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	rasga	rasgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	verbo	verbo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Em discurso recente, o deputado Jair Bolsonaro chamou Lula de covarde e disse que o ex-presidente possui um exército de mortadelas.
+1	Em	em	ADP	_	_	2	case	_	_
+2	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	recente	recente	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	Jair	Jair	PROPN	_	_	6	nmod	_	_
+8	Bolsonaro	Bolsonaro	PROPN	_	_	7	flat:name	_	_
+9	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Lula	Lula	PROPN	_	_	9	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	covarde	covarde	NOUN	_	Number=Sing	9	obl	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+15	que	que	SCONJ	_	_	18	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ex-presidente	ex-presidente	NOUN	_	Number=Sing	18	nsubj	_	_
+18	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	exército	exército	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	mortadelas	mortadela	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = O povo reagiu e começou a cantar em coro: " Lula cachaceiro, devolve o meu dinheiro " confira:
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	povo	povo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	a	a	ADP	_	_	7	mark	_	_
+7	cantar	cantar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	coro	coro	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	12	punct	_	_
+11	"	"	PUNCT	_	_	12	punct	_	_
+12	Lula	Lula	PROPN	_	_	20	ccomp:speech	_	_
+13	cachaceiro	cachaceiro	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	devolve	devolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
+18	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+19	"	"	PUNCT	_	_	12	punct	_	_
+20	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	3	punct	_	_
+

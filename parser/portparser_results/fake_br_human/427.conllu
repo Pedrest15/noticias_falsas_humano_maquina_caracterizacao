@@ -1,0 +1,96 @@
+# sent_id = S0001
+# text = O saudoso Marcelo Rezende alertou: "São pessoas perversas que só pensam no próprio umbigo".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	saudoso	saudoso	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	Marcelo	Marcelo	PROPN	_	_	5	nsubj	_	_
+4	Rezende	Rezende	PROPN	_	_	3	flat:name	_	_
+5	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	9	punct	_	_
+7	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	5	ccomp:speech	_	_
+10	perversas	perverso	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+12	só	só	ADV	_	_	13	advmod	_	_
+13	pensam	pensar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	umbigo	umbigo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Ouça com atenção o que diz o apresentador Marcelo Rezende sobre o "presentão de Natal" que nossos parlamentares e o presidente Temer deram para as empresas de telecomunicações.
+1	Ouça	oeruç	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+4	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	obj	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	Marcelo	Marcelo	PROPN	_	_	8	nmod	_	_
+10	Rezende	Rezende	PROPN	_	_	9	flat:name	_	_
+11	sobre	sobre	ADP	_	_	14	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	presentão	presentão	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Natal	Natal	PROPN	_	_	14	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	14	punct	_	_
+18	que	que	PRON	_	PronType=Rel	25	obj	_	_
+19	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	det	_	_
+20	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	presidente	presidente	NOUN	_	Number=Sing	20	conj	_	_
+24	Temer	Temer	PROPN	_	_	23	nmod	_	_
+25	deram	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+26	para	para	ADP	_	_	28	case	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	25	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	telecomunicações	telecomunicação	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Quantos hospitais poderiam ser construídos?
+1	Quantos	quanto	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	hospitais	hospital	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	construídos	construir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	xcomp	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Quantas vidas poderiam ser salvas se esse dinheiro fosse revertido para a população?
+1	Quantas	quanto	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	vidas	vida	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	salvas	salvar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	se	se	SCONJ	_	_	10	mark	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+9	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	revertido	reverter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	população	população	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0008
+# text = questiona o apresentador.
+1	questiona	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

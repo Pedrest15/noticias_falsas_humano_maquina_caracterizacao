@@ -1,0 +1,382 @@
+# sent_id = S0001
+# text = URGENTE: Novidade Exclusiva do WhatsApp! 📱.
+1	URGENTE	URGENTE	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Novidade	Novidade	PROPN	_	_	1	parataxis	_	_
+4	Exclusiva	Exclusiva	PROPN	_	_	3	flat:name	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	WhatsApp	WhatsApp	PROPN	_	_	3	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	3	punct	_	_
+9	📱	📱	ADJ	_	_	3	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Olá a todos, aqui é Varun Pulyani, diretor do WhatsApp.
+1	Olá	olá	INTJ	_	_	7	discourse	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	aqui	aqui	ADV	_	_	7	advmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Varun	Varun	PROPN	_	_	0	root	_	_
+8	Pulyani	Pulyani	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	WhatsApp	WhatsApp	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Temos o prazer de anunciar uma fusão histórica! O WhatsApp agora faz parte do império de Mark Zuckerberg por um valor recorde de 25 bilhões de dólares.
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	prazer	prazer	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	anunciar	anunciar	VERB	_	VerbForm=Inf	3	acl	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fusão	fusão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	histórica	histórico	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	13	punct	_	_
+10	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	WhatsApp	WhatsApp	PROPN	_	_	13	nsubj	_	_
+12	agora	agora	ADV	_	_	13	advmod	_	_
+13	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+14	parte	parte	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	império	império	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Mark	Mark	PROPN	_	_	17	nmod	_	_
+20	Zuckerberg	Zuckerberg	PROPN	_	_	19	flat:name	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	valor	valor	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+24	recorde	recorde	ADJ	_	Number=Sing	23	amod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	25	25	NUM	_	NumType=Card	27	nummod	_	_
+27	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Para comemorar essa união e ativar os novos serviços integrados do Facebook, pedimos que enviem esta mensagem para pelo menos 3 contatos.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	comemorar	comemorar	VERB	_	VerbForm=Inf	15	advcl	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	união	união	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	ativar	ativar	VERB	_	VerbForm=Inf	2	conj	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	novos	novo	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+9	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+10	integrados	integrado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	9	amod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Facebook	Facebook	PROPN	_	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	pedimos	pedir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	enviem	enviar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+18	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	para	para	ADP	_	_	25	case	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	ExtPos=ADV	24	advmod	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	fixed	_	_
+23	menos	menos	NOUN	_	Gender=Masc|Number=Sing	21	fixed	_	_
+24	3	3	NUM	_	NumType=Card	25	nummod	_	_
+25	contatos	contato	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = Em 24 horas, o logotipo do seu WhatsApp será atualizado para um ícone exclusivo com o "F" do Facebook, garantindo acesso VIP e gratuito aos novos recursos! 🎉.
+1	Em	em	ADP	_	_	3	case	_	_
+2	24	24	NUM	_	NumType=Card	3	nummod	_	_
+3	horas	hora	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	logotipo	logotipo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	WhatsApp	WhatsApp	PROPN	_	_	6	nmod	_	_
+11	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_
+12	atualizado	atualizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ícone	ícone	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	com	com	ADP	_	_	20	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	F	f	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Facebook	Facebook	PROPN	_	_	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	garantindo	garantir	VERB	_	VerbForm=Ger	12	advcl	_	_
+27	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+28	VIP	vip	ADJ	_	Number=Sing	27	amod	_	_
+29	e	e	CCONJ	_	_	30	cc	_	_
+30	gratuito	gratuito	ADJ	_	Gender=Masc|Number=Sing	28	conj	_	_
+31-32	aos	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	34	case	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	novos	novo	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
+34	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+35	!	!	PUNCT	_	_	12	punct	_	_
+36	🎉	🎉	ADJ	_	_	12	parataxis	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0013
+# text = ATENÇÃO: Contas que não participarem da ativação serão excluídas ou convertidas para um plano pago a partir de amanhã, às 18h.
+1	ATENÇÃO	atenção	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Contas	conta	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	participarem	participar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ativação	ativação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	aux:pass	_	_
+11	excluídas	excluir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+12	ou	ou	CCONJ	_	_	13	cc	_	_
+13	convertidas	converter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	11	conj	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	plano	plano	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	pago	pagar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
+18	a	a	ADP	_	_	19	mark	_	_
+19	partir	partir	VERB	_	VerbForm=Inf	17	advcl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	amanhã	amanhã	ADV	_	_	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23-24	às	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	25	case	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	18h	18h	NOUN	_	_	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Este é o último aviso! Não ignore.
+1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	último	último	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	aviso	aviso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	8	punct	_	_
+7	Não	não	ADV	_	_	8	advmod	_	_
+8	ignore	ignorar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = A nova era do WhatsApp começa agora.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nova	novo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	era	era	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	WhatsApp	WhatsApp	PROPN	_	_	3	nmod	_	_
+7	começa	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	agora	agora	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0021
+# text = Seus contatos ficarão azuis, simbolizando a integração premium sem custos adicionais.
+1	Seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	contatos	contato	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	ficarão	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	azuis	azul	ADJ	_	Number=Plur	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	simbolizando	simbolizar	VERB	_	VerbForm=Ger	3	advcl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	integração	integração	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	premium	premium	X	_	Foreign=Yes	8	nmod	_	_
+10	sem	sem	ADP	_	_	11	case	_	_
+11	custos	custo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	adicionais	adicional	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Acredite, é a sua chance de ter um WhatsApp turbinado.
+1	Acredite	acreditar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	chance	chance	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	ter	ter	VERB	_	VerbForm=Inf	6	acl	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	WhatsApp	WhatsApp	PROPN	_	_	8	obj	_	_
+11	turbinado	turbinado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Ajude-nos a otimizar nossos servidores supercongestionados ao encaminhar esta mensagem.
+1-2	Ajude-nos	_	_	_	_	_	_	_	_
+1	Ajude	ajudar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	a	a	ADP	_	_	4	mark	_	_
+4	otimizar	otimizar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+5	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	servidores	servidor	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	supercongestionados	supercongestionado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	6	amod	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	ExtPos=SCONJ	10	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	fixed	_	_
+10	encaminhar	encaminhar	VERB	_	VerbForm=Inf	4	advcl	_	_
+11	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0027
+# text = Usuários que não colaborarem serão cobrados uma taxa de ativação de 30 dólares e poderão perder todos os seus contatos.
+1	Usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	colaborarem	colaborar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	acl:relcl	_	_
+5	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	cobrados	cobrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	ativação	ativação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	30	30	NUM	_	NumType=Card	13	nummod	_	_
+13	dólares	dólare	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	conj	_	_
+16	perder	perder	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	contatos	contato	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0029
+# text = Mensagem oficial de Jim Balsamic, CEO do WhatsApp: Estamos enfrentando um problema crítico de sobrecarga de nomes de usuários.
+1	Mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+2	oficial	oficial	ADJ	_	Number=Sing	1	amod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Jim	Jim	PROPN	_	_	1	nmod	_	_
+5	Balsamic	Balsamic	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	CEO	CEO	PROPN	_	_	4	appos	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	WhatsApp	WhatsApp	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	7	punct	_	_
+12	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	enfrentando	enfrentar	VERB	_	VerbForm=Ger	0	root	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	problema	problema	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	crítico	crítico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	sobrecarga	sobrecarga	NOUN	_	Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0031
+# text = Sua ação é essencial.
+1	Sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	essencial	essencial	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0033
+# text = Encaminhe esta mensagem para todos os seus contatos.
+1	Encaminhe	encaminhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	para	para	ADP	_	_	8	case	_	_
+5	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	contatos	contato	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0035
+# text = A não transmissão resultará na exclusão da sua conta em 48 horas e uma taxa de reativação de 50 dólares será aplicada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	transmissão	transmissão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	resultará	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	exclusão	exclusão	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	conta	conta	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	48	48	NUM	_	NumType=Card	14	nummod	_	_
+14	horas	hora	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+15	e	e	CCONJ	_	_	24	cc	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	reativação	reativação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	50	50	NUM	_	NumType=Card	22	nummod	_	_
+22	dólares	dólare	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+23	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	aux:pass	_	_
+24	aplicada	aplicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0039
+# text = Lembre-se: estamos corrigindo a falha nas atualizações de fotos.
+1-2	Lembre-se	_	_	_	_	_	_	_	_
+1	Lembre	lembrar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	corrigindo	corrigir	VERB	_	VerbForm=Ger	1	parataxis	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	falha	falha	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	atualizações	atualização	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	fotos	foto	NOUN	_	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0041
+# text = Em breve, tudo estará funcionando perfeitamente.
+1	Em	em	ADP	_	_	2	case	_	_
+2	breve	breve	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tudo	tudo	PRON	_	PronType=Ind	6	nsubj	_	_
+5	estará	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	funcionando	funcionar	VERB	_	VerbForm=Ger	0	root	_	_
+7	perfeitamente	perfeitamente	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0043
+# text = Agradecemos sua colaboração.
+1	Agradecemos	agradecer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	colaboração	colaboração	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

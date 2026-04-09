@@ -1,0 +1,230 @@
+# sent_id = S0001
+# text = Deputado Feliciano devolve presente da Globo e pede mudança na programação: "Fábrica de bandidos".
+1	Deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Feliciano	Feliciano	PROPN	_	_	1	nmod	_	_
+3	devolve	devolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	presente	presente	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Globo	Globo	PROPN	_	_	4	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	programação	programação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	16	punct	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Fábrica	Fábrica	PROPN	_	_	10	appos	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	bandidos	bandido	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = "Se você quiser participar de uma fábrica de bandidos, basta assistir a novela das nove".
+1	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	_	_	4	mark	_	_
+3	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	quiser	querer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+5	participar	participar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fábrica	fábrica	NOUN	_	Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	bandidos	bandido	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	basta	bastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	assistir	assistir	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	novela	novela	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	nove	nove	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = Eu nasci no dia 12 de outubro... em meu país é comemorado o Dia das Crianças e também o Dia de Nossa Senhora... uma data dupla que traz muita alegria para os brasileiros.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	nasci	nascer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	12	12	NUM	_	NumType=Card	5	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	...	...	PUNCT	_	_	14	punct	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	país	país	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	comemorado	comemorar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Dia	Dia	PROPN	_	_	14	nsubj:pass	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Crianças	Crianças	PROPN	_	_	16	flat:name	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	também	também	ADV	_	_	23	advmod	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Dia	Dia	PROPN	_	_	16	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Nossa	Nossa	PROPN	_	_	23	flat:name	_	_
+26	Senhora	Senhora	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+27	...	...	PUNCT	_	_	29	punct	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	data	data	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	_
+30	dupla	duplo	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+31	que	que	PRON	_	PronType=Rel	32	nsubj	_	_
+32	traz	trazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	muita	muito	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
+34	alegria	alegria	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
+35	para	para	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Na semana passada, eu recebi um presente da Rede Globo de televisão.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	semana	semana	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+4	passada	passado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	recebi	receber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presente	presente	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Rede	Rede	PROPN	_	_	9	nmod	_	_
+13	Globo	Globo	PROPN	_	_	12	flat:name	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = Pensei que era só pra mim, mas parece que outros deputados receberam também.
+1	Pensei	pensar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	6	mark	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	só	só	ADV	_	_	6	advmod	_	_
+5	pra	para	ADP	_	_	6	case	_	_
+6	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	mas	mas	CCONJ	_	_	9	cc	_	_
+9	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	receberam	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+14	também	também	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Primeiramente, eu queria agradecê-los por terem se lembrado do meu aniversário, mas eu queria fazer um protesto e devolver esse presente.
+1	Primeiramente	primeiramente	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	agradecê-los	_	_	_	_	_	_	_	_
+5	agradecer	agradecer	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	los	lo	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	por	por	ADP	_	_	10	mark	_	_
+8	terem	ter	AUX	_	Number=Plur|Person=3|VerbForm=Inf	10	aux	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	lembrado	lembrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	aniversário	aniversário	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	18	cc	_	_
+17	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	conj	_	_
+19	fazer	fazer	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	devolver	devolver	VERB	_	VerbForm=Inf	19	conj	_	_
+24	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	presente	presente	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = O presente que eu gostaria da Rede Globo é outro [...] eu queria que eles respeitassem as nossas famílias, as nossas crianças e não transformassem em esgoto (e lixo) tudo que entra em nossas casas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presente	presente	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	5	obj	_	_
+4	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	gostaria	gostar	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	2	acl:relcl	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Rede	Rede	PROPN	_	_	5	obl	_	_
+9	Globo	Globo	PROPN	_	_	8	flat:name	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+12	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	parataxis	_	_
+18	que	que	SCONJ	_	_	20	mark	_	_
+19	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	respeitassem	respeitar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	nossas	nosso	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	famílias	família	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	nossas	nosso	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	det	_	_
+27	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	não	não	ADV	_	_	30	advmod	_	_
+30	transformassem	transformar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	esgoto	esgoto	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
+33	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	lixo	lixo	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	_
+37	tudo	tudo	PRON	_	PronType=Ind	30	obj	_	_
+38	que	que	PRON	_	PronType=Rel	39	nsubj	_	_
+39	entra	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+40	em	em	ADP	_	_	42	case	_	_
+41	nossas	nosso	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	42	det	_	_
+42	casas	casa	NOUN	_	Gender=Fem|Number=Plur	39	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = *** detalhe, o vídeo foi editado para não prolongar o discurso ***.
+1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
+2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
+3	*	*	PUNCT	_	_	4	punct	_	_
+4	detalhe	detalhe	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	editado	editar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	para	para	ADP	_	_	12	mark	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	prolongar	prolongar	VERB	_	VerbForm=Inf	9	advcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	*	*	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	*	*	PUNCT	_	_	12	punct	_	SpaceAfter=No
+17	*	*	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
+

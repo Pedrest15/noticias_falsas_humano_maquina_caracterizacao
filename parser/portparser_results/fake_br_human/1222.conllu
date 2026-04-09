@@ -1,0 +1,323 @@
+# sent_id = S0001
+# text = Aécio Neves se encontra com investigado.
+1	Aécio	Aécio	PROPN	_	_	4	nsubj	_	_
+2	Neves	Neves	PROPN	_	_	1	flat:name	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	investigado	investigado	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Cautelar emitida por Fachin proíbe contato com outros réus.
+1	Cautelar	cautelar	ADJ	_	Number=Sing	5	nsubj	_	_
+2	emitida	emitir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+3	por	por	ADP	_	_	4	case	_	_
+4	Fachin	Fachin	PROPN	_	_	2	obl:agent	_	_
+5	proíbe	proíbe	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	contato	contato	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	réus	réu	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Aécio Neves se encontrou com José Serra (investigado na Lava-Jato) na última quinta-feira.
+1	Aécio	Aécio	PROPN	_	_	4	nsubj	_	_
+2	Neves	Neves	PROPN	_	_	1	flat:name	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	José	José	PROPN	_	_	4	obl	_	_
+7	Serra	Serra	PROPN	_	_	6	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	investigado	investigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Lava-Jato	Lava-Jato	PROPN	_	_	9	obl	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	9	punct	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	última	último	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+17	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Desrespeitando uma ordem judicial emitida pelo ministro Edson Fachin, o senador mineiro recebeu o político José Serra em sua residência.
+1	Desrespeitando	desrespeitar	VERB	_	VerbForm=Ger	15	advcl	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	judicial	judicial	ADJ	_	Number=Sing	3	amod	_	_
+5	emitida	emitir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	Edson	Edson	PROPN	_	_	8	nmod	_	_
+10	Fachin	Fachin	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	1	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	senador	senador	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	mineiro	mineiro	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	político	político	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	José	José	PROPN	_	_	17	nmod	_	_
+19	Serra	Serra	PROPN	_	_	18	flat:name	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	residência	residência	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = Segundo o jornalista Cláudio Humberto ( Diário do Poder), o encontro ocorreu na quinta-feira (18), horas após a determinação de Fachin, que dizia: "Ao deferir medida cautelar requerida PGR, o ministro Edson Fachin determinou ao senador Aécio Neves que não contatasse qualquer pessoa investigada ou ré no próprio feito".
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	jornalista	jornalista	NOUN	_	Number=Sing	15	obl	_	_
+4	Cláudio	Cláudio	PROPN	_	_	3	nmod	_	_
+5	Humberto	Humberto	PROPN	_	_	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	_
+7	Diário	Diário	PROPN	_	_	3	appos	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Poder	Poder	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	18	18	NUM	_	NumType=Card	18	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	horas	hora	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+24	após	após	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Fachin	Fachin	PROPN	_	_	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	que	que	PRON	_	PronType=Rel	31	nsubj	_	_
+31	dizia	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+32	:	:	PUNCT	_	_	46	punct	_	_
+33	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+34-35	Ao	_	_	_	_	_	_	_	_
+34	A	a	ADP	_	ExtPos=SCONJ	36	mark	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	fixed	_	_
+36	deferir	deferir	VERB	_	VerbForm=Inf	46	advcl	_	_
+37	medida	medida	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
+38	cautelar	cautelar	ADJ	_	Number=Sing	37	amod	_	_
+39	requerida	requerer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	37	acl	_	_
+40	PGR	PGR	PROPN	_	_	39	obj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	36	punct	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	46	nsubj	_	_
+44	Edson	Edson	PROPN	_	_	43	nmod	_	_
+45	Fachin	Fachin	PROPN	_	_	44	flat:name	_	_
+46	determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	parataxis	_	_
+47-48	ao	_	_	_	_	_	_	_	_
+47	a	a	ADP	_	_	49	case	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	senador	senador	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	_
+50	Aécio	Aécio	PROPN	_	_	49	nmod	_	_
+51	Neves	Neves	PROPN	_	_	50	flat:name	_	_
+52	que	que	SCONJ	_	_	54	mark	_	_
+53	não	não	ADV	_	_	54	advmod	_	_
+54	contatasse	contatar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	ccomp	_	_
+55	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	56	det	_	_
+56	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	54	obj	_	_
+57	investigada	investigar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	56	acl	_	_
+58	ou	ou	CCONJ	_	_	59	cc	_	_
+59	ré	ré	NOUN	_	Gender=Fem|Number=Sing	57	conj	_	_
+60-61	no	_	_	_	_	_	_	_	_
+60	em	em	ADP	_	_	63	case	_	_
+61	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+62	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	63	det	_	_
+63	feito	feito	NOUN	_	Gender=Masc|Number=Sing	54	obl	_	SpaceAfter=No
+64	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = Serra esteve na residência de Aécio (em Brasília) junto acompanhado de um grupo de senadores.
+1	Serra	Serra	PROPN	_	_	5	nsubj	_	_
+2	esteve	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	residência	residência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Aécio	Aécio	PROPN	_	_	5	nmod	_	_
+8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	em	em	ADP	_	_	10	case	_	_
+10	Brasília	Brasília	PROPN	_	_	5	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	junto	junto	ADV	_	_	5	advmod	_	_
+13	acompanhado	acompanhado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Caso o ministro Fachin entenda que sua determinação foi desrespeitada, a prisão de Aécio Neves poderá ser decretada.
+1	Caso	caso	SCONJ	_	_	5	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Fachin	Fachin	PROPN	_	_	3	nmod	_	_
+5	entenda	entender	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	desrespeitada	desrespeitar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Aécio	Aécio	PROPN	_	_	13	nmod	_	_
+16	Neves	Neves	PROPN	_	_	15	flat:name	_	_
+17	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+18	ser	ser	AUX	_	VerbForm=Inf	19	aux:pass	_	_
+19	decretada	decretar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0015
+# text = O PSDB divulgou hoje (20) uma nota relatando que a "proibição" de contato com investigados se restringe somente à ação em questão (Operação Patmos, deflagrada no último dia 18).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PSDB	PSDB	PROPN	_	_	3	nsubj	_	_
+3	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	hoje	hoje	ADV	_	_	3	advmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	20	20	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	nota	nota	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+10	relatando	relatar	VERB	_	VerbForm=Ger	9	acl	_	_
+11	que	que	SCONJ	_	_	21	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	proibição	proibição	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	contato	contato	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	investigados	investigado	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+20	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	21	expl	_	_
+21	restringe	restringir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+22	somente	somente	ADV	_	_	25	advmod	_	_
+23-24	à	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	ação	ação	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	questão	questão	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Operação	Operação	PROPN	_	_	25	appos	_	_
+30	Patmos	Patmos	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	deflagrada	deflagrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	29	acl	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	36	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	último	último	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+36	dia	dia	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+37	18	18	NUM	_	NumType=Card	36	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = O senador José Serra sequer é citado no processo em questão, inexistindo, portanto, qualquer descumprimento da decisão judicial.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	José	José	PROPN	_	_	2	nmod	_	_
+4	Serra	Serra	PROPN	_	_	3	flat:name	_	_
+5	sequer	sequer	ADV	_	_	7	advmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	processo	processo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	questão	questão	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	inexistindo	inexistir	VERB	_	VerbForm=Ger	7	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	portanto	portanto	CCONJ	_	_	14	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	19	det	_	_
+19	descumprimento	descumprimento	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	judicial	judicial	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0019
+# text = Desde que tomou ciência da determinação, Aécio Neves tem cumprido a ordem em todos os seus termos.
+1	Desde	desde	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	tomou	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
+4	ciência	ciência	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	Aécio	Aécio	PROPN	_	_	12	nsubj	_	_
+10	Neves	Neves	PROPN	_	_	9	flat:name	_	_
+11	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	cumprido	cumprir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	em	em	ADP	_	_	19	case	_	_
+16	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	termos	termo	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0021
+# text = José Serra foi citado na delação de Joesley Batista como beneficiário de 20 milhões de reais durante sua campanha à presidência.
+1	José	José	PROPN	_	_	4	nsubj:pass	_	_
+2	Serra	Serra	PROPN	_	_	1	flat:name	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	delação	delação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Joesley	Joesley	PROPN	_	_	7	nmod	_	_
+10	Batista	Batista	PROPN	_	_	9	flat:name	_	_
+11	como	como	ADP	_	_	12	case	_	_
+12	beneficiário	beneficiário	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	20	20	NUM	_	NumType=Card	15	nummod	_	_
+15	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	reais	real	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	durante	durante	ADP	_	_	20	case	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+21-22	à	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = fonte.
+1	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+

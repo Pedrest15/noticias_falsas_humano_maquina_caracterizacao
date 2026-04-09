@@ -1,0 +1,210 @@
+# sent_id = S0001
+# text = Folha: "Em delação, executivos da Andrade relatam que fizeram pagamento ilícito para Dilma em 2010".
+1	Folha	Folha	PROPN	_	_	11	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+4	Em	em	ADP	_	_	5	case	_	_
+5	delação	delação	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	executivos	executivo	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Andrade	Andrade	PROPN	_	_	7	nmod	_	_
+11	relatam	relatar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	13	mark	_	_
+13	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+14	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15	ilícito	ilícito	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	para	para	ADP	_	_	17	case	_	_
+17	Dilma	Dilma	PROPN	_	_	14	nmod	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	2010	2010	NUM	_	NumType=Card	13	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = Reportagem publicada pelo jornalista Márcio Falcão, Folha/SP, informou que a empreiteira Andrade Gutierrez afirmou ter pago despesas com fornecedores da campanha de Dilma Rousseff em 2010.
+1	Reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+2	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jornalista	jornalista	NOUN	_	Number=Sing	2	obl:agent	_	_
+6	Márcio	Márcio	PROPN	_	_	5	nmod	_	_
+7	Falcão	Falcão	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Folha/SP	Folha/SP	PROPN	_	_	5	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	17	mark	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	empreiteira	empreiteiro	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	Andrade	Andrade	PROPN	_	_	14	nmod	_	_
+16	Gutierrez	Gutierrez	PROPN	_	_	15	flat:name	_	_
+17	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+18	ter	ter	AUX	_	VerbForm=Inf	19	aux	_	_
+19	pago	pagar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	xcomp	_	_
+20	despesas	despesa	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	fornecedores	fornecedor	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Dilma	Dilma	PROPN	_	_	25	nmod	_	_
+28	Rousseff	Rousseff	PROPN	_	_	27	flat:name	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	2010	2010	NUM	_	NumType=Card	19	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = Onze executivos da empreiteira que assinaram acordo de delação premiada informaram que o pagamento ilícito foi feito através de um contrato fictício de prestação de serviço.
+1	Onze	onze	NUM	_	NumType=Card	2	nummod	_	_
+2	executivos	executivo	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	empreiteira	empreiteiro	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	assinaram	assinar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+8	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	delação	delação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	10	amod	_	_
+12	informaram	informar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	18	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+16	ilícito	ilícito	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+19	através	através	ADV	_	_	18	advmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	fictício	fictício	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	prestação	prestação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = Segundo a Folha, essa é a primeira citação direta de irregularidade apurada pela Lava Jato envolvendo um presidente da República.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Folha	Folha	PROPN	_	_	9	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	9	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	citação	citação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10	direta	direto	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	irregularidade	irregularidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	apurada	apurar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+14-15	pela	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Lava	Lava	PROPN	_	_	13	obl:agent	_	_
+17	Jato	Jato	PROPN	_	_	16	flat:name	_	_
+18	envolvendo	envolver	VERB	_	VerbForm=Ger	13	advcl	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	presidente	presidente	NOUN	_	Number=Sing	18	obj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	República	República	PROPN	_	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = A reportagem informou também que o pagamento foi feito, segundo depoimento dos delatores, a pedido direto de um dos coordenadores da campanha do PT.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	também	também	ADV	_	_	3	advmod	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	segundo	segundo	ADP	_	_	12	case	_	_
+12	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	delatores	delator	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+19	direto	direto	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	um	um	NUM	_	Gender=Masc|NumType=Card	18	nmod	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	coordenadores	coordenador	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	PT	PT	PROPN	_	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A Andrade produziu um contrato fictício com a agência Pepper, para dar um aspecto de regularidade ao pagamento em sua contabilidade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Andrade	Andrade	PROPN	_	_	3	nsubj	_	_
+3	produziu	produzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	fictício	fictício	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	agência	agência	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	Pepper	Pepper	PROPN	_	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	dar	dar	VERB	_	VerbForm=Inf	3	advcl	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	aspecto	aspecto	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	regularidade	regularidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	contabilidade	contabilidade	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O valor, de acordo com o relato, superou os R$ 5 milhões à época.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	relato	relato	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	superou	superar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+12	R$	R$	SYM	_	_	14	nmod	_	_
+13	5	5	NUM	_	NumType=Card	14	nummod	_	_
+14	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	época	época	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	_
+

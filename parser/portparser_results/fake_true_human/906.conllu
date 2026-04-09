@@ -1,0 +1,131 @@
+# sent_id = S0001
+# text = glenn greenwald tem prisão decretada e é impedido de sair do brasil pela pf urgente!!!
+1	glenn	glenn	PROPN	_	_	3	nsubj	_	_
+2	greenwald	greenwald	PROPN	_	_	1	flat:name	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	decretada	decretar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	impedido	impedir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	sair	sair	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	brasil	brasil	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	pela	pela	ADP	_	_	15	case	_	_
+15	pf	pf	NOUN	_	_	10	obl	_	_
+16	urgente	urgente	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = glenn greenwald acaba de ter decretada prisão preventiva!!
+1	glenn	glenn	PROPN	_	_	3	nsubj	_	_
+2	greenwald	greenwald	PROPN	_	_	1	flat:name	_	_
+3	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	6	mark	_	_
+5	ter	ter	AUX	_	VerbForm=Inf	6	aux	_	_
+6	decretada	decretar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+7	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = a polícia federal acaba de impedir o espião de sair do país.
+1	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	4	nsubj	_	_
+3	federal	federal	ADJ	_	Number=Sing	2	amod	_	_
+4	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	impedir	impedir	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	espião	espião	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	sair	sair	VERB	_	VerbForm=Inf	6	xcomp	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = já teria despachado american airlines, no ghichê de check-in e foi barrado pelos policiais.
+1	já	já	ADV	_	_	3	advmod	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	_
+3	despachado	despachar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	american	american	X	_	Foreign=Yes	3	obj	_	_
+5	airlines	airlines	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ghichê	ghichê	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	check-in	check-in	X	_	Foreign=Yes	9	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	barrado	barrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+15-16	pelos	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	policiais	policial	NOUN	_	Number=Plur	14	obl:agent	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = estava fugindoooooooooooooooooo!
+1	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	fugindoooooooooooooooooo	fugindoooooooooooooooooo	ADV	_	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = já havia despachado 11 malas!!!
+1	já	já	ADV	_	_	3	advmod	_	_
+2	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	despachado	despachar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	11	11	NUM	_	NumType=Card	5	nummod	_	_
+5	malas	mala	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = , decretada a prisão preventiva de glenn greenwald.
+1	,	,	PUNCT	_	_	2	punct	_	_
+2	decretada	decretar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+5	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	glenn	glenn	X	_	Foreign=Yes	4	nmod	_	_
+8	greenwald	greenwald	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = ele e david miranda já tinham intenção de fugir do país quando providenciaram o passaporte dos filhos.
+1	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	david	david	NOUN	_	_	1	conj	_	_
+4	miranda	miranda	NOUN	_	Number=Sing	3	flat:name	_	_
+5	já	já	ADV	_	_	6	advmod	_	_
+6	tinham	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	fugir	fugir	VERB	_	VerbForm=Inf	7	acl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	país	país	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	quando	quando	SCONJ	_	_	14	mark	_	_
+14	providenciaram	providenciar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	passaporte	passaporte	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+

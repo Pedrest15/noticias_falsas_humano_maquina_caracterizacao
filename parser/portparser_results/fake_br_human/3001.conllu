@@ -1,0 +1,195 @@
+# sent_id = S0001
+# text = URGENTE: Presidente teria oferecido R$ 1 milhão para cada deputado que votasse contra impeachment.
+1	URGENTE	urgente	ADJ	_	Number=Sing	5	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+4	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+5	oferecido	oferecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+6	R$	R$	SYM	_	_	8	nmod	_	_
+7	1	1	NUM	_	NumType=Card	8	nummod	_	_
+8	milhão	milhão	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	cada	cada	DET	_	Number=Sing|PronType=Ind	11	det	_	_
+11	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	votasse	votar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	contra	contra	ADP	_	_	15	case	_	_
+15	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = De acordo com o site da revista "Isto É", uma representação já foi feita contra a suposta atitude tomada pela presidente.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	site	site	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	revista	revista	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Isto	Isto	PROPN	_	_	8	nmod	_	_
+11	É	É	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	representação	representação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+16	já	já	ADV	_	_	18	advmod	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+19	contra	contra	ADP	_	_	22	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	22	amod	_	_
+22	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+23	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+24-25	pela	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	presidente	presidente	NOUN	_	Number=Sing	23	obl:agent	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = Ela foi protocolada na Procuradoria Geral da República.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	protocolada	protocolar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Procuradoria	Procuradoria	PROPN	_	_	3	obl	_	_
+7	Geral	Geral	PROPN	_	_	6	flat:name	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	República	República	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Dilma teria teria oferecido R$ 1 milhão para cada deputado votar a seu favor O jornal O Globo publicou ontem, 31, que o governo teria negociado com deputados para votarem contra seu impeachment na Câmara.
+1	Dilma	Dilma	PROPN	_	_	4	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	oferecido	oferecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	R$	R$	SYM	_	_	7	nmod	_	_
+6	1	1	NUM	_	NumType=Card	7	nummod	_	_
+7	milhão	milhão	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+8	para	para	ADP	_	_	11	mark	_	_
+9	cada	cada	DET	_	Number=Sing|PronType=Ind	10	det	_	_
+10	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	votar	votar	VERB	_	VerbForm=Inf	4	advcl	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	favor	favor	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+17	O	O	PROPN	_	_	16	nmod	_	_
+18	Globo	Globo	PROPN	_	_	17	flat:name	_	_
+19	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	root	_	_
+20	ontem	ontem	ADV	_	_	4	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	31	31	NUM	_	NumType=Card	20	appos	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	que	que	SCONJ	_	_	28	mark	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	governo	governo	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+27	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	28	aux	_	_
+28	negociado	negociar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
+31	para	para	ADP	_	_	32	mark	_	_
+32	votarem	votar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	28	advcl	_	_
+33	contra	contra	ADP	_	_	35	case	_	_
+34	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
+35	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+36-37	na	_	_	_	_	_	_	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Câmara	Câmara	PROPN	_	_	32	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = A atitude, apontada por muitos como suborno, funcionaria da seguinte maneira: Cada deputado que publicamente dissesse que é contra o impedimento de Dilma receberia R$ 1 milhão para serem revertidos em obras em seu estádio.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	apontada	apontar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	obl:agent	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	suborno	suborno	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	funcionaria	funcionar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	seguinte	seguinte	ADJ	_	Number=Sing	14	amod	_	_
+14	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	28	punct	_	_
+16	Cada	cada	DET	_	Number=Sing|PronType=Ind	17	det	_	_
+17	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+18	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+19	publicamente	publicamente	ADV	_	_	20	advmod	_	_
+20	dissesse	dizer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+21	que	que	SCONJ	_	_	25	mark	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23	contra	contra	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	impedimento	impedimento	NOUN	_	Gender=Masc|Number=Sing	20	ccomp	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Dilma	Dilma	PROPN	_	_	25	nmod	_	_
+28	receberia	receber	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	ccomp	_	_
+29	R$	R$	SYM	_	_	31	nmod	_	_
+30	1	1	NUM	_	NumType=Card	31	nummod	_	_
+31	milhão	milhão	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+32	para	para	ADP	_	_	34	mark	_	_
+33	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	34	aux:pass	_	_
+34	revertidos	reverter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	28	advcl	_	_
+35	em	em	ADP	_	_	36	case	_	_
+36	obras	obra	NOUN	_	Gender=Fem|Number=Plur	34	obl	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	det	_	_
+39	estádio	estádio	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Os que se mostrassem indecisos, abstivessem ou não fossem à sessão histórica receberiam R$ 400 mil.
+1	Os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	15	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	mostrassem	mostrar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	indecisos	indeciso	ADJ	_	Gender=Masc|Number=Plur	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	abstivessem	abster	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	ou	ou	CCONJ	_	_	10	cc	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	fossem	ir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	histórica	histórico	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	receberiam	receber	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+16	R$	R$	SYM	_	_	15	obj	_	_
+17	400	400	NUM	_	NumType=Card	16	nummod	_	_
+18	mil	mil	NUM	_	NumType=Card	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0013
+# text = A informação ainda não foi comentada pelo Palácio do Planalto.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	ainda	ainda	ADV	_	_	6	advmod	_	_
+4	não	não	ADV	_	_	6	advmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	comentada	comentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Palácio	Palácio	PROPN	_	_	6	obl:agent	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Planalto	Planalto	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+

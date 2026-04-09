@@ -1,0 +1,287 @@
+# sent_id = S0001
+# text = Japão envia seu maior navio de guerra para escoltar frota liderada pelos EUA.
+1	Japão	Japão	PROPN	_	_	2	nsubj	_	_
+2	envia	enviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+4	maior	maior	ADJ	_	Number=Sing	5	amod	_	_
+5	navio	navio	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	escoltar	escoltar	VERB	_	VerbForm=Inf	2	advcl	_	_
+10	frota	frota	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	liderada	liderar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+12-13	pelos	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	EUA	EUA	PROPN	_	_	11	obl:agent	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O Japão enviou hoje (01) seu maior navio de guerra para se unir à frota americana liderada pelo USS Carl Vinson.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Japão	Japão	PROPN	_	_	3	nsubj	_	_
+3	enviou	enviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	hoje	hoje	ADV	_	_	3	advmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	01	01	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+9	maior	maior	ADJ	_	Number=Sing	10	amod	_	_
+10	navio	navio	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	para	para	ADP	_	_	15	mark	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	unir	unir	VERB	_	VerbForm=Inf	3	advcl	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	frota	frota	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19	americana	americano	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	liderada	liderar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	USS	USS	PROPN	_	_	20	obl:agent	_	_
+24	Carl	Carl	PROPN	_	_	23	flat:name	_	_
+25	Vinson	Vinson	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = A última vez que as marinhas japonesa e americana estiveram juntas no Pacífico, elas estavam em lados opostos, guerreando entre si.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	vez	vez	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+4	que	que	PRON	_	PronType=Rel	11	obl	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	marinhas	marinho	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+7	japonesa	japonÃªs	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	americana	americano	ADJ	_	Gender=Fem|Number=Sing	7	conj	_	_
+10	estiveram	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	juntas	junto	ADJ	_	Gender=Fem|Number=Plur	3	acl:relcl	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Pacífico	Pacífico	PROPN	_	_	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+17	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	lados	lado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+20	opostos	oposto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	guerreando	guerrear	VERB	_	VerbForm=Ger	19	advcl	_	_
+23	entre	entre	ADP	_	_	24	case	_	_
+24	si	si	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0007
+# text = O porta-helicópteros Izumo deixou o porto de Yokosuka, ao sul de Tóquio, na manhã de hoje, para escoltar o navio americano em direção ao largo de Shikoku.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	porta-helicópteros	porta-helicópteros	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	Izumo	Izumo	PROPN	_	_	2	nmod	_	_
+4	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	porto	porto	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Yokosuka	Yokosuka	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sul	sul	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Tóquio	Tóquio	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	12	punct	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	hoje	hoje	ADV	_	_	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	escoltar	escoltar	VERB	_	VerbForm=Inf	4	advcl	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	navio	navio	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	americano	americano	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	direção	direção	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+29-30	ao	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	largo	largo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Shikoku	Shikoku	PROPN	_	_	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = A constituição do Japão, que foi adotada após sua rendição à América em 1945, proíbe seus militares de realizar qualquer ação que não seja em legítima defesa.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	constituição	constituição	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Japão	Japão	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	que	que	PRON	_	PronType=Rel	9	nsubj:pass	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+10	após	após	ADP	_	_	12	case	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	rendição	rendição	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	América	América	PROPN	_	_	12	nmod	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	1945	1945	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	9	punct	_	_
+19	proíbe	proíbe	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	militares	militar	NOUN	_	Number=Plur	19	obj	_	_
+22	de	de	ADP	_	_	23	mark	_	_
+23	realizar	realizar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+24	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	25	det	_	_
+25	ação	ação	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	que	que	PRON	_	PronType=Rel	31	nsubj	_	_
+27	não	não	ADV	_	_	31	advmod	_	_
+28	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	legítima	legítimo	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
+31	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	25	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0011
+# text = No entanto, o primeiro-ministro Shinzo Abe expandiu a definição de auto-defesa para incluir a proteção dos aliados japoneses e fornecer apoio logístico a países que são importantes para a defesa do país.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	9	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	primeiro-ministro	primeiro-ministro	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	Shinzo	Shinzo	PROPN	_	_	6	nmod	_	_
+8	Abe	Abe	PROPN	_	_	7	flat:name	_	_
+9	expandiu	expandir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	definição	definição	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	auto-defesa	auto-defesa	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	incluir	incluir	VERB	_	VerbForm=Inf	9	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	dos	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+21	japoneses	japonÃªs	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	fornecer	fornecer	VERB	_	VerbForm=Inf	15	conj	_	_
+24	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+25	logístico	logístico	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	a	a	ADP	_	_	27	case	_	_
+27	países	país	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+28	que	que	PRON	_	PronType=Rel	30	nsubj	_	_
+29	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	importantes	importante	ADJ	_	Number=Plur	27	acl:relcl	_	_
+31	para	para	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	país	país	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = O Izumo foi autorizado a usar "poder de fogo mínimo", a fim de proteger a armada norte-americana.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Izumo	Izumo	PROPN	_	_	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	autorizado	autorizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	usar	usar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	poder	poder	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	mínimo	mínimo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	proteger	proteger	VERB	_	VerbForm=Inf	15	acl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	armada	armado	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	norte-americana	norte-americano	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = A Coréia do Norte anunciou hoje (01) que continuará testando mísseis nucleares de longo alcance, mesmo com a presença do USS Carl Vinson.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Coréia	Coréia	PROPN	_	_	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Norte	Norte	PROPN	_	_	2	flat:name	_	_
+6	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	hoje	hoje	ADV	_	_	6	advmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	01	01	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	continuará	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	_	_
+13	testando	testar	VERB	_	VerbForm=Ger	12	xcomp	_	_
+14	mísseis	míssil	NOUN	_	Number=Plur	13	obj	_	_
+15	nucleares	nuclear	ADJ	_	Number=Plur	14	amod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	longo	longo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	alcance	alcance	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	mesmo	mesmo	ADV	_	_	23	advmod	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	presença	presença	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	USS	USS	PROPN	_	_	23	nmod	_	_
+27	Carl	Carl	PROPN	_	_	26	flat:name	_	_
+28	Vinson	Vinson	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = Mais cedo, o regime comunista advertiu que irá realizar mais um teste nuclear "a qualquer momento e em qualquer local" disse Kim Jon-un.
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	cedo	cedo	ADV	_	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	regime	regime	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	comunista	comunista	ADJ	_	Number=Sing	5	amod	_	_
+7	advertiu	advertir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	ccomp:speech	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10	realizar	realizar	VERB	_	VerbForm=Inf	7	ccomp	_	_
+11	mais	mais	ADV	_	_	12	advmod	_	_
+12	um	um	NUM	_	Gender=Masc|NumType=Card	13	nummod	_	_
+13	teste	teste	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+14	nuclear	nuclear	ADJ	_	Number=Sing	13	amod	_	_
+15	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+16	a	a	ADP	_	_	18	case	_	_
+17	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	18	det	_	_
+18	momento	momento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+19	e	e	CCONJ	_	_	22	cc	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	22	det	_	_
+22	local	local	NOUN	_	Number=Sing	18	conj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	7	punct	_	_
+24	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	Kim	Kim	PROPN	_	_	24	nsubj	_	_
+26	Jon-un	Jon-un	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	_
+

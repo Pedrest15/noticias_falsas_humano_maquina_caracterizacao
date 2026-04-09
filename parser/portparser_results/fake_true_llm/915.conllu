@@ -1,0 +1,426 @@
+# sent_id = S0001
+# text = Exclusivo: Novo Documentário Revela Conspiração Global para Esconder a Verdade sobre a Forma da Terra!
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Novo	Novo	PROPN	_	_	4	amod	_	_
+4	Documentário	Documentário	PROPN	_	_	5	nsubj	_	_
+5	Revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+6	Conspiração	Conspiração	PROPN	_	_	5	obj	_	_
+7	Global	Global	PROPN	_	_	6	flat:name	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	Esconder	Esconder	PROPN	_	_	5	advcl	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Verdade	Verdade	PROPN	_	_	9	obj	_	_
+12	sobre	sobre	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Forma	Forma	PROPN	_	_	11	flat:name	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Terra	Terra	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Em um documentário bombástico que está causando alvoroço nas redes sociais, foram apresentadas evidências chocantes de que a humanidade foi enganada durante séculos.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	documentário	documentário	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+4	bombástico	bombástico	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	causando	causar	VERB	_	VerbForm=Ger	3	acl:relcl	_	_
+8	alvoroço	alvoroço	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9-10	nas	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	redes	rede	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+12	sociais	social	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+16	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+17	chocantes	chocante	ADJ	_	Number=Plur	16	amod	_	_
+18	de	de	ADP	_	ExtPos=SCONJ	23	mark	_	_
+19	que	que	SCONJ	_	_	18	fixed	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	enganada	enganar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
+24	durante	durante	ADP	_	_	25	case	_	_
+25	séculos	século	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0005
+# text = A narrativa oficial de que a Terra é redonda está sendo questionada por um grupo de pesquisadores independentes, que alegam ter desvendado uma conspiração global.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	narrativa	narrativa	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+3	oficial	oficial	ADJ	_	Number=Sing	2	amod	_	_
+4	de	de	ADP	_	ExtPos=SCONJ	9	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Terra	Terra	PROPN	_	_	9	nsubj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	redonda	redondo	ADJ	_	Gender=Fem|Number=Sing	2	acl	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	sendo	ser	AUX	_	VerbForm=Ger	12	aux:pass	_	_
+12	questionada	questionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	independentes	independente	ADJ	_	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	alegam	alegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	ter	ter	AUX	_	VerbForm=Inf	23	aux	_	_
+23	desvendado	desvendar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	xcomp	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	global	global	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = Os especialistas afirmam que observações comuns, como o desaparecimento de barcos no horizonte, são manipuladas.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	especialistas	especialista	NOUN	_	Number=Plur	3	nsubj	_	_
+3	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	18	mark	_	_
+5	observações	observação	NOUN	_	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+6	comuns	comum	ADJ	_	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	como	como	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	desaparecimento	desaparecimento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	barcos	barco	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	horizonte	horizonte	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	10	punct	_	_
+17	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Segundo eles, tecnologia avançada de ilusão ótica está sendo usada para fazer com que o casco dos barcos pareça sumir antes das velas, sustentando a ideia de curvatura da Terra.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+5	avançada	avançado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	ilusão	ilusão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	ótica	ótico	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	sendo	ser	AUX	_	VerbForm=Ger	11	aux:pass	_	_
+11	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	fazer	fazer	VERB	_	VerbForm=Inf	11	advcl	_	_
+14	com	com	ADP	_	ExtPos=SCONJ	21	mark	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	casco	casco	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+18-19	dos	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	barcos	barco	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+21	pareça	parecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+22	sumir	sumir	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	antes	antes	ADV	_	_	22	advmod	_	_
+24-25	das	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	velas	vela	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	sustentando	sustentar	VERB	_	VerbForm=Ger	21	advcl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	curvatura	curvatura	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Terra	terra	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = "Isso é uma farsa", diz John Smith, um dos pesquisadores.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	farsa	farsa	NOUN	_	Gender=Fem|Number=Sing	8	ccomp:speech	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	John	John	PROPN	_	_	8	nsubj	_	_
+10	Smith	Smith	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	um	um	NUM	_	Gender=Masc|NumType=Card	9	appos	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = Binóculos especiais podem desfazer essa ilusão e revelar a verdade.
+1	Binóculos	binóculo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	especiais	especial	ADJ	_	Number=Plur	1	amod	_	_
+3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	desfazer	desfazer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	ilusão	ilusão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	revelar	revelar	VERB	_	VerbForm=Inf	4	conj	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Outra revelação surpreendente envolve eclipses lunares.
+1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	surpreendente	surpreendente	ADJ	_	Number=Sing	2	amod	_	_
+4	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	eclipses	eclipse	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	lunares	lunar	ADJ	_	Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = O documentário argumenta que a sombra redonda projetada na Lua durante um eclipse é, na verdade, resultado de um enorme holograma projetado por governos para manter a narrativa da Terra esférica.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documentário	documentário	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	argumenta	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	21	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sombra	sombra	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+7	redonda	redondo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	projetada	projetar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Lua	Lua	PROPN	_	_	8	obl	_	_
+12	durante	durante	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	eclipse	eclipse	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	enorme	enorme	ADJ	_	Number=Sing	25	amod	_	_
+25	holograma	holograma	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+26	projetado	projetar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	acl	_	_
+27	por	por	ADP	_	_	28	case	_	_
+28	governos	governo	NOUN	_	Gender=Masc|Number=Plur	26	obl:agent	_	_
+29	para	para	ADP	_	_	30	mark	_	_
+30	manter	manter	VERB	_	VerbForm=Inf	26	advcl	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	narrativa	narrativa	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Terra	Terra	PROPN	_	_	32	nmod	_	_
+36	esférica	esférico	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = "A tecnologia existe e está sendo usada para manipular a população", explica Smith.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp:speech	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	sendo	ser	AUX	_	VerbForm=Ger	8	aux:pass	_	_
+8	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	manipular	manipular	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	população	população	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	4	punct	_	_
+15	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	Smith	Smith	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0023
+# text = Neil deGrasse Tyson, famoso cientista, foi acusado de participar dessa conspiração após um tweet misterioso: Um eclipse lunar que os terraplanistas nunca viram.
+1	Neil	Neil	PROPN	_	_	9	nsubj:pass	_	_
+2	deGrasse	deGrasse	PROPN	_	_	1	flat:name	_	_
+3	Tyson	Tyson	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	cientista	cientista	NOUN	_	Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	participar	participar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12-13	dessa	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	após	após	ADP	_	_	17	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tweet	tweet	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+18	misterioso	misterioso	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	21	punct	_	_
+20	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	eclipse	eclipse	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
+22	lunar	lunar	ADJ	_	Number=Sing	21	amod	_	_
+23	que	que	PRON	_	PronType=Rel	27	obj	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	terraplanistas	terraplanista	NOUN	_	Number=Plur	27	nsubj	_	_
+26	nunca	nunca	ADV	_	_	27	advmod	_	_
+27	viram	viram	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0025
+# text =  Os pesquisadores interpretam isso como uma provocação intencional, desafiando-os a provar a verdade.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	interpretam	interpretar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5	como	como	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	provocação	provocação	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+8	intencional	intencional	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10-11	desafiando-os	_	_	_	_	_	_	_	_
+10	desafiando	desafiar	VERB	_	VerbForm=Ger	3	advcl	_	_
+11	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	provar	provar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0027
+# text = Em voos longos, especialmente em aeronaves como o Concorde, passageiros alegam que visões da curvatura terrestre são induzidas por janelas curvas e câmeras onboard manipuladas.
+1	Em	em	ADP	_	_	2	case	_	_
+2	voos	voo	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+3	longos	longo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	especialmente	especialmente	ADV	_	_	7	advmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	aeronaves	aeronave	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+8	como	como	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Concorde	Concorde	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	alegam	alegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	21	mark	_	_
+15	visões	visão	NOUN	_	Gender=Fem|Number=Plur	21	nsubj:pass	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	curvatura	curvatura	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	terrestre	terrestre	ADJ	_	Number=Sing	18	amod	_	_
+20	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	induzidas	induzir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+22	por	por	ADP	_	_	23	case	_	_
+23	janelas	janela	NOUN	_	Gender=Fem|Number=Plur	21	obl:agent	_	_
+24	curvas	curvo	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	23	amod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
+27	onboard	onboard	X	_	Foreign=Yes	26	nmod	_	_
+28	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	26	acl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0029
+# text = "Nós precisamos de câmeras independentes para capturar a verdade", argumenta Smith.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp:speech	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+6	independentes	independente	ADJ	_	Number=Plur	5	amod	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	capturar	capturar	VERB	_	VerbForm=Inf	3	advcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	argumenta	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	Smith	Smith	PROPN	_	_	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0031
+# text = Finalmente, o documentário aborda a questão dos ciclos dia/noite, sugerindo que a rotação da Terra é uma simulação complexa.
+1	Finalmente	finalmente	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	documentário	documentário	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	aborda	abordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	questão	questão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ciclos	ciclo	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11	dia/noite	dia/noite	NOUN	_	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	sugerindo	sugerir	VERB	_	VerbForm=Ger	5	advcl	_	_
+14	que	que	SCONJ	_	_	22	mark	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	rotação	rotação	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Terra	Terra	PROPN	_	_	16	nmod	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	13	ccomp	_	_
+23	complexa	complexo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0033
+# text = "Como explicar que, em algumas regiões, o sol nunca se põe completamente no horizonte durante o verão?", questiona Smith.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Como	como	ADV	_	_	3	advmod	_	_
+3	explicar	explicar	VERB	_	VerbForm=Inf	25	ccomp:speech	_	_
+4	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	regiões	região	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sol	sol	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	nunca	nunca	ADV	_	_	14	advmod	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	põe	por	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+15	completamente	completamente	ADV	_	_	14	advmod	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	horizonte	horizonte	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+19	durante	durante	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	verão	verão	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	3	punct	_	_
+25	questiona	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	Smith	Smith	PROPN	_	_	25	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0035
+# text = A verdade está sendo ocultada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	ocultada	ocultar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+

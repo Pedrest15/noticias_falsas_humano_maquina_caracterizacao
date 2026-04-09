@@ -1,0 +1,244 @@
+# sent_id = S0001
+# text = Homem que tinha enxaqueca há 50 anos coloca piercing e dores desaparecem.
+1	Homem	homem	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+4	enxaqueca	enxaqueca	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	50	50	NUM	_	NumType=Card	7	nummod	_	_
+7	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8	coloca	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	piercing	piercing	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	8	obj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	dores	dor	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	desaparecem	desaparecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Colin Seaman, de 70 anos de idade, não sabia o que era viver sem dor de cabeça desde seus 20 anos de idade.
+1	Colin	Colin	PROPN	_	_	11	nsubj	_	_
+2	Seaman	Seaman	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	70	70	NUM	_	NumType=Card	6	nummod	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	idade	idade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	ccomp	_	_
+13	que	que	PRON	_	PronType=Int	12	fixed	_	_
+14	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+15	viver	viver	VERB	_	VerbForm=Inf	12	csubj	_	_
+16	sem	sem	ADP	_	_	17	case	_	_
+17	dor	dor	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	desde	desde	ADP	_	_	23	case	_	_
+21	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+22	20	20	NUM	_	NumType=Card	23	nummod	_	_
+23	anos	ano	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	idade	idade	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = O idoso foi foi curado depois que colocou um piercing na orelha.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	idoso	idoso	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	curado	curar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	depois	depois	ADV	_	ExtPos=SCONJ	8	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	piercing	piercing	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	8	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	orelha	orelha	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = As dores eram tão agudas que chegavam a interferir na visão de Colin, incomodando-o o longo da vida.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	dores	dor	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	tão	tão	ADV	_	_	5	advmod	_	_
+5	agudas	agudo	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+6	que	que	SCONJ	_	_	7	mark	_	_
+7	chegavam	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	interferir	interferir	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	visão	visão	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Colin	Colin	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16-17	incomodando-o	_	_	_	_	_	_	_	_
+16	incomodando	incomodar	VERB	_	VerbForm=Ger	9	advcl	_	_
+17	o	o	PRON	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	longo	longo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vida	vida	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Depois que ele colocou a argola em sua orelha, os sintomas foram aliviados.
+1	Depois	depois	ADV	_	ExtPos=SCONJ	4	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	advcl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	argola	argola	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	orelha	orelha	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	sintomas	sintoma	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+13	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	aliviados	aliviar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0011
+# text = O aposentado já havia feito vários tratamentos afim de se livrar do incômodo, mas nunca obtinha sucesso.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	aposentado	aposentado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	já	já	ADV	_	_	5	advmod	_	_
+4	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+6	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8	afim	afim	NOUN	_	Number=Sing	5	obj	_	_
+9	de	de	ADP	_	_	11	mark	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	livrar	livrar	VERB	_	VerbForm=Inf	8	acl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	incômodo	incômodo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	18	cc	_	_
+17	nunca	nunca	ADV	_	_	18	advmod	_	_
+18	obtinha	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+19	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Para se ter ideia, a dor era tamanha que, certa vez, Colin admitiu ter considerado tirar a própria vida. .
+1	Para	para	ADP	_	_	3	mark	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl:impers	_	_
+3	ter	ter	VERB	_	VerbForm=Inf	9	advcl	_	_
+4	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	dor	dor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	tamanha	tamanho	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+10	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	certa	certo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
+13	vez	vez	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Colin	Colin	PROPN	_	_	16	nsubj	_	_
+16	admitiu	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+17	ter	ter	AUX	_	VerbForm=Inf	18	aux	_	_
+18	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	xcomp	_	_
+19	tirar	tirar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	vida	vida	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = Só não fiz isso pelo fato dos fortes analgésicos que eu tomava ainda conseguirem segurar parte de meu sofrimento disse Colin.
+1	Só	só	ADV	_	_	3	advmod	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	fiz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	ccomp:speech	_	_
+4	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	16	mark	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	fortes	forte	ADJ	_	Number=Plur	11	amod	_	_
+11	analgésicos	analgésico	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+12	que	que	PRON	_	PronType=Rel	14	obj	_	_
+13	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	tomava	tomar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+15	ainda	ainda	ADV	_	_	16	advmod	_	_
+16	conseguirem	conseguir	VERB	_	Number=Plur|Person=3|VerbForm=Inf	7	acl	_	_
+17	segurar	segurar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	parte	parte	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	det	_	_
+21	sofrimento	sofrimento	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Colin	Colin	PROPN	_	_	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0017
+# text = Orgulhoso e feliz, ele conta que um amigo lhe disse que o piercing poderia curá-lo.
+1	Orgulhoso	orgulhoso	ADJ	_	Gender=Masc|Number=Sing	6	advcl	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	feliz	feliz	ADJ	_	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	lhe	lhe	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	piercing	piercing	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	ccomp	_	_
+16-17	curá-lo	_	_	_	_	_	_	_	_
+16	curar	curar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = No início ele não acreditou, mas como não tinha nada a perder, ele colocou a jóia, feita de titânio e banhada a ouro.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	acreditou	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	mas	mas	CCONJ	_	_	17	cc	_	_
+9	como	como	SCONJ	_	_	11	mark	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+12	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	_
+13	a	a	ADP	_	_	14	mark	_	_
+14	perder	perder	VERB	_	VerbForm=Inf	12	acl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	root	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	jóia	jóia	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	titânio	titânio	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	banhada	banhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	21	conj	_	_
+26	a	a	ADP	_	_	27	case	_	_
+27	ouro	ouro	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	_
+

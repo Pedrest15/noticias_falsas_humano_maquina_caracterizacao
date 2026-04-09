@@ -1,0 +1,286 @@
+# sent_id = S0001
+# text = Espírito Santo: Três policiais foram baleados após serem obrigados a fazer patrulhamento a pé.
+1	Espírito	Espírito	PROPN	_	_	7	nsubj:pass	_	_
+2	Santo	Santo	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Três	três	NUM	_	NumType=Card	5	nummod	_	_
+5	policiais	policial	NOUN	_	Number=Plur	7	nsubj:pass	_	_
+6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	baleados	balear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+8	após	após	ADP	_	_	10	mark	_	_
+9	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	10	aux:pass	_	_
+10	obrigados	obrigar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	fazer	fazer	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	patrulhamento	patrulhamento	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	pé	pé	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = A Associação de Cabos e Soldados da Polícia Militar e Bombeiro Militar informou que três PMs foram baleados hoje.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Associação	Associação	PROPN	_	_	14	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Cabos	Cabos	PROPN	_	_	2	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Soldados	Soldados	PROPN	_	_	4	flat:name	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polícia	Polícia	PROPN	_	_	2	nmod	_	_
+10	Militar	Militar	PROPN	_	_	9	flat:name	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Bombeiro	Bombeiro	PROPN	_	_	9	conj	_	_
+13	Militar	Militar	PROPN	_	_	12	flat:name	_	_
+14	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	que	que	SCONJ	_	_	19	mark	_	_
+16	três	três	NUM	_	NumType=Card	17	nummod	_	_
+17	PMs	PMs	PROPN	_	_	19	nsubj:pass	_	_
+18	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	baleados	balear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	ccomp	_	_
+20	hoje	hoje	ADV	_	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com a ACS, os militares faziam patrulha em Cariacica, a cerca de 20 km da Grande Vitória.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ACS	ACS	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	militares	militar	NOUN	_	Number=Plur	9	nsubj	_	_
+9	faziam	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	patrulha	patrulha	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Cariacica	Cariacica	PROPN	_	_	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	a	a	ADP	_	_	18	case	_	_
+15	cerca	cerca	ADV	_	ExtPos=ADV	17	advmod	_	_
+16	de	de	ADP	_	_	15	fixed	_	_
+17	20	20	NUM	_	NumType=Card	18	nummod	_	_
+18	km	quilômetro	NOUN	_	Abbr=Yes|Gender=Masc	12	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Grande	Grande	PROPN	_	_	18	nmod	_	_
+22	Vitória	Vitória	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Um soldado foi alvejado na perna e outro sofreu um tiro de raspão.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	soldado	soldado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	alvejado	alvejar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	perna	perna	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+10	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tiro	tiro	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	raspão	raspão	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Com o intuito de socorrer os colegas, um terceiro militar se aproximou e foi atingido no braço.
+1	Com	com	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	socorrer	socorrer	VERB	_	VerbForm=Inf	3	acl	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	militar	militar	NOUN	_	Number=Sing	13	nsubj	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	aproximou	aproximar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	atingido	atingir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	braço	braço	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = O 7o Batalhão da PM do Estado, através de seu diretor de Relações Públicas se manifestou e disse que se trata de um "patrulhamento suicida".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	7o	7o	ADJ	_	Gender=Masc|NumType=Ord	3	amod	_	_
+3	Batalhão	Batalhão	PROPN	_	_	19	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	PM	PM	PROPN	_	_	3	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Estado	Estado	PROPN	_	_	3	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	através	através	ADV	_	_	19	advmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Relações	Relações	PROPN	_	_	14	nmod	_	_
+17	Públicas	Públicas	PROPN	_	_	16	flat:name	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	manifestou	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+22	que	que	SCONJ	_	_	24	mark	_	_
+23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl:impers	_	_
+24	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+25	de	de	ADP	_	_	28	case	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	patrulhamento	patrulhamento	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+29	suicida	suicida	ADJ	_	Number=Sing	28	amod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0013
+# text = Desde o último sábado (4) familiares de policiais estão "travando" as saídas de veículos das corporações.
+1	Desde	desde	ADP	_	_	4	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	último	último	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	4	4	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	familiares	familiar	NOUN	_	Number=Plur	13	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	policiais	policial	NOUN	_	Number=Plur	8	nmod	_	_
+11	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	travando	travar	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	saídas	saída	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	corporações	corporação	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = A corporação disse que orientou os policiais a seguirem diretamente para seus locais de trabalho, mesmo sem viaturas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	corporação	corporação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	orientou	orientar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	policiais	policial	NOUN	_	Number=Plur	5	obj	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	seguirem	seguir	VERB	_	Number=Plur|Person=3|VerbForm=Inf	5	xcomp	_	_
+10	diretamente	diretamente	ADV	_	_	9	advmod	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	locais	local	NOUN	_	Number=Plur	9	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	mesmo	mesmo	ADV	_	_	19	advmod	_	_
+18	sem	sem	ADP	_	_	19	case	_	_
+19	viaturas	viatura	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = A Secretaria de Segurança do Estado não confirmou a ocorrência.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Secretaria	Secretaria	PROPN	_	_	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Segurança	Segurança	PROPN	_	_	2	flat:name	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Estado	Estado	PROPN	_	_	2	nmod	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0019
+# text = As viaturas estão presas nos quartéis e o pessoal está sendo obrigado a trabalhar a pé.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	viaturas	viatura	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	presas	preso	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
+5-6	nos	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	quartéis	quartéi	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+8	e	e	CCONJ	_	_	13	cc	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pessoal	pessoal	NOUN	_	Number=Sing	13	nsubj:pass	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	sendo	ser	AUX	_	VerbForm=Ger	13	aux:pass	_	_
+13	obrigado	obrigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+14	a	a	ADP	_	_	15	mark	_	_
+15	trabalhar	trabalhar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	pé	pé	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Por medo e pressão das chefias, alguns acabam acatando as ordens e vão para as ruas sem o equipamentos de proteção, disse o cabo Thiago Bicalho.
+1	Por	por	ADP	_	_	2	case	_	_
+2	medo	medo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	chefias	chefia	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	10	nsubj	_	_
+10	acabam	acabar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp:speech	_	_
+11	acatando	acatar	VERB	_	VerbForm=Ger	10	xcomp	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	ordens	ordem	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+19	sem	sem	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	10	punct	_	_
+25	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cabo	cabo	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+28	Thiago	Thiago	PROPN	_	_	27	nmod	_	_
+29	Bicalho	Bicalho	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0023
+# text = as informações são de Paula Bianchi, do UOL.
+1	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Paula	Paula	PROPN	_	_	0	root	_	_
+6	Bianchi	Bianchi	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	UOL	UOL	PROPN	_	_	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+

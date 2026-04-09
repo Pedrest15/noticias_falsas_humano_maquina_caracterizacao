@@ -1,0 +1,277 @@
+# sent_id = S0001
+# text = "Laudo médico com diagnóstico de depressão e greve de fome" para escapar da cadeia.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Laudo	laudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	médico	médico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	diagnóstico	diagnóstico	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	depressão	depressão	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	greve	greve	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	fome	fome	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	2	punct	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	escapar	escapar	VERB	_	VerbForm=Inf	2	acl	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Lula quer usar novamente o "coitadismo" para fugir das "grades".
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	usar	usar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	novamente	novamente	ADV	_	_	3	advmod	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	coitadismo	coitadismo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	fugir	fugir	VERB	_	VerbForm=Inf	3	advcl	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	grades	grade	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O petista e seus advogados já tentam traçar uma nova estratégia para escapar da justiça.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	petista	petista	NOUN	_	Number=Sing	7	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	tentam	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	traçar	traçar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nova	novo	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	escapar	escapar	VERB	_	VerbForm=Inf	11	acl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com informação do Jornal de Brasília, o ex-presidente já se encontrou com um médico de confiança e está preparando um laudo que incluirá desgaste mental, estresse, hipertensão e depressão.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	informação	informação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Jornal	Jornal	PROPN	_	_	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Brasília	Brasília	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-presidente	ex-presidente	NOUN	_	Number=Sing	15	nsubj	_	_
+13	já	já	ADV	_	_	15	advmod	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	médico	médico	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	confiança	confiança	NOUN	_	Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	preparando	preparar	VERB	_	VerbForm=Ger	15	conj	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	laudo	laudo	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+27	incluirá	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	acl:relcl	_	_
+28	desgaste	desgaste	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+29	mental	mental	ADJ	_	Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	estresse	estresse	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	hipertensão	hipertensão	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	depressão	depressão	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = O tal laudo deverá ser apresentado aos desembargadores da 8a Turma do TRF4, segunda instância em Curitiba.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	tal	tal	DET	_	Number=Sing|PronType=Dem	3	det	_	_
+3	laudo	laudo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	deverá	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	_	_
+6	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+7-8	aos	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	desembargadores	desembargador	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	8a	8a	ADJ	_	Gender=Fem|NumType=Ord	13	amod	_	_
+13	Turma	Turma	PROPN	_	_	9	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	TRF4	TRF4	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	instância	instância	NOUN	_	Gender=Fem|Number=Sing	13	appos	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	Curitiba	Curitiba	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = O que será que se passa na cabeça do ex-presidente?
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	discourse	_	_
+4	que	que	SCONJ	_	_	6	discourse	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Ele acha que vai cumprir pena no Albert Einstein?
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	acha	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cumprir	cumprir	VERB	_	VerbForm=Inf	2	ccomp	_	_
+6	pena	pena	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Albert	Albert	PROPN	_	_	5	obl	_	_
+10	Einstein	Einstein	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Ahhh... outra coisa... uma greve de fome também faz parte da estratégia jurídica do petista!
+1	Ahhh	ahhh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+2	...	...	PUNCT	_	_	1	punct	_	_
+3	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	11	parataxis	_	SpaceAfter=No
+5	...	...	PUNCT	_	_	4	punct	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	greve	greve	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	fome	fome	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	parte	parte	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+16	jurídica	jurídico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	petista	petista	NOUN	_	Number=Sing	15	nmod	_	SpaceAfter=No
+20	!	!	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0017
+# text = Veja o que foi publicado no Jornal da Cidade online: A medida que tem ganhado força entre os líderes petistas é a greve de fome, tão logo o condenado seja preso.
+1	Veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	obj	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj:pass	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Jornal	Jornal	PROPN	_	_	5	obl	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Cidade	Cidade	PROPN	_	_	8	flat:name	_	_
+12	online	online	ADV	_	_	8	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	26	punct	_	_
+14	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	medida	medida	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+16	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+17	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	ganhado	ganhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl:relcl	_	_
+19	força	força	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+20	entre	entre	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	_
+23	petistas	petista	ADJ	_	Number=Plur	22	amod	_	_
+24	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	greve	greve	NOUN	_	Gender=Fem|Number=Sing	1	ccomp	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	fome	fome	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	35	punct	_	_
+30	tão	tão	ADV	_	ExtPos=SCONJ	35	mark	_	_
+31	logo	logo	ADV	_	_	30	fixed	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	condenado	condenado	NOUN	_	Gender=Masc|Number=Sing	35	nsubj:pass	_	_
+34	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux:pass	_	_
+35	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	advcl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Lula vai reeditar o que fez na época em que ficou preso durante o governo militar [...] há quem diga que ele pregava greve de fome, mas comia escondido na sala do delegado.
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	reeditar	reeditar	VERB	_	VerbForm=Inf	0	root	_	_
+4	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
+5	que	que	PRON	_	PronType=Rel	6	obj	_	_
+6	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	época	época	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	que	que	PRON	_	PronType=Rel	12	obl	_	_
+12	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+13	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	12	xcomp	_	_
+14	durante	durante	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+17	militar	militar	ADJ	_	Number=Sing	16	amod	_	_
+18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+20	..	..	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	]	]	PUNCT	_	_	19	punct	_	_
+22	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+23	quem	quem	PRON	_	PronType=Ind	22	obj	_	_
+24	diga	dizer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+25	que	que	SCONJ	_	_	27	mark	_	_
+26	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	pregava	pregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	ccomp	_	_
+28	greve	greve	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	fome	fome	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	mas	mas	CCONJ	_	_	33	cc	_	_
+33	comia	comer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	conj	_	_
+34	escondido	escondido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	33	advcl	_	_
+35-36	na	_	_	_	_	_	_	_	_
+35	em	em	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	sala	sala	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	3	punct	_	_
+

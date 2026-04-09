@@ -1,0 +1,191 @@
+# sent_id = S0001
+# text = João Santana recebeu mais de R$ 55 milhões para eleger Lula e Dilma.
+1	João	João	PROPN	_	_	3	nsubj	_	_
+2	Santana	Santana	PROPN	_	_	1	flat:name	_	_
+3	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	mais	mais	ADV	_	ExtPos=ADV	8	advmod	_	_
+5	de	de	ADP	_	_	4	fixed	_	_
+6	R$	R$	SYM	_	_	8	nmod	_	_
+7	55	55	NUM	_	NumType=Card	8	nummod	_	_
+8	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	eleger	eleger	VERB	_	VerbForm=Inf	3	advcl	_	_
+11	Lula	Lula	PROPN	_	_	10	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	Dilma	Dilma	PROPN	_	_	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Vinícius Borin relatou em delação premiada que a offshore [empresas em paraíso fiscal] de João Santana [marqueteiro de Dilma e Lula] teria recebido mais de R$ 55 milhões através do "escritório de propinas" da Odebrecht.
+1	Vinícius	Vinícius	PROPN	_	_	3	nsubj	_	_
+2	Borin	Borin	PROPN	_	_	1	flat:name	_	_
+3	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	delação	delação	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	5	amod	_	_
+7	que	que	SCONJ	_	_	27	mark	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	offshore	offshore	X	_	Foreign=Yes	27	nsubj	_	_
+10	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	9	appos	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	paraíso	paraíso	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	fiscal	fiscal	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	11	punct	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	João	João	PROPN	_	_	9	nmod	_	_
+18	Santana	Santana	PROPN	_	_	17	flat:name	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Dilma	Dilma	PROPN	_	_	20	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	Lula	Lula	PROPN	_	_	22	conj	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	20	punct	_	_
+26	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	27	aux	_	_
+27	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	ccomp	_	_
+28	mais	mais	ADV	_	ExtPos=ADV	32	advmod	_	_
+29	de	de	ADP	_	_	28	fixed	_	_
+30	R$	R$	SYM	_	_	32	nmod	_	_
+31	55	55	NUM	_	NumType=Card	32	nummod	_	_
+32	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+33	através	através	ADV	_	_	27	advmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	37	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	escritório	escritório	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	37	punct	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Odebrecht	Odebrecht	PROPN	_	_	37	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Os repasses foram identificados de acordo com os documentos fornecidos pelo administrador do banco da Odebrecht [no Caribe] e somam US$ 16.633.510 em propinas.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	repasses	repasse	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	identificados	identificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	fornecidos	fornecer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	administrador	administrador	NOUN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	banco	banco	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Odebrecht	Odebrecht	PROPN	_	_	16	nmod	_	_
+20	[	[	PUNCT	_	_	23	punct	_	SpaceAfter=No
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Caribe	Caribe	PROPN	_	_	16	nmod	_	SpaceAfter=No
+24	]	]	PUNCT	_	_	23	punct	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	somam	somar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+27	US$	US$	SYM	_	_	26	obj	_	_
+28	16.633.510	16.633.510	NUM	_	NumType=Card	27	nummod	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = A Lava-Jato também identificou que o marqueteiro e sua esposa Monica Moura teriam recebido no Brasil outros R$ 23, 5 milhões.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lava-Jato	Lava-Jato	PROPN	_	_	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	identificou	identificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	14	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+11	Monica	Monica	PROPN	_	_	10	nmod	_	_
+12	Moura	Moura	PROPN	_	_	11	flat:name	_	_
+13	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	14	aux	_	_
+14	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Brasil	Brasil	PROPN	_	_	14	obl	_	_
+18	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+19	R$	R$	SYM	_	_	23	nmod	_	_
+20	23	23	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	5	5	NUM	_	NumType=Card	23	nummod	_	_
+23	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Até o momento, a Lava-Jato já havia rastreado 4, 6 milhões de dólares em pagamentos ilegais ao marqueteiro petista.
+1	Até	até	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Lava-Jato	Lava-Jato	PROPN	_	_	9	nsubj	_	_
+7	já	já	ADV	_	_	9	advmod	_	_
+8	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	rastreado	rastrear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+10	4	4	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	6	6	NUM	_	NumType=Card	13	nummod	_	_
+13	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	pagamentos	pagamento	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+18	ilegais	ilegal	ADJ	_	Number=Plur	17	amod	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+22	petista	petista	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = Precisa de mais?
+1	Precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	mais	mais	ADV	_	_	1	obl	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Dilma e Lula foram eleitos com dinheiro de propinas [...] foram eleitos com dinheiro roubado de empresas públicas.
+1	Dilma	Dilma	PROPN	_	_	5	nsubj:pass	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	Lula	Lula	PROPN	_	_	1	conj	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	eleitos	eleger	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+12	..	..	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	]	]	PUNCT	_	_	11	punct	_	_
+14	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	eleitos	eleger	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	roubado	roubar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+21	públicas	público	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+

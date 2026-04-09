@@ -1,0 +1,239 @@
+# sent_id = S0001
+# text = Augusto Nunes acaba com Mendes: Ele acha tudo normal.
+1	Augusto	Augusto	PROPN	_	_	3	nsubj	_	_
+2	Nunes	Nunes	PROPN	_	_	1	flat:name	_	_
+3	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	Mendes	Mendes	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	acha	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	tudo	tudo	PRON	_	PronType=Ind	8	obj	_	_
+10	normal	normal	ADJ	_	Number=Sing	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Não respeita nada!.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	respeita	respeitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Na última semana, Gilmar Mendes teve uma reunião em "OFF" com o presidente Michel Temer.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	semana	semana	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Gilmar	Gilmar	PROPN	_	_	8	nsubj	_	_
+7	Mendes	Mendes	PROPN	_	_	6	flat:name	_	_
+8	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	OFF	OFF	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	presidente	presidente	NOUN	_	Number=Sing	10	nmod	_	_
+18	Michel	Michel	PROPN	_	_	17	nmod	_	_
+19	Temer	Temer	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Até aí nada de mais...
+1	Até	até	ADP	_	_	2	case	_	_
+2	aí	aí	ADV	_	_	3	advmod	_	_
+3	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	mais	mais	ADV	_	_	3	advmod	_	SpaceAfter=No
+6	...	...	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Temer pode se encontrar com quem quiser e quando quiser.
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	encontrar	encontrar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	quem	quem	PRON	_	PronType=Ind	4	obl	_	_
+7	quiser	querer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	quando	quando	ADV	_	_	10	advmod	_	_
+10	quiser	querer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Na calada da noite, o ministro do Supremo foi até o Palácio do Jaburu e considerou o encontro como algo "absolutamente normal", mesmo não constando na agenda oficial da Presidência da República.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	calada	calada	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	noite	noite	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Supremo	Supremo	PROPN	_	_	9	nmod	_	_
+13	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	até	até	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Palácio	Palácio	PROPN	_	_	13	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Jaburu	Jaburu	PROPN	_	_	16	flat:name	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	considerou	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	como	como	ADP	_	_	25	case	_	_
+25	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	21	obl	_	_
+26	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	absolutamente	absolutamente	ADV	_	_	28	advmod	_	_
+28	normal	normal	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	mesmo	mesmo	ADV	_	_	33	advmod	_	_
+32	não	não	ADV	_	_	33	advmod	_	_
+33	constando	constar	VERB	_	VerbForm=Ger	21	advcl	_	_
+34-35	na	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	agenda	agenda	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
+37	oficial	oficial	ADJ	_	Number=Sing	36	amod	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Presidência	Presidência	PROPN	_	_	36	nmod	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	República	República	PROPN	_	_	40	flat:name	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = O encontro foi legal mas não foi moral!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	legal	legal	ADJ	_	Number=Sing	0	root	_	_
+5	mas	mas	CCONJ	_	_	8	cc	_	_
+6	não	não	ADV	_	_	8	advmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	moral	moral	ADJ	_	Number=Sing	4	conj	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = É óbvio que o ministro usa a influência do cargo para dar pitacos e interferir na política do país.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	óbvio	óbvio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	influência	influência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	dar	dar	VERB	_	VerbForm=Inf	6	advcl	_	_
+14	pitacos	pitaco	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	interferir	interferir	VERB	_	VerbForm=Inf	13	conj	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	política	política	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	país	país	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Isso já está escancarado.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	já	já	ADV	_	_	4	advmod	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	escancarado	escancarado	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Augusto Nunes, um dos poucos jornalistas que tem coragem de dizer o que pensa, não poupou palavras para o fato.
+1	Augusto	Augusto	PROPN	_	_	19	nsubj	_	_
+2	Nunes	Nunes	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	um	um	NUM	_	Gender=Masc|NumType=Card	1	appos	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	poucos	pouco	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+8	jornalistas	jornalista	NOUN	_	Number=Plur	4	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	coragem	coragem	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	dizer	dizer	VERB	_	VerbForm=Inf	11	acl	_	_
+14	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	obj	_	_
+15	que	que	PRON	_	PronType=Rel	16	obj	_	_
+16	pensa	pensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	poupou	poupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	fato	fato	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0021
+# text = Ele alegou que Mendes chegou a um ponto em que "não tem o menor respeito pela lei e pela Constituição".
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	Mendes	Mendes	PROPN	_	_	5	nsubj	_	_
+5	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	que	que	PRON	_	PronType=Rel	13	obl	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	não	não	ADV	_	_	13	advmod	_	_
+13	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	menor	menor	ADJ	_	Number=Sing	16	amod	_	_
+16	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	lei	lei	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Constituição	Constituição	PROPN	_	_	19	conj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Abaixo, veja o vídeo:
+1	Abaixo	abaixo	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	3	punct	_	_
+

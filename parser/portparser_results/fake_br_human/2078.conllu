@@ -1,0 +1,173 @@
+# sent_id = S0001
+# text = Site petista dá furo de reportagem e anuncia prisão de Lula: É um dia triste.
+1	Site	site	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	petista	petista	ADJ	_	Number=Sing	1	amod	_	_
+3	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	furo	furo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Lula	Lula	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	15	punct	_	_
+13	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dia	dia	NOUN	_	Gender=Masc|Number=Sing	3	parataxis	_	_
+16	triste	triste	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Ele vai ser preso a qualquer momento.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	7	det	_	_
+7	momento	momento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = O blog petista blogdacidadania.com.br (do jornalista Eduardo Guimarães) confirmou que Lula pode ser preso a qualquer momento.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	blog	blog	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	12	nsubj	_	_
+3	petista	petista	ADJ	_	Number=Sing	2	amod	_	_
+4	blogdacidadania.com.br	blogdacidadania.com.br	SYM	_	_	2	nmod	_	_
+5	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	jornalista	jornalista	NOUN	_	Number=Sing	2	nmod	_	_
+9	Eduardo	Eduardo	PROPN	_	_	8	nmod	_	_
+10	Guimarães	Guimarães	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	8	punct	_	_
+12	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	Lula	Lula	PROPN	_	_	15	nsubj	_	_
+15	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	20	det	_	_
+20	momento	momento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = Guimarães é defensor ferrenho de Lula, de Dilma e da petralhada em geral.
+1	Guimarães	Guimarães	PROPN	_	_	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	defensor	defensor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	ferrenho	ferrenho	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Dilma	Dilma	PROPN	_	_	6	conj	_	_
+10	e	e	CCONJ	_	_	13	cc	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	petralhada	petralhada	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	geral	geral	NOUN	_	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Em matéria publicada hoje (14) o blog destacou que a prisão do ex-presidente pode ser decretada a qualquer momento.
+1	Em	em	ADP	_	_	2	case	_	_
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+3	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	hoje	hoje	ADV	_	_	3	advmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	14	14	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	blog	blog	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	17	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ex-presidente	ex-presidente	NOUN	_	Number=Sing	13	nmod	_	_
+17	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+18	ser	ser	AUX	_	VerbForm=Inf	19	aux:pass	_	_
+19	decretada	decretar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	22	det	_	_
+22	momento	momento	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = De acordo com o jornalista, a fonte da notícia é segura: Eu tinha certeza de que isso estava para acontecer.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jornalista	jornalista	NOUN	_	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	segura	seguro	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	16	punct	_	_
+15	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	parataxis	_	_
+17	certeza	certeza	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	de	de	ADP	_	ExtPos=SCONJ	23	mark	_	_
+19	que	que	SCONJ	_	_	18	fixed	_	_
+20	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	23	nsubj	_	_
+21	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	acontecer	acontecer	VERB	_	VerbForm=Inf	17	acl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = Eu achava que o golpe final seria dado no ano que vem.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	achava	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+6	final	final	ADJ	_	Number=Sing	5	amod	_	_
+7	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux:pass	_	_
+8	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ano	ano	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0014
+# text = relatou.
+1	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0016
+# text = Abaixo parte do trecho que foi publicado no site: fonte.
+1	Abaixo	abaixo	ADV	_	_	2	advmod	_	_
+2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	site	site	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+

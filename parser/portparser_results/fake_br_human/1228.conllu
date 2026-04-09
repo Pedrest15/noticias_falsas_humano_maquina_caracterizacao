@@ -1,0 +1,90 @@
+# sent_id = S0001
+# text = Paulo Henrique Amorim: "Aécio Neves é um gangster filhinho de papai".
+1	Paulo	Paulo	PROPN	_	_	10	nsubj	_	_
+2	Henrique	Henrique	PROPN	_	_	1	flat:name	_	_
+3	Amorim	Amorim	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+6	Aécio	Aécio	PROPN	_	_	10	nsubj	_	_
+7	Neves	Neves	PROPN	_	_	6	flat:name	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gangster	gangster	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11	filhinho	filhinho	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	papai	papai	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = "É provável que o Marcola e o Fernandinho Beira-Mar tenham uma linguagem mais elevada que Aécio".
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	provável	provável	ADJ	_	Number=Sing	0	root	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Marcola	Marcola	PROPN	_	_	11	nsubj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Fernandinho	Fernandinho	PROPN	_	_	6	conj	_	_
+10	Beira-Mar	Beira-Mar	PROPN	_	_	9	flat:name	_	_
+11	tenham	ter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	linguagem	linguagem	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	mais	mais	ADV	_	_	15	advmod	_	_
+15	elevada	elevado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	Aécio	Aécio	PROPN	_	_	11	advcl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = (*** dessa vez temos que tirar o chapéu para PHA ***) PHA, que é petista de carteirinha e já possui diversos processos no "lombo", soltou o verbo contra o senador Aécio Neves:
+1	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2	*	*	PUNCT	_	_	8	punct	_	SpaceAfter=No
+3	*	*	SYM	_	_	8	punct	_	SpaceAfter=No
+4	*	*	PUNCT	_	_	2	punct	_	_
+5-6	dessa	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	vez	vez	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+8	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	37	ccomp:speech	_	_
+9	que	que	ADP	_	_	10	mark	_	_
+10	tirar	tirar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	chapéu	chapéu	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	PHA	PHA	PROPN	_	_	10	obl	_	_
+15	*	*	PUNCT	_	_	34	punct	_	SpaceAfter=No
+16	*	*	SYM	_	_	14	punct	_	SpaceAfter=No
+17	*	*	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	8	punct	_	_
+19	PHA	PHA	PROPN	_	_	37	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	petista	petista	NOUN	_	Number=Sing	19	acl:relcl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	carteirinha	carteirinha	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	já	já	ADV	_	_	28	advmod	_	_
+28	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+29	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	30	det	_	_
+30	processos	processo	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	34	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	lombo	lombo	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	8	punct	_	_
+37	soltou	soltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	verbo	verbo	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+40	contra	contra	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	senador	senador	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+43	Aécio	Aécio	PROPN	_	_	42	nmod	_	_
+44	Neves	Neves	PROPN	_	_	43	flat:name	_	SpaceAfter=No
+45	:	:	PUNCT	_	_	37	punct	_	_
+

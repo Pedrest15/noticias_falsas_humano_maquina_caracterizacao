@@ -1,0 +1,212 @@
+# sent_id = S0001
+# text = Três tesoureiros do PT presos por corrupção!
+1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
+2	tesoureiros	tesoureiro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PT	PT	PROPN	_	_	2	nmod	_	_
+6	presos	prender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Agora só falta o chefão!.
+1	Agora	agora	ADV	_	_	3	advmod	_	_
+2	só	só	ADV	_	_	3	advmod	_	_
+3	falta	faltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	chefão	chefão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Paulo Ferreira é o terceiro tesoureiro do PT a ser preso.
+1	Paulo	Paulo	PROPN	_	_	6	nsubj	_	_
+2	Ferreira	Ferreira	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	tesoureiro	tesoureiro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	PT	PT	PROPN	_	_	6	nmod	_	_
+10	a	a	ADP	_	_	12	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Delúbio Soares [antecessor de Ferreira] foi preso depois e condenado no julgamento do mensalão.
+1	Delúbio	Delúbio	PROPN	_	_	9	nsubj:pass	_	_
+2	Soares	Soares	PROPN	_	_	1	flat:name	_	_
+3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	antecessor	antecessor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Ferreira	Ferreira	PROPN	_	_	4	nmod	_	SpaceAfter=No
+7	]	]	PUNCT	_	_	4	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	depois	depois	ADV	_	_	9	advmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mensalão	mensalão	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Seu sucessor, João Vaccari Neto, está preso pela Lava-Jato.
+1	Seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	sucessor	sucessor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	João	João	PROPN	_	_	2	appos	_	_
+5	Vaccari	Vaccari	PROPN	_	_	4	flat:name	_	_
+6	Neto	Neto	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Lava-Jato	Lava-Jato	PROPN	_	_	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = Paulo Ferreira [ex-deputado federal pelo PT/RS] se entregou ontem(23) à Justiça Federal.
+1	Paulo	Paulo	PROPN	_	_	11	nsubj	_	_
+2	Ferreira	Ferreira	PROPN	_	_	1	flat:name	_	_
+3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	federal	federal	ADJ	_	Number=Sing	4	amod	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PT/RS	PT/RS	PROPN	_	_	4	nmod	_	SpaceAfter=No
+9	]	]	PUNCT	_	_	4	punct	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	entregou	entregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	ontem(23	ontem(23	NUM	_	NumType=Card	11	obj	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	16	punct	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Justiça	Justiça	PROPN	_	_	11	obl	_	_
+17	Federal	Federal	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = Ele era alvo de um mandato de prisão expedido na Operação Custo Brasil, desdobramento da Operação Lava Jato.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	expedido	expedir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Operação	Operação	PROPN	_	_	9	obl	_	_
+13	Custo	Custo	PROPN	_	_	12	flat:name	_	_
+14	Brasil	Brasil	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	desdobramento	desdobramento	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Operação	Operação	PROPN	_	_	16	nmod	_	_
+20	Lava	Lava	PROPN	_	_	19	flat:name	_	_
+21	Jato	Jato	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O tesoureiro é suspeito de participar da negociação recebimento de propina em contrato firmado entre o Ministério do Planejamento com a empresa Consist, no ano de 2010.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tesoureiro	tesoureiro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	suspeito	suspeito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	participar	participar	VERB	_	VerbForm=Inf	4	acl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	negociação	negociação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	recebimento	recebimento	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	propina	propina	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+15	firmado	firmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
+16	entre	entre	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Ministério	Ministério	PROPN	_	_	15	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Planejamento	Planejamento	PROPN	_	_	18	flat:name	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+25	Consist	Consist	PROPN	_	_	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ano	ano	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	2010	2010	NUM	_	NumType=Card	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = A quadrilha investigada na Custo Brasil desviou 100 milhões de reais de empréstimos consignados de servidores da pasta, comandada na época pelo ex-ministro Paulo Bernardo, que já está preso.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	quadrilha	quadrilha	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	investigada	investigar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Custo	Custo	PROPN	_	_	3	obl	_	_
+7	Brasil	Brasil	PROPN	_	_	6	flat:name	_	_
+8	desviou	desviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	100	100	NUM	_	NumType=Card	10	nummod	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	reais	real	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	empréstimos	empréstimo	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+15	consignados	consignado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	servidores	servidor	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pasta	pasta	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	comandada	comandar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
+23-24	na	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	época	época	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+26-27	pelo	_	_	_	_	_	_	_	_
+26	por	por	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	22	obl:agent	_	_
+29	Paulo	Paulo	PROPN	_	_	28	nmod	_	_
+30	Bernardo	Bernardo	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	35	punct	_	_
+32	que	que	PRON	_	PronType=Rel	35	nsubj	_	_
+33	já	já	ADV	_	_	35	advmod	_	_
+34	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+35	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	28	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	8	punct	_	_
+

@@ -1,0 +1,207 @@
+# sent_id = S0001
+# text = Dilma e o ponto eletrônico.
+1	Dilma	Dilma	PROPN	_	_	0	root	_	_
+2	e	e	CCONJ	_	_	4	cc	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+5	eletrônico	eletrônico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Ex-presidenta irá ao senado para fazer sua defesa.
+1	Ex-presidenta	ex-presidenta	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	irá	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	senado	senado	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	fazer	fazer	VERB	_	VerbForm=Inf	2	advcl	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Dilma Rousseff irá ao Senado (no próximo dia 29) para fazer sua própria defesa.
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	Rousseff	Rousseff	PROPN	_	_	1	flat:name	_	_
+3	irá	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Senado	Senado	PROPN	_	_	3	obl	_	_
+7	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	dia	dia	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+12	29	29	NUM	_	NumType=Card	11	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	fazer	fazer	VERB	_	VerbForm=Inf	3	advcl	_	_
+16	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+17	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+18	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A confirmação foi publicada pela "Folha de S. Paulo" e confirmada pelo jornal O GLOBO.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	confirmação	confirmação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Folha	Folha	PROPN	_	_	4	obl:agent	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	S.	S.	PROPN	_	_	8	flat:name	_	_
+11	Paulo	Paulo	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	8	punct	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	14	obl:agent	_	_
+18	O	O	PROPN	_	_	17	nmod	_	_
+19	GLOBO	GLOBO	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = A presidente afastada disse que não está preocupada com interrupções e até mesmo questionamentos agressivos da oposição.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	afastada	afastado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	2	amod	_	_
+4	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	não	não	ADV	_	_	8	advmod	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	preocupada	preocupado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	4	ccomp	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	interrupções	interrupção	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+11	e	e	CCONJ	_	_	14	cc	_	_
+12	até	até	ADV	_	_	14	advmod	_	_
+13	mesmo	mesmo	ADV	_	_	14	advmod	_	_
+14	questionamentos	questionamento	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+15	agressivos	agressivo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Ela vai falar durante 30 minutos.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	falar	falar	VERB	_	VerbForm=Inf	0	root	_	_
+4	durante	durante	ADP	_	_	6	case	_	_
+5	30	30	NUM	_	NumType=Card	6	nummod	_	_
+6	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Ninguém merece!
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	2	nsubj	_	_
+2	merece	merecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Em situações normais e sem estresse, Dilma já é uma lástima quando tenta se comunicar.
+1	Em	em	ADP	_	_	2	case	_	_
+2	situações	situação	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+3	normais	normal	ADJ	_	Number=Plur	2	amod	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	sem	sem	ADP	_	_	6	case	_	_
+6	estresse	estresse	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	Dilma	Dilma	PROPN	_	_	12	nsubj	_	_
+9	já	já	ADV	_	_	12	advmod	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lástima	lástima	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13	quando	quando	SCONJ	_	_	14	mark	_	_
+14	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	comunicar	comunicar	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0017
+# text = Durante 6 anos o país assistiu vários discursos de Dilma e o resultado foi uma tragédia verbal.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	6	6	NUM	_	NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	país	país	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	assistiu	assistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	discursos	discurso	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Dilma	Dilma	PROPN	_	_	8	nmod	_	_
+11	e	e	CCONJ	_	_	16	cc	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tragédia	tragédia	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+17	verbal	verbal	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Ela não tem organização de idéias e sua fala é desconexa, incompreensível e sem lógica.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	organização	organização	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	idéias	idéia	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	e	e	CCONJ	_	_	11	cc	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	fala	fala	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	desconexa	desconexo	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	incompreensível	incompreensível	ADJ	_	Number=Sing	11	conj	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	sem	sem	ADP	_	_	16	case	_	_
+16	lógica	lógica	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Sabemos que o marqueteiro João Santana já deixou a cadeia em Curitiba e a dúvida que paira no ar é: Será que ela vai usar um ponto eletrônico?
+1	Sabemos	saber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	8	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	João	João	PROPN	_	_	4	nmod	_	_
+6	Santana	Santana	PROPN	_	_	5	flat:name	_	_
+7	já	já	ADV	_	_	8	advmod	_	_
+8	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Curitiba	Curitiba	PROPN	_	_	8	obl	_	_
+13	e	e	CCONJ	_	_	27	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dúvida	dúvida	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	paira	pairar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ar	ar	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	27	punct	_	_
+23	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	discourse	_	_
+24	que	que	SCONJ	_	_	27	discourse	_	_
+25	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	usar	usar	VERB	_	VerbForm=Inf	1	parataxis	_	_
+28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+30	eletrônico	eletrônico	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	?	?	PUNCT	_	_	1	punct	_	_
+

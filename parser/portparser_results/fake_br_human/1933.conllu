@@ -1,0 +1,479 @@
+# sent_id = S0001
+# text = Quais são as intenções de um jornal ao publicar uma matéria chamando um ministro de "suíno"???.
+1	Quais	qual	PRON	_	Number=Plur|PronType=Int	4	nsubj	_	_
+2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	intenções	intenção	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	ExtPos=SCONJ	10	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	fixed	_	_
+10	publicar	publicar	VERB	_	VerbForm=Inf	4	acl	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	chamando	chamar	VERB	_	VerbForm=Ger	12	acl	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	suíno	suíno	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+21	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Uma matéria publicada no jornal Estado de Minas chamou minha atenção hoje (22) pela manhã.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	Estado	Estado	PROPN	_	_	6	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Minas	Minas	PROPN	_	_	7	flat:name	_	_
+10	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	hoje	hoje	ADV	_	_	10	advmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	22	22	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = (por Patrícia Carvalho) Com o título "Geddel estudou com Renato Russo e era chamado de suíno pelos colegas", o texto publicado pelo diretor de comunicação do jornal, não tem pé nem cabeça.
+1	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	por	por	ADP	_	_	3	case	_	_
+3	Patrícia	Patrícia	PROPN	_	_	38	obl	_	_
+4	Carvalho	Carvalho	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	3	punct	_	_
+6	Com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	título	título	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	Geddel	Geddel	PROPN	_	_	11	nsubj	_	_
+11	estudou	estudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	Renato	Renato	PROPN	_	_	11	obl	_	_
+14	Russo	Russo	PROPN	_	_	13	flat:name	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	_
+17	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	suíno	suíno	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20-21	pelos	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	17	obl:agent	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	8	punct	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	texto	texto	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+27	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	acl	_	_
+28-29	pelo	_	_	_	_	_	_	_	_
+28	por	por	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	27	obl:agent	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	27	punct	_	_
+37	não	não	ADV	_	_	38	advmod	_	_
+38	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+39	pé	pé	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
+40	nem	nem	CCONJ	_	_	41	cc	_	_
+41	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = S0007
+# text = Geddel, que é ministro de Michel Temer, foi acusado pelo ex-ministro da Cultura de ter feito pressão para que o IPHAN (Instituto do Patrimônio Histórico) aprovasse um empreendimento embargado na Bahia, onde ele possui um apartamento.
+1	Geddel	Geddel	PROPN	_	_	11	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	1	acl:relcl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Michel	Michel	PROPN	_	_	5	nmod	_	_
+8	Temer	Temer	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12-13	pelo	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	11	obl:agent	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Cultura	Cultura	PROPN	_	_	14	nmod	_	_
+18	de	de	ADP	_	_	20	mark	_	_
+19	ter	ter	AUX	_	VerbForm=Inf	20	aux	_	_
+20	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	xcomp	_	_
+21	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+22	para	para	ADP	_	ExtPos=SCONJ	33	mark	_	_
+23	que	que	SCONJ	_	_	22	fixed	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	IPHAN	IPHAN	PROPN	_	_	33	nsubj	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Instituto	Instituto	PROPN	_	_	25	appos	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Patrimônio	Patrimônio	PROPN	_	_	27	flat:name	_	_
+31	Histórico	Histórico	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	27	punct	_	_
+33	aprovasse	aprovar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	ccomp	_	_
+34	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	empreendimento	empreendimento	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	_
+36	embargado	embargar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	35	acl	_	_
+37-38	na	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Bahia	Bahia	PROPN	_	_	36	obl	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	43	punct	_	_
+41	onde	onde	ADV	_	_	43	advmod	_	_
+42	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+43	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+44	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = O que despertou minha curiosidade foi: Qual a intenção do Estado de Minas em divulgar que uma pessoa tinha o apelido de "suíno"?
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	despertou	despertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+4	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+5	curiosidade	curiosidade	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	10	punct	_	_
+8	Qual	qual	PRON	_	Number=Sing|PronType=Int	10	nsubj	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Estado	Estado	PROPN	_	_	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Minas	Minas	PROPN	_	_	13	flat:name	_	_
+16	em	em	ADP	_	_	17	mark	_	_
+17	divulgar	divulgar	VERB	_	VerbForm=Inf	10	acl	_	_
+18	que	que	SCONJ	_	_	21	mark	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	apelido	apelido	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	suíno	suíno	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	?	?	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Despertar a raiva na população?
+1	Despertar	despertar	VERB	_	VerbForm=Inf	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	raiva	raiva	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	população	população	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Incentivar o bullying virtual?
+1	Incentivar	incentivar	VERB	_	VerbForm=Inf	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bullying	bullying	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	virtual	virtual	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Espalhar ódio pelas redes?
+1	Espalhar	espalhar	VERB	_	VerbForm=Inf	0	root	_	_
+2	ódio	ódio	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+3-4	pelas	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	redes	rede	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = Tudo bem que o ministro citado não é uma "flor que se cheire" [...] mas qual é o propósito em atacar o lado pessoal dele?
+1	Tudo	tudo	PRON	_	PronType=Ind	2	nsubj	_	_
+2	bem	bem	ADV	_	_	0	root	_	_
+3	que	que	SCONJ	_	_	11	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	não	não	ADV	_	_	11	advmod	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	flor	flor	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	_
+12	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	cheire	cheirar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	11	punct	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	mas	mas	CCONJ	_	_	24	cc	_	_
+21	qual	qual	PRON	_	Number=Sing|PronType=Int	24	nsubj	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	propósito	propósito	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+25	em	em	ADP	_	_	26	mark	_	_
+26	atacar	atacar	VERB	_	VerbForm=Inf	24	acl	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	lado	lado	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	pessoal	pessoal	ADJ	_	Number=Sing	28	amod	_	_
+30-31	dele	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nmod	_	_
+32	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = Sinceramente, não consegui entender nada!
+1	Sinceramente	sinceramente	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	consegui	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	entender	entender	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = E o pior de tudo é que outros jornais entraram nessa "onda" e republicaram a matéria!
+1	E	e	CCONJ	_	_	10	cc	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj:outer	_	_
+3	pior	pior	ADJ	_	Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tudo	tudo	PRON	_	PronType=Ind	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	jornais	jornal	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	entraram	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11-12	nessa	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	onda	onda	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	republicaram	republicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	!	!	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = Abaixo o trecho da matéria narrando que o ex-Legião Urbana, Renato Russo (que estudou com Geddel), tratava o político pela alcunha de suíno: abre aspas Deixa claro (a ponto de despertar antipatia e criar fama de chato) que não carregaria ninguém nas costas (se referindo a Renato Russo), a pesar dos pedidos de colegas como Geddel Quadros Vieira Lima para entrar no seu grupo pela garantia de notas altas na avaliação final.
+1	Abaixo	abaixo	ADV	_	_	3	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	narrando	narrar	VERB	_	VerbForm=Ger	3	acl	_	_
+8	que	que	SCONJ	_	_	49	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ex-Legião	ex-Legião	PROPN	_	_	22	nsubj	_	_
+11	Urbana	Urbana	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Renato	Renato	PROPN	_	_	10	appos	_	_
+14	Russo	Russo	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	estudou	estudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	Geddel	Geddel	PROPN	_	_	17	obl	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	17	punct	_	_
+22	tratava	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	político	político	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25-26	pela	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	alcunha	alcunha	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	suíno	suíno	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	_	_	31	punct	_	_
+31	abre	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+32	aspas	aspa	NOUN	_	Gender=Fem|Number=Plur	31	obj	_	_
+33	Deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+34	claro	claro	ADJ	_	Gender=Masc|Number=Sing	33	xcomp	_	_
+35	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+36	a	a	ADP	_	_	37	case	_	_
+37	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	49	obl	_	_
+38	de	de	ADP	_	_	39	mark	_	_
+39	despertar	despertar	VERB	_	VerbForm=Inf	37	acl	_	_
+40	antipatia	antipatia	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
+41	e	e	CCONJ	_	_	42	cc	_	_
+42	criar	criar	VERB	_	VerbForm=Inf	39	conj	_	_
+43	fama	fama	NOUN	_	Number=Sing	42	obj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	chato	chato	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	17	punct	_	_
+47	que	que	SCONJ	_	_	49	mark	_	_
+48	não	não	ADV	_	_	49	advmod	_	_
+49	carregaria	carregar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	ccomp	_	_
+50	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	49	obj	_	_
+51-52	nas	_	_	_	_	_	_	_	_
+51	em	em	ADP	_	_	53	case	_	_
+52	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	costas	costa	NOUN	_	Gender=Fem|Number=Plur	75	obl	_	_
+54	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
+55	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	56	expl	_	_
+56	referindo	referir	VERB	_	VerbForm=Ger	82	acl	_	_
+57	a	a	ADP	_	_	58	case	_	_
+58	Renato	Renato	PROPN	_	_	56	obl	_	_
+59	Russo	Russo	PROPN	_	_	58	flat:name	_	SpaceAfter=No
+60	)	)	PUNCT	_	_	56	punct	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	63	punct	_	_
+62	a	a	ADP	_	_	63	case	_	_
+63	pesar	pesar	VERB	_	VerbForm=Inf	22	obl	_	_
+64-65	dos	_	_	_	_	_	_	_	_
+64	de	de	ADP	_	_	66	case	_	_
+65	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	66	det	_	_
+66	pedidos	pedido	NOUN	_	Gender=Masc|Number=Plur	63	obl	_	_
+67	de	de	ADP	_	_	68	case	_	_
+68	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	66	nmod	_	_
+69	como	como	ADP	_	_	70	case	_	_
+70	Geddel	Geddel	PROPN	_	_	68	nmod	_	_
+71	Quadros	Quadros	PROPN	_	_	70	flat:name	_	_
+72	Vieira	Vieira	PROPN	_	_	70	flat:name	_	_
+73	Lima	Lima	PROPN	_	_	70	flat:name	_	_
+74	para	para	ADP	_	_	75	mark	_	_
+75	entrar	entrar	VERB	_	VerbForm=Inf	66	acl	_	_
+76-77	no	_	_	_	_	_	_	_	_
+76	em	em	ADP	_	_	79	case	_	_
+77	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	_
+78	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	79	det	_	_
+79	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	75	obl	_	_
+80-81	pela	_	_	_	_	_	_	_	_
+80	por	por	ADP	_	_	82	case	_	_
+81	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	82	det	_	_
+82	garantia	garantia	NOUN	_	Gender=Fem|Number=Sing	49	obl	_	_
+83	de	de	ADP	_	_	84	case	_	_
+84	notas	nota	NOUN	_	Gender=Fem|Number=Plur	82	nmod	_	_
+85	altas	alto	ADJ	_	Gender=Fem|Number=Plur	84	amod	_	_
+86-87	na	_	_	_	_	_	_	_	_
+86	em	em	ADP	_	_	88	case	_	_
+87	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	88	det	_	_
+88	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	84	nmod	_	_
+89	final	final	ADJ	_	Number=Sing	88	amod	_	SpaceAfter=No
+90	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Filho do político baiano Afrísio Vieira Lima, o gordinho Geddel era um dos palhaços da turma.
+1	Filho	filho	NOUN	_	Gender=Masc|Number=Sing	14	dislocated	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	político	político	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	baiano	baiano	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	Afrísio	Afrísio	PROPN	_	_	4	nmod	_	_
+7	Vieira	Vieira	PROPN	_	_	6	flat:name	_	_
+8	Lima	Lima	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gordinho	gordinho	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	Geddel	Geddel	PROPN	_	_	11	nmod	_	_
+13	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	um	um	NUM	_	Gender=Masc|NumType=Card	0	root	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	palhaços	palhaço	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	turma	turma	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0027
+# text = Chegava no colégio dirigindo um Opala verde, o que despertava atenção das meninas e a inveja dos meninos que davam o troco chamando-o de "Suíno".
+1	Chegava	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	colégio	colégio	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	dirigindo	dirigir	VERB	_	VerbForm=Ger	1	advcl	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Opala	Opala	PROPN	_	_	5	obj	_	_
+8	verde	verde	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
+11	que	que	PRON	_	PronType=Rel	10	fixed	_	_
+12	despertava	despertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	parataxis	_	_
+13	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14-15	das	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	meninas	menino	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	inveja	inveja	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	meninos	menino	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+23	que	que	PRON	_	PronType=Rel	24	nsubj	_	_
+24	davam	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	troco	troco	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27-28	chamando-o	_	_	_	_	_	_	_	_
+27	chamando	chamar	VERB	_	VerbForm=Ger	24	advcl	_	_
+28	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	Suíno	Suíno	PROPN	_	_	27	obl	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = Tinha sempre uma piada na ponta da língua; as matérias, nem sempre.
+1	Tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	_	_	1	advmod	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	piada	piada	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ponta	ponta	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	língua	língua	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	_	_	13	punct	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	matérias	matéria	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	nem	nem	ADV	_	_	16	advmod	_	_
+16	sempre	sempre	ADV	_	_	13	orphan	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0030
+# text = fecha aspas.
+1	fecha	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aspas	aspa	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+

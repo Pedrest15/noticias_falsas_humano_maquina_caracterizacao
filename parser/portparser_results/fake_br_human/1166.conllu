@@ -1,0 +1,231 @@
+# sent_id = S0001
+# text = Delegado da PF que investigava morte do ministro Teori Zavascki foi assassinado em Santa Catarina.
+1	Delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	PF	PF	PROPN	_	_	1	nmod	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	investigava	investigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+7	morte	morte	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	Teori	Teori	PROPN	_	_	10	nmod	_	_
+12	Zavascki	Zavascki	PROPN	_	_	11	flat:name	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	assassinado	assassinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	Santa	Santa	PROPN	_	_	14	obl	_	_
+17	Catarina	Catarina	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0003
+# text = A PF informou que as vítimas estavam na cidade de Florianópolis (SC) para participar de um curso.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PF	PF	PROPN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+7	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Florianópolis	Florianópolis	PROPN	_	_	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	SC	SC	PROPN	_	_	12	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	participar	participar	VERB	_	VerbForm=Inf	10	advcl	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	curso	curso	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com o jornal "Zero Hora", Adriano Antonio Soares estava acompanhado de outro policial federal e ambos foram baleados após um "suposto" desentendimento em uma casa noturna.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Zero	Zero	PROPN	_	_	5	nmod	_	_
+8	Hora	Hora	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	Adriano	Adriano	PROPN	_	_	15	nsubj	_	_
+12	Antonio	Antonio	PROPN	_	_	11	flat:name	_	_
+13	Soares	Soares	PROPN	_	_	11	flat:name	_	_
+14	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	acompanhado	acompanhado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
+18	policial	policial	NOUN	_	Number=Sing	15	obl	_	_
+19	federal	federal	ADJ	_	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	23	nsubj:pass	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	baleados	balear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	conj	_	_
+24	após	após	ADP	_	_	29	case	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+26	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+27	suposto	suposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	29	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	29	punct	_	_
+29	desentendimento	desentendimento	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	casa	casa	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	noturna	noturno	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0007
+# text = Adriano era chefe da PF em Angra dos Reis e estava na corporação desde 1999.
+1	Adriano	Adriano	PROPN	_	_	3	nsubj	_	_
+2	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	PF	PF	PROPN	_	_	3	nmod	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Angra	Angra	PROPN	_	_	3	nmod	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Reis	Reis	PROPN	_	_	8	flat:name	_	_
+12	e	e	CCONJ	_	_	16	cc	_	_
+13	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	corporação	corporação	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+17	desde	desde	ADP	_	_	18	case	_	_
+18	1999	1999	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O delegado era designado para investigar a morte do ministro Teori Zavascki (STF), morto em janeiro num acidente de avião em Paraty-RJ.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	designado	designar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	investigar	investigar	VERB	_	VerbForm=Inf	4	advcl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	morte	morte	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	Teori	Teori	PROPN	_	_	11	nmod	_	_
+13	Zavascki	Zavascki	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	STF	STF	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	morto	morto	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+21-22	num	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	avião	avião	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	Paraty-RJ	Paraty-RJ	PROPN	_	_	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Elias Escobar, que chefiou a PF em Niterói e Volta Redonda, acompanhava Adriano no momento e também foi baleado e morto.
+1	Elias	Elias	PROPN	_	_	14	nsubj	_	_
+2	Escobar	Escobar	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	chefiou	chefiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	PF	PF	PROPN	_	_	5	obj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	Niterói	Niterói	PROPN	_	_	5	obl	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	Volta	Volta	PROPN	_	_	9	conj	_	_
+12	Redonda	Redonda	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	5	punct	_	_
+14	acompanhava	acompanhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	Adriano	Adriano	PROPN	_	_	14	obj	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	momento	momento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+19	e	e	CCONJ	_	_	22	cc	_	_
+20	também	também	ADV	_	_	22	advmod	_	_
+21	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	baleado	balear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	morto	morto	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0013
+# text = Segundo a PM, a ocorrência ocorreu perto das 2 horas da madrugada [...] uma terceira pessoa também foi atingida pelo tiroteio e está internada em estado grave.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	PM	PM	PROPN	_	_	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	perto	perto	ADV	_	_	7	advmod	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	2	2	NUM	_	NumType=Card	12	nummod	_	_
+12	horas	hora	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	25	parataxis	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	terceira	terceiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
+22	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+23	também	também	ADV	_	_	25	advmod	_	_
+24	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+25	atingida	atingir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	parataxis	_	_
+26-27	pelo	_	_	_	_	_	_	_	_
+26	por	por	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tiroteio	tiroteio	NOUN	_	Gender=Masc|Number=Sing	25	obl:agent	_	_
+29	e	e	CCONJ	_	_	31	cc	_	_
+30	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	internada	internado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	25	conj	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	estado	estado	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+34	grave	grave	ADJ	_	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = A Polícia Civil, juntamente com a Polícia Federal, irá investigar o caso.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	12	nsubj	_	_
+3	Civil	Civil	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	juntamente	juntamente	ADV	_	_	12	advmod	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polícia	Polícia	PROPN	_	_	5	obl	_	_
+9	Federal	Federal	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+12	investigar	investigar	VERB	_	VerbForm=Inf	0	root	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	caso	caso	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	_
+

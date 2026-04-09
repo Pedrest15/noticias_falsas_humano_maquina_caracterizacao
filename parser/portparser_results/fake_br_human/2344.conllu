@@ -1,0 +1,136 @@
+# sent_id = S0001
+# text = Traficantes atacam carro da Força Nacional: 3 policiais ficaram feridos e um está desaparecido.
+1	Traficantes	traficante	NOUN	_	Number=Plur	2	nsubj	_	_
+2	atacam	atacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	carro	carro	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Força	Força	PROPN	_	_	3	nmod	_	_
+7	Nacional	Nacional	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	11	punct	_	_
+9	3	3	NUM	_	NumType=Card	10	nummod	_	_
+10	policiais	policial	NOUN	_	Number=Plur	11	nsubj	_	_
+11	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+12	feridos	ferido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	11	xcomp	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14	um	um	NUM	_	Gender=Masc|NumType=Card	16	nsubj	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	desaparecido	desaparecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Quatro policiais da Força Nacional foram recebidos a tiros ao entrar em uma favela por engano.
+1	Quatro	quatro	NUM	_	NumType=Card	2	nummod	_	_
+2	policiais	policial	NOUN	_	Number=Plur	8	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Força	Força	PROPN	_	_	2	nmod	_	_
+6	Nacional	Nacional	PROPN	_	_	5	flat:name	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	recebidos	receber	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	ExtPos=SCONJ	13	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
+13	entrar	entrar	VERB	_	VerbForm=Inf	8	advcl	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	favela	favela	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	engano	engano	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = O carro foi atacado na Vila do João, zona norte do Rio, na tarde de hoje (10).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carro	carro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	atacado	atacar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Vila	Vila	PROPN	_	_	4	obl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	João	João	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	zona	zona	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+13	norte	norte	ADJ	_	Number=Sing	12	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Rio	Rio	PROPN	_	_	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	12	punct	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	hoje	hoje	ADV	_	_	20	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	10	10	NUM	_	NumType=Card	22	appos	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com informações, três agentes foram atingidos e um quarto ocupante do veículo teria sido levado por traficantes.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	três	três	NUM	_	NumType=Card	7	nummod	_	_
+7	agentes	agente	NOUN	_	Number=Plur	9	nsubj:pass	_	_
+8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	atingidos	atingir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	e	e	CCONJ	_	_	19	cc	_	_
+11	um	um	NUM	_	Gender=Masc|NumType=Card	13	det	_	_
+12	quarto	quarto	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	ocupante	ocupante	NOUN	_	Number=Sing	19	nsubj:pass	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	19	aux	_	_
+18	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	19	aux:pass	_	_
+19	levado	levar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	_
+20	por	por	ADP	_	_	21	case	_	_
+21	traficantes	traficante	NOUN	_	Number=Plur	19	obl:agent	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Um dos policiais atingidos está em estado grave.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	8	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	policiais	policial	NOUN	_	Number=Plur	1	nmod	_	_
+5	atingidos	atingir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	estado	estado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	grave	grave	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = O jornal OGlobo divulgou um áudio gravado por um dos policiais feridos:
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	OGlobo	OGlobo	PROPN	_	_	2	nmod	_	_
+4	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	áudio	áudio	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	um	um	NUM	_	Gender=Masc|NumType=Card	7	obl:agent	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	policiais	policial	NOUN	_	Number=Plur	9	nmod	_	_
+13	feridos	ferir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	4	punct	_	_
+

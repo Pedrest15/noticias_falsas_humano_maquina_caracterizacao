@@ -1,0 +1,149 @@
+# sent_id = S0001
+# text = Petista é preso na Paulista.
+1	Petista	petista	NOUN	_	Number=Sing	3	nsubj:pass	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Paulista	Paulista	PROPN	_	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Ele esfaqueou o pato da Fiesp.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	esfaqueou	esfaquear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pato	pato	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fiesp	Fiesp	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O deputado Jair Bolsonaro avisou: O PT vai partir para o terrorismo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Jair	Jair	PROPN	_	_	2	nmod	_	_
+4	Bolsonaro	Bolsonaro	PROPN	_	_	3	flat:name	_	_
+5	avisou	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	10	punct	_	_
+7	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PT	PT	PROPN	_	_	10	nsubj	_	_
+9	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	partir	partir	VERB	_	VerbForm=Inf	5	ccomp:speech	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Um cidadão foi preso pela polícia na avenida Paulista hoje (17), acusado de esfaquear o pato inflável da FIESP.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	polícia	polícia	NOUN	_	Number=Sing	4	obl:agent	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	avenida	avenida	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+11	Paulista	Paulista	PROPN	_	_	10	nmod	_	_
+12	hoje	hoje	ADV	_	_	4	advmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	17	17	NUM	_	NumType=Card	10	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	esfaquear	esfaquear	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pato	pato	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	inflável	inflável	ADJ	_	Number=Sing	21	amod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	FIESP	FIESP	PROPN	_	_	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = O pato é um símbolo da entidade para a campanha "Não vou pagar o pato diga não ao aumento de impostos".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pato	pato	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	símbolo	símbolo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	entidade	entidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+12	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+13	Não	não	ADV	_	_	15	advmod	_	_
+14	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	pagar	pagar	VERB	_	VerbForm=Inf	11	acl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pato	pato	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	diga	dizer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	xcomp	_	_
+19	não	não	ADV	_	_	18	advmod	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = O petista entrou no prédio da Fiesp e depois atravessou para o outro lado da via armado com uma faca.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	petista	petista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	prédio	prédio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Fiesp	Fiesp	PROPN	_	_	6	nmod	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	depois	depois	ADV	_	_	12	advmod	_	_
+12	atravessou	atravessar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	para	para	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	lado	lado	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	via	via	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	armado	armar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	advcl	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	faca	faca	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O "jovem manifestante" foi algemado e encaminhado para a 78aDP.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	jovem	jovem	NOUN	_	Number=Sing	7	nsubj:pass	_	_
+4	manifestante	manifestante	NOUN	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	3	punct	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	algemado	algemar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	encaminhado	encaminhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	_
+10	para	para	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	78aDP	78aDP	PROPN	_	_	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+

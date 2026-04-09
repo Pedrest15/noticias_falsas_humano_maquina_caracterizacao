@@ -1,0 +1,329 @@
+# sent_id = S0001
+# text = Planalto em pânico.
+1	Planalto	Planalto	PROPN	_	_	0	root	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	pânico	pânico	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = STF pode devolver ações que envolvem o ex-presidente Lula para Sérgio Moro.
+1	STF	STF	PROPN	_	_	2	nsubj	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	devolver	devolver	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	ações	ação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	envolvem	envolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ex-presidente	ex-presidente	NOUN	_	Number=Sing	6	obj	_	_
+9	Lula	Lula	PROPN	_	_	8	nmod	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	Sérgio	Sérgio	PROPN	_	_	6	obl	_	_
+12	Moro	Moro	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Dilma Rousseff está preocupada com relação à a nomeação de Lula para a Casa Civil.
+1	Dilma	Dilma	PROPN	_	_	4	nsubj	_	_
+2	Rousseff	Rousseff	PROPN	_	_	1	flat:name	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	preocupada	preocupado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	relação	relação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	10	case	_	_
+8	a	a	ADP	_	_	10	det	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Lula	Lula	PROPN	_	_	10	nmod	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Casa	Casa	PROPN	_	_	10	nmod	_	_
+16	Civil	Civil	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Dezenas de ações foram protocoladas no Supremo Tribunal Federal.
+1	Dezenas	dezena	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	protocoladas	protocolar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Supremo	Supremo	PROPN	_	_	5	obl	_	_
+9	Tribunal	Tribunal	PROPN	_	_	8	flat:name	_	_
+10	Federal	Federal	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Além do risco de Lula não ser nomeado como ministro chefe da Casa Civil, a presidente ainda foi informada de que 7 (dessas dezenas de ações) encontram-se com o ministro Gilmar Mendes.
+1	Além	além	ADV	_	_	22	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	risco	risco	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	de	de	ADP	_	_	9	mark	_	_
+6	Lula	Lula	PROPN	_	_	9	nsubj:pass	_	_
+7	não	não	ADV	_	_	9	advmod	_	_
+8	ser	ser	AUX	_	Number=Sing|Person=3|VerbForm=Inf	9	aux:pass	_	_
+9	nomeado	nomear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+10	como	como	ADP	_	_	11	case	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Casa	Casa	PROPN	_	_	11	nmod	_	_
+16	Civil	Civil	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	1	punct	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	presidente	presidente	NOUN	_	Number=Sing	22	nsubj:pass	_	_
+20	ainda	ainda	ADV	_	_	22	advmod	_	_
+21	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	informada	informar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+23	de	de	ADP	_	ExtPos=SCONJ	37	mark	_	_
+24	que	que	SCONJ	_	_	23	fixed	_	_
+25	7	7	NUM	_	NumType=Card	37	nsubj	_	_
+26	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+27-28	dessas	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	29	det	_	_
+29	dezenas	dezena	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	ações	ação	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	29	punct	_	_
+33-34	encontram-se	_	_	_	_	_	_	_	_
+33	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+34	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	37	expl	_	_
+35	com	com	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	22	ccomp	_	_
+38	Gilmar	Gilmar	PROPN	_	_	37	nmod	_	_
+39	Mendes	Mendes	PROPN	_	_	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0011
+# text = O medo do Planalto é que o Mendes devolva as investigações para Curitiba, para a tutela do juiz Sérgio Moro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	medo	medo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:outer	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Planalto	Planalto	PROPN	_	_	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Mendes	Mendes	PROPN	_	_	10	nsubj	_	_
+10	devolva	devolver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	Curitiba	Curitiba	PROPN	_	_	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tutela	tutela	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	Sérgio	Sérgio	PROPN	_	_	21	nmod	_	_
+23	Moro	Moro	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Acho extremamente preocupante tudo o que se engendrou, [...] a tentativa notória de fugir da jurisdição do juiz natural, que no caso é o juiz Moro, de Curitiba.
+1	Acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	extremamente	extremamente	ADV	_	_	3	advmod	_	_
+3	preocupante	preocupante	ADJ	_	Number=Sing	1	xcomp	_	_
+4	tudo	tudo	PRON	_	PronType=Ind	1	obj	_	_
+5	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+6	que	que	PRON	_	PronType=Rel	5	fixed	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl:impers	_	_
+8	engendrou	engendrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	15	parataxis	_	SpaceAfter=No
+12	..	..	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	]	]	PUNCT	_	_	11	punct	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+16	notória	notório	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	_	18	mark	_	_
+18	fugir	fugir	VERB	_	VerbForm=Inf	15	acl	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	jurisdição	jurisdição	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	natural	natural	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	33	punct	_	_
+27	que	que	PRON	_	PronType=Rel	33	nsubj	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	caso	caso	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+31	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	24	acl:relcl	_	_
+34	Moro	Moro	PROPN	_	_	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	37	punct	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	Curitiba	Curitiba	PROPN	_	_	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Isso tem aspectos concernentes, em tese pelo menos, a eventual infração de responsabilidade.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aspectos	aspecto	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+4	concernentes	concernente	ADJ	_	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	tese	tese	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	ExtPos=ADV	7	advmod	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	fixed	_	_
+10	menos	menos	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	eventual	eventual	ADJ	_	Number=Sing	14	amod	_	_
+14	infração	infração	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Ou mesmo questões de índole penal.
+1	Ou	ou	CCONJ	_	_	3	cc	_	_
+2	mesmo	mesmo	ADV	_	_	3	advmod	_	_
+3	questões	questão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	índole	índole	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	penal	penal	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Isso tem que ser, claro, examinado com o maior cuidado possível.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	ADP	_	_	8	mark	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	8	aux:pass	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	claro	claro	ADJ	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	examinado	examinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+9	com	com	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	maior	maior	ADJ	_	Number=Sing	12	amod	_	_
+12	cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+13	possível	possível	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = Mas é evidente que não se trata de um ato normal, tanto é que está provocando tanta especulação e tanto debate, disse o ministro Gilmar Em sessão do STF, Gilmar não economizou palavras e fez fortes comentários sobre a nomeação de Lula como ministro.
+1	Mas	mas	CCONJ	_	_	3	cc	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	evidente	evidente	ADJ	_	Number=Sing	24	ccomp:speech	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	não	não	ADV	_	_	7	advmod	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl:impers	_	_
+7	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ato	ato	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	normal	normal	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	tanto	tanto	CCONJ	_	_	17	cc	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	discourse	_	_
+15	que	que	SCONJ	_	_	17	mark	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	provocando	provocar	VERB	_	VerbForm=Ger	36	conj	_	_
+18	tanta	tanto	DET	_	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	especulação	especulação	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	tanto	tanto	DET	_	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+22	debate	debate	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	3	punct	_	_
+24	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+27	Gilmar	Gilmar	PROPN	_	_	26	nmod	_	_
+28	Em	em	ADP	_	_	29	case	_	_
+29	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	STF	STF	PROPN	_	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	17	punct	_	_
+34	Gilmar	Gilmar	PROPN	_	_	36	nsubj	_	_
+35	não	não	ADV	_	_	36	advmod	_	_
+36	economizou	economizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	ccomp:speech	_	_
+37	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	36	obj	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	conj	_	_
+40	fortes	forte	ADJ	_	Number=Plur	41	amod	_	_
+41	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	39	obj	_	_
+42	sobre	sobre	ADP	_	_	44	case	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	Lula	Lula	PROPN	_	_	44	nmod	_	_
+47	como	como	ADP	_	_	48	case	_	_
+48	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0023
+# text = Um colunista de política do portal UOL chegou a dizer que as observações do Gilmar Mendes se parecem muito com um pré-julgamento.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	colunista	colunista	NOUN	_	Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	política	política	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	portal	portal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+8	UOL	UOL	PROPN	_	_	7	nmod	_	_
+9	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	dizer	dizer	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	que	que	SCONJ	_	_	20	mark	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	observações	observação	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Gilmar	Gilmar	PROPN	_	_	14	nmod	_	_
+18	Mendes	Mendes	PROPN	_	_	17	flat:name	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+20	parecem	parecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+21	muito	muito	ADV	_	_	20	advmod	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pré-julgamento	pré-julgamento	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0025
+# text = Espero que o Gilmar divida sua decisão com o plenário do Supremo disse.
+1	Espero	esperar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
+2	que	que	SCONJ	_	_	5	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Gilmar	Gilmar	PROPN	_	_	5	nsubj	_	_
+5	divida	dividir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Supremo	Supremo	PROPN	_	_	10	nmod	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+

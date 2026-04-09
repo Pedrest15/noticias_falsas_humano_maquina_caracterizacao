@@ -1,0 +1,176 @@
+# sent_id = S0001
+# text = voto parcial: quem votar so para presidente e branco nos outros candidatos tera voto anulado so um aviso aqui, galera.
+1	voto	voto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	parcial	parcial	ADJ	_	Number=Sing	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	15	punct	_	_
+4	quem	quem	PRON	_	PronType=Ind	15	nsubj	_	_
+5	votar	votar	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
+6	so	so	ADV	_	_	8	advmod	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	5	obl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	branco	branco	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+15	tera	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+16	voto	voto	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+17	anulado	anular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	so	so	ADV	_	_	20	advmod	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	aviso	aviso	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+21	aqui	aqui	ADV	_	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	galera	galera	NOUN	_	Gender=Fem|Number=Sing	20	vocative	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = ontem passei pelo treinamento para os trabalhos para a justica eleitoral no proximo dia 7. lembrem-se de votar em todos os candidatos.
+1	ontem	ontem	ADV	_	_	2	advmod	_	_
+2	passei	passar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	justica	justica	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	eleitoral	eleitoral	ADJ	_	Number=Sing	11	amod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	proximo	proximo	NOUN	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+17	7	7	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	19	punct	_	_
+19-20	lembrem-se	_	_	_	_	_	_	_	_
+19	lembrem	lembrar	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	2	parataxis	_	_
+20	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+21	de	de	ADP	_	_	22	mark	_	_
+22	votar	votar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+23	em	em	ADP	_	_	26	case	_	_
+24	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = se votar so em presidente, e votar em branco nos outros, o voto e tido como voto parcial.
+1	se	se	SCONJ	_	_	2	mark	_	_
+2	votar	votar	VERB	_	VerbForm=Inf	18	advcl	_	_
+3	so	so	ADV	_	_	2	advmod	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	presidente	presidente	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	votar	votar	VERB	_	VerbForm=Inf	2	conj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	branco	branco	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	voto	voto	NOUN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	tido	ter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+19	como	como	ADP	_	_	20	case	_	_
+20	voto	voto	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+21	parcial	parcial	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0007
+# text = logo, seu voto e anulado.
+1	logo	logo	ADV	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	voto	voto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+5	e	e	CCONJ	_	_	6	aux:pass	_	_
+6	anulado	anular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = so computa valido quando e completo.questionei isso la, dizendo que a sociedade nao tinha ciencia de que voto parcial nao e computado como valido.
+1	so	so	ADV	_	_	2	advmod	_	_
+2	computa	computar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	valido	valido	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	quando	quando	SCONJ	_	_	6	mark	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	completo.questionei	completo.questionar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	_
+7	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	la	la	ADV	_	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	dizendo	dizer	VERB	_	VerbForm=Ger	2	advcl	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	nao	nao	ADV	_	_	15	advmod	_	_
+15	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	_
+16	ciencia	ciencia	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+17	de	de	ADP	_	ExtPos=SCONJ	23	mark	_	_
+18	que	que	SCONJ	_	_	17	fixed	_	_
+19	voto	voto	NOUN	_	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+20	parcial	parcial	ADJ	_	Number=Sing	19	amod	_	_
+21	nao	nao	ADV	_	_	19	advmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	computado	computar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
+24	como	como	ADP	_	_	25	case	_	_
+25	valido	valido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = questionei indignado, mas a instrutora foi bem clara em dizer que nao era computado.
+1	questionei	questionar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	indignado	indignado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	mas	mas	CCONJ	_	_	9	cc	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	instrutora	instrutor	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	bem	bem	ADV	_	_	9	advmod	_	_
+9	clara	claro	ADJ	_	Gender=Fem|Number=Sing	1	conj	_	_
+10	em	em	ADP	_	_	11	mark	_	_
+11	dizer	dizer	VERB	_	VerbForm=Inf	9	acl	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	nao	nao	ADV	_	_	15	advmod	_	_
+14	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+15	computado	computar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = logo, vamos ficar esperto.
+1	logo	logo	ADV	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ficar	ficar	VERB	_	VerbForm=Inf	0	root	_	_
+5	esperto	esperto	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = se tiver mais alguem aqui que va trabalhar e eles tocaram nesse assunto, se manifeste.
+1	se	se	SCONJ	_	_	2	mark	_	_
+2	tiver	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	advcl	_	_
+3	mais	mais	DET	_	PronType=Ind	4	det	_	_
+4	alguem	alguem	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	aqui	aqui	ADV	_	_	2	advmod	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+7	va	va	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trabalhar	trabalhar	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	tocaram	tocar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+12-13	nesse	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	2	punct	_	_
+16	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl	_	_
+17	manifeste	manifestar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+

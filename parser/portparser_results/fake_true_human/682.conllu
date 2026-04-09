@@ -1,0 +1,83 @@
+# sent_id = S0001
+# text = elon musk come pastel acompanhado de bolsonaro, mostra foto pastel de lula com cabeça de ovo.
+1	elon	elon	PROPN	_	_	3	nsubj	_	_
+2	musk	musk	X	_	Foreign=Yes	1	flat:name	_	_
+3	come	comer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pastel	pastel	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	acompanhado	acompanhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	foto	foto	NOUN	_	Number=Sing	9	obj	_	_
+11	pastel	pastel	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	lula	lula	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	ovo	ovo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = especiaria que nosso presidente ofereceu pra elon musk, o homem mais rico do mundo.
+1	especiaria	especiaria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	que	que	PRON	_	PronType=Rel	5	obj	_	_
+3	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+5	ofereceu	oferecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+6	pra	para	ADP	_	_	7	case	_	_
+7	elon	elon	X	_	_	5	obl	_	_
+8	musk	musk	X	_	Foreign=Yes	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	homem	homem	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	rico	rico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = , o presidente jair bolsonaro não deixou o bilionário elon musk sair sem comer o famoso pastel.
+1	,	,	PUNCT	_	_	7	punct	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	7	nsubj	_	_
+4	jair	jair	X	_	Foreign=Yes	3	nmod	_	_
+5	bolsonaro	bolsonaro	X	_	Foreign=Yes	4	flat:name	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bilionário	bilionário	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	elon	elon	X	_	Foreign=Yes	9	nmod	_	_
+11	musk	musk	X	_	Foreign=Yes	10	flat:name	_	_
+12	sair	sair	VERB	_	Number=Sing|Person=3|VerbForm=Inf	7	xcomp	_	_
+13	sem	sem	ADP	_	_	14	mark	_	_
+14	comer	comer	VERB	_	VerbForm=Inf	12	advcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	pastel	pastel	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = kkkkk , bolsonaro levou elon musk pra comer pastel .
+1	kkkkk	kkkkk	INTJ	_	_	4	discourse	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	elon	elon	PROPN	_	_	4	obj	_	_
+6	musk	musk	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	pra	para	ADP	_	_	8	mark	_	_
+8	comer	comer	VERB	_	VerbForm=Inf	4	advcl	_	_
+9	pastel	pastel	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = é mito mesmo !
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	mito	mito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	mesmo	mesmo	ADV	_	_	2	advmod	_	_
+4	!	!	PUNCT	_	_	2	punct	_	_
+

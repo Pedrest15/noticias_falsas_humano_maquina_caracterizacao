@@ -1,0 +1,103 @@
+# sent_id = S0001
+# text = Brasília: Policial é esfaqueado em confronto com manifestantes.
+1	Brasília	Brasília	PROPN	_	_	5	nsubj:pass	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Policial	policial	NOUN	_	Number=Sing	5	nsubj:pass	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	esfaqueado	esfaquear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	manifestantes	manifestante	NOUN	_	Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Durante a manifestação que está ocorrendo na capital, um policial militar foi esfaqueado.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	manifestação	manifestação	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ocorrendo	ocorrer	VERB	_	VerbForm=Ger	3	acl:relcl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	capital	capital	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	policial	policial	NOUN	_	Number=Sing	15	nsubj:pass	_	_
+13	militar	militar	ADJ	_	Number=Sing	12	amod	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	esfaqueado	esfaquear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0005
+# text = Quem informou doi o deputado Alberto Fraga, através do plenário da Câmara.
+1	Quem	quem	PRON	_	PronType=Rel	5	nsubj	_	_
+2	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+3	doi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	Alberto	Alberto	PROPN	_	_	5	nmod	_	_
+7	Fraga	Fraga	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	através	através	ADV	_	_	5	advmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Câmara	Câmara	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = A vítima está internada e recebendo os socorros necessários.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	internada	internado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	recebendo	receber	VERB	_	VerbForm=Ger	4	conj	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	socorros	socorro	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	necessários	necessário	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = O Correio Braziliense confirmou a ocorrência e disse que "de acordo com a PM, o cabo não corre risco de morte e foi ferido perto do ombro".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Correio	Correio	PROPN	_	_	4	nsubj	_	_
+3	Braziliense	Braziliense	PROPN	_	_	2	flat:name	_	_
+4	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	que	que	SCONJ	_	_	20	mark	_	_
+10	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+11	de	de	ADP	_	_	12	case	_	_
+12	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	PM	PM	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cabo	cabo	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	corre	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+21	risco	risco	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	morte	morte	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	ferido	ferir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	conj	_	_
+27	perto	perto	ADV	_	_	26	advmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ombro	ombro	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+

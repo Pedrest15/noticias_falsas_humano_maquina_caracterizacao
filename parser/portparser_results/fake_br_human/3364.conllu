@@ -1,0 +1,103 @@
+# sent_id = S0001
+# text = Lembra de quando contávamos piadas de português?
+1	Lembra	lembrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	4	mark	_	_
+3	quando	quando	ADV	_	_	4	advmod	_	_
+4	contávamos	conar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+5	piadas	piada	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	português	português	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Pois é... chegou a vez deles.
+1	Pois	pois	CCONJ	_	_	4	cc	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No
+3	...	...	PUNCT	_	_	4	punct	_	_
+4	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+7-8	deles	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A que ponto chegamos.
+1	A	a	ADP	_	_	3	case	_	_
+2	que	que	DET	_	PronType=Ind	3	det	_	_
+3	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+4	chegamos	chegar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Um site de Portugal escreveu uma matéria em que ridiculariza os políticos do nosso país.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	site	site	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Portugal	Portugal	PROPN	_	_	2	nmod	_	_
+5	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	que	que	PRON	_	PronType=Rel	10	obl	_	_
+10	ridiculariza	ridicularizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	políticos	político	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Tudo que eles disseram é absolutamente verídico.
+1	Tudo	tudo	PRON	_	PronType=Ind	7	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	obj	_	_
+3	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	absolutamente	absolutamente	ADV	_	_	7	advmod	_	_
+7	verídico	verídico	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Infelizmente temos que agir como um avestruz: enfiar a cabeça debaixo da terra e esperar esse momento passar.
+1	Infelizmente	infelizmente	ADV	_	_	2	advmod	_	_
+2	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	ADP	_	_	4	mark	_	_
+4	agir	agir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	como	como	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	avestruz	avestruz	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	9	punct	_	_
+9	enfiar	enfiar	VERB	_	VerbForm=Inf	4	parataxis	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	debaixo	debaixo	ADV	_	_	9	advmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	terra	terra	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	esperar	esperar	VERB	_	VerbForm=Inf	9	conj	_	_
+18	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	momento	momento	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	passar	passar	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0012
+# text = confira abaixo a matéria postada no site Publico.pt:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	abaixo	abaixo	ADV	_	_	1	advmod	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	postada	postar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	site	site	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	Publico.pt	Publico.pt	PROPN	_	_	8	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,271 @@
+# sent_id = S0001
+# text = Jornalista que entrevistou Dilma recebeu R$ 814 mil do governo petista em 2016.
+1	Jornalista	jornalista	NOUN	_	Number=Sing	5	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	entrevistou	entrevistar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+4	Dilma	Dilma	PROPN	_	_	3	obj	_	_
+5	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	R$	R$	SYM	_	_	5	obj	_	_
+7	814	814	NUM	_	NumType=Card	6	nummod	_	_
+8	mil	mil	NUM	_	NumType=Card	7	flat	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	governo	governo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+12	petista	petista	ADJ	_	Number=Sing	11	amod	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	2016	2016	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Foi à EBC, e em provocação ao governo Temer, que Dilma Rousseff foi ao ar em entrevista exclusiva essa semana.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	discourse	_	_
+2-3	à	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	EBC	EBC	PROPN	_	_	17	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	provocação	provocação	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	governo	governo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	Temer	Temer	PROPN	_	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	que	que	SCONJ	_	_	17	discourse	_	_
+15	Dilma	Dilma	PROPN	_	_	17	nsubj	_	_
+16	Rousseff	Rousseff	PROPN	_	_	15	flat:name	_	_
+17	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ar	ar	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+23	exclusiva	exclusivo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	semana	semana	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0005
+# text = As perguntas foram feitas pelo petista de carteirinha Luís Nassif, o mesmo "jornalista" que, durante o ano de 2016, enquanto o PT estava na Presidência da República, recebeu pelo menos R$ 814 mil do Governo Federal.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	perguntas	pergunta	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	petista	petista	NOUN	_	Number=Sing	4	obl:agent	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	carteirinha	carteirinha	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	Luís	Luís	PROPN	_	_	7	nmod	_	_
+11	Nassif	Nassif	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	jornalista	jornalista	NOUN	_	Number=Sing	7	appos	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	que	que	PRON	_	PronType=Rel	37	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	durante	durante	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ano	ano	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	2016	2016	NUM	_	NumType=Card	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	32	punct	_	_
+26	enquanto	enquanto	SCONJ	_	_	32	mark	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	PT	PT	PROPN	_	_	32	nsubj	_	_
+29	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	cop	_	_
+30-31	na	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Presidência	Presidência	PROPN	_	_	37	advcl	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	República	República	PROPN	_	_	32	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	32	punct	_	_
+37	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+38-39	pelo	_	_	_	_	_	_	_	_
+38	por	por	ADP	_	ExtPos=ADV	41	advmod	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	fixed	_	_
+40	menos	menos	NOUN	_	Gender=Masc|Number=Sing	38	fixed	_	_
+41	R$	R$	SYM	_	_	37	obj	_	_
+42	814	814	NUM	_	NumType=Card	41	nummod	_	_
+43	mil	mil	NUM	_	NumType=Card	42	flat	_	_
+44-45	do	_	_	_	_	_	_	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	Governo	Governo	PROPN	_	_	37	obl	_	_
+47	Federal	Federal	PROPN	_	_	46	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Com relação ao conteúdo da entrevista, isso é um mero detalhe.
+1	Com	com	ADP	_	_	2	case	_	_
+2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	mero	mero	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+14	detalhe	detalhe	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = Com tanto dinheiro envolvido, nada jornalisticamente verdadeiro pode sair de uma conversa dessas.
+1	Com	com	ADP	_	_	3	case	_	_
+2	tanto	tanto	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	envolvido	envolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+7	jornalisticamente	jornalisticamente	ADV	_	_	8	advmod	_	_
+8	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	sair	sair	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	dessas	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	essas	esse	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	13	nmod	_	_
+16	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = Michel Temer está disposto a extinguir a Empresa Brasil de Comunicação (EBC).
+1	Michel	Michel	PROPN	_	_	4	nsubj	_	_
+2	Temer	Temer	PROPN	_	_	1	flat:name	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	disposto	disposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	extinguir	extinguir	VERB	_	VerbForm=Inf	4	acl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Empresa	Empresa	PROPN	_	_	6	obj	_	_
+9	Brasil	Brasil	PROPN	_	_	8	flat:name	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Comunicação	Comunicação	PROPN	_	_	8	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	EBC	EBC	PROPN	_	_	8	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = A EBC gere diversas empresas de comunicação ligadas ao estado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	EBC	EBC	PROPN	_	_	3	nsubj	_	_
+3	gere	gerar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	estado	estado	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = A maior delas é a TV Brasil.
+1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+2	maior	maior	ADJ	_	Number=Sing	1	amod	_	_
+3-4	delas	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	TV	TV	PROPN	_	_	0	root	_	_
+8	Brasil	Brasil	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = Com a extinção da EBC, a TV Brasil pode ser retirada do ar ou completamente reformulada, dando destaque a campanhas sociais e programas educacionais.
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	extinção	extinção	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	EBC	EBC	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	TV	TV	PROPN	_	_	11	nsubj	_	_
+10	Brasil	Brasil	PROPN	_	_	9	flat:name	_	_
+11	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	13	aux:pass	_	_
+13	retirada	retirar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ar	ar	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	ou	ou	CCONJ	_	_	19	cc	_	_
+18	completamente	completamente	ADV	_	_	19	advmod	_	_
+19	reformulada	reformular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	dando	dar	VERB	_	VerbForm=Ger	13	advcl	_	_
+22	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+25	sociais	social	ADJ	_	Number=Plur	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	programas	programa	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
+28	educacionais	educacional	ADJ	_	Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0019
+# text = A informação foi confirmada neste sábado, 11, pelo jornalista Jorge Bastos Moreno.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	neste	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	11	11	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	jornalista	jornalista	NOUN	_	Number=Sing	4	obl:agent	_	_
+14	Jorge	Jorge	PROPN	_	_	13	nmod	_	_
+15	Bastos	Bastos	PROPN	_	_	14	flat:name	_	_
+16	Moreno	Moreno	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Não é a primeira vez que informações sobre o fim da EBC ganha a mídia.
+1	Não	não	ADV	_	_	5	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	vez	vez	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	que	que	PRON	_	PronType=Rel	14	obl	_	_
+7	informações	informação	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
+8	sobre	sobre	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fim	fim	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	EBC	EBC	PROPN	_	_	10	nmod	_	_
+14	ganha	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+

@@ -1,0 +1,262 @@
+# sent_id = S0001
+# text = A insanidade de Lula: Se me prenderem, eu viro herói.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	insanidade	insanidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	11	punct	_	_
+6	Se	se	SCONJ	_	_	8	mark	_	_
+7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	prenderem	prender	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	viro	virar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	herói	herói	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Se me deixarem solto, viro presidente de novo.
+1	Se	se	SCONJ	_	_	3	mark	_	_
+2	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	deixarem	deixar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+4	solto	solto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	viro	virar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	presidente	presidente	NOUN	_	Number=Sing	6	xcomp	_	_
+8	de	de	ADP	_	ExtPos=ADV	6	advmod	_	_
+9	novo	novo	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = (Patrícia Carvalho Brasília) O ex-presidente tem feito uma avaliação sobre o impacto da ação da Operação Lava Jato que o levou o Ministério Público Federal a denunciá-lo durante essa semana.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Patrícia	Patrícia	PROPN	_	_	9	parataxis	_	_
+3	Carvalho	Carvalho	PROPN	_	_	2	flat:name	_	_
+4	Brasília	Brasília	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	2	punct	_	_
+6	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	nsubj	_	_
+8	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	sobre	sobre	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ação	ação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Operação	Operação	PROPN	_	_	17	nmod	_	_
+21	Lava	Lava	PROPN	_	_	20	flat:name	_	_
+22	Jato	Jato	PROPN	_	_	20	flat:name	_	_
+23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+24	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Ministério	Ministério	PROPN	_	_	25	obj	_	_
+28	Público	Público	PROPN	_	_	27	flat:name	_	_
+29	Federal	Federal	PROPN	_	_	27	flat:name	_	_
+30	a	a	ADP	_	_	31	mark	_	_
+31-32	denunciá-lo	_	_	_	_	_	_	_	_
+31	denunciar	denunciar	VERB	_	VerbForm=Inf	25	xcomp	_	_
+32	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	durante	durante	ADP	_	_	35	case	_	_
+34	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
+35	semana	semana	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Pessoas de sua confiança tem dito que o PT e o governo mais ganharam do que perderam com o episódio.
+1	Pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	confiança	confiança	NOUN	_	Number=Sing	1	nmod	_	_
+5	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dito	dizer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+7	que	que	SCONJ	_	_	14	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	PT	PT	PROPN	_	_	14	nsubj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	governo	governo	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	ganharam	ganhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	ExtPos=SCONJ	18	mark	_	_
+16	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	fixed	_	_
+17	que	que	PRON	_	PronType=Rel	15	fixed	_	_
+18	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	advcl	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	episódio	episódio	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Parece que a doença chegou ao grau máximo.
+1	Parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	5	mark	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	doença	doença	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	grau	grau	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	máximo	máximo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Ninguém se autoproclama líder, herói, mártir ou seja lá o que for.
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	3	nsubj	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	autoproclama	autoproclamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	líder	líder	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	herói	herói	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	mártir	mártir	NOUN	_	Number=Sing	4	conj	_	_
+9	ou	ou	CCONJ	_	_	12	cc	_	_
+10	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	lá	lá	ADV	_	_	12	advmod	_	_
+12	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	conj	_	_
+13	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+14	for	for	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = É o povo que escolhe seu líder.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	povo	povo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	escolhe	escolher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	líder	líder	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = São fatos que tornam uma pessoa um herói.
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	fatos	fato	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	tornam	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	herói	herói	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = São acontecimentos históricos que transformam alguém em mártir.
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	acontecimentos	acontecimento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	históricos	histórico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	transformam	transformar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	mártir	mártir	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = Lula, sem sombra de dúvidas, já pode ser comparado ao lunático INRI, um cidadão com curto circuito nos neurônios e que vive se autoproclamando Jesus Cristo.
+1	Lula	Lula	PROPN	_	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	sem	sem	ADP	_	_	4	case	_	_
+4	sombra	sombra	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	já	já	ADV	_	_	9	advmod	_	_
+9	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ser	ser	AUX	_	VerbForm=Inf	11	aux:pass	_	_
+11	comparado	comparar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	lunático	lunático	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	INRI	INRI	PROPN	_	_	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	curto	curto	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	circuito	circuito	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22-23	nos	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	neurônios	neurônio	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+27	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+28	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	29	expl	_	_
+29	autoproclamando	autoproclamar	VERB	_	VerbForm=Ger	27	xcomp	_	_
+30	Jesus	Jesus	PROPN	_	_	29	obj	_	_
+31	Cristo	Cristo	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0021
+# text = Não há diferença entre os dois.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	entre	entre	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dois	dois	NUM	_	Gender=Masc|NumType=Card	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Apesar de que, se compararmos INRI com Lula, o primeiro (lá no fundinho) deve acreditar em Deus [...] já Lula...
+1	Apesar	apesar	ADV	_	_	0	root	_	_
+2	de	de	ADP	_	ExtPos=SCONJ	19	mark	_	_
+3	que	que	SCONJ	_	_	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	se	se	SCONJ	_	_	6	mark	_	_
+6	compararmos	comparar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	19	advcl	_	_
+7	INRI	INRI	PROPN	_	_	6	obj	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	Lula	Lula	PROPN	_	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	_
+12	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	lá	lá	ADV	_	_	19	advmod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fundinho	fundinho	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+20	acreditar	acreditar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	Deus	Deus	PROPN	_	_	20	obl	_	_
+23	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+25	..	..	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	]	]	PUNCT	_	_	24	punct	_	_
+27	já	já	CCONJ	_	_	28	cc	_	_
+28	Lula	Lula	PROPN	_	_	20	conj	_	SpaceAfter=No
+29	...	...	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Ambos perderam completamente o juízo e se acham os salvadores do mundo.
+1	Ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	completamente	completamente	ADV	_	_	2	advmod	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	juízo	juízo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+8	acham	achar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	salvadores	salvador	NOUN	_	Gender=Masc|Number=Plur	8	xcomp	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+

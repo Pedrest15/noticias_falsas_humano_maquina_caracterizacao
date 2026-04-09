@@ -1,0 +1,129 @@
+# sent_id = S0001
+# text = Assista!
+1	Assista	assistir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Vídeo de Lula dizendo que Nicolás Maduro tem amor pelo seu povo.
+1	Vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Lula	Lula	PROPN	_	_	1	nmod	_	_
+4	dizendo	dizer	VERB	_	VerbForm=Ger	3	acl	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	Nicolás	Nicolás	PROPN	_	_	8	nsubj	_	_
+7	Maduro	Maduro	PROPN	_	_	6	flat:name	_	_
+8	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	amor	amor	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	povo	povo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Lula é um monstro!.
+1	Lula	Lula	PROPN	_	_	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	monstro	monstro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Assistam [sem vomitar] o vídeo de Lula apoiando o tirano Nicolás Maduro durante campanha presidencial na Venezuela.
+1	Assistam	assistir	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	sem	sem	ADP	_	_	4	mark	_	_
+4	vomitar	vomitar	VERB	_	VerbForm=Inf	1	advcl	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	4	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Lula	Lula	PROPN	_	_	7	nmod	_	_
+10	apoiando	apoiar	VERB	_	VerbForm=Ger	9	acl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tirano	tirano	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	Nicolás	Nicolás	PROPN	_	_	12	nmod	_	_
+14	Maduro	Maduro	PROPN	_	_	13	flat:name	_	_
+15	durante	durante	ADP	_	_	16	case	_	_
+16	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+17	presidencial	presidencial	ADJ	_	Number=Sing	16	amod	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Venezuela	Venezuela	PROPN	_	_	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Em março de 2015, o fascista Nicolás Maduro, da Venezuela, pediu ao Parlamento que ele fosse nomeado ditador.
+1	Em	em	ADP	_	_	2	case	_	_
+2	março	março	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	2015	2015	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fascista	fascista	NOUN	_	Number=Sing	15	nsubj	_	_
+8	Nicolás	Nicolás	PROPN	_	_	7	nmod	_	_
+9	Maduro	Maduro	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Venezuela	Venezuela	PROPN	_	_	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Parlamento	Parlamento	PROPN	_	_	15	obl	_	_
+19	que	que	SCONJ	_	_	22	mark	_	_
+20	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj:pass	_	_
+21	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	nomeado	nomear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	ccomp	_	_
+23	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = Isso mesmo que você leu!
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	discourse	_	_
+2	mesmo	mesmo	ADV	_	_	1	advmod	_	_
+3	que	que	SCONJ	_	_	5	discourse	_	_
+4	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	leu	ler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = E o pior de tudo é ver um cidadão cara de pau chamado LULA fazer campanha para um monstro sanguinário como Maduro!
+1	E	e	CCONJ	_	_	7	cc	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj:outer	_	_
+3	pior	pior	ADJ	_	Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tudo	tudo	PRON	_	PronType=Ind	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	ver	ver	VERB	_	VerbForm=Inf	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	cara	cara	NOUN	_	Number=Sing	9	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	pau	pau	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
+14	LULA	LULA	PROPN	_	_	13	xcomp	_	_
+15	fazer	fazer	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	monstro	monstro	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	sanguinário	sanguinário	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	como	como	ADP	_	_	22	case	_	_
+22	Maduro	Maduro	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = LULA É UM MONSTRO!
+1	LULA	LULA	PROPN	_	_	4	nsubj	_	_
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	UM	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	MONSTRO	monstro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+

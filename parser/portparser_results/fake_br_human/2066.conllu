@@ -1,0 +1,239 @@
+# sent_id = S0001
+# text = O que você acha?
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	acha	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Casal decide criar bebê com gênero neutro.
+1	Casal	casal	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	decide	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	criar	criar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	neutro	neutro	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Ninguém sabe se é homem ou mulher.
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	2	nsubj	_	_
+2	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	_	_	5	mark	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	homem	homem	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+6	ou	ou	CCONJ	_	_	7	cc	_	_
+7	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Um casal de Campinas (interior de SP) decidiu criar seu "bebê" como se não fosse homem nem tão pouco mulher.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	casal	casal	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Campinas	Campinas	PROPN	_	_	2	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	interior	interior	NOUN	_	Number=Sing	4	appos	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	SP	SP	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	6	punct	_	_
+10	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	criar	criar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	como	como	SCONJ	_	ExtPos=SCONJ	20	mark	_	_
+17	se	se	SCONJ	_	_	16	fixed	_	_
+18	não	não	ADV	_	_	20	advmod	_	_
+19	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	homem	homem	NOUN	_	Gender=Masc|Number=Sing	11	advcl	_	_
+21	nem	nem	CCONJ	_	_	24	cc	_	_
+22	tão	tão	ADV	_	_	23	advmod	_	_
+23	pouco	pouco	ADV	_	_	24	advmod	_	_
+24	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Mica é o nome da criança que tem dois anos de idade.
+1	Mica	Mica	PROPN	_	_	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	criança	criança	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	dois	dois	NUM	_	Gender=Masc|NumType=Card	11	nummod	_	_
+11	anos	ano	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	idade	idade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = O pai e a mãe dizem que escolheram um nome que serve tanto para ambos os gêneros.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pai	pai	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+6	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	escolheram	escolher	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	nome	nome	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	serve	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	tanto	tanto	ADV	_	_	12	advmod	_	_
+14	para	para	ADP	_	_	17	case	_	_
+15	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	gêneros	gênero	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Mariana Vieira Carvalho (educadora e mãe da criança) conta que escolheu um nome que soasse neutro.
+1	Mariana	Mariana	PROPN	_	_	12	nsubj	_	_
+2	Vieira	Vieira	PROPN	_	_	1	flat:name	_	_
+3	Carvalho	Carvalho	PROPN	_	_	1	flat:name	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	educadora	educador	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	criança	criança	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	5	punct	_	_
+12	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_
+14	escolheu	escolher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	nome	nome	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	soasse	soar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19	neutro	neutro	ADJ	_	Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0015
+# text = Raul Almeida Carvalho (o pai) alega que a a neutralidade tinha de vir desde o nome de registro: Tivemos o cuidado de não colocar nenhum nome que pudesse causar um constrangimento futuro conta.
+1	Raul	Raul	PROPN	_	_	8	nsubj	_	_
+2	Almeida	Almeida	PROPN	_	_	1	flat:name	_	_
+3	Carvalho	Carvalho	PROPN	_	_	1	flat:name	_	_
+4	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pai	pai	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	neutralidade	neutralidade	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	vir	vir	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	desde	desde	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	nome	nome	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	registro	registro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	22	punct	_	_
+22	Tivemos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	27	mark	_	_
+26	não	não	ADV	_	_	27	advmod	_	_
+27	colocar	colocar	VERB	_	VerbForm=Inf	24	acl	_	_
+28	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
+29	nome	nome	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+30	que	que	PRON	_	PronType=Rel	31	nsubj	_	_
+31	pudesse	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+32	causar	causar	VERB	_	VerbForm=Inf	31	xcomp	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	constrangimento	constrangimento	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
+35	futuro	futuro	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+36	conta	conta	NOUN	_	Gender=Fem|Number=Sing	32	root	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = De acordo com o casal, um dia a criança sai com um vestido rosa [...] já no dia seguinte com um bermudão azul.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	casal	casal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dia	dia	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	criança	criança	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	sai	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vestido	vestido	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	rosa	rosa	ADJ	_	Number=Sing	14	amod	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	23	parataxis	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	já	já	CCONJ	_	_	23	cc	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	dia	dia	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+24	seguinte	seguinte	ADJ	_	Number=Sing	23	amod	_	_
+25	com	com	ADP	_	_	27	case	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	bermudão	bermudão	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+28	azul	azul	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0019
+# text = Quando descobriu que estava grávida, a mãe aptou por uma criação de gênero neutro: "A gente ainda fica muito preso nessa polaridade".
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	descobriu	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	grávida	grávido	ADJ	_	Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	aptou	aptar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	criação	criação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	neutro	neutro	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	21	punct	_	_
+17	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+18	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	gente	gente	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+20	ainda	ainda	ADV	_	_	21	advmod	_	_
+21	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp:speech	_	_
+22	muito	muito	ADV	_	_	23	advmod	_	_
+23	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	21	xcomp	_	_
+24-25	nessa	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	polaridade	polaridade	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0020
+# text = diz Mariana.
+1	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Mariana	Mariana	PROPN	_	_	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = fonte: UOL.
+1	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	UOL	UOL	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

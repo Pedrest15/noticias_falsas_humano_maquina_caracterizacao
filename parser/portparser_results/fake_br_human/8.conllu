@@ -1,0 +1,275 @@
+# sent_id = S0001
+# text = Hoje completou um ano da morte de um dos psicopatas mais repulsivos da era atual: Fidel Castro.
+1	Hoje	hoje	ADV	_	_	2	advmod	_	_
+2	completou	completar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	um	um	NUM	_	Gender=Masc|NumType=Card	4	nummod	_	_
+4	ano	ano	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	morte	morte	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	um	um	NUM	_	Gender=Masc|NumType=Card	7	nmod	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	psicopatas	psicopata	NOUN	_	Number=Plur	9	nmod	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	repulsivos	repulsivo	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	era	era	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+18	atual	atual	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	20	punct	_	_
+20	Fidel	Fidel	PROPN	_	_	12	appos	_	_
+21	Castro	Castro	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O filme A Morte Do Demônio (de Sam Raimi, de 1982, refilmado em 2013) deveria ter recebido uma tradução mais decente no Brasil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	filme	filme	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+3	A	A	PROPN	_	_	2	nmod	_	_
+4	Morte	Morte	PROPN	_	_	3	flat:name	_	_
+5-6	Do	_	_	_	_	_	_	_	_
+5	De	De	PROPN	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Demônio	Demônio	PROPN	_	_	3	flat:name	_	_
+8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	de	de	ADP	_	_	10	case	_	_
+10	Sam	Sam	PROPN	_	_	2	nmod	_	_
+11	Raimi	Raimi	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	1982	1982	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	refilmado	refilmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	2013	2013	NUM	_	NumType=Card	16	obl	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	10	punct	_	_
+20	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+21	ter	ter	AUX	_	VerbForm=Inf	22	aux	_	_
+22	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	xcomp	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tradução	tradução	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	mais	mais	ADV	_	_	26	advmod	_	_
+26	decente	decente	ADJ	_	Number=Sing	24	amod	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Brasil	Brasil	PROPN	_	_	22	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0005
+# text = The Evil Dead teria sido melhor traduzido como Mortos Demoníacos ou algo do tipo.
+1	The	The	PROPN	_	_	7	nsubj:pass	_	_
+2	Evil	Evil	PROPN	_	_	1	flat:name	_	_
+3	Dead	Dead	PROPN	_	_	1	flat:name	_	_
+4	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+5	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	aux:pass	_	_
+6	melhor	melhor	ADV	_	_	7	advmod	_	_
+7	traduzido	traduzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	Mortos	Mortos	PROPN	_	_	7	obl	_	_
+10	Demoníacos	Demoníacos	PROPN	_	_	9	flat:name	_	_
+11	ou	ou	CCONJ	_	_	12	cc	_	_
+12	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	9	conj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = O título A Morte do Demônio caberia melhor para uma obra narrando o dia em que Fidel Castro morreu, em 25 de novembro de 2016, há exatamente 1 ano.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	título	título	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	A	A	PROPN	_	_	2	nmod	_	_
+4	Morte	Morte	PROPN	_	_	3	flat:name	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Demônio	Demônio	PROPN	_	_	3	flat:name	_	_
+8	caberia	caber	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	melhor	melhor	ADV	_	_	8	advmod	_	_
+10	para	para	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	obra	obra	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+13	narrando	narrar	VERB	_	VerbForm=Ger	12	acl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dia	dia	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	que	que	PRON	_	PronType=Rel	20	obl	_	_
+18	Fidel	Fidel	PROPN	_	_	20	nsubj	_	_
+19	Castro	Castro	PROPN	_	_	18	flat:name	_	_
+20	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	25	25	NUM	_	NumType=Card	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	2016	2016	NUM	_	NumType=Card	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+30	exatamente	exatamente	ADV	_	_	31	advmod	_	_
+31	1	1	NUM	_	NumType=Card	32	nummod	_	_
+32	ano	ano	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Como diz matéria do UOL, a comemoração de 1 ano da morte do genocida em Havana não teve muitas solenidades.
+1	Como	como	SCONJ	_	_	2	mark	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+3	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	UOL	UOL	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	comemoração	comemoração	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	1	1	NUM	_	NumType=Card	12	nummod	_	_
+12	ano	ano	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	morte	morte	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	genocida	genocida	NOUN	_	Number=Sing	15	nmod	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	Havana	Havana	PROPN	_	_	15	nmod	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	muitas	muito	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
+24	solenidades	solenidade	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0011
+# text = Os grupos comunistas, sempre sádicos, fizeram homenagens a Fidel.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	comunistas	comunista	ADJ	_	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	sempre	sempre	ADV	_	_	6	advmod	_	_
+6	sádicos	sádico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	homenagens	homenagem	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	Fidel	Fidel	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = Mas é claro que a maioria do povo comemora por dentro.
+1	Mas	mas	CCONJ	_	_	3	cc	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	povo	povo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	comemora	comemorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+11	por	por	ADP	_	_	12	case	_	_
+12	dentro	dentro	ADV	_	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Também pudera.
+1	Também	também	ADV	_	_	2	advmod	_	_
+2	pudera	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Fidel matou mais de 100.000 cubanos.
+1	Fidel	Fidel	PROPN	_	_	2	nsubj	_	_
+2	matou	matar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	mais	mais	ADV	_	ExtPos=ADV	5	advmod	_	_
+4	de	de	ADP	_	_	3	fixed	_	_
+5	100.000	100.000	NUM	_	NumType=Card	6	nummod	_	_
+6	cubanos	cubano	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = Tornou o país o paraíso da prostituição de luxo.
+1	Tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	país	país	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	paraíso	paraíso	NOUN	_	Gender=Masc|Number=Sing	1	xcomp	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	prostituição	prostituição	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Ainda hoje seu irmão Raul Castro é dono de todo o povo, como se fosse um grande curral de gente.
+1	Ainda	ainda	ADV	_	_	2	advmod	_	_
+2	hoje	hoje	ADV	_	_	8	advmod	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	Raul	Raul	PROPN	_	_	4	nmod	_	_
+6	Castro	Castro	PROPN	_	_	5	flat:name	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	dono	dono	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	povo	povo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	19	punct	_	_
+14	como	como	SCONJ	_	ExtPos=SCONJ	19	mark	_	_
+15	se	se	SCONJ	_	_	14	fixed	_	_
+16	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	grande	grande	ADJ	_	Number=Sing	19	amod	_	_
+19	curral	curral	NOUN	_	Gender=Masc|Number=Sing	8	advcl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	gente	gente	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0023
+# text = Mas o mais macabro de tudo é como muita gente ainda elogia esse sujeito.
+1	Mas	mas	CCONJ	_	_	12	cc	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj:outer	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	macabro	macabro	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	tudo	tudo	PRON	_	PronType=Ind	2	nmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	como	como	ADV	_	_	12	advmod	_	_
+9	muita	muito	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	gente	gente	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	ainda	ainda	ADV	_	_	12	advmod	_	_
+12	elogia	elogiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	sujeito	sujeito	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0025
+# text = Pior ainda: em público.
+1	Pior	pior	ADJ	_	Number=Sing	0	root	_	_
+2	ainda	ainda	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	público	público	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0027
+# text = Isso é ainda mais demoníaco.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ainda	ainda	ADV	_	_	5	advmod	_	_
+4	mais	mais	ADV	_	_	5	advmod	_	_
+5	demoníaco	demoníaco	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+

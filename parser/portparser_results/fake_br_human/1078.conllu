@@ -1,0 +1,205 @@
+# sent_id = S0001
+# text = URGENTE: Palácio do Alvorada é isolado.
+1	URGENTE	URGENTE	PROPN	_	_	8	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Palácio	Palácio	PROPN	_	_	8	nsubj:pass	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Alvorada	Alvorada	PROPN	_	_	3	flat:name	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	isolado	isolar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Há relatos de invasão e tiros.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = A informação é de um jornal da Capital Federal.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Capital	Capital	PROPN	_	_	6	nmod	_	_
+10	Federal	Federal	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Após uma suspeita de que a residência oficial de Michel Temer tenha sido invadida, o Palácio da Alvorada foi isolado e cercado por seguranças fortemente armados.
+1	Após	após	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+4	de	de	ADP	_	ExtPos=SCONJ	14	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	residência	residência	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+8	oficial	oficial	ADJ	_	Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Michel	Michel	PROPN	_	_	7	nmod	_	_
+11	Temer	Temer	PROPN	_	_	10	flat:name	_	_
+12	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	14	aux:pass	_	_
+14	invadida	invadir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	3	punct	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Palácio	Palácio	PROPN	_	_	22	nsubj:pass	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Alvorada	Alvorada	PROPN	_	_	17	flat:name	_	_
+21	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	isolado	isolar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	cercado	cercar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	conj	_	_
+25	por	por	ADP	_	_	26	case	_	_
+26	seguranças	segurança	NOUN	_	Number=Plur	24	obl:agent	_	_
+27	fortemente	fortemente	ADV	_	_	28	advmod	_	_
+28	armados	armado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0009
+# text = Militares da guarda presidencial estão no local, porém ainda não há uma nota oficial por parte da assessoria de comunicação governo.
+1	Militares	militar	NOUN	_	Number=Plur	9	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	guarda	guarda	NOUN	_	Number=Sing	1	nmod	_	_
+5	presidencial	presidencial	ADJ	_	Number=Sing	4	amod	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	local	local	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	porém	porém	CCONJ	_	_	14	cc	_	_
+12	ainda	ainda	ADV	_	_	14	advmod	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	nota	nota	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	oficial	oficial	ADJ	_	Number=Sing	16	amod	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	parte	parte	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	governo	governo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = A PM do Distrito Federal também foi chamada para aumentar o reforço na segurança [...] ambulâncias estão no local.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	9	nsubj:pass	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Distrito	Distrito	PROPN	_	_	2	nmod	_	_
+6	Federal	Federal	PROPN	_	_	5	flat:name	_	_
+7	também	também	ADV	_	_	9	advmod	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	chamada	chamar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	aumentar	aumentar	VERB	_	VerbForm=Inf	9	advcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	reforço	reforço	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	segurança	segurança	NOUN	_	Number=Sing	13	nmod	_	_
+17	[	[	PUNCT	_	_	25	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	25	parataxis	_	SpaceAfter=No
+19	..	..	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	]	]	PUNCT	_	_	18	punct	_	_
+21	ambulâncias	ambulância	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
+22	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	local	local	NOUN	_	Number=Sing	9	parataxis	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Testemunhas disseram que um portão de acesso ao Planalto foi derrubado e há relatos de tiros.
+1	Testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	12	mark	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	portão	portão	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Planalto	Planalto	PROPN	_	_	7	nmod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	derrubado	derrubar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Cápsulas de armas de fogo foram encontradas jogadas no chão.
+1	Cápsulas	cápsula	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	armas	arma	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+8	jogadas	jogar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	chão	chão	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = Ainda não se sabe se os tiros partiram de algum invasor ou da polícia do Planalto.
+1	Ainda	ainda	ADV	_	_	4	advmod	_	_
+2	não	não	ADV	_	_	4	advmod	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl:impers	_	_
+4	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	se	se	SCONJ	_	_	8	mark	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	partiram	partir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	invasor	invasor	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	ou	ou	CCONJ	_	_	15	cc	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	polícia	polícia	NOUN	_	Number=Sing	11	conj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Planalto	Planalto	PROPN	_	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Fonte: Correio Brasiliense.
+1	Fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Correio	Correio	PROPN	_	_	1	nmod	_	_
+4	Brasiliense	Brasiliense	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+

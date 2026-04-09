@@ -1,0 +1,124 @@
+# sent_id = S0001
+# text = flávio bolsonaro é visto com camiseta que xinga nordestinos de jegues olha isso para quem é nordestino e vai votar em bolsonaro.
+1	flávio	flávio	PROPN	_	_	4	nsubj:pass	_	_
+2	bolsonaro	bolsonaro	NOUN	_	_	1	nmod	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	camiseta	camiseta	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	xinga	xingar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	nordestinos	nordestino	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	jegues	jegue	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+12	olha	olhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+13	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	quem	quem	PRON	_	PronType=Ind	12	obl	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	nordestino	nordestino	ADJ	_	Gender=Masc|Number=Sing	15	acl:relcl	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	votar	votar	VERB	_	VerbForm=Inf	17	conj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = esse com a camiseta é o filho dele, flávio bolsonaro candidato a senador pelo rio de janeiro.
+1	esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	camiseta	camiseta	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	filho	filho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8-9	dele	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	flávio	flávio	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+12	bolsonaro	bolsonaro	NOUN	_	_	11	amod	_	_
+13	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	senador	senador	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	pelo	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	rio	rio	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = isso é o que eles pensam dos nordestinos.
+1	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+4	que	que	PRON	_	PronType=Rel	6	obj	_	_
+5	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	pensam	pensar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	nordestinos	nordestino	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = , se você é nordestino ou nordestina, leia e mande essa família ficar ausente do cenário político nacional.
+1	,	,	PUNCT	_	_	9	punct	_	_
+2	se	se	SCONJ	_	_	5	mark	_	_
+3	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	nordestino	nordestino	ADJ	_	Gender=Masc|Number=Sing	9	advcl	_	_
+6	ou	ou	CCONJ	_	_	7	cc	_	_
+7	nordestina	nordestino	ADJ	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	leia	ler	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	mande	mandar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	família	família	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	ficar	ficar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	11	xcomp	_	_
+15	ausente	ausente	ADJ	_	Number=Sing	14	xcomp	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	político	político	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	nacional	nacional	ADJ	_	Number=Sing	18	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = patriarcado permanente.
+1	patriarcado	patriarcado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	permanente	permanente	ADJ	_	Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = o modo tradicional coronelista de praticar política você vê aí.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	tradicional	tradicional	ADJ	_	Number=Sing	2	amod	_	_
+4	coronelista	coronelista	ADJ	_	Number=Sing	2	amod	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	praticar	praticar	VERB	_	VerbForm=Inf	2	acl	_	_
+7	política	política	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+9	vê	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	aí	aí	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = pai e filho promovendo o ódio entre os brasileiros.
+1	pai	pai	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	filho	filho	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+4	promovendo	promover	VERB	_	VerbForm=Ger	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ódio	ódio	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	entre	entre	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+

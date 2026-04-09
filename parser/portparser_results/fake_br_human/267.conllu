@@ -1,0 +1,358 @@
+# sent_id = S0001
+# text = Zezé tem razão: "Nunca houve ditadura no Brasil".
+1	Zezé	Zezé	PROPN	_	_	2	nsubj	_	_
+2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	razão	razão	NOUN	_	Number=Sing	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	7	punct	_	_
+5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	Nunca	nunca	ADV	_	_	7	advmod	_	_
+7	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Brasil	Brasil	PROPN	_	_	7	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O que houve foi repressão contra vagabundos.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	obj	_	_
+3	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	repressão	repressão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	contra	contra	ADP	_	_	7	case	_	_
+7	vagabundos	vagabundo	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Após o cantor sertanejo Zezé Di Camargo declarar que "não houve ditadura no Brasil", a grande mídia brasileira começou a publicar matérias em tom de escárnio contra o cantor.
+1	Após	após	ADP	_	_	8	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	sertanejo	sertanejo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	Zezé	Zezé	PROPN	_	_	3	nmod	_	_
+6	Di	Di	PROPN	_	_	5	flat:name	_	_
+7	Camargo	Camargo	PROPN	_	_	5	flat:name	_	_
+8	declarar	declarar	VERB	_	VerbForm=Inf	23	advcl	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	não	não	ADV	_	_	12	advmod	_	_
+12	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+13	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	_	12	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	8	punct	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	grande	grande	ADJ	_	Number=Sing	21	amod	_	_
+21	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	a	a	ADP	_	_	25	mark	_	_
+25	publicar	publicar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+26	matérias	matéria	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	tom	tom	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	escárnio	escárnio	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+31	contra	contra	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0007
+# text = Zezé não está errado!
+1	Zezé	Zezé	PROPN	_	_	4	nsubj	_	_
+2	não	não	ADV	_	_	4	advmod	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	errado	errado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Não houve ditadura mesmo!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	mesmo	mesmo	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Essa foi uma das poucas vezes em que o cantor foi feliz em suas declarações!
+1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	uma	um	NUM	_	Gender=Fem|NumType=Card	0	root	_	_
+4-5	das	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	poucas	pouco	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+7	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	que	que	PRON	_	PronType=Rel	13	obl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	feliz	feliz	ADJ	_	Number=Sing	7	acl:relcl	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O que ocorreu foi uma intervenção militar contra grupos baderneiros que queriam se apossar de propriedades públicas e privadas [...] enfim, algo que já nos acostumamos a assistir durante os últimos anos.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	intervenção	intervenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	militar	militar	ADJ	_	Number=Sing	6	amod	_	_
+8	contra	contra	ADP	_	_	9	case	_	_
+9	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	baderneiros	baderneiro	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	queriam	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	apossar	apossar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+17	públicas	público	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	privadas	privado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	17	conj	_	_
+20	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+22	..	..	PUNCT	_	_	24	punct	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	24	punct	_	_
+24	enfim	enfim	ADV	_	_	26	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	parataxis	_	_
+27	que	que	PRON	_	PronType=Rel	30	obj	_	_
+28	já	já	ADV	_	_	30	advmod	_	_
+29	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	30	expl	_	_
+30	acostumamos	acostumar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+31	a	a	ADP	_	_	32	mark	_	_
+32	assistir	assistir	VERB	_	VerbForm=Inf	30	xcomp	_	_
+33	durante	durante	ADP	_	_	36	case	_	_
+34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+35	últimos	último	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	_
+36	anos	ano	NOUN	_	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = Com todo o respeito aos professores do Brasil, mas se você aprendeu (na escola) que houve "ditadura no Brasil", provavelmente você foi doutrinado por aquele professor que não gosta de trabalhar, deixa a barba crescer (nada contra homens barbudos) e gosta de "puxar um fuminho".
+1	Com	com	ADP	_	_	4	case	_	_
+2	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	33	root	_	_
+5-6	aos	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	professores	professor	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Brasil	Brasil	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	mas	mas	CCONJ	_	_	33	cc	_	_
+13	se	se	SCONJ	_	_	15	mark	_	_
+14	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
+15	aprendeu	aprender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	conj	_	_
+16	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	escola	escola	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	que	que	SCONJ	_	_	22	mark	_	_
+22	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Brasil	Brasil	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	15	punct	_	_
+30	provavelmente	provavelmente	ADV	_	_	33	advmod	_	_
+31	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	33	nsubj:pass	_	_
+32	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	aux:pass	_	_
+33	doutrinado	doutrinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+34	por	por	ADP	_	_	36	case	_	_
+35	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+36	professor	professor	NOUN	_	Gender=Masc|Number=Sing	33	obl:agent	_	_
+37	que	que	PRON	_	PronType=Rel	39	nsubj	_	_
+38	não	não	ADV	_	_	39	advmod	_	_
+39	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+40	de	de	ADP	_	_	41	mark	_	_
+41	trabalhar	trabalhar	VERB	_	VerbForm=Inf	39	xcomp	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	barba	barba	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	_
+46	crescer	crescer	VERB	_	VerbForm=Inf	43	xcomp	_	_
+47	(	(	PUNCT	_	_	48	punct	_	SpaceAfter=No
+48	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	33	parataxis	_	_
+49	contra	contra	ADP	_	_	50	case	_	_
+50	homens	homem	NOUN	_	Gender=Masc|Number=Plur	48	nmod	_	_
+51	barbudos	barbudo	ADJ	_	Gender=Masc|Number=Plur	50	amod	_	SpaceAfter=No
+52	)	)	PUNCT	_	_	48	punct	_	_
+53	e	e	CCONJ	_	_	54	cc	_	_
+54	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	_
+55	de	de	ADP	_	_	57	mark	_	_
+56	"	"	PUNCT	_	_	57	punct	_	SpaceAfter=No
+57	puxar	puxar	VERB	_	VerbForm=Inf	54	xcomp	_	_
+58	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	fuminho	fuminho	NOUN	_	Gender=Masc|Number=Sing	57	obj	_	SpaceAfter=No
+60	"	"	PUNCT	_	_	57	punct	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = S0017
+# text = Quem foi perseguido na época, são os que hoje estão sendo investigados, processados e presos por corrupção.
+1	Quem	quem	PRON	_	PronType=Rel	9	nsubj	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	perseguido	perseguir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	época	época	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	0	root	_	_
+10	que	que	PRON	_	PronType=Rel	14	nsubj:pass	_	_
+11	hoje	hoje	ADV	_	_	14	advmod	_	_
+12	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	sendo	ser	AUX	_	VerbForm=Ger	14	aux:pass	_	_
+14	investigados	investigar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	processados	processar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	conj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	presos	prender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	conj	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0019
+# text = Houve confronto entre policiais e bandidos, sendo que alguns escaparam e outros até se tornaram presidentes.
+1	Houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+3	entre	entre	ADP	_	_	4	case	_	_
+4	policiais	policial	NOUN	_	Number=Plur	2	nmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	bandidos	bandido	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	sendo	ser	AUX	_	ExtPos=SCONJ|VerbForm=Ger	11	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	_
+11	escaparam	escapar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	_
+12	e	e	CCONJ	_	_	16	cc	_	_
+13	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	16	nsubj	_	_
+14	até	até	ADV	_	_	16	advmod	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	tornaram	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+17	presidentes	presidente	NOUN	_	Number=Plur	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Como bem disse o internauta Alex Santos: Porque é que nossos pais e avós (que acordavam às 4h da madrugada para trabalhar e carregar esse país nas costas) têm uma visão positiva do período militar e nossos professores esquerdistas, artistas e jornalistas que amam Cuba (e passam férias em Paris ou NY) têm uma visão negativa desse período?
+1	Como	como	SCONJ	_	_	3	mark	_	_
+2	bem	bem	ADV	_	_	3	advmod	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	63	advcl	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	internauta	internauta	NOUN	_	Number=Sing	3	nsubj	_	_
+6	Alex	Alex	PROPN	_	_	5	nmod	_	_
+7	Santos	Santos	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	3	punct	_	_
+9	Porque	porque	PRON	_	PronType=Dem	35	discourse	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	discourse	_	_
+11	que	que	SCONJ	_	_	35	discourse	_	_
+12	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	pais	pai	NOUN	_	Gender=Masc|Number=Plur	35	nsubj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	avós	avó	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
+16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	acordavam	acordar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+19-20	às	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	4h	4h	NOUN	_	_	18	obl	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	para	para	ADP	_	_	26	mark	_	_
+26	trabalhar	trabalhar	VERB	_	VerbForm=Inf	18	advcl	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	carregar	carregar	VERB	_	VerbForm=Inf	26	conj	_	_
+29	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
+30	país	país	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31-32	nas	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	costas	costa	NOUN	_	Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	18	punct	_	_
+35	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	visão	visão	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	_
+38	positiva	positivo	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
+39-40	do	_	_	_	_	_	_	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	período	período	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+42	militar	militar	ADJ	_	Number=Sing	41	amod	_	_
+43	e	e	CCONJ	_	_	63	cc	_	_
+44	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	45	det	_	_
+45	professores	professor	NOUN	_	Gender=Masc|Number=Plur	63	nsubj	_	_
+46	esquerdistas	esquerdista	ADJ	_	Number=Plur	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	artistas	artista	NOUN	_	Number=Plur	45	conj	_	_
+49	e	e	CCONJ	_	_	50	cc	_	_
+50	jornalistas	jornalista	NOUN	_	Number=Plur	45	conj	_	_
+51	que	que	PRON	_	PronType=Rel	52	nsubj	_	_
+52	amam	amar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	acl:relcl	_	_
+53	Cuba	Cuba	PROPN	_	_	52	obj	_	_
+54	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
+55	e	e	CCONJ	_	_	56	cc	_	_
+56	passam	passar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	conj	_	_
+57	férias	féria	NOUN	_	Gender=Fem|Number=Plur	56	obj	_	_
+58	em	em	ADP	_	_	59	case	_	_
+59	Paris	Paris	PROPN	_	_	56	obl	_	_
+60	ou	ou	CCONJ	_	_	61	cc	_	_
+61	NY	NY	PROPN	_	_	59	conj	_	SpaceAfter=No
+62	)	)	PUNCT	_	_	56	punct	_	_
+63	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	root	_	_
+64	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	visão	visão	NOUN	_	Gender=Fem|Number=Sing	63	obj	_	_
+66	negativa	negativo	ADJ	_	Gender=Fem|Number=Sing	65	amod	_	_
+67-68	desse	_	_	_	_	_	_	_	_
+67	de	de	ADP	_	_	69	case	_	_
+68	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	69	det	_	_
+69	período	período	NOUN	_	Gender=Masc|Number=Sing	65	nmod	_	SpaceAfter=No
+70	?	?	PUNCT	_	_	35	punct	_	_
+
+# sent_id = S0023
+# text = Assista com atenção a entrevista com o mestre em Sociologia e doutor em História Social, Marco Antonio Villa:
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mestre	mestre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	Sociologia	Sociologia	PROPN	_	_	8	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	doutor	doutor	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	História	História	PROPN	_	_	12	nmod	_	_
+15	Social	Social	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Marco	Marco	PROPN	_	_	8	appos	_	_
+18	Antonio	Antonio	PROPN	_	_	17	flat:name	_	_
+19	Villa	Villa	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	1	punct	_	_
+

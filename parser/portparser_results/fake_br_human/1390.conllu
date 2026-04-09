@@ -1,0 +1,193 @@
+# sent_id = S0001
+# text = 2a Turma do STF (responsável pela Lava-Jato) julga caso de moça que furtou 2 desodorantes e 5 chicletes.
+1	2a	2a	ADJ	_	Gender=Fem|NumType=Ord	2	amod	_	_
+2	Turma	turma	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	2	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	responsável	responsável	NOUN	_	Number=Sing	2	appos	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lava-Jato	Lava-Jato	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	7	punct	_	_
+12	julga	julgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	caso	caso	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	moça	moço	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	furtou	furtar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+18	2	2	NUM	_	NumType=Card	19	nummod	_	_
+19	desodorantes	desodorante	NOUN	_	Number=Plur	17	obj	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	5	5	NUM	_	NumType=Card	22	nummod	_	_
+22	chicletes	chiclete	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = O caso foi julgado pela segunda turma do Supremo, que é responsável pelos processos da Operação Lava-Jato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	turma	turma	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Supremo	Supremo	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	responsável	responsável	ADJ	_	Number=Sing	8	acl:relcl	_	_
+16-17	pelos	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	processos	processo	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Operação	Operação	PROPN	_	_	18	nmod	_	_
+22	Lava-Jato	Lava-Jato	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Em 18 de fevereiro de 2011, Georgina Gonçalves entrou em um supermercado e furtou cinco pacotes de chiclete e dois frascos de desodorante.
+1	Em	em	ADP	_	_	2	case	_	_
+2	18	18	NUM	_	NumType=Card	10	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	2011	2011	NUM	_	NumType=Card	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	Georgina	Georgina	PROPN	_	_	10	nsubj	_	_
+9	Gonçalves	Gonçalves	PROPN	_	_	8	flat:name	_	_
+10	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	supermercado	supermercado	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	furtou	furtar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+16	cinco	cinco	NUM	_	NumType=Card	17	nummod	_	_
+17	pacotes	pacote	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	chiclete	chiclete	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	dois	dois	NUM	_	Gender=Masc|NumType=Card	22	nummod	_	_
+22	frascos	frasco	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	desodorante	desodorante	NOUN	_	Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = O caso aconteceu em Varginha, MG.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Varginha	Varginha	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	MG	MG	PROPN	_	_	5	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Os produtos roubados somariam R$ 42,00.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	roubados	roubar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	somariam	somar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	R$	R$	SYM	_	_	4	obj	_	_
+6	42,00	42,00	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Na época, a polícia foi chamada, Georgina foi presa e os produtos foram devolvidos ao supermercado.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	época	época	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	polícia	polícia	NOUN	_	Number=Sing	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	chamada	chamar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	Georgina	Georgina	PROPN	_	_	12	nsubj:pass	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	presa	prender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	conj	_	_
+13	e	e	CCONJ	_	_	17	cc	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	devolvidos	devolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	conj	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	supermercado	supermercado	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = Ela ficou presa até o dia 07 de Fevereiro deste ano.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	presa	preso	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	2	xcomp	_	_
+4	até	até	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	07	07	NUM	_	NumType=Card	6	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Fevereiro	Fevereiro	PROPN	_	_	7	nmod	_	_
+10-11	deste	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	ano	ano	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Após 6 anos, o STF julgou o caso e classificou o fato como "crime de bagatela", delito que não causa prejuízo a ninguém por conta do baixo valor dos produtos furtados.
+1	Após	após	ADP	_	_	3	case	_	_
+2	6	6	NUM	_	NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	STF	STF	PROPN	_	_	7	nsubj	_	_
+7	julgou	julgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caso	caso	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	classificou	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fato	fato	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	como	como	ADP	_	_	16	case	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	crime	crime	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	bagatela	bagatela	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	delito	delito	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+22	que	que	PRON	_	PronType=Rel	24	nsubj	_	_
+23	não	não	ADV	_	_	24	advmod	_	_
+24	causa	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	prejuízo	prejuízo	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+26	a	a	ADP	_	_	27	case	_	_
+27	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	24	obl	_	_
+28	por	por	ADP	_	_	29	case	_	_
+29	conta	conta	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	33	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
+33	valor	valor	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+34-35	dos	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
+37	furtados	furtar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	36	acl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	7	punct	_	_
+

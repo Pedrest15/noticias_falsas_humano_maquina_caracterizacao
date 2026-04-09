@@ -1,0 +1,274 @@
+# sent_id = S0001
+# text = Padre "rebelde" vira a cara para Donald Trump durante cerimônia religiosa.
+1	Padre	padre	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	rebelde	rebelde	ADJ	_	Number=Sing	1	amod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	vira	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cara	cara	NOUN	_	Number=Sing	5	obj	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	Donald	Donald	PROPN	_	_	5	obl	_	_
+10	Trump	Trump	PROPN	_	_	9	flat:name	_	_
+11	durante	durante	ADP	_	_	12	case	_	_
+12	cerimônia	cerimônia	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+13	religiosa	religioso	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Ao contrário do que foi publicado nas maiores mídias do país, o presidente Donald Trump não se recusou a cumprimentar um padre negro.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+9-10	nas	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	12	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	maiores	maior	ADJ	_	Number=Plur	12	amod	_	_
+12	mídias	mídia	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	país	país	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	3	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	presidente	presidente	NOUN	_	Number=Sing	23	nsubj	_	_
+19	Donald	Donald	PROPN	_	_	18	nmod	_	_
+20	Trump	Trump	PROPN	_	_	19	flat:name	_	_
+21	não	não	ADV	_	_	23	advmod	_	_
+22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	_	_
+23	recusou	recusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	a	a	ADP	_	_	25	mark	_	_
+25	cumprimentar	cumprimentar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	padre	padre	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	negro	negro	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0005
+# text = A mídia marrom do Brasil (a mesma que tenta derrubar a candidatura de Jair Bolsonaro) tem atacado Donald Trump desde o início de seu mandato.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+3	marrom	marrom	ADJ	_	Number=Sing	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Brasil	Brasil	PROPN	_	_	2	nmod	_	_
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	appos	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	derrubar	derrubar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	candidatura	candidatura	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Jair	Jair	PROPN	_	_	14	nmod	_	_
+17	Bolsonaro	Bolsonaro	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	9	punct	_	_
+19	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	atacado	atacar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+21	Donald	Donald	PROPN	_	_	20	obj	_	_
+22	Trump	Trump	PROPN	_	_	21	flat:name	_	_
+23	desde	desde	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	início	início	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0007
+# text = Essa mesma mídia, que mamou nas tetas do governo federal durante as gestões de Lula e Dilma, deturpou um fato que aconteceu nos EUA, onde o presidente norte-americano foi ignorado por um sacerdote afrodescendente.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	mamou	mamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7-8	nas	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	tetas	teta	NOUN	_	Number=Plur	6	obl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	governo	governo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	federal	federal	ADJ	_	Number=Sing	12	amod	_	_
+14	durante	durante	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	gestões	gestão	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Lula	Lula	PROPN	_	_	16	nmod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	Dilma	Dilma	PROPN	_	_	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	6	punct	_	_
+22	deturpou	deturpar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fato	fato	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+27-28	nos	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	EUA	EUA	PROPN	_	_	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	36	punct	_	_
+31	onde	onde	ADV	_	_	36	advmod	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	presidente	presidente	NOUN	_	Number=Sing	36	nsubj:pass	_	_
+34	norte-americano	norte-americano	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
+35	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux:pass	_	_
+36	ignorado	ignorar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	29	acl:relcl	_	_
+37	por	por	ADP	_	_	39	case	_	_
+38	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	sacerdote	sacerdote	NOUN	_	Gender=Masc|Number=Sing	36	obl:agent	_	_
+40	afrodescendente	afrodescendente	ADJ	_	Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0009
+# text = Sim!
+1	Sim	sim	ADV	_	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Foi o sacerdote que praticou uma espécie de "ato de rebeldia" e virou o rosto ao passar por Donald Trump.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sacerdote	sacerdote	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	praticou	praticar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	ato	ato	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	rebeldia	rebeldia	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	10	punct	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	rosto	rosto	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	ExtPos=SCONJ	20	mark	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	fixed	_	_
+20	passar	passar	VERB	_	VerbForm=Inf	15	advcl	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	Donald	Donald	PROPN	_	_	20	obl	_	_
+23	Trump	Trump	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = No vídeo que circulou pela internet (assista abaixo), Trump aparece estendendo a mão a diversos sacerdotes, mas não ao negro.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	circulou	circular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	5	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	_
+11	abaixo	abaixo	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	Trump	Trump	PROPN	_	_	15	nsubj	_	_
+15	aparece	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	estendendo	estender	VERB	_	VerbForm=Ger	15	advcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mão	mão	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	sacerdotes	sacerdote	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	27	punct	_	_
+23	mas	mas	CCONJ	_	_	27	cc	_	_
+24	não	não	ADV	_	_	27	advmod	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	negro	negro	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0015
+# text = Foi o suficiente para que a grande mídia (que já não é mais tão grande assim) taxasse o presidente dos EUA de racista.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+3	suficiente	suficiente	ADJ	_	Number=Sing	2	amod	_	_
+4	para	para	ADP	_	ExtPos=SCONJ	19	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grande	ADJ	_	Number=Sing	8	amod	_	_
+8	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+9	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+10	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+11	já	já	ADV	_	_	16	advmod	_	_
+12	não	não	ADV	_	_	16	advmod	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	mais	mais	ADV	_	_	16	advmod	_	_
+15	tão	tão	ADV	_	_	16	advmod	_	_
+16	grande	grande	ADJ	_	Number=Sing	8	acl:relcl	_	_
+17	assim	assim	ADV	_	_	16	advmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	_
+19	taxasse	taxar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	presidente	presidente	NOUN	_	Number=Sing	19	obj	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	EUA	EUA	PROPN	_	_	21	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	racista	racista	NOUN	_	Number=Sing	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Tudo bem... sabemos que Trump é um pouco "maluco", inconsequente, intempestivo, etc... mas não foi o que aconteceu desta vez.
+1	Tudo	tudo	PRON	_	PronType=Ind	2	nsubj	_	_
+2	bem	bem	ADV	_	_	0	root	_	SpaceAfter=No
+3	...	...	PUNCT	_	_	4	punct	_	_
+4	sabemos	saber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	que	que	SCONJ	_	_	11	mark	_	_
+6	Trump	Trump	PROPN	_	_	11	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	um	um	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	_
+9	pouco	pouco	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	maluco	maluco	ADJ	_	Gender=Masc|Number=Sing	4	ccomp	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	inconsequente	inconsequente	ADJ	_	Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	intempestivo	intempestivo	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	etc.	etc.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+19	..	..	PUNCT	_	_	23	punct	_	_
+20	mas	mas	CCONJ	_	_	23	cc	_	_
+21	não	não	ADV	_	_	23	advmod	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+23	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	conj	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+26-27	desta	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	vez	vez	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0018
+# text = confira no vídeo abaixo:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	abaixo	abaixo	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	_
+

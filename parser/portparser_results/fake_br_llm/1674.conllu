@@ -1,0 +1,480 @@
+# sent_id = S0001
+# text = Piloto de avião interceptado com 662 kg de cocaína culpa "máfia internacional" e alega ser inocente em audiência em Goiânia.
+1	Piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	avião	avião	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	interceptado	interceptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	662	662	NUM	_	NumType=Card	7	nummod	_	_
+7	kg	kg	NOUN	_	Gender=Masc	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	cocaína	cocaína	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	culpa	culpar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	máfia	máfia	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	internacional	internacional	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	12	punct	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	ser	ser	AUX	_	VerbForm=Inf	18	cop	_	_
+18	inocente	inocente	ADJ	_	Number=Sing	16	xcomp	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	Goiânia	Goiânia	PROPN	_	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = A defesa de Apoena Índio do Brasil Siqueira Rocha argumentou que ele foi forçado a transportar a carga sob ameaça de morte.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Apoena	Apoena	PROPN	_	_	2	nmod	_	_
+5	Índio	Índio	PROPN	_	_	4	flat:name	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Brasil	Brasil	PROPN	_	_	4	flat:name	_	_
+9	Siqueira	Siqueira	PROPN	_	_	4	flat:name	_	_
+10	Rocha	Rocha	PROPN	_	_	4	flat:name	_	_
+11	argumentou	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	forçado	forçar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+16	a	a	ADP	_	_	17	mark	_	_
+17	transportar	transportar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	carga	carga	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	sob	sob	ADP	_	_	21	case	_	_
+21	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	morte	morte	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = A sessão na Justiça Federal foi tensa, com novas revelações surpreendendo a todos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Justiça	Justiça	PROPN	_	_	2	nmod	_	_
+6	Federal	Federal	PROPN	_	_	5	flat:name	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	tensa	tenso	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	novas	novo	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+12	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13	surpreendendo	surpreender	VERB	_	VerbForm=Ger	12	acl	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Apoena declarou ao juiz Manoel Pedro Martins de Castro Filho que apenas aceitou o voo porque sua família estava em perigo.
+1	Apoena	Apoena	PROPN	_	_	2	nsubj	_	_
+2	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	Manoel	Manoel	PROPN	_	_	5	nmod	_	_
+7	Pedro	Pedro	PROPN	_	_	6	flat:name	_	_
+8	Martins	Martins	PROPN	_	_	6	flat:name	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Castro	Castro	PROPN	_	_	6	flat:name	_	_
+11	Filho	Filho	PROPN	_	_	6	flat:name	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	apenas	apenas	ADV	_	_	14	advmod	_	_
+14	aceitou	aceitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	voo	voo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	porque	porque	SCONJ	_	_	22	mark	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	família	família	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+20	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	perigo	perigo	NOUN	_	Gender=Masc|Number=Sing	14	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Fui coagido por uma organização criminosa internacional.
+1	Fui	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	coagido	coagir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	organização	organização	NOUN	_	Gender=Fem|Number=Sing	2	obl:agent	_	_
+6	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	internacional	internacional	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Eles ameaçaram meus filhos, afirmou emocionado.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	ameaçaram	ameaçar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp:speech	_	_
+3	meus	meu	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	emocionado	emocionado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = O advogado da dupla, Emerson Vita, pediu a revogação da prisão preventiva, alegando que a vida do piloto está em risco e que ele está colaborando com as investigações.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	dupla	dupla	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Emerson	Emerson	PROPN	_	_	2	appos	_	_
+8	Vita	Vita	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	revogação	revogação	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	alegando	alegar	VERB	_	VerbForm=Ger	10	advcl	_	_
+19	que	que	SCONJ	_	_	27	mark	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vida	vida	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	risco	risco	NOUN	_	Gender=Masc|Number=Sing	18	ccomp	_	_
+28	e	e	CCONJ	_	_	32	cc	_	_
+29	que	que	SCONJ	_	_	32	mark	_	_
+30	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+31	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	colaborando	colaborar	VERB	_	VerbForm=Ger	27	conj	_	_
+33	com	com	ADP	_	_	35	case	_	_
+34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = O outro passageiro, Fabiano Júnior da Silva Tomé, mecânico de avião, corroborou a história de Apoena e disse que também foi pressionado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	passageiro	passageiro	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Fabiano	Fabiano	PROPN	_	_	3	appos	_	_
+6	Júnior	Júnior	PROPN	_	_	5	flat:name	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Silva	Silva	PROPN	_	_	5	flat:name	_	_
+10	Tomé	Tomé	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	mecânico	mecânico	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	avião	avião	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	12	punct	_	_
+16	corroborou	corroborar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	história	história	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Apoena	Apoena	PROPN	_	_	18	nmod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+23	que	que	SCONJ	_	_	26	mark	_	_
+24	também	também	ADV	_	_	26	advmod	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	pressionado	pressionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0017
+# text = Fabiano alegou que a aeronave, supostamente registrada em nome de Jeison Moreira Souza, foi adquirida de forma legítima, mas sob ameaças para ser usada no transporte da droga.
+1	Fabiano	Fabiano	PROPN	_	_	2	nsubj	_	_
+2	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	17	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	supostamente	supostamente	ADV	_	_	8	advmod	_	_
+8	registrada	registrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	nome	nome	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Jeison	Jeison	PROPN	_	_	10	nmod	_	_
+13	Moreira	Moreira	PROPN	_	_	12	flat:name	_	_
+14	Souza	Souza	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	8	punct	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	adquirida	adquirir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	forma	forma	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	legítima	legítimo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	mas	mas	CCONJ	_	_	24	cc	_	_
+23	sob	sob	ADP	_	_	24	case	_	_
+24	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	_
+25	para	para	ADP	_	_	27	mark	_	_
+26	ser	ser	AUX	_	VerbForm=Inf	27	aux:pass	_	_
+27	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	advcl	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	droga	droga	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = A Polícia Federal (PF) e a Força Aérea Brasileira (FAB) confirmaram que a aeronave saiu de Cuiabá, passou pela Bolívia e tinha como destino uma fazenda em Jussara, Goiás.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	15	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	PF	PF	PROPN	_	_	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Força	Força	PROPN	_	_	2	conj	_	_
+10	Aérea	Aérea	PROPN	_	_	9	flat:name	_	_
+11	Brasileira	Brasileira	PROPN	_	_	9	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	FAB	FAB	PROPN	_	_	9	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	confirmaram	confirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	que	que	SCONJ	_	_	19	mark	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	saiu	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Cuiabá	Cuiabá	PROPN	_	_	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+24-25	pela	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Bolívia	Bolívia	PROPN	_	_	23	obl	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	conj	_	_
+29	como	como	ADP	_	_	30	case	_	_
+30	destino	destino	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	fazenda	fazenda	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+33	em	em	ADP	_	_	34	case	_	_
+34	Jussara	Jussara	PROPN	_	_	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	Goiás	Goiás	PROPN	_	_	34	parataxis	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0021
+# text = No entanto, a defesa apresentou supostas provas de que os dois homens são apenas peões em um esquema muito maior.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	7	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	supostas	suposto	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	9	amod	_	_
+9	provas	prova	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	de	de	ADP	_	ExtPos=SCONJ	17	mark	_	_
+11	que	que	SCONJ	_	_	10	fixed	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	dois	dois	NUM	_	Gender=Masc|NumType=Card	14	nummod	_	_
+14	homens	homem	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	apenas	apenas	ADV	_	_	17	advmod	_	_
+17	peões	peão	NOUN	_	Gender=Masc|Number=Plur	9	acl	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	muito	muito	ADV	_	_	22	advmod	_	_
+22	maior	maior	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = O delegado Bruno Gama destacou que a investigação agora se concentra em identificar os verdadeiros mandantes da operação.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Bruno	Bruno	PROPN	_	_	2	nmod	_	_
+4	Gama	Gama	PROPN	_	_	3	flat:name	_	_
+5	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	agora	agora	ADV	_	_	11	advmod	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	concentra	concentrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	em	em	ADP	_	_	13	mark	_	_
+13	identificar	identificar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	verdadeiros	verdadeiro	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+16	mandantes	mandante	NOUN	_	Number=Plur	13	obj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	operação	operação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = "Estamos diante de um esquema complexo e precisamos desvendar quem são os verdadeiros responsáveis por essa carga milionária", afirmou.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	diante	diante	ADV	_	_	22	ccomp:speech	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	complexo	complexo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	desvendar	desvendar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	quem	quem	PRON	_	PronType=Ind	15	nsubj	_	_
+12	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	verdadeiros	verdadeiro	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+15	responsáveis	responsável	NOUN	_	Number=Plur	10	ccomp	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	carga	carga	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	milionária	milionário	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	3	punct	_	_
+22	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0027
+# text = A Amaggi, empresa mencionada inicialmente como possível ponto de origem da droga, reiterou que não tem ligação com o caso.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Amaggi	Amaggi	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+5	mencionada	mencionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+6	inicialmente	inicialmente	ADV	_	_	5	advmod	_	_
+7	como	como	ADP	_	_	9	case	_	_
+8	possível	possível	ADJ	_	Number=Sing	9	amod	_	_
+9	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	origem	origem	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	droga	droga	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	reiterou	reiterar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	que	que	SCONJ	_	_	19	mark	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	ligação	ligação	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	caso	caso	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0029
+# text = O ministro da Agricultura, Blairo Maggi, expressou preocupação com a vulnerabilidade das fazendas à ação de traficantes internacionais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Agricultura	Agricultura	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Blairo	Blairo	PROPN	_	_	2	appos	_	_
+8	Maggi	Maggi	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	expressou	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	preocupação	preocupação	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vulnerabilidade	vulnerabilidade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	das	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	fazendas	fazenda	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ação	ação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	traficantes	traficante	NOUN	_	Number=Plur	20	nmod	_	_
+23	internacionais	internacional	ADJ	_	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0031
+# text = Após a audiência, Apoena e Fabiano foram mantidos presos, mas a defesa espera que novas evidências possam mudar o curso do processo.
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Apoena	Apoena	PROPN	_	_	9	nsubj:pass	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	Fabiano	Fabiano	PROPN	_	_	5	conj	_	_
+8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	mantidos	manter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	presos	preso	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	mas	mas	CCONJ	_	_	15	cc	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	espera	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+16	que	que	SCONJ	_	_	19	mark	_	_
+17	novas	novo	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+18	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
+19	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+20	mudar	mudar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	curso	curso	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	processo	processo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0033
+# text = A maior apreensão de cocaína pura da história em Goiás continua sendo investigada, e um vídeo da Polícia Militar mostra a dramática interceptação e a apreensão da droga.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	maior	maior	ADJ	_	Number=Sing	3	amod	_	_
+3	apreensão	apreensão	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	cocaína	cocaína	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	pura	puro	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	história	história	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Goiás	Goiás	PROPN	_	_	9	nmod	_	_
+12	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	sendo	ser	AUX	_	VerbForm=Ger	14	aux:pass	_	_
+14	investigada	investigar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	23	punct	_	_
+16	e	e	CCONJ	_	_	23	cc	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Polícia	Polícia	PROPN	_	_	18	nmod	_	_
+22	Militar	Militar	PROPN	_	_	21	flat:name	_	_
+23	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	dramática	dramático	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+26	interceptação	interceptação	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	apreensão	apreensão	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	droga	droga	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	12	punct	_	_
+

@@ -1,0 +1,55 @@
+# sent_id = S0001
+# text = miriam leitão teve pensão de r$ 27 mil (bolsa ditadura) cortada pelo governo “míriam leitão teve seu benefício de r$27., cortado pela ministra damares.
+1	miriam	miriam	PROPN	_	_	3	nsubj	_	_
+2	leitão	leitão	NOUN	_	_	1	flat:name	_	_
+3	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	pensão	pensão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	r$	r$	SYM	_	_	4	nmod	_	_
+7	27	27	NUM	_	NumType=Card	6	nummod	_	_
+8	mil	mil	NUM	_	NumType=Card	7	flat	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
+11	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	_
+13	cortada	cortar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+14-15	pelo	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
+17	“míriam	“míriam	PROPN	_	_	16	nmod	_	_
+18	leitão	leitão	NOUN	_	_	17	flat:name	_	_
+19	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	benefício	benefício	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	r$27	r$27	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
+24	.	.	NUM	_	NumType=Ord	23	flat	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	cortado	cortar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	advcl	_	_
+27-28	pela	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	26	obl:agent	_	_
+30	damares	damares	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = fim do bolsa ditadura pra ex-guerrilheira “amélia” e mais 2.2 vagabundos”.
+1	fim	fim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+6-7	pra	_	_	_	_	_	_	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ex-guerrilheira	ex-guerrilheira	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+9	“amélia”	“amélia”	ADJ	_	_	8	nmod	_	_
+10	e	e	CCONJ	_	_	13	cc	_	_
+11	mais	mais	ADV	_	_	12	advmod	_	_
+12	2.2	2.2	NUM	_	NumType=Card	13	nummod	_	_
+13	vagabundos”	vagabundos”	ADJ	_	_	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+

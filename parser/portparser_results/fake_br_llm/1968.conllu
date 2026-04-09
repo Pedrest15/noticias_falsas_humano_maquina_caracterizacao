@@ -1,0 +1,301 @@
+# sent_id = S0001
+# text = Exclusivo: Gravações revelam que Lula confidenciou a Sarney ter se arrependido de escolher Dilma.
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Gravações	gravação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	Lula	Lula	PROPN	_	_	7	nsubj	_	_
+7	confidenciou	confidenciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	Sarney	Sarney	PROPN	_	_	7	obl	_	_
+10	ter	ter	AUX	_	VerbForm=Inf	12	aux	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	arrependido	arrepender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	ccomp	_	_
+13	de	de	ADP	_	_	14	mark	_	_
+14	escolher	escolher	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	Dilma	Dilma	PROPN	_	_	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = O ex-presidente José Sarney, em áudios bombásticos feitos por Sérgio Machado, afirma que Lula admitiu seu maior erro político: a eleição de Dilma Rousseff.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	14	nsubj	_	_
+3	José	José	PROPN	_	_	2	nmod	_	_
+4	Sarney	Sarney	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	áudios	áudio	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+8	bombásticos	bombástico	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	Sérgio	Sérgio	PROPN	_	_	9	obl:agent	_	_
+12	Machado	Machado	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	que	que	SCONJ	_	_	17	mark	_	_
+16	Lula	Lula	PROPN	_	_	17	nsubj	_	_
+17	admitiu	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+19	maior	maior	ADJ	_	Number=Sing	20	amod	_	_
+20	erro	erro	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+21	político	político	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	24	punct	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	20	appos	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Dilma	Dilma	PROPN	_	_	24	nmod	_	_
+27	Rousseff	Rousseff	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0005
+# text = Divulgadas neste sábado, 28, pelo Jornal Hoje, as gravações causam um terremoto no cenário político nacional.
+1	Divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	advcl	_	_
+2-3	neste	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	28	28	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Jornal	Jornal	PROPN	_	_	1	obl:agent	_	_
+11	Hoje	Hoje	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	gravações	gravação	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	causam	causar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	terremoto	terremoto	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+21	político	político	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	nacional	nacional	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0007
+# text = Sarney relata que Lula estava emocionalmente abalado: Ele estava chorando, me disse que o único arrependimento de sua vida política é ter eleito a Dilma.
+1	Sarney	Sarney	PROPN	_	_	2	nsubj	_	_
+2	relata	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	Lula	Lula	PROPN	_	_	7	nsubj	_	_
+5	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	emocionalmente	emocionalmente	ADV	_	_	7	advmod	_	_
+7	abalado	abalado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	11	punct	_	_
+9	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	chorando	chorar	VERB	_	VerbForm=Ger	2	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+15	que	que	SCONJ	_	_	25	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	único	único	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	arrependimento	arrependimento	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	vida	vida	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	política	político	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	ter	ter	AUX	_	VerbForm=Inf	25	aux	_	_
+25	eleito	eleger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	ccomp	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Dilma	Dilma	PROPN	_	_	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O erro mais grave de todos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	grave	grave	ADJ	_	Number=Sing	2	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Além dessa revelação, Machado menciona favores secretos prestados a diversos políticos, incluindo Sarney.
+1	Além	além	ADV	_	_	7	advmod	_	_
+2-3	dessa	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	Machado	Machado	PROPN	_	_	7	nsubj	_	_
+7	menciona	mencionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	favores	favor	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	secretos	secreto	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	prestados	prestar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	políticos	político	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	incluindo	incluir	VERB	_	VerbForm=Ger	13	acl	_	_
+16	Sarney	Sarney	PROPN	_	_	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = "Você é o único que sabe da ajuda que te dei, presidente", afirma Machado, insinuando um esquema de corrupção não detalhado.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	único	único	ADJ	_	Gender=Masc|Number=Sing	18	ccomp:speech	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	que	que	PRON	_	PronType=Rel	13	obj	_	_
+12	te	te	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
+13	dei	dar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	presidente	presidente	NOUN	_	Number=Sing	10	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	5	punct	_	_
+18	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	Machado	Machado	PROPN	_	_	18	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	insinuando	insinuar	VERB	_	VerbForm=Ger	18	advcl	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	não	não	ADV	_	_	27	advmod	_	_
+27	detalhado	detalhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0015
+# text = O Jornal Hoje destaca que, apesar das graves acusações, não há clareza sobre o tipo de ajuda mencionada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Jornal	Jornal	PROPN	_	_	4	nsubj	_	_
+3	Hoje	Hoje	PROPN	_	_	2	flat:name	_	_
+4	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	apesar	apesar	ADV	_	_	14	advmod	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	graves	grave	ADJ	_	Number=Plur	11	amod	_	_
+11	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+15	clareza	clareza	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+16	sobre	sobre	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	mencionada	mencionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = O Instituto Lula reagiu duramente à divulgação dos áudios, chamando-a de "manobra nojenta" para difamar o ex-presidente.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Instituto	Instituto	PROPN	_	_	4	nsubj	_	_
+3	Lula	Lula	PROPN	_	_	2	flat:name	_	_
+4	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	duramente	duramente	ADV	_	_	4	advmod	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	áudios	áudio	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13-14	chamando-a	_	_	_	_	_	_	_	_
+13	chamando	chamar	VERB	_	VerbForm=Ger	4	advcl	_	_
+14	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	manobra	manobra	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+18	nojenta	nojento	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	17	punct	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	difamar	difamar	VERB	_	VerbForm=Inf	17	acl	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ex-presidente	ex-presidente	NOUN	_	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = A nota oficial ressalta: Lula sempre agiu dentro da lei e a falta de provas reais contra ele é evidente.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nota	nota	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	oficial	oficial	ADJ	_	Number=Sing	2	amod	_	_
+4	ressalta	ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	8	punct	_	_
+6	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+7	sempre	sempre	ADV	_	_	8	advmod	_	_
+8	agiu	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp:speech	_	_
+9	dentro	dentro	ADV	_	_	8	advmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lei	lei	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	e	e	CCONJ	_	_	22	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	falta	falta	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	provas	prova	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	reais	real	ADJ	_	Number=Plur	17	amod	_	_
+19	contra	contra	ADP	_	_	20	case	_	_
+20	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	evidente	evidente	ADJ	_	Number=Sing	8	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Essas gravações são montagens visando prejudicar sua reputação.
+1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	gravações	gravação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	montagens	montagem	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+5	visando	visar	VERB	_	VerbForm=Ger	4	acl	_	_
+6	prejudicar	prejudicar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	reputação	reputação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = Analistas políticos afirmam que essa nova divulgação pode influenciar decisivamente as próximas eleições, gerando uma onda de especulações e reforçando a polarização já existente no país.
+1	Analistas	analista	NOUN	_	Number=Plur	3	nsubj	_	_
+2	políticos	político	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	nova	novo	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	influenciar	influenciar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	decisivamente	decisivamente	ADV	_	_	9	advmod	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+13	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	gerando	gerar	VERB	_	VerbForm=Ger	9	advcl	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	onda	onda	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	especulações	especulação	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	reforçando	reforçar	VERB	_	VerbForm=Ger	15	conj	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	polarização	polarização	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	já	já	ADV	_	_	25	advmod	_	_
+25	existente	existente	ADJ	_	Number=Sing	23	amod	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	país	país	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+

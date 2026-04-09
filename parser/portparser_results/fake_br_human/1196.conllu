@@ -1,0 +1,269 @@
+# sent_id = S0001
+# text = Atriz faz grave denúncia sobre censura no governo Dilma: "Eles ligavam ameaçando".
+1	Atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	grave	grave	ADJ	_	Number=Sing	4	amod	_	_
+4	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	sobre	sobre	ADP	_	_	6	case	_	_
+6	censura	censura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Dilma	Dilma	PROPN	_	_	9	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	ligavam	ligar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	_
+15	ameaçando	ameaçar	VERB	_	VerbForm=Ger	14	advcl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = A atriz Alessandra Maestrini decidiu botar a boca no trombone e falar a verdade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Alessandra	Alessandra	PROPN	_	_	2	nmod	_	_
+4	Maestrini	Maestrini	PROPN	_	_	3	flat:name	_	_
+5	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	botar	botar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	boca	boca	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	trombone	trombone	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	falar	falar	VERB	_	VerbForm=Inf	6	conj	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Atores e/ou atrizes que se manifestavam publicamente contra o governo Dilma eram ameaçados pelo governo Alessandra Maestrini fez graves denúncias sobre a censura por parte do governo Dilma.
+1	Atores	ator	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+2	e/ou	e/ou	CCONJ	_	_	3	cc	_	_
+3	atrizes	atriz	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	manifestavam	manifestar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+7	publicamente	publicamente	ADV	_	_	6	advmod	_	_
+8	contra	contra	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+11	Dilma	Dilma	PROPN	_	_	10	nmod	_	_
+12	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
+13	ameaçados	ameaçar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+14-15	pelo	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
+17	Alessandra	Alessandra	PROPN	_	_	16	nmod	_	_
+18	Maestrini	Maestrini	PROPN	_	_	17	flat:name	_	_
+19	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	root	_	_
+20	graves	grave	ADJ	_	Number=Plur	21	amod	_	_
+21	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+22	sobre	sobre	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	censura	censura	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	por	por	ADP	_	_	26	case	_	_
+26	parte	parte	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	governo	governo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	Dilma	Dilma	PROPN	_	_	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com Alessandra, ela e vários amigos comediantes perderam seus empregos e programas após receberem ameaças de gente ligada diretamente ao ex-governo da presidente Rousseff.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	Alessandra	Alessandra	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+10	comediantes	comediante	NOUN	_	Number=Plur	9	amod	_	_
+11	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	empregos	emprego	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	programas	programa	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
+16	após	após	ADP	_	_	17	mark	_	_
+17	receberem	receber	VERB	_	Number=Plur|Person=3|VerbForm=Inf	11	advcl	_	_
+18	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	gente	gente	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	ligada	ligado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	_
+22	diretamente	diretamente	ADV	_	_	21	advmod	_	_
+23-24	ao	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ex-governo	ex-governo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	presidente	presidente	NOUN	_	Number=Sing	25	nmod	_	_
+29	Rousseff	Rousseff	PROPN	_	_	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = A entrevista foi ao ar no programa Jovem Pan Morning Show.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ar	ar	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	programa	programa	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+10	Jovem	Jovem	PROPN	_	_	9	nmod	_	_
+11	Pan	Pan	PROPN	_	_	10	flat:name	_	_
+12	Morning	Morning	PROPN	_	_	10	flat:name	_	_
+13	Show	Show	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Ela não revelou nomes para não expor os seus colegas, mas explicou como era feito o contato entre a alta cúpula do governo com as emissoras, pedindo a cabeça de quem se opunha contra eles.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	para	para	ADP	_	_	7	mark	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	expor	expor	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	mas	mas	CCONJ	_	_	13	cc	_	_
+13	explicou	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	como	como	ADV	_	_	16	advmod	_	_
+15	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:pass	_	_
+16	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	contato	contato	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+19	entre	entre	ADP	_	_	22	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	alta	alto	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	cúpula	cúpula	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	governo	governo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	com	com	ADP	_	_	28	case	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	emissoras	emissor	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	pedindo	pedir	VERB	_	VerbForm=Ger	16	advcl	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	quem	quem	PRON	_	PronType=Ind	32	nmod	_	_
+35	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	36	expl	_	_
+36	opunha	opor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	acl:relcl	_	_
+37	contra	contra	ADP	_	_	38	case	_	_
+38	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Alessandra comentou que o impeachment de Dilma "não pode ser considerado um golpe parlamentar, assim como a ex-presidente tem falado em seus discursos, mas sim uma oportunidade para o país não se tornar uma Venezuela".
+1	Alessandra	Alessandra	PROPN	_	_	2	nsubj	_	_
+2	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	10	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Dilma	Dilma	PROPN	_	_	5	nmod	_	_
+8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	não	não	ADV	_	_	10	advmod	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	12	xcomp	_	_
+15	parlamentar	parlamentar	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	22	punct	_	_
+17	assim	assim	ADV	_	ExtPos=SCONJ	22	mark	_	_
+18	como	como	SCONJ	_	_	17	fixed	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ex-presidente	ex-presidente	NOUN	_	Number=Sing	22	nsubj	_	_
+21	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	falado	falar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	advcl	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	discursos	discurso	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	mas	mas	CCONJ	_	_	30	cc	_	_
+28	sim	sim	ADV	_	_	30	advmod	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
+31	para	para	ADP	_	_	36	mark	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	país	país	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
+34	não	não	ADV	_	_	36	advmod	_	_
+35	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	36	expl	_	_
+36	tornar	tornar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	30	acl	_	_
+37	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Venezuela	Venezuela	PROPN	_	_	36	xcomp	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Eu não posso falar porque vou expor meus amigos.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	falar	falar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	porque	porque	SCONJ	_	_	7	mark	_	_
+6	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	expor	expor	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	meus	meu	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = A emissora entrava em contato com o artista avisando que o Governo havia ligado ameaçando.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	entrava	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	contato	contato	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	artista	artista	NOUN	_	Number=Sing	5	nmod	_	_
+9	avisando	avisar	VERB	_	VerbForm=Ger	3	advcl	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Governo	Governo	PROPN	_	_	14	nsubj	_	_
+13	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	ccomp	_	_
+15	ameaçando	ameaçar	VERB	_	VerbForm=Ger	14	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Quem ligou eu não sei, não era comigo que estavam falando, afirmou.
+1	Quem	quem	PRON	_	PronType=Ind	5	nsubj	_	_
+2	ligou	ligar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+3	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp:speech	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	13	punct	_	_
+7	não	não	ADV	_	_	13	advmod	_	_
+8	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	discourse	_	_
+9-10	comigo	_	_	_	_	_	_	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	obl	_	_
+11	que	que	SCONJ	_	_	13	discourse	_	_
+12	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	falando	falar	VERB	_	VerbForm=Ger	5	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	5	punct	_	_
+15	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+

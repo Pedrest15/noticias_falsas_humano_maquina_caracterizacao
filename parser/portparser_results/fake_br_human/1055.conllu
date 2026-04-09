@@ -1,0 +1,111 @@
+# sent_id = S0001
+# text = Edir Macedo fica nervoso e interrompe culto: "Eu amaldiçoo todos os telefones".
+1	Edir	Edir	PROPN	_	_	3	nsubj	_	_
+2	Macedo	Macedo	PROPN	_	_	1	flat:name	_	_
+3	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nervoso	nervoso	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	interrompe	interromper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	culto	culto	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	11	punct	_	_
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	amaldiçoo	amaldiçoar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	telefones	telefone	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Seria cômico se não fosse [...] trágico cômico.
+1	Seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	cop	_	_
+2	cômico	cômico	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	se	se	SCONJ	_	_	10	mark	_	_
+4	não	não	ADV	_	_	10	advmod	_	_
+5	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+6	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	..	..	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	]	]	PUNCT	_	_	7	punct	_	_
+10	trágico	trágico	ADJ	_	Gender=Masc|Number=Sing	2	advcl	_	_
+11	cômico	cômico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = É claro que existem certas regras de etiqueta que devem ser observadas, mas quem nunca esqueceu um celular ligado em um local [digamos assim] proibido?
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+5	certas	certo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	regras	regra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	etiqueta	etiqueta	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	observadas	observar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	mas	mas	CCONJ	_	_	17	cc	_	_
+15	quem	quem	PRON	_	PronType=Int	17	nsubj	_	_
+16	nunca	nunca	ADV	_	_	17	advmod	_	_
+17	esqueceu	esquecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	celular	celular	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	local	local	NOUN	_	Number=Sing	20	obl	_	_
+24	[	[	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	digamos	dizer	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+26	assim	assim	ADV	_	_	25	advmod	_	SpaceAfter=No
+27	]	]	PUNCT	_	_	25	punct	_	_
+28	proibido	proibido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	23	xcomp	_	SpaceAfter=No
+29	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Pois bem, esse lapso aconteceu durante um culto do bispo Edir Macedo.
+1	Pois	pois	CCONJ	_	_	2	cc	_	_
+2	bem	bem	ADV	_	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	lapso	lapso	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	durante	durante	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	culto	culto	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bispo	bispo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	Edir	Edir	PROPN	_	_	12	nmod	_	_
+14	Macedo	Macedo	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Louco de raiva, ele parou a pregação e começou a amaldiçoar os celulares de todo mundo.
+1	Louco	louco	ADJ	_	Gender=Masc|Number=Sing	6	advcl	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	raiva	raiva	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	parou	parar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pregação	pregação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	amaldiçoar	amaldiçoar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	celulares	celular	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0010
+# text = assista:
+1	assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

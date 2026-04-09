@@ -1,0 +1,231 @@
+# sent_id = S0001
+# text = Sobre o atentado em Paris, Dilma defende diplomacia para lidar com o Estado Islâmico.
+1	Sobre	sobre	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	atentado	atentado	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Paris	Paris	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Dilma	Dilma	PROPN	_	_	8	nsubj	_	_
+8	defende	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	diplomacia	diplomacia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	lidar	lidar	VERB	_	VerbForm=Inf	9	acl	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Estado	Estado	PROPN	_	_	11	obl	_	_
+15	Islâmico	Islâmico	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Em entrevista concedida após a reunião de líderes do G20, na Turquia, a presidente Dilma Rousseff falou sobre os atentados terroristas ocorridos no último dia 13, em Paris.
+1	Em	em	ADP	_	_	2	case	_	_
+2	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+3	concedida	conceder	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	após	após	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	G20	G20	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Turquia	Turquia	PROPN	_	_	6	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	presidente	presidente	NOUN	_	Number=Sing	21	nsubj	_	_
+19	Dilma	Dilma	PROPN	_	_	18	nmod	_	_
+20	Rousseff	Rousseff	PROPN	_	_	19	flat:name	_	_
+21	falou	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	sobre	sobre	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	atentados	atentado	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+25	terroristas	terrorista	ADJ	_	Number=Plur	24	amod	_	_
+26	ocorridos	ocorrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	24	acl	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	30	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	último	último	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	dia	dia	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+31	13	13	NUM	_	NumType=Card	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	em	em	ADP	_	_	34	case	_	_
+34	Paris	Paris	PROPN	_	_	26	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0005
+# text = (notícia via Portal Vox ) Ce acordo com ela, o terrorismo é "anticivilização" e atenta contra os "valores morais".
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	16	parataxis	_	_
+3	via	via	ADP	_	_	4	case	_	_
+4	Portal	Portal	PROPN	_	_	2	nmod	_	_
+5	Vox	Vox	PROPN	_	_	4	flat:name	_	_
+6	)	)	PUNCT	_	_	2	punct	_	_
+7	Ce	ce	ADP	_	_	8	case	_	_
+8	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	anticivilização	anticivilização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	atenta	atentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	contra	contra	ADP	_	_	23	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	valores	valor	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
+24	morais	moral	ADJ	_	Number=Plur	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = Dilma também disse que os ataques não tiveram motivação religiosa o u étnica.
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+9	motivação	motivação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	religiosa	religioso	ADJ	_	ExtPos=ADJ|Gender=Fem|Number=Sing	9	amod	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	cc	_	_
+12	u	u	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
+13	étnica	étnico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Não podemos ligar o terrorismo a uma religião.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ligar	ligar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	religião	religião	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Ninguém pode tachar qualquer religião de ser patrocinadora de terrorismo.
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	2	nsubj	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tachar	tachar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	5	det	_	_
+5	religião	religião	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	8	mark	_	_
+7	ser	ser	AUX	_	VerbForm=Inf	8	cop	_	_
+8	patrocinadora	patrocinador	NOUN	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Na história, poucas [religiões] não tiveram atitudes violentas e de perseguição.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	história	história	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	poucas	pouco	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+6	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	religiões	religiõe	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+8	]	]	PUNCT	_	_	7	punct	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	atitudes	atitude	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	violentas	violento	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = A presidente também afirmou que, embora a repressão aos extremistas seja importante, essa não pode ser a única medida adotada para combater o terror.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	18	mark	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	14	punct	_	_
+7	embora	embora	SCONJ	_	_	14	mark	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	repressão	repressão	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+10-11	aos	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	extremistas	extremista	NOUN	_	Number=Plur	9	nmod	_	_
+13	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	importante	importante	ADJ	_	Number=Sing	18	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	18	nsubj	_	_
+17	não	não	ADV	_	_	18	advmod	_	_
+18	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	22	cop	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	única	único	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	medida	medida	NOUN	_	Gender=Fem|Number=Sing	18	xcomp	_	_
+23	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	combater	combater	VERB	_	VerbForm=Inf	23	advcl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	terror	terror	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Não se resolve toda a questão do terrorismo só com a repressão.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl:impers	_	_
+3	resolve	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	questão	questão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	só	só	ADV	_	_	13	advmod	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	repressão	repressão	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = É fundamental reprimir, mas para eliminá-lo, ter-se-á que fazer outro tipo de gestão , incluindo a diplomática, destacou.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	fundamental	fundamental	ADJ	_	Number=Sing	23	ccomp:speech	_	_
+3	reprimir	reprimir	VERB	_	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	10	punct	_	_
+5	mas	mas	CCONJ	_	_	10	cc	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7-8	eliminá-lo	_	_	_	_	_	_	_	_
+7	eliminar	eliminar	VERB	_	VerbForm=Inf	10	advcl	_	_
+8	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	_	_	7	punct	_	_
+10-11	ter-se-á	_	_	_	_	_	_	_	_
+10	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl:impers	_	_
+12	que	que	ADP	_	_	13	mark	_	_
+13	fazer	fazer	VERB	_	VerbForm=Inf	10	xcomp	_	_
+14	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
+15	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	incluindo	incluir	VERB	_	VerbForm=Ger	15	acl	_	_
+20	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	19	obj	_	_
+21	diplomática	diplomático	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	2	punct	_	_
+23	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+

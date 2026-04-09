@@ -1,0 +1,135 @@
+# sent_id = S0001
+# text = Eduardo Cunha ministro de Michel Temer?.
+1	Eduardo	Eduardo	PROPN	_	_	0	root	_	_
+2	Cunha	Cunha	PROPN	_	_	1	flat:name	_	_
+3	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Michel	Michel	PROPN	_	_	3	nmod	_	_
+6	Temer	Temer	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Parece que o novo governo já coleciona inimigos políticos.
+1	Parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	7	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	novo	novo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	coleciona	colecionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+8	inimigos	inimigo	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	políticos	político	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Corre nos corredores de Brasília a notícia de que Eduardo Cunha poderá ser até nomeado como ministro no governo de Michel Temer.
+1	Corre	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	nos	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	corredores	corredor	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Brasília	Brasília	PROPN	_	_	4	nmod	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
+9	de	de	ADP	_	ExtPos=SCONJ	13	mark	_	_
+10	que	que	SCONJ	_	_	9	fixed	_	_
+11	Eduardo	Eduardo	PROPN	_	_	13	nsubj	_	_
+12	Cunha	Cunha	PROPN	_	_	11	flat:name	_	_
+13	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	16	aux:pass	_	_
+15	até	até	ADV	_	_	16	advmod	_	_
+16	nomeado	nomear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+17	como	como	ADP	_	_	18	case	_	_
+18	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	governo	governo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Michel	Michel	PROPN	_	_	21	nmod	_	_
+24	Temer	Temer	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com relatos, o novo presidente empossado tem uma "dívida" com o ex-presidente da Câmara dos Deputados.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	novo	novo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+9	empossado	empossar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	acl	_	_
+10	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ex-presidente	ex-presidente	NOUN	_	Number=Sing	13	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Câmara	Câmara	PROPN	_	_	17	nmod	_	_
+21-22	dos	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Deputados	Deputados	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Resta saber se uma futura nomeação de Cunha poderá livrar o peemedebista das garras de Sérgio Moro.
+1	Resta	restar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	saber	saber	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	se	se	SCONJ	_	_	9	mark	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	futura	futuro	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Cunha	Cunha	PROPN	_	_	6	nmod	_	_
+9	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+10	livrar	livrar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	peemedebista	peemedebista	NOUN	_	Number=Sing	10	obj	_	_
+13-14	das	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	garras	garra	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Sérgio	Sérgio	PROPN	_	_	15	nmod	_	_
+18	Moro	Moro	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = A história irá se repetir?
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	história	história	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	repetir	repetir	VERB	_	Number=Sing|Person=3|VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Dilma fez com Lula [...] Temer fará a mesma coisa com Eduardo Cunha?
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	obl	_	_
+5	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	10	parataxis	_	SpaceAfter=No
+7	..	..	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	]	]	PUNCT	_	_	6	punct	_	_
+9	Temer	Temer	PROPN	_	_	10	nsubj	_	_
+10	fará	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp:speech	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	Eduardo	Eduardo	PROPN	_	_	10	obl	_	_
+16	Cunha	Cunha	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	2	punct	_	_
+

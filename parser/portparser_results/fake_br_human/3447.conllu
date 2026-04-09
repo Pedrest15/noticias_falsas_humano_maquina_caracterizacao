@@ -1,0 +1,278 @@
+# sent_id = S0001
+# text = Temer diz que não é desleal e já fala em novas eleições convocadas pelo TSE.
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	não	não	ADV	_	_	6	advmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	desleal	desleal	ADJ	_	Number=Sing	2	ccomp	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	já	já	ADV	_	_	9	advmod	_	_
+9	fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	novas	novo	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+12	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+13	convocadas	convocar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	_
+14-15	pelo	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	TSE	TSE	PROPN	_	_	13	obl:agent	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O vice-presidente Michel Temer declarou, em entrevista a Josias de Souza ( UOL ), que está tentando encontrar uma forma de responder à presidente Dilma Rousseff, pela confiança nele depositada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vice-presidente	vice-presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+3	Michel	Michel	PROPN	_	_	2	nmod	_	_
+4	Temer	Temer	PROPN	_	_	3	flat:name	_	_
+5	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	Josias	Josias	PROPN	_	_	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Souza	Souza	PROPN	_	_	10	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	_
+14	UOL	UOL	PROPN	_	_	10	parataxis	_	_
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	8	punct	_	_
+17	que	que	SCONJ	_	_	19	mark	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	tentando	tentar	VERB	_	VerbForm=Ger	5	ccomp	_	_
+20	encontrar	encontrar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	forma	forma	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	mark	_	_
+24	responder	responder	VERB	_	VerbForm=Inf	22	acl	_	_
+25-26	à	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	presidente	presidente	NOUN	_	Number=Sing	24	obl	_	_
+28	Dilma	Dilma	PROPN	_	_	27	nmod	_	_
+29	Rousseff	Rousseff	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31-32	pela	_	_	_	_	_	_	_	_
+31	por	por	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	confiança	confiança	NOUN	_	Number=Sing	24	obl	_	_
+34-35	nele	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nmod	_	_
+36	depositada	depositar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	33	acl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = O vice-presidente defendeu uma posição de equilíbrio diante do processo do impeachment, visto que o PMDB se divide sobre o tema.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vice-presidente	vice-presidente	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	posição	posição	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	equilíbrio	equilíbrio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	diante	diante	ADV	_	_	5	advmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	processo	processo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	21	punct	_	_
+16	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	21	mark	_	_
+17	que	que	SCONJ	_	_	16	fixed	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	PMDB	PMDB	PROPN	_	_	21	nsubj	_	_
+20	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	21	expl	_	_
+21	divide	dividir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+22	sobre	sobre	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tema	tema	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Na situação tensa que existe no momento, não quero praticar deslealdade institucional.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	situação	situação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+4	tensa	tenso	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	momento	momento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	praticar	praticar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	deslealdade	deslealdade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15	institucional	institucional	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Isso eu jamais praticaria, afirmou.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+2	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	jamais	jamais	ADV	_	_	4	advmod	_	_
+4	praticaria	praticar	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	6	ccomp:speech	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Temer falou abertamente na possibilidade de um novo governo.
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	falou	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	abertamente	abertamente	ADV	_	_	2	advmod	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	novo	novo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	governo	governo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = "Seja sob o império da presidente Dilma ou de qualquer um que chegue ao poder, é preciso reunificar o país", afirmou.
+1	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+2	Seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	sob	sob	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	império	império	NOUN	_	Gender=Masc|Number=Sing	21	advcl	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	5	nmod	_	_
+9	Dilma	Dilma	PROPN	_	_	8	nmod	_	_
+10	ou	ou	CCONJ	_	_	13	cc	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	13	det	_	_
+13	um	um	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	conj	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	chegue	chegar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	poder	poder	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	5	punct	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	27	ccomp:speech	_	_
+22	reunificar	reunificar	VERB	_	VerbForm=Inf	21	csubj	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	país	país	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	21	punct	_	_
+27	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = S0015
+# text = Precisamos de pacificação nacional.
+1	Precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	pacificação	pacificação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+4	nacional	nacional	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = As mentalidades partidárias deveriam se unir.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mentalidades	mentalidade	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	partidárias	partidário	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	deveriam	dever	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	unir	unir	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Tem que haver uma coalizão nacional.
+1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	ADP	_	_	3	mark	_	_
+3	haver	haver	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	coalizão	coalizão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	nacional	nacional	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Acho que, se a presidente Dilma fizesse essa coalizão nacional, com todos os partidos, o país sairia desse embaraço em que se encontra.
+1	Acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	se	se	SCONJ	_	_	8	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	8	nsubj	_	_
+7	Dilma	Dilma	PROPN	_	_	6	nmod	_	_
+8	fizesse	fazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	_	_
+9	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	coalizão	coalizão	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	nacional	nacional	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	com	com	ADP	_	_	16	case	_	_
+14	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	8	punct	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	país	país	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+20	sairia	sair	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	_
+21-22	desse	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	embaraço	embaraço	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	que	que	PRON	_	PronType=Rel	27	obl	_	_
+26	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	27	expl	_	_
+27	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0023
+# text = Temer lembrou ainda que o impeachment não é a única possibilidade de ruptura.
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	lembrou	lembrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ainda	ainda	ADV	_	_	2	advmod	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	não	não	ADV	_	_	11	advmod	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	única	único	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	ruptura	ruptura	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0025
+# text = "Temos também os processos do TSE, que podem cassar a chapa", caso o TSE decida convocar novas eleições.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	também	também	ADV	_	_	2	advmod	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	processos	processo	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	TSE	TSE	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+12	cassar	cassar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	chapa	chapa	NOUN	_	Number=Sing	12	obj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	caso	caso	SCONJ	_	_	20	mark	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	TSE	TSE	PROPN	_	_	20	nsubj	_	_
+20	decida	decidir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+21	convocar	convocar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	novas	novo	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+23	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+

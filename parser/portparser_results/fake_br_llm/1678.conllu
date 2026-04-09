@@ -1,0 +1,471 @@
+# sent_id = S0001
+# text = Trágico acidente aéreo perto de Moscou: Avião da Saratov Airlines cai após sabotagem e deixa 71 mortos.
+1	Trágico	trágico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+2	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	aéreo	aéreo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	perto	perto	ADV	_	_	2	advmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Moscou	Moscou	PROPN	_	_	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	2	punct	_	_
+8	Avião	avião	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Saratov	Saratov	PROPN	_	_	8	nmod	_	_
+12	Airlines	Airlines	PROPN	_	_	11	flat:name	_	_
+13	cai	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	após	após	ADP	_	_	15	case	_	_
+15	sabotagem	sabotagem	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+18	71	71	NUM	_	NumType=Card	19	nummod	_	_
+19	mortos	morto	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0003
+# text = Voo saía da capital russa rumo a Orsk, próximo à fronteira com o Cazaquistão.
+1	Voo	voo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	saía	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	capital	capital	NOUN	_	Number=Sing	2	obl	_	_
+6	russa	russo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	2	advcl	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	Orsk	Orsk	PROPN	_	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fronteira	fronteira	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Cazaquistão	Cazaquistão	PROPN	_	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Nenhum sobrevivente foi encontrado.
+1	Nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	sobrevivente	sobrevivente	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Na tarde deste domingo (11), um avião da companhia aérea Saratov Airlines, modelo Antonov AN-148, caiu pouco após decolar do aeroporto Domodedovo em Moscou, resultando na morte de todos os 65 passageiros e 6 tripulantes.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+4-5	deste	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	11	11	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	avião	avião	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	companhia	companhia	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	aérea	aéreo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	Saratov	Saratov	PROPN	_	_	15	nmod	_	_
+18	Airlines	Airlines	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	modelo	modelo	NOUN	_	Number=Sing	15	appos	_	_
+21	Antonov	Antonov	PROPN	_	_	20	nmod	_	_
+22	AN-148	an-148	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	pouco	pouco	ADV	_	_	24	advmod	_	_
+26	após	após	ADP	_	_	27	mark	_	_
+27	decolar	decolar	VERB	_	VerbForm=Inf	24	advcl	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+31	Domodedovo	Domodedovo	PROPN	_	_	30	nmod	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	Moscou	Moscou	PROPN	_	_	27	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	resultando	resultar	VERB	_	VerbForm=Ger	24	advcl	_	_
+36-37	na	_	_	_	_	_	_	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	morte	morte	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	_
+39	de	de	ADP	_	_	43	case	_	_
+40	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	43	det	_	_
+41	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+42	65	65	NUM	_	NumType=Card	43	nummod	_	_
+43	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	6	6	NUM	_	NumType=Card	46	nummod	_	_
+46	tripulantes	tripulante	NOUN	_	Number=Plur	43	conj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0009
+# text = A tragédia chocou o mundo e é considerada o maior desastre aéreo comercial desde a queda do voo da Chapecoense em 2016.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tragédia	tragédia	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	chocou	chocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	maior	maior	ADJ	_	Number=Sing	11	amod	_	_
+11	desastre	desastre	NOUN	_	Gender=Masc|Number=Sing	8	xcomp	_	_
+12	aéreo	aéreo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	comercial	comercial	ADJ	_	Number=Sing	11	amod	_	_
+14	desde	desde	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	queda	queda	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	voo	voo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Chapecoense	Chapecoense	PROPN	_	_	19	nmod	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	2016	2016	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Autoridades russas confirmaram que a queda foi causada por uma sabotagem.
+1	Autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	russas	russo	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3	confirmaram	confirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	queda	queda	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	causada	causar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sabotagem	sabotagem	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Segundo fontes anônimas do Ministério dos Transportes, um dispositivo explosivo teria sido detonado a bordo, levando à perda de controle da aeronave.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+3	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ministério	Ministério	PROPN	_	_	2	nmod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Transportes	Transportes	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dispositivo	dispositivo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+13	explosivo	explosivo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	16	aux	_	_
+15	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	16	aux:pass	_	_
+16	detonado	detonar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	bordo	bordo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	levando	levar	VERB	_	VerbForm=Ger	16	advcl	_	_
+21-22	à	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	perda	perda	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	controle	controle	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0015
+# text = A comunicação com a tripulação foi interrompida apenas quatro minutos após a decolagem, e a aeronave desapareceu dos radares.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tripulação	tripulação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	interrompida	interromper	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	apenas	apenas	ADV	_	_	9	advmod	_	_
+9	quatro	quatro	NUM	_	NumType=Card	10	nummod	_	_
+10	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11	após	após	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	decolagem	decolagem	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+18	desapareceu	desaparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	radares	radar	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = Equipes de emergência encontraram fragmentos da aeronave espalhados por uma vasta área nevada no distrito de Ramesnky.
+1	Equipes	equipe	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	encontraram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	fragmentos	fragmento	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	espalhados	espalhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	acl	_	_
+10	por	por	ADP	_	_	13	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	vasta	vasto	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	área	área	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+14	nevada	nevado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	distrito	distrito	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Ramesnky	Ramesnky	PROPN	_	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Mais de 200 pessoas estão envolvidas nas operações de resgate, mas, infelizmente, apenas destroços e corpos foram recuperados.
+1	Mais	mais	ADV	_	ExtPos=ADV	3	advmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	200	200	NUM	_	NumType=Card	4	nummod	_	_
+4	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	envolvidas	envolvido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
+7-8	nas	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	operações	operação	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	resgate	resgate	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	22	punct	_	_
+13	mas	mas	CCONJ	_	_	22	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	infelizmente	infelizmente	ADV	_	_	22	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	apenas	apenas	ADV	_	_	18	advmod	_	_
+18	destroços	destroço	NOUN	_	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+21	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	recuperados	recuperar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Uma das caixas-pretas foi encontrada danificada, enquanto a segunda ainda está desaparecida, dificultando a investigação.
+1	Uma	um	NUM	_	Gender=Fem|NumType=Card	6	nsubj:pass	_	_
+2-3	das	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	caixas-pretas	caixas-pretas	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	encontrada	encontrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	danificada	danificado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	14	punct	_	_
+9	enquanto	enquanto	SCONJ	_	_	14	mark	_	_
+10	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
+11	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+12	ainda	ainda	ADV	_	_	14	advmod	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	desaparecida	desaparecido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	dificultando	dificultar	VERB	_	VerbForm=Ger	6	advcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0023
+# text = O presidente Vladimir Putin expressou profunda consternação e prometeu uma investigação rigorosa, enquanto o primeiro-ministro Dmitry Medvedev destacou a necessidade de assistência às famílias enlutadas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+3	Vladimir	Vladimir	PROPN	_	_	2	nmod	_	_
+4	Putin	Putin	PROPN	_	_	3	flat:name	_	_
+5	expressou	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	consternação	consternação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	rigorosa	rigoroso	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	19	punct	_	_
+14	enquanto	enquanto	SCONJ	_	_	19	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	primeiro-ministro	primeiro-ministro	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+17	Dmitry	Dmitry	PROPN	_	_	16	nmod	_	_
+18	Medvedev	Medvedev	PROPN	_	_	17	flat:name	_	_
+19	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	assistência	assistência	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	às	_	_	_	_	_	_	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	famílias	família	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	enlutadas	enlutado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = Em um gesto raro de solidariedade, a Casa Branca emitiu um comunicado afirmando que os Estados Unidos estão "profundamente entristecidos" e oferecendo ajuda na investigação do ato de sabotagem.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gesto	gesto	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+4	raro	raro	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	solidariedade	solidariedade	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Casa	Casa	PROPN	_	_	11	nsubj	_	_
+10	Branca	Branca	PROPN	_	_	9	flat:name	_	_
+11	emitiu	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	afirmando	afirmar	VERB	_	VerbForm=Ger	13	acl	_	_
+15	que	que	SCONJ	_	_	22	mark	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Estados	Estados	PROPN	_	_	22	nsubj	_	_
+18	Unidos	Unidos	PROPN	_	_	17	flat:name	_	_
+19	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	profundamente	profundamente	ADV	_	_	22	advmod	_	_
+22	entristecidos	entristecido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	14	ccomp	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	oferecendo	oferecer	VERB	_	VerbForm=Ger	22	conj	_	_
+26	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+27-28	na	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ato	ato	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	sabotagem	sabotagem	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0027
+# text = A Saratov Airlines, que já enfrentava problemas de segurança, como a proibição de voos internacionais em 2015 após uma inspeção surpresa, agora é centro de uma crise ainda maior.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Saratov	Saratov	PROPN	_	_	27	nsubj	_	_
+3	Airlines	Airlines	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	enfrentava	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+8	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	segurança	segurança	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	como	como	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	proibição	proibição	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	voos	voo	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	internacionais	internacional	ADJ	_	Number=Plur	16	amod	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	2015	2015	NUM	_	NumType=Card	14	nmod	_	_
+20	após	após	ADP	_	_	22	case	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	inspeção	inspeção	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+23	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	14	punct	_	_
+25	agora	agora	ADV	_	_	27	advmod	_	_
+26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	centro	centro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	crise	crise	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+31	ainda	ainda	ADV	_	_	32	advmod	_	_
+32	maior	maior	ADJ	_	Number=Sing	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = S0029
+# text = Especialistas afirmam que a queda pode ter relação com a tensão política na região, embora nenhuma organização tenha reivindicado a responsabilidade pelo ato até o momento.
+1	Especialistas	especialista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	queda	queda	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	ter	ter	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	relação	relação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	política	político	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	região	região	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	21	punct	_	_
+17	embora	embora	SCONJ	_	_	21	mark	_	_
+18	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	organização	organização	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+20	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	reivindicado	reivindicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	pelo	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ato	ato	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	até	até	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	momento	momento	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0031
+# text = Imagens do resgate mostram cenas devastadoras, com destroços espalhados e equipes trabalhando em condições extremas de frio.
+1	Imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	resgate	resgate	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	cenas	cena	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	devastadoras	devastador	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	destroços	destroço	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+11	espalhados	espalhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	10	acl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	equipes	equipe	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
+14	trabalhando	trabalhar	VERB	_	VerbForm=Ger	13	acl	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	condições	condição	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+17	extremas	extremo	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	frio	frio	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0033
+# text = O mundo aguarda respostas enquanto a investigação avança.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aguarda	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	respostas	resposta	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	enquanto	enquanto	SCONJ	_	_	8	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	avança	avançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+

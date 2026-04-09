@@ -1,0 +1,70 @@
+# sent_id = S0001
+# text = apple vai desbloquear o iphone 13 apenas para vacinados o ultimo que sair apaga a luz .
+1	apple	apple	NOUN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	desbloquear	desbloquear	VERB	_	VerbForm=Inf	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	iphone	iphone	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	3	obj	_	_
+6	13	13	NUM	_	NumType=Card	5	nmod	_	_
+7	apenas	apenas	ADV	_	_	9	advmod	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	vacinados	vacinado	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ultimo	ultimo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	sair	sair	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	_
+14	apaga	apagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	luz	luz	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = pls !
+1	pls	pls	INTJ	_	_	0	root	_	_
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = a apple somente desbloqueará iphone13 para vacinados!!!
+1	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	apple	apple	NOUN	_	Foreign=Yes	4	nsubj	_	_
+3	somente	somente	ADV	_	_	4	advmod	_	_
+4	desbloqueará	desbloquear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	iphone13	iphone13	NUM	_	NumType=Card	4	obj	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	vacinados	vacinado	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = a insanidade só aumenta juramos impedir que os não vacinados se conectem com o mundo, disse cook.
+1	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	insanidade	insanidade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	só	só	ADV	_	_	4	advmod	_	_
+4	aumenta	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp:speech	_	_
+5	juramos	jurar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp:speech	_	_
+6	impedir	impedir	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	que	que	SCONJ	_	_	12	mark	_	_
+8	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	12	nsubj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	vacinados	vacinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	conectem	conectar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	5	punct	_	_
+17	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	cook	cook	PROPN	_	_	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0009
+# text = é a coisa moral a fazer.
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	moral	moral	ADJ	_	Number=Sing	3	amod	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	fazer	fazer	VERB	_	VerbForm=Inf	3	acl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+

@@ -1,0 +1,221 @@
+# sent_id = S0001
+# text = Conselho de Ética sem ética!
+1	Conselho	Conselho	PROPN	_	_	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Ética	Ética	PROPN	_	_	1	flat:name	_	_
+4	sem	sem	ADP	_	_	5	case	_	_
+5	ética	ética	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Deputados quebram o pau e se agridem: "Vagabundo, ladrão, safado...".
+1	Deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	quebram	quebrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pau	pau	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	agridem	agredir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	10	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Vagabundo	vagabundo	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	safado	safado	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+15	...	...	PUNCT	_	_	10	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Os deputados Zé Geraldo (PT) e Wladimir Costa (SD) protagonizaram uma vergonha na Comissão de Ética da Câmara dos Deputados.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
+3	Zé	Zé	PROPN	_	_	2	nmod	_	_
+4	Geraldo	Geraldo	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PT	PT	PROPN	_	_	3	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	Wladimir	Wladimir	PROPN	_	_	3	conj	_	_
+10	Costa	Costa	PROPN	_	_	9	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	SD	SD	PROPN	_	_	9	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	protagonizaram	protagonizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vergonha	vergonha	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Comissão	Comissão	PROPN	_	_	14	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Ética	Ética	PROPN	_	_	19	flat:name	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Câmara	Câmara	PROPN	_	_	19	flat:name	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Deputados	Deputados	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = Wladimir chamou Zé de "vagabundo", "bandido" e "ladrão safado".
+1	Wladimir	Wladimir	PROPN	_	_	2	nsubj	_	_
+2	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Zé	Zé	PROPN	_	_	2	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	vagabundo	vagabundo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	bandido	bandido	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+15	safado	safado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O Conselho de Ética está reunido para discutir o relatório de cassação do deputado Eduardo Cunha (PMDB).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Conselho	Conselho	PROPN	_	_	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Ética	Ética	PROPN	_	_	2	flat:name	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	reunido	reunido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	discutir	discutir	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	Eduardo	Eduardo	PROPN	_	_	15	nmod	_	_
+17	Cunha	Cunha	PROPN	_	_	16	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	PMDB	PMDB	PROPN	_	_	15	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = O deputado Wladimir, nem se lavar a boca com soda cáustica durante uma semana, ainda ele não pode falar mal do PT e da presidente Dilma.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+3	Wladimir	Wladimir	PROPN	_	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	nem	nem	ADV	_	ExtPos=SCONJ	7	mark	_	_
+6	se	se	SCONJ	_	_	5	fixed	_	_
+7	lavar	lavar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	20	advcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	boca	boca	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	soda	soda	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+12	cáustica	cáustico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	durante	durante	ADP	_	_	15	case	_	_
+14	uma	um	NUM	_	Gender=Fem|NumType=Card	15	nummod	_	_
+15	semana	semana	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	7	punct	_	_
+17	ainda	ainda	ADV	_	_	20	advmod	_	_
+18	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	falar	falar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	mal	mal	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	PT	PT	PROPN	_	_	22	nmod	_	_
+26	e	e	CCONJ	_	_	29	cc	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	presidente	presidente	NOUN	_	Number=Sing	25	conj	_	_
+30	Dilma	Dilma	PROPN	_	_	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0013
+# text = Esse parlamentar no Pará tá mais sujo que pau de galinheiro, disse Zé Geraldo.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	parlamentar	parlamentar	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Pará	Pará	PROPN	_	_	2	nmod	_	_
+6	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	sujo	sujo	ADJ	_	Gender=Masc|Number=Sing	14	ccomp:speech	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	pau	pau	NOUN	_	Gender=Masc|Number=Sing	8	advcl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	galinheiro	galinheiro	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Zé	Zé	PROPN	_	_	14	nsubj	_	_
+16	Geraldo	Geraldo	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0015
+# text = Wladimir se exaltou e soltou o verno: O senhor é vagabundo, bandido.
+1	Wladimir	Wladimir	PROPN	_	_	3	nsubj	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	exaltou	exaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	soltou	soltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	verno	verno	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	12	punct	_	_
+9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	senhor	senhor	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	vagabundo	vagabundo	ADJ	_	Gender=Masc|Number=Sing	3	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	bandido	bandido	NOUN	_	Gender=Masc|Number=Sing	12	vocative	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Cala a tua boca vagabundo.
+1	Cala	calar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	tua	teu	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	_	_
+4	boca	boca	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	vagabundo	vagabundo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Você é ladrão safado.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	safado	safado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Zé Geraldo rebateu e chamou Wladimir de "picareta".
+1	Zé	Zé	PROPN	_	_	3	nsubj	_	_
+2	Geraldo	Geraldo	PROPN	_	_	1	flat:name	_	_
+3	rebateu	rebater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	Wladimir	Wladimir	PROPN	_	_	5	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	picareta	picareta	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0022
+# text = vídeo via UOL.
+1	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	via	via	ADP	_	_	3	case	_	_
+3	UOL	UOL	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

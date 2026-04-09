@@ -1,0 +1,202 @@
+# sent_id = S0001
+# text = Rússia faz alerta sobre Zika Virus: "Porcaria que vem do Brasil e da América Latina".
+1	Rússia	Rússia	PROPN	_	_	2	nsubj	_	_
+2	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	alerta	alerta	NOUN	_	Number=Sing	2	obj	_	_
+4	sobre	sobre	ADP	_	_	5	case	_	_
+5	Zika	Zika	PROPN	_	_	3	nmod	_	_
+6	Virus	Virus	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	9	punct	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Porcaria	porcaria	NOUN	_	Number=Sing	2	parataxis	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Brasil	Brasil	PROPN	_	_	11	obl	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	América	América	PROPN	_	_	14	conj	_	_
+19	Latina	Latina	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Um dos presidentes mais poderosos do mundo disse que o vírus Zika é uma "porcaria originária dos países da América Latina".
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	10	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	presidentes	presidente	NOUN	_	Number=Plur	1	nmod	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	poderosos	poderoso	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	18	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vírus	vírus	NOUN	_	Gender=Masc	18	nsubj	_	_
+14	Zika	Zika	PROPN	_	_	13	nmod	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	porcaria	porcaria	NOUN	_	Number=Sing	10	ccomp	_	_
+19	originária	originário	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	países	país	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	América	América	PROPN	_	_	22	nmod	_	_
+26	Latina	Latina	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = A declaração ocorreu durante uma coletiva de imprensa e Vladimir Putin não se constrangeu ao atacar os latino americanos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	durante	durante	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coletiva	coletiva	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	14	cc	_	_
+10	Vladimir	Vladimir	PROPN	_	_	14	nsubj	_	_
+11	Putin	Putin	PROPN	_	_	10	flat:name	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	constrangeu	constranger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	ExtPos=SCONJ	17	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
+17	atacar	atacar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	latino	latino	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	americanos	americano	NOUN	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com ele, é preciso ter "muita cautela" para que a doença não se propague no "primeiro mundo".
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+8	ter	ter	VERB	_	VerbForm=Inf	7	csubj	_	_
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	muita	muito	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	cautela	cautela	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	para	para	ADP	_	ExtPos=SCONJ	19	mark	_	_
+14	que	que	SCONJ	_	_	13	fixed	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	doença	doença	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+17	não	não	ADV	_	_	19	advmod	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	propague	propagar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	24	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+22	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+23	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
+24	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = Putin disse que apesar de o mosquito não ter condições de sobreviver e chegar até a Europa, os "latinos" podem levar o vírus através de viagens.
+1	Putin	Putin	PROPN	_	_	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	23	mark	_	_
+4	apesar	apesar	ADV	_	_	23	advmod	_	_
+5	de	de	ADP	_	_	9	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mosquito	mosquito	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	ter	ter	VERB	_	VerbForm=Inf	4	acl	_	_
+10	condições	condição	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	de	de	ADP	_	_	12	mark	_	_
+12	sobreviver	sobreviver	VERB	_	VerbForm=Inf	10	acl	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	chegar	chegar	VERB	_	VerbForm=Inf	12	conj	_	_
+15	até	até	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Europa	Europa	PROPN	_	_	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	9	punct	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	latinos	latino	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+24	levar	levar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	vírus	vírus	NOUN	_	Gender=Masc	24	obj	_	_
+27	através	através	ADV	_	_	24	advmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	viagens	viagem	NOUN	_	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = A OMS (Organização Mundial da Saúde ) informou que o vírus já se propagou para 21 países das Américas, porém nenhum foco da doença foi confirmado em território europeu.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	OMS	OMS	PROPN	_	_	10	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Organização	Organização	PROPN	_	_	2	appos	_	_
+5	Mundial	Mundial	PROPN	_	_	4	flat:name	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Saúde	Saúde	PROPN	_	_	4	flat:name	_	_
+9	)	)	PUNCT	_	_	4	punct	_	_
+10	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	16	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vírus	vírus	NOUN	_	Gender=Masc	16	nsubj	_	_
+14	já	já	ADV	_	_	16	advmod	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	propagou	propagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	21	21	NUM	_	NumType=Card	19	nummod	_	_
+19	países	país	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+20-21	das	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	Américas	Américas	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	31	punct	_	_
+24	porém	porém	CCONJ	_	_	31	cc	_	_
+25	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
+26	foco	foco	NOUN	_	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	doença	doença	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	confirmado	confirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	conj	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	território	território	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+34	europeu	europeu	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Oficialmente ainda não há cura contra o Zika.
+1	Oficialmente	oficialmente	ADV	_	_	4	advmod	_	_
+2	ainda	ainda	ADV	_	_	4	advmod	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	cura	cura	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	contra	contra	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Zika	Zika	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+

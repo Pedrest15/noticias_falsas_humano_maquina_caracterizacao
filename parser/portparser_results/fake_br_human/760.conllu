@@ -1,0 +1,126 @@
+# sent_id = S0001
+# text = O Michel não está conseguindo estancar a sangria da Lava-Jato!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Michel	Michel	PROPN	_	_	5	nsubj	_	_
+3	não	não	ADV	_	_	5	advmod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	conseguindo	conseguir	VERB	_	VerbForm=Ger	0	root	_	_
+6	estancar	estancar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sangria	sangria	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Lava-Jato	Lava-Jato	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Renan está desesperado.
+1	Renan	Renan	PROPN	_	_	3	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	desesperado	desesperado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Em discurso no senado, Calheiros disse: "Só vamos contestar os abusos se nós não tivermos uma decisão rápida do guardião da Constituição, que é o Supremo Tribunal Federal".
+1	Em	em	ADP	_	_	2	case	_	_
+2	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	senado	senado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Calheiros	Calheiros	PROPN	_	_	8	nsubj	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	13	punct	_	_
+10	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	Só	só	ADV	_	_	13	advmod	_	_
+12	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	contestar	contestar	VERB	_	VerbForm=Inf	8	ccomp:speech	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	abusos	abuso	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	se	se	SCONJ	_	_	19	mark	_	_
+17	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	tivermos	ter	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	rápida	rápido	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	guardião	guardião	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Constituição	Constituição	PROPN	_	_	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	33	punct	_	_
+30	que	que	PRON	_	PronType=Rel	33	nsubj	_	_
+31	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Supremo	Supremo	PROPN	_	_	25	acl:relcl	_	_
+34	Tribunal	Tribunal	PROPN	_	_	33	flat:name	_	_
+35	Federal	Federal	PROPN	_	_	33	flat:name	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Calma Renan!
+1	Calma	calma	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Renan	Renan	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Vai dar tudo certo!
+1	Vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dar	dar	VERB	_	VerbForm=Inf	0	root	_	_
+3	tudo	tudo	PRON	_	PronType=Ind	2	nsubj	_	_
+4	certo	certo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = O Supremo vai guardar a Constituição e guardar você também [...] na Papuda!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Supremo	Supremo	PROPN	_	_	4	nsubj	_	_
+3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	guardar	guardar	VERB	_	VerbForm=Inf	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Constituição	Constituição	PROPN	_	_	4	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	guardar	guardar	VERB	_	VerbForm=Inf	4	conj	_	_
+9	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
+10	também	também	ADV	_	_	8	advmod	_	_
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	..	..	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	12	punct	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Papuda	Papuda	PROPN	_	_	8	obl	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Calheiros esperneia porque sabe que o STF (aparentemente) está acordando de um sono profundo e começando a agir!
+1	Calheiros	Calheiros	PROPN	_	_	2	nsubj	_	_
+2	esperneia	espernear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	porque	porque	SCONJ	_	_	4	mark	_	_
+4	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+5	que	que	SCONJ	_	_	12	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	STF	STF	PROPN	_	_	12	nsubj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	aparentemente	aparentemente	ADV	_	_	12	advmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	acordando	acordar	VERB	_	VerbForm=Ger	4	ccomp	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sono	sono	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	profundo	profundo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	começando	começar	VERB	_	VerbForm=Ger	12	conj	_	_
+19	a	a	ADP	_	_	20	mark	_	_
+20	agir	agir	VERB	_	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	2	punct	_	_
+

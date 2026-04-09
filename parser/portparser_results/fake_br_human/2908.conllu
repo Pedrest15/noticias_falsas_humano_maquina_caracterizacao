@@ -1,0 +1,531 @@
+# sent_id = S0001
+# text = O fim dos personagens criados por João Santana.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	personagens	personagem	NOUN	_	Number=Plur	2	nmod	_	_
+6	criados	criar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	João	João	PROPN	_	_	6	obl:agent	_	_
+9	Santana	Santana	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Lula e Dilma nunca governaram o Brasil.
+1	Lula	Lula	PROPN	_	_	5	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	Dilma	Dilma	PROPN	_	_	1	conj	_	_
+4	nunca	nunca	ADV	_	_	5	advmod	_	_
+5	governaram	governar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Brasil	Brasil	PROPN	_	_	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = "Lula e Dilma são iguais ao sucesso do cartunista Maurício de Souza A Mônica e o Cebolinha".
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	Dilma	Dilma	PROPN	_	_	2	conj	_	_
+5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	iguais	igual	ADJ	_	Number=Plur	0	root	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cartunista	cartunista	NOUN	_	Number=Sing	9	nmod	_	_
+13	Maurício	Maurício	PROPN	_	_	12	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Souza	Souza	PROPN	_	_	13	flat:name	_	_
+16	A	A	PROPN	_	_	17	punct	_	_
+17	Mônica	Mônica	PROPN	_	_	9	nmod	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Cebolinha	Cebolinha	PROPN	_	_	17	conj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = (Patrícia Carvalho de Brasília para o Diário do Brasil) Ambos são produtos criados em períodos de extrema produtividade do marqueteiro João Santana.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Patrícia	Patrícia	PROPN	_	_	15	nsubj	_	_
+3	Carvalho	Carvalho	PROPN	_	_	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Brasília	Brasília	PROPN	_	_	2	nmod	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Diário	Diário	PROPN	_	_	2	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Brasil	Brasil	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	2	punct	_	_
+13	Ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+14	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+16	criados	criar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	períodos	período	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	extrema	extremo	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	produtividade	produtividade	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+25	João	João	PROPN	_	_	24	nmod	_	_
+26	Santana	Santana	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = Não julgo aqui o mérito do marqueteiro: Se ele recebeu ou não dinheiro oriundo de propina, isso já é assunto para outro texto.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	julgo	julgar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aqui	aqui	ADV	_	_	2	advmod	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mérito	mérito	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	23	punct	_	_
+10	Se	se	SCONJ	_	_	12	mark	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	advcl	_	_
+13	ou	ou	CCONJ	_	_	14	cc	_	_
+14	não	não	ADV	_	_	12	conj	_	_
+15	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+16	oriundo	oriundo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	propina	propina	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	12	punct	_	_
+20	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	23	nsubj	_	_
+21	já	já	ADV	_	_	23	advmod	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	2	root	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
+26	texto	texto	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Voltando aos políticos acima citados, eles são frutos (ou seriam furtos)?
+1	Voltando	voltar	VERB	_	VerbForm=Ger	10	advcl	_	_
+2-3	aos	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	políticos	político	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+5	acima	acima	ADV	_	_	6	advmod	_	_
+6	citados	citar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	frutos	fruto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+11	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+12	ou	ou	CCONJ	_	_	14	cc	_	_
+13	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	14	cop	_	_
+14	furtos	furto	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	?	?	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0012
+# text = de um momento de brilhantismo do ilustre marqueteiro petista.
+1	de	de	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	brilhantismo	brilhantismo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	ilustre	ilustre	ADJ	_	Number=Sing	9	amod	_	_
+9	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+10	petista	petista	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0014
+# text = É como o sucesso do cartunista Maurício de Souza A Mônica e o Cebolinha.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	como	como	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cartunista	cartunista	NOUN	_	Number=Sing	4	nmod	_	_
+8	Maurício	Maurício	PROPN	_	_	7	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Souza	Souza	PROPN	_	_	8	flat:name	_	_
+11	A	A	PROPN	_	_	12	punct	_	_
+12	Mônica	Mônica	PROPN	_	_	4	nmod	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Cebolinha	Cebolinha	PROPN	_	_	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0016
+# text = Os personagens de Maurício só têm vida se tiverem a mão do autor por trás de cada episódio de gibi.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	personagens	personagem	NOUN	_	Number=Plur	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Maurício	Maurício	PROPN	_	_	2	nmod	_	_
+5	só	só	ADV	_	_	6	advmod	_	_
+6	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	vida	vida	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	se	se	SCONJ	_	_	9	mark	_	_
+9	tiverem	ter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mão	mão	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	autor	autor	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	trás	trás	ADV	_	_	9	advmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	cada	cada	DET	_	Number=Sing|PronType=Ind	19	det	_	_
+19	episódio	episódio	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	gibi	gibi	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0018
+# text = E a coincidência não para por aí!
+1	E	e	CCONJ	_	_	5	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	coincidência	coincidência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	para	parar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	aí	aí	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0020
+# text = Tanto Maurício quanto João Santana criaram casais com algumas parecenças.
+1	Tanto	tanto	CCONJ	_	_	2	cc	_	_
+2	Maurício	Maurício	PROPN	_	_	6	nsubj	_	_
+3	quanto	quanto	CCONJ	_	_	4	cc	_	_
+4	João	João	PROPN	_	_	2	conj	_	_
+5	Santana	Santana	PROPN	_	_	4	flat:name	_	_
+6	criaram	criar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	casais	casal	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	parecenças	parecença	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0022
+# text = Lula, assim como Cebolinha, tem dificuldades em pronunciar palavras.
+1	Lula	Lula	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	assim	assim	ADV	_	ExtPos=SCONJ	5	mark	_	_
+4	como	como	SCONJ	_	_	3	fixed	_	_
+5	Cebolinha	Cebolinha	PROPN	_	_	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	dificuldades	dificuldade	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	em	em	ADP	_	_	10	mark	_	_
+10	pronunciar	pronunciar	VERB	_	VerbForm=Inf	8	acl	_	_
+11	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0024
+# text = Já Mônica, assim como Dilma, é durona, brigona e agressiva.
+1	Já	já	CCONJ	_	_	9	cc	_	_
+2	Mônica	Mônica	PROPN	_	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	assim	assim	ADV	_	ExtPos=SCONJ	6	mark	_	_
+5	como	como	SCONJ	_	_	4	fixed	_	_
+6	Dilma	Dilma	PROPN	_	_	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	durona	durÃ£o	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	brigona	brigÃ£o	ADJ	_	Gender=Fem|Number=Sing	9	conj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	agressiva	agressivo	ADJ	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0026
+# text = É claro que as semelhanças param por aí.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	semelhanças	semelhança	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+6	param	parar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	aí	aí	ADV	_	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0028
+# text = Mônica e Cebolinha jamais roubariam alguém!
+1	Mônica	Mônica	PROPN	_	_	5	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	Cebolinha	Cebolinha	PROPN	_	_	1	conj	_	_
+4	jamais	jamais	ADV	_	_	5	advmod	_	_
+5	roubariam	roubar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0030
+# text = Sem Santana não há Lula ou Dilma!
+1	Sem	sem	ADP	_	_	2	case	_	_
+2	Santana	Santana	PROPN	_	_	4	obl	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Lula	Lula	PROPN	_	_	4	obj	_	_
+6	ou	ou	CCONJ	_	_	7	cc	_	_
+7	Dilma	Dilma	PROPN	_	_	5	conj	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0032
+# text = O Brasil nunca foi governado por eles!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	_	5	nsubj:pass	_	_
+3	nunca	nunca	ADV	_	_	5	advmod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	governado	governar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obl:agent	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0034
+# text = O Brasil foi conduzido, durante todo esse período de governabilidade petista, por ninguém menos do que João Santana.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	_	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	conduzido	conduzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	durante	durante	ADP	_	_	9	case	_	_
+7	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+8	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	período	período	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	governabilidade	governabilidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	petista	petista	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	4	obl:agent	_	_
+16	menos	menos	ADV	_	_	15	advmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	ExtPos=SCONJ	20	mark	_	_
+18	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	fixed	_	_
+19	que	que	PRON	_	PronType=Rel	17	fixed	_	_
+20	João	João	PROPN	_	_	16	advcl	_	_
+21	Santana	Santana	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0036
+# text = Basta ver o que está acontecendo agora.
+1	Basta	bastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ver	ver	VERB	_	VerbForm=Inf	1	csubj	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	obj	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	acontecendo	acontecer	VERB	_	VerbForm=Ger	3	acl:relcl	_	_
+7	agora	agora	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0038
+# text = Bastou o marqueteiro ser "trancafiado" pelo juiz Sérgio Moro, que os personagens morreram.
+1	Bastou	bastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+4	ser	ser	AUX	_	Number=Sing|Person=3|VerbForm=Inf	6	aux:pass	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	trancafiado	trancafiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	csubj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
+11	Sérgio	Sérgio	PROPN	_	_	10	nmod	_	_
+12	Moro	Moro	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	que	que	SCONJ	_	_	17	mark	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	personagens	personagem	NOUN	_	Number=Plur	17	nsubj	_	_
+17	morreram	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0040
+# text = Sozinhos, eles são extremamente desastrados e incapazes [...] só falam besteiras, só agem por impulso, não são carismáticos, não sabem se autopromover e o pior estão mostrando para todos os brasileiros que foram meros "fantoches" nas mãos de um bem sucedido publicitário.
+1	Sozinhos	sozinho	ADJ	_	Gender=Masc|Number=Plur	6	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	extremamente	extremamente	ADV	_	_	6	advmod	_	_
+6	desastrados	desastrado	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	incapazes	incapaz	ADJ	_	Number=Plur	6	conj	_	_
+9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+11	..	..	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	10	punct	_	_
+13	só	só	ADV	_	_	14	advmod	_	_
+14	falam	falar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+15	besteiras	besteira	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	só	só	ADV	_	_	18	advmod	_	_
+18	agem	agir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	impulso	impulso	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	não	não	ADV	_	_	24	advmod	_	_
+23	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	carismáticos	carismático	ADJ	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	não	não	ADV	_	_	27	advmod	_	_
+27	sabem	saber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+28	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	29	expl	_	_
+29	autopromover	autopromover	VERB	_	VerbForm=Inf	27	xcomp	_	_
+30	e	e	CCONJ	_	_	34	cc	_	_
+31	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	34	nsubj	_	_
+32	pior	pior	ADJ	_	Number=Sing	31	amod	_	_
+33	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	mostrando	mostrar	VERB	_	VerbForm=Ger	6	conj	_	_
+35	para	para	ADP	_	_	38	case	_	_
+36	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	38	det	_	_
+37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	_
+39	que	que	SCONJ	_	_	43	mark	_	_
+40	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	43	cop	_	_
+41	meros	mero	ADJ	_	Gender=Masc|Number=Plur	43	amod	_	_
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	fantoches	fantoche	NOUN	_	Gender=Masc|Number=Plur	34	ccomp	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	_
+45-46	nas	_	_	_	_	_	_	_	_
+45	em	em	ADP	_	_	47	case	_	_
+46	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	43	nmod	_	_
+48	de	de	ADP	_	_	52	case	_	_
+49	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+50	bem	bem	ADV	_	_	51	advmod	_	_
+51	sucedido	sucedido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	52	amod	_	_
+52	publicitário	publicitário	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0042
+# text = Para encerrar, quero parabenizar o ilustre marqueteiro por ter feito um trabalho tão digno, que conseguiu enganar quase 200 milhões de pessoas por mais de 14 anos e agradecer também o nobre juiz Sérgio Moro por ter trancafiado o "pai dos personagens" que só existiram no mundo encantado criado por João Santana.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	encerrar	encerrar	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	parabenizar	parabenizar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	ilustre	ilustre	ADJ	_	Number=Sing	8	amod	_	_
+8	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+9	por	por	ADP	_	_	11	mark	_	_
+10	ter	ter	AUX	_	VerbForm=Inf	11	aux	_	_
+11	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	tão	tão	ADV	_	_	15	advmod	_	_
+15	digno	digno	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+19	enganar	enganar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	quase	quase	ADV	_	_	21	advmod	_	_
+21	200	200	NUM	_	NumType=Card	22	nummod	_	_
+22	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+25	por	por	ADP	_	_	29	case	_	_
+26	mais	mais	ADV	_	ExtPos=ADV	28	advmod	_	_
+27	de	de	ADP	_	_	26	fixed	_	_
+28	14	14	NUM	_	NumType=Card	29	nummod	_	_
+29	anos	ano	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	agradecer	agradecer	VERB	_	VerbForm=Inf	11	conj	_	_
+32	também	também	ADV	_	_	31	advmod	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	nobre	nobre	ADJ	_	Number=Sing	35	amod	_	_
+35	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+36	Sérgio	Sérgio	PROPN	_	_	35	nmod	_	_
+37	Moro	Moro	PROPN	_	_	36	flat:name	_	_
+38	por	por	ADP	_	_	40	mark	_	_
+39	ter	ter	AUX	_	VerbForm=Inf	40	aux	_	_
+40	trancafiado	trancafiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	31	advcl	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	pai	pai	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
+44-45	dos	_	_	_	_	_	_	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	personagens	personagem	NOUN	_	Number=Plur	43	nmod	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	43	punct	_	_
+48	que	que	PRON	_	PronType=Rel	50	nsubj	_	_
+49	só	só	ADV	_	_	50	advmod	_	_
+50	existiram	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	43	acl:relcl	_	_
+51-52	no	_	_	_	_	_	_	_	_
+51	em	em	ADP	_	_	53	case	_	_
+52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	50	obl	_	_
+54	encantado	encantado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	53	amod	_	_
+55	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	53	acl	_	_
+56	por	por	ADP	_	_	57	case	_	_
+57	João	João	PROPN	_	_	55	obl:agent	_	_
+58	Santana	Santana	PROPN	_	_	57	flat:name	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0044
+# text = Ao sair da cadeia, João poderia enviar um currículo para a Rede Globo.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	sair	sair	VERB	_	VerbForm=Inf	9	advcl	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	João	João	PROPN	_	_	9	nsubj	_	_
+9	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	enviar	enviar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	currículo	currículo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Rede	Rede	PROPN	_	_	10	obl	_	_
+16	Globo	Globo	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0046
+# text = Ele daria um ótimo autor de novelas [...] ou até mesmo poderia começar seu próprio gibi, "As aventuras de Dilma e Lula".
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	daria	dar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	ótimo	ótimo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	autor	autor	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	novelas	novela	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+10	..	..	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	9	punct	_	_
+12	ou	ou	CCONJ	_	_	15	cc	_	_
+13	até	até	ADV	_	_	14	advmod	_	_
+14	mesmo	mesmo	ADV	_	_	15	advmod	_	_
+15	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+16	começar	começar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+18	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+19	gibi	gibi	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	As	As	PROPN	_	_	19	appos	_	_
+23	aventuras	aventura	NOUN	_	Gender=Fem|Number=Plur	22	appos	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Dilma	Dilma	PROPN	_	_	22	nmod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	Lula	Lula	PROPN	_	_	25	conj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+

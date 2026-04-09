@@ -1,0 +1,531 @@
+# sent_id = S0001
+# text = 'O bandido pelo qual eu mais torço é o Eduardo Cunha'.
+1	'	'	PUNCT	_	_	12	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bandido	bandido	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+4-5	pelo	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	obl	_	_
+6	qual	qual	PRON	_	Number=Sing|PronType=Rel	5	fixed	_	_
+7	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	torço	torçar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Eduardo	Eduardo	PROPN	_	_	0	root	_	_
+13	Cunha	Cunha	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	'	'	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = Ex-deputado Roberto Jefferson, recentemente libertado após um indulto polêmico, está ansioso para reassumir a presidência do PTB e promete revelar segredos bombásticos sobre o governo.
+1	Ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+2	Roberto	Roberto	PROPN	_	_	1	nmod	_	_
+3	Jefferson	Jefferson	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	recentemente	recentemente	ADV	_	_	6	advmod	_	_
+6	libertado	libertar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+7	após	após	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	indulto	indulto	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	polêmico	polêmico	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	ansioso	ansioso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	reassumir	reassumir	VERB	_	VerbForm=Inf	13	acl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	PTB	PTB	PROPN	_	_	17	nmod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+23	revelar	revelar	VERB	_	VerbForm=Inf	22	xcomp	_	_
+24	segredos	segredo	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+25	bombásticos	bombástico	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26	sobre	sobre	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	governo	governo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = RIO - Após ser condenado a sete anos e 14 dias de prisão no processo do mensalão e ter sua pena perdoada em circunstâncias suspeitas, o ex-deputado Roberto Jefferson prepara-se para retornar ao comando do PTB, atualmente liderado por sua filha, Cristiane Brasil.
+1	RIO	RIO	PROPN	_	_	33	nsubj	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	Após	após	ADP	_	_	5	mark	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	33	advcl	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	sete	sete	NUM	_	NumType=Card	8	nummod	_	_
+8	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	14	14	NUM	_	NumType=Card	11	nummod	_	_
+11	dias	dia	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mensalão	mensalão	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	ter	ter	VERB	_	VerbForm=Inf	5	conj	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	pena	pena	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	perdoada	perdoar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	21	xcomp	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	circunstâncias	circunstância	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
+27	suspeitas	suspeito	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	5	punct	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+31	Roberto	Roberto	PROPN	_	_	30	nmod	_	_
+32	Jefferson	Jefferson	PROPN	_	_	31	flat:name	_	_
+33-34	prepara-se	_	_	_	_	_	_	_	_
+33	prepara	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+34	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	33	expl	_	_
+35	para	para	ADP	_	_	36	mark	_	_
+36	retornar	retornar	VERB	_	VerbForm=Inf	33	advcl	_	_
+37-38	ao	_	_	_	_	_	_	_	_
+37	a	a	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	comando	comando	NOUN	_	Gender=Masc|Number=Sing	36	obl	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	PTB	PTB	PROPN	_	_	39	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	_
+44	atualmente	atualmente	ADV	_	_	45	advmod	_	_
+45	liderado	liderar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	42	acl	_	_
+46	por	por	ADP	_	_	48	case	_	_
+47	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	48	det	_	_
+48	filha	filho	NOUN	_	Gender=Fem|Number=Sing	45	obl:agent	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	Cristiane	Cristiane	PROPN	_	_	48	appos	_	_
+51	Brasil	Brasil	PROPN	_	_	50	flat:name	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = S0007
+# text = Jefferson, famoso por suas declarações controversas, afirma que 17 dos 19 deputados do partido votarão contra Dilma Rousseff no impeachment.
+1	Jefferson	Jefferson	PROPN	_	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+7	controversas	controverso	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	19	mark	_	_
+11	17	17	NUM	_	NumType=Card	19	nsubj	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	19	19	NUM	_	NumType=Card	15	nummod	_	_
+15	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	partido	partido	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	votarão	votar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	ccomp	_	_
+20	contra	contra	ADP	_	_	21	case	_	_
+21	Dilma	Dilma	PROPN	_	_	19	obl	_	_
+22	Rousseff	Rousseff	PROPN	_	_	21	flat:name	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Em uma entrevista exclusiva, Jefferson faz acusações graves, misturando ironia e revelações supostamente novas.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+4	exclusiva	exclusivo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	Jefferson	Jefferson	PROPN	_	_	7	nsubj	_	_
+7	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	graves	grave	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	misturando	misturar	VERB	_	VerbForm=Ger	7	advcl	_	_
+12	ironia	ironia	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
+15	supostamente	supostamente	ADV	_	_	16	advmod	_	_
+16	novas	novo	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Ele alega que o ex-presidente Lula não apenas sabia da corrupção envolvendo o PT, mas a institucionalizou.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	9	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	nsubj	_	_
+6	Lula	Lula	PROPN	_	_	5	nmod	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	apenas	apenas	ADV	_	_	9	advmod	_	_
+9	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	envolvendo	envolver	VERB	_	VerbForm=Ger	12	acl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	PT	PT	PROPN	_	_	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	mas	mas	CCONJ	_	_	19	cc	_	_
+18	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	institucionalizou	institucionalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = "Hoje, com as provas e delações, não tenho dúvida de que Lula estava a par de tudo", declarou.
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+2	Hoje	hoje	ADV	_	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	provas	prova	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	delações	delação	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	ccomp:speech	_	_
+12	dúvida	dúvida	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	de	de	ADP	_	ExtPos=SCONJ	18	mark	_	_
+14	que	que	SCONJ	_	_	13	fixed	_	_
+15	Lula	Lula	PROPN	_	_	18	nsubj	_	_
+16	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	par	par	NOUN	_	Gender=Masc|Number=Sing	12	acl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	tudo	tudo	PRON	_	PronType=Ind	18	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	11	punct	_	_
+23	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0015
+# text = Surpreendentemente, Jefferson expressa admiração pelo deputado Eduardo Cunha, apesar de Cunha estar sob investigação na Operação Lava Jato.
+1	Surpreendentemente	surpreendentemente	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Jefferson	Jefferson	PROPN	_	_	4	nsubj	_	_
+4	expressa	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	admiração	admiração	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	Eduardo	Eduardo	PROPN	_	_	8	nmod	_	_
+10	Cunha	Cunha	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	apesar	apesar	ADV	_	_	4	advmod	_	_
+13	de	de	ADP	_	_	17	mark	_	_
+14	Cunha	Cunha	PROPN	_	_	17	nsubj	_	_
+15	estar	estar	AUX	_	Number=Sing|Person=3|VerbForm=Inf	17	cop	_	_
+16	sob	sob	ADP	_	_	17	case	_	_
+17	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	12	acl	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Operação	Operação	PROPN	_	_	17	nmod	_	_
+21	Lava	Lava	PROPN	_	_	20	flat:name	_	_
+22	Jato	Jato	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Eduardo é o bandido pelo qual eu mais torço.
+1	Eduardo	Eduardo	PROPN	_	_	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bandido	bandido	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
+7	qual	qual	PRON	_	Number=Sing|PronType=Rel	6	fixed	_	_
+8	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	mais	mais	ADV	_	_	10	advmod	_	_
+10	torço	torçar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Ele foi o adversário à altura de Lula, e agora vai expor toda a podridão, afirmou com um sorriso irônico.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	adversário	adversário	NOUN	_	Gender=Masc|Number=Sing	19	ccomp:speech	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	altura	altura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Lula	Lula	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	e	e	CCONJ	_	_	14	cc	_	_
+12	agora	agora	ADV	_	_	14	advmod	_	_
+13	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	expor	expor	VERB	_	VerbForm=Inf	4	conj	_	_
+15	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	podridão	podridão	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	4	punct	_	_
+19	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	com	com	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sorriso	sorriso	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	irônico	irônico	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0021
+# text = Jefferson também sugere que o financiamento do mensalão tinha origens nas estatais, como a Petrobrás, e critica a corrupção sistêmica no Brasil.
+1	Jefferson	Jefferson	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	financiamento	financiamento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mensalão	mensalão	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+11	origens	origem	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12-13	nas	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	estatais	estatal	NOUN	_	Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	como	como	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Petrobrás	Petrobrás	PROPN	_	_	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	critica	criticar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	sistêmica	sistêmico	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Brasil	Brasil	PROPN	_	_	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = As estatais são o braço financeiro dos partidos.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	estatais	estatal	NOUN	_	Number=Plur	5	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	braço	braço	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = Precisamos de privatizações para acabar com essa corrupção, defendeu.
+1	Precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp:speech	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	privatizações	privatização	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
+4	para	para	ADP	_	_	5	mark	_	_
+5	acabar	acabar	VERB	_	VerbForm=Inf	1	advcl	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0027
+# text = Quanto ao processo de impeachment, Jefferson prevê uma derrota esmagadora para Dilma, com o PTB dando no máximo dois votos a ela.
+1	Quanto	quanto	ADV	_	_	4	advmod	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	processo	processo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	Jefferson	Jefferson	PROPN	_	_	9	nsubj	_	_
+9	prevê	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	derrota	derrota	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	esmagadora	esmagador	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	Dilma	Dilma	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	PTB	PTB	PROPN	_	_	19	obl	_	_
+19	dando	dar	VERB	_	VerbForm=Ger	11	acl	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	dois	dois	NUM	_	Gender=Masc|NumType=Card	24	nummod	_	_
+24	votos	voto	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+25	a	a	ADP	_	_	26	case	_	_
+26	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0029
+# text = Sobre o relator do processo, deputado Jovair Arantes, do PTB, Jefferson acredita que ele apresentará um relatório técnico, sem ataques pessoais.
+1	Sobre	sobre	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	relator	relator	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	processo	processo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+9	Jovair	Jovair	PROPN	_	_	8	nmod	_	_
+10	Arantes	Arantes	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	PTB	PTB	PROPN	_	_	8	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	8	punct	_	_
+16	Jefferson	Jefferson	PROPN	_	_	17	nsubj	_	_
+17	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	que	que	SCONJ	_	_	20	mark	_	_
+19	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	apresentará	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	técnico	técnico	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	sem	sem	ADP	_	_	26	case	_	_
+26	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+27	pessoais	pessoal	ADJ	_	Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0031
+# text = Sobre um possível governo Temer, Jefferson aconselha: "Temer precisa de um ministério impecável, fugindo de qualquer suspeita de corrupção".
+1	Sobre	sobre	ADP	_	_	4	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	possível	possível	ADJ	_	Number=Sing	4	amod	_	_
+4	governo	governo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+5	Temer	Temer	PROPN	_	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	Jefferson	Jefferson	PROPN	_	_	8	nsubj	_	_
+8	aconselha	aconselhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	12	punct	_	_
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	Temer	Temer	PROPN	_	_	12	nsubj	_	_
+12	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ministério	ministério	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	impecável	impecável	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	fugindo	fugir	VERB	_	VerbForm=Ger	12	advcl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	21	det	_	_
+21	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0033
+# text = Por fim, Jefferson faz previsões sombrias sobre a vida de Cunha caso seja preso, destacando as dificuldades que ele e sua família enfrentariam.
+1	Por	por	ADP	_	_	2	case	_	_
+2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Jefferson	Jefferson	PROPN	_	_	5	nsubj	_	_
+5	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	previsões	previsão	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	sombrias	sombrio	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+8	sobre	sobre	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vida	vida	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Cunha	Cunha	PROPN	_	_	10	nmod	_	_
+13	caso	caso	SCONJ	_	_	15	mark	_	_
+14	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	destacando	destacar	VERB	_	VerbForm=Ger	5	advcl	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	dificuldades	dificuldade	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+20	que	que	PRON	_	PronType=Rel	25	obj	_	_
+21	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	família	família	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+25	enfrentariam	enfrentar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0035
+# text = "Cunha tem que pensar nas filhas e na esposa antes de desafiar a Justiça", alertou.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Cunha	Cunha	PROPN	_	_	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp:speech	_	_
+4	que	que	ADP	_	_	5	mark	_	_
+5	pensar	pensar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	filhas	filho	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+13	antes	antes	ADV	_	_	5	advmod	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	desafiar	desafiar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Justiça	Justiça	PROPN	_	_	15	obj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	3	punct	_	_
+20	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0037
+# text = O retorno de Jefferson à política promete agitar ainda mais o cenário já conturbado, com promessas de novas revelações que poderiam mudar o rumo das investigações.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Jefferson	Jefferson	PROPN	_	_	2	nmod	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	política	política	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	agitar	agitar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	ainda	ainda	ADV	_	_	11	advmod	_	_
+11	mais	mais	ADV	_	_	9	advmod	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+14	já	já	ADV	_	_	15	advmod	_	_
+15	conturbado	conturbado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	promessas	promessa	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	novas	novo	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+21	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+23	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	21	acl:relcl	_	_
+24	mudar	mudar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27-28	das	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	8	punct	_	_
+

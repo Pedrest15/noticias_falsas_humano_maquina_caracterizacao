@@ -1,0 +1,266 @@
+# sent_id = S0001
+# text = Atenção! Governo anuncia programa emergencial para distribuir cestas básicas gratuitas a todos os brasileiros afetados pela crise econômica da COVID-19.
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+3	Governo	Governo	PROPN	_	_	4	nsubj	_	_
+4	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	programa	programa	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	emergencial	emergencial	ADJ	_	Number=Sing	5	amod	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	distribuir	distribuir	VERB	_	VerbForm=Inf	5	acl	_	_
+9	cestas	cesta	NOUN	_	Number=Plur	8	obj	_	_
+10	básicas	básico	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	gratuitas	gratuito	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+12	a	a	ADP	_	_	15	case	_	_
+13	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+16	afetados	afetar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	crise	crise	NOUN	_	Gender=Fem|Number=Sing	16	obl:agent	_	_
+20	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	COVID-19	COVID-19	PROPN	_	_	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = A iniciativa faz parte do Brasil Sem Miséria 2.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	iniciativa	iniciativa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	parte	parte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Brasil	Brasil	PROPN	_	_	3	obl	_	_
+8	Sem	Sem	PROPN	_	_	7	flat:name	_	_
+9	Miséria	Miséria	PROPN	_	_	7	flat:name	_	_
+10	2	2	NUM	_	NumType=Card	7	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = 0, uma versão atualizada do antigo plano lançado em 2011.
+1	0	0	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	versão	versão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+5	atualizada	atualizado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	antigo	antigo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	plano	plano	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+10	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	2011	2011	NUM	_	NumType=Card	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = O programa visa garantir segurança alimentar e nutricional para milhões de famílias em todo o país.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programa	programa	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	garantir	garantir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	segurança	segurança	NOUN	_	Number=Sing	4	obj	_	_
+6	alimentar	alimentar	ADJ	_	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	nutricional	nutricional	ADJ	_	Number=Sing	6	conj	_	_
+9	para	para	ADP	_	_	10	case	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	famílias	família	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Para solicitar a sua cesta básica gratuita, acesse agora o link exclusivo [acesse aqui]http://fakenews cadastramento.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	solicitar	solicitar	VERB	_	VerbForm=Inf	9	advcl	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	cesta	cesta	NOUN	_	Number=Sing	2	obj	_	_
+6	básica	básico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	gratuita	gratuito	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	acesse	acessar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	agora	agora	ADV	_	_	9	advmod	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	link	link	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+13	exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	acesse	acessar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+16	aqui]http://fakenews	aqui]http://fakenews	X	_	Foreign=Yes	15	obj	_	_
+17	cadastramento	cadastramento	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = gov.
+1	gov.	gov.	PUNCT	_	_	0	punct	_	_
+
+# sent_id = S0013
+# text = br e faça seu cadastro.
+1	br	br	SYM	_	_	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	faça	fazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	cadastro	cadastro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Não perca essa oportunidade única de receber apoio alimentar!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	perca	perder	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	única	único	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	receber	receber	VERB	_	VerbForm=Inf	4	acl	_	_
+8	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	alimentar	alimentar	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Lembre-se, o Brasil Sem Miséria 2.
+1-2	Lembre-se	_	_	_	_	_	_	_	_
+1	Lembre	lembrar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	_	1	obj	_	_
+6	Sem	Sem	PROPN	_	_	5	flat:name	_	_
+7	Miséria	Miséria	PROPN	_	_	5	flat:name	_	_
+8	2	2	NUM	_	NumType=Card	5	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = 0 também inclui benefícios como acesso a água potável, energia elétrica e até mesmo subsídios para qualificação profissional.
+1	0	0	NUM	_	NumType=Card	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	como	como	ADP	_	_	6	case	_	_
+6	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	água	água	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	potável	potável	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	energia	energia	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+12	elétrica	elétrico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14	até	até	ADV	_	_	16	case	_	_
+15	mesmo	mesmo	ADV	_	_	16	advmod	_	_
+16	subsídios	subsídio	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	qualificação	qualificação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	profissional	profissional	ADJ	_	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = O programa é uma parceria dos ministérios da Cidadania e da Mulher, da Família e dos Direitos Humanos com a Companhia Nacional de Abastecimento (CONAB).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programa	programa	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parceria	parceria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	ministérios	ministério	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Cidadania	Cidadania	PROPN	_	_	8	nmod	_	_
+12	e	e	CCONJ	_	_	15	cc	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Mulher	Mulher	PROPN	_	_	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Família	Família	PROPN	_	_	11	conj	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21-22	dos	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Direitos	Direitos	PROPN	_	_	11	conj	_	_
+24	Humanos	Humanos	PROPN	_	_	23	flat:name	_	_
+25	com	com	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Companhia	Companhia	PROPN	_	_	5	nmod	_	_
+28	Nacional	Nacional	PROPN	_	_	27	flat:name	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Abastecimento	Abastecimento	PROPN	_	_	27	flat:name	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	CONAB	CONAB	PROPN	_	_	27	appos	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = As cestas serão distribuídas em uma operação especial, com fretes contratados diretamente para garantir que cheguem a todas as localidades necessitadas.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cestas	cesta	NOUN	_	Number=Plur	4	nsubj:pass	_	_
+3	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	distribuídas	distribuír	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	operação	operação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	especial	especial	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	fretes	frete	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+12	contratados	contratar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	_
+13	diretamente	diretamente	ADV	_	_	12	advmod	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	garantir	garantir	VERB	_	VerbForm=Inf	12	advcl	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	cheguem	chegar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+18	a	a	ADP	_	_	21	case	_	_
+19	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	localidades	localidade	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+22	necessitadas	necessitar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0025
+# text = Este programa abrange não só populações vulneráveis, como indígenas e quilombolas, mas agora se estende a todos os cidadãos que tiveram suas rendas prejudicadas pela pandemia.
+1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	programa	programa	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	abrange	abranger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	só	só	ADV	_	_	6	advmod	_	_
+6	populações	populaçõe	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+7	vulneráveis	vulnerável	ADJ	_	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	como	como	ADP	_	_	10	case	_	_
+10	indígenas	indígena	NOUN	_	Number=Plur	6	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	quilombolas	quilombola	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	mas	mas	CCONJ	_	_	17	cc	_	_
+15	agora	agora	ADV	_	_	17	advmod	_	_
+16	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl	_	_
+17	estende	estender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	a	a	ADP	_	_	21	case	_	_
+19	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+23	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+24	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	rendas	renda	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
+26	prejudicadas	prejudicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	23	xcomp	_	_
+27-28	pela	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	26	obl:agent	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+

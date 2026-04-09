@@ -1,0 +1,432 @@
+# sent_id = S0001
+# text = Exclusivo: Programa Redenção na Cracolândia transforma vidas em um ano; abstinência e empregos mudam o cenário.
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Programa	Programa	PROPN	_	_	8	nsubj	_	_
+4	Redenção	Redenção	PROPN	_	_	3	flat:name	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Cracolândia	Cracolândia	PROPN	_	_	3	flat:name	_	_
+8	transforma	transformar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+9	vidas	vida	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	um	um	NUM	_	Gender=Masc|NumType=Card	12	nummod	_	_
+12	ano	ano	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	;	;	PUNCT	_	_	17	punct	_	_
+14	abstinência	abstinência	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	empregos	emprego	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+17	mudam	mudar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Após megaoperação policial, João Doria (PSDB) prometeu erradicar a Cracolândia, e o balanço de um ano mostra resultados impressionantes.
+1	Após	após	ADP	_	_	2	case	_	_
+2	megaoperação	megaoperação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+3	policial	policial	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	João	João	PROPN	_	_	10	nsubj	_	_
+6	Doria	Doria	PROPN	_	_	5	flat:name	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	PSDB	PSDB	PROPN	_	_	5	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	erradicar	erradicar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Cracolândia	Cracolândia	PROPN	_	_	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	21	punct	_	_
+15	e	e	CCONJ	_	_	21	cc	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	balanço	balanço	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	um	um	NUM	_	Gender=Masc|NumType=Card	20	nummod	_	_
+20	ano	ano	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+22	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+23	impressionantes	impressionante	ADJ	_	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Mais de 10 mil dependentes químicos foram voluntariamente internados, com 70% completando o tratamento de abstinência.
+1	Mais	mais	ADV	_	ExtPos=ADV	3	advmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	10	10	NUM	_	NumType=Card	5	nummod	_	_
+4	mil	mil	NUM	_	NumType=Card	3	flat	_	_
+5	dependentes	dependente	NOUN	_	Number=Plur	9	nsubj:pass	_	_
+6	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+8	voluntariamente	voluntariamente	ADV	_	_	9	advmod	_	_
+9	internados	internar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	70	70	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	_	_	14	obl	_	_
+14	completando	completar	VERB	_	VerbForm=Ger	9	advcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	abstinência	abstinência	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Além disso, o programa Trabalho Novo conseguiu oferecer 5 mil vagas de emprego, garantindo uma vida nova para muitos ex-usuários.
+1	Além	além	ADV	_	_	9	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	programa	programa	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	Trabalho	Trabalho	PROPN	_	_	6	nmod	_	_
+8	Novo	Novo	PROPN	_	_	7	flat:name	_	_
+9	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	oferecer	oferecer	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	5	5	NUM	_	NumType=Card	13	nummod	_	_
+12	mil	mil	NUM	_	NumType=Card	11	flat	_	_
+13	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	garantindo	garantir	VERB	_	VerbForm=Ger	9	advcl	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vida	vida	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	nova	novo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
+23	ex-usuários	ex-usuários	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = A Prefeitura de São Paulo, sob a liderança de Doria, implementou o Programa Redenção, que inclui centros de assistência com contêineres modernos e confortáveis onde os usuários recebem alimentação, higiene e apoio médico.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Prefeitura	prefeitura	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	São	São	PROPN	_	_	2	nmod	_	_
+5	Paulo	Paulo	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	sob	sob	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	liderança	liderança	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Doria	Doria	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	implementou	implementar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Programa	Programa	PROPN	_	_	13	obj	_	_
+16	Redenção	Redenção	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+19	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	centros	centro	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	assistência	assistência	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	contêineres	contêiner	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+25	modernos	moderno	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	confortáveis	confortável	ADJ	_	Number=Plur	25	conj	_	_
+28	onde	onde	ADV	_	_	31	advmod	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	31	nsubj	_	_
+31	recebem	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+32	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	higiene	higiene	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
+35	e	e	CCONJ	_	_	36	cc	_	_
+36	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	_
+37	médico	médico	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = Diferentemente das estatísticas pessimistas anteriores, a Prefeitura reporta um sucesso estrondoso: 650 mil atendimentos nos contêineres até dezembro, e uma reviravolta na vida de centenas de pessoas.
+1	Diferentemente	diferentemente	ADV	_	_	10	advmod	_	_
+2-3	das	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	estatísticas	estatístico	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
+5	pessimistas	pessimista	ADJ	_	Number=Plur	4	amod	_	_
+6	anteriores	anterior	ADJ	_	Number=Plur	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Prefeitura	Prefeitura	PROPN	_	_	10	nsubj	_	_
+10	reporta	reportar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	estrondoso	estrondoso	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	17	punct	_	_
+15	650	650	NUM	_	NumType=Card	17	nummod	_	_
+16	mil	mil	NUM	_	NumType=Card	15	flat	_	_
+17	atendimentos	atendimento	NOUN	_	Gender=Masc|Number=Plur	12	appos	_	_
+18-19	nos	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	contêineres	contêiner	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+21	até	até	ADP	_	_	22	case	_	_
+22	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	reviravolta	reviravolta	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+27-28	na	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	vida	vida	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	centenas	centena	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Lucio, de 34 anos, um dos beneficiados, afirma que o programa salvou sua vida.
+1	Lucio	Lucio	PROPN	_	_	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	34	34	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	um	um	NUM	_	Gender=Masc|NumType=Card	1	appos	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	beneficiados	beneficiado	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	16	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	programa	programa	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+16	salvou	salvar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+17	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	vida	vida	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0015
+# text = "Eu não só parei de usar drogas, mas também consegui um emprego e estou planejando voltar para a casa da minha família", relata emocionado.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	só	só	ADV	_	_	5	advmod	_	_
+5	parei	parar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	28	ccomp:speech	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	usar	usar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	drogas	droga	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	mas	mas	CCONJ	_	_	12	cc	_	_
+11	também	também	ADV	_	_	12	advmod	_	_
+12	consegui	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	planejando	planejar	VERB	_	VerbForm=Ger	5	conj	_	_
+18	voltar	voltar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	casa	casa	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	det	_	_
+25	família	família	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	5	punct	_	_
+28	relata	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	emocionado	emocionado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = S0017
+# text = O programa foi elogiado em uma audiência pública recente pela flexibilidade em oferecer tanto o modelo de abstinência quanto o de redução de danos, permitindo que os pacientes escolham o caminho que melhor lhes convém.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programa	programa	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	elogiado	elogiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	pública	público	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	recente	recente	ADJ	_	Number=Sing	7	amod	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	flexibilidade	flexibilidade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+13	em	em	ADP	_	_	14	mark	_	_
+14	oferecer	oferecer	VERB	_	VerbForm=Inf	12	acl	_	_
+15	tanto	tanto	CCONJ	_	_	17	cc	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	modelo	modelo	NOUN	_	Number=Sing	14	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	abstinência	abstinência	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	quanto	quanto	CCONJ	_	_	21	cc	_	_
+21	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	redução	redução	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	danos	dano	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	permitindo	permitir	VERB	_	VerbForm=Ger	14	advcl	_	_
+28	que	que	SCONJ	_	_	31	mark	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	pacientes	paciente	NOUN	_	Number=Plur	31	nsubj	_	_
+31	escolham	escolher	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+34	que	que	PRON	_	PronType=Rel	37	nsubj	_	_
+35	melhor	melhor	ADV	_	_	37	advmod	_	_
+36	lhes	lhe	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	37	iobj	_	_
+37	convém	convir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = O coordenador do programa, médico Arthur Guerra, destacou: Acreditamos no poder da escolha do paciente.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	coordenador	coordenador	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	programa	programa	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	médico	médico	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+8	Arthur	Arthur	PROPN	_	_	7	nmod	_	_
+9	Guerra	Guerra	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	Acreditamos	acreditar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp:speech	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	poder	poder	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	paciente	paciente	NOUN	_	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0021
+# text = Cada caso é único e merece uma abordagem personalizada.
+1	Cada	cada	DET	_	Number=Sing|PronType=Ind	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	único	único	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	merece	merecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	abordagem	abordagem	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	personalizada	personalizado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = Antônio Sérgio Gonçalves, psicanalista e membro do Conselho Municipal de Políticas sobre Drogas e Álcool, reconhece a eficácia das novas medidas.
+1	Antônio	Antônio	PROPN	_	_	19	nsubj	_	_
+2	Sérgio	Sérgio	PROPN	_	_	1	flat:name	_	_
+3	Gonçalves	Gonçalves	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	psicanalista	psicanalista	NOUN	_	Number=Sing	1	appos	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	membro	membro	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Conselho	Conselho	PROPN	_	_	7	nmod	_	_
+11	Municipal	Municipal	PROPN	_	_	10	flat:name	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Políticas	Políticas	PROPN	_	_	10	flat:name	_	_
+14	sobre	sobre	ADP	_	_	15	case	_	_
+15	Drogas	Drogas	PROPN	_	_	10	flat:name	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	Álcool	Álcool	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	5	punct	_	_
+19	reconhece	reconhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	eficácia	eficácia	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	das	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	novas	novo	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
+25	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0025
+# text = Doria imprimiu uma marca inovadora e eficiente.
+1	Doria	Doria	PROPN	_	_	2	nsubj	_	_
+2	imprimiu	imprimir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	marca	marca	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	inovadora	inovador	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	eficiente	eficiente	ADJ	_	Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = A combinação de tratamentos e oportunidades de emprego está fazendo a diferença, avalia.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	combinação	combinação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	oportunidades	oportunidade	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fazendo	fazer	VERB	_	VerbForm=Ger	14	ccomp:speech	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	avalia	avaliar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0029
+# text = Filipe Sabará, secretário de assistência social, celebra o sucesso do programa híbrido: O Trabalho Novo e o Redenção são a prova de que uma gestão comprometida pode transformar realidades.
+1	Filipe	Filipe	PROPN	_	_	9	nsubj	_	_
+2	Sabará	Sabará	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	secretário	secretário	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	assistência	assistência	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	social	social	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	celebra	celebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	programa	programa	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	híbrido	híbrido	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	25	punct	_	_
+17	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Trabalho	Trabalho	PROPN	_	_	25	nsubj	_	_
+19	Novo	Novo	PROPN	_	_	18	flat:name	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Redenção	Redenção	PROPN	_	_	18	conj	_	_
+23	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	prova	prova	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+26	de	de	ADP	_	ExtPos=SCONJ	31	mark	_	_
+27	que	que	SCONJ	_	_	26	fixed	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
+30	comprometida	comprometido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	29	amod	_	_
+31	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_
+32	transformar	transformar	VERB	_	VerbForm=Inf	31	xcomp	_	_
+33	realidades	realidade	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0031
+# text = Estamos no caminho certo.
+1	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	certo	certo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+

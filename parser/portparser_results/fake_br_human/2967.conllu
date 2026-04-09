@@ -1,0 +1,140 @@
+# sent_id = S0001
+# text = Homem ateia fogo no próprio corpo em frente ao Palácio do Planalto.
+1	Homem	homem	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ateia	atear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	frente	frente	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Palácio	Palácio	PROPN	_	_	9	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Planalto	Planalto	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O Corpo de Bombeiros do DF socorreu na manhã de hoje (10) um homem que teve 80% do corpo queimado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Corpo	Corpo	PROPN	_	_	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Bombeiros	Bombeiros	PROPN	_	_	2	flat:name	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	DF	DF	PROPN	_	_	2	nmod	_	_
+8	socorreu	socorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	hoje	hoje	ADV	_	_	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	10	10	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	homem	homem	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+21	80	80	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	_	_	20	obj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	queimado	queimar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Segundo informações do Correio Braziliense, o homem, que ainda não foi identificado, estava em frente do Palácio do Planalto e teria ateado fogo contra o próprio corpo.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Correio	Correio	PROPN	_	_	2	nmod	_	_
+6	Braziliense	Braziliense	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	homem	homem	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	que	que	PRON	_	PronType=Rel	15	nsubj:pass	_	_
+12	ainda	ainda	ADV	_	_	15	advmod	_	_
+13	não	não	ADV	_	_	15	advmod	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	identificado	identificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	frente	frente	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Palácio	Palácio	PROPN	_	_	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Planalto	Planalto	PROPN	_	_	22	flat:name	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	28	aux	_	_
+28	ateado	atear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	conj	_	_
+29	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+30	contra	contra	ADP	_	_	33	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+33	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0007
+# text = Testemunhas disseram que tudo aconteceu muito rápido.
+1	Testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	tudo	tudo	PRON	_	PronType=Ind	5	nsubj	_	_
+5	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	muito	muito	ADV	_	_	7	advmod	_	_
+7	rápido	rápido	ADJ	_	Gender=Masc|Number=Sing	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O cidadão foi transportado para o Hospital Regional da Asa Norte e a PM ainda está apurando o motivo que teria levado o homem a cometer o ato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	transportado	transportar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Hospital	Hospital	PROPN	_	_	4	obl	_	_
+8	Regional	Regional	PROPN	_	_	7	flat:name	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Asa	Asa	PROPN	_	_	7	flat:name	_	_
+12	Norte	Norte	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	18	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	PM	PM	PROPN	_	_	18	nsubj	_	_
+16	ainda	ainda	ADV	_	_	18	advmod	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	apurando	apurar	VERB	_	VerbForm=Ger	4	conj	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+22	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	23	aux	_	_
+23	levado	levar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl:relcl	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	homem	homem	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	a	a	ADP	_	_	27	mark	_	_
+27	cometer	cometer	VERB	_	VerbForm=Inf	23	xcomp	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ato	ato	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
+

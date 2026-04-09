@@ -1,0 +1,138 @@
+# sent_id = S0001
+# text = Mestres da edição!
+1	Mestres	mestre	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	edição	edição	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Jon Bon Jovi cantando "Festa no Apê" e Queen interpretando "Robocop Gay".
+1	Jon	Jon	PROPN	_	_	0	root	_	_
+2	Bon	Bon	PROPN	_	_	1	flat:name	_	_
+3	Jovi	Jovi	PROPN	_	_	1	flat:name	_	_
+4	cantando	cantar	VERB	_	VerbForm=Ger	1	acl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Festa	Festa	PROPN	_	_	4	obj	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Apê	Apê	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	6	punct	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Queen	Queen	PROPN	_	_	4	conj	_	_
+13	interpretando	interpretar	VERB	_	VerbForm=Ger	12	acl	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Robocop	Robocop	PROPN	_	_	13	obj	_	_
+16	Gay	Gay	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Eles conseguiram sincronizar áudio e vídeo e o resultado foi fantástico.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	conseguiram	conseguir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sincronizar	sincronizar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	áudio	áudio	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+7	e	e	CCONJ	_	_	11	cc	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	fantástico	fantástico	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Cada um dos vídeos já foi compartilhado por mais de 150 mil internautas.
+1	Cada	cada	DET	_	Number=Sing|PronType=Ind	2	det	_	_
+2	um	um	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj:pass	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	vídeos	vídeo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	já	já	ADV	_	_	8	advmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	compartilhado	compartilhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	por	por	ADP	_	_	14	case	_	_
+10	mais	mais	ADV	_	ExtPos=ADV	12	advmod	_	_
+11	de	de	ADP	_	_	10	fixed	_	_
+12	150	150	NUM	_	NumType=Card	14	nummod	_	_
+13	mil	mil	NUM	_	NumType=Card	12	flat	_	_
+14	internautas	internauta	NOUN	_	Number=Plur	8	obl:agent	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = No primeiro, temos o roqueiro Jon Bon Jovi interpretando uma música que foi gravada pelo cantor (sic...) Latino.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	2	case	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obl	_	_
+3	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	roqueiro	roqueiro	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	Jon	Jon	PROPN	_	_	7	nmod	_	_
+9	Bon	Bon	PROPN	_	_	8	flat:name	_	_
+10	Jovi	Jovi	PROPN	_	_	8	flat:name	_	_
+11	interpretando	interpretar	VERB	_	VerbForm=Ger	5	advcl	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	música	música	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	que	que	PRON	_	PronType=Rel	16	nsubj:pass	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	gravada	gravar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	16	obl:agent	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	sic	sic	INTJ	_	_	19	appos	_	SpaceAfter=No
+22	...	...	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	21	punct	_	_
+24	Latino	Latino	PROPN	_	_	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Já na segunda edição, o clipe mostra a banda Queen (com a nova formação) interpretando a música Robocop Gay, do saudoso grupo mamonas assassinas.
+1	Já	já	CCONJ	_	_	9	cc	_	_
+2-3	na	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	5	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	edição	edição	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	clipe	clipe	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	banda	banda	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	Queen	Queen	PROPN	_	_	11	nmod	_	_
+13	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+14	com	com	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	nova	novo	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+17	formação	formação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	interpretando	interpretar	VERB	_	VerbForm=Ger	9	advcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	música	música	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	Robocop	Robocop	PROPN	_	_	21	nmod	_	_
+23	Gay	Gay	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	28	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	saudoso	saudoso	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+28	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+29	mamonas	mamona	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
+30	assassinas	assassino	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Assista e confira:
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+

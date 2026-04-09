@@ -1,0 +1,130 @@
+# sent_id = S0001
+# text = Bolsonaro: Massacre?
+1	Bolsonaro	Bolsonaro	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Massacre	massacre	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = O cara é preso e nem precisa trabalhar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cara	cara	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	nem	nem	ADV	_	_	7	advmod	_	_
+7	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	trabalhar	trabalhar	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Eu queria que matassem 200 mil vagabundos.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	matassem	matar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	200	200	NUM	_	NumType=Card	7	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	_
+7	vagabundos	vagabundo	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Palavras do deputado Jair Bolsonaro.
+1	Palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	Jair	Jair	PROPN	_	_	4	nmod	_	_
+6	Bolsonaro	Bolsonaro	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Eu gostaria que cada estado tivesse sua legislação penal, como acontece nos EUA.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gostaria	gostar	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	cada	cada	DET	_	Number=Sing|PronType=Ind	5	det	_	_
+5	estado	estado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	tivesse	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	legislação	legislação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	penal	penal	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	como	como	SCONJ	_	_	12	mark	_	_
+12	acontece	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	EUA	EUA	PROPN	_	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Temos uma porcaria de uma Constituição no que diz respeito a direitos humanos.
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	porcaria	porcaria	NOUN	_	Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Constituição	Constituição	PROPN	_	_	3	nmod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	obl	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	humanos	humano	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Não há pena de morte aqui, o "cara" não teme nada.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pena	pena	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	morte	morte	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	aqui	aqui	ADV	_	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	13	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	cara	cara	NOUN	_	Number=Sing	13	nsubj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	teme	temer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = O canalha nem precisa trabalhar, fica sugando o estado no tempo que está detido.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	canalha	canalha	NOUN	_	Number=Sing	4	nsubj	_	_
+3	nem	nem	ADV	_	_	4	advmod	_	_
+4	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	trabalhar	trabalhar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	sugando	sugar	VERB	_	VerbForm=Ger	7	xcomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	estado	estado	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	detido	detido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Eu queria que matassem 200 mil vagabundos.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	matassem	matar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	200	200	NUM	_	NumType=Card	7	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	_
+7	vagabundos	vagabundo	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+

@@ -1,0 +1,218 @@
+# sent_id = S0001
+# text = Dilma "Kim Jong Un" ordena que PRF desbloqueie estradas e aplique multa de R$ 1915.
+1	Dilma	Dilma	PROPN	_	_	7	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Kim	Kim	PROPN	_	_	1	nmod	_	_
+4	Jong	Jong	PROPN	_	_	3	flat:name	_	_
+5	Un	Un	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	3	punct	_	_
+7	ordena	ordenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	PRF	PRF	PROPN	_	_	10	nsubj	_	_
+10	desbloqueie	desbloquear	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	estradas	estrada	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	aplique	aplicar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	multa	multa	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	R$	R$	SYM	_	_	14	nmod	_	_
+17	1915	1915	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Os caminhoneiros que fecharem estradas estarão sujeitos a multa de R$ 1.915, segundo o ministro.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	caminhoneiros	caminhoneiro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	fecharem	fechar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	2	acl:relcl	_	_
+5	estradas	estrada	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	estarão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+7	sujeitos	sujeito	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	multa	multa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	R$	R$	SYM	_	_	9	nmod	_	_
+12	1.915	1.915	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	segundo	segundo	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = O governo federal ordenou a Polícia Rodoviária Federal a atuar para desbloquear estradas que estejam bloqueadas por caminhoneiros, conforme informação divulgada pelo ministro da Justiça, José Eduardo Cardozo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	federal	federal	ADJ	_	Number=Sing	2	amod	_	_
+4	ordenou	ordenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polícia	Polícia	PROPN	_	_	4	obj	_	_
+7	Rodoviária	Rodoviária	PROPN	_	_	6	flat:name	_	_
+8	Federal	Federal	PROPN	_	_	6	flat:name	_	_
+9	a	a	ADP	_	_	10	mark	_	_
+10	atuar	atuar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	desbloquear	desbloquear	VERB	_	VerbForm=Inf	10	advcl	_	_
+13	estradas	estrada	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+14	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+15	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	bloqueadas	bloquear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	13	acl:relcl	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	caminhoneiros	caminhoneiro	NOUN	_	Gender=Masc|Number=Plur	16	obl:agent	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	conforme	conforme	ADP	_	_	21	case	_	_
+21	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+22	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	_	_
+23-24	pelo	_	_	_	_	_	_	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	22	obl:agent	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Justiça	Justiça	PROPN	_	_	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	José	José	PROPN	_	_	25	appos	_	_
+31	Eduardo	Eduardo	PROPN	_	_	30	flat:name	_	_
+32	Cardozo	Cardozo	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Nós determinamos que sejam multados todos aqueles que fecharem estradas.
+1	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	determinamos	determinar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	multados	multar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+6	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	5	nsubj:pass	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	fecharem	fechar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	7	acl:relcl	_	_
+10	estradas	estrada	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = As multas são altas, mais de R$ 1.900, para que seja aplicada de pronto, afirmou o ministro em entrevista distribuída pela sua assessoria de imprensa.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	multas	multa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	altas	alto	ADJ	_	Gender=Fem|Number=Plur	18	ccomp:speech	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	mais	mais	ADV	_	ExtPos=ADV	8	advmod	_	_
+7	de	de	ADP	_	_	6	fixed	_	_
+8	R$	R$	SYM	_	_	4	parataxis	_	_
+9	1.900	1.900	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	para	para	ADP	_	ExtPos=SCONJ	14	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	aplicada	aplicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	pronto	pronto	ADV	_	_	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+23	distribuída	distribuír	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+24-25	pela	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	27	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	23	obl:agent	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0011
+# text = No caso de interdição de estradas, nós determinamos a PRF que atue através do efetivo necessário para desobstruí-las e garantir que aqueles caminhoneiros que queiram trabalhar tenham sua liberdade de ir e vir inteiramente assegurada.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	interdição	interdição	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	estradas	estrada	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	determinamos	determinar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	PRF	PRF	PROPN	_	_	10	obj	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_
+14	atue	atuar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	através	através	ADV	_	_	14	advmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	efetivo	efetivo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21-22	desobstruí-las	_	_	_	_	_	_	_	_
+21	desobstruir	desobstruir	VERB	_	VerbForm=Inf	19	acl	_	_
+22	las	lo	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	garantir	garantir	VERB	_	VerbForm=Inf	21	conj	_	_
+25	que	que	SCONJ	_	_	31	mark	_	_
+26	aqueles	aquele	DET	_	Gender=Masc|Number=Plur|PronType=Dem	27	det	_	_
+27	caminhoneiros	caminhoneiro	NOUN	_	Gender=Masc|Number=Plur	31	nsubj	_	_
+28	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+29	queiram	querer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	trabalhar	trabalhar	VERB	_	VerbForm=Inf	29	xcomp	_	_
+31	tenham	ter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+32	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	de	de	ADP	_	_	35	mark	_	_
+35	ir	ir	VERB	_	VerbForm=Inf	33	acl	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	vir	vir	VERB	_	VerbForm=Inf	35	conj	_	_
+38	inteiramente	inteiramente	ADV	_	_	39	advmod	_	_
+39	assegurada	assegurar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	31	xcomp	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = A punição será aplicada uma vez e, se o caminhoneiro não retirar o veículo que bloqueia a rodovia, será rebocado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	punição	punição	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	aplicada	aplicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	uma	um	NUM	_	Gender=Fem|NumType=Card	6	nummod	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	e	e	CCONJ	_	_	22	cc	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	se	se	SCONJ	_	_	13	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	caminhoneiro	caminhoneiro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	retirar	retirar	VERB	_	VerbForm=Inf	22	advcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	bloqueia	bloquear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	rodovia	rodovia	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	13	punct	_	_
+21	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	aux:pass	_	_
+22	rebocado	rebocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = A cada vez que voltar a bloquear a estrada, será multado mais uma vez.
+1	A	a	ADP	_	ExtPos=SCONJ	5	mark	_	_
+2	cada	cada	DET	_	Number=Sing|PronType=Ind	1	fixed	_	_
+3	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
+4	que	que	PRON	_	PronType=Rel	1	fixed	_	_
+5	voltar	voltar	VERB	_	VerbForm=Inf	12	advcl	_	_
+6	a	a	ADP	_	_	7	mark	_	_
+7	bloquear	bloquear	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	estrada	estrada	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_
+12	multado	multar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	uma	um	NUM	_	Gender=Fem|NumType=Card	15	nummod	_	_
+15	vez	vez	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+

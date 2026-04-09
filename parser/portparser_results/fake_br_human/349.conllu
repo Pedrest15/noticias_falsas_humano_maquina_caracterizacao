@@ -1,0 +1,352 @@
+# sent_id = S0001
+# text = Um dos medicamentos mais consumidos pelos brasileiros pode causar depressão, doenças neurológicas e até demência.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	10	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	medicamentos	medicamento	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	consumidos	consumir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+7-8	pelos	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	6	obl:agent	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	causar	causar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	depressão	depressão	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
+15	neurológicas	neurológico	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	até	até	ADV	_	_	18	case	_	_
+18	demência	demência	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = O Omeprazol é o nome do princípio ativo de um medicamento da classe dos anti-ulcerosos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Omeprazol	Omeprazol	PROPN	_	_	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nome	nome	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	ativo	ativo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	medicamento	medicamento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	classe	classe	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	anti-ulcerosos	anti-ulcerosos	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Esse medicamento reduz a secreção ácida do estômago, que é responsável pela regulação da digestão.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	medicamento	medicamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	reduz	reduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	secreção	secreção	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	ácida	ácido	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	estômago	estômago	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	responsável	responsável	ADJ	_	Number=Sing	5	acl:relcl	_	_
+14-15	pela	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	regulação	regulação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	digestão	digestão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O suco gástrico, produzido pelas glândulas estomacais, nos protege de vírus e bactérias e é responsável pelo combate de doenças causadas por intoxicação.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	suco	suco	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	gástrico	gástrico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	produzido	produzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+6-7	pelas	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	glândulas	glândula	NOUN	_	Gender=Fem|Number=Plur	5	obl:agent	_	_
+9	estomacais	estomacal	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+12	protege	proteger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	vírus	víru	NOUN	_	Gender=Masc	12	obl	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	responsável	responsável	ADJ	_	Number=Sing	12	conj	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	combate	combate	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+25	causadas	causar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	24	acl	_	_
+26	por	por	ADP	_	_	27	case	_	_
+27	intoxicação	intoxicação	NOUN	_	Gender=Fem|Number=Sing	25	obl:agent	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Grande parte de pacientes que sofrem de alterações gástricas usa o Omeprazol sob orientação médica ou até mesmo por conta própria.
+1	Grande	grande	ADJ	_	Number=Sing	2	amod	_	_
+2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	pacientes	paciente	NOUN	_	Number=Plur	2	nmod	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	sofrem	sofrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	alterações	alteração	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+9	gástricas	gástrico	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Omeprazol	Omeprazol	PROPN	_	_	10	obj	_	_
+13	sob	sob	ADP	_	_	14	case	_	_
+14	orientação	orientação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+15	médica	médico	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	ou	ou	CCONJ	_	_	20	cc	_	_
+17	até	até	ADV	_	_	20	advmod	_	_
+18	mesmo	mesmo	ADV	_	_	20	advmod	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	conta	conta	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+21	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Estudos comprovam que o uso excessivo do remédio omeprazol prejudica a absorção de minerais e vitaminas (principalmente a vitamina B12, relacionada à produção de células vermelhas no sangue) pelo organismo, além de provocar vários problemas de saúde, como osteoporose, anemia, depressão, doenças neurológicas e até demência.
+1	Estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	comprovam	comprovar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	11	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	uso	uso	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	excessivo	excessivo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	remédio	remédio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	omeprazol	omeprazol	X	_	Foreign=Yes	9	nmod	_	_
+11	prejudica	prejudicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	minerais	mineral	NOUN	_	Number=Plur	13	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	vitaminas	vitamina	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	_
+18	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+19	principalmente	principalmente	ADV	_	_	21	advmod	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	15	appos	_	_
+22	B12	B12	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	21	acl	_	_
+25-26	à	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	produção	produção	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	células	célula	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
+30	vermelhas	vermelho	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	sangue	sangue	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	21	punct	_	_
+35-36	pelo	_	_	_	_	_	_	_	_
+35	por	por	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	organismo	organismo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	além	além	ADV	_	_	11	advmod	_	_
+40	de	de	ADP	_	_	41	mark	_	_
+41	provocar	provocar	VERB	_	VerbForm=Inf	39	acl	_	_
+42	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	43	det	_	_
+43	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	41	obj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	48	punct	_	_
+47	como	como	ADP	_	_	48	case	_	_
+48	osteoporose	osteoporose	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	anemia	anemia	NOUN	_	Gender=Fem|Number=Sing	48	conj	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	depressão	depressão	NOUN	_	Gender=Fem|Number=Sing	48	conj	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	54	punct	_	_
+54	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	48	conj	_	_
+55	neurológicas	neurológico	ADJ	_	Gender=Fem|Number=Plur	54	amod	_	_
+56	e	e	CCONJ	_	_	58	cc	_	_
+57	até	até	ADV	_	_	58	case	_	_
+58	demência	demência	NOUN	_	Gender=Fem|Number=Sing	48	conj	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A ausência dessas vitaminas e minerais provoca fadiga, estresse e insônia.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	dessas	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	vitaminas	vitamina	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	minerais	mineral	NOUN	_	Number=Plur	5	conj	_	_
+8	provoca	provocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	fadiga	fadiga	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	estresse	estresse	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	insônia	insônia	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = Se você é dependente desse medicamento e não sabe quais consequências terá no seu organismo, procure um acompanhamento do médico para monitorar essas reações e amenizá-las.
+1	Se	se	SCONJ	_	_	4	mark	_	_
+2	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dependente	dependente	NOUN	_	Number=Sing	19	advcl	_	_
+5-6	desse	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	medicamento	medicamento	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	quais	qual	DET	_	Number=Plur|PronType=Int	12	det	_	_
+12	consequências	consequência	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+13	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	ccomp	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	organismo	organismo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	4	punct	_	_
+19	procure	procurar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	acompanhamento	acompanhamento	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	médico	médico	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	para	para	ADP	_	_	26	mark	_	_
+26	monitorar	monitorar	VERB	_	VerbForm=Inf	19	advcl	_	_
+27	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	28	det	_	_
+28	reações	reação	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+29	e	e	CCONJ	_	_	30	cc	_	_
+30-31	amenizá-las	_	_	_	_	_	_	_	_
+30	amenizar	amenizar	VERB	_	VerbForm=Inf	26	conj	_	_
+31	las	lo	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+32	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0017
+# text = O Omeprazol PREJUDICA seriamente o sistema nervoso central.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Omeprazol	Omeprazol	PROPN	_	_	3	nsubj	_	_
+3	PREJUDICA	prejudicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	seriamente	seriamente	ADV	_	_	3	advmod	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	nervoso	nervoso	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	central	central	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = A droga também diminui a absorção de cálcio, levando a fraturas, problemas ósseos e musculares.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	droga	droga	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	diminui	diminuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	cálcio	cálcio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	levando	levar	VERB	_	VerbForm=Ger	4	advcl	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	fraturas	fratura	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+15	ósseos	ósseo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	musculares	muscular	ADJ	_	Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = As maiores vítimas dos efeitos colaterais desse veneno são os idosos, que passam a ter (inclusive) problemas respiratórios.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	maiores	maior	ADJ	_	Number=Plur	3	amod	_	_
+3	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	colaterais	colateral	ADJ	_	Number=Plur	6	amod	_	_
+8-9	desse	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	veneno	veneno	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	idosos	idoso	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	passam	passar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	a	a	ADP	_	_	18	mark	_	_
+18	ter	ter	VERB	_	VerbForm=Inf	16	xcomp	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	inclusive	inclusive	ADV	_	_	22	advmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+23	respiratórios	respiratório	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0023
+# text = As informações acima foram baseadas em um estudo do Instituto Kaiser Permanente, EUA.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	acima	acima	ADV	_	_	5	advmod	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	baseadas	basear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Instituto	Instituto	PROPN	_	_	8	nmod	_	_
+12	Kaiser	Kaiser	PROPN	_	_	11	flat:name	_	_
+13	Permanente	Permanente	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	EUA	EUA	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = 26 mil pacientes foram observados por mais de 2 anos.
+1	26	26	NUM	_	NumType=Card	3	nummod	_	_
+2	mil	mil	NUM	_	NumType=Card	1	flat	_	_
+3	pacientes	paciente	NOUN	_	Number=Plur	5	nsubj:pass	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	observados	observar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6	por	por	ADP	_	_	10	case	_	_
+7	mais	mais	ADV	_	ExtPos=ADV	9	advmod	_	_
+8	de	de	ADP	_	_	7	fixed	_	_
+9	2	2	NUM	_	NumType=Card	10	nummod	_	_
+10	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+

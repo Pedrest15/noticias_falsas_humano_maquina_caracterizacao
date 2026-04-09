@@ -1,0 +1,201 @@
+# sent_id = S0001
+# text = O PT quebrou!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PT	PT	PROPN	_	_	3	nsubj	_	_
+3	quebrou	quebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Além de não ter pão com mortadela, militantes terão que bancar as mordomias de Lula.
+1	Além	além	ADV	_	_	10	advmod	_	_
+2	de	de	ADP	_	_	4	mark	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	ter	ter	VERB	_	VerbForm=Inf	1	acl	_	_
+5	pão	pão	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	mortadela	mortadela	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	militantes	militante	NOUN	_	Number=Plur	10	nsubj	_	_
+10	terão	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	que	que	ADP	_	_	12	mark	_	_
+12	bancar	bancar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mordomias	mordomia	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Lula	Lula	PROPN	_	_	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Lula disse ontem (20) à militância petista que 2016 será o primeiro ano em que o partido não usará verba de empresas nas campanhas.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ontem	ontem	ADV	_	_	2	advmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	20	20	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	militância	militância	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+10	petista	petista	ADJ	_	Number=Sing	9	amod	_	_
+11	que	que	SCONJ	_	_	16	mark	_	_
+12	2016	2016	NUM	_	NumType=Card	16	nsubj	_	_
+13	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
+16	ano	ano	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	que	que	PRON	_	PronType=Rel	22	obl	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	partido	partido	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	usará	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	acl:relcl	_	_
+23	verba	verba	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+26-27	nas	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Ex-presidente discursou no pré-lançamento da candidatura da deputada Jandira Feghali (PCdoB-RJ) à prefeitura do Rio.
+1	Ex-presidente	ex-presidente	NOUN	_	Number=Sing	2	nsubj	_	_
+2	discursou	discursar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pré-lançamento	pré-lançamento	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	candidatura	candidatura	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	deputada	deputado	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Jandira	Jandira	PROPN	_	_	11	nmod	_	_
+13	Feghali	Feghali	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	PCdoB-RJ	PCdoB-RJ	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	prefeitura	prefeitura	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Rio	Rio	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Uma determinação foi aprovada pelo Congresso [proibindo doações empresariais] na reforma política no ano passado e segue para entendimento do Supremo Tribunal Federal (STF) É a primeira eleição que a gente vai fazer sem financiamento empresarial.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	aprovada	aprovar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Congresso	Congresso	PROPN	_	_	4	obl:agent	_	_
+8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	proibindo	proibir	VERB	_	VerbForm=Ger	4	advcl	_	_
+10	doações	doação	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	empresariais	empresarial	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	9	punct	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+16	política	político	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ano	ano	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+20	passado	passado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	amod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+23	para	para	ADP	_	_	24	case	_	_
+24	entendimento	entendimento	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Supremo	Supremo	PROPN	_	_	24	nmod	_	_
+28	Tribunal	Tribunal	PROPN	_	_	27	flat:name	_	_
+29	Federal	Federal	PROPN	_	_	27	flat:name	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	STF	STF	PROPN	_	_	27	appos	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	_
+33	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	36	amod	_	_
+36	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
+37	que	que	PRON	_	PronType=Rel	41	obj	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	gente	gente	NOUN	_	Gender=Fem|Number=Sing	41	nsubj	_	_
+40	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	fazer	fazer	VERB	_	VerbForm=Inf	36	acl:relcl	_	_
+42	sem	sem	ADP	_	_	43	case	_	_
+43	financiamento	financiamento	NOUN	_	Gender=Masc|Number=Sing	41	obl	_	_
+44	empresarial	empresarial	ADJ	_	Number=Sing	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Isto significa que depois das pessoas baterem palmas, vão ter que enfiar a mão no bolso para contribuir com a campanha.
+1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	12	mark	_	_
+4	depois	depois	ADV	_	_	12	advmod	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	mark	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	baterem	bater	VERB	_	Number=Plur|Person=3|VerbForm=Inf	4	acl	_	_
+9	palmas	palma	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ter	ter	VERB	_	VerbForm=Inf	2	ccomp	_	_
+13	que	que	ADP	_	_	14	mark	_	_
+14	enfiar	enfiar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mão	mão	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bolso	bolso	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	contribuir	contribuir	VERB	_	VerbForm=Inf	14	advcl	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Isto significa que nós vamos iniciar uma nova experiência política neste país, disse Lula.
+1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp:speech	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	iniciar	iniciar	VERB	_	VerbForm=Inf	2	ccomp	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nova	novo	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+10	política	político	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	neste	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Lula	Lula	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0015
+# text = Agência Brasil.
+1	Agência	Agência	PROPN	_	_	0	root	_	_
+2	Brasil	Brasil	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+

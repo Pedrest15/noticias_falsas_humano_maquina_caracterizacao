@@ -1,0 +1,150 @@
+# sent_id = S0001
+# text = Lobão ataca Gil: "Era rico... depois virou ministro da Cultura e ficou biliardário".
+1	Lobão	Lobão	PROPN	_	_	2	nsubj	_	_
+2	ataca	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Gil	Gil	PROPN	_	_	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	7	punct	_	_
+5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	rico	rico	ADJ	_	Gender=Masc|Number=Sing	2	ccomp:speech	_	SpaceAfter=No
+8	...	...	PUNCT	_	_	10	punct	_	_
+9	depois	depois	ADV	_	_	10	advmod	_	_
+10	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	10	xcomp	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Cultura	Cultura	PROPN	_	_	11	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+17	biliardário	biliardário	ADJ	_	Gender=Masc|Number=Sing	16	xcomp	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O cantor Lobão, que não tem "papas na língua", concedeu uma entrevista para a Rádio Jovem Pan a atacou o ex-ministro da Cultura, Gilberto Gil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	Lobão	Lobão	PROPN	_	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	papas	papa	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	língua	língua	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	7	punct	_	_
+15	concedeu	conceder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Rádio	Rádio	PROPN	_	_	15	obl	_	_
+21	Jovem	Jovem	PROPN	_	_	20	flat:name	_	_
+22	Pan	Pan	PROPN	_	_	20	flat:name	_	_
+23	a	a	ADP	_	_	24	mark	_	_
+24	atacou	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Cultura	Cultura	PROPN	_	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	Gilberto	Gilberto	PROPN	_	_	26	appos	_	_
+32	Gil	Gil	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0005
+# text = Por essa ninguém esperava!
+1	Por	por	ADP	_	_	2	case	_	_
+2	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	obl	_	_
+3	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	4	nsubj	_	_
+4	esperava	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Lobão vai tomar um processo daqueles!
+1	Lobão	Lobão	PROPN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	tomar	tomar	VERB	_	VerbForm=Inf	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	processo	processo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	daqueles	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	5	nmod	_	_
+8	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O músico acusou Gilberto Gil de ter enriquecido durante os governos petistas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	músico	músico	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Gilberto	Gilberto	PROPN	_	_	3	obj	_	_
+5	Gil	Gil	PROPN	_	_	4	flat:name	_	_
+6	de	de	ADP	_	_	8	mark	_	_
+7	ter	ter	AUX	_	VerbForm=Inf	8	aux	_	_
+8	enriquecido	enriquecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	xcomp	_	_
+9	durante	durante	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	governos	governo	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+12	petistas	petista	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Ele disse: "Foi ministro da Cultura por 8 anos [...] foi aí que abriram [...] o Gil começou muito rico no ministério e acabou biliardário" Lobão exagerou [...] provavelmente fumou alguma coisa estragada.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	6	punct	_	_
+4	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	2	ccomp:speech	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Cultura	Cultura	PROPN	_	_	6	nmod	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	8	8	NUM	_	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	parataxis	_	SpaceAfter=No
+15	..	..	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	]	]	PUNCT	_	_	14	punct	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	discourse	_	_
+18	aí	aí	ADV	_	_	20	advmod	_	_
+19	que	que	SCONJ	_	_	20	discourse	_	_
+20	abriram	abrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+21	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	parataxis	_	SpaceAfter=No
+23	..	..	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	]	]	PUNCT	_	_	22	punct	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Gil	Gil	PROPN	_	_	27	nsubj	_	_
+27	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	parataxis	_	_
+28	muito	muito	ADV	_	_	29	advmod	_	_
+29	rico	rico	ADJ	_	Gender=Masc|Number=Sing	27	xcomp	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ministério	ministério	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	conj	_	_
+35	biliardário	biliardário	ADJ	_	Gender=Masc|Number=Sing	34	xcomp	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	20	punct	_	_
+37	Lobão	Lobão	PROPN	_	_	38	nsubj	_	_
+38	exagerou	exagerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	root	_	_
+39	[	[	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	44	parataxis	_	SpaceAfter=No
+41	..	..	PUNCT	_	_	40	parataxis	_	SpaceAfter=No
+42	]	]	PUNCT	_	_	40	punct	_	_
+43	provavelmente	provavelmente	ADV	_	_	44	advmod	_	_
+44	fumou	fumar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	parataxis	_	_
+45	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	46	det	_	_
+46	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	44	obj	_	_
+47	estragada	estragar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	46	amod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	2	punct	_	_
+

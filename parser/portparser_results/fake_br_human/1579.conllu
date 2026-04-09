@@ -1,0 +1,257 @@
+# sent_id = S0001
+# text = Deputado fica nervoso no plenário e diz que Lula furtou 7 pavões do Planalto: "Vai roubar assim no inferno!".
+1	Deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nervoso	nervoso	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	que	que	SCONJ	_	_	11	mark	_	_
+10	Lula	Lula	PROPN	_	_	11	nsubj	_	_
+11	furtou	furtar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+12	7	7	NUM	_	NumType=Card	13	nummod	_	_
+13	pavões	pavão	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Planalto	Planalto	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	20	punct	_	_
+18	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	Vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	roubar	roubar	VERB	_	VerbForm=Inf	8	ccomp:speech	_	_
+21	assim	assim	ADV	_	_	20	advmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	inferno	inferno	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	!	!	PUNCT	_	_	20	punct	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = A acusação foi feita no Plenário da Câmara pelo Deputado Alberto Fraga [DEM].
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Plenário	Plenário	PROPN	_	_	4	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Câmara	Câmara	PROPN	_	_	7	flat:name	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Deputado	Deputado	PROPN	_	_	4	obl:agent	_	_
+14	Alberto	Alberto	PROPN	_	_	13	flat:name	_	_
+15	Fraga	Fraga	PROPN	_	_	13	flat:name	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	DEM	DEM	PROPN	_	_	13	parataxis	_	SpaceAfter=No
+18	]	]	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Quem é que manda transportar animais para uma propriedade que não seja sua e sim de uma "amigo"?
+1	Quem	quem	PRON	_	PronType=Int	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	_
+3	que	que	SCONJ	_	_	4	discourse	_	_
+4	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	transportar	transportar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	animais	animal	NOUN	_	Number=Plur	5	obj	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	propriedade	propriedade	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+11	não	não	ADV	_	_	13	advmod	_	_
+12	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	sua	seu	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	acl:relcl	_	_
+14	e	e	CCONJ	_	_	19	cc	_	_
+15	sim	sim	ADV	_	_	19	advmod	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Fraga também acusa o ex-presidente petista de ter "furtado" um faqueiro de ouro que foi dado de presente ao ex-presidente Costa e Silva, que governou o país entre março de 1967 a agosto de 1969.
+1	Fraga	Fraga	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	obj	_	_
+6	petista	petista	ADJ	_	Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	10	mark	_	_
+8	ter	ter	AUX	_	VerbForm=Inf	10	aux	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	furtado	furtar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	faqueiro	faqueiro	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ouro	ouro	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	que	que	PRON	_	PronType=Rel	18	nsubj:pass	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	presente	presente	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ex-presidente	ex-presidente	NOUN	_	Number=Sing	18	obl	_	_
+24	Costa	Costa	PROPN	_	_	23	nmod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	Silva	Silva	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+29	governou	governar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	país	país	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32	entre	entre	ADP	_	_	33	case	_	_
+33	março	março	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	1967	1967	NUM	_	NumType=Card	33	nmod	_	_
+36	a	a	ADP	_	_	37	case	_	_
+37	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	1969	1969	NUM	_	NumType=Card	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = A reportagem que o deputado se refere no vídeo é de Vera Magalhães [ Revista Veja ] e foi publicada no dia 21/03/16.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	7	obj	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Vera	Vera	PROPN	_	_	0	root	_	_
+14	Magalhães	Magalhães	PROPN	_	_	13	flat:name	_	_
+15	[	[	PUNCT	_	_	16	punct	_	_
+16	Revista	Revista	PROPN	_	_	13	parataxis	_	_
+17	Veja	Veja	PROPN	_	_	16	flat:name	_	_
+18	]	]	PUNCT	_	_	16	punct	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	dia	dia	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25	21/03/16	21/03/16	NUM	_	NumType=Card	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = A matéria mostra documentos relativos ao sítio de Atibaia que foram encontrados durante operações de busca e apreensão (feitas pela PF) no apartamento do ex-presidente Lula, em São Bernardo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	relativos	relativo	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sítio	sítio	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Atibaia	Atibaia	PROPN	_	_	8	nmod	_	_
+11	que	que	PRON	_	PronType=Rel	13	nsubj:pass	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+14	durante	durante	ADP	_	_	15	case	_	_
+15	operações	operação	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	busca	busca	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	apreensão	apreensão	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+22-23	pela	_	_	_	_	_	_	_	_
+22	por	por	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	PF	PF	PROPN	_	_	21	obl:agent	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	21	punct	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	ex-presidente	ex-presidente	NOUN	_	Number=Sing	28	nmod	_	_
+32	Lula	Lula	PROPN	_	_	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	São	São	PROPN	_	_	28	nmod	_	_
+36	Bernardo	Bernardo	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Entre esses papéis apreendidos, havia um atestado sanitário autorizando o transporte de aves exóticas e assegurando que os sete pavões foram examinados e estavam em boas condições.
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	papéis	papel	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+4	apreendidos	apreender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	atestado	atestado	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	sanitário	sanitário	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	autorizando	autorizar	VERB	_	VerbForm=Ger	8	acl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	aves	ave	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+15	exóticas	exótico	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	assegurando	assegurar	VERB	_	VerbForm=Ger	10	conj	_	_
+18	que	que	SCONJ	_	_	23	mark	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	sete	sete	NUM	_	NumType=Card	21	nummod	_	_
+21	pavões	pavão	NOUN	_	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	examinados	examinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	17	ccomp	_	_
+24	e	e	CCONJ	_	_	28	cc	_	_
+25	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	boas	bom	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
+28	condições	condição	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = O documento foi datado em 2012 e as guias mostram que o transporte foi feito pela empresa TAM.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	datado	datar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	2012	2012	NUM	_	NumType=Card	4	obl	_	_
+7	e	e	CCONJ	_	_	10	cc	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	guias	guia	NOUN	_	Number=Plur	10	nsubj	_	_
+10	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	_
+19	TAM	TAM	PROPN	_	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+

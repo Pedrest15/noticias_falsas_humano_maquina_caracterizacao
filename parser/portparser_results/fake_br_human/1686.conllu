@@ -1,0 +1,313 @@
+# sent_id = S0001
+# text = ALÔ PF!
+1	ALÔ	alô	INTJ	_	_	0	root	_	_
+2	PF	PF	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Filho de ministro do STF postou mensagem preocupante nas redes sociais.
+1	Filho	filho	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	STF	STF	PROPN	_	_	3	nmod	_	_
+7	postou	postar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	preocupante	preocupante	ADJ	_	Number=Sing	8	amod	_	_
+10-11	nas	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	redes	rede	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+13	sociais	social	ADJ	_	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = A notícia foi divulgada em maio de 2016 pelo colunista Cláudio Humberto.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	maio	maio	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	2016	2016	NUM	_	NumType=Card	6	nmod	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	colunista	colunista	NOUN	_	Number=Sing	4	obl:agent	_	_
+12	Cláudio	Cláudio	PROPN	_	_	11	nmod	_	_
+13	Humberto	Humberto	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Será que os políticos criminosos não respeitam nem um ministro do STF?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	discourse	_	_
+2	que	que	SCONJ	_	_	7	discourse	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	políticos	político	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	criminosos	criminoso	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	respeitam	respeitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	nem	nem	ADV	_	_	9	advmod	_	_
+9	um	um	NUM	_	Gender=Masc|NumType=Card	10	nummod	_	_
+10	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	STF	STF	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = A PF deve investigar e triplicar a segurança de Teori [...] pelo nosso bem!
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PF	PF	PROPN	_	_	3	nsubj	_	_
+3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	investigar	investigar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	triplicar	triplicar	VERB	_	VerbForm=Inf	4	conj	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	segurança	segurança	NOUN	_	Number=Sing	4	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Teori	Teori	PROPN	_	_	8	nmod	_	_
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	..	..	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	12	punct	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	18	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
+18	bem	bem	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Francisco Zavascki, filho do relator da Lava Jato no Supremo Tribunal Federal, ministro Teori Zavascki, usou o Facebook para comentar as articulações de políticos para frear as investigações da operação.
+1	Francisco	Francisco	PROPN	_	_	22	nsubj	_	_
+2	Zavascki	Zavascki	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	filho	filho	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	relator	relator	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lava	Lava	PROPN	_	_	7	nmod	_	_
+11	Jato	Jato	PROPN	_	_	10	flat:name	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Supremo	Supremo	PROPN	_	_	7	nmod	_	_
+15	Tribunal	Tribunal	PROPN	_	_	14	flat:name	_	_
+16	Federal	Federal	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+19	Teori	Teori	PROPN	_	_	18	nmod	_	_
+20	Zavascki	Zavascki	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	18	punct	_	_
+22	usou	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Facebook	Facebook	PROPN	_	_	22	obj	_	_
+25	para	para	ADP	_	_	26	mark	_	_
+26	comentar	comentar	VERB	_	VerbForm=Inf	22	advcl	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	articulações	articulação	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	políticos	político	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+31	para	para	ADP	_	_	32	mark	_	_
+32	frear	frear	VERB	_	VerbForm=Inf	28	acl	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	operação	operação	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0013
+# text = A data da postagem é de 26 de maio.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	data	data	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	postagem	postagem	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	26	26	NUM	_	NumType=Card	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	maio	maio	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = É óbvio que há movimentos dos mais variados tipos para frear a Lava Jato.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	óbvio	óbvio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+5	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	10	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	variados	variado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	_
+10	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	frear	frear	VERB	_	VerbForm=Inf	4	advcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Lava	Lava	PROPN	_	_	12	obj	_	_
+15	Jato	Jato	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Penso que é até infantil imaginar que não há, isto é, que criminosos do pior tipo (conforme o MPF afirma) simplesmente resolveram se submeter à lei.
+1	Penso	pensar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	5	mark	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	até	até	ADV	_	_	5	advmod	_	_
+5	infantil	infantil	ADJ	_	Number=Sing	1	ccomp	_	_
+6	imaginar	imaginar	VERB	_	VerbForm=Inf	5	csubj	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	isto	isto	PRON	_	ExtPos=CCONJ|Gender=Masc|Number=Sing|PronType=Dem	9	cc	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	que	que	SCONJ	_	_	27	mark	_	_
+15	criminosos	criminoso	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	pior	pior	ADJ	_	Number=Sing	19	amod	_	_
+19	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+20	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+21	conforme	conforme	SCONJ	_	_	24	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	MPF	MPF	PROPN	_	_	24	nsubj	_	_
+24	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	simplesmente	simplesmente	ADV	_	_	27	advmod	_	_
+27	resolveram	resolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+28	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	29	expl	_	_
+29	submeter	submeter	VERB	_	VerbForm=Inf	27	xcomp	_	_
+30-31	à	_	_	_	_	_	_	_	_
+30	a	a	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	lei	lei	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Francisco ainda desabafou sobre ameaças à sua família.
+1	Francisco	Francisco	PROPN	_	_	3	nsubj	_	_
+2	ainda	ainda	ADV	_	_	3	advmod	_	_
+3	desabafou	desabafar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sobre	sobre	ADP	_	_	5	case	_	_
+5	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	9	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	família	família	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Porém, alerto: se algo acontecer com alguém da minha família, vocês já sabem onde procurar...!
+1	Porém	porém	CCONJ	_	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	alerto	alertar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	17	punct	_	_
+5	se	se	SCONJ	_	_	7	mark	_	_
+6	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+7	acontecer	acontecer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	17	advcl	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	família	família	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	7	punct	_	_
+15	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	17	nsubj	_	_
+16	já	já	ADV	_	_	17	advmod	_	_
+17	sabem	saber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+18	onde	onde	ADV	_	_	19	advmod	_	_
+19	procurar	procurar	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	...	...	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Fica o recado!, disse o filho do ministro em seu perfil no Facebook.
+1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp:speech	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	recado	recado	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	filho	filho	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Facebook	Facebook	PROPN	_	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = Ministro ameaçado Em março, após Teori decidir que o juiz federal Sérgio Moro devesse enviar para o Supremo Tribunal Federal as investigações da Lava Jato envolvendo o ex-presidente Lula, o ministro foi alvo de ameaças de setores da oposição.
+1	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
+2	ameaçado	ameaçar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+3	Em	em	ADP	_	_	4	case	_	_
+4	março	março	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	após	após	ADP	_	_	8	mark	_	_
+7	Teori	Teori	PROPN	_	_	8	nsubj	_	_
+8	decidir	decidir	VERB	_	VerbForm=Inf	36	advcl	_	_
+9	que	que	SCONJ	_	_	15	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+12	federal	federal	ADJ	_	Number=Sing	11	amod	_	_
+13	Sérgio	Sérgio	PROPN	_	_	11	nmod	_	_
+14	Moro	Moro	PROPN	_	_	13	flat:name	_	_
+15	devesse	dever	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+16	enviar	enviar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Supremo	Supremo	PROPN	_	_	16	obl	_	_
+20	Tribunal	Tribunal	PROPN	_	_	19	flat:name	_	_
+21	Federal	Federal	PROPN	_	_	19	flat:name	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Lava	Lava	PROPN	_	_	23	nmod	_	_
+27	Jato	Jato	PROPN	_	_	26	flat:name	_	_
+28	envolvendo	envolver	VERB	_	VerbForm=Ger	23	acl	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ex-presidente	ex-presidente	NOUN	_	Number=Sing	28	obj	_	_
+31	Lula	Lula	PROPN	_	_	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	8	punct	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
+35	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	_	_
+36	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	36	nmod	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	setores	setor	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	36	punct	_	_
+

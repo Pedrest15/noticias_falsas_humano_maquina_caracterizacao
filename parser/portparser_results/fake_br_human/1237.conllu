@@ -1,0 +1,263 @@
+# sent_id = S0001
+# text = Dono da Friboi (que delatou Michel Temer) recebeu ameaças de morte e viajou para os EUA.
+1	Dono	dono	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Friboi	Friboi	PROPN	_	_	1	nmod	_	_
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	delatou	delatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	Michel	Michel	PROPN	_	_	7	obj	_	_
+9	Temer	Temer	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
+11	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	morte	morte	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	viajou	viajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	EUA	EUA	PROPN	_	_	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = Joesley Batista, dono JBS Friboi, foi ameaçado de morte após a divulgação de sua deleção premiada.
+1	Joesley	Joesley	PROPN	_	_	9	nsubj:pass	_	_
+2	Batista	Batista	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	dono	dono	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	JBS	JBS	PROPN	_	_	4	nmod	_	_
+6	Friboi	Friboi	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	ameaçado	ameaçar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	morte	morte	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+12	após	após	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	deleção	deleção	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = A informação é da "Globo News".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Globo	Globo	PROPN	_	_	0	root	_	_
+8	News	News	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = O empresário está em Nova York com a família e não tem data para retornar ao Brasil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Nova	Nova	PROPN	_	_	0	root	_	_
+6	York	York	PROPN	_	_	5	flat:name	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	família	família	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	data	data	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	retornar	retornar	VERB	_	VerbForm=Inf	13	acl	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Brasil	Brasil	PROPN	_	_	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Ele viajou com autorização da Polícia Federal.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	viajou	viajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	autorização	autorização	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polícia	Polícia	PROPN	_	_	4	nmod	_	_
+8	Federal	Federal	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Na delação premiada, Joeslei apresentou provas de um diálogo comprometedor entre o presidente Temer e o deputado Rodrigo Rocha (PMDB).
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	delação	delação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+4	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	Joeslei	Joeslei	PROPN	_	_	7	nsubj	_	_
+7	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	provas	prova	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	diálogo	diálogo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	comprometedor	comprometedor	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	entre	entre	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presidente	presidente	NOUN	_	Number=Sing	11	nmod	_	_
+16	Temer	Temer	PROPN	_	_	15	nmod	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+20	Rodrigo	Rodrigo	PROPN	_	_	19	nmod	_	_
+21	Rocha	Rocha	PROPN	_	_	20	flat:name	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	PMDB	PMDB	PROPN	_	_	19	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = A filmagem foi entregue à PGR e também ao ministro do STF, Edson Fachin.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	filmagem	filmagem	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	entregue	entregar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	PGR	PGR	PROPN	_	_	4	obl	_	_
+8	e	e	CCONJ	_	_	12	cc	_	_
+9	também	também	ADV	_	_	12	advmod	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	STF	STF	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Edson	Edson	PROPN	_	_	12	appos	_	_
+18	Fachin	Fachin	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = O deputado Rodrigo Rocha (com o aval de Temer) estaria usando dinheiro de propina da JBS para calar o ex-deputado preso Eduardo Cunha [...] trocando em miúdos: o presidente estaria obstruindo a Justiça.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	Rodrigo	Rodrigo	PROPN	_	_	2	nmod	_	_
+4	Rocha	Rocha	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	aval	aval	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Temer	Temer	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	8	punct	_	_
+12	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	aux	_	_
+13	usando	usar	VERB	_	VerbForm=Ger	0	root	_	_
+14	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	propina	propina	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	JBS	JBS	PROPN	_	_	16	nmod	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	calar	calar	VERB	_	VerbForm=Inf	13	advcl	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	23	amod	_	_
+25	Eduardo	Eduardo	PROPN	_	_	23	nmod	_	_
+26	Cunha	Cunha	PROPN	_	_	25	flat:name	_	_
+27	[	[	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	31	parataxis	_	SpaceAfter=No
+29	..	..	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
+30	]	]	PUNCT	_	_	29	punct	_	_
+31	trocando	trocar	VERB	_	VerbForm=Ger	13	parataxis	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	miúdos	miúdo	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+34	:	:	PUNCT	_	_	38	punct	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	presidente	presidente	NOUN	_	Number=Sing	38	nsubj	_	_
+37	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	38	aux	_	_
+38	obstruindo	obstruir	VERB	_	VerbForm=Ger	13	parataxis	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Justiça	Justiça	PROPN	_	_	38	obj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0017
+# text = De acordo com informação do jornal O Globo, toda a ação foi acompanhada pela PF [...] o caminho do "dinheiro sujo" foi rastreado através de chips.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	informação	informação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	O	O	PROPN	_	_	7	nmod	_	_
+9	Globo	Globo	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ação	ação	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	acompanhada	acompanhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	PF	PF	PROPN	_	_	15	obl:agent	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	32	parataxis	_	SpaceAfter=No
+21	..	..	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	]	]	PUNCT	_	_	20	punct	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	28	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+29	sujo	sujo	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	28	punct	_	_
+31	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux:pass	_	_
+32	rastreado	rastrear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	_
+33	através	através	ADV	_	_	32	advmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	chips	chip	NOUN	_	Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0019
+# text = Joesley, que tem 56 empresas nos EUA, já contratou uma banca de advogados norte-americanos para proteger suas empresas.
+1	Joesley	Joesley	PROPN	_	_	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	56	56	NUM	_	NumType=Card	6	nummod	_	_
+6	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7-8	nos	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	EUA	EUA	PROPN	_	_	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	já	já	ADV	_	_	12	advmod	_	_
+12	contratou	contratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	banca	banca	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	norte-americanos	norte-americano	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	proteger	proteger	VERB	_	VerbForm=Inf	12	advcl	_	_
+20	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	_
+

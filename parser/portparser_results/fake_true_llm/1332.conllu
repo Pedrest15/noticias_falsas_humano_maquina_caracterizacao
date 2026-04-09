@@ -1,0 +1,438 @@
+# sent_id = S0001
+# text = Urgente: Museu Nacional no Rio de Janeiro foi intencionalmente incendiado!
+1	Urgente	urgente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Museu	Museu	PROPN	_	_	12	nsubj:pass	_	_
+4	Nacional	Nacional	PROPN	_	_	3	flat:name	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Rio	Rio	PROPN	_	_	3	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Janeiro	Janeiro	PROPN	_	_	7	flat:name	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+11	intencionalmente	intencionalmente	ADV	_	_	12	advmod	_	_
+12	incendiado	incendiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	root	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = Na madrugada deste domingo (2), um incêndio devastador atingiu o Museu Nacional no Rio de Janeiro, destruindo grande parte de seu acervo histórico.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+4-5	deste	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	2	2	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	incêndio	incêndio	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	devastador	devastador	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	atingiu	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Museu	Museu	PROPN	_	_	14	obj	_	_
+17	Nacional	Nacional	PROPN	_	_	16	flat:name	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Rio	Rio	PROPN	_	_	14	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Janeiro	Janeiro	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	destruindo	destruir	VERB	_	VerbForm=Ger	14	advcl	_	_
+25	grande	grande	ADJ	_	Number=Sing	26	amod	_	_
+26	parte	parte	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	acervo	acervo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	histórico	histórico	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0005
+# text = Fontes anônimas afirmam que o fogo não foi um acidente, mas um ato deliberado de vandalismo.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	não	não	ADV	_	_	10	advmod	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	mas	mas	CCONJ	_	_	14	cc	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ato	ato	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+15	deliberado	deliberado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	vandalismo	vandalismo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Segundo informações exclusivas, o museu vinha enfrentando cortes significativos de verbas públicas, passando de R$ 979,9 mil em 2013 para apenas R$ 643,5 mil em 2017.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+3	exclusivas	exclusivo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	museu	museu	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	vinha	vir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	enfrentando	enfrentar	VERB	_	VerbForm=Ger	0	root	_	_
+9	cortes	corte	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	significativos	significativo	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	verbas	verba	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+13	públicas	público	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	passando	passar	VERB	_	VerbForm=Ger	8	advcl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	R$	R$	SYM	_	_	15	obl	_	_
+18	979,9	979,9	NUM	_	NumType=Card	17	nummod	_	_
+19	mil	mil	NUM	_	NumType=Card	18	flat	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	2013	2013	NUM	_	NumType=Card	17	nmod	_	_
+22	para	para	ADP	_	_	24	case	_	_
+23	apenas	apenas	ADV	_	_	24	advmod	_	_
+24	R$	R$	SYM	_	_	15	obl	_	_
+25	643,5	643,5	NUM	_	NumType=Card	24	nummod	_	_
+26	mil	mil	NUM	_	NumType=Card	25	flat	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	2017	2017	NUM	_	NumType=Card	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Especialistas alegam que esses cortes orçamentários, que representam uma queda de mais de 30%, comprometeram severamente a segurança e manutenção do edifício histórico.
+1	Especialistas	especialista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	alegam	alegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	18	mark	_	_
+4	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	cortes	corte	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+6	orçamentários	orçamentário	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	representam	representar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	queda	queda	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	16	case	_	_
+13	mais	mais	ADV	_	ExtPos=ADV	15	advmod	_	_
+14	de	de	ADP	_	_	13	fixed	_	_
+15	30	30	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	_	_	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	9	punct	_	_
+18	comprometeram	comprometer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+19	severamente	severamente	ADV	_	_	18	advmod	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	segurança	segurança	NOUN	_	Number=Sing	18	obj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	manutenção	manutenção	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	edifício	edifício	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+27	histórico	histórico	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Os dados, revelados pela Consultoria de Orçamento da Câmara dos Deputados, mostram um padrão alarmante de desinvestimento.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	revelados	revelar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Consultoria	Consultoria	PROPN	_	_	4	obl:agent	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Orçamento	Orçamento	PROPN	_	_	7	flat:name	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Câmara	Câmara	PROPN	_	_	7	nmod	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	Deputados	Deputados	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	alarmante	alarmante	ADJ	_	Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	desinvestimento	desinvestimento	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0013
+# text = A correção dos valores pelo IPCA indica que a redução, quando ajustada pela inflação, foi ainda mais dramática.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	correção	correção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	valores	valor	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	IPCA	IPCA	PROPN	_	_	2	nmod	_	_
+9	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	23	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	redução	redução	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	quando	quando	SCONJ	_	_	15	mark	_	_
+15	ajustada	ajustar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	23	advcl	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	inflação	inflação	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+21	ainda	ainda	ADV	_	_	23	advmod	_	_
+22	mais	mais	ADV	_	_	23	advmod	_	_
+23	dramática	dramático	ADJ	_	Gender=Fem|Number=Sing	9	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = Esse cenário teria motivado a ação de grupos extremistas que protestam contra a falta de apoio à cultura e à ciência no país.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	motivado	motivar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ação	ação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	extremistas	extremista	ADJ	_	Number=Plur	8	amod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	protestam	protestar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	contra	contra	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	falta	falta	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21-22	à	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	ciência	ciência	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	país	país	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Abaixo, veja a queda vertiginosa dos valores anuais recebidos pelo Museu Nacional:
+1	Abaixo	abaixo	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	queda	queda	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	vertiginosa	vertiginoso	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+10	anuais	anual	ADJ	_	Number=Plur	9	amod	_	_
+11	recebidos	receber	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+12-13	pelo	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Museu	Museu	PROPN	_	_	11	obl:agent	_	_
+15	Nacional	Nacional	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = - 2013: R$ 979,9 mil.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	2013	2013	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	R$	R$	SYM	_	_	2	parataxis	_	_
+5	979,9	979,9	NUM	_	NumType=Card	4	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0020
+# text = - 2014: R$ 850 mil.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	2014	2014	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	R$	R$	SYM	_	_	2	parataxis	_	_
+5	850	850	NUM	_	NumType=Card	4	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = - 2015: R$ 720 mil.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	2015	2015	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	R$	R$	SYM	_	_	2	parataxis	_	_
+5	720	720	NUM	_	NumType=Card	4	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0022
+# text = - 2016: R$ 660 mil.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	2016	2016	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	R$	R$	SYM	_	_	2	parataxis	_	_
+5	660	660	NUM	_	NumType=Card	4	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = - 2017: R$ 643,5 mil.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	2017	2017	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	R$	R$	SYM	_	_	2	parataxis	_	_
+5	643,5	643,5	NUM	_	NumType=Card	4	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0024
+# text = - 2018: Apenas R$ 400 mil até agosto.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	2018	2018	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	Apenas	apenas	ADV	_	_	5	advmod	_	_
+5	R$	R$	SYM	_	_	2	parataxis	_	_
+6	400	400	NUM	_	NumType=Card	5	nummod	_	_
+7	mil	mil	NUM	_	NumType=Card	6	flat	_	_
+8	até	até	ADP	_	_	9	case	_	_
+9	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0026
+# text = O dinheiro, que já era escasso, destinava-se a bolsas de estudo, reestruturação, modernização, funcionamento e capacitação de servidores.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+5	já	já	ADV	_	_	7	advmod	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	escasso	escasso	ADJ	_	Gender=Masc|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9-10	destinava-se	_	_	_	_	_	_	_	_
+9	destinava	destinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	bolsas	bolsa	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	reestruturação	reestruturação	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	modernização	modernização	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	capacitação	capacitação	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	servidores	servidor	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0028
+# text = A falta de recursos levou à deterioração das condições de segurança, tornando o museu um alvo fácil para ações mal-intencionadas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	falta	falta	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	deterioração	deterioração	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	condições	condição	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	segurança	segurança	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	tornando	tornar	VERB	_	VerbForm=Ger	5	advcl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	museu	museu	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	15	xcomp	_	_
+20	fácil	fácil	ADJ	_	Number=Sing	19	amod	_	_
+21	para	para	ADP	_	_	22	case	_	_
+22	ações	ação	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+23	mal-intencionadas	mal-intencionado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0030
+# text = Autoridades estão investigando a fundo, mas já há suspeitas de que o incêndio possa estar ligado a uma série de protestos recentes contra o desmonte de instituições culturais.
+1	Autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	investigando	investigar	VERB	_	VerbForm=Ger	0	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	fundo	fundo	ADV	_	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	mas	mas	CCONJ	_	_	9	cc	_	_
+8	já	já	ADV	_	_	9	advmod	_	_
+9	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	de	de	ADP	_	ExtPos=SCONJ	15	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	incêndio	incêndio	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+16	estar	estar	AUX	_	VerbForm=Inf	17	cop	_	_
+17	ligado	ligado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	15	xcomp	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	série	série	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	protestos	protesto	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23	recentes	recente	ADJ	_	Number=Plur	22	amod	_	_
+24	contra	contra	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	desmonte	desmonte	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	instituições	instituição	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
+29	culturais	cultural	ADJ	_	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0032
+# text = Enquanto isso, a comunidade científica e cultural do país está em luto, e muitos clamam por justiça e maior investimento no setor.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	14	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+6	científica	científico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	cultural	cultural	ADJ	_	Number=Sing	6	conj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	país	país	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+12	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	luto	luto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
+18	clamam	clamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	maior	maior	ADJ	_	Number=Sing	23	amod	_	_
+23	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	setor	setor	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
+

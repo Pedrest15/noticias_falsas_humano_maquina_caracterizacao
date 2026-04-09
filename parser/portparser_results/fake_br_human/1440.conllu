@@ -1,0 +1,192 @@
+# sent_id = S0001
+# text = Lula cobrou "gratidão" de Janot e tomou um nocaute: "Eu estudei.Fiz concurso.Não devo nada a ninguém".
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	cobrou	cobrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	gratidão	gratidão	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Janot	Janot	PROPN	_	_	4	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	tomou	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nocaute	nocaute	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	15	punct	_	_
+13	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	estudei.Fiz	eazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+16	concurso.Não	concurso.não	ADV	_	_	17	advmod	_	_
+17	devo	dever	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp:speech	_	_
+18	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Lula, em um de seus grampos flagrados pela PF, cobrou "gratidão" de Rodrigo Janot.
+1	Lula	Lula	PROPN	_	_	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	um	um	NUM	_	Gender=Masc|NumType=Card	13	obl	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	grampos	grampo	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+8	flagrados	flagrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	PF	PF	PROPN	_	_	8	obl:agent	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	cobrou	cobrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	gratidão	gratidão	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Rodrigo	Rodrigo	PROPN	_	_	15	nmod	_	_
+19	Janot	Janot	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Em 2013 Janot foi escolhido pela presidente Dilma Rousseff para substituir Roberto Gurgel no cargo máximo da Procuradoria-Geral da República.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2013	2013	NUM	_	NumType=Card	5	obl	_	_
+3	Janot	Janot	PROPN	_	_	5	nsubj:pass	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	escolhido	escolher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	5	obl:agent	_	_
+9	Dilma	Dilma	PROPN	_	_	8	nmod	_	_
+10	Rousseff	Rousseff	PROPN	_	_	9	flat:name	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	substituir	substituir	VERB	_	VerbForm=Inf	5	advcl	_	_
+13	Roberto	Roberto	PROPN	_	_	12	obj	_	_
+14	Gurgel	Gurgel	PROPN	_	_	13	flat:name	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+18	máximo	máximo	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Procuradoria-Geral	Procuradoria-Geral	PROPN	_	_	17	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	República	República	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Lula queria cobrar essa "dívida".
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	cobrar	cobrar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Janot prontamente respondeu: Cargos públicos não são dados de presente.
+1	Janot	Janot	PROPN	_	_	3	nsubj	_	_
+2	prontamente	prontamente	ADV	_	_	3	advmod	_	_
+3	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	9	punct	_	_
+5	Cargos	cargo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+6	públicos	público	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	não	não	ADV	_	_	9	advmod	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	dados	dado	NOUN	_	Gender=Masc|Number=Plur	3	ccomp:speech	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	presente	presente	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Eu sou muito grato a minha família.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sou	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	muito	muito	ADV	_	_	4	advmod	_	_
+4	grato	grato	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	família	família	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Fiz concurso.
+1	Fiz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	concurso	concurso	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Estudei para caramba.
+1	Estudei	estudar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	para	para	ADP	_	_	3	case	_	_
+3	caramba	caramba	ADV	_	_	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = Tenho 32 anos de carreira.
+1	Tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	32	32	NUM	_	NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = De acordo com o relato de Jamil Chade, do Estadão, Janot afirmou: Nosso trabalho é republicano.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	relato	relato	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Jamil	Jamil	PROPN	_	_	5	nmod	_	_
+8	Chade	Chade	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Estadão	Estadão	PROPN	_	_	5	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Janot	Janot	PROPN	_	_	15	nsubj	_	_
+15	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	20	punct	_	_
+17	Nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
+18	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	republicano	republicano	ADJ	_	Gender=Masc|Number=Sing	15	ccomp:speech	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0021
+# text = Não há pessoa fora de investigação.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	fora	fora	ADV	_	_	2	advmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Ninguém está imune, ninguém .
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	3	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	imune	imune	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	3	vocative	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Dilma será investigada também!
+1	Dilma	Dilma	PROPN	_	_	3	nsubj:pass	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
+3	investigada	investigar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	também	também	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+

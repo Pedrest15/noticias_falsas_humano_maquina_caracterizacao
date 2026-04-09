@@ -1,0 +1,240 @@
+# sent_id = S0001
+# text = Em delação, Delcídio cita cinco senadores.
+1	Em	em	ADP	_	_	2	case	_	_
+2	delação	delação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Delcídio	Delcídio	PROPN	_	_	5	nsubj	_	_
+5	cita	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	cinco	cinco	NUM	_	NumType=Card	7	nummod	_	_
+7	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Entre eles estão Aécio Neves e Renan Calheiros.
+1	Entre	entre	ADP	_	_	2	case	_	_
+2	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	Aécio	Aécio	PROPN	_	_	2	nsubj	_	_
+5	Neves	Neves	PROPN	_	_	4	flat:name	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	Renan	Renan	PROPN	_	_	4	conj	_	_
+8	Calheiros	Calheiros	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O senador petista Delcídio do Amaral citou cinco colegas de Senado em sua delação premiada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	petista	petista	ADJ	_	Number=Sing	2	amod	_	_
+4	Delcídio	Delcídio	PROPN	_	_	2	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Amaral	Amaral	PROPN	_	_	4	flat:name	_	_
+8	citou	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	cinco	cinco	NUM	_	NumType=Card	10	nummod	_	_
+10	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Senado	Senado	PROPN	_	_	10	nmod	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	delação	delação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+16	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Renan Calheiros (PMDB) e Aécio Neves (PSDB) estão entre os delatados.
+1	Renan	Renan	PROPN	_	_	14	nsubj	_	_
+2	Calheiros	Calheiros	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	PMDB	PMDB	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	Aécio	Aécio	PROPN	_	_	1	conj	_	_
+8	Neves	Neves	PROPN	_	_	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	PSDB	PSDB	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	entre	entre	ADP	_	_	14	case	_	_
+14	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	0	root	_	_
+15	delatados	delatar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = Romero Jucá, Edison Lobão e o ex-ministro de Minas e Energia Valdir Raupp (RO) completam a lista.
+1	Romero	Romero	PROPN	_	_	18	nsubj	_	_
+2	Jucá	Jucá	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	Edison	Edison	PROPN	_	_	1	conj	_	_
+5	Lobão	Lobão	PROPN	_	_	4	flat:name	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Minas	Minas	PROPN	_	_	8	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Energia	Energia	PROPN	_	_	10	flat:name	_	_
+13	Valdir	Valdir	PROPN	_	_	8	nmod	_	_
+14	Raupp	Raupp	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	RO	RO	PROPN	_	_	8	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	completam	completar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lista	lista	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0011
+# text = O acordo de delação de Delcídio ainda não foi homologado pelo ministro Teori Zavascki, relator da Lava-Jato no STF.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	delação	delação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Delcídio	Delcídio	PROPN	_	_	4	nmod	_	_
+7	ainda	ainda	ADV	_	_	10	advmod	_	_
+8	não	não	ADV	_	_	10	advmod	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	homologado	homologar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14	Teori	Teori	PROPN	_	_	13	nmod	_	_
+15	Zavascki	Zavascki	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	relator	relator	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Lava-Jato	Lava-Jato	PROPN	_	_	17	nmod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	STF	STF	PROPN	_	_	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Delcídio deixou a prisão em 19 de fevereiro.
+1	Delcídio	Delcídio	PROPN	_	_	2	nsubj	_	_
+2	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	19	19	NUM	_	NumType=Card	2	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Ele foi acusado de obstruir as investigações da Lava-Jato.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	obstruir	obstruir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lava-Jato	Lava-Jato	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = O OUTRO LADO Renan sustentou que "nunca autorizou, credenciou ou consentiu que seu nome fosse utilizado por terceiros".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	OUTRO	outro	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	LADO	LADO	PUNCT	_	_	5	nsubj	_	_
+4	Renan	Renan	PROPN	_	_	5	nsubj	_	_
+5	sustentou	sustentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	nunca	nunca	ADV	_	_	9	advmod	_	_
+9	autorizou	autorizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	credenciou	credenciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+12	ou	ou	CCONJ	_	_	13	cc	_	_
+13	consentiu	consentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+14	que	que	SCONJ	_	_	18	mark	_	_
+15	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	nome	nome	NOUN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+17	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	terceiros	terceiro	NOUN	_	Gender=Masc|Number=Plur	18	obl:agent	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = A assessoria de Aécio disse que o senador se manifestará "quando tiver informações mais concretas" NOTA Apesar dos cinco senadores constarem na "suposta" delação de Delcídio (conforme informou a Folha/SP), devemos ter cuidado para fazer julgamentos e não colocá-los no mesmo patamar de Lula.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Aécio	Aécio	PROPN	_	_	2	nmod	_	_
+5	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	senador	senador	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	manifestará	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp	_	_
+11	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+12	quando	quando	SCONJ	_	_	13	mark	_	_
+13	tiver	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+14	informações	informação	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	concretas	concreto	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	10	punct	_	_
+18	NOTA	NOTA	PROPN	_	_	5	punct	_	_
+19	Apesar	apesar	ADV	_	_	40	advmod	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	24	mark	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	cinco	cinco	NUM	_	NumType=Card	23	nummod	_	_
+23	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+24	constarem	constar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	19	acl	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	30	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+27	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+28	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	30	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	30	punct	_	_
+30	delação	delação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Delcídio	Delcídio	PROPN	_	_	30	nmod	_	_
+33	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+34	conforme	conforme	SCONJ	_	_	35	mark	_	_
+35	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	advcl	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Folha/SP	Folha/SP	PROPN	_	_	35	nsubj	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	13	punct	_	_
+40	devemos	dever	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+41	ter	ter	VERB	_	VerbForm=Inf	40	xcomp	_	_
+42	cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	41	obj	_	_
+43	para	para	ADP	_	_	44	mark	_	_
+44	fazer	fazer	VERB	_	VerbForm=Inf	41	advcl	_	_
+45	julgamentos	julgamento	NOUN	_	Gender=Masc|Number=Plur	44	obj	_	_
+46	e	e	CCONJ	_	_	48	cc	_	_
+47	não	não	ADV	_	_	48	advmod	_	_
+48-49	colocá-los	_	_	_	_	_	_	_	_
+48	colocar	colocar	VERB	_	VerbForm=Inf	44	conj	_	_
+49	los	lo	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	48	obj	_	_
+50-51	no	_	_	_	_	_	_	_	_
+50	em	em	ADP	_	_	53	case	_	_
+51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+52	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	53	det	_	_
+53	patamar	patamar	NOUN	_	Gender=Masc|Number=Sing	48	obl	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	Lula	Lula	PROPN	_	_	53	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0021
+# text = São coisas totalmente distintas.
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+3	totalmente	totalmente	ADV	_	_	4	advmod	_	_
+4	distintas	distinto	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+

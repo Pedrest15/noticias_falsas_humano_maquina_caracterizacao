@@ -1,0 +1,132 @@
+# sent_id = S0001
+# text = Cerca de 200 detentos escapam de penitenciária no interior de SP.
+1	Cerca	cerca	ADV	_	ExtPos=ADV	3	advmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	200	200	NUM	_	NumType=Card	4	nummod	_	_
+4	detentos	detento	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	escapam	escapar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	penitenciária	penitenciária	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	interior	interior	NOUN	_	Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	SP	SP	PROPN	_	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Na manhã de hoje (24) cerca de 200 presos fugiram do Instituto Penal Agrícola, em Bauru, interior de São Paulo.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	hoje	hoje	ADV	_	_	3	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	24	24	NUM	_	NumType=Card	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	cerca	cerca	ADV	_	ExtPos=ADV	11	advmod	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	200	200	NUM	_	NumType=Card	12	nummod	_	_
+12	presos	preso	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	fugiram	fugir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Instituto	Instituto	PROPN	_	_	13	obl	_	_
+17	Penal	Penal	PROPN	_	_	16	flat:name	_	_
+18	Agrícola	Agrícola	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	Bauru	Bauru	PROPN	_	_	13	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	interior	interior	NOUN	_	Number=Sing	21	appos	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	São	São	PROPN	_	_	23	nmod	_	_
+26	Paulo	Paulo	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = A PM controlou o motim, capturou parte dos presos e está fazendo buscas na cidade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	3	nsubj	_	_
+3	controlou	controlar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	motim	motim	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	capturou	capturar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	presos	preso	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fazendo	fazer	VERB	_	VerbForm=Ger	3	conj	_	_
+15	buscas	busca	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Ainda não há informações sobre o número de presos que continua nas ruas.
+1	Ainda	ainda	ADV	_	_	3	advmod	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	informações	informação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	sobre	sobre	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	número	número	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	presos	preso	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12-13	nas	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O Instituto Penal abriga 1427 detentos em regime semi-aberto e tem capacidade para pouco mais de 1100 internos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Instituto	Instituto	PROPN	_	_	4	nsubj	_	_
+3	Penal	Penal	PROPN	_	_	2	flat:name	_	_
+4	abriga	abrigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	1427	1427	NUM	_	NumType=Card	6	nummod	_	_
+6	detentos	detento	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	regime	regime	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	semi-aberto	semi-aberto	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	para	para	ADP	_	_	18	case	_	_
+14	pouco	pouco	ADV	_	_	15	advmod	_	_
+15	mais	mais	ADV	_	ExtPos=ADV	17	advmod	_	_
+16	de	de	ADP	_	_	15	fixed	_	_
+17	1100	1100	NUM	_	NumType=Card	18	nummod	_	_
+18	internos	interno	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = As imagens abaixo foram capturadas por um policial da Tropa de Choque:
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	abaixo	abaixo	ADV	_	_	5	advmod	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	capturadas	capturar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	policial	policial	NOUN	_	Number=Sing	5	obl:agent	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Tropa	Tropa	PROPN	_	_	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Choque	Choque	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	5	punct	_	_
+

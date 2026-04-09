@@ -1,0 +1,160 @@
+# sent_id = S0001
+# text = Papa Francisco diz que a Bíblia "é a história do fracasso de Deus".
+1	Papa	Papa	PROPN	_	_	3	nsubj	_	_
+2	Francisco	Francisco	PROPN	_	_	1	flat:name	_	_
+3	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Bíblia	Bíblia	PROPN	_	_	10	nsubj	_	_
+7	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	história	história	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fracasso	fracasso	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Deus	Deus	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Um discurso feito pelo Papa Francisco está confundindo a cabeça dos cristãos.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	pelo	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Papa	Papa	PROPN	_	_	3	obl:agent	_	_
+7	Francisco	Francisco	PROPN	_	_	6	flat:name	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	confundindo	confundir	VERB	_	VerbForm=Ger	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cristãos	cristão	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = A declaração foi feita durante a última visita do Pontífice aos Estados Unidos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	durante	durante	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	última	último	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	visita	visita	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Pontífice	Pontífice	PROPN	_	_	8	nmod	_	_
+12-13	aos	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Estados	Estados	PROPN	_	_	8	nmod	_	_
+15	Unidos	Unidos	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Abaixo a transcrição do discurso de Jorge Mario Bergoglio, o Papa: "Sempre carrego comigo duas coisas: O Rosário para rezar e uma coisa que parece estranha: a Bíblia" "Isto é a história do FRACASSO de Deus" disse o Papa apontando para a Bíblia.
+1	Abaixo	abaixo	ADV	_	_	3	advmod	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	transcrição	transcrição	NOUN	_	Gender=Fem|Number=Sing	48	ccomp:speech	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Jorge	Jorge	PROPN	_	_	6	nmod	_	_
+9	Mario	Mario	PROPN	_	_	8	flat:name	_	_
+10	Bergoglio	Bergoglio	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Papa	Papa	PROPN	_	_	8	appos	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	17	punct	_	_
+15	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	Sempre	sempre	ADV	_	_	17	advmod	_	_
+17	carrego	carregar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	48	ccomp:speech	_	_
+18-19	comigo	_	_	_	_	_	_	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	obl	_	_
+20	duas	dois	NUM	_	Gender=Fem|NumType=Card	21	nummod	_	_
+21	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	24	punct	_	_
+23	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Rosário	Rosário	PROPN	_	_	21	appos	_	_
+25	para	para	ADP	_	_	26	mark	_	_
+26	rezar	rezar	VERB	_	VerbForm=Inf	24	acl	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+30	que	que	PRON	_	PronType=Rel	31	nsubj	_	_
+31	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	estranha	estranho	ADJ	_	Gender=Fem|Number=Sing	31	xcomp	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	35	punct	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Bíblia	Bíblia	PROPN	_	_	29	appos	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	41	punct	_	_
+37	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
+38	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	41	nsubj	_	_
+39	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	história	história	NOUN	_	Gender=Fem|Number=Sing	17	parataxis	_	_
+42-43	do	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	FRACASSO	FRACASSO	PROPN	_	_	41	nmod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	Deus	Deus	PROPN	_	_	44	nmod	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	17	punct	_	_
+48	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	Papa	Papa	PROPN	_	_	48	nsubj	_	_
+51	apontando	apontar	VERB	_	VerbForm=Ger	48	advcl	_	_
+52	para	para	ADP	_	_	54	case	_	_
+53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	Bíblia	Bíblia	PROPN	_	_	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = S0009
+# text = Com essa duas coisas faço o melhor que posso.
+1	Com	com	ADP	_	_	4	case	_	_
+2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	duas	dois	NUM	_	Gender=Fem|NumType=Card	4	nummod	_	_
+4	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+5	faço	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
+7	melhor	melhor	ADJ	_	Number=Sing	6	amod	_	_
+8	que	que	PRON	_	PronType=Rel	9	obj	_	_
+9	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Graças a estas duas coisas, eu não perco a esperança encerrou.
+1	Graças	graça	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+2	a	a	ADP	_	_	5	case	_	_
+3	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+4	duas	dois	NUM	_	Gender=Fem|NumType=Card	5	nummod	_	_
+5	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	perco	perder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	esperança	esperança	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Tire suas próprias conclusões:
+1	Tire	tirar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	próprias	próprio	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+4	conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+

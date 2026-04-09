@@ -1,0 +1,557 @@
+# sent_id = S0001
+# text = Pyongyang anuncia teste de míssil capaz de atingir qualquer ponto dos EUA.
+1	Pyongyang	Pyongyang	PROPN	_	_	2	nsubj	_	_
+2	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	teste	teste	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	capaz	capaz	ADJ	_	Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	atingir	atingir	VERB	_	VerbForm=Inf	6	acl	_	_
+9	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	10	det	_	_
+10	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	EUA	EUA	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Hwasong-15 teria alcance de 15 mil quilômetros; Trump promete resposta "fogo e fúria".
+1	Hwasong-15	hwasong-15	NUM	_	NumType=Card	2	nsubj	_	_
+2	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	alcance	alcance	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	15	15	NUM	_	NumType=Card	7	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	_
+7	quilômetros	quilômetro	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	_	_	10	punct	_	_
+9	Trump	Trump	PROPN	_	_	10	nsubj	_	_
+10	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	fúria	fúria	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = PYONGYANG - O governo da Coreia do Norte fez uma declaração bombástica na quarta-feira, afirmando que o novo míssil intercontinental Hwasong-15, testado recentemente, possui um alcance impressionante de 15 mil quilômetros, capaz de atingir qualquer cidade dos Estados Unidos.
+1	PYONGYANG	PYONGYANG	PROPN	_	_	11	nsubj	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Coreia	Coreia	PROPN	_	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Norte	Norte	PROPN	_	_	7	flat:name	_	_
+11	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	afirmando	afirmar	VERB	_	VerbForm=Ger	11	advcl	_	_
+20	que	que	SCONJ	_	_	30	mark	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	novo	novo	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+23	míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+24	intercontinental	intercontinental	ADJ	_	Number=Sing	23	amod	_	_
+25	Hwasong-15	Hwasong-15	PROPN	_	_	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	testado	testar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
+28	recentemente	recentemente	ADV	_	_	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	27	punct	_	_
+30	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+31	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	alcance	alcance	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	impressionante	impressionante	ADJ	_	Number=Sing	32	amod	_	_
+34	de	de	ADP	_	_	37	case	_	_
+35	15	15	NUM	_	NumType=Card	37	nummod	_	_
+36	mil	mil	NUM	_	NumType=Card	35	flat	_	_
+37	quilômetros	quilômetro	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	capaz	capaz	ADJ	_	Number=Sing	32	amod	_	_
+40	de	de	ADP	_	_	41	mark	_	_
+41	atingir	atingir	VERB	_	VerbForm=Inf	39	acl	_	_
+42	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	43	det	_	_
+43	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
+44-45	dos	_	_	_	_	_	_	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	Estados	Estados	PROPN	_	_	43	nmod	_	_
+47	Unidos	Unidos	PROPN	_	_	46	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = A TV estatal norte-coreana destacou que este novo armamento é superior em "todas as especificações táticas e tecnológicas" em comparação com o Hwasong-14, testado anteriormente.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	estatal	estatal	ADJ	_	Number=Sing	2	amod	_	_
+4	norte-coreana	norte-coreana	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+5	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	novo	novo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	armamento	armamento	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	superior	superior	ADJ	_	Number=Sing	5	ccomp	_	_
+12	em	em	ADP	_	_	16	case	_	_
+13	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	especificações	especificação	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+17	táticas	tático	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	tecnológicas	tecnológico	ADJ	_	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	16	punct	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+23	com	com	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Hwasong-14	Hwasong-14	PROPN	_	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	testado	testar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	acl	_	_
+28	anteriormente	anteriormente	ADV	_	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Fontes não confirmadas indicam que o míssil teria sido lançado em uma trajetória verticalizada, atingindo uma altitude recorde de 5.000 quilômetros e percorrendo 1.200 quilômetros antes de cair no Mar do Japão.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	confirmadas	confirmar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
+4	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	10	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+8	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+9	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	10	aux:pass	_	_
+10	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	trajetória	trajetória	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	verticalizada	verticalizado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	atingindo	atingir	VERB	_	VerbForm=Ger	10	advcl	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	altitude	altitude	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	recorde	recorde	ADJ	_	Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	5.000	5.000	NUM	_	NumType=Card	22	nummod	_	_
+22	quilômetros	quilômetro	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	percorrendo	percorrer	VERB	_	VerbForm=Ger	16	conj	_	_
+25	1.200	1.200	NUM	_	NumType=Card	26	nummod	_	_
+26	quilômetros	quilômetro	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+27	antes	antes	ADV	_	_	24	advmod	_	_
+28	de	de	ADP	_	_	29	mark	_	_
+29	cair	cair	VERB	_	VerbForm=Inf	27	acl	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Mar	Mar	PROPN	_	_	29	obl	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Japão	Japão	PROPN	_	_	32	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Analistas especulam que, se lançado em uma trajetória padrão, o Hwasong-15 poderia alcançar alvos em todo o território americano, incluindo Los Angeles e São Francisco, além de Washington e Nova York.
+1	Analistas	analista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	especulam	especular	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	se	se	SCONJ	_	_	6	mark	_	_
+6	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	advcl	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	trajetória	trajetória	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Hwasong-15	Hwasong-15	PROPN	_	_	14	nsubj	_	_
+14	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	ccomp	_	_
+15	alcançar	alcançar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	alvos	alvo	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	território	território	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+21	americano	americano	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	incluindo	incluir	VERB	_	VerbForm=Ger	15	advcl	_	_
+24	Los	Los	PROPN	_	_	23	obj	_	_
+25	Angeles	Angeles	PROPN	_	_	24	flat:name	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	São	São	PROPN	_	_	24	conj	_	_
+28	Francisco	Francisco	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	além	além	ADV	_	_	23	advmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Washington	Washington	PROPN	_	_	30	obl	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	Nova	Nova	PROPN	_	_	32	conj	_	_
+35	York	York	PROPN	_	_	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = O presidente dos EUA, Donald Trump, reagiu de forma enfática ao teste, prometendo uma resposta com "fogo e fúria" como nunca antes vista.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	EUA	EUA	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Donald	Donald	PROPN	_	_	2	appos	_	_
+8	Trump	Trump	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	forma	forma	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+13	enfática	enfático	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14-15	ao	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	teste	teste	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	prometendo	prometer	VERB	_	VerbForm=Ger	10	advcl	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	fúria	fúria	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	23	punct	_	_
+27	como	como	ADP	_	_	30	mark	_	_
+28	nunca	nunca	ADV	_	_	30	advmod	_	_
+29	antes	antes	ADV	_	_	30	advmod	_	_
+30	vista	ver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = Em uma série de tweets, Trump chamou Kim Jong-un de "ditador louco" e afirmou que medidas severas serão tomadas.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	série	série	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tweets	tweet	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Trump	Trump	PROPN	_	_	8	nsubj	_	_
+8	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Kim	Kim	PROPN	_	_	8	obj	_	_
+10	Jong-un	Jong-un	PROPN	_	_	9	flat:name	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	louco	louco	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	13	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+18	que	que	SCONJ	_	_	22	mark	_	_
+19	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	22	nsubj:pass	_	_
+20	severas	severo	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+21	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	aux:pass	_	_
+22	tomadas	tomar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	17	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = Não podemos permitir que um regime desequilibrado ameace nossa nação e nossos aliados.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	permitir	permitir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	regime	regime	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	desequilibrado	desequilibrado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_
+8	ameace	ameaÃ§ar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
+10	nação	nação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = Responderemos com uma força jamais vista, escreveu Trump.
+1	Responderemos	responder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	ccomp:speech	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	força	força	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5	jamais	jamais	ADV	_	_	6	advmod	_	_
+6	vista	ver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Trump	Trump	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0021
+# text = O secretário-geral das Nações Unidas, Antonio Guterres, pediu calma e exortou a Coreia do Norte a cessar ações desestabilizadoras.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	secretário-geral	secretário-geral	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	das	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Nações	Nações	PROPN	_	_	2	nmod	_	_
+6	Unidas	Unidas	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Antonio	Antonio	PROPN	_	_	2	appos	_	_
+9	Guterres	Guterres	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	calma	calma	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	exortou	exortar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Coreia	Coreia	PROPN	_	_	14	obj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Norte	Norte	PROPN	_	_	16	flat:name	_	_
+20	a	a	ADP	_	_	21	mark	_	_
+21	cessar	cessar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+22	ações	ação	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+23	desestabilizadoras	desestabilizador	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0023
+# text = Guterres, no entanto, pareceu mais preocupado desta vez, destacando a gravidade da situação.
+1	Guterres	Guterres	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	ExtPos=CCONJ	7	cc	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	fixed	_	_
+5	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	pareceu	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	preocupado	preocupado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	7	xcomp	_	_
+10-11	desta	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	destacando	destacar	VERB	_	VerbForm=Ger	7	advcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	situação	situação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0025
+# text = "Este teste é um claro desafio à paz mundial e exige uma ação unificada da comunidade internacional", afirmou.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	teste	teste	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	claro	claro	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	23	ccomp:speech	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	paz	paz	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	mundial	mundial	ADJ	_	Number=Sing	10	amod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	exige	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	ação	ação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	unificada	unificado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	15	amod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20	internacional	internacional	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	7	punct	_	_
+23	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0027
+# text = Washington convocou uma reunião de emergência com aliados, incluindo a Coreia do Sul e o Japão, para planejar uma ofensiva diplomática e econômica mais agressiva.
+1	Washington	Washington	PROPN	_	_	2	nsubj	_	_
+2	convocou	convocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	incluindo	incluir	VERB	_	VerbForm=Ger	8	acl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Coreia	Coreia	PROPN	_	_	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Sul	Sul	PROPN	_	_	12	flat:name	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Japão	Japão	PROPN	_	_	12	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	10	punct	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	planejar	planejar	VERB	_	VerbForm=Inf	2	advcl	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	ofensiva	ofensiva	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	diplomática	diplomático	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	24	conj	_	_
+27	mais	mais	ADV	_	_	28	advmod	_	_
+28	agressiva	agressivo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0029
+# text = O Conselho de Segurança da ONU também se reunirá para discutir novas sanções, com os Estados Unidos pressionando a China e a Rússia para adotarem uma postura mais dura contra Pyongyang.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Conselho	Conselho	PROPN	_	_	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Segurança	Segurança	PROPN	_	_	2	flat:name	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ONU	ONU	PROPN	_	_	2	nmod	_	_
+8	também	também	ADV	_	_	10	advmod	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	reunirá	reunir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	discutir	discutir	VERB	_	VerbForm=Inf	10	advcl	_	_
+13	novas	novo	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+14	sanções	sanção	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Estados	Estados	PROPN	_	_	10	obl	_	_
+19	Unidos	Unidos	PROPN	_	_	18	flat:name	_	_
+20	pressionando	pressionar	VERB	_	VerbForm=Ger	10	advcl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	China	China	PROPN	_	_	20	obj	_	_
+23	e	e	CCONJ	_	_	25	cc	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Rússia	Rússia	PROPN	_	_	22	conj	_	_
+26	para	para	ADP	_	_	27	mark	_	_
+27	adotarem	adotar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	20	advcl	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	postura	postura	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+30	mais	mais	ADV	_	_	31	advmod	_	_
+31	dura	duro	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+32	contra	contra	ADP	_	_	33	case	_	_
+33	Pyongyang	Pyongyang	PROPN	_	_	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0031
+# text = Emmanuel Macron, presidente da França, manifestou apoio aos EUA e destacou a necessidade de uma ação coordenada, especialmente com a China e a Rússia, para enfrentar a "ameaça iminente" representada pelo programa nuclear norte-coreano.
+1	Emmanuel	Emmanuel	PROPN	_	_	9	nsubj	_	_
+2	Macron	Macron	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	1	appos	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	França	França	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	manifestou	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11-12	aos	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	EUA	EUA	PROPN	_	_	10	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ação	ação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	coordenada	coordenado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	especialmente	especialmente	ADV	_	_	26	advmod	_	_
+24	com	com	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	China	China	PROPN	_	_	20	nmod	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Rússia	Rússia	PROPN	_	_	26	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	26	punct	_	_
+31	para	para	ADP	_	_	32	mark	_	_
+32	enfrentar	enfrentar	VERB	_	VerbForm=Inf	20	acl	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
+36	iminente	iminente	ADJ	_	Number=Sing	35	amod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	35	punct	_	_
+38	representada	representar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	35	acl	_	_
+39-40	pelo	_	_	_	_	_	_	_	_
+39	por	por	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	programa	programa	NOUN	_	Gender=Masc|Number=Sing	38	obl:agent	_	_
+42	nuclear	nuclear	ADJ	_	Number=Sing	41	amod	_	_
+43	norte-coreano	norte-coreano	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0033
+# text = As tensões aumentam ainda mais após a Coreia do Norte ter disparado um míssil balístico sobre o Japão em setembro e realizado seu mais potente teste nuclear.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	aumentam	aumentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ainda	ainda	ADV	_	_	5	advmod	_	_
+5	mais	mais	ADV	_	_	3	advmod	_	_
+6	após	após	ADP	_	_	13	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Coreia	Coreia	PROPN	_	_	13	nsubj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Norte	Norte	PROPN	_	_	8	flat:name	_	_
+12	ter	ter	AUX	_	VerbForm=Inf	13	aux	_	_
+13	disparado	disparar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	balístico	balístico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	sobre	sobre	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Japão	Japão	PROPN	_	_	13	obl	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	conj	_	_
+24	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+25	mais	mais	ADV	_	_	26	advmod	_	_
+26	potente	potente	ADJ	_	Number=Sing	27	amod	_	_
+27	teste	teste	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+28	nuclear	nuclear	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0035
+# text = Observadores temem que o isolamento econômico e as ameaças militares possam levar a um confronto de proporções inimagináveis.
+1	Observadores	observador	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	temem	temer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	11	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	econômico	econômico	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
+10	militares	militar	ADJ	_	Number=Plur	9	amod	_	_
+11	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+12	levar	levar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	proporções	proporçõe	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	inimagináveis	inimaginável	ADJ	_	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+

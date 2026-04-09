@@ -1,0 +1,301 @@
+# sent_id = S0001
+# text = Urgente! Alerta da Polícia Militar de São Paulo: Estão se Passando por Funcionários do IBGE para Cometer Assaltos!
+1	Urgente	urgente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	3	punct	_	_
+3	Alerta	alerta	NOUN	_	Number=Sing	1	parataxis	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polícia	Polícia	PROPN	_	_	3	nmod	_	_
+7	Militar	Militar	PROPN	_	_	6	flat:name	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	São	São	PROPN	_	_	6	flat:name	_	_
+10	Paulo	Paulo	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	Passando	passar	VERB	_	VerbForm=Ger	1	parataxis	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	Funcionários	Funcionários	PROPN	_	_	14	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	IBGE	IBGE	PROPN	_	_	16	nmod	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	Cometer	cometer	VERB	_	VerbForm=Inf	14	advcl	_	_
+22	Assaltos	Assaltos	PROPN	_	_	21	obj	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = A Polícia Militar de São Paulo emitiu um alerta urgente aos cidadãos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	7	nsubj	_	_
+3	Militar	Militar	PROPN	_	_	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	São	São	PROPN	_	_	2	flat:name	_	_
+6	Paulo	Paulo	PROPN	_	_	5	flat:name	_	_
+7	emitiu	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	alerta	alerta	NOUN	_	Number=Sing	7	obj	_	_
+10	urgente	urgente	ADJ	_	Number=Sing	9	amod	_	_
+11-12	aos	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Um homem, cuja foto está sendo amplamente compartilhada nas redes sociais, tem se passado por funcionário do IBGE, utilizando até mesmo um crachá falso, para invadir residências e cometer assaltos.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	homem	homem	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	cuja	cujo	DET	_	Gender=Fem|Number=Sing|PronType=Rel	5	det	_	_
+5	foto	foto	NOUN	_	Number=Sing	9	nsubj:pass	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	sendo	ser	AUX	_	VerbForm=Ger	9	aux:pass	_	_
+8	amplamente	amplamente	ADV	_	_	9	advmod	_	_
+9	compartilhada	compartilhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+10-11	nas	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	redes	rede	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+13	sociais	social	ADJ	_	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl	_	_
+17	passado	passar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	IBGE	IBGE	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	utilizando	utilizar	VERB	_	VerbForm=Ger	17	advcl	_	_
+25	até	até	ADV	_	_	28	advmod	_	_
+26	mesmo	mesmo	ADV	_	_	28	advmod	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	crachá	crachá	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+29	falso	falso	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	24	punct	_	_
+31	para	para	ADP	_	_	32	mark	_	_
+32	invadir	invadir	VERB	_	VerbForm=Inf	17	advcl	_	_
+33	residências	residência	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	cometer	cometer	VERB	_	VerbForm=Inf	32	conj	_	_
+36	assaltos	assalto	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = Segundo relatos, após ser recebido pelos moradores, ele anuncia o assalto e tem agido em diversas regiões da cidade.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	após	após	ADP	_	_	6	mark	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	_	_
+6	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	_
+7-8	pelos	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	moradores	morador	NOUN	_	Gender=Masc|Number=Plur	6	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	assalto	assalto	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	agido	agir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	conj	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	regiões	região	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Pedimos que fiquem extremamente atentos.
+1	Pedimos	pedir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	3	mark	_	_
+3	fiquem	ficar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	extremamente	extremamente	ADV	_	_	5	advmod	_	_
+5	atentos	atento	ADJ	_	Gender=Masc|Number=Plur	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Qualquer pessoa que se apresente como funcionário do IBGE deve ter suas credenciais verificadas imediatamente, alerta a corporação.
+1	Qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	2	det	_	_
+2	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	apresente	apresentar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	como	como	ADP	_	_	7	case	_	_
+7	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	IBGE	IBGE	PROPN	_	_	7	nmod	_	_
+11	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
+12	ter	ter	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	credenciais	credenciai	NOUN	_	Number=Plur	12	obj	_	_
+15	verificadas	verificar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+16	imediatamente	imediatamente	ADV	_	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	11	punct	_	_
+18	alerta	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	corporação	corporação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0013
+# text = A mensagem original, que circula desde 2014, agora é corroborada por novas denúncias e evidências.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+3	original	original	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	circula	circular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	desde	desde	ADP	_	_	8	case	_	_
+8	2014	2014	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	agora	agora	ADV	_	_	12	advmod	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	corroborada	corroborar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	novas	novo	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+15	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	12	obl:agent	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0015
+# text = O IBGE reforça que a identificação mostrada na mensagem não corresponde ao padrão oficial.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	IBGE	IBGE	PROPN	_	_	3	nsubj	_	_
+3	reforça	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	12	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+7	mostrada	mostrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	oficial	oficial	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Para evitar fraudes, o instituto recomenda utilizar seus canais de verificação:
+1	Para	para	ADP	_	_	2	mark	_	_
+2	evitar	evitar	VERB	_	VerbForm=Inf	7	advcl	_	_
+3	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	instituto	instituto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	recomenda	recomendar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	utilizar	utilizar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	canais	canal	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	verificação	verificação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0019
+# text = Telefone: 0800 721 8181.
+1	Telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	0800	0800	PROPN	_	_	1	nmod	_	_
+4	721	721	NUM	_	NumType=Card	3	flat:name	_	_
+5	8181	8181	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0020
+# text = Site: https://respondendo.
+1	Site	site	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	https://respondendo	https://responder	VERB	_	VerbForm=Ger	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0022
+# text = ibge.
+1	ibge	ibge	NOUN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0024
+# text = gov.
+1	gov.	gov.	PUNCT	_	_	0	punct	_	_
+
+# sent_id = S0026
+# text = br/.
+1	br	br	SYM	_	_	0	root	_	SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0028
+# text = Estes canais estão disponíveis para que qualquer cidadão possa confirmar a identidade do recenseador que o procura.
+1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	canais	canal	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	disponíveis	disponível	ADJ	_	Number=Plur	0	root	_	_
+5	para	para	ADP	_	ExtPos=SCONJ	9	mark	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	8	det	_	_
+8	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	confirmar	confirmar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	identidade	identidade	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	recenseador	recenseador	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+17	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	procura	procurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0030
+# text = Lembre-se, a matrícula do recenseador deve estar visível no crachá, exibido no colete na parte frontal, à esquerda.
+1-2	Lembre-se	_	_	_	_	_	_	_	_
+1	Lembre	lembrar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	matrícula	matrícula	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	recenseador	recenseador	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	estar	estar	AUX	_	VerbForm=Inf	11	cop	_	_
+11	visível	visível	ADJ	_	Number=Sing	9	xcomp	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	crachá	crachá	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	exibido	exibir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	colete	colete	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	parte	parte	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+23	frontal	frontal	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25-26	à	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,479 @@
+# sent_id = S0001
+# text = Presidente Michel Temer anuncia prova bombástica: Gravação com Joesley Batista foi totalmente forjada por opositores!
+1	Presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+2	Michel	Michel	PROPN	_	_	1	nmod	_	_
+3	Temer	Temer	PROPN	_	_	2	flat:name	_	_
+4	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	prova	prova	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	14	punct	_	_
+8	Gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	Joesley	Joesley	PROPN	_	_	8	nmod	_	_
+11	Batista	Batista	PROPN	_	_	10	flat:name	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+13	totalmente	totalmente	ADV	_	_	14	advmod	_	_
+14	forjada	forjar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	opositores	opositor	NOUN	_	Gender=Masc|Number=Plur	14	obl:agent	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Em pronunciamento surpresa neste sábado (20), Temer revelou que uma perícia independente, realizada por renomados especialistas internacionais, comprovou que a gravação apresentada por Joesley Batista, dono da JBS, é uma montagem grosseira.
+1	Em	em	ADP	_	_	2	case	_	_
+2	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+3	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	neste	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	20	20	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	Temer	Temer	PROPN	_	_	12	nsubj	_	_
+12	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	24	mark	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	perícia	perícia	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+16	independente	independente	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	renomados	renomado	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+21	especialistas	especialista	NOUN	_	Number=Plur	18	obl:agent	_	_
+22	internacionais	internacional	ADJ	_	Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	18	punct	_	_
+24	comprovou	comprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+25	que	que	SCONJ	_	_	40	mark	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	_
+28	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	27	acl	_	_
+29	por	por	ADP	_	_	30	case	_	_
+30	Joesley	Joesley	PROPN	_	_	28	obl:agent	_	_
+31	Batista	Batista	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	dono	dono	NOUN	_	Gender=Masc|Number=Sing	30	appos	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	JBS	JBS	PROPN	_	_	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	33	punct	_	_
+38	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	montagem	montagem	NOUN	_	Gender=Fem|Number=Sing	24	ccomp	_	_
+41	grosseira	grosseiro	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = O presidente destacou que essa manipulação foi obra de seus opositores políticos com o intuito de desestabilizar o governo e criar caos no país.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	3	nsubj	_	_
+3	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	manipulação	manipulação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	obra	obra	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	opositores	opositor	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	políticos	político	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	desestabilizar	desestabilizar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	governo	governo	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	criar	criar	VERB	_	VerbForm=Inf	17	conj	_	_
+22	caos	caos	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = É com indignação que informo à nação: a gravação que supostamente me incrimina foi totalmente fabricada.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	discourse	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	indignação	indignação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+4	que	que	SCONJ	_	_	5	discourse	_	_
+5	informo	informar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	nação	nação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	18	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+12	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+13	supostamente	supostamente	ADV	_	_	15	advmod	_	_
+14	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	incrimina	incriminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+17	totalmente	totalmente	ADV	_	_	18	advmod	_	_
+18	fabricada	fabricar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Não se trata apenas de edições, mas de uma criação fictícia destinada a me prejudicar, afirmou Temer.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl:impers	_	_
+3	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
+4	apenas	apenas	ADV	_	_	6	advmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	edições	edição	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	mas	mas	CCONJ	_	_	11	cc	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	criação	criação	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+12	fictícia	fictício	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	destinada	destinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+14	a	a	ADP	_	_	16	mark	_	_
+15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	prejudicar	prejudicar	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	3	punct	_	_
+18	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	Temer	Temer	PROPN	_	_	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0011
+# text = A revelação veio acompanhada de um pedido formal de suspensão do inquérito no Supremo Tribunal Federal (STF), protocolado logo após o pronunciamento.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	acompanhada	acompanhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	advcl	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	formal	formal	ADJ	_	Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Supremo	Supremo	PROPN	_	_	10	nmod	_	_
+17	Tribunal	Tribunal	PROPN	_	_	16	flat:name	_	_
+18	Federal	Federal	PROPN	_	_	16	flat:name	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	STF	STF	PROPN	_	_	16	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	protocolado	protocolar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
+24	logo	logo	ADV	_	_	27	advmod	_	_
+25	após	após	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O advogado Francisco Assis, inicialmente ligado ao acordo de delação da JBS, surpreendeu ao apoiar a declaração de Temer.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	Francisco	Francisco	PROPN	_	_	2	nmod	_	_
+4	Assis	Assis	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	inicialmente	inicialmente	ADV	_	_	7	advmod	_	_
+7	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	delação	delação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	JBS	JBS	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	7	punct	_	_
+17	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	ExtPos=SCONJ	20	mark	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	fixed	_	_
+20	apoiar	apoiar	VERB	_	VerbForm=Inf	17	advcl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Temer	Temer	PROPN	_	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0015
+# text = Após uma análise minuciosa, reconhecemos que o áudio foi adulterado.
+1	Após	após	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+4	minuciosa	minucioso	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	reconhecemos	reconhecer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	áudio	áudio	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	adulterado	adulterar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = Não reflete a verdade dos fatos e foi usado de má-fé, declarou Assis em nota oficial.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	reflete	refletir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	fatos	fato	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	conj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	má-fé	má-fé	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Assis	Assis	PROPN	_	_	14	nsubj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	nota	nota	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	oficial	oficial	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0019
+# text = A J&F, controladora da JBS, recuou de suas afirmações anteriores e emitiu um comunicado afirmando que "erros no processo de gravação" podem ter comprometido a integridade do áudio.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	J&F	J&F	PROPN	_	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	controladora	controlador	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	JBS	JBS	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	recuou	recuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	afirmações	afirmação	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+13	anteriores	anterior	ADJ	_	Number=Plur	12	amod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	emitiu	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	afirmando	afirmar	VERB	_	VerbForm=Ger	17	acl	_	_
+19	que	que	SCONJ	_	_	28	mark	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	erros	erro	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	processo	processo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	21	punct	_	_
+28	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+29	ter	ter	AUX	_	VerbForm=Inf	30	aux	_	_
+30	comprometido	comprometer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	28	xcomp	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	áudio	áudio	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0021
+# text = As delações de Joesley e seus associados, que antes pareciam sólidas, agora estão sob intensa suspeita, com documentos e provas sendo reavaliados.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	delações	delação	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Joesley	Joesley	PROPN	_	_	2	nmod	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	associados	associado	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+10	antes	antes	ADV	_	_	11	advmod	_	_
+11	pareciam	parecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+12	sólidas	sólido	ADJ	_	Gender=Fem|Number=Plur	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	agora	agora	ADV	_	_	18	advmod	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	sob	sob	ADP	_	_	18	case	_	_
+17	intensa	intenso	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+18	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	com	com	ADP	_	_	21	case	_	_
+21	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	provas	prova	NOUN	_	Gender=Fem|Number=Plur	21	conj	_	_
+24	sendo	ser	AUX	_	VerbForm=Ger	25	aux:pass	_	_
+25	reavaliados	reavaliar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0023
+# text = O ministro Edson Fachin, do STF, foi instado a reconsiderar a autorização para o inquérito contra Temer, enquanto Rodrigo Janot, procurador-geral da República, enfrenta pressões para investigar a possível conspiração contra o presidente.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	Edson	Edson	PROPN	_	_	2	nmod	_	_
+4	Fachin	Fachin	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	STF	STF	PROPN	_	_	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	instado	instar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	reconsiderar	reconsiderar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	autorização	autorização	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	contra	contra	ADP	_	_	20	case	_	_
+20	Temer	Temer	PROPN	_	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	31	punct	_	_
+22	enquanto	enquanto	SCONJ	_	_	31	mark	_	_
+23	Rodrigo	Rodrigo	PROPN	_	_	31	nsubj	_	_
+24	Janot	Janot	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	procurador-geral	procurador-geral	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	República	República	PROPN	_	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	26	punct	_	_
+31	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+32	pressões	pressão	NOUN	_	Gender=Fem|Number=Plur	31	obj	_	_
+33	para	para	ADP	_	_	34	mark	_	_
+34	investigar	investigar	VERB	_	VerbForm=Inf	32	acl	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	possível	possível	ADJ	_	Number=Sing	37	amod	_	_
+37	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+38	contra	contra	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	presidente	presidente	NOUN	_	Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0025
+# text = Parlamentares que antes clamavam pelo impeachment de Temer agora pedem uma investigação profunda sobre essa suposta trama para desacreditá-lo.
+1	Parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	antes	antes	ADV	_	_	4	advmod	_	_
+4	clamavam	clamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Temer	Temer	PROPN	_	_	7	nmod	_	_
+10	agora	agora	ADV	_	_	11	advmod	_	_
+11	pedem	pedir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	sobre	sobre	ADP	_	_	18	case	_	_
+16	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+17	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	18	amod	_	_
+18	trama	trama	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20-21	desacreditá-lo	_	_	_	_	_	_	_	_
+20	desacreditar	desacreditar	VERB	_	VerbForm=Inf	11	advcl	_	_
+21	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0027
+# text = Protestos em todo o país perderam força após a nova revelação, com muitos cidadãos questionando a veracidade das acusações e exigindo justiça.
+1	Protestos	protesto	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	em	em	ADP	_	_	5	case	_	_
+3	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	país	país	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	força	força	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	após	após	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nova	novo	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+15	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+16	questionando	questionar	VERB	_	VerbForm=Ger	15	acl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	veracidade	veracidade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	exigindo	exigir	VERB	_	VerbForm=Ger	16	conj	_	_
+24	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0029
+# text = Temer reafirmou seu compromisso com o cargo: O Brasil não pode ser vítima de jogos sujos.
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	reafirmou	reafirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	compromisso	compromisso	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	12	punct	_	_
+9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Brasil	Brasil	PROPN	_	_	12	nsubj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	14	cop	_	_
+14	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	12	xcomp	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	jogos	jogo	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	sujos	sujo	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0031
+# text = Continuarei firme na Presidência, trabalhando pelo bem do nosso país.
+1	Continuarei	continuar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	firme	firme	ADV	_	_	1	advmod	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Presidência	Presidência	PROPN	_	_	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	trabalhando	trabalhar	VERB	_	VerbForm=Ger	1	advcl	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bem	bem	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	país	país	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0033
+# text = A expectativa é que essa reviravolta traga novos rumos ao cenário político brasileiro.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expectativa	expectativa	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:outer	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	reviravolta	reviravolta	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	traga	trazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	novos	novo	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+9	rumos	rumo	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	político	político	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+

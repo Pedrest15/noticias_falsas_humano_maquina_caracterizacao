@@ -1,0 +1,243 @@
+# sent_id = S0001
+# text = Ao vivo, convidada faz desabafo para Ana Maria Braga: "Você destruiu minha vida...".
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vivo	vivo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	convidada	convidado	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	desabafo	desabafo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	Ana	Ana	PROPN	_	_	6	obl	_	_
+10	Maria	Maria	PROPN	_	_	9	flat:name	_	_
+11	Braga	Braga	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	15	punct	_	_
+13	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
+15	destruiu	destruir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+16	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	vida	vida	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	...	...	PUNCT	_	_	15	punct	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Ana Maria Braga passou por uma situação constrangedora na manhã da última quinta-feira (16).
+1	Ana	Ana	PROPN	_	_	4	nsubj	_	_
+2	Maria	Maria	PROPN	_	_	1	flat:name	_	_
+3	Braga	Braga	PROPN	_	_	1	flat:name	_	_
+4	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	constrangedora	constrangedor	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	última	último	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	16	16	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Uma participante do programa preparou uma sobremesa que não foi aprovada pela apresentadora.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	participante	participante	NOUN	_	Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	programa	programa	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	preparou	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sobremesa	sobremesa	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	que	que	PRON	_	PronType=Rel	12	nsubj:pass	_	_
+10	não	não	ADV	_	_	12	advmod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	aprovada	aprovar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	12	obl:agent	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = A convidada errou na receita e não acertou no preparo de um doce árabe, chamado ataif, que foi servido aos convidados do programa.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	convidada	convidado	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	errou	errar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	receita	receita	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	acertou	acertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	preparo	preparo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	doce	doce	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	árabe	árabe	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
+19	ataif	ataif	X	_	Foreign=Yes	18	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	que	que	PRON	_	PronType=Rel	23	nsubj:pass	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	servido	servir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+24-25	aos	_	_	_	_	_	_	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	convidados	convidado	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	programa	programa	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = "Não posso dizer que está gostoso... Você pode melhorar e acertar!", disse Ana Maria.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Não	não	ADV	_	_	3	advmod	_	_
+3	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp:speech	_	_
+4	dizer	dizer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	gostoso	gostoso	ADJ	_	Gender=Masc|Number=Sing	4	ccomp	_	SpaceAfter=No
+8	...	...	PUNCT	_	_	10	punct	_	_
+9	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	melhorar	melhorar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	acertar	acertar	VERB	_	VerbForm=Inf	11	conj	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	3	punct	_	_
+17	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Ana	Ana	PROPN	_	_	17	nsubj	_	_
+19	Maria	Maria	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0011
+# text = A convidada Lorhana respondeu: "Com certeza, eu tenho que melhorar muita coisa, Ana"!
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	convidada	convidado	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Lorhana	Lorhana	PROPN	_	_	2	nmod	_	_
+4	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	11	punct	_	_
+6	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+7	Com	com	ADP	_	_	8	case	_	_
+8	certeza	certeza	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp:speech	_	_
+12	que	que	ADP	_	_	13	mark	_	_
+13	melhorar	melhorar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	muita	muito	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Ana	Ana	PROPN	_	_	13	parataxis	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0012
+# text = e continuou [ao vivo]: Você destruiu minha vida agora!
+1	e	e	CCONJ	_	_	2	cc	_	_
+2	continuou	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vivo	vivo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	]	]	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	10	punct	_	_
+9	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+10	destruiu	destruir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+11	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	vida	vida	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	agora	agora	ADV	_	_	10	advmod	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0014
+# text = A sua opinião era importante!
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	importante	importante	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = desabafou Lorhana.
+1	desabafou	desabafar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Lorhana	Lorhana	PROPN	_	_	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = Depois do desabafo, Ana ainda tentou arrumar a casa: Desculpa!
+1	Depois	depois	ADV	_	_	8	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	desabafo	desabafo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	Ana	Ana	PROPN	_	_	8	nsubj	_	_
+7	ainda	ainda	ADV	_	_	8	advmod	_	_
+8	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	arrumar	arrumar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	casa	casa	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	Desculpa	desculpa	NOUN	_	Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Eu me acostumei a falar a verdade.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	acostumei	acostumar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	mark	_	_
+5	falar	falar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Tento falar com a maior delicadeza possível.
+1	Tento	tentar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	falar	falar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	com	com	ADP	_	_	6	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	maior	maior	ADJ	_	Number=Sing	6	amod	_	_
+6	delicadeza	delicadeza	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+7	possível	possível	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0023
+# text = Vamos fazer um ataif aqui novamente e te convido.
+1	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fazer	fazer	VERB	_	VerbForm=Inf	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ataif	ataif	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	2	obj	_	_
+5	aqui	aqui	ADV	_	_	2	advmod	_	_
+6	novamente	novamente	ADV	_	_	2	advmod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	te	te	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	convido	convidar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0025
+# text = Tá bom?
+1	Tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bom	bom	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+

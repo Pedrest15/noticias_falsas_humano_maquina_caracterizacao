@@ -1,0 +1,496 @@
+# sent_id = S0001
+# text = Um banqueiro suíço foi acusado de ajudar americanos a sonegar impostos, mas a história tem um reviravolta surpreendente.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	banqueiro	banqueiro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	suíço	suíço	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	ajudar	ajudar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	americanos	americano	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	a	a	ADP	_	_	10	mark	_	_
+10	sonegar	sonegar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+11	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	mas	mas	CCONJ	_	_	16	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	história	história	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	reviravolta	reviravolta	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	surpreendente	surpreendente	ADJ	_	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Diane Butrus, executiva de St.
+1	Diane	Diane	PROPN	_	_	0	root	_	_
+2	Butrus	Butrus	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	executiva	executivo	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	St.	St.	PUNCT	_	_	4	nmod	_	_
+
+# sent_id = S0005
+# text = Louis, enfrentou uma verdadeira caçada em Zurique para encontrar um banco que aceitasse esconder seus $1.5 milhões dos coletores de impostos dos EUA.
+1	Louis	Louis	PROPN	_	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	enfrentou	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	verdadeira	verdadeiro	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	caçada	caçada	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Zurique	Zurique	PROPN	_	_	6	nmod	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	encontrar	encontrar	VERB	_	VerbForm=Inf	3	advcl	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	banco	banco	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	aceitasse	aceitar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+15	esconder	esconder	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+17	$	$	SYM	_	_	19	nmod	_	SpaceAfter=No
+18	1.5	1.5	NUM	_	NumType=Card	19	nummod	_	_
+19	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	coletores	coletor	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	EUA	EUA	PROPN	_	_	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Após ser rejeitada por vários bancos, ela finalmente encontrou Stefan Buck, do Banco Frey, que concordou em ajudá-la, usando o codinome "Cardeal" para mascarar a conta.
+1	Após	após	ADP	_	_	3	mark	_	_
+2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
+3	rejeitada	rejeitar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	bancos	banco	NOUN	_	Gender=Masc|Number=Plur	3	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	finalmente	finalmente	ADV	_	_	10	advmod	_	_
+10	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Stefan	Stefan	PROPN	_	_	10	obj	_	_
+12	Buck	Buck	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Banco	Banco	PROPN	_	_	11	nmod	_	_
+17	Frey	Frey	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	concordou	concordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+21	em	em	ADP	_	_	22	mark	_	_
+22-23	ajudá-la	_	_	_	_	_	_	_	_
+22	ajudar	ajudar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+23	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	usando	usar	VERB	_	VerbForm=Ger	20	advcl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	codinome	codinome	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Cardeal	Cardeal	PROPN	_	_	27	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	_
+31	para	para	ADP	_	_	32	mark	_	_
+32	mascarar	mascarar	VERB	_	VerbForm=Inf	25	advcl	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	conta	conta	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Buck, um jovem banqueiro carismático, instruiu Butrus a usar celulares pré-pagos para comunicação e a retirar pequenas quantidades de dinheiro para evitar detecção.
+1	Buck	Buck	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	jovem	jovem	ADJ	_	Number=Sing	5	amod	_	_
+5	banqueiro	banqueiro	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+6	carismático	carismático	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	instruiu	instruir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Butrus	Butrus	PROPN	_	_	8	obj	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	usar	usar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+12	celulares	celular	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+13	pré-pagos	pré-pagos	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	a	a	ADP	_	_	18	mark	_	_
+18	retirar	retirar	VERB	_	VerbForm=Inf	11	conj	_	_
+19	pequenas	pequeno	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+20	quantidades	quantidade	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	para	para	ADP	_	_	24	mark	_	_
+24	evitar	evitar	VERB	_	VerbForm=Inf	18	advcl	_	_
+25	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = O Banco Frey, diferentemente de gigantes como UBS e Credit Suisse, que cooperaram com as autoridades dos EUA, manteve-se firme, aceitando clientes americanos e seus depósitos multimilionários.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Banco	Banco	PROPN	_	_	23	nsubj	_	_
+3	Frey	Frey	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	diferentemente	diferentemente	ADV	_	_	23	advmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	gigantes	gigante	NOUN	_	Number=Plur	5	obl	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	UBS	UBS	PROPN	_	_	7	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	Credit	Credit	PROPN	_	_	9	conj	_	_
+12	Suisse	Suisse	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	cooperaram	cooperar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	EUA	EUA	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	15	punct	_	_
+23-24	manteve-se	_	_	_	_	_	_	_	_
+23	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	_	_
+25	firme	firme	ADJ	_	Number=Sing	23	xcomp	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	aceitando	aceitar	VERB	_	VerbForm=Ger	23	advcl	_	_
+28	clientes	cliente	NOUN	_	Number=Plur	27	obj	_	_
+29	americanos	americano	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	e	e	CCONJ	_	_	32	cc	_	_
+31	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
+32	depósitos	depósito	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
+33	multimilionários	multimilionário	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0013
+# text = Com a ajuda de Buck, o banco viu seu número de clientes dos EUA quase triplicar, com quase metade de seus ativos provenientes de americanos evitando impostos.
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Buck	Buck	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	banco	banco	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	número	número	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	clientes	cliente	NOUN	_	Number=Plur	11	nmod	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	EUA	EUA	PROPN	_	_	13	nmod	_	_
+17	quase	quase	ADV	_	_	18	advmod	_	_
+18	triplicar	triplicar	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	com	com	ADP	_	_	22	case	_	_
+21	quase	quase	ADV	_	_	22	advmod	_	_
+22	metade	metade	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	ativos	ativo	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+26	provenientes	proveniente	ADJ	_	Number=Plur	25	amod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	americanos	americano	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+29	evitando	evitar	VERB	_	VerbForm=Ger	28	acl	_	_
+30	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = O caso ganhou as manchetes em 2013 quando Buck foi indiciado por um grande júri federal.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	manchetes	manchete	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	2013	2013	NUM	_	NumType=Card	3	obl	_	_
+8	quando	quando	SCONJ	_	_	11	mark	_	_
+9	Buck	Buck	PROPN	_	_	11	nsubj:pass	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	indiciado	indiciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
+12	por	por	ADP	_	_	15	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	grande	grande	ADJ	_	Number=Sing	15	amod	_	_
+15	júri	júri	NOUN	_	Gender=Masc|Number=Sing	11	obl:agent	_	_
+16	federal	federal	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = No entanto, após a absolvição de Raoul Weil, do UBS, e de um banqueiro israelense, o cenário começou a parecer mais favorável para Buck.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	24	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	após	após	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	absolvição	absolvição	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Raoul	Raoul	PROPN	_	_	7	nmod	_	_
+10	Weil	Weil	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	UBS	UBS	PROPN	_	_	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	e	e	CCONJ	_	_	19	cc	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	banqueiro	banqueiro	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+20	israelense	israelense	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	7	punct	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+24	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	a	a	ADP	_	_	26	mark	_	_
+26	parecer	parecer	VERB	_	VerbForm=Inf	24	xcomp	_	_
+27	mais	mais	ADV	_	_	28	advmod	_	_
+28	favorável	favorável	ADJ	_	Number=Sing	26	xcomp	_	_
+29	para	para	ADP	_	_	30	case	_	_
+30	Buck	Buck	PROPN	_	_	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0019
+# text = Decidindo enfrentar as acusações, Buck viajou para Nova York, onde foi preso e libertado sob fiança.
+1	Decidindo	decidir	VERB	_	VerbForm=Ger	7	advcl	_	_
+2	enfrentar	enfrentar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	Buck	Buck	PROPN	_	_	7	nsubj	_	_
+7	viajou	viajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	Nova	Nova	PROPN	_	_	7	obl	_	_
+10	York	York	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	onde	onde	ADV	_	_	14	advmod	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	libertado	libertar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	_
+17	sob	sob	ADP	_	_	18	case	_	_
+18	fiança	fiança	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0021
+# text = O julgamento, que começou em outubro de 2016, mostrou clientes como Butrus e C. Richard Lucy, ex-executivo de Wall Street, testemunhando contra Buck.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	2016	2016	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	clientes	cliente	NOUN	_	Number=Plur	11	obj	_	_
+13	como	como	ADP	_	_	14	case	_	_
+14	Butrus	Butrus	PROPN	_	_	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	C.	C.	PROPN	_	_	14	conj	_	_
+17	Richard	Richard	PROPN	_	_	16	flat:name	_	_
+18	Lucy	Lucy	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	ex-executivo	ex-executivo	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Wall	Wall	PROPN	_	_	20	nmod	_	_
+23	Street	Street	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	testemunhando	testemunhar	VERB	_	VerbForm=Ger	11	advcl	_	_
+26	contra	contra	ADP	_	_	27	case	_	_
+27	Buck	Buck	PROPN	_	_	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0023
+# text = Mas o que os promotores não esperavam era a defesa apaixonada e a estratégia audaciosa de Marc A. Agnifilo.
+1	Mas	mas	CCONJ	_	_	10	cc	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	7	obj	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	promotores	promotor	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	esperavam	esperar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+8	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11	apaixonada	apaixonado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	10	amod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+15	audaciosa	audacioso	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Marc	Marc	PROPN	_	_	14	nmod	_	_
+18	A.	A.	PROPN	_	_	17	flat:name	_	_
+19	Agnifilo	Agnifilo	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0025
+# text = Agnifilo argumentou que Buck não era responsável pelas escolhas fiscais de seus clientes e que sua vinda aos EUA demonstrava que ele não tinha nada a esconder.
+1	Agnifilo	agnifilo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	argumentou	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	Buck	Buck	PROPN	_	_	7	nsubj	_	_
+5	não	não	ADV	_	_	7	advmod	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	responsável	responsável	ADJ	_	Number=Sing	2	ccomp	_	_
+8-9	pelas	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	escolhas	escolha	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+11	fiscais	fiscal	ADJ	_	Number=Plur	10	amod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	clientes	cliente	NOUN	_	Number=Plur	10	nmod	_	_
+15	e	e	CCONJ	_	_	22	cc	_	_
+16	que	que	SCONJ	_	_	22	mark	_	_
+17	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	vinda	vinda	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+19-20	aos	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	EUA	EUA	PROPN	_	_	18	nmod	_	_
+22	demonstrava	demonstrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+23	que	que	SCONJ	_	_	26	mark	_	_
+24	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	não	não	ADV	_	_	26	advmod	_	_
+26	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	ccomp	_	_
+27	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	26	obj	_	_
+28	a	a	ADP	_	_	29	mark	_	_
+29	esconder	esconder	VERB	_	VerbForm=Inf	27	acl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Em uma performance emocionante, Agnifilo convenceu o júri de que Buck era apenas um facilitador e não um conspirador.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	performance	performance	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+4	emocionante	emocionante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	Agnifilo	Agnifilo	PROPN	_	_	7	nsubj	_	_
+7	convenceu	convencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	júri	júri	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	ExtPos=SCONJ	16	mark	_	_
+11	que	que	SCONJ	_	_	10	fixed	_	_
+12	Buck	Buck	PROPN	_	_	16	nsubj	_	_
+13	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14	apenas	apenas	ADV	_	_	16	advmod	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	facilitador	facilitador	NOUN	_	Gender=Masc|Number=Sing	7	ccomp	_	_
+17	e	e	CCONJ	_	_	20	cc	_	_
+18	não	não	ADV	_	_	20	advmod	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	conspirador	conspirador	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0029
+# text = O veredicto foi surpreendente: Buck foi declarado inocente.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	veredicto	veredicto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	surpreendente	surpreendente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	8	punct	_	_
+6	Buck	Buck	PROPN	_	_	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	declarado	declarar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+9	inocente	inocente	ADJ	_	Number=Sing	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0031
+# text = Jurados se emocionaram com o caso, e Buck, após ouvir o resultado no banheiro do tribunal, agradeceu a eles no corredor, desejando-lhes um "Feliz Dia de Ação de Graças".
+1	Jurados	jurado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	emocionaram	emocionar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	22	punct	_	_
+8	e	e	CCONJ	_	_	22	cc	_	_
+9	Buck	Buck	PROPN	_	_	22	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	após	após	ADP	_	_	12	mark	_	_
+12	ouvir	ouvir	VERB	_	VerbForm=Inf	22	advcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	banheiro	banheiro	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	12	punct	_	_
+22	agradeceu	agradecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obl	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	corredor	corredor	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29-30	desejando-lhes	_	_	_	_	_	_	_	_
+29	desejando	desejar	VERB	_	VerbForm=Ger	22	advcl	_	_
+30	lhes	lhe	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	29	iobj	_	_
+31	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	Feliz	Feliz	PROPN	_	_	29	obj	_	_
+34	Dia	Dia	PROPN	_	_	33	flat:name	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Ação	Ação	PROPN	_	_	33	flat:name	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	Graças	Graças	PROPN	_	_	33	flat:name	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0033
+# text = Essa decisão judicial pode ter um impacto significativo na luta dos EUA contra a evasão fiscal offshore, questionando a eficácia da estratégia de responsabilizar banqueiros estrangeiros.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	judicial	judicial	ADJ	_	Number=Sing	2	amod	_	_
+4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ter	ter	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	luta	luta	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	EUA	EUA	PROPN	_	_	11	nmod	_	_
+15	contra	contra	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	evasão	evasão	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+18	fiscal	fiscal	ADJ	_	Number=Sing	17	amod	_	_
+19	offshore	offshore	X	_	Foreign=Yes	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	questionando	questionar	VERB	_	VerbForm=Ger	4	advcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	eficácia	eficácia	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	de	de	ADP	_	_	28	mark	_	_
+28	responsabilizar	responsabilizar	VERB	_	VerbForm=Inf	26	acl	_	_
+29	banqueiros	banqueiro	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+30	estrangeiros	estrangeiro	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+

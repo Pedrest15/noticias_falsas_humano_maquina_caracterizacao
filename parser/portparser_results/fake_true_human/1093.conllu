@@ -1,0 +1,89 @@
+# sent_id = S0001
+# text = telefones estão sendo hackeados por ligação do 954-1117 que fala sobre vacina infelizmente, um novo golpe: agora mesmo, meu amigo recebeu uma ligação de 954-1117 pedindo-lhe para pressionar 1 se ele tivesse se vacinado.
+1	telefones	telefone	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sendo	ser	AUX	_	VerbForm=Ger	4	aux:pass	_	_
+4	hackeados	hackear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	ligação	ligação	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	954-1117	954-1117	NUM	_	NumType=Card	6	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	sobre	sobre	ADP	_	_	13	case	_	_
+13	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	infelizmente	infelizmente	ADV	_	_	11	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	novo	novo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	20	punct	_	_
+20	agora	agora	ADV	_	_	18	advmod	_	_
+21	mesmo	mesmo	ADV	_	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	det	_	_
+24	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+25	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	ligação	ligação	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	954-1117	954-1117	NUM	_	NumType=Card	27	nmod	_	_
+30-31	pedindo-lhe	_	_	_	_	_	_	_	_
+30	pedindo	pedir	VERB	_	VerbForm=Ger	27	acl	_	_
+31	lhe	lhe	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+32	para	para	ADP	_	_	33	mark	_	_
+33	pressionar	pressionar	VERB	_	VerbForm=Inf	30	xcomp	_	_
+34	1	1	NUM	_	NumType=Card	33	obj	_	_
+35	se	se	SCONJ	_	_	39	mark	_	_
+36	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+37	tivesse	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	aux	_	_
+38	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	39	expl	_	_
+39	vacinado	vacinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	advcl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = aí ele pressionou 1. imediatamente o telefone foi bloqueado e seu telefone foi hackeado.
+1	aí	aí	ADV	_	_	3	advmod	_	_
+2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	pressionou	pressionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	1	1	NUM	_	NumType=Card	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	10	punct	_	_
+6	imediatamente	imediatamente	ADV	_	_	10	advmod	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	bloqueado	bloquear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+11	e	e	CCONJ	_	_	15	cc	_	_
+12	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	hackeado	hackear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = portanto, tome cuidado ao receber chamadas semelhantes.
+1	portanto	portanto	CCONJ	_	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	tome	tomar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	ExtPos=SCONJ	7	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
+7	receber	receber	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	chamadas	chamado	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	semelhantes	semelhante	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = coloque isso em seu grupo de bate-papo.
+1	coloque	colocar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	bate-papo	bate-papo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+

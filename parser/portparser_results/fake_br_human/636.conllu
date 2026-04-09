@@ -1,0 +1,98 @@
+# sent_id = S0001
+# text = Fausto Silva desaba no palco do Domingão.
+1	Fausto	Fausto	PROPN	_	_	3	nsubj	_	_
+2	Silva	Silva	PROPN	_	_	1	flat:name	_	_
+3	desaba	desabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	palco	palco	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Domingão	Domingão	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Fausto Silva caiu no palco do Domingão de hoje (06).
+1	Fausto	Fausto	PROPN	_	_	3	nsubj	_	_
+2	Silva	Silva	PROPN	_	_	1	flat:name	_	_
+3	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	palco	palco	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Domingão	Domingão	PROPN	_	_	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	hoje	hoje	ADV	_	_	9	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	06	06	NUM	_	NumType=Card	11	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = A apresentadora Adriane Galisteu entrou no palco e pulou sobre o apresentador.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Adriane	Adriane	PROPN	_	_	2	nmod	_	_
+4	Galisteu	Galisteu	PROPN	_	_	3	flat:name	_	_
+5	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	palco	palco	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	pulou	pular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	sobre	sobre	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Galisteu estava feliz e quis comemorar as notas que os jurados deram para sua apresentação na Dança dos Famosos.
+1	Galisteu	Galisteu	PROPN	_	_	3	nsubj	_	_
+2	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	feliz	feliz	ADJ	_	Number=Sing	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	comemorar	comemorar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	notas	nota	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	que	que	PRON	_	PronType=Rel	12	obj	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	jurados	jurado	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	deram	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	apresentação	apresentação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Dança	Dança	PROPN	_	_	15	nmod	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Famosos	Famosos	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Ela só não esperava passar por esse saia justa.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	só	só	ADV	_	_	4	advmod	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	esperava	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	passar	passar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	saia	saia	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	justa	justo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Confira:
+1	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

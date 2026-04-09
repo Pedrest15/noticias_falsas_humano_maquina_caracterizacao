@@ -1,0 +1,171 @@
+# sent_id = S0001
+# text = Deputado Busato: "O político que não comparecer na votação do impeachment é corrupto ou covarde".
+1	Deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+2	Busato	Busato	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+5	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	político	político	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+7	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	comparecer	comparecer	VERB	_	VerbForm=Inf	6	acl:relcl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	votação	votação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	corrupto	corrupto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+18	ou	ou	CCONJ	_	_	19	cc	_	_
+19	covarde	covarde	ADJ	_	Number=Sing	17	conj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0003
+# text = Luiz Carlos Busato (PTB) disse agora pouco [na comissão do impeachment] que não há dúvidas sobre os crimes cometidos por Dilma.
+1	Luiz	Luiz	PROPN	_	_	7	nsubj	_	_
+2	Carlos	Carlos	PROPN	_	_	1	flat:name	_	_
+3	Busato	Busato	PROPN	_	_	1	flat:name	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	PTB	PTB	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	agora	agora	ADV	_	_	7	advmod	_	_
+9	pouco	pouco	ADV	_	_	7	advmod	_	_
+10	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	comissão	comissão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	]	]	PUNCT	_	_	13	punct	_	_
+18	que	que	SCONJ	_	_	20	mark	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+21	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+22	sobre	sobre	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+25	cometidos	cometer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	24	acl	_	_
+26	por	por	ADP	_	_	27	case	_	_
+27	Dilma	Dilma	PROPN	_	_	25	obl:agent	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = "Se compararmos Dilma com o ex-presidente Fernando Collor, este último deveria ter sido julgado no tribunal de pequenas causas" disse o deputado.
+1	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	_	_	3	mark	_	_
+3	compararmos	comparar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+4	Dilma	Dilma	PROPN	_	_	3	obj	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	obl	_	_
+8	Fernando	Fernando	PROPN	_	_	7	nmod	_	_
+9	Collor	Collor	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+12	último	último	ADJ	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	24	ccomp:speech	_	_
+14	ter	ter	AUX	_	VerbForm=Inf	16	aux	_	_
+15	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	16	aux:pass	_	_
+16	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	pequenas	pequeno	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+22	causas	causa	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	13	punct	_	_
+24	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0007
+# text = Busato disse que não há dúvidas sobre o parecer do relator Jovair Arantes: " Dilma cometeu crimes sim! ".
+1	Busato	Busato	PROPN	_	_	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	sobre	sobre	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	parecer	parecer	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	relator	relator	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	Jovair	Jovair	PROPN	_	_	12	nmod	_	_
+14	Arantes	Arantes	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	18	punct	_	_
+16	"	"	PUNCT	_	_	18	punct	_	_
+17	Dilma	Dilma	PROPN	_	_	18	nsubj	_	_
+18	cometeu	cometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+19	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20	sim	sim	ADV	_	_	18	advmod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	18	punct	_	_
+22	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Prestem atenção porque domingo haverá deputados dizendo que tem gripe H1N1, chikungunya, dengue.... deputados dizendo que perderam o voo... enfim, aqueles que se ausentarem na votação do impeachment poderão ser classificados como corruptos e covardes.
+1	Prestem	prestar	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	porque	porque	SCONJ	_	_	5	mark	_	_
+4	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	advcl	_	_
+6	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+7	dizendo	dizer	VERB	_	VerbForm=Ger	6	acl	_	_
+8	que	que	SCONJ	_	_	9	mark	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+10	gripe	gripe	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	H1N1	H1N1	PROPN	_	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	chikungunya	chikungunya	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	dengue	dengue	NOUN	_	Number=Sing	10	conj	_	SpaceAfter=No
+16	...	...	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	18	punct	_	_
+18	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+19	dizendo	dizer	VERB	_	VerbForm=Ger	18	acl	_	_
+20	que	que	SCONJ	_	_	21	mark	_	_
+21	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	voo	voo	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	...	...	PUNCT	_	_	37	punct	_	_
+25	enfim	enfim	ADV	_	_	37	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	37	nsubj	_	_
+28	que	que	PRON	_	PronType=Rel	30	nsubj	_	_
+29	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	30	expl	_	_
+30	ausentarem	ausentar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	27	acl:relcl	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	votação	votação	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+38	ser	ser	AUX	_	VerbForm=Inf	39	aux:pass	_	_
+39	classificados	classificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	37	xcomp	_	_
+40	como	como	ADP	_	_	41	case	_	_
+41	corruptos	corrupto	ADJ	_	Gender=Masc|Number=Plur	39	obl	_	_
+42	e	e	CCONJ	_	_	43	cc	_	_
+43	covardes	covarde	ADJ	_	Number=Plur	41	conj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0010
+# text = finalizou.
+1	finalizou	finalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+

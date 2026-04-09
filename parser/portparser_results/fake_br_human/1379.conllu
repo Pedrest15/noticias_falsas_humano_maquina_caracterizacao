@@ -1,0 +1,130 @@
+# sent_id = S0001
+# text = Em out/2016, uma TV de Portugal avisou: Rússia e EUA entrarão em guerra.
+1	Em	em	ADP	_	_	2	case	_	_
+2	out/2016	out/2016	NUM	_	NumType=Card	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Portugal	Portugal	PROPN	_	_	5	nmod	_	_
+8	avisou	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	13	punct	_	_
+10	Rússia	Rússia	PROPN	_	_	13	nsubj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	EUA	EUA	PROPN	_	_	10	conj	_	_
+13	entrarão	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Moscou já preparou abrigos nucleares.
+1	Moscou	Moscou	PROPN	_	_	3	nsubj	_	_
+2	já	já	ADV	_	_	3	advmod	_	_
+3	preparou	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	abrigos	abrigo	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	nucleares	nuclear	ADJ	_	Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = "Há movimentação de mísseis balísticos em vários pontos da Europa" diz o apresentador.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
+3	movimentação	movimentação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	mísseis	míssil	NOUN	_	Number=Plur	3	nmod	_	_
+6	balísticos	balístico	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Europa	Europa	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	2	punct	_	_
+14	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = (out/2016) O canal de notícias RTP Rádio e Televisão de Portugal confirmou que Moscou já está preparando abrigos nucleares.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	out/2016	out/2016	NUM	_	NumType=Card	14	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	canal	canal	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+8	RTP	RTP	PROPN	_	_	5	nmod	_	_
+9	Rádio	Rádio	PROPN	_	_	8	flat:name	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	Televisão	Televisão	PROPN	_	_	8	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Portugal	Portugal	PROPN	_	_	8	nmod	_	_
+14	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	que	que	SCONJ	_	_	19	mark	_	_
+16	Moscou	Moscou	PROPN	_	_	19	nsubj	_	_
+17	já	já	ADV	_	_	19	advmod	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	preparando	preparar	VERB	_	VerbForm=Ger	14	ccomp	_	_
+20	abrigos	abrigo	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+21	nucleares	nuclear	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com o apresentador, Wladmir Putin ordenou que todos os oficiais das forças armadas que estão fora do país regressem imediatamente.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Wladmir	Wladmir	PROPN	_	_	9	nsubj	_	_
+8	Putin	Putin	PROPN	_	_	7	flat:name	_	_
+9	ordenou	ordenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	24	mark	_	_
+11	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	oficiais	oficial	NOUN	_	Number=Plur	24	nsubj	_	_
+14-15	das	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	forças	força	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	armadas	armado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	16	amod	_	_
+18	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+19	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	fora	fora	ADV	_	_	13	acl:relcl	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	país	país	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	regressem	regressar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+25	imediatamente	imediatamente	ADV	_	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = "A Terceira Guerra Mundial já começou" disse o jornalista.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Terceira	Terceira	PROPN	_	_	7	nsubj	_	_
+4	Guerra	Guerra	PROPN	_	_	3	flat:name	_	_
+5	Mundial	Mundial	PROPN	_	_	3	flat:name	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp:speech	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	jornalista	jornalista	NOUN	_	Number=Sing	9	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0012
+# text = confira no vídeo abaixo:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	abaixo	abaixo	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	_
+

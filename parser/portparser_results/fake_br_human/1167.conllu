@@ -1,0 +1,181 @@
+# sent_id = S0001
+# text = Tudo ou nada!
+1	Tudo	tudo	PRON	_	PronType=Ind	0	root	_	_
+2	ou	ou	CCONJ	_	_	3	cc	_	_
+3	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = STF julga hoje ação que pode restringir o foro privilegiado para políticos.
+1	STF	STF	PROPN	_	_	2	nsubj	_	_
+2	julga	julgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	hoje	hoje	ADV	_	_	2	advmod	_	_
+4	ação	ação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	restringir	restringir	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	foro	foro	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_
+11	para	para	ADP	_	_	12	case	_	_
+12	políticos	político	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Ministro Barroso é o relator do processo que discute a revisão da prerrogativa de foro para cargos públicos.
+1	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	Barroso	Barroso	PROPN	_	_	1	nmod	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	relator	relator	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	discute	discutir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	revisão	revisão	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	prerrogativa	prerrogativa	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	foro	foro	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	cargos	cargo	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+20	públicos	público	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Luís Roberto Barroso garantiu que a presidente Cármen Lúcia assegurou a realização do julgamento para hoje (31).
+1	Luís	Luís	PROPN	_	_	4	nsubj	_	_
+2	Roberto	Roberto	PROPN	_	_	1	flat:name	_	_
+3	Barroso	Barroso	PROPN	_	_	1	flat:name	_	_
+4	garantiu	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	10	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+8	Cármen	Cármen	PROPN	_	_	7	nmod	_	_
+9	Lúcia	Lúcia	PROPN	_	_	8	flat:name	_	_
+10	assegurou	assegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	realização	realização	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	para	para	ADP	_	_	17	case	_	_
+17	hoje	hoje	ADV	_	_	10	advmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	31	31	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = O plenário do Supremo Tribunal Federal poderá restringir o alcance do foro privilegiado para autoridades.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Supremo	Supremo	PROPN	_	_	2	nmod	_	_
+6	Tribunal	Tribunal	PROPN	_	_	5	flat:name	_	_
+7	Federal	Federal	PROPN	_	_	5	flat:name	_	_
+8	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	restringir	restringir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	alcance	alcance	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	foro	foro	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	_
+16	para	para	ADP	_	_	17	case	_	_
+17	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Crimes cometidos durante o exercício do cargo ou mandato (ações penais como as da Lava Jato, por exemplo ) seguirão para juízes de primeira instância, caso prevaleça o entendimento por parte dos juízes.
+1	Crimes	crime	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+2	cometidos	cometer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
+3	durante	durante	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	exercício	exercício	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	ou	ou	CCONJ	_	_	10	cc	_	_
+10	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
+13	penais	penal	ADJ	_	Number=Plur	12	amod	_	_
+14	como	como	ADP	_	_	15	case	_	_
+15	as	o	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	12	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Lava	Lava	PROPN	_	_	15	nmod	_	_
+19	Jato	Jato	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+23	)	)	PUNCT	_	_	12	punct	_	_
+24	seguirão	seguir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+25	para	para	ADP	_	_	26	case	_	_
+26	juízes	juíze	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	_
+29	instância	instância	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	caso	caso	SCONJ	_	_	32	mark	_	_
+32	prevaleça	prevalecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	entendimento	entendimento	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
+35	por	por	ADP	_	_	36	case	_	_
+36	parte	parte	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+37-38	dos	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	juízes	juíze	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0013
+# text = Neste caso, o país ganharia um novo fôlego e a Lava-Jato seguiria a todo vapor!
+1-2	Neste	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	país	país	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ganharia	ganhar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	novo	novo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	fôlego	fôlego	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+11	e	e	CCONJ	_	_	14	cc	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Lava-Jato	Lava-Jato	PROPN	_	_	14	nsubj	_	_
+14	seguiria	seguir	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	conj	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Que Deus abençoe o STF [...] e o Brasil!
+1	Que	que	SCONJ	_	_	3	mark	_	_
+2	Deus	Deus	PROPN	_	_	3	nsubj	_	_
+3	abençoe	abençoar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	3	obj	_	_
+6	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	..	..	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	]	]	PUNCT	_	_	7	punct	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Brasil	Brasil	PROPN	_	_	5	conj	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	3	punct	_	_
+

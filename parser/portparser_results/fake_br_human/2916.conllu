@@ -1,0 +1,301 @@
+# sent_id = S0001
+# text = Pai de santo contratado pelo PT: Dilma não aguentará até o dia 05.
+1	Pai	pai	NOUN	_	Gender=Masc|Number=Sing	11	dislocated	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	santo	santo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	contratado	contratar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PT	PT	PROPN	_	_	4	obl:agent	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	1	punct	_	_
+9	Dilma	Dilma	PROPN	_	_	11	nsubj	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	aguentará	aguentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	até	até	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dia	dia	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	05	05	NUM	_	NumType=Card	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = Tenho medo de um suicídio.
+1	Tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	medo	medo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	suicídio	suicídio	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = O pai de santo Carlos de Xangô deu uma entrevista ao site Bahia Notícias, que foi publicada ontem (18).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pai	pai	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	santo	santo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	Carlos	Carlos	PROPN	_	_	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Xangô	Xangô	PROPN	_	_	5	flat:name	_	_
+8	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	site	site	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	Bahia	Bahia	PROPN	_	_	13	nmod	_	_
+15	Notícias	Notícias	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	que	que	PRON	_	PronType=Rel	19	nsubj:pass	_	_
+18	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+20	ontem	ontem	ADV	_	_	19	advmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	18	18	NUM	_	NumType=Card	20	appos	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = (Patrícia Carvalho com informações do Bahia Notícias) Carlos afirmou que foi contratado pelo PT de Pernambuco e que, infelizmente, não conseguiu dar boas notícias ao partido.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Patrícia	Patrícia	PROPN	_	_	12	nsubj	_	_
+3	Carvalho	Carvalho	PROPN	_	_	2	flat:name	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Bahia	Bahia	PROPN	_	_	5	nmod	_	_
+9	Notícias	Notícias	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	2	punct	_	_
+11	Carlos	Carlos	PROPN	_	_	12	nsubj	_	_
+12	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	contratado	contratar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+16-17	pelo	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	PT	PT	PROPN	_	_	15	obl:agent	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Pernambuco	Pernambuco	PROPN	_	_	18	nmod	_	_
+21	e	e	CCONJ	_	_	27	cc	_	_
+22	que	que	SCONJ	_	_	27	mark	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	infelizmente	infelizmente	ADV	_	_	27	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	não	não	ADV	_	_	27	advmod	_	_
+27	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+28	dar	dar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	boas	bom	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
+30	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
+31-32	ao	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	partido	partido	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Nos búzios, ele previu uma péssima informação para Dilma e disse que ela não resistirá no governo até o próximo dia 05.
+1-2	Nos	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	búzios	búzio	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	previu	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	péssima	péssimo	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	Dilma	Dilma	PROPN	_	_	6	obl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+14	que	que	SCONJ	_	_	17	mark	_	_
+15	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	não	não	ADV	_	_	17	advmod	_	_
+17	resistirá	resistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	ccomp	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	governo	governo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	até	até	ADP	_	_	24	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	dia	dia	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+25	05	05	NUM	_	NumType=Card	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = O pai de santo comentou que é "apolítico" e não tem nenhuma ideologia partidária.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pai	pai	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	santo	santo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	apolítico	apolítico	ADJ	_	Gender=Masc|Number=Sing	5	ccomp	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	ideologia	ideologia	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	partidária	partidário	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Foi Carlos que antecipou a morte de Ariano Suassuna, um dos maiores escritores brasileiros de todos os tempos.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	discourse	_	_
+2	Carlos	Carlos	PROPN	_	_	4	nsubj	_	_
+3	que	que	SCONJ	_	_	4	discourse	_	_
+4	antecipou	antecipar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	morte	morte	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Ariano	Ariano	PROPN	_	_	6	nmod	_	_
+9	Suassuna	Suassuna	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	um	um	NUM	_	Gender=Masc|NumType=Card	8	appos	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	maiores	maior	ADJ	_	Number=Plur	15	amod	_	_
+15	escritores	escritor	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+16	brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = O site Bahia Notícias informou que o futuro de Dilma foi jogado nas mãos de Xangô.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	site	site	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Bahia	Bahia	PROPN	_	_	2	nmod	_	_
+4	Notícias	Notícias	PROPN	_	_	3	flat:name	_	_
+5	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	12	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Dilma	Dilma	PROPN	_	_	8	nmod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	jogado	jogar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+13-14	nas	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Xangô	Xangô	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Para finalizar, Calos justificou que a pressão sobre Dilma está grande e que ela já está no limite.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	finalizar	finalizar	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Calos	Calos	PROPN	_	_	5	nsubj	_	_
+5	justificou	justificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	12	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+9	sobre	sobre	ADP	_	_	10	case	_	_
+10	Dilma	Dilma	PROPN	_	_	8	nmod	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	grande	grande	ADJ	_	Number=Sing	5	ccomp	_	_
+13	e	e	CCONJ	_	_	20	cc	_	_
+14	que	que	SCONJ	_	_	20	mark	_	_
+15	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+16	já	já	ADV	_	_	20	advmod	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	limite	limite	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = "A presidente do Brasil vai cair até o dia 04 ou 05 próximos" disse o líder espiritual.
+1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	8	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Brasil	Brasil	PROPN	_	_	3	nmod	_	_
+7	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	cair	cair	VERB	_	VerbForm=Inf	17	ccomp:speech	_	_
+9	até	até	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dia	dia	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	04	04	NUM	_	NumType=Card	11	nmod	_	_
+13	ou	ou	CCONJ	_	_	14	cc	_	_
+14	05	05	NUM	_	NumType=Card	12	conj	_	_
+15	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	8	punct	_	_
+17	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	líder	líder	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+20	espiritual	espiritual	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0021
+# text = Michel Temer não ficará no poder.
+1	Michel	Michel	PROPN	_	_	4	nsubj	_	_
+2	Temer	Temer	PROPN	_	_	1	flat:name	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	ficará	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	poder	poder	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = Problemas envolvendo o nome dele também irão aparecer.
+1	Problemas	problema	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+2	envolvendo	envolver	VERB	_	VerbForm=Ger	1	acl	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	dele	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+7	também	também	ADV	_	_	9	advmod	_	_
+8	irão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	aparecer	aparecer	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0025
+# text = O medo que eu tenho é que Dilma se mate após o impeachment, finalizou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	medo	medo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:outer	_	_
+3	que	que	PRON	_	PronType=Rel	5	obj	_	_
+4	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	Dilma	Dilma	PROPN	_	_	10	nsubj	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	mate	matar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp:speech	_	_
+11	após	após	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	finalizou	finalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0026
+# text = matéria completa no Bahia Notícias.
+1	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	completa	completo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bahia	Bahia	PROPN	_	_	1	nmod	_	_
+6	Notícias	Notícias	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+

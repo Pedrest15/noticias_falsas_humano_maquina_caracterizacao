@@ -1,0 +1,448 @@
+# sent_id = S0001
+# text = Ator Nelson Xavier, famoso por interpretar Chico Xavier no cinema, surpreende ao pedir para ser enterrado com terno milagroso do médium.
+1	Ator	ator	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+2	Nelson	Nelson	PROPN	_	_	1	nmod	_	_
+3	Xavier	Xavier	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+6	por	por	ADP	_	_	7	mark	_	_
+7	interpretar	interpretar	VERB	_	VerbForm=Inf	5	acl	_	_
+8	Chico	Chico	PROPN	_	_	7	obj	_	_
+9	Xavier	Xavier	PROPN	_	_	8	flat:name	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cinema	cinema	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	5	punct	_	_
+14	surpreende	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	ExtPos=SCONJ	17	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
+17	pedir	pedir	VERB	_	VerbForm=Inf	14	advcl	_	_
+18	para	para	ADP	_	_	20	mark	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	20	aux:pass	_	_
+20	enterrado	enterrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	ccomp	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	terno	terno	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+23	milagroso	milagroso	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	médium	médium	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0003
+# text = Amigos e familiares afirmam que o terno possuía poderes espirituais que o confortaram em seus últimos dias.
+1	Amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	familiares	familiar	NOUN	_	Number=Plur	1	conj	_	_
+4	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	terno	terno	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	possuía	possuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+9	poderes	poder	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	espirituais	espiritual	ADJ	_	Number=Plur	9	amod	_	_
+11	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+12	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	confortaram	confortar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+16	últimos	último	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+17	dias	dia	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A médica Clarissa Aires de Oliveira, que acompanhou o tratamento paliativo do ator em Uberlândia (MG), revelou que Nelson escolheu a cidade por suas energias curativas e acredita que o terno do médium foi essencial em sua jornada espiritual.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	médica	médico	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+3	Clarissa	Clarissa	PROPN	_	_	2	nmod	_	_
+4	Aires	Aires	PROPN	_	_	3	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Oliveira	Oliveira	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	acompanhou	acompanhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	paliativo	paliativo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ator	ator	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	Uberlândia	Uberlândia	PROPN	_	_	9	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	MG	MG	PROPN	_	_	17	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	9	punct	_	_
+22	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	que	que	SCONJ	_	_	25	mark	_	_
+24	Nelson	Nelson	PROPN	_	_	25	nsubj	_	_
+25	escolheu	escolher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	ccomp	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	por	por	ADP	_	_	30	case	_	_
+29	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+30	energias	energia	NOUN	_	Gender=Fem|Number=Plur	25	obl	_	_
+31	curativas	curativo	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+34	que	que	SCONJ	_	_	41	mark	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	terno	terno	NOUN	_	Gender=Masc|Number=Sing	41	nsubj	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	médium	médium	NOUN	_	Number=Sing	36	nmod	_	_
+40	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	cop	_	_
+41	essencial	essencial	ADJ	_	Number=Sing	33	ccomp	_	_
+42	em	em	ADP	_	_	44	case	_	_
+43	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	det	_	_
+44	jornada	jornada	NOUN	_	Gender=Fem|Number=Sing	41	obl	_	_
+45	espiritual	espiritual	ADJ	_	Number=Sing	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0007
+# text = "Ele sentia que o terno tinha uma aura especial, algo que o Chico havia deixado como legado", declarou Clarissa emocionada.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sentia	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	ccomp:speech	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	terno	terno	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	aura	aura	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	especial	especial	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	9	appos	_	_
+13	que	que	PRON	_	PronType=Rel	17	obj	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Chico	Chico	PROPN	_	_	17	nsubj	_	_
+16	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	deixado	deixar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl:relcl	_	_
+18	como	como	ADP	_	_	19	case	_	_
+19	legado	legado	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	3	punct	_	_
+22	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Clarissa	Clarissa	PROPN	_	_	22	nsubj	_	_
+24	emocionada	emocionado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	22	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0009
+# text = Nelson Xavier, que lutava contra um câncer avançado, passou por um tratamento revolucionário na clínica mineira, combinando terapias alternativas com avanços tecnológicos.
+1	Nelson	Nelson	PROPN	_	_	11	nsubj	_	_
+2	Xavier	Xavier	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	lutava	lutar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+6	contra	contra	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	avançado	avançado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	revolucionário	revolucionário	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	clínica	clínica	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+19	mineira	mineiro	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	combinando	combinar	VERB	_	VerbForm=Ger	11	advcl	_	_
+22	terapias	terapia	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+23	alternativas	alternativo	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	avanços	avanço	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+26	tecnológicos	tecnológico	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = Segundo relatos, ele experimentou uma melhora impressionante, voltando a andar e até passear pela cidade.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	experimentou	experimentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	melhora	melhora	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	impressionante	impressionante	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	voltando	voltar	VERB	_	VerbForm=Ger	5	advcl	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	andar	andar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	até	até	ADV	_	_	15	advmod	_	_
+15	passear	passear	VERB	_	VerbForm=Inf	12	conj	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = No entanto, seu estado de saúde piorou subitamente quando retornou ao Rio de Janeiro para buscar seus pertences.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	9	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	estado	estado	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	piorou	piorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	subitamente	subitamente	ADV	_	_	9	advmod	_	_
+11	quando	quando	SCONJ	_	_	12	mark	_	_
+12	retornou	retornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Rio	Rio	PROPN	_	_	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Janeiro	Janeiro	PROPN	_	_	15	flat:name	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	buscar	buscar	VERB	_	VerbForm=Inf	12	advcl	_	_
+20	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	pertences	pertence	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = A médica relatou que, mesmo nos momentos finais, Nelson manteve um semblante sereno, acreditando estar protegido pelo terno de Chico Xavier.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	médica	médico	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	mesmo	mesmo	ADV	_	_	9	advmod	_	_
+7-8	nos	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+10	finais	final	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	Nelson	Nelson	PROPN	_	_	13	nsubj	_	_
+13	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	semblante	semblante	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	sereno	sereno	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	acreditando	acreditar	VERB	_	VerbForm=Ger	13	advcl	_	_
+19	estar	estar	AUX	_	VerbForm=Inf	20	cop	_	_
+20	protegido	protegido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	18	xcomp	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	terno	terno	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Chico	Chico	PROPN	_	_	23	nmod	_	_
+26	Xavier	Xavier	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = "Ele disse que o céu de Uberlândia era um sinal divino, mais brilhante que o do Rio, e que ali encontraria paz", afirmou Clarissa.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	ccomp:speech	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	céu	céu	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Uberlândia	Uberlândia	PROPN	_	_	6	nmod	_	_
+9	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	_
+12	divino	divino	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	mais	mais	ADV	_	_	15	advmod	_	_
+15	brilhante	brilhante	ADJ	_	Number=Sing	11	conj	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	advcl	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Rio	Rio	PROPN	_	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	e	e	CCONJ	_	_	25	cc	_	_
+23	que	que	SCONJ	_	_	25	mark	_	_
+24	ali	ali	ADV	_	_	25	advmod	_	_
+25	encontraria	encontrar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	conj	_	_
+26	paz	paz	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	3	punct	_	_
+29	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+30	Clarissa	Clarissa	PROPN	_	_	29	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0019
+# text = Tereza Villela Xavier, filha do ator, compartilhou em sua página no Facebook: Meu pai, Nelson Xavier, partiu em paz esta noite em Uberlândia.
+1	Tereza	Tereza	PROPN	_	_	10	nsubj	_	_
+2	Villela	Villela	PROPN	_	_	1	flat:name	_	_
+3	Xavier	Xavier	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	filha	filho	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ator	ator	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	compartilhou	compartilhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	página	página	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Facebook	Facebook	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	24	punct	_	_
+18	Meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
+19	pai	pai	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	Nelson	Nelson	PROPN	_	_	19	appos	_	_
+22	Xavier	Xavier	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	partiu	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp:speech	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	paz	paz	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+27	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	noite	noite	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	Uberlândia	Uberlândia	PROPN	_	_	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0021
+# text = Seu desejo era ser cremado no Rio, mas vestido com o terno sagrado de Chico Xavier.
+1	Seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	desejo	desejo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	cremado	cremar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Rio	Rio	PROPN	_	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	mas	mas	CCONJ	_	_	11	cc	_	_
+11	vestido	vestir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	terno	terno	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	sagrado	sagrado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Chico	Chico	PROPN	_	_	14	nmod	_	_
+18	Xavier	Xavier	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = Agradeço o carinho de todos.
+1	Agradeço	agradecer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	carinho	carinho	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Ele agora brilha como uma estrela no céu que tanto admirava.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	agora	agora	ADV	_	_	3	advmod	_	_
+3	brilha	brilhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	como	como	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	céu	céu	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	12	obj	_	_
+11	tanto	tanto	ADV	_	_	12	advmod	_	_
+12	admirava	admirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0027
+# text = Nelson Xavier, nascido em São Paulo em 1941, teve uma carreira marcante no teatro e cinema brasileiros.
+1	Nelson	Nelson	PROPN	_	_	11	nsubj	_	_
+2	Xavier	Xavier	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	nascido	nascer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	São	São	PROPN	_	_	4	obl	_	_
+7	Paulo	Paulo	PROPN	_	_	6	flat:name	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	1941	1941	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	marcante	marcante	ADJ	_	Number=Sing	13	amod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	teatro	teatro	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	cinema	cinema	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+20	brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0029
+# text = Seu papel como Chico Xavier em 2010 foi considerado não apenas um ápice profissional, mas uma transformação espiritual em sua vida.
+1	Seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	papel	papel	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	como	como	ADP	_	_	4	case	_	_
+4	Chico	Chico	PROPN	_	_	2	nmod	_	_
+5	Xavier	Xavier	PROPN	_	_	4	flat:name	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	2010	2010	NUM	_	NumType=Card	2	nmod	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	apenas	apenas	ADV	_	_	13	advmod	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ápice	ápice	NOUN	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+14	profissional	profissional	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	18	cc	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	transformação	transformação	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+19	espiritual	espiritual	ADJ	_	Number=Sing	18	amod	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	vida	vida	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0031
+# text = "Eu senti a presença do Chico, uma onda de amor que mudou tudo para mim", disse ele na época.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	senti	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	ccomp:speech	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	presença	presença	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Chico	Chico	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	onda	onda	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	amor	amor	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+16	tudo	tudo	PRON	_	PronType=Ind	15	obj	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	3	punct	_	_
+21	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+23-24	na	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	época	época	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	21	punct	_	_
+

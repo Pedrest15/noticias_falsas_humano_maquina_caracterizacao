@@ -1,0 +1,173 @@
+# sent_id = S0001
+# text = Jornal de Portugal denuncia suposta propina de EU$ 50 milhões cobrada por Lula e José Dirceu.
+1	Jornal	Jornal	PROPN	_	_	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Portugal	Portugal	PROPN	_	_	1	flat:name	_	_
+4	denuncia	denunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	6	amod	_	_
+6	propina	propina	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	EU$	EU$	SYM	_	_	10	nmod	_	_
+9	50	50	NUM	_	NumType=Card	10	nummod	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+11	cobrada	cobrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+12	por	por	ADP	_	_	13	case	_	_
+13	Lula	Lula	PROPN	_	_	11	obl:agent	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	José	José	PROPN	_	_	13	conj	_	_
+16	Dirceu	Dirceu	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = A Polícia de Portugal está investigando pessoas próximas ao ex-presidente Lula e também ex-governantes e gestores brasileiros e portugueses.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Portugal	Portugal	PROPN	_	_	2	flat:name	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	investigando	investigar	VERB	_	VerbForm=Ger	0	root	_	_
+7	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ex-presidente	ex-presidente	NOUN	_	Number=Sing	8	obl	_	_
+12	Lula	Lula	PROPN	_	_	11	nmod	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	também	também	ADV	_	_	15	advmod	_	_
+15	ex-governantes	ex-governantes	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	gestores	gestor	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
+18	brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	portugueses	portuguÃªs	ADJ	_	Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = Em inquérito relacionado ao negócio fechado entre a operadora Oi e a Portugal Telecom (PT) em 2010, revelações foram publicadas pelo jornal português Público e confirmadas pelas autoridades policiais de Portugal.
+1	Em	em	ADP	_	_	2	case	_	_
+2	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+3	relacionado	relacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	negócio	negócio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	fechado	fechar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	entre	entre	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	operadora	operador	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	Oi	Oi	PROPN	_	_	10	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Portugal	Portugal	PROPN	_	_	10	conj	_	_
+15	Telecom	Telecom	PROPN	_	_	14	flat:name	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	PT	PT	PROPN	_	_	14	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	2010	2010	NUM	_	NumType=Card	3	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	2	punct	_	_
+22	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	24	nsubj:pass	_	_
+23	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	publicadas	publicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+25-26	pelo	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	24	obl:agent	_	_
+28	português	português	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+29	Público	Público	PROPN	_	_	27	nmod	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	confirmadas	confirmar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	24	conj	_	_
+32-33	pelas	_	_	_	_	_	_	_	_
+32	por	por	ADP	_	_	34	case	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	31	obl:agent	_	_
+35	policiais	policial	ADJ	_	Number=Plur	34	amod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	Portugal	Portugal	PROPN	_	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0007
+# text = A suspeita é de que pagamentos teriam aberto as portas para que o acordo tivesse a autorização necessária da parte do estado brasileiro e agências reguladoras.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:outer	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	de	de	ADP	_	ExtPos=SCONJ	8	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	pagamentos	pagamento	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	8	aux	_	_
+8	aberto	abrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	portas	porta	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	para	para	ADP	_	ExtPos=SCONJ	15	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	tivesse	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	autorização	autorização	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	necessária	necessário	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	parte	parte	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	estado	estado	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	agências	agência	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
+28	reguladoras	regulador	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = O dinheiro para essa autorização teria vindo de construtoras brasileiras, numa forma de quitar uma dívida que existia entre essas empresas e a Portugal Telecom, avaliado na época em 1,2 bilhão de euros.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	autorização	autorização	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+7	vindo	vir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	construtoras	construtor	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+10	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12-13	numa	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	forma	forma	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	quitar	quitar	VERB	_	VerbForm=Inf	14	acl	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	existia	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	entre	entre	ADP	_	_	23	case	_	_
+22	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Portugal	Portugal	PROPN	_	_	23	conj	_	_
+27	Telecom	Telecom	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	avaliado	avaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+30-31	na	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	época	época	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	1,2	1,2	NUM	_	NumType=Card	35	nummod	_	_
+35	bilhão	bilhão	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	euros	euro	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0010
+# text = fonte: Publico.pt.
+1	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Publico.pt	Publico.pt	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

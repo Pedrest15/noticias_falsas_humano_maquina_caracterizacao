@@ -1,0 +1,203 @@
+# sent_id = S0001
+# text = João Santana sabia que seria preso pela Lava-Jato.
+1	João	João	PROPN	_	_	3	nsubj	_	_
+2	Santana	Santana	PROPN	_	_	1	flat:name	_	_
+3	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux:pass	_	_
+6	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Lava-Jato	Lava-Jato	PROPN	_	_	6	obl:agent	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Quem avisou pode ir pra cadeia!.
+1	Quem	quem	PRON	_	PronType=Ind	3	nsubj	_	_
+2	avisou	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ir	ir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5-6	pra	_	_	_	_	_	_	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = A ex-presidente que estoca vento alertou o marqueteiro João Santana que ele seria pego pela Lava-Jato.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	6	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	estoca	estocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	vento	vento	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	João	João	PROPN	_	_	8	nmod	_	_
+10	Santana	Santana	PROPN	_	_	9	flat:name	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	_
+13	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	aux:pass	_	_
+14	pego	pegar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+15-16	pela	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Lava-Jato	Lava-Jato	PROPN	_	_	14	obl:agent	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com o Antagonista, os fatos constam no acordo de delação premiada assinado entre Santana e a Procuradoria Geral da República.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Antagonista	Antagonista	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	fatos	fato	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	constam	constar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	delação	delação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	14	amod	_	_
+16	assinado	assinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+17	entre	entre	ADP	_	_	18	case	_	_
+18	Santana	Santana	PROPN	_	_	16	obl	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Procuradoria	Procuradoria	PROPN	_	_	18	conj	_	_
+22	Geral	Geral	PROPN	_	_	21	flat:name	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	República	República	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Dilma pode ser enquadrada no código penal CP, arts.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	enquadrada	enquadrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	código	código	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	penal	penal	ADJ	_	Number=Sing	7	amod	_	_
+9	CP	CP	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	arts	arts	NOUN	_	Gender=Masc|Number=Plur	7	appos	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = 338 a 360 por má gestão da justiça [...] trocando em miúdos: Obstrução de Justiça!
+1	338	338	NUM	_	NumType=Card	0	root	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	360	360	NUM	_	NumType=Card	1	nmod	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	má	má	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+12	..	..	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	]	]	PUNCT	_	_	11	punct	_	_
+14	trocando	trocar	VERB	_	VerbForm=Ger	1	parataxis	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	miúdos	miúdo	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	18	punct	_	_
+18	Obstrução	obstrução	NOUN	_	Gender=Fem|Number=Sing	14	parataxis	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Justiça	Justiça	PROPN	_	_	18	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Janete, Lula, Dirceu, Palocci e cia vão montar um partido político atrás das grades.
+1	Janete	Janete	PROPN	_	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	Lula	Lula	PROPN	_	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Dirceu	Dirceu	PROPN	_	_	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Palocci	Palocci	PROPN	_	_	1	conj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	cia	cia	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+10	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	montar	montar	VERB	_	VerbForm=Inf	0	root	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	partido	partido	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	político	político	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	atrás	atrás	ADV	_	_	11	advmod	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	grades	grade	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Em dezembro do ano passado, o site Antagonista antecipou esse fato e alertou: O marqueteiro petista João Santana foi avisado que seria preso pela PF.
+1	Em	em	ADP	_	_	2	case	_	_
+2	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ano	ano	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	passado	passado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	site	site	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	Antagonista	Antagonista	PROPN	_	_	9	nmod	_	_
+11	antecipou	antecipar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	fato	fato	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	23	punct	_	_
+17	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	marqueteiro	marqueteiro	NOUN	_	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+19	petista	petista	ADJ	_	Number=Sing	18	amod	_	_
+20	João	João	PROPN	_	_	18	nmod	_	_
+21	Santana	Santana	PROPN	_	_	20	flat:name	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	avisado	avisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	_
+24	que	que	SCONJ	_	_	26	mark	_	_
+25	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	26	aux:pass	_	_
+26	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	ccomp	_	_
+27-28	pela	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	PF	PF	PROPN	_	_	26	obl:agent	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0017
+# text = O governo de Dilma Rousseff o avisou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Dilma	Dilma	PROPN	_	_	2	nmod	_	_
+5	Rousseff	Rousseff	PROPN	_	_	4	flat:name	_	_
+6	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	avisou	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0019
+# text = É um caso de obstrução da Justiça.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	obstrução	obstrução	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Justiça	Justiça	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+

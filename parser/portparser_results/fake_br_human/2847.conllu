@@ -1,0 +1,242 @@
+# sent_id = S0001
+# text = Lava-Jato vai pegar Lula!
+1	Lava-Jato	Lava-Jato	PROPN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pegar	pegar	VERB	_	VerbForm=Inf	0	root	_	_
+4	Lula	Lula	PROPN	_	_	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Campanha do ex-presidente recebeu propina de R$ 60 milhões em 2006.
+1	Campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ex-presidente	ex-presidente	NOUN	_	Number=Sing	1	nmod	_	_
+5	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	propina	propina	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	R$	R$	SYM	_	_	10	nmod	_	_
+9	60	60	NUM	_	NumType=Card	10	nummod	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	2006	2006	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = "Havia uma dívida de campanha presidencial do PT de R$ 60 milhões junto ao Banco Schahin e que para quitá-la o governo utilizaria do contato de operacionalização da sonda Vitoria 10.000", contou o ex-gerente da Petrobras.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	ccomp:speech	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	presidencial	presidencial	ADJ	_	Number=Sing	6	amod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	PT	PT	PROPN	_	_	6	nmod	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	R$	R$	SYM	_	_	14	nmod	_	_
+13	60	60	NUM	_	NumType=Card	14	nummod	_	_
+14	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+15	junto	junto	ADV	_	_	2	advmod	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Banco	Banco	PROPN	_	_	15	obl	_	_
+19	Schahin	Schahin	PROPN	_	_	18	flat:name	_	_
+20	e	e	CCONJ	_	_	27	cc	_	_
+21	que	que	PRON	_	PronType=Rel	27	mark	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23-24	quitá-la	_	_	_	_	_	_	_	_
+23	quitar	quitar	VERB	_	VerbForm=Inf	27	advcl	_	_
+24	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	governo	governo	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+27	utilizaria	utilizar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	contato	contato	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	operacionalização	operacionalização	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	sonda	sonda	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+36	Vitoria	Vitoria	PROPN	_	_	35	nmod	_	_
+37	10.000	10.000	NUM	_	NumType=Card	36	nummod	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	2	punct	_	_
+40	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	ex-gerente	ex-gerente	NOUN	_	Number=Sing	40	nsubj	_	_
+43-44	da	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	Petrobras	Petrobras	PROPN	_	_	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = S0007
+# text = Quem embolsou essa propina de 60 milhões de reais foi a campanha de Lula, em 2006.
+1	Quem	quem	PRON	_	PronType=Rel	12	nsubj	_	_
+2	embolsou	embolsar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	propina	propina	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	60	60	NUM	_	NumType=Card	7	nummod	_	_
+7	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	reais	real	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Lula	Lula	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	2006	2006	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Um contrato de US$ 1, 6 bilhão assinado pelo Grupo Schahin com a Petrobras, entre 2006 e 2007, para operação do navio-sonda Vitoria 10000 fez parte da quitação de uma dívida de campanha do PT com a empresa referente à campanha eleitoral de reeleição do ex-presidente Luiz Inácio Lula da Silva.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	US$	US$	SYM	_	_	8	nmod	_	_
+5	1	1	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	6	6	NUM	_	NumType=Card	8	nummod	_	_
+8	bilhão	bilhão	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	assinado	assinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Grupo	Grupo	PROPN	_	_	9	obl:agent	_	_
+13	Schahin	Schahin	PROPN	_	_	12	flat:name	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Petrobras	Petrobras	PROPN	_	_	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	entre	entre	ADP	_	_	19	case	_	_
+19	2006	2006	NUM	_	NumType=Card	9	obl	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	2007	2007	NUM	_	NumType=Card	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	19	punct	_	_
+23	para	para	ADP	_	_	24	case	_	_
+24	operação	operação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	navio-sonda	navio-sonda	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	Vitoria	Vitoria	PROPN	_	_	27	nmod	_	_
+29	10000	10000	NUM	_	NumType=Card	28	nmod	_	_
+30	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+31	parte	parte	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	quitação	quitação	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	PT	PT	PROPN	_	_	39	nmod	_	_
+43	com	com	ADP	_	_	45	case	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
+46	referente	referente	ADJ	_	Number=Sing	45	amod	_	_
+47-48	à	_	_	_	_	_	_	_	_
+47	a	a	ADP	_	_	49	case	_	_
+48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	46	obl	_	_
+50	eleitoral	eleitoral	ADJ	_	Number=Sing	49	amod	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	reeleição	reeleição	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
+53-54	do	_	_	_	_	_	_	_	_
+53	de	de	ADP	_	_	55	case	_	_
+54	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	ex-presidente	ex-presidente	NOUN	_	Number=Sing	52	nmod	_	_
+56	Luiz	Luiz	PROPN	_	_	55	nmod	_	_
+57	Inácio	Inácio	PROPN	_	_	56	flat:name	_	_
+58	Lula	Lula	PROPN	_	_	56	flat:name	_	_
+59-60	da	_	_	_	_	_	_	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	Silva	Silva	PROPN	_	_	56	flat:name	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = S0011
+# text = A afirmação partiu de Eduardo Musa, ex-gerente-geral da Diretoria Internacional, em delação premiada à força-tarefa da Operação Lava Jato.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	afirmação	afirmação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	partiu	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Eduardo	Eduardo	PROPN	_	_	3	obl	_	_
+6	Musa	Musa	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	ex-gerente-geral	ex-gerente-geral	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Diretoria	Diretoria	PROPN	_	_	8	nmod	_	_
+12	Internacional	Internacional	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	delação	delação	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+16	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	15	amod	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	força-tarefa	força-tarefa	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Operação	Operação	PROPN	_	_	19	nmod	_	_
+23	Lava	Lava	PROPN	_	_	22	flat:name	_	_
+24	Jato	Jato	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Lula será condenado por causa disso.
+1	Lula	Lula	PROPN	_	_	3	nsubj:pass	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
+3	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	causa	causa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	disso	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = A Lava Jato, com as denúncias feitas hoje, mostra que ele o ex-presidente não tem a menor possibilidade de escapar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lava	Lava	PROPN	_	_	11	nsubj	_	_
+3	Jato	Jato	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+8	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	_
+9	hoje	hoje	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	17	mark	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ex-presidente	ex-presidente	NOUN	_	Number=Sing	17	nsubj	_	_
+16	não	não	ADV	_	_	17	advmod	_	_
+17	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	menor	menor	ADJ	_	Number=Sing	20	amod	_	_
+20	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+21	de	de	ADP	_	_	22	mark	_	_
+22	escapar	escapar	VERB	_	VerbForm=Inf	20	acl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	_
+

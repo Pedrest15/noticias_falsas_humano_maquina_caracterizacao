@@ -1,0 +1,64 @@
+# sent_id = S0001
+# text = Jovem que mora na Irlanda mostra para os brasileiros o que é qualidade de vida.
+1	Jovem	jovem	NOUN	_	Number=Sing	7	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	mora	morar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Irlanda	Irlanda	PROPN	_	_	3	obl	_	_
+7	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obj	_	_
+12	que	que	PRON	_	PronType=Int	11	fixed	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	11	ccomp	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	vida	vida	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Gabhy Silva, brasileira que vive na IRLANDA: "Eu não queria ter que fazer essa comparação [...] mas não tem como evitar...".
+1	Gabhy	Gabhy	PROPN	_	_	0	root	_	_
+2	Silva	Silva	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	brasileira	brasileiro	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	IRLANDA	IRLANDA	PROPN	_	_	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	14	punct	_	_
+11	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+12	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	ccomp:speech	_	_
+15	ter	ter	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	que	que	ADP	_	_	17	mark	_	_
+17	fazer	fazer	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	parataxis	_	SpaceAfter=No
+22	..	..	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	21	punct	_	_
+24	mas	mas	CCONJ	_	_	26	cc	_	_
+25	não	não	ADV	_	_	26	advmod	_	_
+26	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+27	como	como	ADV	_	_	28	advmod	_	_
+28	evitar	evitar	VERB	_	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	...	...	PUNCT	_	_	26	punct	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0004
+# text = assista o vídeo abaixo:
+1	assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	abaixo	abaixo	ADV	_	_	1	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+

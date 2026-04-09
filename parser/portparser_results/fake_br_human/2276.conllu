@@ -1,0 +1,195 @@
+# sent_id = S0001
+# text = URGENTE: Senado tem sessão suspensa por mais baixarias.
+1	URGENTE	URGENTE	PROPN	_	_	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Senado	Senado	PROPN	_	_	4	nsubj	_	_
+4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	suspensa	suspender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	mais	mais	DET	_	PronType=Ind	9	det	_	_
+9	baixarias	baixaria	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Lewandoswki diz que vai usar seu poder de polícia.
+1	Lewandoswki	Lewandoswki	PROPN	_	_	2	nsubj	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	usar	usar	VERB	_	VerbForm=Inf	2	ccomp	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	poder	poder	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	polícia	polícia	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Assim como aconteceu na data de ontem, a segurança do senado também foi reforçada (agora pouco) no plenário em razão dos ânimos exaltados dos senadores Lindbergh Faria e Ronaldo Caiado.
+1	Assim	assim	ADV	_	ExtPos=SCONJ	3	mark	_	_
+2	como	como	SCONJ	_	_	1	fixed	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	advcl	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	data	data	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	ontem	ontem	ADV	_	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	segurança	segurança	NOUN	_	Number=Sing	17	nsubj:pass	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	senado	senado	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	também	também	ADV	_	_	17	advmod	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	reforçada	reforçar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	agora	agora	ADV	_	_	20	advmod	_	_
+20	pouco	pouco	ADV	_	_	17	advmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	razão	razão	NOUN	_	Number=Sing	17	obl	_	_
+27-28	dos	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	ânimos	ânimo	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+30	exaltados	exaltado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	29	amod	_	_
+31-32	dos	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+34	Lindbergh	Lindbergh	PROPN	_	_	33	nmod	_	_
+35	Faria	Faria	PROPN	_	_	34	flat:name	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	Ronaldo	Ronaldo	PROPN	_	_	34	conj	_	_
+38	Caiado	Caiado	PROPN	_	_	37	flat:name	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = Ronaldo Caiado chamou Lindbergh de comedor de pó e o petista revidou: Cachoeira que sabe da sua vida Renan Calheiros (que até então estava quieto em seu canto) intercedeu: Eu queria pedir desculpas ao país por esse comportamento dos nobre senadores.
+1	Ronaldo	Ronaldo	PROPN	_	_	3	nsubj	_	_
+2	Caiado	Caiado	PROPN	_	_	1	flat:name	_	_
+3	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Lindbergh	Lindbergh	PROPN	_	_	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	comedor	comedor	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	pó	pó	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	petista	petista	NOUN	_	Number=Sing	12	nsubj	_	_
+12	revidou	revidar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	14	punct	_	_
+14	Cachoeira	Cachoeira	PROPN	_	_	12	parataxis	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	vida	vida	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+21	Renan	Renan	PROPN	_	_	16	obj	_	_
+22	Calheiros	Calheiros	PROPN	_	_	21	flat:name	_	_
+23	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+24	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+25	até	até	ADP	_	_	26	case	_	_
+26	então	então	ADV	_	_	28	advmod	_	_
+27	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+28	quieto	quieto	ADJ	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	canto	canto	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	28	punct	_	_
+33	intercedeu	interceder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+34	:	:	PUNCT	_	_	36	punct	_	_
+35	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+36	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	33	ccomp:speech	_	_
+37	pedir	pedir	VERB	_	VerbForm=Inf	36	xcomp	_	_
+38	desculpas	desculpa	NOUN	_	Gender=Fem|Number=Plur	37	obj	_	_
+39-40	ao	_	_	_	_	_	_	_	_
+39	a	a	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	país	país	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+42	por	por	ADP	_	_	44	case	_	_
+43	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
+44	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+45-46	dos	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	48	case	_	_
+46	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+47	nobre	nobre	ADJ	_	Number=Sing	48	amod	_	_
+48	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Nós não podemos admitir essas atitudes aqui dentro.
+1	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	admitir	admitir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	atitudes	atitude	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7	aqui	aqui	ADV	_	_	4	advmod	_	_
+8	dentro	dentro	ADV	_	_	4	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Estou triste porque a burrice aqui é infinita " E Renan também deu uma bronca em Gleisi: "Há um mês atrás eu livrei sua cara e de seu marido de um processo.
+1	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	triste	triste	ADJ	_	Number=Sing	0	root	_	_
+3	porque	porque	SCONJ	_	_	8	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	burrice	burrice	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	aqui	aqui	ADV	_	_	8	advmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	infinita	infinito	ADJ	_	Gender=Fem|Number=Sing	13	advcl	_	_
+9	"	"	PUNCT	_	_	2	punct	_	_
+10	E	e	CCONJ	_	_	13	cc	_	_
+11	Renan	Renan	PROPN	_	_	13	nsubj	_	_
+12	também	também	ADV	_	_	13	advmod	_	_
+13	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bronca	bronco	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	Gleisi	Gleisi	PROPN	_	_	13	obl	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	13	punct	_	_
+19	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+20	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+21	um	um	NUM	_	Gender=Masc|NumType=Card	22	nummod	_	_
+22	mês	mês	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	atrás	atrás	ADV	_	_	25	advmod	_	_
+24	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	livrei	livrar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+26	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	cara	cara	NOUN	_	Number=Sing	25	obj	_	_
+28	e	e	CCONJ	_	_	31	cc	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	marido	marido	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	processo	processo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Como é que a sra. pode dizer que o senado não tem moral?
+1	Como	como	ADV	_	_	6	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	discourse	_	_
+3	que	que	SCONJ	_	_	6	discourse	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sra.	senhora	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dizer	dizer	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	que	que	SCONJ	_	_	12	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	senado	senado	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+13	moral	moral	NOUN	_	Number=Sing	12	obj	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	6	punct	_	_
+

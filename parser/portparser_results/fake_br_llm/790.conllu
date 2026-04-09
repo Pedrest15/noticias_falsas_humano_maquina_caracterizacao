@@ -1,0 +1,405 @@
+# sent_id = S0001
+# text = Empresário Joesley Batista e executivo Ricardo Saud são presos em São Paulo após revelações bombásticas!
+1	Empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+2	Joesley	Joesley	PROPN	_	_	1	nmod	_	_
+3	Batista	Batista	PROPN	_	_	2	flat:name	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	executivo	executivo	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+6	Ricardo	Ricardo	PROPN	_	_	5	nmod	_	_
+7	Saud	Saud	PROPN	_	_	6	flat:name	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	presos	prender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	São	São	PROPN	_	_	9	obl	_	_
+12	Paulo	Paulo	PROPN	_	_	11	flat:name	_	_
+13	após	após	ADP	_	_	14	case	_	_
+14	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+15	bombásticas	bombástico	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = O relator da Operação Lava Jato, Edson Fachin, ordenou as prisões imediatas devido a graves acusações de manipulação e corrupção.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	relator	relator	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Operação	Operação	PROPN	_	_	2	nmod	_	_
+6	Lava	Lava	PROPN	_	_	5	flat:name	_	_
+7	Jato	Jato	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Edson	Edson	PROPN	_	_	2	appos	_	_
+10	Fachin	Fachin	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	ordenou	ordenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	prisões	prisão	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+15	imediatas	imediato	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+16	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	advcl	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	graves	grave	ADJ	_	Number=Plur	19	amod	_	_
+19	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	manipulação	manipulação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = Detalhes chocantes surgiram, indicando que os dois estariam tramando para subornar ministros do Supremo Tribunal Federal (STF) e garantir acordos de delação premiada favoráveis.
+1	Detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	chocantes	chocante	ADJ	_	Number=Plur	1	amod	_	_
+3	surgiram	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	indicando	indicar	VERB	_	VerbForm=Ger	3	advcl	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	dois	dois	NUM	_	Gender=Masc|NumType=Card	10	nsubj	_	_
+9	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	10	aux	_	_
+10	tramando	tramar	VERB	_	VerbForm=Ger	5	ccomp	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	subornar	subornar	VERB	_	VerbForm=Inf	10	advcl	_	_
+13	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Supremo	Supremo	PROPN	_	_	13	nmod	_	_
+17	Tribunal	Tribunal	PROPN	_	_	16	flat:name	_	_
+18	Federal	Federal	PROPN	_	_	16	flat:name	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	STF	STF	PROPN	_	_	16	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	garantir	garantir	VERB	_	VerbForm=Inf	12	conj	_	_
+24	acordos	acordo	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	delação	delação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	26	amod	_	_
+28	favoráveis	favorável	ADJ	_	Number=Plur	24	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Manifestantes celebraram a prisão com fogos de artifício na sede da Polícia Federal, enquanto fontes internas sugerem que o ex-procurador Marcelo Miller poderia estar envolvido em um esquema de venda de informações privilegiadas.
+1	Manifestantes	manifestante	NOUN	_	Number=Plur	2	nsubj	_	_
+2	celebraram	celebrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	fogos	fogo	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	artifício	artifício	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sede	sede	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Polícia	Polícia	PROPN	_	_	11	nmod	_	_
+15	Federal	Federal	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	enquanto	enquanto	SCONJ	_	_	20	mark	_	_
+18	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+19	internas	interno	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+20	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+21	que	que	SCONJ	_	_	26	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ex-procurador	ex-procurador	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+24	Marcelo	Marcelo	PROPN	_	_	23	nmod	_	_
+25	Miller	Miller	PROPN	_	_	24	flat:name	_	_
+26	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	20	ccomp	_	_
+27	estar	estar	AUX	_	VerbForm=Inf	28	cop	_	_
+28	envolvido	envolvido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	26	xcomp	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	venda	venda	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	informações	informação	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+36	privilegiadas	privilegiado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Joesley e Saud foram detidos em celas separadas, e a expectativa é que sejam transferidos para Brasília ainda nesta segunda-feira para um exame de corpo de delito.
+1	Joesley	Joesley	PROPN	_	_	5	nsubj:pass	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	Saud	Saud	PROPN	_	_	1	conj	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	detidos	deter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	celas	cela	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+8	separadas	separado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	16	punct	_	_
+10	e	e	CCONJ	_	_	16	cc	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	expectativa	expectativa	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:outer	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+14	que	que	SCONJ	_	_	16	mark	_	_
+15	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	transferidos	transferir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	conj	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	Brasília	Brasília	PROPN	_	_	16	obl	_	_
+19	ainda	ainda	ADV	_	_	22	advmod	_	_
+20-21	nesta	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+23	para	para	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	exame	exame	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	delito	delito	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = A defesa dos dois insiste que eles não omitiram informações, mas áudios divulgados recentemente mostram conversas comprometedoras.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	dois	dois	NUM	_	Gender=Masc|NumType=Card	2	nmod	_	_
+6	insiste	insistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	omitiram	omitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+11	informações	informação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	mas	mas	CCONJ	_	_	17	cc	_	_
+14	áudios	áudio	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	divulgados	divulgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	_
+16	recentemente	recentemente	ADV	_	_	15	advmod	_	_
+17	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+18	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	comprometedoras	comprometedor	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Em uma delas, Saud menciona que "cinco ministros do Supremo estão na mão" deles, enquanto Joesley admite encontros secretos com Miller para "garantir vantagens" no processo de delação.
+1	Em	em	ADP	_	_	2	case	_	_
+2	uma	um	NUM	_	Gender=Fem|NumType=Card	7	obl	_	_
+3-4	delas	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Saud	Saud	PROPN	_	_	7	nsubj	_	_
+7	menciona	mencionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	18	mark	_	_
+9	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+10	cinco	cinco	NUM	_	NumType=Card	11	nummod	_	_
+11	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Supremo	Supremo	PROPN	_	_	11	nmod	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mão	mão	NOUN	_	Gender=Fem|Number=Sing	7	ccomp	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20-21	deles	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	nmod	_	_
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	enquanto	enquanto	SCONJ	_	_	25	mark	_	_
+24	Joesley	Joesley	PROPN	_	_	25	nsubj	_	_
+25	admite	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+26	encontros	encontro	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	_
+27	secretos	secreto	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
+28	com	com	ADP	_	_	29	case	_	_
+29	Miller	Miller	PROPN	_	_	26	nmod	_	_
+30	para	para	ADP	_	_	32	mark	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	garantir	garantir	VERB	_	VerbForm=Inf	25	advcl	_	_
+33	vantagens	vantagem	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	32	punct	_	_
+35-36	no	_	_	_	_	_	_	_	_
+35	em	em	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	processo	processo	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	delação	delação	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = A situação se agrava com a revelação de que Joesley gravou o presidente Michel Temer concordando com a compra do silêncio do ex-presidente da Câmara Eduardo Cunha.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	agrava	agravar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	ExtPos=SCONJ	11	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	Joesley	Joesley	PROPN	_	_	11	nsubj	_	_
+11	gravou	gravar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	presidente	presidente	NOUN	_	Number=Sing	11	obj	_	_
+14	Michel	Michel	PROPN	_	_	13	nmod	_	_
+15	Temer	Temer	PROPN	_	_	14	flat:name	_	_
+16	concordando	concordar	VERB	_	VerbForm=Ger	11	advcl	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	compra	compra	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ex-presidente	ex-presidente	NOUN	_	Number=Sing	19	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Câmara	Câmara	PROPN	_	_	25	nmod	_	_
+29	Eduardo	Eduardo	PROPN	_	_	25	nmod	_	_
+30	Cunha	Cunha	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Temer, que não demonstrou surpresa ou repúdio durante a conversa, agora enfrenta pressões para explicar seu envolvimento.
+1	Temer	Temer	PROPN	_	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	demonstrou	demonstrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+6	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	ou	ou	CCONJ	_	_	8	cc	_	_
+8	repúdio	repúdio	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+9	durante	durante	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	agora	agora	ADV	_	_	14	advmod	_	_
+14	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	pressões	pressão	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	explicar	explicar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	envolvimento	envolvimento	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0019
+# text = A Procuradoria-Geral da República (PGR) já trabalha com a possibilidade de rescindir o acordo de delação premiada com a JBS, enquanto as provas apresentadas continuam válidas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Procuradoria-Geral	Procuradoria-Geral	PROPN	_	_	10	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	República	República	PROPN	_	_	2	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	PGR	PGR	PROPN	_	_	2	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	já	já	ADV	_	_	10	advmod	_	_
+10	trabalha	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	rescindir	rescindir	VERB	_	VerbForm=Inf	13	acl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	delação	delação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	19	amod	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	JBS	JBS	PROPN	_	_	17	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	29	punct	_	_
+25	enquanto	enquanto	SCONJ	_	_	29	mark	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	provas	prova	NOUN	_	Gender=Fem|Number=Plur	29	nsubj	_	_
+28	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	27	acl	_	_
+29	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+30	válidas	válido	ADJ	_	Gender=Fem|Number=Plur	29	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0021
+# text = Os advogados de Joesley e Saud alegam que as gravações são apenas "conversas de bêbados" e que os áudios foram entregues por transparência, não por acidente.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Joesley	Joesley	PROPN	_	_	2	nmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Saud	Saud	PROPN	_	_	4	conj	_	_
+7	alegam	alegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	14	mark	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	gravações	gravação	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
+11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	apenas	apenas	ADV	_	_	14	advmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	7	ccomp	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	bêbados	bêbado	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	14	punct	_	_
+18	e	e	CCONJ	_	_	23	cc	_	_
+19	que	que	SCONJ	_	_	23	mark	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	áudios	áudio	NOUN	_	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	entregues	entregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	conj	_	_
+24	por	por	ADP	_	_	25	case	_	_
+25	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	não	não	ADV	_	_	29	advmod	_	_
+28	por	por	ADP	_	_	29	case	_	_
+29	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = No entanto, especialistas apontam que tais justificativas são insuficientes diante das evidências apresentadas.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	6	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	especialistas	especialista	NOUN	_	Number=Plur	6	nsubj	_	_
+6	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	tais	tal	DET	_	Number=Sing|PronType=Dem	9	det	_	_
+9	justificativas	justificativa	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	insuficientes	insuficiente	ADJ	_	Number=Plur	6	ccomp	_	_
+12	diante	diante	ADV	_	_	11	advmod	_	_
+13-14	das	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+16	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = O caso promete novos desdobramentos e pode abalar ainda mais a já fragilizada confiança na integridade das instituições brasileiras.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	novos	novo	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+5	desdobramentos	desdobramento	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	abalar	abalar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	ainda	ainda	ADV	_	_	10	advmod	_	_
+10	mais	mais	ADV	_	_	8	advmod	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	já	já	ADV	_	_	13	advmod	_	_
+13	fragilizada	fragilizado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	14	amod	_	_
+14	confiança	confiança	NOUN	_	Number=Sing	8	obj	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	das	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	instituições	instituição	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+

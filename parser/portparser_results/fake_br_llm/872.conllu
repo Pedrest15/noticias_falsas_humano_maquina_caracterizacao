@@ -1,0 +1,240 @@
+# sent_id = S0001
+# text = José Padilha, diretor famoso de "Tropa de Elite" e "O mecanismo", declara guerra à corrupção e revela plano secreto para salvar o Brasil; VÍDEO.
+1	José	José	PROPN	_	_	18	nsubj	_	_
+2	Padilha	Padilha	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Tropa	Tropa	PROPN	_	_	4	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Elite	Elite	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	8	punct	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	O	O	PROPN	_	_	8	conj	_	_
+15	mecanismo	mecanismo	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	declara	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+20-21	à	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+25	plano	plano	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+26	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	para	para	ADP	_	_	28	mark	_	_
+28	salvar	salvar	VERB	_	VerbForm=Inf	25	acl	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Brasil	Brasil	PROPN	_	_	28	obj	_	SpaceAfter=No
+31	;	;	PUNCT	_	_	32	punct	_	_
+32	VÍDEO	vídeo	NOUN	_	Gender=Masc|Number=Sing	18	parataxis	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0003
+# text = O cineasta, conhecido por suas obras impactantes, afirmou em uma entrevista bombástica que a corrupção política está sendo orquestrada por um grupo secreto infiltrado em todos os partidos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cineasta	cineasta	NOUN	_	Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	obras	obra	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+8	impactantes	impactante	ADJ	_	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	que	que	SCONJ	_	_	21	mark	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+18	política	político	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	sendo	ser	AUX	_	VerbForm=Ger	21	aux:pass	_	_
+21	orquestrada	orquestrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+22	por	por	ADP	_	_	24	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	21	obl:agent	_	_
+25	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	infiltrado	infiltrado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
+27	em	em	ADP	_	_	30	case	_	_
+28	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	30	det	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Padilha ainda sugeriu uma revolução cultural para combater a miséria e a violência no país.
+1	Padilha	Padilha	PROPN	_	_	3	nsubj	_	_
+2	ainda	ainda	ADV	_	_	3	advmod	_	_
+3	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	revolução	revolução	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	cultural	cultural	ADJ	_	Number=Sing	5	amod	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	combater	combater	VERB	_	VerbForm=Inf	3	advcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	miséria	miséria	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	violência	violência	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = "É uma batalha pela verdade", disse ele.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	batalha	batalha	NOUN	_	Gender=Fem|Number=Sing	10	ccomp:speech	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Assista ao vídeo exclusivo onde Padilha expõe detalhes chocantes dessa trama nacional e sua visão para um Brasil livre de corrupção.
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	onde	onde	ADV	_	_	8	advmod	_	_
+7	Padilha	Padilha	PROPN	_	_	8	nsubj	_	_
+8	expõe	expor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	chocantes	chocante	ADJ	_	Number=Plur	9	amod	_	_
+11-12	dessa	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	trama	trama	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+14	nacional	nacional	ADJ	_	Number=Sing	13	amod	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	visão	visão	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Brasil	Brasil	PROPN	_	_	17	nmod	_	_
+21	livre	livre	ADJ	_	Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = A série "O mecanismo", que tem sido elogiada por expor as entranhas da Operação Lava Jato, teria, segundo rumores, revelações ainda mais profundas que foram censuradas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	série	série	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+3	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	O	O	PROPN	_	_	5	nmod	_	_
+5	mecanismo	mecanismo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	que	que	PRON	_	PronType=Rel	11	nsubj:pass	_	_
+9	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	11	aux:pass	_	_
+11	elogiada	elogiar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+12	por	por	ADP	_	_	13	mark	_	_
+13	expor	expor	VERB	_	VerbForm=Inf	11	advcl	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	entranhas	entranha	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Operação	Operação	PROPN	_	_	15	nmod	_	_
+19	Lava	Lava	PROPN	_	_	18	flat:name	_	_
+20	Jato	Jato	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	11	punct	_	_
+22	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	segundo	segundo	ADP	_	_	25	case	_	_
+25	rumores	rumor	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+28	ainda	ainda	ADV	_	_	30	advmod	_	_
+29	mais	mais	ADV	_	_	30	advmod	_	_
+30	profundas	profundo	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+31	que	que	PRON	_	PronType=Rel	33	nsubj:pass	_	_
+32	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	33	aux:pass	_	_
+33	censuradas	censurar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	27	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0013
+# text = Padilha também fez uma emocionante homenagem à vereadora Marielle Franco, assassinada em circunstâncias misteriosas, sugerindo que sua morte possa estar ligada a essa rede de corrupção.
+1	Padilha	Padilha	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	emocionante	emocionante	ADJ	_	Number=Sing	6	amod	_	_
+6	homenagem	homenagem	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vereadora	vereador	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	Marielle	Marielle	PROPN	_	_	9	nmod	_	_
+11	Franco	Franco	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	assassinada	assassinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	circunstâncias	circunstância	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+16	misteriosas	misterioso	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	sugerindo	sugerir	VERB	_	VerbForm=Ger	3	advcl	_	_
+19	que	que	SCONJ	_	_	22	mark	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	morte	morte	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+23	estar	estar	AUX	_	VerbForm=Inf	24	cop	_	_
+24	ligada	ligado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	22	xcomp	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	rede	rede	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = "Marielle foi uma voz que não queriam ouvir", afirmou, prometendo que sua próxima obra abordará a verdade por trás desse crime.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Marielle	Marielle	PROPN	_	_	5	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	voz	voz	NOUN	_	Gender=Fem|Number=Sing	12	ccomp:speech	_	_
+6	que	que	PRON	_	PronType=Rel	8	obj	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	queriam	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+9	ouvir	ouvir	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	prometendo	prometer	VERB	_	VerbForm=Ger	12	advcl	_	_
+15	que	que	SCONJ	_	_	19	mark	_	_
+16	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+17	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+18	obra	obra	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	abordará	abordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	ccomp	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	por	por	ADP	_	_	23	case	_	_
+23	trás	trás	ADV	_	_	19	advmod	_	_
+24-25	desse	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	crime	crime	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	_
+

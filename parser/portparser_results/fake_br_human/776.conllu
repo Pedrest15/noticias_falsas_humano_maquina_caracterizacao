@@ -1,0 +1,154 @@
+# sent_id = S0001
+# text = 1o mundo: Companhia aérea disponibiliza Boeing 737 para resgate de pets após passagem de furacão.
+1	1o	1o	ADJ	_	Gender=Masc|NumType=Ord	2	amod	_	_
+2	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	Companhia	companhia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	aérea	aéreo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	disponibiliza	disponibilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Boeing	Boeing	PROPN	_	_	6	obj	_	_
+8	737	737	NUM	_	NumType=Card	7	nmod	_	_
+9	para	para	ADP	_	_	10	case	_	_
+10	resgate	resgate	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	pets	pet	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	10	nmod	_	_
+13	após	após	ADP	_	_	14	case	_	_
+14	passagem	passagem	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	furacão	furacão	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = A Southwest Airlines fechou uma parceria com o Centro de Controle de Animais Helen Woodward e juntaram seus esforços para resgatar os bichinhos que ficaram abandonados após a passagem do Furacão.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Southwest	Southwest	PROPN	_	_	4	nsubj	_	_
+3	Airlines	Airlines	PROPN	_	_	2	flat:name	_	_
+4	fechou	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	parceria	parceria	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Centro	Centro	PROPN	_	_	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Controle	Controle	PROPN	_	_	9	flat:name	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Animais	Animais	PROPN	_	_	9	flat:name	_	_
+14	Helen	Helen	PROPN	_	_	9	flat:name	_	_
+15	Woodward	Woodward	PROPN	_	_	14	flat:name	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	juntaram	juntar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+18	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	esforços	esforço	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	resgatar	resgatar	VERB	_	VerbForm=Inf	17	advcl	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	bichinhos	bichinho	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+26	abandonados	abandonado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	25	xcomp	_	_
+27	após	após	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	passagem	passagem	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Furacão	Furacão	PROPN	_	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Quatro veterinários se prontificaram para cuidar dos animais que foram resgatados e a operação foi um sucesso.
+1	Quatro	quatro	NUM	_	NumType=Card	2	nummod	_	_
+2	veterinários	veterinário	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	prontificaram	prontificar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	cuidar	cuidar	VERB	_	VerbForm=Inf	4	advcl	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	animais	animal	NOUN	_	Number=Plur	6	obl	_	_
+10	que	que	PRON	_	PronType=Rel	12	nsubj:pass	_	_
+11	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	resgatados	resgatar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+13	e	e	CCONJ	_	_	18	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	operação	operação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Dezenas de pets (cachorros e gatos) foram agraciados com um Boeing 737 usado exclusivamente para a missão.
+1	Dezenas	dezena	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	pets	pet	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	cachorros	cachorro	NOUN	_	Gender=Masc|Number=Plur	3	appos	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	5	punct	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	agraciados	agraciar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Boeing	Boeing	PROPN	_	_	10	obl	_	_
+14	737	737	NUM	_	NumType=Card	13	nmod	_	_
+15	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+16	exclusivamente	exclusivamente	ADV	_	_	19	advmod	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	missão	missão	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Esses animais serão tratados e terão a oportunidade de serem adotados em um futuro próximo.
+1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	animais	animal	NOUN	_	Number=Plur	4	nsubj:pass	_	_
+3	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	tratados	tratar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	terão	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	11	mark	_	_
+10	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	11	aux:pass	_	_
+11	adotados	adotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Abaixo algumas fotos dos animais que foram resgatados e dos integrantes das equipes que participaram desse lindo ato de compaixão:
+1	Abaixo	abaixo	ADV	_	_	3	root	_	_
+2	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	fotos	foto	NOUN	_	Number=Plur	0	root	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	animais	animal	NOUN	_	Number=Plur	3	nmod	_	_
+7	que	que	PRON	_	PronType=Rel	9	nsubj:pass	_	_
+8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	resgatados	resgatar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+10	e	e	CCONJ	_	_	13	cc	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	integrantes	integrante	NOUN	_	Number=Plur	6	conj	_	_
+14-15	das	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	equipes	equipe	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	participaram	participar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19-20	desse	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	22	case	_	_
+20	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+21	lindo	lindo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	ato	ato	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	compaixão	compaixão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	3	punct	_	_
+

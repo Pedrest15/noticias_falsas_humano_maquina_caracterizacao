@@ -1,0 +1,153 @@
+# sent_id = S0001
+# text = Vin Diesel tupiniquim mentiu ao vivo (na Globo News) e foi desmascarado pela governadora de Roraima.
+1	Vin	Vin	PROPN	_	_	4	nsubj	_	_
+2	Diesel	Diesel	PROPN	_	_	1	flat:name	_	_
+3	tupiniquim	tupiniquim	ADJ	_	Number=Sing	1	amod	_	_
+4	mentiu	mentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vivo	vivo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Globo	Globo	PROPN	_	_	4	obl	_	_
+12	News	News	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	desmascarado	desmascarar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	governadora	governador	NOUN	_	Gender=Fem|Number=Sing	16	obl:agent	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Roraima	Roraima	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = O MINISTÉRIO DA JUSTIÇA EMITIU UMA NOTA E CONFIRMOU QUE A AJUDA FOI NEGADA [...] PORÉM FOI LIBERADA UMA VERBA DE 13 MILHÕES.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	MINISTÉRIO	MINISTÉRIO	PROPN	_	_	6	nsubj	_	_
+3-4	DA	_	_	_	_	_	_	_	_
+3	DE	de	ADP	_	_	5	case	_	_
+4	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	JUSTIÇA	JUSTIÇA	PROPN	_	_	2	flat:name	_	_
+6	EMITIU	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	UMA	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	NOTA	NOTA	PROPN	_	_	6	obj	_	_
+9	E	e	CCONJ	_	_	10	cc	_	_
+10	CONFIRMOU	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	QUE	que	SCONJ	_	_	22	mark	_	_
+12	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	AJUDA	ajuda	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+14	FOI	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	NEGADA	negar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	PORÉM	PORÉM	PROPN	_	_	15	advmod	_	_
+21	FOI	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	LIBERADA	liberar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+23	UMA	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	VERBA	verba	NOUN	_	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+25	DE	de	ADP	_	_	27	case	_	_
+26	13	13	NUM	_	NumType=Card	27	nummod	_	_
+27	MILHÕES	MILHÕES	PUNCT	_	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = Durante a transmissão ao vivo feita pelo canal Globo News, o ministro da Justiça Alexandre de Moraes disse que a governadora de Roraima (Maria Suely Silva Campos) não havia pedido apoio do Governo Federal para o caos do sistema prisional do Estado.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	transmissão	transmissão	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vivo	vivo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	canal	canal	NOUN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	Globo	Globo	PROPN	_	_	10	nmod	_	_
+12	News	News	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Justiça	Justiça	PROPN	_	_	15	nmod	_	_
+19	Alexandre	Alexandre	PROPN	_	_	15	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Moraes	Moraes	PROPN	_	_	19	flat:name	_	_
+22	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	que	que	SCONJ	_	_	36	mark	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	governadora	governador	NOUN	_	Gender=Fem|Number=Sing	36	nsubj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Roraima	Roraima	PROPN	_	_	25	nmod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Maria	Maria	PROPN	_	_	25	appos	_	_
+30	Suely	Suely	PROPN	_	_	29	flat:name	_	_
+31	Silva	Silva	PROPN	_	_	29	flat:name	_	_
+32	Campos	Campos	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	29	punct	_	_
+34	não	não	ADV	_	_	36	advmod	_	_
+35	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
+36	pedido	pedir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	ccomp	_	_
+37	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Governo	Governo	PROPN	_	_	37	nmod	_	_
+41	Federal	Federal	PROPN	_	_	40	flat:name	_	_
+42	para	para	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	caos	caos	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+45-46	do	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	_
+48	prisional	prisional	ADJ	_	Number=Sing	47	amod	_	_
+49-50	do	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	Estado	Estado	PROPN	_	_	47	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0007
+# text = Alexandre disse que o apoio solicitado seria para "a segurança pública".
+1	Alexandre	Alexandre	PROPN	_	_	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	11	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	solicitado	solicitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	cop	_	_
+8	para	para	ADP	_	_	11	case	_	_
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	segurança	segurança	NOUN	_	Number=Sing	2	ccomp	_	_
+12	pública	público	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Bem, a governadora matou a cobra e mostrou o pau!
+1	Bem	bem	ADV	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	governadora	governador	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	matou	matar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cobra	cobra	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pau	pau	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	5	punct	_	_
+

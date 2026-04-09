@@ -1,0 +1,357 @@
+# sent_id = S0001
+# text = Filho de Teori: Se eles compram o silêncio, podem derrubar aviões.
+1	Filho	filho	NOUN	_	Gender=Masc|Number=Sing	11	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Teori	Teori	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	7	punct	_	_
+5	Se	se	SCONJ	_	_	7	mark	_	_
+6	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	compram	comprar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	derrubar	derrubar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	aviões	avião	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = Mataram meu pai?.
+1	Mataram	matar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	pai	pai	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Avião em que ministro Teori Zavascki embarcou foi seguido durante 16 dias.
+1	Avião	avião	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	que	que	PRON	_	PronType=Rel	7	obl	_	_
+4	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	Teori	Teori	PROPN	_	_	4	nmod	_	_
+6	Zavascki	Zavascki	PROPN	_	_	5	flat:name	_	_
+7	embarcou	embarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	seguido	seguir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	durante	durante	ADP	_	_	12	case	_	_
+11	16	16	NUM	_	NumType=Card	12	nummod	_	_
+12	dias	dia	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Diante da crise política (vergonhosa) pela qual o país atravessa, Francisco Zavascki, filho do ministro do STF Teori Zavascki, fez um desabafo nas redes sociais e questionou: "Como não pensar que não mandaram matar o meu pai?".
+1	Diante	diante	ADV	_	_	29	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	crise	crise	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5	política	político	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	vergonhosa	vergonhoso	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	a	o	PRON	_	ExtPos=PRON|Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	obl	_	_
+11	qual	qual	PRON	_	Number=Sing|PronType=Rel	10	fixed	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	atravessa	atravessar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	1	punct	_	_
+16	Francisco	Francisco	PROPN	_	_	29	nsubj	_	_
+17	Zavascki	Zavascki	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	filho	filho	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	STF	STF	PROPN	_	_	22	nmod	_	_
+26	Teori	Teori	PROPN	_	_	22	nmod	_	_
+27	Zavascki	Zavascki	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	19	punct	_	_
+29	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	desabafo	desabafo	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32-33	nas	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	redes	rede	NOUN	_	Gender=Fem|Number=Plur	29	obl	_	_
+35	sociais	social	ADJ	_	Number=Plur	34	amod	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	questionou	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	conj	_	SpaceAfter=No
+38	:	:	PUNCT	_	_	42	punct	_	_
+39	"	"	PUNCT	_	_	42	punct	_	SpaceAfter=No
+40	Como	como	ADV	_	_	42	advmod	_	_
+41	não	não	ADV	_	_	42	advmod	_	_
+42	pensar	pensar	VERB	_	VerbForm=Inf	29	ccomp:speech	_	_
+43	que	que	SCONJ	_	_	45	mark	_	_
+44	não	não	ADV	_	_	45	advmod	_	_
+45	mandaram	mandar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	42	ccomp	_	_
+46	matar	matar	VERB	_	VerbForm=Inf	45	xcomp	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+48	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	49	det	_	_
+49	pai	pai	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	SpaceAfter=No
+50	?	?	PUNCT	_	_	42	punct	_	SpaceAfter=No
+51	"	"	PUNCT	_	_	42	punct	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0009
+# text = O PMDB está no poder desde sempre [...] estava com o PT aproveitando tudo de bom que o Governo pode dar... até chegar a Lava jato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PMDB	PMDB	PROPN	_	_	6	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	poder	poder	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	desde	desde	ADP	_	_	8	case	_	_
+8	sempre	sempre	ADV	_	_	6	advmod	_	_
+9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+11	..	..	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	10	punct	_	_
+13	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	PT	PT	PROPN	_	_	6	parataxis	_	_
+17	aproveitando	aproveitar	VERB	_	VerbForm=Ger	16	acl	_	_
+18	tudo	tudo	PRON	_	PronType=Ind	17	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	bom	bom	ADJ	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	que	que	PRON	_	PronType=Rel	24	obj	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Governo	Governo	PROPN	_	_	24	nsubj	_	_
+24	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+25	dar	dar	VERB	_	VerbForm=Inf	24	xcomp	_	SpaceAfter=No
+26	...	...	PUNCT	_	_	28	punct	_	_
+27	até	até	ADP	_	_	28	mark	_	_
+28	chegar	chegar	VERB	_	VerbForm=Inf	17	advcl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Lava	Lava	PROPN	_	_	28	obj	_	_
+31	jato	jato	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = [...] as investigações começaram a ficar mais perto e os líderes do PMDB viram como única saída, realmente, parar a Operação a qualquer custo.
+1	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+3	..	..	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	]	]	PUNCT	_	_	2	punct	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	começaram	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	ficar	ficar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	mais	mais	ADV	_	_	11	advmod	_	_
+11	perto	perto	ADV	_	_	9	advmod	_	_
+12	e	e	CCONJ	_	_	18	cc	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	PMDB	PMDB	PROPN	_	_	14	nmod	_	_
+18	viram	viram	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+19	como	como	ADP	_	_	21	case	_	_
+20	única	único	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	saída	saída	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	realmente	realmente	ADV	_	_	25	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	parar	parar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Operação	Operação	PROPN	_	_	25	obj	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	30	det	_	_
+30	custo	custo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = Para isso, derrubaram a Dilma.
+1	Para	para	ADP	_	_	2	case	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	derrubaram	derrubar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Dilma	Dilma	PROPN	_	_	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Do que eles são capazes?
+1-2	Do	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	2	case	_	_
+2	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
+3	que	que	PRON	_	PronType=Int	2	fixed	_	_
+4	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	capazes	capaz	ADJ	_	Number=Plur	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = Será que só pagar pelo silêncio alheio?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	discourse	_	_
+2	que	que	SCONJ	_	_	4	discourse	_	_
+3	só	só	ADV	_	_	4	advmod	_	_
+4	pagar	pagar	VERB	_	VerbForm=Inf	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	alheio	alheio	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Ou será que derrubar avião também está valendo?
+1	Ou	ou	CCONJ	_	_	8	cc	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	discourse	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	derrubar	derrubar	VERB	_	VerbForm=Inf	8	csubj	_	_
+5	avião	avião	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	também	também	ADV	_	_	8	advmod	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	valendo	valer	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0021
+# text = O pai sabia de tudo isso.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pai	pai	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tudo	tudo	PRON	_	ExtPos=PRON|PronType=Ind	3	obl	_	_
+6	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	fixed	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Sabia quanto cada um estava afundando nesse mar de corrupção.
+1	Sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	quanto	quanto	ADV	_	_	6	advmod	_	_
+3	cada	cada	DET	_	Number=Sing|PronType=Ind	4	det	_	_
+4	um	um	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+5	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	afundando	afundar	VERB	_	VerbForm=Ger	1	ccomp	_	_
+7-8	nesse	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	mar	mar	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Não é por acaso que o pai estava tão afilho [sic] com o ano de 2017.
+1	Não	não	ADV	_	_	4	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	por	por	ADP	_	_	4	case	_	_
+4	acaso	acaso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	que	que	SCONJ	_	_	10	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pai	pai	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	tão	tão	ADV	_	_	10	advmod	_	_
+10	afilho	afilho	ADJ	_	Gender=Masc|Number=Sing	4	csubj	_	_
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	sic	sic	X	_	_	10	parataxis	_	SpaceAfter=No
+13	]	]	PUNCT	_	_	12	punct	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ano	ano	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	2017	2017	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = [...] me embrulha mais o estômago do que lembrar que, no dia do velório do meu pai, diante de tanta dor, ainda tive que cumprimentar os membros daquele que foi apelidado naquele mesmo dia de o "cortejo dos delatados".
+1	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+3	..	..	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	]	]	PUNCT	_	_	2	punct	_	_
+5	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	embrulha	embrulhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mais	mais	ADV	_	_	6	advmod	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	estômago	estômago	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	ExtPos=SCONJ	13	mark	_	_
+11	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	fixed	_	_
+12	que	que	PRON	_	PronType=Rel	10	fixed	_	_
+13	lembrar	lembrar	VERB	_	VerbForm=Inf	6	advcl	_	_
+14	que	que	SCONJ	_	_	33	mark	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	dia	dia	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	velório	velório	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	det	_	_
+25	pai	pai	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	diante	diante	ADV	_	_	33	advmod	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	tanta	tanto	DET	_	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
+30	dor	dor	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	27	punct	_	_
+32	ainda	ainda	ADV	_	_	33	advmod	_	_
+33	tive	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+34	que	que	ADP	_	_	35	mark	_	_
+35	cumprimentar	cumprimentar	VERB	_	VerbForm=Inf	33	xcomp	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	membros	membro	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	_
+38-39	daquele	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	aquele	aquele	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	37	nmod	_	_
+40	que	que	PRON	_	PronType=Rel	42	nsubj:pass	_	_
+41	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	aux:pass	_	_
+42	apelidado	apelidar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	39	acl:relcl	_	_
+43-44	naquele	_	_	_	_	_	_	_	_
+43	em	em	ADP	_	_	46	case	_	_
+44	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	46	det	_	_
+45	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	46	det	_	_
+46	dia	dia	NOUN	_	Gender=Masc|Number=Sing	42	obl	_	_
+47	de	de	ADP	_	_	50	case	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+49	"	"	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	cortejo	cortejo	NOUN	_	Gender=Masc|Number=Sing	42	obl	_	_
+51-52	dos	_	_	_	_	_	_	_	_
+51	de	de	ADP	_	_	53	case	_	_
+52	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
+53	delatados	delatado	NOUN	_	Gender=Masc|Number=Plur	50	nmod	_	SpaceAfter=No
+54	"	"	PUNCT	_	_	50	punct	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0029
+# text = [...] não tenho como não pensar que não mandaram matar o meu pai!
+1	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+3	..	..	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	]	]	PUNCT	_	_	2	punct	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	como	como	ADV	_	_	9	advmod	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	pensar	pensar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+10	que	que	SCONJ	_	_	12	mark	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	mandaram	mandar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+13	matar	matar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+16	pai	pai	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0030
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

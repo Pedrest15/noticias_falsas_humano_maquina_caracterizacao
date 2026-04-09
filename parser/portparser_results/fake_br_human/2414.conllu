@@ -1,0 +1,133 @@
+# sent_id = S0001
+# text = RIO 2016 Americana dá exemplo de patriotismo e diz: "Remarei através da mer#$ por ti, América!".
+1	RIO	RIO	PROPN	_	_	4	nsubj	_	_
+2	2016	2016	NUM	_	NumType=Card	1	nmod	_	_
+3	Americana	Americana	PROPN	_	_	4	nsubj	_	_
+4	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	patriotismo	patriotismo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	12	punct	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Remarei	remar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	9	ccomp:speech	_	_
+13	através	através	ADV	_	_	12	advmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mer#$	mer#$	SYM	_	_	13	obl	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	ti	ti	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	12	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	América	América	PROPN	_	_	12	discourse	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Megan Kalmoe, remadora do time olímpico dos EUA, demonstrou que é uma patriota de dar orgulho à sua terra natal.
+1	Megan	Megan	PROPN	_	_	13	nsubj	_	_
+2	Kalmoe	Kalmoe	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	remadora	remador	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	time	time	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	olímpico	olímpico	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	EUA	EUA	PROPN	_	_	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	demonstrou	demonstrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	17	mark	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	patriota	patriota	NOUN	_	Number=Sing	13	ccomp	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	dar	dar	VERB	_	VerbForm=Inf	17	acl	_	_
+20	orgulho	orgulho	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+21-22	à	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	24	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	terra	terra	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+25	natal	natal	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Kalmoe tentou acalmar seus compatriotas e amenizou as notícias ruins sobre as Olimpíadas do Rio.
+1	Kalmoe	Kalmoe	PROPN	_	_	2	nsubj	_	_
+2	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	acalmar	acalmar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	compatriotas	compatriota	NOUN	_	Number=Plur	3	obj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	amenizou	amenizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	ruins	ruim	ADJ	_	Number=Plur	9	amod	_	_
+11	sobre	sobre	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Olimpíadas	Olimpíadas	PROPN	_	_	9	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Rio	Rio	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Em matéria publicada ontem (26) no The Guardian, a remadora disse: É preciso parar de tentar estragar os jogos Se vocês estão preocupados com o lugar que estamos, vou tranquilizar vocês: Remarei através da mer#$ por ti, América.
+1	Em	em	ADP	_	_	2	case	_	_
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+3	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	ontem	ontem	ADV	_	_	3	advmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	26	26	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	The	The	PROPN	_	_	3	obl	_	_
+11	Guardian	Guardian	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	remadora	remador	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	18	punct	_	_
+17	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	15	ccomp:speech	_	_
+19	parar	parar	VERB	_	VerbForm=Inf	18	csubj	_	_
+20	de	de	ADP	_	_	21	mark	_	_
+21	tentar	tentar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	estragar	estragar	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	jogos	jogo	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+25	Se	se	SCONJ	_	_	28	mark	_	_
+26	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	28	nsubj	_	_
+27	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	preocupados	preocupado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	36	advcl	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+32	que	que	PRON	_	PronType=Rel	33	obj	_	_
+33	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	31	cop	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	28	punct	_	_
+35	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	tranquilizar	tranquilizar	VERB	_	VerbForm=Inf	15	ccomp:speech	_	_
+37	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	36	obj	_	SpaceAfter=No
+38	:	:	PUNCT	_	_	39	punct	_	_
+39	Remarei	remar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	36	parataxis	_	_
+40	através	através	ADV	_	_	39	advmod	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	mer#$	mer#$	SYM	_	_	40	obl	_	_
+44	por	por	ADP	_	_	45	case	_	_
+45	ti	ti	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	39	obl	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	47	punct	_	_
+47	América	América	PROPN	_	_	45	appos	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	15	punct	_	_
+

@@ -1,0 +1,142 @@
+# sent_id = S0001
+# text = Fim da linha!
+1	Fim	fim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	linha	linha	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Odebrecht coloca a empresa em primeiro lugar e dá adeus a Lula.
+1	Odebrecht	Odebrecht	PROPN	_	_	2	nsubj	_	_
+2	coloca	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	adeus	adeus	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	Lula	Lula	PROPN	_	_	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = A Revista Época acabou de publicar que delatores da Odebrecht jogaram a toalha.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Revista	Revista	PROPN	_	_	4	nsubj	_	_
+3	Época	Época	PROPN	_	_	2	flat:name	_	_
+4	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	publicar	publicar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	que	que	SCONJ	_	_	12	mark	_	_
+8	delatores	delator	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Odebrecht	Odebrecht	PROPN	_	_	8	nmod	_	_
+12	jogaram	jogar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	toalha	toalha	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Em duas novas delações, foi confirmado que as campanhas presidenciais de Luís Inácio tiveram recursos provenientes de caixa dois (recursos financeiros não contabilizados e não declarados aos órgãos de fiscalização competentes do Poder Executivo) em 2002 e 2006 [...] trocando em miúdos DINHEIRO ILEGAL.
+1	Em	em	ADP	_	_	4	case	_	_
+2	duas	dois	NUM	_	Gender=Fem|NumType=Card	4	nummod	_	_
+3	novas	novo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+4	delações	delação	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	confirmado	confirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	que	que	SCONJ	_	_	15	mark	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+11	presidenciais	presidencial	ADJ	_	Number=Plur	10	amod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Luís	Luís	PROPN	_	_	10	nmod	_	_
+14	Inácio	Inácio	PROPN	_	_	13	flat:name	_	_
+15	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+16	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+17	provenientes	proveniente	ADJ	_	Number=Plur	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	caixa	caixa	NOUN	_	Number=Sing	17	obl	_	_
+20	dois	dois	NUM	_	Gender=Masc|NumType=Card	19	nmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	19	appos	_	_
+23	financeiros	financeiro	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+24	não	não	ADV	_	_	25	advmod	_	_
+25	contabilizados	contabilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	22	acl	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	não	não	ADV	_	_	28	advmod	_	_
+28	declarados	declarar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	25	conj	_	_
+29-30	aos	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	órgãos	órgão	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	fiscalização	fiscalização	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	competentes	competente	ADJ	_	Number=Plur	33	amod	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Poder	Poder	PROPN	_	_	31	nmod	_	_
+38	Executivo	Executivo	PROPN	_	_	37	flat:name	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	22	punct	_	_
+40	em	em	ADP	_	_	41	case	_	_
+41	2002	2002	NUM	_	NumType=Card	15	obl	_	_
+42	e	e	CCONJ	_	_	43	cc	_	_
+43	2006	2006	NUM	_	NumType=Card	41	conj	_	_
+44	[	[	PUNCT	_	_	48	punct	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	48	punct	_	SpaceAfter=No
+46	..	..	PUNCT	_	_	45	parataxis	_	SpaceAfter=No
+47	]	]	PUNCT	_	_	45	punct	_	_
+48	trocando	trocar	VERB	_	VerbForm=Ger	15	advcl	_	_
+49	em	em	ADP	_	_	50	case	_	_
+50	miúdos	miúdo	NOUN	_	Gender=Masc|Number=Plur	48	obl	_	_
+51	DINHEIRO	dinheiro	NOUN	_	Gender=Masc|Number=Sing	48	obj	_	_
+52	ILEGAL	ILEGAL	PROPN	_	_	51	amod	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = Os repasses foram coordenados pelos tesoureiros petistas das respectivas campanhas.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	repasses	repasse	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	coordenados	coordenar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pelos	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	tesoureiros	tesoureiro	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	petistas	petista	ADJ	_	Number=Plur	7	amod	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	respectivas	respectivo	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+12	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Em ambos os depoimentos, foi confirmado que Lula pediu dinheiro diretamente para o todo poderoso Emílio Odebrecht.
+1	Em	em	ADP	_	_	4	case	_	_
+2	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	depoimentos	depoimento	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	confirmado	confirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	Lula	Lula	PROPN	_	_	10	nsubj	_	_
+10	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+11	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	diretamente	diretamente	ADV	_	_	10	advmod	_	_
+13	para	para	ADP	_	_	17	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	todo	todo	ADV	_	_	16	advmod	_	_
+16	poderoso	poderoso	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	Emílio	Emílio	PROPN	_	_	10	obl	_	_
+18	Odebrecht	Odebrecht	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+

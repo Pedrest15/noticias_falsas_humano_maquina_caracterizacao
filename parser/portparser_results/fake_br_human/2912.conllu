@@ -1,0 +1,255 @@
+# sent_id = S0001
+# text = Câmara dos Deputados estuda possibilidade de dar "anistia" para Eduardo Cunha.
+1	Câmara	Câmara	PROPN	_	_	5	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Deputados	Deputados	PROPN	_	_	1	flat:name	_	_
+5	estuda	estudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	dar	dar	VERB	_	VerbForm=Inf	6	acl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	anistia	anistia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	Eduardo	Eduardo	PROPN	_	_	8	obl	_	_
+14	Cunha	Cunha	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O Correio Braziliense publicou uma notícia que não deixará os brasileiros muito felizes.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Correio	Correio	PROPN	_	_	4	nsubj	_	_
+3	Braziliense	Braziliense	PROPN	_	_	2	flat:name	_	_
+4	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	deixará	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	muito	muito	ADV	_	_	13	advmod	_	_
+13	felizes	feliz	ADJ	_	Number=Plur	9	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com o jornal, há [na Câmara dos Deputados] uma "corrente" de parlamentares que estudam fazer uma espécie de anistia para Cunha em agradecimento ao processo que permitiu a aprovação do impeachment da presidente Dilma Rousseff.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Câmara	Câmara	PROPN	_	_	7	obl	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Deputados	Deputados	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	11	punct	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	corrente	corrente	NOUN	_	Number=Sing	7	obj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+23	estudam	estudar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	fazer	fazer	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	anistia	anistia	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29	para	para	ADP	_	_	30	case	_	_
+30	Cunha	Cunha	PROPN	_	_	26	nmod	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	agradecimento	agradecimento	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+33-34	ao	_	_	_	_	_	_	_	_
+33	a	a	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	processo	processo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+36	que	que	PRON	_	PronType=Rel	37	nsubj	_	_
+37	permitiu	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	acl:relcl	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	aprovação	aprovação	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+43-44	da	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	presidente	presidente	NOUN	_	Number=Sing	42	nmod	_	_
+46	Dilma	Dilma	PROPN	_	_	45	nmod	_	_
+47	Rousseff	Rousseff	PROPN	_	_	46	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = Como diz o ditado: "O que tem a ver o #@ com as calças"?
+1	Como	como	SCONJ	_	_	2	mark	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ditado	ditado	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	9	punct	_	_
+6	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	obj	_	_
+8	que	que	PRON	_	PronType=Int	7	fixed	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ccomp:speech	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	ver	ver	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	#@	#@	SYM	_	_	11	obj	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	calças	calça	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Um deputado do PMDB informou que há uma maioria de deputados que estaria a favor de ignorar as denúncias de corrupção, lavagem de dinheiro e falsa declaração do comandante da Câmara.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PMDB	PMDB	PROPN	_	_	2	nmod	_	_
+6	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+14	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	16	cop	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	favor	favor	NOUN	_	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+17	de	de	ADP	_	_	18	mark	_	_
+18	ignorar	ignorar	VERB	_	VerbForm=Inf	16	acl	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	falsa	falso	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+29	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	comandante	comandante	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Câmara	Câmara	PROPN	_	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = O deputado disse que há um entendimento de que Cunha foi fundamental para o avanço do processo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	entendimento	entendimento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ExtPos=SCONJ	12	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	Cunha	Cunha	PROPN	_	_	12	nsubj	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	fundamental	fundamental	ADJ	_	Number=Sing	7	acl	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	processo	processo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Cunha responde a inquéritos no STF sob acusação de receber US$ 5 milhões de propina de um lobista e pode ter seu mandato cassado pelo plenário, o que faria que ele perdesse o foro privilegiado.
+1	Cunha	Cunha	PROPN	_	_	2	nsubj	_	_
+2	responde	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	inquéritos	inquérito	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	STF	STF	PROPN	_	_	4	nmod	_	_
+8	sob	sob	ADP	_	_	9	case	_	_
+9	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	receber	receber	VERB	_	VerbForm=Inf	9	acl	_	_
+12	US$	US$	SYM	_	_	14	nmod	_	_
+13	5	5	NUM	_	NumType=Card	14	nummod	_	_
+14	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	propina	propina	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	lobista	lobista	NOUN	_	Number=Sing	11	obl	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+22	ter	ter	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	cassado	cassar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	xcomp	_	_
+26-27	pelo	_	_	_	_	_	_	_	_
+26	por	por	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	25	obl:agent	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	nsubj	_	_
+31	que	que	PRON	_	PronType=Rel	30	fixed	_	_
+32	faria	fazer	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+33	que	que	SCONJ	_	_	35	mark	_	_
+34	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	perdesse	perder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	ccomp	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	foro	foro	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	_
+38	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Sem o foro, o presidente da Câmara estaria sob risco de ser preso pelo juiz Sérgio Moro, como já aconteceu com três ex-parlamentares.
+1	Sem	sem	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	foro	foro	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	12	nsubj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Câmara	Câmara	PROPN	_	_	6	nmod	_	_
+10	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	12	cop	_	_
+11	sob	sob	ADP	_	_	12	case	_	_
+12	risco	risco	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+13	de	de	ADP	_	_	15	mark	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	15	aux:pass	_	_
+15	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+16-17	pelo	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
+19	Sérgio	Sérgio	PROPN	_	_	18	nmod	_	_
+20	Moro	Moro	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	como	como	SCONJ	_	_	24	mark	_	_
+23	já	já	ADV	_	_	24	advmod	_	_
+24	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
+25	com	com	ADP	_	_	27	case	_	_
+26	três	três	NUM	_	NumType=Card	27	nummod	_	_
+27	ex-parlamentares	ex-parlamentar	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+

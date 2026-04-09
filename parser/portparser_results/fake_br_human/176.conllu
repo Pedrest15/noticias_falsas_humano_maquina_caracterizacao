@@ -1,0 +1,756 @@
+# sent_id = S0001
+# text = Médico comete abuso abominável com menina de 2 anos.
+1	Médico	médico	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	comete	cometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	abuso	abuso	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	abominável	abominável	ADJ	_	Number=Sing	3	amod	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	menina	menino	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	2	2	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Você vai ficar profundamente revoltado quando perceber o que este médico teve coragem de fazer com uma paciente de apenas 2 anos.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ficar	ficar	VERB	_	VerbForm=Inf	0	root	_	_
+4	profundamente	profundamente	ADV	_	_	5	advmod	_	_
+5	revoltado	revoltado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	xcomp	_	_
+6	quando	quando	SCONJ	_	_	7	mark	_	_
+7	perceber	perceber	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obj	_	_
+9	que	que	PRON	_	PronType=Rel	12	obj	_	_
+10	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	médico	médico	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+13	coragem	coragem	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	fazer	fazer	VERB	_	VerbForm=Inf	13	acl	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	paciente	paciente	NOUN	_	Number=Sing	15	obl	_	_
+19	de	de	ADP	_	_	22	case	_	_
+20	apenas	apenas	ADV	_	_	21	advmod	_	_
+21	2	2	NUM	_	NumType=Card	22	nummod	_	_
+22	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Ele profanou o leite materno e sujou a alma desta criança para todo o sempre.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	profanou	profanar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	leite	leite	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	materno	materno	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	sujou	sujar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	alma	alma	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	desta	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	criança	criança	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	para	para	ADP	_	_	16	case	_	_
+14	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sempre	sempre	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = O médico Álvaro Cardoso Magalhães e mais duas mulheres, presos na manhã desta segunda-feira (3) dentro da operação Anjo da Guarda desencadeada pelas polícias Civil e Militar, em Santarém, oeste do Pará, serão indiciados por crime de estupro de vulnerável e pedofilia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	médico	médico	NOUN	_	Gender=Masc|Number=Sing	46	nsubj:pass	_	_
+3	Álvaro	Álvaro	PROPN	_	_	2	nmod	_	_
+4	Cardoso	Cardoso	PROPN	_	_	3	flat:name	_	_
+5	Magalhães	Magalhães	PROPN	_	_	3	flat:name	_	_
+6	e	e	CCONJ	_	_	9	cc	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	duas	dois	NUM	_	Gender=Fem|NumType=Card	9	nummod	_	_
+9	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	presos	prender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	desta	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	3	3	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	dentro	dentro	ADV	_	_	46	advmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	operação	operação	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25	Anjo	Anjo	PROPN	_	_	24	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Guarda	Guarda	PROPN	_	_	25	flat:name	_	_
+29	desencadeada	desencadear	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
+30-31	pelas	_	_	_	_	_	_	_	_
+30	por	por	ADP	_	_	32	case	_	_
+31	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	polícias	polícia	NOUN	_	Number=Plur	29	obl:agent	_	_
+33	Civil	Civil	PROPN	_	_	32	nmod	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	Militar	Militar	PROPN	_	_	33	conj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	em	em	ADP	_	_	38	case	_	_
+38	Santarém	Santarém	PROPN	_	_	29	obl	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	oeste	oeste	NOUN	_	Gender=Masc|Number=Sing	38	appos	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	Pará	Pará	PROPN	_	_	40	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	40	punct	_	_
+45	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	46	aux:pass	_	_
+46	indiciados	indiciar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+47	por	por	ADP	_	_	48	case	_	_
+48	crime	crime	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	estupro	estupro	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	vulnerável	vulnerável	NOUN	_	Number=Sing	50	nmod	_	_
+53	e	e	CCONJ	_	_	54	cc	_	_
+54	pedofilia	pedofilia	NOUN	_	Gender=Fem|Number=Sing	50	conj	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com a delegada Adrienne Pessoa, da Delegacia de Atendimento à Criança e ao Adolescente, o indiciamento por pedofilia ocorre porque os acusados armazenavam e compartilhavam imagens das crianças de forma obscena.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	Adrienne	Adrienne	PROPN	_	_	5	nmod	_	_
+7	Pessoa	Pessoa	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Delegacia	Delegacia	PROPN	_	_	5	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Atendimento	Atendimento	PROPN	_	_	11	flat:name	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Criança	Criança	PROPN	_	_	11	flat:name	_	_
+17	e	e	CCONJ	_	_	20	cc	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Adolescente	Adolescente	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	11	punct	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	indiciamento	indiciamento	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+24	por	por	ADP	_	_	25	case	_	_
+25	pedofilia	pedofilia	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	porque	porque	SCONJ	_	_	30	mark	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	acusados	acusado	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
+30	armazenavam	armazenar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	advcl	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	compartilhavam	compartilhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	conj	_	_
+33	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
+34-35	das	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	forma	forma	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+39	obscena	obsceno	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0011
+# text = Já o estupro de vulnerável, porque ficou comprovado o abuso a duas crianças do sexo feminino.
+1	Já	já	CCONJ	_	_	3	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	estupro	estupro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	vulnerável	vulnerável	NOUN	_	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	porque	porque	SCONJ	_	_	8	mark	_	_
+8	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+9	comprovado	comprovado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	xcomp	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	abuso	abuso	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	duas	dois	NUM	_	Gender=Fem|NumType=Card	14	nummod	_	_
+14	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sexo	sexo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	feminino	feminino	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Conversas nos celulares dos acusados, além de depoimentos comprovaram as práticas de pedofilia e estupro.
+1	Conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+2-3	nos	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	celulares	celular	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	acusados	acusado	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	além	além	ADV	_	_	12	advmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	depoimentos	depoimento	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+12	comprovaram	comprovar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	práticas	prática	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	pedofilia	pedofilia	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	estupro	estupro	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0015
+# text = O médico pedia para que uma das mulheres estimulasse o órgão genital das crianças.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	médico	médico	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	pedia	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	para	para	ADP	_	ExtPos=SCONJ	10	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	uma	um	NUM	_	Gender=Fem|NumType=Card	10	nsubj	_	_
+7-8	das	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10	estimulasse	estimular	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	órgão	órgão	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	genital	genital	ADJ	_	Number=Sing	12	amod	_	_
+14-15	das	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Esse material foi flagrado no celular de Darliane.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	material	material	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	celular	celular	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Darliane	Darliane	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Também tivemos acesso a conversas trocadas entre a mãe da criança de três meses e o médico, que comprovam a prática delituosa, declarou Adrienne Pessoa.
+1	Também	também	ADV	_	_	2	advmod	_	_
+2	tivemos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	26	ccomp:speech	_	_
+3	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+6	trocadas	trocar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	entre	entre	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	criança	criança	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	três	três	NUM	_	NumType=Card	15	nummod	_	_
+15	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	médico	médico	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	comprovam	comprovar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	prática	prática	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	delituosa	delituoso	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	2	punct	_	_
+26	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	Adrienne	Adrienne	PROPN	_	_	26	nsubj	_	_
+28	Pessoa	Pessoa	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0021
+# text = A criança que a enfermeira estimulava os genitais e filmava para que o médico visse era uma menina de 2 anos e 8 meses.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	criança	criança	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	6	obj	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	enfermeira	enfermeiro	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	estimulava	estimular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	genitais	genital	NOUN	_	Number=Plur	6	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	filmava	filmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+11	para	para	ADP	_	ExtPos=SCONJ	15	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	médico	médico	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	visse	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
+16	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	menina	menino	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	2	2	NUM	_	NumType=Card	21	nummod	_	_
+21	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	8	8	NUM	_	NumType=Card	24	nummod	_	_
+24	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0023
+# text = Os pais desconheciam o fato, uma vez que a criança era deixada aos cuidados de Darliane.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	pais	pai	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	desconheciam	desconhecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	13	punct	_	_
+7	uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	13	mark	_	_
+8	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	fixed	_	_
+9	que	que	SCONJ	_	_	7	fixed	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	criança	criança	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+12	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
+13	deixada	deixar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
+14-15	aos	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	cuidados	cuidado	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Darliane	Darliane	PROPN	_	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Eles foram ouvidos em depoimento pela delegada do caso.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	ouvidos	ouvir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	3	obl:agent	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	caso	caso	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0027
+# text = Na coletiva, a delegada disse que a enfermeira, mãe da bebê de 3 meses, mantinha relação com o médico.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	coletiva	coletiva	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	20	mark	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	enfermeira	enfermeiro	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	3	3	NUM	_	NumType=Card	18	nummod	_	_
+18	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	12	punct	_	_
+20	mantinha	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+21	relação	relação	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	médico	médico	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0029
+# text = Em depoimento, a Odete revelou que numa oportunidade o médico ejaculou no rosto da criança e no seio dela para que a criança mamasse.
+1	Em	em	ADP	_	_	2	case	_	_
+2	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Odete	Odete	PROPN	_	_	6	nsubj	_	_
+6	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	13	mark	_	_
+8-9	numa	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	médico	médico	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	ejaculou	ejacular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	rosto	rosto	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	criança	criança	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	seio	seio	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+24-25	dela	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
+26	para	para	ADP	_	ExtPos=SCONJ	30	mark	_	_
+27	que	que	SCONJ	_	_	26	fixed	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	criança	criança	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
+30	mamasse	mamar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0031
+# text = A materialidade está comprovada em vídeo, disse.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	materialidade	materialidade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	comprovada	comprovado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	8	ccomp:speech	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0033
+# text = A criança de três meses está sob os cuidados da avó e a de 2 anos e 8 meses está com os pais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	criança	criança	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	três	três	NUM	_	NumType=Card	5	nummod	_	_
+5	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	sob	sob	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cuidados	cuidado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	avó	avó	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	_	_	24	cc	_	_
+14	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	24	nsubj	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	2	2	NUM	_	NumType=Card	17	nummod	_	_
+17	anos	ano	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	8	8	NUM	_	NumType=Card	20	nummod	_	_
+20	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+21	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	pais	pai	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0035
+# text = Caberá à justiça determinar qual o destino da criança de três meses.
+1	Caberá	caber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2-3	à	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5	determinar	determinar	VERB	_	VerbForm=Inf	1	csubj	_	_
+6	qual	qual	PRON	_	Number=Sing|PronType=Int	8	nsubj	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	destino	destino	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	criança	criança	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	três	três	NUM	_	NumType=Card	14	nummod	_	_
+14	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0037
+# text = Os três acusados serão encaminhados à Central de Triagem da penitenciária de Cucurunã, mas existe a possibilidade do médico ser transferido para uma cela no quartel do Corpo de Bombeiros.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	três	três	NUM	_	NumType=Card	3	nummod	_	_
+3	acusados	acusado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	encaminhados	encaminhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Central	Central	PROPN	_	_	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Triagem	Triagem	PROPN	_	_	8	flat:name	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	penitenciária	penitenciária	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Cucurunã	Cucurunã	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	mas	mas	CCONJ	_	_	18	cc	_	_
+18	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	25	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	médico	médico	NOUN	_	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+24	ser	ser	AUX	_	Number=Sing|Person=3|VerbForm=Inf	25	aux:pass	_	_
+25	transferido	transferir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
+26	para	para	ADP	_	_	28	case	_	_
+27	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	cela	cela	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+29-30	no	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	quartel	quartel	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Corpo	Corpo	PROPN	_	_	31	nmod	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Bombeiros	Bombeiros	PROPN	_	_	34	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0039
+# text = Enquadramento De acordo com a delegada Adrienne Pessoa, o médico Álvaro Cardoso Magalhães será enquadrado no Art.
+1	Enquadramento	enquadramento	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+2	De	de	ADP	_	_	3	case	_	_
+3	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	Adrienne	Adrienne	PROPN	_	_	6	nmod	_	_
+8	Pessoa	Pessoa	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	médico	médico	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+12	Álvaro	Álvaro	PROPN	_	_	11	nmod	_	_
+13	Cardoso	Cardoso	PROPN	_	_	12	flat:name	_	_
+14	Magalhães	Magalhães	PROPN	_	_	12	flat:name	_	_
+15	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
+16	enquadrado	enquadrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Art.	Art.	PUNCT	_	_	16	obl	_	_
+
+# sent_id = S0041
+# text = 217, a, do CPB (Estupro de Vulnerável), Art.
+1	217	217	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	a	a	ADP	_	_	1	case	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	CPB	CPB	PROPN	_	_	1	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Estupro	Estupro	PROPN	_	_	7	appos	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Vulnerável	Vulnerável	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	1	punct	_	_
+14	Art.	Art.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0043
+# text = 240, a e 241, b, do Estatuto da Criança e do Adolescente (ECA), Lei 8.069, que tratam de crime de Pedofilia.
+1	240	240	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	a	a	ADP	_	_	1	conj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	241	241	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	b	b	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Estatuto	Estatuto	PROPN	_	_	1	nmod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Criança	Criança	PROPN	_	_	11	flat:name	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Adolescente	Adolescente	PROPN	_	_	11	flat:name	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	ECA	ECA	PROPN	_	_	11	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	Lei	Lei	PROPN	_	_	11	appos	_	_
+24	8.069	8.069	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+27	tratam	tratar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	crime	crime	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	Pedofilia	Pedofilia	PROPN	_	_	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0045
+# text = Art.
+1	Art.	Art.	PUNCT	_	_	0	punct	_	_
+
+# sent_id = S0047
+# text = 240 A Oferecer, trocar, disponibilizar, transmitir, distribuir, publicar ou divulgar por qualquer meio, inclusive por meio de sistema de informática ou telemático, fotografia, vídeo ou outro registro que contenha cena de sexo explícito ou pornográfica envolvendo criança ou adolescente: (Incluído pela Lei no 11.829, de 2008).
+1	240	240	NUM	_	NumType=Card	3	root	_	_
+2	A	a	ADP	_	_	3	mark	_	_
+3	Oferecer	oferecer	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	trocar	trocar	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	disponibilizar	disponibilizar	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	transmitir	transmitir	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	distribuir	distribuir	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	publicar	publicar	VERB	_	VerbForm=Inf	3	conj	_	_
+14	ou	ou	CCONJ	_	_	15	cc	_	_
+15	divulgar	divulgar	VERB	_	VerbForm=Inf	3	conj	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	18	det	_	_
+18	meio	meio	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	inclusive	inclusive	ADV	_	_	22	advmod	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	meio	meio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	informática	informática	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	ou	ou	CCONJ	_	_	28	cc	_	_
+28	telemático	telemático	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	22	punct	_	_
+30	fotografia	fotografia	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
+33	ou	ou	CCONJ	_	_	35	cc	_	_
+34	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	35	det	_	_
+35	registro	registro	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
+36	que	que	PRON	_	PronType=Rel	37	nsubj	_	_
+37	contenha	conter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+38	cena	cena	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	sexo	sexo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+41	explícito	explícito	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
+42	ou	ou	CCONJ	_	_	43	cc	_	_
+43	pornográfica	pornográfico	ADJ	_	Gender=Fem|Number=Sing	41	conj	_	_
+44	envolvendo	envolver	VERB	_	VerbForm=Ger	38	acl	_	_
+45	criança	criança	NOUN	_	Gender=Fem|Number=Sing	44	obj	_	_
+46	ou	ou	CCONJ	_	_	47	cc	_	_
+47	adolescente	adolescente	NOUN	_	Number=Sing	45	conj	_	SpaceAfter=No
+48	:	:	PUNCT	_	_	50	punct	_	_
+49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	Incluído	incluír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+51-52	pela	_	_	_	_	_	_	_	_
+51	por	por	ADP	_	_	53	case	_	_
+52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	Lei	Lei	PROPN	_	_	50	obl:agent	_	_
+54-55	no	_	_	_	_	_	_	_	_
+54	em	em	ADP	_	_	56	case	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	11.829	11.829	NUM	_	NumType=Card	50	obl	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	59	punct	_	_
+58	de	de	ADP	_	_	59	case	_	_
+59	2008	2008	NUM	_	NumType=Card	56	nmod	_	SpaceAfter=No
+60	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0049
+# text = Art.
+1	Art.	Art.	PUNCT	_	_	0	punct	_	_
+
+# sent_id = S0051
+# text = 241 B Adquirir, possuir ou armazenar, por qualquer meio, fotografia, vídeo ou outra forma de registro que contenha cena de sexo explícito ou pornográfica envolvendo criança ou adolescente: (Incluído pela Lei no 11.829, de 2008).
+1	241	241	NUM	_	NumType=Card	2	root	_	_
+2	B	b	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+3	Adquirir	adquirir	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	possuir	possuir	VERB	_	VerbForm=Inf	3	conj	_	_
+6	ou	ou	CCONJ	_	_	7	cc	_	_
+7	armazenar	armazenar	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	11	det	_	_
+11	meio	meio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	fotografia	fotografia	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
+16	ou	ou	CCONJ	_	_	18	cc	_	_
+17	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+18	forma	forma	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	registro	registro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+22	contenha	conter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	cena	cena	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	sexo	sexo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	explícito	explícito	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	ou	ou	CCONJ	_	_	28	cc	_	_
+28	pornográfica	pornográfico	ADJ	_	Gender=Fem|Number=Sing	26	conj	_	_
+29	envolvendo	envolver	VERB	_	VerbForm=Ger	23	acl	_	_
+30	criança	criança	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+31	ou	ou	CCONJ	_	_	32	cc	_	_
+32	adolescente	adolescente	NOUN	_	Number=Sing	30	conj	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	35	punct	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	Incluído	incluír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+36-37	pela	_	_	_	_	_	_	_	_
+36	por	por	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Lei	Lei	PROPN	_	_	35	obl:agent	_	_
+39-40	no	_	_	_	_	_	_	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	11.829	11.829	NUM	_	NumType=Card	35	obl	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	44	punct	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	2008	2008	NUM	_	NumType=Card	41	nmod	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0053
+# text = O indiciamento das mulheres também será pelos crimes de estupro de vulnerável e pedofilia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	indiciamento	indiciamento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	das	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	também	também	ADV	_	_	10	advmod	_	_
+7	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
+8-9	pelos	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	estupro	estupro	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	vulnerável	vulnerável	NOUN	_	Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	pedofilia	pedofilia	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+

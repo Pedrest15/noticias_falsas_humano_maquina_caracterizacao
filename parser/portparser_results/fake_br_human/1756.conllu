@@ -1,0 +1,303 @@
+# sent_id = S0001
+# text = Chico Xavier previu Terceira Guerra Mundial e destacou o papel do Brasil.
+1	Chico	Chico	PROPN	_	_	3	nsubj	_	_
+2	Xavier	Xavier	PROPN	_	_	1	flat:name	_	_
+3	previu	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Terceira	Terceira	PROPN	_	_	3	obj	_	_
+5	Guerra	Guerra	PROPN	_	_	4	flat:name	_	_
+6	Mundial	Mundial	PROPN	_	_	4	flat:name	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	papel	papel	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Brasil	Brasil	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Haverá um conflito nuclear de proporções mundiais onde as consequências serão devastadoras.
+1	Haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	conflito	conflito	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	nuclear	nuclear	ADJ	_	Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	proporções	proporçõe	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+7	mundiais	mundial	ADJ	_	Number=Plur	6	amod	_	_
+8	onde	onde	ADV	_	_	12	advmod	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	consequências	consequência	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+11	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+12	devastadoras	devastador	ADJ	_	Gender=Fem|Number=Plur	3	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Já cansada de ser agredida, a mãe Terra irá reagir com muita violência.
+1	Já	já	ADV	_	_	2	advmod	_	_
+2	cansada	cansado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	11	advcl	_	_
+3	de	de	ADP	_	_	5	mark	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	agredida	agredir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	Terra	Terra	PROPN	_	_	8	nmod	_	_
+10	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	_
+11	reagir	reagir	VERB	_	VerbForm=Inf	0	root	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	muita	muito	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	violência	violência	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = O homem começará a 3a Guerra Mundial e quem irá terminá-la serão as forças da natureza.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	homem	homem	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	começará	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	3a	3a	ADJ	_	Gender=Fem|NumType=Ord	6	amod	_	_
+6	Guerra	Guerra	PROPN	_	_	3	obj	_	_
+7	Mundial	Mundial	PROPN	_	_	6	flat:name	_	_
+8	e	e	CCONJ	_	_	15	cc	_	_
+9	quem	quem	PRON	_	PronType=Rel	15	nsubj	_	_
+10	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	_
+11-12	terminá-la	_	_	_	_	_	_	_	_
+11	terminar	terminar	VERB	_	VerbForm=Inf	9	acl:relcl	_	_
+12	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	forças	força	NOUN	_	Gender=Fem|Number=Plur	3	parataxis	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Seremos castigados com maremotos, terremotos e a reativação de vulcões extintos [...] será uma força avassaladora de proporções nunca antes experimentadas.
+1	Seremos	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
+2	castigados	castigar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	maremotos	maremoto	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	terremotos	terremoto	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	reativação	reativação	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	vulcões	vulcão	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	extintos	extinto	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+15	..	..	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	]	]	PUNCT	_	_	14	punct	_	_
+17	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	força	força	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	_
+20	avassaladora	avassalador	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	proporções	proporçõe	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+23	nunca	nunca	ADV	_	_	25	advmod	_	_
+24	antes	antes	ADV	_	_	25	advmod	_	_
+25	experimentadas	experimentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	22	acl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Os mares ficarão agitados e as geleiras derreterão [...] as cinzas vulcânicas somadas às irradiações nucleares perniciosas tornarão todo o Hemisfério Norte da Terra inabitável.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	mares	mar	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	ficarão	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	agitados	agitado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	3	xcomp	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	geleiras	geleiro	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	derreterão	derreter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	parataxis	_	SpaceAfter=No
+11	..	..	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	10	punct	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	cinzas	cinza	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
+15	vulcânicas	vulcânico	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+16	somadas	somar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	_
+17-18	às	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	irradiações	irradiação	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+20	nucleares	nuclear	ADJ	_	Number=Plur	19	amod	_	_
+21	perniciosas	pernicioso	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+22	tornarão	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+23	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Hemisfério	Hemisfério	PROPN	_	_	22	obj	_	_
+26	Norte	Norte	PROPN	_	_	25	flat:name	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Terra	Terra	PROPN	_	_	25	nmod	_	_
+30	inabitável	inabitável	ADJ	_	Number=Sing	22	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = As pessoas serão manipuladas por líderes inescrupulosos e se jogarão umas contra as outras em busca de uma razão sem sentido.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
+7	inescrupulosos	inescrupuloso	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	jogarão	jogar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+11	umas	um	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	10	obj	_	_
+12	contra	contra	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	outras	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	11	nmod	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	busca	busca	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	razão	razão	NOUN	_	Number=Sing	16	nmod	_	_
+20	sem	sem	ADP	_	_	21	case	_	_
+21	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Iremos nos reconhecer nos Evangelhos, principalmente no Apocalipse, mas será muito tarde [...] milhares de vidas já terão deixado de existir.
+1	Iremos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+2	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	reconhecer	reconhecer	VERB	_	VerbForm=Inf	0	root	_	_
+4-5	nos	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Evangelhos	Evangelhos	PROPN	_	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	principalmente	principalmente	ADV	_	_	11	advmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Apocalipse	Apocalipse	PROPN	_	_	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	mas	mas	CCONJ	_	_	26	cc	_	_
+14	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+15	muito	muito	ADV	_	_	16	advmod	_	_
+16	tarde	tarde	ADV	_	_	3	conj	_	_
+17	[	[	PUNCT	_	_	26	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	26	parataxis	_	SpaceAfter=No
+19	..	..	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	]	]	PUNCT	_	_	18	punct	_	_
+21	milhares	milhar	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	vidas	vida	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
+24	já	já	ADV	_	_	26	advmod	_	_
+25	terão	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	aux	_	_
+26	deixado	deixar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	_
+27	de	de	ADP	_	_	28	mark	_	_
+28	existir	existir	VERB	_	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Nossa nação cumprirá seu papel grandioso no decurso da readaptação planetária.
+1	Nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	nação	nação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	cumprirá	cumprir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	papel	papel	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	grandioso	grandioso	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	decurso	decurso	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	readaptação	readaptação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	planetária	planetário	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Cresceremos de maneira contínua e teremos um papel fundamental nos processos de evolução cultural, econômico, político e comunitário.
+1	Cresceremos	crescer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+4	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	teremos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	conj	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	papel	papel	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	fundamental	fundamental	ADJ	_	Number=Sing	8	amod	_	_
+10-11	nos	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	processos	processo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	evolução	evolução	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	cultural	cultural	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	econômico	econômico	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	político	político	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	comunitário	comunitário	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Seremos a matriz emocional, alimentícia e energética do mundo.
+1	Seremos	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	matriz	matriz	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	emocional	emocional	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	alimentícia	alimentício	ADJ	_	Gender=Fem|Number=Sing	4	conj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	energética	energético	ADJ	_	Gender=Fem|Number=Sing	4	conj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Após o hemisfério norte se tornar inabitável, receberemos enormes fluxos de imigrantes e nos tornaremos a "Pátria do Evangelho", onde todos serão acolhidos com amor, perdão, compreensão e compaixão espiritual.
+1	Após	após	ADP	_	_	6	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	hemisfério	hemisfério	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	norte	norte	ADJ	_	Number=Sing	3	amod	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	tornar	tornar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	9	advcl	_	_
+7	inabitável	inabitável	ADJ	_	Number=Sing	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	receberemos	receber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	enormes	enorme	ADJ	_	Number=Plur	11	amod	_	_
+11	fluxos	fluxo	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	imigrantes	imigrante	NOUN	_	Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	expl	_	_
+16	tornaremos	tornar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	9	conj	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Pátria	Pátria	PROPN	_	_	16	xcomp	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Evangelho	Evangelho	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	onde	onde	ADV	_	_	28	advmod	_	_
+26	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	28	nsubj:pass	_	_
+27	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	28	aux:pass	_	_
+28	acolhidos	acolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	amor	amor	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	perdão	perdão	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	compreensão	compreensão	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+35	e	e	CCONJ	_	_	36	cc	_	_
+36	compaixão	compaixão	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+37	espiritual	espiritual	ADJ	_	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	9	punct	_	_
+

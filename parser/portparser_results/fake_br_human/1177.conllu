@@ -1,0 +1,213 @@
+# sent_id = S0001
+# text = Moro é ovacionado durante palestra em Portugal.
+1	Moro	Moro	PROPN	_	_	3	nsubj:pass	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	ovacionado	ovacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	durante	durante	ADP	_	_	5	case	_	_
+5	palestra	palestra	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	Portugal	Portugal	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Ele foi apresentado como "o super juiz brasileiro da Lava-Jato".
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	como	como	ADP	_	_	8	case	_	_
+5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	super	super	ADJ	_	Number=Sing	8	amod	_	_
+8	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+9	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Lava-Jato	Lava-Jato	PROPN	_	_	8	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Sérgio Moro foi uma das atrações da Estoril Conferences 2017 que acontece em Portugal durante esta semana.
+1	Sérgio	Sérgio	PROPN	_	_	4	nsubj	_	_
+2	Moro	Moro	PROPN	_	_	1	flat:name	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	uma	um	NUM	_	Gender=Fem|NumType=Card	0	root	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	atrações	atração	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Estoril	Estoril	PROPN	_	_	7	nmod	_	_
+11	Conferences	Conferences	PROPN	_	_	10	flat:name	_	_
+12	2017	2017	NUM	_	NumType=Card	10	nummod	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	acontece	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	Portugal	Portugal	PROPN	_	_	14	obl	_	_
+17	durante	durante	ADP	_	_	19	case	_	_
+18	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	semana	semana	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Ao lado de outros famosos do mundo jurídico, Sérgio Moro (que foi saudado como "o super juiz brasileiro da Lava Jato") foi aplaudido de pé ao ser anunciado para palestrar.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	famosos	famoso	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	jurídico	jurídico	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	Sérgio	Sérgio	PROPN	_	_	31	nsubj:pass	_	_
+13	Moro	Moro	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+15	que	que	PRON	_	PronType=Rel	17	nsubj:pass	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	saudado	saudar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+18	como	como	ADP	_	_	22	case	_	_
+19	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	super	super	ADJ	_	_	22	amod	_	_
+22	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+23	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Lava	Lava	PROPN	_	_	22	nmod	_	_
+27	Jato	Jato	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	17	punct	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	aplaudido	aplaudir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	pé	pé	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+34-35	ao	_	_	_	_	_	_	_	_
+34	a	a	ADP	_	ExtPos=SCONJ	37	mark	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	fixed	_	_
+36	ser	ser	AUX	_	VerbForm=Inf	37	aux:pass	_	_
+37	anunciado	anunciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	31	advcl	_	_
+38	para	para	ADP	_	_	39	mark	_	_
+39	palestrar	palestrar	VERB	_	VerbForm=Inf	37	advcl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = S0009
+# text = Moro destacou o prejuízo que a corrupção sistêmica causa na economia e na democracia de um país: "Se as pessoas entendem que a prática de crimes passa a ser uma regra de comportamento, isso afeta a confiança que as pessoas têm no sistema democrático", disse.
+1	Moro	Moro	PROPN	_	_	2	nsubj	_	_
+2	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	53	ccomp:speech	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	prejuízo	prejuízo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	que	que	PRON	_	PronType=Rel	9	obj	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	sistêmica	sistêmico	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	causa	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	economia	economia	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	país	país	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	40	punct	_	_
+21	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+22	Se	se	SCONJ	_	_	25	mark	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
+25	entendem	entender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	advcl	_	_
+26	que	que	SCONJ	_	_	31	mark	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	prática	prática	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+31	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+32	a	a	ADP	_	_	35	mark	_	_
+33	ser	ser	AUX	_	VerbForm=Inf	35	cop	_	_
+34	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	regra	regra	NOUN	_	Gender=Fem|Number=Sing	31	xcomp	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	25	punct	_	_
+39	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	40	nsubj	_	_
+40	afeta	afetar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	confiança	confiança	NOUN	_	Number=Sing	40	obj	_	_
+43	que	que	PRON	_	PronType=Rel	46	obj	_	_
+44	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	46	nsubj	_	_
+46	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
+47-48	no	_	_	_	_	_	_	_	_
+47	em	em	ADP	_	_	49	case	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	_
+50	democrático	democrático	ADJ	_	Gender=Masc|Number=Sing	49	amod	_	SpaceAfter=No
+51	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	2	punct	_	_
+53	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	_
+
+# sent_id = S0011
+# text = Sobre as críticas à Lava-Jato, o juiz federal disse que há algumas visões negativas sobre a Operação, porém a sociedade brasileira clama por um país mais limpo.
+1	Sobre	sobre	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	críticas	crítico	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Lava-Jato	Lava-Jato	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	federal	federal	ADJ	_	Number=Sing	9	amod	_	_
+11	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	13	mark	_	_
+13	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+14	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	visões	visão	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16	negativas	negativo	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+17	sobre	sobre	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Operação	Operação	PROPN	_	_	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	porém	porém	CCONJ	_	_	25	cc	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	clama	clamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+26	por	por	ADP	_	_	28	case	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	país	país	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+29	mais	mais	ADV	_	_	30	advmod	_	_
+30	limpo	limpo	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = Vale destacar que Sérgio Moro está em Portugal arcando com as próprias despesas.
+1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	destacar	destacar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	Sérgio	Sérgio	PROPN	_	_	8	nsubj	_	_
+5	Moro	Moro	PROPN	_	_	4	flat:name	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Portugal	Portugal	PROPN	_	_	2	ccomp	_	_
+9	arcando	arcar	VERB	_	VerbForm=Ger	2	ccomp	_	_
+10	com	com	ADP	_	_	13	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	próprias	próprio	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+13	despesas	despesa	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+

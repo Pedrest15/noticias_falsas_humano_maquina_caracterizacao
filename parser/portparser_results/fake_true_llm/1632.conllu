@@ -1,0 +1,263 @@
+# sent_id = S0001
+# text = Descoberta incrível: Cebolas podem salvar vidas durante epidemias! Um médico renomado, Dr.
+1	Descoberta	descoberto	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	incrível	incrível	ADJ	_	Number=Sing	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	Cebolas	cebola	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	salvar	salvar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	vidas	vida	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	durante	durante	ADP	_	_	9	case	_	_
+9	epidemias	epidemia	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	12	punct	_	_
+11	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	médico	médico	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+13	renomado	renomado	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	Dr.	Dr.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = João Alves, afirmou ter comprovado em laboratório que as cebolas possuem a capacidade de absorver e neutralizar o vírus da gripe.
+1	João	João	PROPN	_	_	4	nsubj	_	_
+2	Alves	Alves	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ter	ter	AUX	_	VerbForm=Inf	6	aux	_	_
+6	comprovado	comprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	xcomp	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	laboratório	laboratório	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	cebolas	cebola	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+12	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	absorver	absorver	VERB	_	VerbForm=Inf	14	acl	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	neutralizar	neutralizar	VERB	_	VerbForm=Inf	16	conj	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vírus	vírus	NOUN	_	Gender=Masc	16	obj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	gripe	gripe	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Durante uma epidemia devastadora nos anos 1920, ele colocou cebolas cortadas nos quartos de uma família inteira e, para sua surpresa, ninguém contraiu a gripe.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	epidemia	epidemia	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+4	devastadora	devastador	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	nos	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+8	1920	1920	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	cebolas	cebola	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	cortadas	cortar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	_
+14-15	nos	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	quartos	quarto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	família	família	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	inteira	inteiro	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	_	_	28	cc	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	para	para	ADP	_	_	25	case	_	_
+24	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	28	nsubj	_	_
+28	contraiu	contrair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	gripe	gripe	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = "Ao examinar a cebola sob o microscópio, encontrei traços do vírus Influenza presos às suas células", declarou o Dr.
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+2-3	Ao	_	_	_	_	_	_	_	_
+2	A	a	ADP	_	ExtPos=SCONJ	4	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	fixed	_	_
+4	examinar	examinar	VERB	_	VerbForm=Inf	11	advcl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cebola	cebola	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	sob	sob	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	microscópio	microscópio	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	encontrei	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	ccomp:speech	_	_
+12	traços	traço	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vírus	vírus	NOUN	_	Gender=Masc	12	nmod	_	_
+16	Influenza	Influenza	PROPN	_	_	15	nmod	_	_
+17	presos	preso	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	11	xcomp	_	_
+18-19	às	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	21	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	células	célula	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	11	punct	_	_
+24	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	Dr.	Dr.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0009
+# text = Alves.
+1	Alves	Alves	PROPN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = A notícia se espalhou rapidamente, com relatos emocionantes de pessoas que superaram doenças graves, como pneumonia, simplesmente ao dormir com cebolas cortadas ao lado da cama.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	espalhou	espalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	rapidamente	rapidamente	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+9	emocionantes	emocionante	ADJ	_	Number=Plur	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	superaram	superar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15	graves	grave	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	como	como	ADP	_	_	18	case	_	_
+18	pneumonia	pneumonia	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	simplesmente	simplesmente	ADV	_	_	23	advmod	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	ExtPos=SCONJ	23	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	fixed	_	_
+23	dormir	dormir	VERB	_	VerbForm=Inf	4	advcl	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	cebolas	cebola	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+26	cortadas	cortar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	25	acl	_	_
+27-28	ao	_	_	_	_	_	_	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	lado	lado	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	cama	cama	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = "Minha avó sempre dizia que cebola era um verdadeiro antibiótico natural", comenta uma das testemunhas.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	avó	avo	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	sempre	sempre	ADV	_	_	5	advmod	_	_
+5	dizia	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp:speech	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7	cebola	cebola	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	antibiótico	antibiótico	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	_
+12	natural	natural	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	5	punct	_	_
+15	comenta	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	uma	um	NUM	_	Gender=Fem|NumType=Card	15	nsubj	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0015
+# text = Especialistas estão agora reavaliando essa antiga sabedoria popular, com alguns defendendo que a oxidação da cebola captura agentes patogênicos, transformando-os em substâncias inofensivas.
+1	Especialistas	especialista	NOUN	_	Number=Plur	4	nsubj	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	agora	agora	ADV	_	_	4	advmod	_	_
+4	reavaliando	reavaliar	VERB	_	VerbForm=Ger	0	root	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	antiga	antigo	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	sabedoria	sabedoria	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8	popular	popular	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+12	defendendo	defender	VERB	_	VerbForm=Ger	4	advcl	_	_
+13	que	que	SCONJ	_	_	19	mark	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	oxidação	oxidação	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cebola	cebola	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	captura	capturar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+20	agentes	agente	NOUN	_	Number=Plur	19	obj	_	_
+21	patogênicos	patogênico	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23-24	transformando-os	_	_	_	_	_	_	_	_
+23	transformando	transformar	VERB	_	VerbForm=Ger	19	advcl	_	_
+24	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+27	inofensivas	inofensivo	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Enquanto a comunidade científica debate essa nova evidência, muitos já estão adotando a prática em suas casas.
+1	Enquanto	enquanto	SCONJ	_	_	5	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	científica	científico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	debate	debater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	nova	novo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	evidência	evidência	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
+11	já	já	ADV	_	_	13	advmod	_	_
+12	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	adotando	adotar	VERB	_	VerbForm=Ger	0	root	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	prática	prática	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	casas	casa	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = Atenção: mantenha as cebolas longe dos cães, pois elas contêm tiossulfato, uma substância tóxica para os animais.
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	mantenha	manter	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	cebolas	cebola	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	longe	longe	ADV	_	_	3	advmod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cães	cão	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	pois	pois	SCONJ	_	_	13	mark	_	_
+12	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	contêm	contir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+14	tiossulfato	tiossulfato	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	substância	substância	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
+18	tóxica	tóxico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	animais	animal	NOUN	_	Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+

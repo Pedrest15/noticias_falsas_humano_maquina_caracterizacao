@@ -1,0 +1,156 @@
+# sent_id = S0001
+# text = (23:43) Coreia exibe mensagem em telões anunciando o "fim da supremacia militar dos imperialistas".
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	23:43	23:43	NUM	_	NumType=Card	5	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Coreia	Coreia	PROPN	_	_	5	nsubj	_	_
+5	exibe	exibir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	telões	telão	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	anunciando	anunciar	VERB	_	VerbForm=Ger	6	acl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	fim	fim	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	supremacia	supremacia	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	militar	militar	ADJ	_	Number=Sing	15	amod	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	imperialistas	imperialista	NOUN	_	Number=Plur	15	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = (Sábado, 15/04 11:43AM horário local Pyongyang) Filmes gravados pela emissora estatal KCNA estão sendo exibidos em telões na praça principal de Pyongyang, chamada Kim Il-sung Square.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	15/04	15/04	NUM	_	NumType=Card	2	parataxis	_	_
+5	11:43AM	11:43am	ADP	_	_	6	case	_	_
+6	horário	horário	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	local	local	ADJ	_	Number=Sing	6	amod	_	_
+8	Pyongyang	Pyongyang	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	2	punct	_	_
+10	Filmes	filme	NOUN	_	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+11	gravados	gravar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+12-13	pela	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	estatal	estatal	ADJ	_	Number=Sing	14	amod	_	_
+16	KCNA	KCNA	PROPN	_	_	14	nmod	_	_
+17	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	sendo	ser	AUX	_	VerbForm=Ger	19	aux:pass	_	_
+19	exibidos	exibir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	telões	telão	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	praça	praça	NOUN	_	Number=Sing	19	obl	_	_
+25	principal	principal	ADJ	_	Number=Sing	24	amod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Pyongyang	Pyongyang	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	chamada	chamar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	24	acl	_	_
+30	Kim	Kim	PROPN	_	_	29	xcomp	_	_
+31	Il-sung	Il-sung	PROPN	_	_	30	flat:name	_	_
+32	Square	Square	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0005
+# text = As imagens mostram tropas marchando em formação em homenagem ao avô de Kim e fundador da Coreia.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tropas	tropa	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	marchando	marchar	VERB	_	VerbForm=Ger	4	acl	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	formação	formação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	homenagem	homenagem	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	avô	avô	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Kim	Kim	PROPN	_	_	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	fundador	fundador	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Coreia	Coreia	PROPN	_	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A emissora estatal norte-coreana informou: "Os meios mais poderosos e avançados de ataque e defesa, em nosso próprio estilo, alinharam-se para pôr fim à supremacia militar reivindicada pelos imperialistas".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	estatal	estatal	ADJ	_	Number=Sing	2	amod	_	_
+4	norte-coreana	norte-coreana	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+5	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	24	punct	_	_
+7	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+8	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	meios	meio	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+10	mais	mais	ADV	_	_	11	advmod	_	_
+11	poderosos	poderoso	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	avançados	avançado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	11	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	em	em	ADP	_	_	22	case	_	_
+20	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	det	_	_
+21	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24-25	alinharam-se	_	_	_	_	_	_	_	_
+24	alinharam	alinhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+25	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	_	_
+26	para	para	ADP	_	_	27	mark	_	_
+27	pôr	pôr	VERB	_	VerbForm=Inf	24	advcl	_	_
+28	fim	fim	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+29-30	à	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	supremacia	supremacia	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+32	militar	militar	ADJ	_	Number=Sing	31	amod	_	_
+33	reivindicada	reivindicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	31	acl	_	_
+34-35	pelos	_	_	_	_	_	_	_	_
+34	por	por	ADP	_	_	36	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	imperialistas	imperialista	NOUN	_	Number=Plur	33	obl:agent	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Ao fundo, a banda do exército executa uma performance para acompanhar as imagens exibidas.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	banda	banda	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	exército	exército	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	executa	executar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	performance	performance	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	acompanhar	acompanhar	VERB	_	VerbForm=Inf	10	advcl	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	exibidas	exibir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	16	acl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	_
+

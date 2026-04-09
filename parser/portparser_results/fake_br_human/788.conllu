@@ -1,0 +1,41 @@
+# sent_id = S0001
+# text = Brasileiro (que mora nos EUA) compara Miami com Rio de Janeiro e texto viraliza: "Obrigado Furacão Irma".
+1	Brasileiro	brasileiro	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+2	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	mora	morar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5-6	nos	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	EUA	EUA	PROPN	_	_	4	obl	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	4	punct	_	_
+9	compara	comparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Miami	Miami	PROPN	_	_	9	obj	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	Rio	Rio	PROPN	_	_	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Janeiro	Janeiro	PROPN	_	_	12	flat:name	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	texto	texto	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	viraliza	viralizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	20	punct	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Obrigado	obrigado	INTJ	_	_	17	ccomp:speech	_	_
+21	Furacão	Furacão	PROPN	_	_	20	obj	_	_
+22	Irma	Irma	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = Obrigado, Irma!.
+1	Obrigado	obrigado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	Irma	Irma	PROPN	_	_	1	vocative	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0004
+# text = obrigadoirma.
+1	obrigadoirma	obrigadoirmar	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+

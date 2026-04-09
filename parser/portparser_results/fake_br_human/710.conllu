@@ -1,0 +1,489 @@
+# sent_id = S0001
+# text = Jornal inglês publica "manual de sobrevivência" e diz que Rússia e EUA entrarão em guerra.
+1	Jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	inglês	inglês	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	publica	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	manual	manual	NOUN	_	Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	sobrevivência	sobrevivência	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	5	punct	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	Rússia	Rússia	PROPN	_	_	15	nsubj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	EUA	EUA	PROPN	_	_	12	conj	_	_
+15	entrarão	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	ccomp	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O jornal inglês The Mirror publicou uma matéria com o seguinte título: "Aviso de Terceira Guerra Mundial Como sobreviver a uma bomba nuclear".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	inglês	inglês	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	The	The	PROPN	_	_	2	nmod	_	_
+5	Mirror	Mirror	PROPN	_	_	4	flat:name	_	_
+6	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	com	com	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	seguinte	seguinte	ADJ	_	Number=Sing	12	amod	_	_
+12	título	título	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	15	punct	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Aviso	aviso	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Terceira	Terceira	PROPN	_	_	15	nmod	_	_
+18	Guerra	Guerra	PROPN	_	_	4	flat:name	_	_
+19	Mundial	Mundial	PROPN	_	_	15	flat:name	_	_
+20	Como	como	ADV	_	_	21	advmod	_	_
+21	sobreviver	sobreviver	VERB	_	VerbForm=Inf	15	acl	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25	nuclear	nuclear	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = O jornalista ALEX WELLMAN diz que as tensões estão muito elevadas na península coreana e a ameaça de guerra nuclear está cada vez mais perto.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	5	nsubj	_	_
+3	ALEX	ALEX	PROPN	_	_	2	nmod	_	_
+4	WELLMAN	WELLMAN	PROPN	_	_	3	flat:name	_	_
+5	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	muito	muito	ADV	_	_	11	advmod	_	_
+11	elevadas	elevado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	5	ccomp	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	península	península	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	coreana	coreano	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	_	_	26	cc	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	nuclear	nuclear	ADJ	_	Number=Sing	20	amod	_	_
+22	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+23	cada	cada	DET	_	ExtPos=ADV|Number=Sing|PronType=Ind	26	advmod	_	_
+24	vez	vez	NOUN	_	Gender=Fem|Number=Sing	23	fixed	_	_
+25	mais	mais	ADV	_	_	23	fixed	_	_
+26	perto	perto	ADV	_	_	11	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Wellman ressalta que qualquer conflito nuclear poderá ser "extremamente letal e rápido" e que uma guerra entre dois Rússia e EUA é "quase garantida".
+1	Wellman	Wellman	PROPN	_	_	2	nsubj	_	_
+2	ressalta	ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	5	det	_	_
+5	conflito	conflito	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	nuclear	nuclear	ADJ	_	Number=Sing	5	amod	_	_
+7	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	11	cop	_	_
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	extremamente	extremamente	ADV	_	_	11	advmod	_	_
+11	letal	letal	ADJ	_	Number=Sing	7	xcomp	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	rápido	rápido	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	11	punct	_	_
+15	e	e	CCONJ	_	_	27	cc	_	_
+16	que	que	SCONJ	_	_	27	mark	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+19	entre	entre	ADP	_	_	21	case	_	_
+20	dois	dois	NUM	_	Gender=Masc|NumType=Card	21	nummod	_	_
+21	Rússia	Rússia	PROPN	_	_	18	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	EUA	EUA	PROPN	_	_	21	conj	_	_
+24	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	quase	quase	ADV	_	_	27	advmod	_	_
+27	garantida	garantido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	2	conj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Se a guerra se iniciar, a possibilidade de um ataque nuclear ao Reino Unido (que é um aliado dos EUA) se torna uma possibilidade assustadora.
+1	Se	se	SCONJ	_	_	5	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	iniciar	iniciar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	27	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	nuclear	nuclear	ADJ	_	Number=Sing	11	amod	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Reino	Reino	PROPN	_	_	11	nmod	_	_
+16	Unido	Unido	PROPN	_	_	15	flat:name	_	_
+17	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+18	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	aliado	aliado	NOUN	_	Gender=Masc|Number=Sing	15	acl:relcl	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	EUA	EUA	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	21	punct	_	_
+26	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	27	expl	_	_
+27	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	27	xcomp	_	_
+30	assustadora	assustador	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = S0011
+# text = Para encerrar a matéria, o jornalista dá dicas de como se proteger num eventual ataque nuclear: Se você é azarado o suficiente para estar no marco zero ou alvo (onde a bomba é uma bola de fogo) suas chances de sobrevivência são praticamente ZERO.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	encerrar	encerrar	VERB	_	VerbForm=Inf	8	advcl	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	jornalista	jornalista	NOUN	_	Number=Sing	8	nsubj	_	_
+8	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	dicas	dica	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	de	de	ADP	_	_	13	mark	_	_
+11	como	como	ADV	_	_	13	advmod	_	_
+12	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	13	obj	_	_
+13	proteger	proteger	VERB	_	Number=Sing|Person=3|VerbForm=Inf	9	acl	_	_
+14-15	num	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	eventual	eventual	ADJ	_	Number=Sing	17	amod	_	_
+17	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+18	nuclear	nuclear	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	23	punct	_	_
+20	Se	se	SCONJ	_	_	23	mark	_	_
+21	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	azarado	azarado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	50	advcl	_	_
+24	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	obj	_	_
+25	suficiente	suficiente	ADJ	_	Number=Sing	24	amod	_	_
+26	para	para	ADP	_	_	30	mark	_	_
+27	estar	estar	AUX	_	VerbForm=Inf	30	cop	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	marco	marco	NOUN	_	Gender=Masc|Number=Sing	25	acl	_	_
+31	zero	zero	NUM	_	NumType=Card	30	nmod	_	_
+32	ou	ou	CCONJ	_	_	33	cc	_	_
+33	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
+34	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+35	onde	onde	ADV	_	_	40	advmod	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	_
+38	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	bola	bola	NOUN	_	Gender=Fem|Number=Sing	30	acl:relcl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	40	punct	_	_
+44	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	det	_	_
+45	chances	chance	NOUN	_	Gender=Fem|Number=Plur	50	nsubj	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	sobrevivência	sobrevivência	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	_
+48	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
+49	praticamente	praticamente	ADV	_	_	50	advmod	_	_
+50	ZERO	ZERO	PROPN	_	_	8	parataxis	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = Um documento do Governo norte-americano de 2010 intitulado de "Orientações de Planeamento para a resposta a uma detonação nuclear" aponta que a letalidade imediata seria 100 %.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Governo	Governo	PROPN	_	_	2	nmod	_	_
+6	norte-americano	norte-americano	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	2010	2010	NUM	_	NumType=Card	5	nmod	_	_
+9	intitulado	intitular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Orientações	Orientações	PROPN	_	_	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Planeamento	Planeamento	PROPN	_	_	12	flat:name	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	detonação	detonação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	nuclear	nuclear	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	12	punct	_	_
+23	aponta	apontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	que	que	SCONJ	_	_	30	mark	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	letalidade	letalidade	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
+27	imediata	imediato	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	30	cop	_	_
+29	100	100	NUM	_	NumType=Card	30	nummod	_	_
+30	%	%	SYM	_	_	23	ccomp	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0015
+# text = Perto da bola de fogo, a energia térmica é tão intensa que a infra-estrutura e os seres humanos são incinerados.
+1	Perto	perto	ADV	_	_	13	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bola	bola	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	energia	energia	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	tão	tão	ADV	_	_	13	advmod	_	_
+13	intensa	intenso	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+14	que	que	SCONJ	_	_	22	mark	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	infra-estrutura	infra-estrutura	NOUN	_	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	seres	ser	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+20	humanos	humano	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	incinerados	incinerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0016
+# text = diz o documento.
+1	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	documento	documento	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0018
+# text = Você deve manter a boca aberta, impedindo assim que seus tímpanos estourem com a pressão da explosão.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	manter	manter	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	boca	boca	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	aberta	aberto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	impedindo	impedir	VERB	_	VerbForm=Ger	3	advcl	_	_
+9	assim	assim	ADV	_	_	8	advmod	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	tímpanos	tímpano	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	estourem	estourar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	explosão	explosão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0020
+# text = Se você está vestindo ou está perto de materiais inflamáveis, se afaste imediatamente.
+1	Se	se	SCONJ	_	_	4	mark	_	_
+2	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	vestindo	vestir	VERB	_	VerbForm=Ger	13	advcl	_	_
+5	ou	ou	CCONJ	_	_	7	cc	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	perto	perto	ADV	_	_	4	conj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	materiais	material	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+10	inflamáveis	inflamável	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	afaste	afastar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+14	imediatamente	imediatamente	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0022
+# text = Eles irão inflamar com a explosão térmica.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	irão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	inflamar	inflamar	VERB	_	VerbForm=Inf	0	root	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	explosão	explosão	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0024
+# text = Caso sobreviva à explosão original, você ainda terá em torno de 10 a 20 minutos para correr do local da explosão antes que uma quantidade letal de radiação desça da chamada "nuvem cogumelo".
+1	Caso	caso	SCONJ	_	_	2	mark	_	_
+2	sobreviva	sobreviver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+3-4	à	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	explosão	explosão	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	original	original	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+9	ainda	ainda	ADV	_	_	10	advmod	_	_
+10	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	em	em	ADP	_	ExtPos=ADV	14	advmod	_	_
+12	torno	torno	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
+13	de	de	ADP	_	_	11	fixed	_	_
+14	10	10	NUM	_	NumType=Card	17	nummod	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	20	20	NUM	_	NumType=Card	14	nummod	_	_
+17	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	correr	correr	VERB	_	VerbForm=Inf	10	advcl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	local	local	NOUN	_	Number=Sing	19	obl	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	explosão	explosão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	antes	antes	ADV	_	ExtPos=SCONJ	33	mark	_	_
+27	que	que	SCONJ	_	_	26	fixed	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
+30	letal	letal	ADJ	_	Number=Sing	29	amod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	radiação	radiação	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	desça	descer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	33	obl	_	_
+36	chamada	chamar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	35	acl	_	_
+37	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	nuvem	nuvem	NOUN	_	Gender=Fem|Number=Sing	36	xcomp	_	_
+39	cogumelo	cogumelo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0026
+# text = A melhor maneira de sobreviver a um ataque nuclear é se preparar para um.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	melhor	melhor	ADJ	_	Number=Sing	3	amod	_	_
+3	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	sobreviver	sobreviver	VERB	_	VerbForm=Inf	3	acl	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	nuclear	nuclear	ADJ	_	Number=Sing	8	amod	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	preparar	preparar	VERB	_	VerbForm=Inf	0	root	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	um	um	NUM	_	Gender=Masc|NumType=Card	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0028
+# text = Mantenha um estoque de alimentos e água potável armazenados em um abrigo seguro.
+1	Mantenha	manter	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	estoque	estoque	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	alimentos	alimento	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	água	água	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+8	potável	potável	ADJ	_	Number=Sing	7	amod	_	_
+9	armazenados	armazenar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	3	acl	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	abrigo	abrigo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	seguro	seguro	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0030
+# text = Você deverá ter várias linhas de telefone (ou seja, vários chips de diferentes operadoras), aparelhos de comunicação via rádio e conexão de internet móvel.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	deverá	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	ter	ter	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	linhas	linha	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+9	ou	ou	CCONJ	_	ExtPos=CCONJ	13	cc	_	_
+10	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	chips	chip	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	diferentes	diferente	ADJ	_	Number=Plur	16	amod	_	_
+16	operadoras	operador	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	aparelhos	aparelho	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22	via	via	ADP	_	_	23	case	_	_
+23	rádio	rádio	NOUN	_	Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	conexão	conexão	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	25	nmod	_	_
+28	móvel	móvel	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0032
+# text = Um kit médico com vários medicamentos e um manual de primeiros socorros também serão imprescindíveis.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	kit	kit	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	médico	médico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	medicamentos	medicamento	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	manual	manual	NOUN	_	Number=Sing	2	conj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	_
+12	socorros	socorro	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+13	também	também	ADV	_	_	15	advmod	_	_
+14	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+15	imprescindíveis	imprescindível	ADJ	_	Number=Plur	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0034
+# text = Um bom abrigo contra bombas é o mais importante "Você sabe onde encontrar um"?
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	bom	bom	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	abrigo	abrigo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	contra	contra	ADP	_	_	5	case	_	_
+5	bombas	bomba	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	importante	importante	ADJ	_	Number=Sing	7	amod	_	_
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
+12	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+13	onde	onde	ADV	_	_	14	advmod	_	_
+14	encontrar	encontrar	VERB	_	VerbForm=Inf	12	ccomp	_	_
+15	um	um	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0035
+# text = diz a matéria.
+1	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

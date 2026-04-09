@@ -1,0 +1,163 @@
+# sent_id = S0001
+# text = O Antagonista: Lula pode ser preso antes do impeachment.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Antagonista	Antagonista	PROPN	_	_	5	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	Lula	Lula	PROPN	_	_	5	nsubj	_	_
+5	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
+7	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8	antes	antes	ADV	_	_	7	advmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O antagonista informou que dois ministros do STF disseram (a interlocutores diferentes) que Lula será preso.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	antagonista	antagonista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	dois	dois	NUM	_	Gender=Masc|NumType=Card	6	nummod	_	_
+6	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	STF	STF	PROPN	_	_	6	nmod	_	_
+10	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	a	a	ADP	_	_	13	case	_	_
+13	interlocutores	interlocutor	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14	diferentes	diferente	ADJ	_	Number=Plur	13	amod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	13	punct	_	_
+16	que	que	SCONJ	_	_	19	mark	_	_
+17	Lula	Lula	PROPN	_	_	19	nsubj:pass	_	_
+18	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux:pass	_	_
+19	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O STF poderá decretar a prisão preventiva do ex-presidente que chamou a Suprema Corte de covarde.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	STF	STF	PROPN	_	_	3	nsubj	_	_
+3	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	decretar	decretar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ex-presidente	ex-presidente	NOUN	_	Number=Sing	6	nmod	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Suprema	Suprema	PROPN	_	_	12	obj	_	_
+15	Corte	Corte	PROPN	_	_	14	flat:name	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	covarde	covarde	NOUN	_	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Além dos crimes de tráfico de influência e ocultação de patrimônio, Lula alugou um quarto de hotel e está recebendo políticos nessa acomodação.
+1	Além	além	ADV	_	_	15	advmod	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	tráfico	tráfico	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	influência	influência	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	ocultação	ocultação	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	patrimônio	patrimônio	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	1	punct	_	_
+14	Lula	Lula	PROPN	_	_	15	nsubj	_	_
+15	alugou	alugar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	quarto	quarto	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	recebendo	receber	VERB	_	VerbForm=Ger	15	conj	_	_
+23	políticos	político	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+24-25	nessa	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	acomodação	acomodação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = Esse tipo de ação de Lula poderá se transformar em mais um crime de responsabilidade e ATENTADO CONTRA A PROBIDADE ADMINISTRATIVA.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	ação	ação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	4	nmod	_	_
+7	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	transformar	transformar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	em	em	ADP	_	_	13	case	_	_
+11	mais	mais	ADV	_	_	12	advmod	_	_
+12	um	um	NUM	_	Gender=Masc|NumType=Card	13	nummod	_	_
+13	crime	crime	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	ATENTADO	ATENTADO	PROPN	_	_	13	conj	_	_
+18	CONTRA	contra	ADP	_	_	20	case	_	_
+19	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	PROBIDADE	probidade	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	ADMINISTRATIVA	ADMINISTRATIVA	PROPN	_	_	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = O Brasil poderá ter uma dupla comemoração nesta semana.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	_	3	nsubj	_	_
+3	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	ter	ter	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	dupla	duplo	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	comemoração	comemoração	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	nesta	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	semana	semana	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O impeachment de Dilma e o cárcere de Lula.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Dilma	Dilma	PROPN	_	_	2	nmod	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cárcere	cárcere	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Lula	Lula	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = É muita alegria para os brasileiros!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	muita	muito	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	alegria	alegria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	para	para	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Vamos comemorar!
+1	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	comemorar	comemorar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+

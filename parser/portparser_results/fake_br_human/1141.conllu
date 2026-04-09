@@ -1,0 +1,201 @@
+# sent_id = S0001
+# text = Mais um!
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	um	um	NUM	_	Gender=Masc|NumType=Card	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Deputado do PMDB é preso no aeroporto de Brasília [...] nem o foro privilegiado o salvou!.
+1	Deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PMDB	PMDB	PROPN	_	_	1	nmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Brasília	Brasília	PROPN	_	_	9	nmod	_	_
+12	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	nem	nem	ADV	_	_	18	advmod	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	foro	foro	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	18	amod	_	_
+20	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	salvou	salvar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+22	!	!	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = A Polícia Federal prendeu, há pouco mais de 1 hora, o deputado federal Celso Jacob (PMDB / RJ) O parlamentar foi detido assim que desembarcou no aeroporto de Brasília.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	4	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	prendeu	prender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+7	pouco	pouco	ADV	_	_	8	advmod	_	_
+8	mais	mais	ADV	_	ExtPos=ADV	10	advmod	_	_
+9	de	de	ADP	_	_	8	fixed	_	_
+10	1	1	NUM	_	NumType=Card	11	nummod	_	_
+11	hora	hora	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+15	federal	federal	ADJ	_	Number=Sing	14	amod	_	_
+16	Celso	Celso	PROPN	_	_	14	nmod	_	_
+17	Jacob	Jacob	PROPN	_	_	16	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	PMDB	PMDB	PROPN	_	_	14	parataxis	_	_
+20	/	/	PUNCT	_	_	21	case	_	_
+21	RJ	RJ	PROPN	_	_	19	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	19	punct	_	_
+23	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	parlamentar	parlamentar	NOUN	_	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	detido	deter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	root	_	_
+27	assim	assim	ADV	_	ExtPos=SCONJ	29	mark	_	_
+28	que	que	SCONJ	_	_	27	fixed	_	_
+29	desembarcou	desembarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	Brasília	Brasília	PROPN	_	_	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = O ministro do STF, Edson Fachin, havia decretado a prisão do deputado há três semanas [...] a PF só aguardou o momento certo para "dar o bote".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Edson	Edson	PROPN	_	_	2	appos	_	_
+8	Fachin	Fachin	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	decretado	decretar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+18	três	três	NUM	_	NumType=Card	19	nummod	_	_
+19	semanas	semana	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+20	[	[	PUNCT	_	_	27	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	27	parataxis	_	SpaceAfter=No
+22	..	..	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	21	punct	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	PF	PF	PROPN	_	_	27	nsubj	_	_
+26	só	só	ADV	_	_	27	advmod	_	_
+27	aguardou	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	parataxis	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	momento	momento	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+30	certo	certo	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+31	para	para	ADP	_	_	33	mark	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	dar	dar	VERB	_	VerbForm=Inf	27	advcl	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	bote	bote	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = Jacob foi condenado a 7 anos de reclusão por falsificação de documento público e dispensa de licitação.
+1	Jacob	Jacob	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	7	7	NUM	_	NumType=Card	6	nummod	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	reclusão	reclusão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	falsificação	falsificação	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	documento	documento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	público	público	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	dispensa	dispensa	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	licitação	licitação	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Ele foi preso na presença de outros parlamentares que estavam no mesmo voo [...] ninguém ousou defender o político.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presença	presença	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+11	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	voo	voo	NOUN	_	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+16	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	21	nsubj	_	_
+21	ousou	ousar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+22	defender	defender	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	político	político	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = É a PF (com a determinação e coragem de Fachin) colocando ordem no país!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	PF	PF	PROPN	_	_	0	root	_	_
+4	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	coragem	coragem	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Fachin	Fachin	PROPN	_	_	7	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	7	punct	_	_
+13	colocando	colocar	VERB	_	VerbForm=Ger	3	acl	_	_
+14	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	país	país	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = a informação é do jornalista Lauro Jardim.
+1	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornalista	jornalista	NOUN	_	Number=Sing	0	root	_	_
+7	Lauro	Lauro	PROPN	_	_	6	nmod	_	_
+8	Jardim	Jardim	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+

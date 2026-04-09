@@ -1,0 +1,176 @@
+# sent_id = S0001
+# text = Planalto confirma a vergonha nacional: Ex-presidente falastrão é o novo ministro da Casa Civil.
+1	Planalto	Planalto	PROPN	_	_	2	nsubj	_	_
+2	confirma	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vergonha	vergonha	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	nacional	nacional	ADJ	_	Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	12	punct	_	_
+7	Ex-presidente	ex-presidente	NOUN	_	Number=Sing	12	nsubj	_	_
+8	falastrão	falastrão	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	novo	novo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Casa	Casa	PROPN	_	_	12	nmod	_	_
+16	Civil	Civil	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0002
+# text = presidente Dilma Rousseff decidiu, depois de muitas horas de reunião, que o ex-presidente Lula vai ocupar a Casa Civil do governo.
+1	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+2	Dilma	Dilma	PROPN	_	_	1	nmod	_	_
+3	Rousseff	Rousseff	PROPN	_	_	2	flat:name	_	_
+4	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	depois	depois	ADV	_	_	4	advmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	muitas	muito	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+9	horas	hora	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	que	que	SCONJ	_	_	18	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ex-presidente	ex-presidente	NOUN	_	Number=Sing	18	nsubj	_	_
+16	Lula	Lula	PROPN	_	_	15	nmod	_	_
+17	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	ocupar	ocupar	VERB	_	VerbForm=Inf	4	ccomp	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Casa	Casa	PROPN	_	_	18	obj	_	_
+21	Civil	Civil	PROPN	_	_	20	flat:name	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	governo	governo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0004
+# text = A informação foi divulgada no blog de Gerson Camarotti.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	blog	blog	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Gerson	Gerson	PROPN	_	_	7	nmod	_	_
+10	Camarotti	Camarotti	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0006
+# text = O ex-presidente falastrão irá ocupar o lugar de Jaques Wagner, que vai para a chefia de gabinete.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+3	falastrão	falastrão	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	ocupar	ocupar	VERB	_	VerbForm=Inf	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Jaques	Jaques	PROPN	_	_	7	nmod	_	_
+10	Wagner	Wagner	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	chefia	chefia	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	gabinete	gabinete	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0008
+# text = Dilma deverá mexer em outras peças do Ministério.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	deverá	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	mexer	mexer	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	peças	peça	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Ministério	Ministério	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0010
+# text = Porque Lula na Casa Civil?
+1	Porque	porque	PRON	_	PronType=Dem	2	cc	_	_
+2	Lula	Lula	PROPN	_	_	0	root	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Casa	Casa	PROPN	_	_	2	nmod	_	_
+6	Civil	Civil	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0012
+# text = Lula no Palácio do Planalto terá duas funções primordiais: A primeira será tentar salvar o mandato da presidente Dilma.
+1	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Palácio	Palácio	PROPN	_	_	1	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Planalto	Planalto	PROPN	_	_	4	flat:name	_	_
+8	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	duas	dois	NUM	_	Gender=Fem|NumType=Card	10	nummod	_	_
+10	funções	função	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	primordiais	primordial	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	16	punct	_	_
+13	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	16	nsubj:outer	_	_
+14	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+15	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+16	tentar	tentar	VERB	_	VerbForm=Inf	8	parataxis	_	_
+17	salvar	salvar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	presidente	presidente	NOUN	_	Number=Sing	19	nmod	_	_
+23	Dilma	Dilma	PROPN	_	_	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0014
+# text = A segunda será blindar a si próprio na Justiça e fugir (literalmente) da mira do juiz federal Sérgio Moro, em Curitiba.
+1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+2	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	1	amod	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+4	blindar	blindar	VERB	_	VerbForm=Inf	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	si	si	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Justiça	Justiça	PROPN	_	_	4	obl	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	fugir	fugir	VERB	_	VerbForm=Inf	4	conj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	literalmente	literalmente	ADV	_	_	12	advmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mira	mira	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	federal	federal	ADJ	_	Number=Sing	21	amod	_	_
+23	Sérgio	Sérgio	PROPN	_	_	21	nmod	_	_
+24	Moro	Moro	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	Curitiba	Curitiba	PROPN	_	_	12	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+

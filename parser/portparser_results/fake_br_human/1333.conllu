@@ -1,0 +1,403 @@
+# sent_id = S0001
+# text = Engenheiro diz que advogado de Lula tentou "ocultar" reforma feita no sítio: "Eu o ajudei a fazer isso".
+1	Engenheiro	engenheiro	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	4	nmod	_	_
+7	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	ocultar	ocultar	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sítio	sítio	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	20	punct	_	_
+17	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+19	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	ajudei	ajudar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+21	a	a	ADP	_	_	22	mark	_	_
+22	fazer	fazer	VERB	_	VerbForm=Inf	20	xcomp	_	_
+23	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	22	obj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Se o sítio não era do Lula, então porque "compor" um contrato fictício?.
+1	Se	se	SCONJ	_	_	8	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sítio	sítio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	não	não	ADV	_	_	8	advmod	_	_
+5	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Lula	Lula	PROPN	_	_	13	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	então	então	ADV	_	_	13	advmod	_	_
+11	porque	porque	PRON	_	PronType=Dem	13	advmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	compor	compor	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+17	fictício	fictício	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	13	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Vamos melhorar a pergunta acima: Porque elaborar um contrato não verdadeiro com a intenção de esconder a obra?
+1	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	melhorar	melhorar	VERB	_	VerbForm=Inf	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pergunta	pergunta	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	acima	acima	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	Porque	porque	PRON	_	PronType=Dem	8	parataxis	_	_
+8	elaborar	elaborar	VERB	_	VerbForm=Inf	2	parataxis	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	esconder	esconder	VERB	_	VerbForm=Inf	15	acl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	obra	obra	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Emyr Costa, engenheiro civil responsável pela obra no sítio de Atibaia (SP), disse à PGR que colaborou para que o advogado Roberto Teixeira e o ex-dirigente da Odebrecht Alexandrino Alencar redigisse um contrato falso.
+1	Emyr	Emyr	PROPN	_	_	19	nsubj	_	_
+2	Costa	Costa	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	engenheiro	engenheiro	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	civil	civil	ADJ	_	Number=Sing	4	amod	_	_
+6	responsável	responsável	ADJ	_	Number=Sing	4	amod	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	obra	obra	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sítio	sítio	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Atibaia	Atibaia	PROPN	_	_	12	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	SP	SP	PROPN	_	_	14	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	4	punct	_	_
+19	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20-21	à	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	PGR	PGR	PROPN	_	_	19	obl	_	_
+23	que	que	SCONJ	_	_	24	mark	_	_
+24	colaborou	colaborar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+25	para	para	ADP	_	ExtPos=SCONJ	39	mark	_	_
+26	que	que	SCONJ	_	_	25	fixed	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	39	nsubj	_	_
+29	Roberto	Roberto	PROPN	_	_	28	nmod	_	_
+30	Teixeira	Teixeira	PROPN	_	_	29	flat:name	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ex-dirigente	ex-dirigente	NOUN	_	Number=Sing	28	conj	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Odebrecht	Odebrecht	PROPN	_	_	33	nmod	_	_
+37	Alexandrino	Alexandrino	PROPN	_	_	36	nmod	_	_
+38	Alencar	Alencar	PROPN	_	_	36	flat:name	_	_
+39	redigisse	redigir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	advcl	_	_
+40	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	_
+42	falso	falso	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0009
+# text = A intenção era esconder a reforma executada na propriedade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	esconder	esconder	VERB	_	VerbForm=Inf	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	executada	executar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	propriedade	propriedade	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Costa também informou que adquiriu um cofre para armazenar os R$500 mil repassados (em dinheiro vivo) pela empreiteira para executar a obra do sítio.
+1	Costa	Costa	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	adquiriu	adquirir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cofre	cofre	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	armazenar	armazenar	VERB	_	VerbForm=Inf	5	advcl	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	R$500	R$500	NUM	_	NumType=Card	9	obj	_	_
+12	mil	mil	NUM	_	NumType=Card	11	flat	_	_
+13	repassados	repassar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	_
+14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	em	em	ADP	_	_	16	case	_	_
+16	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	vivo	vivo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	_
+19-20	pela	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	empreiteira	empreiteiro	NOUN	_	Gender=Fem|Number=Sing	13	obl:agent	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	executar	executar	VERB	_	VerbForm=Inf	13	advcl	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	obra	obra	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sítio	sítio	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O pagamento da equipe de tralhadores e também dos materiais de construção era feita em "cash".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	tralhadores	tralhador	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	e	e	CCONJ	_	_	12	cc	_	_
+9	também	também	ADV	_	_	12	advmod	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	materiais	material	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	construção	construção	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:pass	_	_
+16	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	cash	cash	X	_	Foreign=Yes	16	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0015
+# text = Disse o delator: Peguei a informação (sobre a obra) e mostrei para o Carlos (se referindo a Carlos Paschoal,executivo responsável pelas operações da Odebrecht em SP).
+1	Disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	delator	delator	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	Peguei	pegar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	ccomp:speech	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	informação	informação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	obra	obra	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	mostrei	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Carlos	Carlos	PROPN	_	_	14	obl	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+20	referindo	referir	VERB	_	VerbForm=Ger	5	parataxis	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	Carlos	Carlos	PROPN	_	_	20	obl	_	_
+23	Paschoal,executivo	Paschoal,executivo	NOUN	_	_	22	flat:name	_	_
+24	responsável	responsável	ADJ	_	Number=Sing	22	amod	_	_
+25-26	pelas	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	operações	operação	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Odebrecht	Odebrecht	PROPN	_	_	27	nmod	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	SP	SP	PROPN	_	_	27	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = Falei para ele que precisava de 500 mil.
+1	Falei	falar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	para	para	ADP	_	_	3	case	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	precisava	precisar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	500	500	NUM	_	NumType=Card	5	obl	_	_
+8	mil	mil	NUM	_	NumType=Card	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = O Carlos me autorizou e disse que ia entregar o dinheiro através do departamento de operações estruturadas (leia-se departamento de propinas).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Carlos	Carlos	PROPN	_	_	4	nsubj	_	_
+3	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	autorizou	autorizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	ia	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	entregar	entregar	VERB	_	VerbForm=Inf	6	ccomp	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	através	através	ADV	_	_	9	advmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	departamento	departamento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	operações	operação	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	estruturadas	estruturado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	17	amod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20-21	leia-se	_	_	_	_	_	_	_	_
+20	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl:impers	_	_
+22	departamento	departamento	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Eu entregava R$ 100 mil por semana.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	entregava	entregar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	R$	R$	SYM	_	_	2	obj	_	_
+4	100	100	NUM	_	NumType=Card	3	nummod	_	_
+5	mil	mil	NUM	_	NumType=Card	4	flat	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	semana	semana	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0022
+# text = contou.
+1	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0024
+# text = Eis que entra o advogado de Lula... Roberto Teixeira sugeriu que Emyr Costa (o engenheiro responsável pela obra) arrumasse um outro empreiteiro para fazer um contrato de prestação de serviços em nome de Fernando Bittar (dono "oficial" do sítio): Se toda essa turma (incluindo o Lula) é "honesta", então porque se deram ao trabalho de fazer uma lambança desse tamanho?
+1	Eis	eis	ADV	_	_	3	advmod	_	_
+2	que	que	SCONJ	_	_	3	discourse	_	_
+3	entra	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Lula	Lula	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	...	...	PUNCT	_	_	3	punct	_	_
+9	Roberto	Roberto	PROPN	_	_	11	nsubj	_	_
+10	Teixeira	Teixeira	PROPN	_	_	9	flat:name	_	_
+11	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	root	_	_
+12	que	que	SCONJ	_	_	23	mark	_	_
+13	Emyr	Emyr	PROPN	_	_	23	nsubj	_	_
+14	Costa	Costa	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	engenheiro	engenheiro	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+18	responsável	responsável	ADJ	_	Number=Sing	17	amod	_	_
+19-20	pela	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	obra	obra	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	55	punct	_	_
+23	arrumasse	arrumar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
+26	empreiteiro	empreiteiro	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+27	para	para	ADP	_	_	28	mark	_	_
+28	fazer	fazer	VERB	_	VerbForm=Inf	23	advcl	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	prestação	prestação	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
+35	em	em	ADP	_	_	36	case	_	_
+36	nome	nome	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	Fernando	Fernando	PROPN	_	_	36	nmod	_	_
+39	Bittar	Bittar	PROPN	_	_	38	flat:name	_	_
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	dono	dono	NOUN	_	Gender=Masc|Number=Sing	38	appos	_	_
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	oficial	oficial	ADJ	_	Number=Sing	41	amod	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	_
+45-46	do	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	sítio	sítio	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	61	punct	_	SpaceAfter=No
+49	:	:	PUNCT	_	_	67	punct	_	_
+50	Se	se	SCONJ	_	_	61	mark	_	_
+51	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	53	det	_	_
+52	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	53	det	_	_
+53	turma	turma	NOUN	_	Gender=Fem|Number=Sing	61	nsubj	_	_
+54	(	(	PUNCT	_	_	55	punct	_	SpaceAfter=No
+55	incluindo	incluir	VERB	_	VerbForm=Ger	53	acl	_	_
+56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	Lula	Lula	PROPN	_	_	55	obj	_	SpaceAfter=No
+58	)	)	PUNCT	_	_	55	punct	_	_
+59	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
+60	"	"	PUNCT	_	_	61	punct	_	SpaceAfter=No
+61	honesta	honesto	ADJ	_	Gender=Fem|Number=Sing	11	ccomp	_	SpaceAfter=No
+62	"	"	PUNCT	_	_	61	punct	_	SpaceAfter=No
+63	,	,	PUNCT	_	_	61	punct	_	_
+64	então	então	ADV	_	_	67	advmod	_	_
+65	porque	porque	PRON	_	PronType=Dem	67	advmod	_	_
+66	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	67	expl	_	_
+67	deram	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+68-69	ao	_	_	_	_	_	_	_	_
+68	a	a	ADP	_	_	70	case	_	_
+69	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	67	obl	_	_
+71	de	de	ADP	_	_	72	mark	_	_
+72	fazer	fazer	VERB	_	VerbForm=Inf	70	acl	_	_
+73	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
+74	lambança	lambança	NOUN	_	Gender=Fem|Number=Sing	72	obj	_	_
+75-76	desse	_	_	_	_	_	_	_	_
+75	de	de	ADP	_	_	77	case	_	_
+76	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	77	det	_	_
+77	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	74	nmod	_	SpaceAfter=No
+78	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0026
+# text = Vai pastar Lula!
+1	Vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pastar	pastar	VERB	_	VerbForm=Inf	0	root	_	_
+3	Lula	Lula	PROPN	_	_	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = preste atenção no vídeo abaixo minuto 20:20.
+1	preste	prestar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+6	abaixo	abaixo	ADV	_	_	7	advmod	_	_
+7	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	20:20	20:20	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+

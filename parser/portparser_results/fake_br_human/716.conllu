@@ -1,0 +1,223 @@
+# sent_id = S0001
+# text = Rapper Pitbull disponibiliza jato particular para ajudar pessoas com câncer em Porto Rico.
+1	Rapper	Rapper	PROPN	_	_	3	nsubj	_	_
+2	Pitbull	Pitbull	PROPN	_	_	1	flat:name	_	_
+3	disponibiliza	disponibilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	jato	jato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	particular	particular	ADJ	_	Number=Sing	4	amod	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	ajudar	ajudar	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Porto	Porto	PROPN	_	_	7	obl	_	_
+13	Rico	Rico	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O cantor, cujo verdadeiro nome é Armando Christian Perez, foi elogiado pela congressista Jenniffer Gonzalez, de Porto Rico, por seu amável ato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	cujo	cujo	DET	_	Gender=Masc|Number=Sing|PronType=Rel	6	det	_	_
+5	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	nome	nome	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	Armando	Armando	PROPN	_	_	2	acl:relcl	_	_
+9	Christian	Christian	PROPN	_	_	8	flat:name	_	_
+10	Perez	Perez	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	elogiado	elogiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14-15	pela	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	congressista	congressista	NOUN	_	Number=Sing	13	obl:agent	_	_
+17	Jenniffer	Jenniffer	PROPN	_	_	16	nmod	_	_
+18	Gonzalez	Gonzalez	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Porto	Porto	PROPN	_	_	16	nmod	_	_
+22	Rico	Rico	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	por	por	ADP	_	_	27	case	_	_
+25	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+26	amável	amável	ADJ	_	Number=Sing	27	amod	_	_
+27	ato	ato	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Ela publicou: "Obrigado Pitbull por emprestar seu avião privado para mover pacientes com câncer de Porto Rico para EUA para que eles possam receber quimioterapia".
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Obrigado	obrigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp:speech	_	_
+6	Pitbull	Pitbull	PROPN	_	_	5	obj	_	_
+7	por	por	ADP	_	_	8	mark	_	_
+8	emprestar	emprestar	VERB	_	VerbForm=Inf	5	acl	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	avião	avião	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	privado	privado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	mover	mover	VERB	_	VerbForm=Inf	8	advcl	_	_
+14	pacientes	paciente	NOUN	_	Number=Plur	13	obj	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Porto	Porto	PROPN	_	_	16	nmod	_	_
+19	Rico	Rico	PROPN	_	_	18	flat:name	_	_
+20	para	para	ADP	_	_	21	case	_	_
+21	EUA	EUA	PROPN	_	_	13	obl	_	_
+22	para	para	ADP	_	ExtPos=SCONJ	25	mark	_	_
+23	que	que	SCONJ	_	_	22	fixed	_	_
+24	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+26	receber	receber	VERB	_	VerbForm=Inf	25	xcomp	_	_
+27	quimioterapia	quimioterapia	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = O cantor do hit On The Floor declarou no twitter: Graças a Deus, somos abençoados por ajudar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	hit	hit	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	On	On	PROPN	_	_	5	nmod	_	_
+7	The	The	PROPN	_	_	6	flat:name	_	_
+8	Floor	Floor	PROPN	_	_	6	flat:name	_	_
+9	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	twitter	twitter	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	14	punct	_	_
+14	Graças	graça	NOUN	_	Gender=Fem|Number=Plur	19	parataxis	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	Deus	Deus	PROPN	_	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	somos	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	abençoados	abençoar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+20	por	por	ADP	_	_	21	mark	_	_
+21	ajudar	ajudar	VERB	_	VerbForm=Inf	19	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Estou apenas fazendo a minha parte.
+1	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	apenas	apenas	ADV	_	_	3	advmod	_	_
+3	fazendo	fazer	VERB	_	VerbForm=Ger	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	parte	parte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A ajuda veio depois que a ilha foi devastada pela passagem do furacão Maria.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	depois	depois	ADV	_	ExtPos=SCONJ	9	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ilha	ilha	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	devastada	devastar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	passagem	passagem	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	furacão	furacão	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	Maria	Maria	PROPN	_	_	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Jennifer Lopez, atriz, dançarina, cantora e compositora também fez sua parte e doou 1 milhão de dólares para ajudar organizações empenhadas na reconstrução de Porto Rico após a passagem do furacão Maria.
+1	Jennifer	Jennifer	PROPN	_	_	12	nsubj	_	_
+2	Lopez	Lopez	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	dançarina	dançarino	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	cantora	cantor	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	compositora	compositor	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+11	também	também	ADV	_	_	12	advmod	_	_
+12	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	parte	parte	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	doou	doar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+17	1	1	NUM	_	NumType=Card	18	nummod	_	_
+18	milhão	milhão	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22	ajudar	ajudar	VERB	_	VerbForm=Inf	16	advcl	_	_
+23	organizações	organização	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+24	empenhadas	empenhado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	23	amod	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	reconstrução	reconstrução	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Porto	Porto	PROPN	_	_	27	nmod	_	_
+30	Rico	Rico	PROPN	_	_	29	flat:name	_	_
+31	após	após	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	passagem	passagem	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	furacão	furacão	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	Maria	Maria	PROPN	_	_	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0015
+# text = Este é o furacão mais devastador que já passou por Porto Rico em quase 90 anos.
+1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	furacão	furacão	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	devastador	devastador	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+7	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+8	já	já	ADV	_	_	9	advmod	_	_
+9	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	Porto	Porto	PROPN	_	_	9	obl	_	_
+12	Rico	Rico	PROPN	_	_	11	flat:name	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	quase	quase	ADV	_	_	15	advmod	_	_
+15	90	90	NUM	_	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Os danos são horríveis, disse ela, pedindo que outras pessoas possam ajudar o país.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	danos	dano	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	horríveis	horrível	ADJ	_	Number=Plur	6	ccomp:speech	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	pedindo	pedir	VERB	_	VerbForm=Ger	6	advcl	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+14	ajudar	ajudar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+

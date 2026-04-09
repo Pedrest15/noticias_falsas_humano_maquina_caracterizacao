@@ -1,0 +1,65 @@
+# sent_id = S0001
+# text = Na surdina?
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	surdina	surdina	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Deputados tentaram votar reajuste para servidores federais na madrugada.
+1	Deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	tentaram	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	votar	votar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	reajuste	reajuste	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	para	para	ADP	_	_	6	case	_	_
+6	servidores	servidor	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+7	federais	federal	ADJ	_	Number=Plur	6	amod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Enquanto não há dinheiro para pagar os pobres velhinhos que recebem apenas 1 salário mínimo de aposentadoria, a Câmara dos Deputados faz sua parte [...] só que faz ao contrário.
+1	Enquanto	enquanto	SCONJ	_	_	3	mark	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+4	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	pagar	pagar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	pobres	pobre	ADJ	_	Number=Plur	9	amod	_	_
+9	velhinhos	velhinho	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	recebem	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	apenas	apenas	ADV	_	_	13	advmod	_	_
+13	1	1	NUM	_	NumType=Card	14	nummod	_	_
+14	salário	salário	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+15	mínimo	mínimo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	aposentadoria	aposentadoria	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	3	punct	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Câmara	Câmara	PROPN	_	_	24	nsubj	_	_
+21-22	dos	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Deputados	Deputados	PROPN	_	_	20	flat:name	_	_
+24	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	parte	parte	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	[	[	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	parataxis	_	SpaceAfter=No
+29	..	..	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	]	]	PUNCT	_	_	28	punct	_	_
+31	só	só	ADV	_	_	33	cc	_	_
+32	que	que	SCONJ	_	_	33	fixed	_	_
+33	faz	fazer	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+34-35	ao	_	_	_	_	_	_	_	_
+34	a	a	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	24	punct	_	_
+

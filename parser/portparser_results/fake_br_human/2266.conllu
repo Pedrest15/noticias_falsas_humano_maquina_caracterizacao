@@ -1,0 +1,149 @@
+# sent_id = S0001
+# text = Encontro de impeachmados.
+1	Encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	impeachmados	impeachmado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Collor procura Dilma para oferecer apoio.
+1	Collor	Collor	PROPN	_	_	2	nsubj	_	_
+2	procura	procurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Dilma	Dilma	PROPN	_	_	2	obj	_	_
+4	para	para	ADP	_	_	5	mark	_	_
+5	oferecer	oferecer	VERB	_	VerbForm=Inf	2	advcl	_	_
+6	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Dilma Rousseff recebeu o ex-presidente Fernando Collor ontem (26) no Palácio do Alvorada.
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	Rousseff	Rousseff	PROPN	_	_	1	flat:name	_	_
+3	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	obj	_	_
+6	Fernando	Fernando	PROPN	_	_	5	nmod	_	_
+7	Collor	Collor	PROPN	_	_	6	flat:name	_	_
+8	ontem	ontem	ADV	_	_	3	advmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	26	26	NUM	_	NumType=Card	5	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Palácio	Palácio	PROPN	_	_	3	obl	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Alvorada	Alvorada	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Collor resolveu afagar a petista.
+1	Collor	Collor	PROPN	_	_	2	nsubj	_	_
+2	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	afagar	afagar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	petista	petista	NOUN	_	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O conteúdo da conversa não foi divulgado, porém pessoas próximas disseram que o senador foi declarar seu apoio para a presidente afastada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	não	não	ADV	_	_	8	advmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	porém	porém	CCONJ	_	_	13	cc	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+12	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+14	que	que	SCONJ	_	_	18	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	senador	senador	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	declarar	declarar	VERB	_	VerbForm=Inf	13	ccomp	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	presidente	presidente	NOUN	_	Number=Sing	20	nmod	_	_
+24	afastada	afastado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = A conversa aconteceu no mesmo instante em que Lula desembarcava em Brasília para também tentar conquistar votos contra o impeachment.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	instante	instante	NOUN	_	Number=Sing	3	obl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	que	que	PRON	_	PronType=Rel	11	obl	_	_
+10	Lula	Lula	PROPN	_	_	11	nsubj	_	_
+11	desembarcava	desembarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	Brasília	Brasília	PROPN	_	_	11	obl	_	_
+14	para	para	ADP	_	_	16	mark	_	_
+15	também	também	ADV	_	_	16	advmod	_	_
+16	tentar	tentar	VERB	_	VerbForm=Inf	11	advcl	_	_
+17	conquistar	conquistar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	votos	voto	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+19	contra	contra	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Coitada da Dilma [...] quanto mais reza, mais assombração aparece!
+1	Coitada	coitado	NOUN	_	Gender=Fem|Number=Sing	15	dislocated	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Dilma	Dilma	PROPN	_	_	1	nmod	_	_
+5	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+7	..	..	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	]	]	PUNCT	_	_	6	punct	_	_
+9	quanto	quanto	SCONJ	_	ExtPos=SCONJ	11	mark	_	_
+10	mais	mais	ADV	_	_	9	fixed	_	_
+11	reza	rezar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	mais	mais	DET	_	PronType=Ind	14	det	_	_
+14	assombração	assombração	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	aparece	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0015
+# text = Realmente foi um momento histórico: Um encontro do que há de mais sombrio na política brasileira.
+1	Realmente	realmente	ADV	_	_	4	advmod	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	histórico	histórico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	4	parataxis	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nmod	_	_
+11	que	que	PRON	_	PronType=Rel	12	obj	_	_
+12	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	mais	mais	ADV	_	_	15	advmod	_	_
+15	sombrio	sombrio	ADJ	_	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	política	política	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+19	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+

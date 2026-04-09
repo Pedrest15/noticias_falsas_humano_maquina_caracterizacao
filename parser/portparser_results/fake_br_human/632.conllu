@@ -1,0 +1,242 @@
+# sent_id = S0001
+# text = A senhorinha que calou a esquerda: "Homem nu com criança não é arte".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	senhorinha	senhorinho	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	calou	calar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	15	punct	_	_
+8	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+9	Homem	homem	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+10	nu	nu	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	criança	criança	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	não	não	ADV	_	_	15	advmod	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	arte	arte	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Diante da polêmica exposição do homem nu (que foi tocado por uma criança de 4 anos), eis que apareceu uma senhora que calou os artistas da Rede Globo.
+1	Diante	diante	ADV	_	_	24	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	exposição	exposição	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	homem	homem	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	nu	nu	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	que	que	PRON	_	PronType=Rel	13	nsubj:pass	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	tocado	tocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	criança	criança	NOUN	_	Gender=Fem|Number=Sing	13	obl:agent	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	4	4	NUM	_	NumType=Card	19	nummod	_	_
+19	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	1	punct	_	_
+22	eis	eis	ADV	_	_	24	root	_	_
+23	que	que	SCONJ	_	_	24	mark	_	_
+24	apareceu	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	senhora	senhor	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+27	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+28	calou	calar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	artistas	artista	NOUN	_	Number=Plur	28	obj	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Rede	Rede	PROPN	_	_	30	nmod	_	_
+34	Globo	Globo	PROPN	_	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0005
+# text = Artistas famosos como Mariana Ximenes, Débora Bloch, Fernanda Montenegro, Bruno Garcia (nem tão famoso assim...rsrs) decidiram "defender" o direito de que crianças sejam expostas a adultos pelados com o pretexto de que não se pode censurar a arte no país.
+1	Artistas	artista	NOUN	_	Number=Plur	21	nsubj	_	_
+2	famosos	famoso	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	como	como	ADP	_	_	4	case	_	_
+4	Mariana	Mariana	PROPN	_	_	1	nmod	_	_
+5	Ximenes	Ximenes	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Débora	Débora	PROPN	_	_	4	conj	_	_
+8	Bloch	Bloch	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Fernanda	Fernanda	PROPN	_	_	4	conj	_	_
+11	Montenegro	Montenegro	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Bruno	Bruno	PROPN	_	_	4	conj	_	_
+14	Garcia	Garcia	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+16	nem	nem	ADV	_	_	18	advmod	_	_
+17	tão	tão	ADV	_	_	18	advmod	_	_
+18	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+19	assim...rsrs	assim...rsrs	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	18	punct	_	_
+21	decidiram	decidir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	defender	defender	VERB	_	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	direito	direito	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+27	de	de	ADP	_	ExtPos=SCONJ	31	mark	_	_
+28	que	que	SCONJ	_	_	27	fixed	_	_
+29	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	31	nsubj:pass	_	_
+30	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	expostas	expor	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	26	acl	_	_
+32	a	a	ADP	_	_	33	case	_	_
+33	adultos	adulto	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	_
+34	pelados	pelado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	33	amod	_	_
+35	com	com	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	pretexto	pretexto	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+38	de	de	ADP	_	ExtPos=SCONJ	42	mark	_	_
+39	que	que	SCONJ	_	_	38	fixed	_	_
+40	não	não	ADV	_	_	42	advmod	_	_
+41	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	42	expl:impers	_	_
+42	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl	_	_
+43	censurar	censurar	VERB	_	VerbForm=Inf	42	xcomp	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	arte	arte	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	_
+46-47	no	_	_	_	_	_	_	_	_
+46	em	em	ADP	_	_	48	case	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	país	país	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0007
+# text = Arte é o escambau!
+1	Arte	arte	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	escambau	escambau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Porque é que esses artistas não levam seus filhos, netos, sobrinhos, etc... para passar a mão no homem pelado do MAM?
+1	Porque	porque	CCONJ	_	_	7	cc	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	discourse	_	_
+3	que	que	SCONJ	_	_	7	discourse	_	_
+4	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	artistas	artista	NOUN	_	Number=Plur	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	levam	levar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	netos	neto	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	sobrinhos	sobrinho	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	etc.	etc.	PUNCT	_	_	9	conj	_	SpaceAfter=No
+16	..	..	PUNCT	_	_	18	punct	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	passar	passar	VERB	_	VerbForm=Inf	7	advcl	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mão	mão	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	homem	homem	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+24	pelado	pelado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	23	amod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	MAM	MAM	PROPN	_	_	23	nmod	_	SpaceAfter=No
+28	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Diante de toda essa descaração, uma senhora (que aparenta ter seus 60 anos de idade) foi até o programa Encontro (Fátima Bernardes) na Rede Globo, deu sua opinião, foi educada, não atacou ninguém e deixou os artistas que participavam do programa com cara de tacho.
+1	Diante	diante	ADV	_	_	19	advmod	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	descaração	descaração	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	senhora	senhor	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	aparenta	aparentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	ter	ter	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+14	60	60	NUM	_	NumType=Card	15	nummod	_	_
+15	anos	ano	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	idade	idade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	11	punct	_	_
+19	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	até	até	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	programa	programa	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	Encontro	Encontro	PROPN	_	_	22	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Fátima	Fátima	PROPN	_	_	22	appos	_	_
+26	Bernardes	Bernardes	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	25	punct	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Rede	Rede	PROPN	_	_	22	nmod	_	_
+31	Globo	Globo	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+34	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
+35	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux:pass	_	_
+38	educada	educar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	33	conj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	41	punct	_	_
+40	não	não	ADV	_	_	41	advmod	_	_
+41	atacou	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	conj	_	_
+42	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	41	obj	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+45	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	artistas	artista	NOUN	_	Number=Plur	44	obj	_	_
+47	que	que	PRON	_	PronType=Rel	48	nsubj	_	_
+48	participavam	participar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	46	acl:relcl	_	_
+49-50	do	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	programa	programa	NOUN	_	Gender=Masc|Number=Sing	48	obl	_	_
+52	com	com	ADP	_	_	53	case	_	_
+53	cara	cara	NOUN	_	Number=Sing	44	obl	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	tacho	tacho	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0013
+# text = Parabéns dona Regina!
+1	Parabéns	parabéns	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	dona	dona	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+3	Regina	Regina	PROPN	_	_	2	nmod	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Senhora cala e irrita globais esquerdistas que vivem em seu mundinho do Projac:
+1	Senhora	senhor	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	cala	calar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	irrita	irritar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	globais	global	NOUN	_	Number=Plur	4	obj	_	_
+6	esquerdistas	esquerdista	ADJ	_	Number=Plur	5	amod	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	vivem	viver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	mundinho	mundinho	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Projac	Projac	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	2	punct	_	_
+

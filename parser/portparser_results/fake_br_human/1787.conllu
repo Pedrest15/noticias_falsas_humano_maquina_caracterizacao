@@ -1,0 +1,207 @@
+# sent_id = S0001
+# text = Temer sem creme de avelã!
+1	Temer	Temer	PROPN	_	_	0	root	_	_
+2	sem	sem	ADP	_	_	3	case	_	_
+3	creme	creme	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	avelã	avelã	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Planalto decide cancelar "lanchinhos de luxo" no avião presidencial.
+1	Planalto	Planalto	PROPN	_	_	2	nsubj	_	_
+2	decide	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cancelar	cancelar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	lanchinhos	lanchinho	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	5	punct	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	avião	avião	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+12	presidencial	presidencial	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O Governo Federal decidiu na tarde de hoje (27) cancelar a licitação para a compra de alimentos que abasteceriam os aviões da Presidência da República.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Governo	Governo	PROPN	_	_	4	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	hoje	hoje	ADV	_	_	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	27	27	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	cancelar	cancelar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	licitação	licitação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	compra	compra	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	alimentos	alimento	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+21	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+22	abasteceriam	abastecer	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	20	acl:relcl	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	aviões	avião	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Presidência	Presidência	PROPN	_	_	24	nmod	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	República	República	PROPN	_	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Entre os produtos que iriam "lambuzar" a nata da política brasileira, havia 500 potes de sorvete tipo premium e cremes de avelã, todos importados.
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+4	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+5	iriam	ir	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	7	aux	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	lambuzar	lambuzar	VERB	_	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	nata	nata	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	política	política	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	3	punct	_	_
+16	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	500	500	NUM	_	NumType=Card	18	nummod	_	_
+18	potes	pote	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	sorvete	sorvete	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	22	case	_	_
+22	premium	premium	X	_	Foreign=Yes	20	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	cremes	creme	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	avelã	avelã	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	29	nsubj	_	_
+29	importados	importar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0009
+# text = A informação foi confirmada pelo repórter da Globo News, Gerson Camarotti, que conversou diretamente com Eliseu Padilha, ministro-chefe da Casa Civil.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Globo	Globo	PROPN	_	_	7	nmod	_	_
+11	News	News	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Gerson	Gerson	PROPN	_	_	7	appos	_	_
+14	Camarotti	Camarotti	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	conversou	conversar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+18	diretamente	diretamente	ADV	_	_	17	advmod	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	Eliseu	Eliseu	PROPN	_	_	17	obl	_	_
+21	Padilha	Padilha	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	ministro-chefe	ministro-chefe	NOUN	_	Number=Sing	20	appos	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Casa	Casa	PROPN	_	_	23	nmod	_	_
+27	Civil	Civil	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Padilha argumentou que desde 2009 não havia licitação para esse tipo de gasto.
+1	Padilha	Padilha	PROPN	_	_	2	nsubj	_	_
+2	argumentou	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	desde	desde	ADP	_	_	5	case	_	_
+5	2009	2009	NUM	_	NumType=Card	7	obl	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+8	licitação	licitação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	gasto	gasto	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A maioria dos produtos que estava na lista continha preços bem acima dos praticados no varejo, além de serem totalmente supérfluos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+7	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lista	lista	NOUN	_	Gender=Fem|Number=Sing	5	acl:relcl	_	_
+11	continha	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	preços	preço	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+13	bem	bem	ADV	_	_	14	advmod	_	_
+14	acima	acima	ADV	_	_	12	advmod	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	14	obl	_	_
+17	praticados	praticar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	16	acl	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	varejo	varejo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	além	além	ADV	_	_	11	advmod	_	_
+23	de	de	ADP	_	_	26	mark	_	_
+24	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	26	cop	_	_
+25	totalmente	totalmente	ADV	_	_	26	advmod	_	_
+26	supérfluos	supérfluo	ADJ	_	Gender=Masc|Number=Plur	22	acl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Falando em supérfluo, o avião presidencial também é algo dispensável em tempos de crise.
+1	Falando	falar	VERB	_	VerbForm=Ger	10	advcl	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	supérfluo	supérfluo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	avião	avião	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	presidencial	presidencial	ADJ	_	Number=Sing	6	amod	_	_
+8	também	também	ADV	_	_	10	advmod	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+11	dispensável	dispensável	ADJ	_	Number=Sing	10	amod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	crise	crise	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = Porque não?
+1	Porque	porque	CCONJ	_	_	2	cc	_	_
+2	não	não	ADV	_	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+

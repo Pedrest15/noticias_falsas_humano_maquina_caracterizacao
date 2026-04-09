@@ -1,0 +1,182 @@
+# sent_id = S0001
+# text = Angelina Jolie estaria sofrendo de câncer, anorexia e paranoia.
+1	Angelina	Angelina	PROPN	_	_	4	nsubj	_	_
+2	Jolie	Jolie	PROPN	_	_	1	flat:name	_	_
+3	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	sofrendo	sofrer	VERB	_	VerbForm=Ger	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	anorexia	anorexia	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	paranoia	paranoia	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = De acordo com tablóide, ela está pesando 35 kilos.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	tablóide	tablóide	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	pesando	pesar	VERB	_	VerbForm=Ger	0	root	_	_
+9	35	35	NUM	_	NumType=Card	10	nummod	_	_
+10	kilos	kilo	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Uma das principais celebridades de Hollywood estaria enfrentando uma crise grave de anorexia.
+1	Uma	um	NUM	_	Gender=Fem|NumType=Card	9	nsubj	_	_
+2-3	das	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	principais	principal	ADJ	_	Number=Plur	5	amod	_	_
+5	celebridades	celebridade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Hollywood	Hollywood	PROPN	_	_	5	nmod	_	_
+8	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	aux	_	_
+9	enfrentando	enfrentar	VERB	_	VerbForm=Ger	0	root	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	crise	crise	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	grave	grave	ADJ	_	Number=Sing	11	amod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	anorexia	anorexia	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = As informações são do jornal " Parent Harold ".
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	"	"	PUNCT	_	_	8	punct	_	_
+8	Parent	Parent	PROPN	_	_	6	nmod	_	_
+9	Harold	Harold	PROPN	_	_	8	flat:name	_	_
+10	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Na capa, a matéria afirma que Angelina Jolie está hospitalizada e sofre de "câncer, anorexia e paranoia".
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	capa	capa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	12	mark	_	_
+9	Angelina	Angelina	PROPN	_	_	12	nsubj	_	_
+10	Jolie	Jolie	PROPN	_	_	9	flat:name	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	hospitalizada	hospitalizado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	7	ccomp	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	sofre	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	anorexia	anorexia	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	paranoia	paranoia	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Jolie estaria pesando apenas 35 kg, e teria sido internada pelo marido, o ator Brad Pitt.
+1	Jolie	Jolie	PROPN	_	_	3	nsubj	_	_
+2	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	_
+3	pesando	pesar	VERB	_	VerbForm=Ger	0	root	_	_
+4	apenas	apenas	ADV	_	_	5	advmod	_	_
+5	35	35	NUM	_	NumType=Card	6	nummod	_	_
+6	kg	kg	NOUN	_	Gender=Masc	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	e	e	CCONJ	_	_	11	cc	_	_
+9	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+10	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	11	aux:pass	_	_
+11	internada	internar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+12-13	pelo	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	marido	marido	NOUN	_	Gender=Masc|Number=Sing	11	obl:agent	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ator	ator	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
+18	Brad	Brad	PROPN	_	_	17	nmod	_	_
+19	Pitt	Pitt	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O Parent Harold disse também que, para evitar um câncer de mama e ovário, Angelina se submeteu a uma dupla mastectomia em 2013.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Parent	Parent	PROPN	_	_	4	nsubj	_	_
+3	Harold	Harold	PROPN	_	_	2	flat:name	_	_
+4	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	também	também	ADV	_	_	4	advmod	_	_
+6	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	evitar	evitar	VERB	_	VerbForm=Inf	19	advcl	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	mama	mama	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	ovário	ovário	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	9	punct	_	_
+17	Angelina	Angelina	PROPN	_	_	19	nsubj	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	submeteu	submeter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+20	a	a	ADP	_	_	23	case	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	dupla	duplo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	mastectomia	mastectomia	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	2013	2013	NUM	_	NumType=Card	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Na época, exames constataram que ela tinha 87% de chance de desenvolver a doença.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	época	época	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	exames	exame	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	constataram	constatar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+10	87	87	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	SYM	_	_	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	chance	chance	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	desenvolver	desenvolver	VERB	_	VerbForm=Inf	13	acl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	doença	doença	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = A atriz tem seis filhos com Brad Pitt, três adotados e três biológicos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	seis	seis	NUM	_	NumType=Card	5	nummod	_	_
+5	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	Brad	Brad	PROPN	_	_	5	nmod	_	_
+8	Pitt	Pitt	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	três	três	NUM	_	NumType=Card	11	nummod	_	_
+11	adotados	adotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	três	três	NUM	_	NumType=Card	5	conj	_	_
+14	biológicos	biológico	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+

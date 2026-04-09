@@ -1,0 +1,151 @@
+# sent_id = S0001
+# text = Em jantar, presidente do senado diz para aliados: "Sei que posso ser preso a qualquer momento".
+1	Em	em	ADP	_	_	2	case	_	_
+2	jantar	jantar	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	8	nsubj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	senado	senado	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	para	para	ADP	_	_	10	case	_	_
+10	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	13	punct	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+14	que	que	SCONJ	_	_	15	mark	_	_
+15	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	20	det	_	_
+20	momento	momento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = O jantar ocorreu na casa do senador Tasso Jereissati (PSDB-CE) e acabou no início da madrugada do dia 10 de março de 2016.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jantar	jantar	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casa	casa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	senador	senador	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Tasso	Tasso	PROPN	_	_	9	nmod	_	_
+11	Jereissati	Jereissati	PROPN	_	_	10	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	PSDB-CE	PSDB-CE	PROPN	_	_	9	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	início	início	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	madrugada	madrugada	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	dia	dia	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	10	10	NUM	_	NumType=Card	25	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	março	março	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	2016	2016	NUM	_	NumType=Card	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O presidente do Senado, Renan Calheiros (PMDB-AL), durante um jantar com senadores do PSDB e do PMDB, fez um desabafo que surpreendeu a todos os que estavam no recinto.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	26	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Senado	Senado	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Renan	Renan	PROPN	_	_	2	appos	_	_
+8	Calheiros	Calheiros	PROPN	_	_	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	PMDB-AL	PMDB-AL	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	durante	durante	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	jantar	jantar	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	PSDB	PSDB	PROPN	_	_	17	nmod	_	_
+21	e	e	CCONJ	_	_	24	cc	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	PMDB	PMDB	PROPN	_	_	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	7	punct	_	_
+26	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	desabafo	desabafo	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	que	que	PRON	_	PronType=Rel	30	nsubj	_	_
+30	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	acl:relcl	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	33	det	_	_
+33	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	30	obl	_	_
+34	que	que	PRON	_	PronType=Rel	38	nsubj	_	_
+35	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	38	cop	_	_
+36-37	no	_	_	_	_	_	_	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	recinto	recinto	NOUN	_	Gender=Masc|Number=Sing	33	acl:relcl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0007
+# text = Ao comentar sobre a imprevisibilidade da operação Lava Jato, Renan desabafou: Eu sei que posso ser preso a qualquer momento.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	comentar	comentar	VERB	_	VerbForm=Inf	14	advcl	_	_
+4	sobre	sobre	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	imprevisibilidade	imprevisibilidade	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	operação	operação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	Lava	Lava	PROPN	_	_	9	nmod	_	_
+11	Jato	Jato	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	Renan	Renan	PROPN	_	_	14	nsubj	_	_
+14	desabafou	desabafar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	17	punct	_	_
+16	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
+18	que	que	SCONJ	_	_	19	mark	_	_
+19	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
+21	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	24	det	_	_
+24	momento	momento	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = Há dois anos estão tentando isso.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+2	dois	dois	NUM	_	Gender=Masc|NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	tentando	tentar	VERB	_	VerbForm=Ger	0	root	_	_
+6	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+

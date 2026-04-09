@@ -1,0 +1,200 @@
+# sent_id = S0001
+# text = De novo?
+1	De	de	ADP	_	ExtPos=ADP	0	root	_	_
+2	novo	novo	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Mais uma jornalista acusa cantor Biel de assédio e registra denúncia em delegacia.
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	uma	um	NUM	_	Gender=Fem|NumType=Card	3	nummod	_	_
+3	jornalista	jornalista	NOUN	_	Number=Sing	4	nsubj	_	_
+4	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	Biel	Biel	PROPN	_	_	5	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	assédio	assédio	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	registra	registrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	delegacia	delegacia	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Biel foi denunciado, novamente, por assédio, e a vítima foi outra jornalista.
+1	Biel	Biel	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	denunciado	denunciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	novamente	novamente	ADV	_	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	assédio	assédio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	e	e	CCONJ	_	_	15	cc	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	jornalista	jornalista	NOUN	_	Number=Sing	3	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Depois de ter sido denunciado por uma repórter do iG, o cantor aprontou de novo.
+1	Depois	depois	ADV	_	_	15	advmod	_	_
+2	de	de	ADP	_	_	5	mark	_	_
+3	ter	ter	AUX	_	VerbForm=Inf	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	denunciado	denunciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	iG	iG	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	aprontou	aprontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	de	de	ADP	_	ExtPos=ADV	15	advmod	_	_
+17	novo	novo	ADJ	_	Gender=Masc|Number=Sing	16	fixed	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = Desta vez o nome da repórter e do local de trabalho estão em sigilo, porém uma nova denúncia foi acolhida pela titular da 1a Delegacia de Defesa da Mulher de São Paulo, Giovanna Valenti.
+1-2	Desta	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	3	case	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	vez	vez	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nome	nome	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	local	local	NOUN	_	Number=Sing	8	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	sigilo	sigilo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	24	punct	_	_
+19	porém	porém	CCONJ	_	_	24	cc	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	nova	novo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+23	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	acolhida	acolher	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	conj	_	_
+25-26	pela	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	titular	titular	NOUN	_	Number=Sing	24	obl:agent	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	31	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	1a	1a	ADJ	_	Gender=Fem|NumType=Ord	31	amod	_	_
+31	Delegacia	Delegacia	PROPN	_	_	27	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Defesa	Defesa	PROPN	_	_	31	flat:name	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Mulher	Mulher	PROPN	_	_	31	flat:name	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	São	São	PROPN	_	_	31	flat:name	_	_
+39	Paulo	Paulo	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	Giovanna	Giovanna	PROPN	_	_	31	appos	_	_
+42	Valenti	Valenti	PROPN	_	_	41	flat:name	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0011
+# text = De acordo com a delegada, o cantor Biel agora irá responder a duas investigações.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	Biel	Biel	PROPN	_	_	8	nmod	_	_
+10	agora	agora	ADV	_	_	12	advmod	_	_
+11	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+12	responder	responder	VERB	_	VerbForm=Inf	0	root	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	duas	dois	NUM	_	Gender=Fem|NumType=Card	15	nummod	_	_
+15	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0013
+# text = As informações são do portal Ego e a nova denúncia ocorreu no mesmo dia em que a repórter do iG entrevistou o cantor.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	portal	portal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	Ego	Ego	PROPN	_	_	6	nmod	_	_
+8	e	e	CCONJ	_	_	12	cc	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nova	novo	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	dia	dia	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	que	que	PRON	_	PronType=Rel	24	obl	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	iG	iG	PROPN	_	_	20	nmod	_	_
+24	entrevistou	entrevistar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = A assessoria do cantor ainda não se manifestou e informou que Biel ainda não foi notificado sobre a nova acusação.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ainda	ainda	ADV	_	_	9	advmod	_	_
+7	não	não	ADV	_	_	9	advmod	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	manifestou	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+12	que	que	SCONJ	_	_	17	mark	_	_
+13	Biel	Biel	PROPN	_	_	17	nsubj:pass	_	_
+14	ainda	ainda	ADV	_	_	17	advmod	_	_
+15	não	não	ADV	_	_	17	advmod	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	notificado	notificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+18	sobre	sobre	ADP	_	_	21	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	nova	novo	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0016
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

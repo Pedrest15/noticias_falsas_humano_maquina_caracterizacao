@@ -1,0 +1,272 @@
+# sent_id = S0001
+# text = Dilma: "Impeachment foi para interromper Lava-Jato".
+1	Dilma	Dilma	PROPN	_	_	5	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	Impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	interromper	interromper	VERB	_	VerbForm=Inf	5	advcl	_	_
+8	Lava-Jato	Lava-Jato	PROPN	_	_	7	obj	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Dilma Rousseff afirmou na manhã de hoje(17) em Lauro de Freitas, Salvador, que o impeachment é uma tentativa de interromper as investigações da Operação Lava Jato.
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	Rousseff	Rousseff	PROPN	_	_	1	flat:name	_	_
+3	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	hoje(17	hoje(17	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	11	punct	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Lauro	Lauro	PROPN	_	_	3	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Freitas	Freitas	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Salvador	Salvador	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	que	que	SCONJ	_	_	22	mark	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+23	de	de	ADP	_	_	24	mark	_	_
+24	interromper	interromper	VERB	_	VerbForm=Inf	22	acl	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Operação	Operação	PROPN	_	_	26	nmod	_	_
+30	Lava	Lava	PROPN	_	_	29	flat:name	_	_
+31	Jato	Jato	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = E não é que nesse ponto especificamente Dilma tem razão!
+1	E	e	CCONJ	_	_	10	cc	_	_
+2	não	não	ADV	_	_	10	advmod	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	discourse	_	_
+4	que	que	SCONJ	_	_	10	discourse	_	_
+5-6	nesse	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+8	especificamente	especificamente	ADV	_	_	10	advmod	_	_
+9	Dilma	Dilma	PROPN	_	_	10	nsubj	_	_
+10	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	razão	razão	NOUN	_	Number=Sing	10	obj	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Nada justifica as "pedaladas fiscais" ocorridas no governo da petista, que deve SIM ser punida pela fraude, porém o brasileiro já está percebendo que a Lava-Jato está sendo abafada por Renan & cia.
+1	Nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	justifica	justificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	pedaladas	pedalada	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+6	fiscais	fiscal	ADJ	_	Number=Plur	5	amod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	5	punct	_	_
+8	ocorridas	ocorrer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	governo	governo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	petista	petista	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	SIM	sim	ADV	_	_	20	advmod	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	20	aux:pass	_	_
+20	punida	punir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	30	punct	_	_
+25	porém	porém	CCONJ	_	_	30	cc	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	brasileiro	brasileiro	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+28	já	já	ADV	_	_	30	advmod	_	_
+29	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	percebendo	perceber	VERB	_	VerbForm=Ger	2	conj	_	_
+31	que	que	SCONJ	_	_	36	mark	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Lava-Jato	Lava-Jato	PROPN	_	_	36	nsubj:pass	_	_
+34	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	sendo	ser	AUX	_	VerbForm=Ger	36	aux:pass	_	_
+36	abafada	abafar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	30	ccomp	_	_
+37	por	por	ADP	_	_	38	case	_	_
+38	Renan	Renan	PROPN	_	_	36	obl:agent	_	_
+39	&	&	SYM	_	_	38	cc	_	_
+40	cia.	cia.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = As razões de impeachment estão ficando cada vez mais claras para a população.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	razões	razão	NOUN	_	Number=Plur	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ficando	ficar	VERB	_	VerbForm=Ger	0	root	_	_
+7	cada	cada	DET	_	ExtPos=ADV|Number=Sing|PronType=Ind	10	advmod	_	_
+8	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	fixed	_	_
+9	mais	mais	ADV	_	_	7	fixed	_	_
+10	claras	claro	ADJ	_	Gender=Fem|Number=Plur	6	xcomp	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	população	população	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = É querer diminuir o controle sobre todos os processos que leva à Lava Jato.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	querer	querer	VERB	_	VerbForm=Inf	0	root	_	_
+3	diminuir	diminuir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	controle	controle	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	sobre	sobre	ADP	_	_	9	case	_	_
+7	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	processos	processo	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	leva	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Lava	Lava	PROPN	_	_	11	obl	_	_
+15	Jato	Jato	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = É tentar negociar uma forma de interromper investigações, afirmou Dilma.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tentar	tentar	VERB	_	VerbForm=Inf	10	ccomp:speech	_	_
+3	negociar	negociar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forma	forma	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	interromper	interromper	VERB	_	VerbForm=Inf	5	acl	_	_
+8	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Dilma	Dilma	PROPN	_	_	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = Esse processo de impeachment é, sobretudo, um golpe que fica cada dia mais claro.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	sobretudo	sobretudo	ADV	_	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	cada	cada	DET	_	ExtPos=ADV|Number=Sing|PronType=Ind	16	advmod	_	_
+14	dia	dia	NOUN	_	Gender=Masc|Number=Sing	13	fixed	_	_
+15	mais	mais	ADV	_	_	13	fixed	_	_
+16	claro	claro	ADJ	_	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = Cada vez que passa o tempo, o julgamento será o julgamento que o povo brasileiro vai fazer.
+1	Cada	cada	DET	_	ExtPos=SCONJ|Number=Sing|PronType=Ind	4	mark	_	_
+2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
+3	que	que	SCONJ	_	_	1	fixed	_	_
+4	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+13	que	que	PRON	_	PronType=Rel	18	obj	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	povo	povo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+16	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fazer	fazer	VERB	_	VerbForm=Inf	12	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0019
+# text = E esse julgamento deixa claro que esse é um processo que tem muito pouca base do que eles chamam de pedaladas fiscais, disse.
+1	E	e	CCONJ	_	_	4	cc	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp:speech	_	_
+5	claro	claro	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	muito	muito	ADV	_	_	14	advmod	_	_
+14	pouca	pouco	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	base	base	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nmod	_	_
+18	que	que	PRON	_	PronType=Rel	20	obj	_	_
+19	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	chamam	chamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	pedaladas	pedalada	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+23	fiscais	fiscal	ADJ	_	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	4	punct	_	_
+25	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0021
+# text = Questionada sobre a demissão do ministro do Turismo Henrique Eduardo Alves, que também ocupou a mesma pasta na sua gestão, Dilma não quis comentar.
+1	Questionada	questionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	28	advcl	_	_
+2	sobre	sobre	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	demissão	demissão	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Turismo	Turismo	PROPN	_	_	7	nmod	_	_
+11	Henrique	Henrique	PROPN	_	_	7	nmod	_	_
+12	Eduardo	Eduardo	PROPN	_	_	11	flat:name	_	_
+13	Alves	Alves	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+16	também	também	ADV	_	_	17	advmod	_	_
+17	ocupou	ocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	pasta	pasta	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	24	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	1	punct	_	_
+26	Dilma	Dilma	PROPN	_	_	28	nsubj	_	_
+27	não	não	ADV	_	_	28	advmod	_	_
+28	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+29	comentar	comentar	VERB	_	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+

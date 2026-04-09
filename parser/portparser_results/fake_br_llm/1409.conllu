@@ -1,0 +1,475 @@
+# sent_id = S0001
+# text = TV Globo Demite José Mayer: Escândalo de Assédio Choca o Brasil A TV Globo anunciou hoje a demissão definitiva do ator José Mayer, em meio a um escândalo de assédio sexual que tem chocado o país.
+1	TV	TV	PROPN	_	_	16	nsubj	_	_
+2	Globo	Globo	PROPN	_	_	1	flat:name	_	_
+3	Demite	demitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+4	José	José	PROPN	_	_	3	flat:name	_	_
+5	Mayer	Mayer	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	7	punct	_	_
+7	Escândalo	Escândalo	PROPN	_	_	3	appos	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Assédio	Assédio	PROPN	_	_	7	flat:name	_	_
+10	Choca	chocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	flat:name	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Brasil	Brasil	PROPN	_	_	10	obj	_	_
+13	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	TV	TV	PROPN	_	_	10	nsubj	_	_
+15	Globo	Globo	PROPN	_	_	14	flat:name	_	_
+16	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	hoje	hoje	ADV	_	_	16	advmod	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	demissão	demissão	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+20	definitiva	definitivo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ator	ator	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+24	José	José	PROPN	_	_	23	nmod	_	_
+25	Mayer	Mayer	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	31	punct	_	_
+27	em	em	ADP	_	ExtPos=ADP	31	case	_	_
+28	meio	meio	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	_
+29	a	a	ADP	_	_	27	fixed	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	assédio	assédio	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+34	sexual	sexual	ADJ	_	Number=Sing	33	amod	_	_
+35	que	que	PRON	_	PronType=Rel	37	nsubj	_	_
+36	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	chocado	chocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	31	acl:relcl	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	país	país	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0003
+# text = A decisão drástica foi tomada após novas revelações sobre o comportamento inadequado de Mayer em relação à figurinista Susllem Tonani.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	drástica	drástico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	após	após	ADP	_	_	8	case	_	_
+7	novas	novo	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+8	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	inadequado	inadequado	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Mayer	Mayer	PROPN	_	_	11	nmod	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	relação	relação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	figurinista	figurinista	NOUN	_	Number=Sing	16	nmod	_	_
+20	Susllem	Susllem	PROPN	_	_	19	nmod	_	_
+21	Tonani	Tonani	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Testemunhas afirmam que o ator não só fez elogios impróprios e comentários de cunho sexual, mas também teria agido de forma agressiva quando confrontado.
+1	Testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ator	ator	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	só	só	ADV	_	_	8	advmod	_	_
+8	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+9	elogios	elogio	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	impróprios	impróprio	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	cunho	cunho	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	sexual	sexual	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	mas	mas	CCONJ	_	_	20	cc	_	_
+18	também	também	ADV	_	_	20	advmod	_	_
+19	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	20	aux	_	_
+20	agido	agir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	forma	forma	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+23	agressiva	agressivo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	quando	quando	SCONJ	_	_	25	mark	_	_
+25	confrontado	confrontar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Susllem Tonani, em entrevista exclusiva, detalhou os meses de constrangimento e revelou que, além do toque não consentido, o ator teria feito ameaças veladas para silenciá-la.
+1	Susllem	Susllem	PROPN	_	_	8	nsubj	_	_
+2	Tonani	Tonani	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+6	exclusiva	exclusivo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	detalhou	detalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	constrangimento	constrangimento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	que	que	SCONJ	_	_	27	mark	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	além	além	ADV	_	_	27	advmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	toque	toque	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	consentido	consentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	17	punct	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ator	ator	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+26	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	27	aux	_	_
+27	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	ccomp	_	_
+28	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	_
+29	veladas	velado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	28	amod	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31-32	silenciá-la	_	_	_	_	_	_	_	_
+31	silenciar	silenciar	VERB	_	VerbForm=Inf	27	advcl	_	_
+32	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = "Eu temia pela minha carreira e segurança", declarou Susllem emocionada.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	temia	temer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	ccomp:speech	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	7	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	segurança	segurança	NOUN	_	Number=Sing	7	conj	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Susllem	Susllem	PROPN	_	_	12	nsubj	_	_
+14	emocionada	emocionado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	12	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Após o incidente, ela afirma ter recebido apoio de colegas, que incentivaram-na a denunciar o caso ao departamento de recursos humanos.
+1	Após	após	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	incidente	incidente	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ter	ter	AUX	_	VerbForm=Inf	8	aux	_	_
+8	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	xcomp	_	_
+9	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	incentivaram-na	incentivaram-no	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	acl:relcl	_	_
+15	a	a	ADP	_	_	16	mark	_	_
+16	denunciar	denunciar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	caso	caso	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	departamento	departamento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+24	humanos	humano	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = O clima nos Estúdios Globo é de tensão e revolta.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	clima	clima	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	nos	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Estúdios	Estúdios	PROPN	_	_	2	nmod	_	_
+6	Globo	Globo	PROPN	_	_	5	flat:name	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	revolta	revolto	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = Um grupo de atrizes, diretoras e produtoras realizou um protesto intenso nas redes sociais, usando camisetas com a inscrição "mexeu com uma, mexeu com todas" e a hashtag #chegadeassédio.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	atrizes	atriz	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	diretoras	diretor	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	produtoras	produtor	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+9	realizou	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	intenso	intenso	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	nas	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	redes	rede	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+16	sociais	social	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	usando	usar	VERB	_	VerbForm=Ger	9	advcl	_	_
+19	camisetas	camiseta	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+20	com	com	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	inscrição	inscrição	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	mexeu	mexer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	uma	um	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	mexeu	mexer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	todas	todo	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	28	obl	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	24	punct	_	_
+32	e	e	CCONJ	_	_	34	cc	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	hashtag	hashtag	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
+35	#chegadeassédio	#chegadeassédio	NOUN	_	_	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0017
+# text = Imagens do protesto viralizaram, ganhando apoio de milhões de seguidores.
+1	Imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	viralizaram	viralizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ganhando	ganhar	VERB	_	VerbForm=Ger	5	advcl	_	_
+8	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	seguidores	seguidor	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = A emissora divulgou uma nota oficial afirmando: A Globo não tolera comportamentos abusivos e, após uma investigação minuciosa, decidiu pela demissão de José Mayer.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nota	nota	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	oficial	oficial	ADJ	_	Number=Sing	5	amod	_	_
+7	afirmando	afirmar	VERB	_	VerbForm=Ger	5	acl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	12	punct	_	_
+9	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Globo	Globo	PROPN	_	_	12	nsubj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	tolera	tolerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp:speech	_	_
+13	comportamentos	comportamento	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	abusivos	abusivo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	_	_	22	cc	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	após	após	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+20	minuciosa	minucioso	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+23-24	pela	_	_	_	_	_	_	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	demissão	demissão	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	José	José	PROPN	_	_	25	nmod	_	_
+28	Mayer	Mayer	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Reafirmamos nosso compromisso com um ambiente de trabalho respeitoso e ético.
+1	Reafirmamos	reafirmar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	compromisso	compromisso	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ambiente	ambiente	NOUN	_	Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	respeitoso	respeitoso	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	ético	ético	ADJ	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0023
+# text = Pedimos desculpas públicas a Susllem Tonani e a todas as vítimas de assédio.
+1	Pedimos	pedir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	desculpas	desculpa	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+3	públicas	público	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	Susllem	Susllem	PROPN	_	_	1	obl	_	_
+6	Tonani	Tonani	PROPN	_	_	5	flat:name	_	_
+7	e	e	CCONJ	_	_	11	cc	_	_
+8	a	a	ADP	_	_	11	case	_	_
+9	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	assédio	assédio	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Por sua vez, José Mayer divulgou uma carta aberta chocante, admitindo suas falhas e prometendo uma transformação pessoal.
+1	Por	por	ADP	_	_	3	case	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	José	José	PROPN	_	_	7	nsubj	_	_
+6	Mayer	Mayer	PROPN	_	_	5	flat:name	_	_
+7	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	carta	carta	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	aberta	aberto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	_
+11	chocante	chocante	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	admitindo	admitir	VERB	_	VerbForm=Ger	7	advcl	_	_
+14	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	falhas	falha	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	prometendo	prometer	VERB	_	VerbForm=Ger	13	conj	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	transformação	transformação	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	pessoal	pessoal	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0027
+# text = Eu errei gravemente e preciso enfrentar as consequências.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	errei	errar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gravemente	gravemente	ADV	_	_	2	advmod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	preciso	precisar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	enfrentar	enfrentar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	consequências	consequência	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0029
+# text = Minhas ações, sob a falsa capa de 'brincadeiras', foram abusivas e inaceitáveis.
+1	Minhas	meu	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	sob	sob	ADP	_	_	7	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	falsa	falso	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	capa	capa	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	'	'	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	brincadeiras	brincadeira	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	abusivas	abusivo	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	inaceitáveis	inaceitável	ADJ	_	Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0031
+# text = Peço perdão à Susllem e a todas as mulheres que se sentiram desrespeitadas por mim.
+1	Peço	pezer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	perdão	perdão	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+3-4	à	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Susllem	Susllem	PROPN	_	_	1	obl	_	_
+6	e	e	CCONJ	_	_	10	cc	_	_
+7	a	a	ADP	_	_	10	case	_	_
+8	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
+11	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	sentiram	sentir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	desrespeitadas	desrespeitar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	obl:agent	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0033
+# text = É hora de uma mudança radical e de aprender com os erros, escreveu Mayer.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	hora	hora	NOUN	_	Gender=Fem|Number=Sing	14	ccomp:speech	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	radical	radical	ADJ	_	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	aprender	aprender	VERB	_	VerbForm=Inf	5	conj	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	erros	erro	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mayer	Mayer	PROPN	_	_	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0035
+# text = A repercussão do caso tem levantado um debate nacional sobre assédio no ambiente de trabalho, com várias personalidades públicas se manifestando e exigindo justiça.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	repercussão	repercussão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caso	caso	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	levantado	levantar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	debate	debate	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	nacional	nacional	ADJ	_	Number=Sing	9	amod	_	_
+11	sobre	sobre	ADP	_	_	12	case	_	_
+12	assédio	assédio	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ambiente	ambiente	NOUN	_	Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	personalidades	personalidade	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+22	públicas	público	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	_	_
+24	manifestando	manifestar	VERB	_	VerbForm=Ger	21	acl	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	exigindo	exigir	VERB	_	VerbForm=Ger	24	conj	_	_
+27	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0037
+# text = A Globo prometeu implementar novas políticas rigorosas para prevenir futuros incidentes e promover uma cultura de respeito e igualdade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Globo	Globo	PROPN	_	_	3	nsubj	_	_
+3	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	implementar	implementar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	novas	novo	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+6	políticas	política	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7	rigorosas	rigoroso	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	prevenir	prevenir	VERB	_	VerbForm=Inf	4	advcl	_	_
+10	futuros	futuro	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+11	incidentes	incidente	NOUN	_	Number=Plur	9	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	promover	promover	VERB	_	VerbForm=Inf	9	conj	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	igualdade	igualdade	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+

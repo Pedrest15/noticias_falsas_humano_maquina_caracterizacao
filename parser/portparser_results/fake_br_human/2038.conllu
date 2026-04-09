@@ -1,0 +1,297 @@
+# sent_id = S0001
+# text = Em depoimento, José Dirceu pede clemência para Moro: Deixa eu em liberdade.
+1	Em	em	ADP	_	_	2	case	_	_
+2	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	José	José	PROPN	_	_	6	nsubj	_	_
+5	Dirceu	Dirceu	PROPN	_	_	4	flat:name	_	_
+6	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	clemência	clemência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	Moro	Moro	PROPN	_	_	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	11	punct	_	_
+11	Deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+12	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Quero trabalhar.
+1	Quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	trabalhar	trabalhar	VERB	_	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Engraçado [...] roubar ele sabe, falar o português correto não!.
+1	Engraçado	engraçado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	parataxis	_	_
+2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+4	..	..	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	3	punct	_	_
+6	roubar	roubar	VERB	_	VerbForm=Inf	1	csubj	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	falar	falar	VERB	_	VerbForm=Inf	8	parataxis	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	português	português	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	correto	correto	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	não	não	ADV	_	_	10	advmod	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = O ex-ministro de Lula fez um apelo ao juiz Sérgio Moro hoje (21).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	nmod	_	_
+5	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	apelo	apelo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	Sérgio	Sérgio	PROPN	_	_	10	nmod	_	_
+12	Moro	Moro	PROPN	_	_	11	flat:name	_	_
+13	hoje	hoje	ADV	_	_	5	advmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	21	21	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Dirceu pediu para ser solto; ele clamou por liberdade.
+1	Dirceu	Dirceu	PROPN	_	_	2	nsubj	_	_
+2	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	para	para	ADP	_	_	5	mark	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	solto	soltar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+6	;	;	PUNCT	_	_	8	punct	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	clamou	clamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Sr. Dirceu a frase correta seria "Me deixa em liberdade" e não "Deixa eu em liberdade" Que lindo né?
+1	Sr.	senhor	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	Dirceu	Dirceu	PROPN	_	_	1	flat:name	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	frase	frase	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	correta	correto	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	cop	_	_
+7	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	Me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	9	punct	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14	não	não	ADV	_	_	16	advmod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	16	punct	_	_
+21	Que	que	DET	_	PronType=Ind	22	det	_	_
+22	lindo	lindo	ADJ	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+23	né	né	INTJ	_	_	22	discourse	_	SpaceAfter=No
+24	?	?	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Imagine só se todo ladrão desse país fizesse um apelo dramático para cada juiz durante o julgamento!
+1	Imagine	imaginar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	só	só	ADV	_	_	1	advmod	_	_
+3	se	se	SCONJ	_	_	9	mark	_	_
+4	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+6-7	desse	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	país	país	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	fizesse	fazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	apelo	apelo	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	dramático	dramático	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	cada	cada	DET	_	Number=Sing|PronType=Ind	15	det	_	_
+15	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	durante	durante	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = JD está condenado a 20 anos de reclusão por corrupção, lavagem de dinheiro e organização criminosa no esquema Petrobrás.
+1	JD	JD	PROPN	_	_	3	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	condenado	condenado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	20	20	NUM	_	NumType=Card	6	nummod	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	reclusão	reclusão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	organização	organização	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+17	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21	Petrobrás	Petrobrás	PROPN	_	_	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Quero repetir: não houve nada de ilícito.
+1	Quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	repetir	repetir	VERB	_	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+6	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	ilícito	ilícito	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Faturei 40 milhões (de reais) e ganhei seis em dez anos, 60 mil reais por mês.
+1	Faturei	faturar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	40	40	NUM	_	NumType=Card	3	nummod	_	_
+3	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	de	de	ADP	_	_	6	case	_	_
+6	reais	real	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	ganhei	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+10	seis	seis	NUM	_	NumType=Card	9	obj	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	dez	dez	NUM	_	NumType=Card	13	nummod	_	_
+13	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	60	60	NUM	_	NumType=Card	17	nummod	_	_
+16	mil	mil	NUM	_	NumType=Card	15	flat	_	_
+17	reais	real	NOUN	_	Gender=Masc|Number=Plur	9	parataxis	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	mês	mês	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Se passou à opinião pública que eu tinha ganho 40 milhões e isso vai parecendo que sou uma pessoa que enriqueci de maneira ilícita e tenho um patrimônio que eu não tenho.
+1	Se	se	SCONJ	_	_	2	mark	_	_
+2	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	à	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	pública	público	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	ganho	ganhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+11	40	40	NUM	_	NumType=Card	12	nummod	_	_
+12	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	_
+15	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	parecendo	parecer	VERB	_	VerbForm=Ger	2	conj	_	_
+17	que	que	SCONJ	_	_	20	mark	_	_
+18	sou	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	16	ccomp	_	_
+21	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+22	enriqueci	enriquecer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+25	ilícita	ilícito	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	conj	_	_
+28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	patrimônio	patrimônio	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+30	que	que	PRON	_	PronType=Rel	33	obj	_	_
+31	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+32	não	não	ADV	_	_	33	advmod	_	_
+33	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = A verdade é que eu não tenho.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:outer	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0024
+# text = disse o braço direito de Lula E finalizou: aos 21:35 minutos do vídeo Deixa eu responder em liberdade meu processo, que eu vou cumprir a minha pena.
+1	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	braço	braço	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	direito	direito	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	3	nmod	_	_
+7	E	e	CCONJ	_	_	8	cc	_	_
+8	finalizou	finalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	13	punct	_	_
+10-11	aos	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	13	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	21:35	21:35	NUM	_	NumType=Card	13	nummod	_	_
+13	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	Deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+18	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	responder	responder	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+22	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	processo	processo	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	que	que	CCONJ	_	_	28	cc	_	_
+26	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+27	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	cumprir	cumprir	VERB	_	VerbForm=Inf	17	conj	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	det	_	_
+31	pena	pena	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0026
+# text = Tenho mais de 70 anos, tenho uma filha pra criar.
+1	Tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mais	mais	ADV	_	ExtPos=ADV	4	advmod	_	_
+3	de	de	ADP	_	_	2	fixed	_	_
+4	70	70	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	filha	filho	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	pra	para	ADP	_	_	11	mark	_	_
+11	criar	criar	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0028
+# text = Eu preciso tralabalhar.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	preciso	precisar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tralabalhar	tralabalhar	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+

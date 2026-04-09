@@ -1,0 +1,115 @@
+# sent_id = S0001
+# text = URGENTE!
+1	URGENTE	urgente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Lavagem de dinheiro no Instituto Lula: Ex-presidente acaba de ser indiciado pela PF.
+1	Lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Instituto	Instituto	PROPN	_	_	1	nmod	_	_
+7	Lula	Lula	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	1	punct	_	_
+9	Ex-presidente	ex-presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+10	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	de	de	ADP	_	_	13	mark	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	13	aux:pass	_	_
+13	indiciado	indiciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+14-15	pela	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	PF	PF	PROPN	_	_	13	obl:agent	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = O G1 acabou de informar que a PF indiciou o ex-presidente Luiz Inácio, Antônio Palocci, dona Marisa Letícia e mais 4 pessoas no âmbito Operação Lava Jato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	G1	G1	PROPN	_	_	3	nsubj	_	_
+3	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	informar	informar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	PF	PF	PROPN	_	_	9	nsubj	_	_
+9	indiciou	indiciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	obj	_	_
+12	Luiz	Luiz	PROPN	_	_	11	nmod	_	_
+13	Inácio	Inácio	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Antônio	Antônio	PROPN	_	_	11	conj	_	_
+16	Palocci	Palocci	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	dona	dona	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+19	Marisa	Marisa	PROPN	_	_	18	nmod	_	_
+20	Letícia	Letícia	PROPN	_	_	19	flat:name	_	_
+21	e	e	CCONJ	_	_	24	cc	_	_
+22	mais	mais	ADV	_	_	23	advmod	_	_
+23	4	4	NUM	_	NumType=Card	24	nummod	_	_
+24	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	âmbito	âmbito	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+28	Operação	Operação	PROPN	_	_	27	nmod	_	_
+29	Lava	Lava	PROPN	_	_	28	flat:name	_	_
+30	Jato	Jato	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Lula é acusado pelo crime de corrupção passiva.
+1	Lula	Lula	PROPN	_	_	3	nsubj:pass	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	pelo	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	crime	crime	NOUN	_	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	passiva	passivo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Todos os demais foram denunciados por lavagem de dinheiro.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	demais	demais	PRON	_	Number=Plur|PronType=Ind	5	nsubj:pass	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	denunciados	denunciar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = A Polícia Federal defende que o caso se trata de pagamento de propina da construtora Odebrecht ao ex-presidente.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	4	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	defende	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caso	caso	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	propina	propina	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	construtora	construtor	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	Odebrecht	Odebrecht	PROPN	_	_	16	nmod	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ex-presidente	ex-presidente	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+

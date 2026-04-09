@@ -1,0 +1,373 @@
+# sent_id = S0001
+# text = Bolsonaro já tem novo partido para concorrer à presidência.
+1	Bolsonaro	Bolsonaro	PROPN	_	_	3	nsubj	_	_
+2	já	já	ADV	_	_	3	advmod	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	novo	novo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	partido	partido	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	concorrer	concorrer	VERB	_	VerbForm=Inf	3	advcl	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = * A insatisfação de Jair Bolsonaro com o PSC é fato público e notório.
+1	*	*	PUNCT	_	_	11	punct	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	insatisfação	insatisfação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Jair	Jair	PROPN	_	_	3	nmod	_	_
+6	Bolsonaro	Bolsonaro	PROPN	_	_	5	flat:name	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	PSC	PSC	PROPN	_	_	3	nmod	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+12	público	público	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	notório	notório	ADJ	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = O deputado foi sondado por diversos partidos conhecidos mas optou por um partido novo onde ele será o principal cacique.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	sondado	sondar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	conhecidos	conhecido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	7	amod	_	_
+9	mas	mas	CCONJ	_	_	10	cc	_	_
+10	optou	optar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	partido	partido	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	novo	novo	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	onde	onde	ADV	_	_	20	advmod	_	_
+16	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	principal	principal	ADJ	_	Number=Sing	20	amod	_	_
+20	cacique	cacique	NOUN	_	Gender=Masc|Number=Sing	13	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = * O Brasil pode ganhar em breve dois novos partidos: o Muda Brasil (MB) e o Igualdade (IDE).
+1	*	*	PUNCT	_	_	4	punct	_	_
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Brasil	Brasil	PROPN	_	_	4	nsubj	_	_
+4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ganhar	ganhar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	breve	breve	NOUN	_	Number=Sing	5	obl	_	_
+8	dois	dois	NUM	_	Gender=Masc|NumType=Card	10	nummod	_	_
+9	novos	novo	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+10	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	13	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Muda	Muda	PROPN	_	_	10	appos	_	_
+14	Brasil	Brasil	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	MB	MB	PROPN	_	_	13	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Igualdade	Igualdade	PROPN	_	_	13	conj	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	IDE	IDE	PROPN	_	_	20	appos	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = O pedido de registro dessas futuras agremiações já está em tramitação no Tribunal Superior Eleitoral (TSE).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	registro	registro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	dessas	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+7	futuras	futuro	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+8	agremiações	agremiação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+9	já	já	ADV	_	_	12	advmod	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	tramitação	tramitação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Tribunal	Tribunal	PROPN	_	_	12	nmod	_	_
+16	Superior	Superior	PROPN	_	_	15	flat:name	_	_
+17	Eleitoral	Eleitoral	PROPN	_	_	15	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	TSE	TSE	PROPN	_	_	15	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Caso sejam aprovados, o país terá nas eleições do ano que vem um total de 37 legendas.
+1	Caso	caso	SCONJ	_	_	3	mark	_	_
+2	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	aprovados	aprovar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	país	país	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ano	ano	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	total	total	NOUN	_	Number=Sing	7	obj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	37	37	NUM	_	NumType=Card	20	nummod	_	_
+20	legendas	legenda	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = Para isso, os dois partidos precisam estar registrados um ano antes das eleições, marcadas para outubro de 2018.
+1	Para	para	ADP	_	_	2	case	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	dois	dois	NUM	_	Gender=Masc|NumType=Card	6	nummod	_	_
+6	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	precisam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	estar	estar	AUX	_	VerbForm=Inf	9	cop	_	_
+9	registrados	registrado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	7	xcomp	_	_
+10	um	um	NUM	_	Gender=Masc|NumType=Card	11	nummod	_	_
+11	ano	ano	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+12	antes	antes	ADV	_	_	9	advmod	_	_
+13-14	das	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	marcadas	marcar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	2018	2018	NUM	_	NumType=Card	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = O MB é uma dissidência do PR, que pode ter como principal liderança o deputado federal Jair Bolsonaro e seus filhos Flávio Bolsonaro, deputado estadual pelo Rio de Janeiro, e Eduardo Bolsonaro, deputado federal pelo mesmo estado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	MB	MB	PROPN	_	_	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	dissidência	dissidência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PR	PR	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	ter	ter	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	como	como	ADP	_	_	15	case	_	_
+14	principal	principal	ADJ	_	Number=Sing	15	amod	_	_
+15	liderança	liderança	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+18	federal	federal	ADJ	_	Number=Sing	17	amod	_	_
+19	Jair	Jair	PROPN	_	_	17	nmod	_	_
+20	Bolsonaro	Bolsonaro	PROPN	_	_	19	flat:name	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+24	Flávio	Flávio	PROPN	_	_	23	nmod	_	_
+25	Bolsonaro	Bolsonaro	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
+28	estadual	estadual	ADJ	_	Number=Sing	27	amod	_	_
+29-30	pelo	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Rio	Rio	PROPN	_	_	27	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Janeiro	Janeiro	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	e	e	CCONJ	_	_	36	cc	_	_
+36	Eduardo	Eduardo	PROPN	_	_	24	conj	_	_
+37	Bolsonaro	Bolsonaro	PROPN	_	_	36	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	36	appos	_	_
+40	federal	federal	ADJ	_	Number=Sing	39	amod	_	_
+41-42	pelo	_	_	_	_	_	_	_	_
+41	por	por	ADP	_	_	44	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
+44	estado	estado	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Todos são filiados ao PSC.
+1	Todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	filiados	filiado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	PSC	PSC	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Caso o MB seja validado pelo TSE, Bolsonaro pode ser candidato a presidente em 2018 pela legenda.
+1	Caso	caso	SCONJ	_	_	5	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	MB	MB	PROPN	_	_	5	nsubj:pass	_	_
+4	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	validado	validar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	advcl	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	TSE	TSE	PROPN	_	_	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	Bolsonaro	Bolsonaro	PROPN	_	_	11	nsubj	_	_
+11	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	13	cop	_	_
+13	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	presidente	presidente	NOUN	_	Number=Sing	13	nmod	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	2018	2018	NUM	_	NumType=Card	15	nmod	_	_
+18-19	pela	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	legenda	legenda	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0021
+# text = Três filhos de Bolsonaro deverão ser lançados pela sigla para as eleições do próximo ano.
+1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
+2	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Bolsonaro	Bolsonaro	PROPN	_	_	2	nmod	_	_
+5	deverão	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
+7	lançados	lançar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sigla	sigla	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	ano	ano	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = Dois deles, deverão disputar vagas na Câmara, enquanto Flávio Bolsonaro concorrerá a uma cadeira no Senado.
+1	Dois	dois	NUM	_	Gender=Masc|NumType=Card	5	nsubj	_	_
+2-3	deles	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	deverão	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	disputar	disputar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Câmara	Câmara	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	enquanto	enquanto	SCONJ	_	_	15	mark	_	_
+13	Flávio	Flávio	PROPN	_	_	15	nsubj	_	_
+14	Bolsonaro	Bolsonaro	PROPN	_	_	13	flat:name	_	_
+15	concorrerá	concorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	advcl	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cadeira	cadeira	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Senado	Senado	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = José Renato é ex-dirigente do Partido da República (PR).
+1	José	José	PROPN	_	_	4	nsubj	_	_
+2	Renato	Renato	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ex-dirigente	ex-dirigente	NOUN	_	Number=Sing	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Partido	Partido	PROPN	_	_	4	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	República	República	PROPN	_	_	7	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	PR	PR	PROPN	_	_	7	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = À Folha, o presidente do Muda Brasil reconheceu que tem proximidade com a família Bolsonaro.
+1-2	À	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Folha	Folha	PROPN	_	_	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	11	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Muda	Muda	PROPN	_	_	6	nmod	_	_
+10	Brasil	Brasil	PROPN	_	_	9	flat:name	_	_
+11	reconheceu	reconhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	13	mark	_	_
+13	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+14	proximidade	proximidade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	família	família	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	Bolsonaro	Bolsonaro	PROPN	_	_	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0029
+# text = Nas eleições de 2014, ele trabalhou na prestação de contas do deputado federal Eduardo Bolsonaro (PSC).
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	2014	2014	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	trabalhou	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prestação	prestação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	contas	conta	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+17	federal	federal	ADJ	_	Number=Sing	16	amod	_	_
+18	Eduardo	Eduardo	PROPN	_	_	16	nmod	_	_
+19	Bolsonaro	Bolsonaro	PROPN	_	_	18	flat:name	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	PSC	PSC	PROPN	_	_	16	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	_
+

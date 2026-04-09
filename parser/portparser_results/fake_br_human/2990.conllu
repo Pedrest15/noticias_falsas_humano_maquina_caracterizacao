@@ -1,0 +1,200 @@
+# sent_id = S0001
+# text = Dilma invade cabine de avião presidencial e grita com piloto: Você está maluco?
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	invade	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cabine	cabine	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	avião	avião	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	presidencial	presidencial	ADJ	_	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	grita	gritar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	maluco	maluco	ADJ	_	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Vá se f#$%.
+1	Vá	ár	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	f#$	f#$	SYM	_	_	1	obj	_	SpaceAfter=No
+4	%	%	SYM	_	_	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Sou a presidente.
+1	Sou	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Denúncia de Sérgio Pardellas e Débora Bergamasco [da IstoÉ] mostra como está o controle emocional da governANTA do país.
+1	Denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Sérgio	Sérgio	PROPN	_	_	1	nmod	_	_
+4	Pardellas	Pardellas	PROPN	_	_	3	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Débora	Débora	PROPN	_	_	3	conj	_	_
+7	Bergamasco	Bergamasco	PROPN	_	_	6	flat:name	_	_
+8	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	IstoÉ	IstoÉ	PROPN	_	_	6	nmod	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	11	punct	_	_
+13	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	como	como	ADV	_	_	13	advmod	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	controle	controle	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+18	emocional	emocional	ADJ	_	Number=Sing	17	amod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	governANTA	governanta	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	país	país	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = Tripulantes e passageiros ficaram assustados com mais um surto de Dilma, em recente viagem a bordo Airbus 319 [avião presidencial] Após a aeronave passar por uma forte turbulência, a presidente invadiu a cabine do piloto e começou a berrar: Você está maluco?
+1	Tripulantes	tripulante	NOUN	_	Number=Plur	4	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
+4	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	assustados	assustado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	4	xcomp	_	_
+6	com	com	ADP	_	_	9	case	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	um	um	NUM	_	Gender=Masc|NumType=Card	9	nummod	_	_
+9	surto	surto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Dilma	Dilma	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	recente	recente	ADJ	_	Number=Sing	15	amod	_	_
+15	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	bordo	bordo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	Airbus	Airbus	PROPN	_	_	15	nmod	_	_
+19	319	319	NUM	_	NumType=Card	18	nmod	_	_
+20	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	avião	avião	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
+22	presidencial	presidencial	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	21	punct	_	_
+24	Após	após	ADP	_	_	27	mark	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+27	passar	passar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	42	advcl	_	_
+28	por	por	ADP	_	_	31	case	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	forte	forte	ADJ	_	Number=Sing	31	amod	_	_
+31	turbulência	turbulência	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	15	punct	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	presidente	presidente	NOUN	_	Number=Sing	35	nsubj	_	_
+35	invadiu	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	root	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	cabine	cabine	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+41	e	e	CCONJ	_	_	42	cc	_	_
+42	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	conj	_	_
+43	a	a	ADP	_	_	44	mark	_	_
+44	berrar	berrar	VERB	_	VerbForm=Inf	42	xcomp	_	SpaceAfter=No
+45	:	:	PUNCT	_	_	48	punct	_	_
+46	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	48	nsubj	_	_
+47	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+48	maluco	maluco	ADJ	_	Gender=Masc|Number=Sing	42	ccomp	_	SpaceAfter=No
+49	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Vai se f...!
+1	Vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	f.	f.	NOUN	_	_	0	root	_	SpaceAfter=No
+4	..	..	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = É a presidente que está aqui.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	0	root	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	aqui	aqui	ADV	_	_	3	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O que está acontecendo?, gritou.
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	acontecendo	acontecer	VERB	_	VerbForm=Ger	7	ccomp:speech	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	gritou	gritar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = No final de janeiro desse ano, o avião da presidente despencou 100 metros, enquanto passava por uma região entre a floresta Amazônica e o Acre.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	final	final	NOUN	_	Number=Sing	15	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	desse	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	ano	ano	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	avião	avião	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	presidente	presidente	NOUN	_	Number=Sing	11	nmod	_	_
+15	despencou	despencar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	100	100	NUM	_	NumType=Card	17	nummod	_	_
+17	metros	metro	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	enquanto	enquanto	SCONJ	_	_	20	mark	_	_
+20	passava	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	região	região	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+24	entre	entre	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	floresta	floresta	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	Amazônica	Amazônica	PROPN	_	_	26	amod	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Acre	Acre	PROPN	_	_	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0019
+# text = O avião se preparava para pousar em Quito, no Equador.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	avião	avião	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	preparava	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	pousar	pousar	VERB	_	VerbForm=Inf	4	advcl	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Quito	Quito	PROPN	_	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Equador	Equador	PROPN	_	_	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+

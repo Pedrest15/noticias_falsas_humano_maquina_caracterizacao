@@ -1,0 +1,427 @@
+# sent_id = S0001
+# text = Mãe perde bebê e loja devolve dinheiro dos móveis: Vendemos sonhos.
+1	Mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	perde	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	loja	loja	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	devolve	devolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	móveis	móvel	NOUN	_	Number=Plur	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	12	punct	_	_
+12	Vendemos	vender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	sonhos	sonho	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Nossos móveis não podem te dar tristeza.
+1	Nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	móveis	móvel	NOUN	_	Number=Plur	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	te	te	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
+6	dar	dar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	tristeza	tristeza	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A empresária Renata Senise perdeu sua filha (Bella) com apenas 10 dias de idade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	empresária	empresário	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Renata	Renata	PROPN	_	_	2	nmod	_	_
+4	Senise	Senise	PROPN	_	_	3	flat:name	_	_
+5	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	filha	filho	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Bella	Bella	PROPN	_	_	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	com	com	ADP	_	_	14	case	_	_
+12	apenas	apenas	ADV	_	_	13	advmod	_	_
+13	10	10	NUM	_	NumType=Card	14	nummod	_	_
+14	dias	dia	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	idade	idade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = O caso aconteceu no mês de maio deste ano (em SP capital) e a mãe foi surpreendida com a atitude comovente de um comerciante.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mês	mês	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	maio	maio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	deste	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	ano	ano	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	em	em	ADP	_	_	14	case	_	_
+14	SP	SP	PROPN	_	_	3	obl	_	_
+15	capital	capital	NOUN	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	14	punct	_	_
+17	e	e	CCONJ	_	_	21	cc	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	surpreendida	surpreender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25	comovente	comovente	ADJ	_	Number=Sing	24	amod	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	comerciante	comerciante	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Todo o quartinho foi montado com muito carinho para o nascimento da pequena Bella, que infelizmente partiu para o plano astral.
+1	Todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	quartinho	quartinho	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	montado	montar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	muito	muito	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	carinho	carinho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nascimento	nascimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	Bella	Bella	PROPN	_	_	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+18	infelizmente	infelizmente	ADV	_	_	19	advmod	_	_
+19	partiu	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+20	para	para	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	plano	plano	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	astral	astral	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Após alguns meses, a mãe resolveu se desfazer dos móveis da bebê [...] foi quando ela teve a surpresa.
+1	Após	após	ADP	_	_	3	case	_	_
+2	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	desfazer	desfazer	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	móveis	móvel	NOUN	_	Number=Plur	9	obl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	[	[	PUNCT	_	_	23	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	23	parataxis	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	discourse	_	_
+21	quando	quando	ADV	_	_	23	advmod	_	_
+22	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = No começo, eu não conseguia entrar no quarto [...] pensei deixar tudo montado, achei que iria engravidar de novo e ter outro filho [...] mas aí veio um vazio e resolvi desmontar e empacotar tudo.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	começo	começo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	conseguia	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	entrar	entrar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	quarto	quarto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	16	parataxis	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	pensei	pensar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+17	deixar	deixar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	tudo	tudo	PRON	_	PronType=Ind	17	obj	_	_
+19	montado	montado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	17	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	achei	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	conj	_	_
+22	que	que	SCONJ	_	_	24	mark	_	_
+23	iria	ir	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	24	aux	_	_
+24	engravidar	engravidar	VERB	_	VerbForm=Inf	21	ccomp	_	_
+25	de	de	ADP	_	ExtPos=ADV	24	advmod	_	_
+26	novo	novo	ADJ	_	Gender=Masc|Number=Sing	25	fixed	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	ter	ter	VERB	_	VerbForm=Inf	24	conj	_	_
+29	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
+30	filho	filho	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31	[	[	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	parataxis	_	SpaceAfter=No
+33	..	..	PUNCT	_	_	32	parataxis	_	SpaceAfter=No
+34	]	]	PUNCT	_	_	32	punct	_	_
+35	mas	mas	CCONJ	_	_	37	cc	_	_
+36	aí	aí	ADV	_	_	37	advmod	_	_
+37	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+38	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	vazio	vazio	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
+40	e	e	CCONJ	_	_	41	cc	_	_
+41	resolvi	resolver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	conj	_	_
+42	desmontar	desmontar	VERB	_	VerbForm=Inf	41	xcomp	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	empacotar	empacotar	VERB	_	VerbForm=Inf	42	conj	_	_
+45	tudo	tudo	PRON	_	PronType=Ind	42	obj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Uma amiga minha, que é arquiteta, decidiu me ajudar e ligou na loja (onde eu comprei os móveis) questionando se eles tinham algum funcionário para desmontar os móveis (que eram muito delicados).
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	amiga	amigo	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	arquiteta	arquiteto	NOUN	_	Gender=Fem|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	ajudar	ajudar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	ligou	ligar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	loja	loja	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	onde	onde	ADV	_	_	20	advmod	_	_
+19	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	comprei	comprar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	móveis	móvel	NOUN	_	Number=Plur	20	obj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	20	punct	_	_
+24	questionando	questionar	VERB	_	VerbForm=Ger	13	advcl	_	_
+25	se	se	SCONJ	_	_	27	mark	_	_
+26	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
+27	tinham	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	ccomp	_	_
+28	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
+29	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31	desmontar	desmontar	VERB	_	VerbForm=Inf	29	acl	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	móveis	móvel	NOUN	_	Number=Plur	31	obj	_	_
+34	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+35	que	que	PRON	_	PronType=Rel	38	nsubj	_	_
+36	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	38	cop	_	_
+37	muito	muito	ADV	_	_	38	advmod	_	_
+38	delicados	delicado	ADJ	_	Gender=Masc|Number=Plur	33	acl:relcl	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0017
+# text = A loja então surpreendeu e (sem custo algum) ofereceu desmontar tudo, levar os móveis de volta e devolver todo o dinheiro que eu havia investido.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	loja	loja	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	então	então	ADV	_	_	4	advmod	_	_
+4	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	_	_	11	cc	_	_
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	sem	sem	ADP	_	_	8	case	_	_
+8	custo	custo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+9	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	8	punct	_	_
+11	ofereceu	oferecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	desmontar	desmontar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	tudo	tudo	PRON	_	PronType=Ind	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	levar	levar	VERB	_	VerbForm=Inf	12	conj	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	móveis	móvel	NOUN	_	Number=Plur	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	volta	volta	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	devolver	devolver	VERB	_	VerbForm=Inf	12	conj	_	_
+22	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	24	det	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+25	que	que	PRON	_	PronType=Rel	28	obj	_	_
+26	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+27	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	investido	investir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Renata ainda contou que a atitude da loja comoveu diversos internautas, já que ela havia postado em sua rede social tudo que havia acontecido.
+1	Renata	Renata	PROPN	_	_	3	nsubj	_	_
+2	ainda	ainda	ADV	_	_	3	advmod	_	_
+3	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	loja	loja	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	comoveu	comover	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+11	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	internautas	internauta	NOUN	_	Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	já	já	ADV	_	ExtPos=SCONJ	18	mark	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_
+16	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	postado	postar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	advcl	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	rede	rede	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22	social	social	ADJ	_	Number=Sing	21	amod	_	_
+23	tudo	tudo	PRON	_	PronType=Ind	18	obj	_	_
+24	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+25	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	acontecido	acontecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Eles tornaram a vida da minha filha mais especial e me deram um sentimento de alívio por saber que ainda existe gente assim no mundo [...] quando veio essa atitude, esse carinho, foi incrível.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	tornaram	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vida	vida	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
+8	filha	filho	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+9	mais	mais	ADV	_	_	10	advmod	_	_
+10	especial	especial	ADJ	_	Number=Sing	2	xcomp	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	deram	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sentimento	sentimento	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	alívio	alívio	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	por	por	ADP	_	_	19	mark	_	_
+19	saber	saber	VERB	_	VerbForm=Inf	15	acl	_	_
+20	que	que	SCONJ	_	_	22	mark	_	_
+21	ainda	ainda	ADV	_	_	22	advmod	_	_
+22	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+23	gente	gente	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+24	assim	assim	ADV	_	_	23	advmod	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+28	[	[	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	41	parataxis	_	SpaceAfter=No
+30	..	..	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	]	]	PUNCT	_	_	29	punct	_	_
+32	quando	quando	SCONJ	_	_	33	mark	_	_
+33	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	_
+34	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
+35	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	38	det	_	_
+38	carinho	carinho	NOUN	_	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	33	punct	_	_
+40	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	cop	_	_
+41	incrível	incrível	ADJ	_	Number=Sing	2	root	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Foi a beleza no meio da dor, a beleza colateral, disse a mãe.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	beleza	beleza	NOUN	_	Gender=Fem|Number=Sing	15	ccomp:speech	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meio	meio	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	dor	dor	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	beleza	beleza	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+13	colateral	colateral	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	3	punct	_	_
+15	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0025
+# text = Nós vendemos mais que móveis, vendemos sonhos.
+1	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	vendemos	vender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mais	mais	ADV	_	_	2	advmod	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	móveis	móvel	NOUN	_	Number=Plur	2	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	vendemos	vender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	sonhos	sonho	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Se o seu não foi do jeito que queria, não faz sentido você ficar com esses móveis.
+1	Se	se	SCONJ	_	_	8	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	seu	seu	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nsubj	_	_
+4	não	não	ADV	_	_	8	advmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	jeito	jeito	NOUN	_	Gender=Masc|Number=Sing	13	advcl	_	_
+9	que	que	PRON	_	PronType=Rel	10	obj	_	_
+10	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
+16	ficar	ficar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	13	csubj	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	móveis	móvel	NOUN	_	Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0029
+# text = Nossos móveis não podem te dar tristeza disse o funcionário da loja para a mãe.
+1	Nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	móveis	móvel	NOUN	_	Number=Plur	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+5	te	te	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+6	dar	dar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	tristeza	tristeza	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	loja	loja	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+

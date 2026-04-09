@@ -1,0 +1,99 @@
+# sent_id = S0001
+# text = Senadores se unem contra Renan e não aprovam votação de emergência.
+1	Senadores	senador	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	unem	unir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	contra	contra	ADP	_	_	5	case	_	_
+5	Renan	Renan	PROPN	_	_	3	obl	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	aprovam	aprovar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	votação	votação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O senado não cedeu às ordens de Renan Calheiros.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senado	senado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	cedeu	ceder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	às	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ordens	ordem	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Renan	Renan	PROPN	_	_	7	nmod	_	_
+10	Calheiros	Calheiros	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = O requerimento de urgência para votação do projeto que salva os políticos criminosos foi rejeitado pelo plenário por 44 (contra Renan) a 14 votos (a favor) Renan Calheiros levou um cruzado de direita.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	requerimento	requerimento	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	urgência	urgência	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	para	para	ADP	_	_	6	case	_	_
+6	votação	votação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	salva	salvar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	políticos	político	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14	criminosos	criminoso	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	rejeitado	rejeitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	16	obl:agent	_	_
+20	por	por	ADP	_	_	21	case	_	_
+21	44	44	NUM	_	NumType=Card	16	obl	_	_
+22	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+23	contra	contra	ADP	_	_	24	case	_	_
+24	Renan	Renan	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	14	14	NUM	_	NumType=Card	28	nummod	_	_
+28	votos	voto	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+29	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+30	a	a	ADP	_	_	31	case	_	_
+31	favor	favor	NOUN	_	Gender=Masc|Number=Sing	28	parataxis	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	_
+33	Renan	Renan	PROPN	_	_	35	nsubj	_	_
+34	Calheiros	Calheiros	PROPN	_	_	33	flat:name	_	_
+35	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	parataxis	_	_
+36	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	cruzado	cruzado	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	direita	direita	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = O projeto segue agora para a (CCJ) Comissão de Constituição, Justiça e Cidadania da casa.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	agora	agora	ADV	_	_	3	advmod	_	_
+5	para	para	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	CCJ	CCJ	PROPN	_	_	3	obl	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	10	punct	_	_
+10	Comissão	Comissão	PROPN	_	_	8	appos	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Constituição	Constituição	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Justiça	Justiça	PROPN	_	_	10	flat:name	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	Cidadania	Cidadania	PROPN	_	_	10	flat:name	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	casa	casa	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+

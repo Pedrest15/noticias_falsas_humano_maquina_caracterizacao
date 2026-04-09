@@ -1,0 +1,205 @@
+# sent_id = S0001
+# text = Jornal americano faz guia de palavras para turistas da Rio 2016: "jeitinho", "socorro", "petralha", "fui roubado".
+1	Jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	americano	americano	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	guia	guia	NOUN	_	Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	turistas	turista	NOUN	_	Number=Plur	6	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Rio	Rio	PROPN	_	_	8	nmod	_	_
+12	2016	2016	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	15	punct	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	jeitinho	jeitinho	NOUN	_	Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	socorro	socorro	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	petralha	petralha	NOUN	_	Number=Sing	15	conj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	fui	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+28	roubado	roubar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O jornal The Washington Post publicou uma pequena lista com palavras essenciais para estrangeiros que visitarão o Brasil durante as olimpíadas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	The	The	PROPN	_	_	2	nmod	_	_
+4	Washington	Washington	PROPN	_	_	3	flat:name	_	_
+5	Post	Post	PROPN	_	_	3	flat:name	_	_
+6	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	lista	lista	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+12	essenciais	essencial	ADJ	_	Number=Plur	11	amod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	estrangeiros	estrangeiro	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	visitarão	visitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	acl:relcl	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Brasil	Brasil	PROPN	_	_	16	obj	_	_
+19	durante	durante	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	olimpíadas	olimpíada	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = O texto também ensina ainda como pronunciar cada uma.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	texto	texto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	ensina	ensinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ainda	ainda	ADV	_	_	4	advmod	_	_
+6	como	como	ADV	_	_	7	advmod	_	_
+7	pronunciar	pronunciar	VERB	_	VerbForm=Inf	4	ccomp	_	_
+8	cada	cada	DET	_	Number=Sing|PronType=Ind	9	det	_	_
+9	uma	um	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = A primeira das palavras dessa lista é "crise" e se refere à atual crise econômica que o país atravessa, explica o jornal.
+1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
+2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	1	amod	_	_
+3-4	das	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+6-7	dessa	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	lista	lista	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	crise	crise	NOUN	_	Gender=Fem|Number=Sing	26	ccomp:speech	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	19	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	atual	atual	ADJ	_	Number=Sing	19	amod	_	_
+19	crise	crise	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+20	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	que	que	PRON	_	PronType=Rel	24	obj	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	país	país	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+24	atravessa	atravessar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	11	punct	_	_
+26	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0009
+# text = "Petralha" e "coxinha" também foram incluídas e "traduzidas" para os estrangeiros.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Petralha	petralha	NOUN	_	_	10	nsubj:pass	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	coxinha	coxinha	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	também	também	ADV	_	_	10	advmod	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	incluídas	incluír	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	traduzidas	traduzir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	conj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	estrangeiros	estrangeiro	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = O guia ainda cita a palavra "jeitinho" como um tipo de malandragem para burlar dificuldades ou leis.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	guia	guia	NOUN	_	Number=Sing	4	nsubj	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	cita	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	palavra	palavra	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	jeitinho	jeitinho	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	como	como	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	malandragem	malandragem	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	burlar	burlar	VERB	_	VerbForm=Inf	14	acl	_	_
+17	dificuldades	dificuldade	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+18	ou	ou	CCONJ	_	_	19	cc	_	_
+19	leis	lei	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Para finalizar, o jornal orienta como pedir "socorro" quando o estrangeiro sofrer algum tipo de ação por parte de bandidos.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	finalizar	finalizar	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	orienta	orientar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	como	como	ADV	_	_	8	advmod	_	_
+8	pedir	pedir	VERB	_	VerbForm=Inf	6	ccomp	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	socorro	socorro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	quando	quando	SCONJ	_	_	15	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	estrangeiro	estrangeiro	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	sofrer	sofrer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	8	advcl	_	_
+16	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	ação	ação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	por	por	ADP	_	_	21	case	_	_
+21	parte	parte	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	bandidos	bandido	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = E a última palavra da lista (que na verdade são 2 palavras) é "fui roubado".
+1	E	e	CCONJ	_	_	20	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	palavra	palavra	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lista	lista	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+9	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	2	2	NUM	_	NumType=Card	15	nummod	_	_
+15	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	4	acl:relcl	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+18	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	fui	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	roubado	roubar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+

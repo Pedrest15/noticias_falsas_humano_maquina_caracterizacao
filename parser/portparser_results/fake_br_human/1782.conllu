@@ -1,0 +1,114 @@
+# sent_id = S0001
+# text = Em vídeo de fim de ano, Lula assume que Ele, Dilma e o PT quebraram o país inteiro.
+1	Em	em	ADP	_	_	2	case	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	fim	fim	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	ano	ano	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	Lula	Lula	PROPN	_	_	9	nsubj	_	_
+9	assume	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	17	mark	_	_
+11	Ele	Ele	PROPN	_	_	17	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Dilma	Dilma	PROPN	_	_	11	conj	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	PT	PT	PROPN	_	_	11	conj	_	_
+17	quebraram	quebrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	país	país	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	inteiro	inteiro	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = O Diário do Brasil vai evitar comentários pessoais nesta matéria.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Diário	Diário	PROPN	_	_	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	_	2	flat:name	_	_
+6	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	evitar	evitar	VERB	_	VerbForm=Inf	0	root	_	_
+8	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	pessoais	pessoal	ADJ	_	Number=Plur	8	amod	_	_
+10-11	nesta	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Ouça o discurso de final de ano que o ex-presidente fez entre seus amigos mais íntimos.
+1	Ouça	our	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	final	final	NOUN	_	Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	ano	ano	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	11	obj	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ex-presidente	ex-presidente	NOUN	_	Number=Sing	11	nsubj	_	_
+11	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+12	entre	entre	ADP	_	_	14	case	_	_
+13	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	íntimos	íntimo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = PS: Apesar de estar em um lugar fechado, parece que uma certa "ventania" incomodava Lula.
+1	PS	PS	PROPN	_	_	11	discourse	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Apesar	apesar	ADV	_	_	11	advmod	_	_
+4	de	de	ADP	_	_	8	mark	_	_
+5	estar	estar	AUX	_	VerbForm=Inf	8	cop	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	3	acl	_	_
+9	fechado	fechado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	18	mark	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	certa	certo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	ventania	ventania	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	incomodava	incomodar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+19	Lula	Lula	PROPN	_	_	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = O petista aparentava cambalear em certos momentos do vídeo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	petista	petista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	aparentava	aparentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	cambalear	cambalear	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	certos	certos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = (fonte: RedeBrasil.net) (fonte: RedeBrasil.net).
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	RedeBrasil.net	RedeBrasil.net	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	2	punct	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	9	punct	_	_
+9	RedeBrasil.net	RedeBrasil.net	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+

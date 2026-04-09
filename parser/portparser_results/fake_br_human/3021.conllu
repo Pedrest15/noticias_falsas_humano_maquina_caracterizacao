@@ -1,0 +1,117 @@
+# sent_id = S0001
+# text = Exclusivo: Cinegrafista flagra membros do MST atacando a Polícia Federal.
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Cinegrafista	cinegrafista	NOUN	_	Number=Sing	4	nsubj	_	_
+4	flagra	flagrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+5	membros	membro	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	MST	MST	PROPN	_	_	5	nmod	_	_
+9	atacando	atacar	VERB	_	VerbForm=Ger	4	xcomp	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Polícia	Polícia	PROPN	_	_	9	obj	_	_
+12	Federal	Federal	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Um bando de anarquistas [sustentados pelo governo federal] atacando a corporação da Polícia Federal.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bando	bando	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	anarquistas	anarquista	NOUN	_	Number=Plur	2	nmod	_	_
+5	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	sustentados	sustentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	federal	federal	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	6	punct	_	_
+12	atacando	atacar	VERB	_	VerbForm=Ger	2	acl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	corporação	corporação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Polícia	Polícia	PROPN	_	_	14	nmod	_	_
+18	Federal	Federal	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = As agressões aconteceram em Rondônia e foram flagradas por um cinegrafista amador.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	agressões	agressão	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	aconteceram	acontecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Rondônia	Rondônia	PROPN	_	_	3	obl	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	flagradas	flagrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cinegrafista	cinegrafista	NOUN	_	Number=Sing	8	obl:agent	_	_
+12	amador	amador	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A turma dos "vermelhinhos" invadiu um prédio da Receita Federal e se recusava a deixar o local.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	turma	turma	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	vermelhinhos	vermelhinho	ADJ	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	invadiu	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	prédio	prédio	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Receita	Receita	PROPN	_	_	10	nmod	_	_
+14	Federal	Federal	PROPN	_	_	13	flat:name	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl	_	_
+17	recusava	recusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+18	a	a	ADP	_	_	19	mark	_	_
+19	deixar	deixar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	local	local	NOUN	_	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Alguns obedeceram as ordens da polícia e evacuaram o local enquanto outros partiram pra cima da polícia com pedaços de pau e foices.
+1	Alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	obedeceram	obedecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	ordens	ordem	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	polícia	polícia	NOUN	_	Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	evacuaram	evacuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	local	local	NOUN	_	Number=Sing	9	obj	_	_
+12	enquanto	enquanto	SCONJ	_	_	14	mark	_	_
+13	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	14	nsubj	_	_
+14	partiram	partir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+15-16	pra	_	_	_	_	_	_	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cima	cima	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	polícia	polícia	NOUN	_	Number=Sing	17	nmod	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	pedaços	pedaço	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	pau	pau	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	foices	foice	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+

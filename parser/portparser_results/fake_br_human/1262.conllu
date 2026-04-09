@@ -1,0 +1,439 @@
+# sent_id = S0001
+# text = Papisa Joana: A mulher que governou a Igreja Católica e foi apedrejada até a morte.
+1	Papisa	Papisa	PROPN	_	_	0	root	_	_
+2	Joana	Joana	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	governou	governar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Igreja	Igreja	PROPN	_	_	7	obj	_	_
+10	Católica	Católica	PROPN	_	_	9	flat:name	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	apedrejada	apedrejar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	_
+14	até	até	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	morte	morte	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Durante séculos, a Igreja Católica Romana tentou esconder sua história.
+1	Durante	durante	ADP	_	_	2	case	_	_
+2	séculos	século	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Igreja	Igreja	PROPN	_	_	8	nsubj	_	_
+6	Católica	Católica	PROPN	_	_	5	flat:name	_	_
+7	Romana	Romana	PROPN	_	_	5	flat:name	_	_
+8	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	esconder	esconder	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	história	história	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = De todas as narrativas que foram suprimidas pelo Vaticano ao longo dos milhares de anos, uma delas em especial se recusa a desaparecer.
+1	De	de	ADP	_	_	4	case	_	_
+2	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	narrativas	narrativa	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj:pass	_	_
+6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	suprimidas	suprimir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Vaticano	Vaticano	PROPN	_	_	7	obl:agent	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	longo	longo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	milhares	milhar	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	4	punct	_	_
+20	uma	um	NUM	_	Gender=Fem|NumType=Card	26	nsubj	_	_
+21-22	delas	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nmod	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	especial	especial	NOUN	_	Number=Sing	20	nmod	_	_
+25	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	26	expl	_	_
+26	recusa	recusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	a	a	ADP	_	_	28	mark	_	_
+28	desaparecer	desaparecer	VERB	_	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0007
+# text = Para uma Igreja conservadora e que ainda trata as mulheres como subordinadas, é uma fonte de considerável de constrangimento assumir que uma mulher possa ter comandado a maior estrutura religiosa de todos os tempos.
+1	Para	para	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Igreja	Igreja	PROPN	_	_	16	nmod	_	_
+4	conservadora	conservador	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+7	ainda	ainda	ADV	_	_	8	advmod	_	_
+8	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	como	como	ADP	_	_	12	case	_	_
+12	subordinadas	subordinado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	considerável	considerável	ADJ	_	Number=Sing	16	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	constrangimento	constrangimento	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21	assumir	assumir	VERB	_	VerbForm=Inf	16	csubj	_	_
+22	que	que	SCONJ	_	_	25	mark	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+25	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+26	ter	ter	AUX	_	VerbForm=Inf	27	aux	_	_
+27	comandado	comandar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	xcomp	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	maior	maior	ADJ	_	Number=Sing	30	amod	_	_
+30	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+31	religiosa	religioso	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+32	de	de	ADP	_	_	35	case	_	_
+33	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	35	det	_	_
+34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0009
+# text = O Vaticano assegura que Joana era uma figura lendária e teria surgido através de boatos plantados pelos primeiros protestantes com o objetivo de embaraçar e desacreditar Roma.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vaticano	Vaticano	PROPN	_	_	3	nsubj	_	_
+3	assegura	assegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	Joana	Joana	PROPN	_	_	8	nsubj	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	figura	figura	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+9	lendária	lendário	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	12	aux	_	_
+12	surgido	surgir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	_	_
+13	através	através	ADV	_	_	12	advmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	boatos	boato	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16	plantados	plantar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+17-18	pelos	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	20	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	20	amod	_	_
+20	protestantes	protestante	NOUN	_	Number=Plur	16	obl:agent	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+24	de	de	ADP	_	_	25	mark	_	_
+25	embaraçar	embaraçar	VERB	_	VerbForm=Inf	23	acl	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	desacreditar	desacreditar	VERB	_	VerbForm=Inf	25	conj	_	_
+28	Roma	Roma	PROPN	_	_	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A história tem várias compreensões.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	história	história	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	compreensões	compreensão	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Alguns relatos sugerem que Joana foi uma jovem oriental nascida em Constantinopla que se passou por homem com o intuito de ampliar seus conhecimentos, já que na ápoca os estudos eram restritos aos homens.
+1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	Joana	Joana	PROPN	_	_	8	nsubj	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	jovem	jovem	NOUN	_	Number=Sing	3	ccomp	_	_
+9	oriental	oriental	ADJ	_	Number=Sing	8	amod	_	_
+10	nascida	nascer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Constantinopla	Constantinopla	PROPN	_	_	10	obl	_	_
+13	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+16	por	por	ADP	_	_	17	case	_	_
+17	homem	homem	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+21	de	de	ADP	_	_	22	mark	_	_
+22	ampliar	ampliar	VERB	_	VerbForm=Inf	20	acl	_	_
+23	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	conhecimentos	conhecimento	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	34	punct	_	_
+26	já	já	ADV	_	ExtPos=SCONJ	34	mark	_	_
+27	que	que	SCONJ	_	_	26	fixed	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	ápoca	ápoca	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	34	nsubj	_	_
+33	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	cop	_	_
+34	restritos	restrito	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	22	advcl	_	_
+35-36	aos	_	_	_	_	_	_	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	homens	homem	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Possuindo uma vasta sabedoria em filosofia e teologia, ela teria se apresentado como monge ao chegar em Roma.
+1	Possuindo	possuir	VERB	_	VerbForm=Ger	13	advcl	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vasta	vasto	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	sabedoria	sabedoria	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	filosofia	filosofia	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	teologia	teologia	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	aux	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+14	como	como	ADP	_	_	15	case	_	_
+15	monge	monge	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	ExtPos=SCONJ	18	mark	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
+18	chegar	chegar	VERB	_	VerbForm=Inf	13	advcl	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	Roma	Roma	PROPN	_	_	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0017
+# text = Doutores da Igreja se impressionaram com suas capacidades intelectuais.
+1	Doutores	doutor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Igreja	Igreja	PROPN	_	_	1	nmod	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	impressionaram	impressionar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	capacidades	capacidade	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+10	intelectuais	intelectual	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = O mesmo relato conta que, após a morte do papa Leão IV, Joana teria conquistado o papado e passou a ser tratada com o nome de João VII.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	relato	relato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	18	mark	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	após	após	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	morte	morte	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	papa	papa	NOUN	_	Number=Sing	9	nmod	_	_
+13	Leão	Leão	PROPN	_	_	12	nmod	_	_
+14	IV	iv	NUM	_	NumType=Card	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	9	punct	_	_
+16	Joana	Joana	PROPN	_	_	18	nsubj	_	_
+17	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
+18	conquistado	conquistar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	papado	papado	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+23	a	a	ADP	_	_	25	mark	_	_
+24	ser	ser	AUX	_	VerbForm=Inf	25	aux:pass	_	_
+25	tratada	tratar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	xcomp	_	_
+26	com	com	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	nome	nome	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	João	João	PROPN	_	_	28	nmod	_	_
+31	VII	VII	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Anos depois, Joana teria engravidado de um membro da Guarda Suíça, com quem mantinha relações secretas.
+1	Anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+2	depois	depois	ADV	_	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Joana	Joana	PROPN	_	_	6	nsubj	_	_
+5	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+6	engravidado	engravidar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	membro	membro	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Guarda	Guarda	PROPN	_	_	9	nmod	_	_
+13	Suíça	Suíça	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	quem	quem	PRON	_	PronType=Rel	17	obl	_	_
+17	mantinha	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+18	relações	relação	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	secretas	secreto	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0023
+# text = A gravidez foi acobertada por alguns meses devidos aos trajes papais, que eram largos e confortáveis.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gravidez	gravidez	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	acobertada	acobertar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+8	devidos	dever	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	_
+9-10	aos	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	trajes	traje	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+12	papais	papai	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+15	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	largos	largo	ADJ	_	Gender=Masc|Number=Plur	11	acl:relcl	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	confortáveis	confortável	ADJ	_	Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0025
+# text = Em meio a uma procissão, conta a versão, a Papisa foi atacada pelas fortes dores do parto e acabou por dar à luz em uma rua estreita, tendo uma multidão como testemunha.
+1	Em	em	ADP	_	ExtPos=ADP	5	case	_	_
+2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+3	a	a	ADP	_	_	1	fixed	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	procissão	procissão	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	versão	versão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Papisa	Papisa	PROPN	_	_	14	nsubj:pass	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	atacada	atacar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+15-16	pelas	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	18	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	fortes	forte	ADJ	_	Number=Plur	18	amod	_	_
+18	dores	dor	NOUN	_	Gender=Masc|Number=Plur	14	obl:agent	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	parto	parto	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+24	por	por	ADP	_	_	25	mark	_	_
+25	dar	dar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+26-27	à	_	_	_	_	_	_	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	luz	luz	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	rua	rua	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+32	estreita	estreito	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	tendo	ter	VERB	_	VerbForm=Ger	14	advcl	_	_
+35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	multidão	multidão	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+37	como	como	ADP	_	_	38	case	_	_
+38	testemunha	testemunha	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0027
+# text = Revoltadas, as pessoas que teriam testemunhado o fato reagiram e declararam que o trono de São Pedro tinha sido profanado.
+1	Revoltadas	revoltado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	10	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	7	aux	_	_
+7	testemunhado	testemunhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl:relcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fato	fato	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	reagiram	reagir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	declararam	declarar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+13	que	que	SCONJ	_	_	21	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	trono	trono	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	São	São	PROPN	_	_	15	nmod	_	_
+18	Pedro	Pedro	PROPN	_	_	17	flat:name	_	_
+19	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	21	aux:pass	_	_
+21	profanado	profanar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0029
+# text = Joana foi condenada à morte e apedrejada até seu último suspiro.
+1	Joana	Joana	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	condenada	condenar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	morte	morte	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	apedrejada	apedrejar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	até	até	ADP	_	_	12	case	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+11	último	último	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	suspiro	suspiro	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0031
+# text = No mesmo trajeto em que ela deu à luz, foi erguida uma estátua com a figura de uma mulher carregando uma criança em seus braços.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	trajeto	trajeto	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	que	que	PRON	_	PronType=Rel	8	obl	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+9-10	à	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	luz	luz	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	erguida	erguer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	estátua	estátua	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	figura	figura	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	carregando	carregar	VERB	_	VerbForm=Ger	22	acl	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	criança	criança	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	braços	braço	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	14	punct	_	_
+

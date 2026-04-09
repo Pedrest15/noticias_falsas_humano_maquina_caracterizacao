@@ -1,0 +1,386 @@
+# sent_id = S0001
+# text = Em MG, funcionário ateia fogo em creche [...] 4 crianças morreram e 40 pessoas estão feridas.
+1	Em	em	ADP	_	_	2	case	_	_
+2	MG	MG	PROPN	_	_	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ateia	atear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	creche	creche	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	15	parataxis	_	SpaceAfter=No
+11	..	..	PUNCT	_	_	10	parataxis	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	10	punct	_	_
+13	4	4	NUM	_	NumType=Card	14	nummod	_	_
+14	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	morreram	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	ccomp:speech	_	_
+16	e	e	CCONJ	_	_	20	cc	_	_
+17	40	40	NUM	_	NumType=Card	18	nummod	_	_
+18	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+19	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	feridas	ferido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O segurança de uma creche na cidade de Janaúba, MG, ateou fogo em cerca de 40 pessoas (incluindo crianças).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segurança	segurança	NOUN	_	Number=Sing	14	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	creche	creche	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Janaúba	Janaúba	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	MG	MG	PROPN	_	_	10	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ateou	atear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16	em	em	ADP	_	_	20	case	_	_
+17	cerca	cerca	ADV	_	ExtPos=ADV	19	advmod	_	_
+18	de	de	ADP	_	_	17	fixed	_	_
+19	40	40	NUM	_	NumType=Card	20	nummod	_	_
+20	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	incluindo	incluir	VERB	_	VerbForm=Ger	20	acl	_	_
+23	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0005
+# text = Após o ato criminoso, o homem colocou fogo em seu próprio corpo.
+1	Após	após	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ato	ato	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	criminoso	criminoso	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	homem	homem	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	em	em	ADP	_	_	13	case	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = O G1 informou que pelo menos 4 crianças e 1 professora faleceram em decorrência das queimaduras.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	G1	G1	PROPN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	ExtPos=ADV	8	advmod	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
+7	menos	menos	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	_
+8	4	4	NUM	_	NumType=Card	9	nummod	_	_
+9	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	1	1	NUM	_	NumType=Card	12	nummod	_	_
+12	professora	professor	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+13	faleceram	falecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	decorrência	decorrência	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	queimaduras	queimadura	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = A PM, o Corpo de Bombeiros da cidade e algumas unidades do Samu estão no local neste momento.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	20	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Corpo	Corpo	PROPN	_	_	2	conj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Bombeiros	Bombeiros	PROPN	_	_	5	flat:name	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Samu	Samu	PROPN	_	_	13	nmod	_	_
+17	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	local	local	NOUN	_	Number=Sing	0	root	_	_
+21-22	neste	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	momento	momento	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0011
+# text = O Centro Municipal de Educação Infantil Gente Inocente fica localizado no Bairro Rio Novo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Centro	Centro	PROPN	_	_	9	nsubj	_	_
+3	Municipal	Municipal	PROPN	_	_	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Educação	Educação	PROPN	_	_	2	flat:name	_	_
+6	Infantil	Infantil	PROPN	_	_	2	flat:name	_	_
+7	Gente	Gente	PROPN	_	_	2	flat:name	_	_
+8	Inocente	Inocente	PROPN	_	_	2	flat:name	_	_
+9	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	localizado	localizado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	xcomp	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Bairro	Bairro	PROPN	_	_	10	obl	_	_
+14	Rio	Rio	PROPN	_	_	13	flat:name	_	_
+15	Novo	Novo	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Segundo o Hospital Regional de Janaúba, aproximadamente 40 pessoas (crianças e adultos) estão na unidade de Saúde [...] alguns estão em situação muito grave [...] o suspeito também foi atendido no hospital e seu estado de saúde é gravíssimo.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hospital	Hospital	PROPN	_	_	19	nmod	_	_
+4	Regional	Regional	PROPN	_	_	3	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Janaúba	Janaúba	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	aproximadamente	aproximadamente	ADV	_	_	9	advmod	_	_
+9	40	40	NUM	_	NumType=Card	10	nummod	_	_
+10	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	10	appos	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	adultos	adulto	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	12	punct	_	_
+16	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Saúde	Saúde	PROPN	_	_	19	nmod	_	_
+22	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	29	parataxis	_	SpaceAfter=No
+24	..	..	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	23	punct	_	_
+26	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	29	nsubj	_	_
+27	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	situação	situação	NOUN	_	Gender=Fem|Number=Sing	19	parataxis	_	_
+30	muito	muito	ADV	_	_	31	advmod	_	_
+31	grave	grave	ADJ	_	Number=Sing	29	amod	_	_
+32	[	[	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	40	parataxis	_	SpaceAfter=No
+34	..	..	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	]	]	PUNCT	_	_	33	punct	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	suspeito	suspeito	NOUN	_	Gender=Masc|Number=Sing	40	nsubj:pass	_	_
+38	também	também	ADV	_	_	40	advmod	_	_
+39	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	aux:pass	_	_
+40	atendido	atender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	parataxis	_	_
+41-42	no	_	_	_	_	_	_	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
+44	e	e	CCONJ	_	_	50	cc	_	_
+45	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	det	_	_
+46	estado	estado	NOUN	_	Gender=Masc|Number=Sing	50	nsubj	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+49	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
+50	gravíssimo	gravíssimo	ADJ	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0015
+# text = Um vídeo postado no youtube mostra o desespero dos moradores.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	postado	postar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	youtube	youtube	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	3	obl	_	_
+7	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	desespero	desespero	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	moradores	morador	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0016
+# text = atualização 11:40 h O governo do Estado de MG deslocou uma aeronave para Janaúba com o intuito de encaminhar os feridos para o hospital João XXIII, na capital, referência em tratamento de queimados.
+1	atualização	atualização	NOUN	_	Gender=Fem|Number=Sing	11	parataxis	_	_
+2	11:40	11:40	NUM	_	NumType=Card	3	nummod	_	_
+3	h	h	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Estado	Estado	PROPN	_	_	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	MG	MG	PROPN	_	_	8	flat:name	_	_
+11	deslocou	deslocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	Janaúba	Janaúba	PROPN	_	_	11	obl	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	encaminhar	encaminhar	VERB	_	VerbForm=Inf	18	acl	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	feridos	ferido	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+23	para	para	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+26	João	João	PROPN	_	_	25	nmod	_	_
+27	XXIII	XXIII	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29-30	na	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	capital	capital	NOUN	_	Number=Sing	25	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	referência	referência	NOUN	_	Gender=Fem|Number=Sing	25	appos	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	queimados	queimado	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0018
+# text = Uma auxiliar administrativa que trabalha em um comércio próximo à creche informou que o vigia tinha sido demitido e estava revoltado [...] ele ateou nos professores, nas crianças e em si próprio.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	auxiliar	auxiliar	NOUN	_	Number=Sing	13	nsubj	_	_
+3	administrativa	administrativo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	trabalha	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	comércio	comércio	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	creche	creche	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	19	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	vigia	vigia	NOUN	_	Number=Sing	19	nsubj:pass	_	_
+17	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+18	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	19	aux:pass	_	_
+19	demitido	demitir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+22	revoltado	revoltado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	conj	_	_
+23	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
+25	..	..	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	]	]	PUNCT	_	_	24	punct	_	_
+27	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	ateou	atear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp:speech	_	_
+29-30	nos	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	professores	professor	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	35	punct	_	_
+33-34	nas	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	31	conj	_	_
+36	e	e	CCONJ	_	_	38	cc	_	_
+37	em	em	ADP	_	_	38	case	_	_
+38	si	si	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	31	conj	_	_
+39	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	38	det	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = atualização 15:22 h No momento da tragédia, quatro crianças morreram.
+1	atualização	atualização	NOUN	_	Gender=Fem|Number=Sing	13	root	_	_
+2	15:22	15:22	NUM	_	NumType=Card	3	nummod	_	_
+3	h	h	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	No	_	_	_	_	_	_	_	_
+4	Em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tragédia	tragédia	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	quatro	quatro	NUM	_	NumType=Card	12	nummod	_	_
+12	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	morreram	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0021
+# text = São elas: Luiz David Ferreira, de 4 anos, Ana Clara Ferreira, de 4, Ruan Miguel Santos Silva, de 4, Juan Pablo Cruz dos Santos, de 4.
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	Luiz	Luiz	PROPN	_	_	2	root	_	_
+5	David	David	PROPN	_	_	4	flat:name	_	_
+6	Ferreira	Ferreira	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	4	4	NUM	_	NumType=Card	10	nummod	_	_
+10	anos	ano	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	Ana	Ana	PROPN	_	_	4	conj	_	_
+13	Clara	Clara	PROPN	_	_	12	flat:name	_	_
+14	Ferreira	Ferreira	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	4	4	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	Ruan	Ruan	PROPN	_	_	4	conj	_	_
+20	Miguel	Miguel	PROPN	_	_	19	flat:name	_	_
+21	Santos	Santos	PROPN	_	_	19	flat:name	_	_
+22	Silva	Silva	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	4	4	NUM	_	NumType=Card	19	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	Juan	Juan	PROPN	_	_	4	conj	_	_
+28	Pablo	Pablo	PROPN	_	_	27	flat:name	_	_
+29	Cruz	Cruz	PROPN	_	_	27	flat:name	_	_
+30-31	dos	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	Santos	Santos	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	4	4	NUM	_	NumType=Card	27	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = No início da tarde, morreu a professora Helley Abreu Batista.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	professora	professor	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+11	Helley	Helley	PROPN	_	_	10	nmod	_	_
+12	Abreu	Abreu	PROPN	_	_	11	flat:name	_	_
+13	Batista	Batista	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+

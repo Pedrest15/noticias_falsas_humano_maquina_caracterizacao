@@ -1,0 +1,192 @@
+# sent_id = S0001
+# text = Agora vai?
+1	Agora	agora	ADV	_	_	2	advmod	_	_
+2	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Organização cadastra pessoas e promete invadir Brasília com 500 mil pessoas.
+1	Organização	organização	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	cadastra	cadastrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	invadir	invadir	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	Brasília	Brasília	PROPN	_	_	6	obj	_	_
+8	com	com	ADP	_	_	11	case	_	_
+9	500	500	NUM	_	NumType=Card	11	nummod	_	_
+10	mil	mil	NUM	_	NumType=Card	9	flat	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Uma página no Facebook chamada UCOP Brasil está cadastrando internautas com o "suposto" objetivo de ocupar Brasília.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	página	página	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Facebook	Facebook	PROPN	_	_	2	nmod	_	_
+6	chamada	chamar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
+7	UCOP	UCOP	PROPN	_	_	6	xcomp	_	_
+8	Brasil	Brasil	PROPN	_	_	7	flat:name	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cadastrando	cadastrar	VERB	_	VerbForm=Ger	0	root	_	_
+11	internautas	internauta	NOUN	_	Number=Plur	10	obj	_	_
+12	com	com	ADP	_	_	17	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+14	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+15	suposto	suposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	17	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	17	punct	_	_
+17	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	ocupar	ocupar	VERB	_	VerbForm=Inf	17	acl	_	_
+20	Brasília	Brasília	PROPN	_	_	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Mesmo com poucos seguidores (cerca de 19 mil), o engajamento da página na rede social avança a passos largos.
+1	Mesmo	mesmo	ADV	_	_	4	advmod	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	poucos	pouco	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+4	seguidores	seguidor	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+5	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	cerca	cerca	ADV	_	ExtPos=ADV	8	advmod	_	_
+7	de	de	ADP	_	_	6	fixed	_	_
+8	19	19	NUM	_	NumType=Card	4	appos	_	_
+9	mil	mil	NUM	_	NumType=Card	8	flat	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	engajamento	engajamento	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	página	página	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	rede	rede	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	social	social	ADJ	_	Number=Sing	19	amod	_	_
+21	avança	avançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	passos	passo	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+24	largos	largo	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0009
+# text = Cada vez mais a organização é mencionada em grandes portais de notícias.
+1	Cada	cada	DET	_	ExtPos=ADV|Number=Sing|PronType=Ind	7	advmod	_	_
+2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
+3	mais	mais	ADV	_	_	1	fixed	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	organização	organização	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	mencionada	mencionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	grandes	grande	ADJ	_	Number=Plur	10	amod	_	_
+10	portais	portal	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Através de um formulário (cadastrado no google docs), a página convida os brasileiros a ocuparem Brasília (se necessário) e enfrentar os órgãos de segurança pública.
+1	Através	através	ADV	_	_	15	advmod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	formulário	formulário	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	cadastrado	cadastrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	google	google	X	_	Foreign=Yes	6	obl	_	_
+10	docs	docs	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	página	página	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	convida	convidar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+18	a	a	ADP	_	_	19	mark	_	_
+19	ocuparem	ocupar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	15	xcomp	_	_
+20	Brasília	Brasília	PROPN	_	_	19	obj	_	_
+21	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+22	se	se	SCONJ	_	_	23	mark	_	_
+23	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	19	advcl	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	enfrentar	enfrentar	VERB	_	VerbForm=Inf	19	conj	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	órgãos	órgão	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	segurança	segurança	NOUN	_	Number=Sing	28	nmod	_	_
+31	pública	público	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0013
+# text = O Brasil passa por um momento sério em que o limite entre a civilidade e a selvageria pode se romper a qualquer momento.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	_	3	nsubj	_	_
+3	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	sério	sério	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	que	que	PRON	_	PronType=Rel	18	obl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	limite	limite	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+12	entre	entre	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	civilidade	civilidade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	selvageria	selvageria	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+18	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+20	romper	romper	VERB	_	VerbForm=Inf	18	xcomp	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	23	det	_	_
+23	momento	momento	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = A sociedade deve ter um papel fundamental nas mudanças a serem feitas, mas é preciso muito cuidado... Segue abaixo parte do texto criado pela organização:
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ter	ter	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	papel	papel	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	fundamental	fundamental	ADJ	_	Number=Sing	6	amod	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	mudanças	mudança	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+11	a	a	ADP	_	_	13	mark	_	_
+12	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	13	aux:pass	_	_
+13	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	mas	mas	CCONJ	_	_	17	cc	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
+18	muito	muito	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+19	cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+20	...	...	PUNCT	_	_	3	punct	_	_
+21	Segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	root	_	_
+22	abaixo	abaixo	ADV	_	_	21	advmod	_	_
+23	parte	parte	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	texto	texto	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	acl	_	_
+28-29	pela	_	_	_	_	_	_	_	_
+28	por	por	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	organização	organização	NOUN	_	Gender=Fem|Number=Sing	27	obl:agent	_	SpaceAfter=No
+31	:	:	PUNCT	_	_	3	punct	_	_
+

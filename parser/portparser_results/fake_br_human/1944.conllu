@@ -1,0 +1,177 @@
+# sent_id = S0001
+# text = Ministra do TSE (ex-advogada de Dilma) libera Anthony Garotinho da prisão.
+1	Ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	TSE	TSE	PROPN	_	_	1	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	ex-advogada	ex-advogada	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Dilma	Dilma	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	6	punct	_	_
+10	libera	liberar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	Anthony	Anthony	PROPN	_	_	10	obj	_	_
+12	Garotinho	Garotinho	PROPN	_	_	11	flat:name	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = Ele vai pra casa!.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	pra	_	_	_	_	_	_	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	casa	casa	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O ex-governador do RJ, Anthony Garotinho, será transferido para um hospital particular.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-governador	ex-governador	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	RJ	RJ	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Anthony	Anthony	PROPN	_	_	2	appos	_	_
+8	Garotinho	Garotinho	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux:pass	_	_
+11	transferido	transferir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	particular	particular	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = A decisão foi tomada pela ministra do TSE Luciana Lóssio.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	TSE	TSE	PROPN	_	_	7	nmod	_	_
+11	Luciana	Luciana	PROPN	_	_	7	nmod	_	_
+12	Lóssio	Lóssio	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Após a transferência, o ex-governador vai para a prisão domiciliar.
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	transferência	transferência	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ex-governador	ex-governador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	domiciliar	domiciliar	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Luciana Lóssio é ex-advogada de Dilma.
+1	Luciana	Luciana	PROPN	_	_	4	nsubj	_	_
+2	Lóssio	Lóssio	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ex-advogada	ex-advogado	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Dilma	Dilma	PROPN	_	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = De acordo com uma matéria publicada no Antagonista em Outubro deste ano, a juíza comprou um apartamento de 7 milhões de reais, porém só declarou a metade do valor.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Antagonista	Antagonista	PROPN	_	_	6	obl	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Outubro	Outubro	PROPN	_	_	6	obl	_	_
+12-13	deste	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	ano	ano	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	2	punct	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	juíza	juíz	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+18	comprou	comprar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	7	7	NUM	_	NumType=Card	23	nummod	_	_
+23	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	reais	real	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	porém	porém	CCONJ	_	_	29	cc	_	_
+28	só	só	ADV	_	_	29	advmod	_	_
+29	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	metade	metade	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	valor	valor	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0015
+# text = O site ainda informou que ela é uma "fiel servidora do PT".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	site	site	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	11	mark	_	_
+6	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	fiel	fiel	ADJ	_	Number=Sing	11	amod	_	_
+11	servidora	servidor	NOUN	_	Gender=Fem|Number=Sing	4	ccomp	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	PT	PT	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = No Brasil, o crime eleitoral compensa!
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Brasil	Brasil	PROPN	_	_	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	crime	crime	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	eleitoral	eleitoral	ADJ	_	Number=Sing	6	amod	_	_
+8	compensa	compensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0018
+# text = leia também: URGENTE!
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	URGENTE	urgente	ADJ	_	Number=Sing	1	ccomp:speech	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,112 @@
+# sent_id = S0001
+# text = Foragido que está na Espanha é ex-consultor de José Dirceu.
+1	Foragido	foragido	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Espanha	Espanha	PROPN	_	_	1	acl:relcl	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	ex-consultor	ex-consultor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	José	José	PROPN	_	_	8	nmod	_	_
+11	Dirceu	Dirceu	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Ele vai passear no jatinho da PF!.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	passear	passear	VERB	_	VerbForm=Inf	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jatinho	jatinho	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	PF	PF	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Na Operação Lava Jato batizada de Arquivo X sete pessoas foram presas temporariamente.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Operação	Operação	PROPN	_	_	13	obl	_	_
+4	Lava	Lava	PROPN	_	_	3	flat:name	_	_
+5	Jato	Jato	PROPN	_	_	3	flat:name	_	_
+6	batizada	batizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Arquivo	Arquivo	PROPN	_	_	6	obl	_	_
+9	X	X	PROPN	_	_	8	flat:name	_	_
+10	sete	sete	NUM	_	NumType=Card	11	nummod	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	presas	prender	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+14	temporariamente	temporariamente	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = O juiz Sérgio Moro autorizou oito mandados de prisão e apenas um não foi cumprido.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Sérgio	Sérgio	PROPN	_	_	2	nmod	_	_
+4	Moro	Moro	PROPN	_	_	3	flat:name	_	_
+5	autorizou	autorizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	oito	oito	NUM	_	NumType=Card	7	nummod	_	_
+7	mandados	mandado	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	_	_	15	cc	_	_
+11	apenas	apenas	ADV	_	_	12	advmod	_	_
+12	um	um	NUM	_	Gender=Masc|NumType=Card	15	nsubj:pass	_	_
+13	não	não	ADV	_	_	15	advmod	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	cumprido	cumprir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Trata-se de Júlio César Oliveira Silva, ex-consultor de José Dirceu e ex-servidor do Serpro.
+1-2	Trata-se	_	_	_	_	_	_	_	_
+1	Trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl:impers	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Júlio	Júlio	PROPN	_	_	1	obl	_	_
+5	César	César	PROPN	_	_	4	flat:name	_	_
+6	Oliveira	Oliveira	PROPN	_	_	4	flat:name	_	_
+7	Silva	Silva	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	ex-consultor	ex-consultor	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	José	José	PROPN	_	_	9	nmod	_	_
+12	Dirceu	Dirceu	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	ex-servidor	ex-servidor	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Serpro	Serpro	PROPN	_	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = O delegado Igor Romário de Paula informou que o suspeito está na Espanha.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Igor	Igor	PROPN	_	_	2	nmod	_	_
+4	Romário	Romário	PROPN	_	_	3	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Paula	Paula	PROPN	_	_	3	flat:name	_	_
+7	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	14	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	suspeito	suspeito	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Espanha	Espanha	PROPN	_	_	7	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+

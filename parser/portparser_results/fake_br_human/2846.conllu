@@ -1,0 +1,145 @@
+# sent_id = S0001
+# text = Senadora Ana Amélia: "Ele é do meu partido, mas não iremos tolerar a desordem no país".
+1	Senadora	senador	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+2	Ana	Ana	PROPN	_	_	1	nmod	_	_
+3	Amélia	Amélia	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+6	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	partido	partido	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	mas	mas	CCONJ	_	_	16	cc	_	_
+14	não	não	ADV	_	_	16	advmod	_	_
+15	iremos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	16	aux	_	_
+16	tolerar	tolerar	VERB	_	VerbForm=Inf	11	conj	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	desordem	desordem	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	país	país	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = O que ele fez foi tumultuar inclusive a economia, em um período em que temos mais de 11 milhões de desempregados.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	obj	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	tumultuar	tumultuar	VERB	_	VerbForm=Inf	0	root	_	_
+7	inclusive	inclusive	ADV	_	_	6	advmod	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	economia	economia	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	período	período	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	que	que	PRON	_	PronType=Rel	16	obl	_	_
+16	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	mais	mais	ADV	_	ExtPos=ADV	19	advmod	_	_
+18	de	de	ADP	_	_	17	fixed	_	_
+19	11	11	NUM	_	NumType=Card	20	nummod	_	_
+20	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	desempregados	desempregado	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = A senadora do PP/RS Ana Amélia se mostrou indignada com a tentativa de anulação do impeachment feita pelo presidente em exercício da Câmara, deputado Waldir Maranhão.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PP/RS	PP/RS	PROPN	_	_	2	nmod	_	_
+6	Ana	Ana	PROPN	_	_	2	nmod	_	_
+7	Amélia	Amélia	PROPN	_	_	6	flat:name	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	indignada	indignado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	xcomp	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	anulação	anulação	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	presidente	presidente	NOUN	_	Number=Sing	19	obl:agent	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	exercício	exercício	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Câmara	Câmara	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	22	appos	_	_
+30	Waldir	Waldir	PROPN	_	_	29	nmod	_	_
+31	Maranhão	Maranhão	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Ana Amélia disse que não se pode tolerar que um deputado sozinho anule uma decisão tomada por 367 deputados. .
+1	Ana	Ana	PROPN	_	_	3	nsubj	_	_
+2	Amélia	Amélia	PROPN	_	_	1	flat:name	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	não	não	ADV	_	_	7	advmod	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl:impers	_	_
+7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	tolerar	tolerar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	sozinho	sozinho	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	anule	anular	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	367	367	NUM	_	NumType=Card	19	nummod	_	_
+19	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	16	obl:agent	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Tenho certeza que o presidente do senado Renan Calheiros chegará aqui e dará andamento ao processo de impeachment normalmente disse.
+1	Tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	ccomp:speech	_	_
+2	certeza	certeza	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	que	que	SCONJ	_	_	11	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	_	Number=Sing	11	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	senado	senado	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	Renan	Renan	PROPN	_	_	5	nmod	_	_
+10	Calheiros	Calheiros	PROPN	_	_	9	flat:name	_	_
+11	chegará	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl	_	_
+12	aqui	aqui	ADV	_	_	11	advmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	dará	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	conj	_	_
+15	andamento	andamento	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	processo	processo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	normalmente	normalmente	ADV	_	_	1	punct	_	_
+22	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+

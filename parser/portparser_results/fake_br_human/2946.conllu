@@ -1,0 +1,175 @@
+# sent_id = S0001
+# text = Bolívia e Venezuela estão enviando frotas de ônibus cheios de comunistas para Brasília.
+1	Bolívia	Bolívia	PROPN	_	_	5	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	Venezuela	Venezuela	PROPN	_	_	1	conj	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	enviando	enviar	VERB	_	VerbForm=Ger	0	root	_	_
+6	frotas	frota	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	ônibus	ônibus	NOUN	_	Gender=Masc	6	nmod	_	_
+9	cheios	cheio	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	comunistas	comunista	NOUN	_	Number=Plur	9	obl	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	Brasília	Brasília	PROPN	_	_	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O serviço de inteligência da PM de Goías acredita que os ônibus estariam transportando manifestantes comunistas para Brasília.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	inteligência	inteligência	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	PM	PM	PROPN	_	_	2	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Goías	Goías	PROPN	_	_	7	nmod	_	_
+10	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	ônibus	ônibus	NOUN	_	Gender=Masc	15	nsubj	_	_
+14	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	15	aux	_	_
+15	transportando	transportar	VERB	_	VerbForm=Ger	10	ccomp	_	_
+16	manifestantes	manifestante	NOUN	_	Number=Plur	15	obj	_	_
+17	comunistas	comunista	ADJ	_	Number=Plur	16	amod	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	Brasília	Brasília	PROPN	_	_	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Três ônibus vindos da Bolívia foram interceptados pela Polícia de Goiânia.
+1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
+2	ônibus	ônibus	NOUN	_	Gender=Masc	8	nsubj:pass	_	_
+3	vindos	vir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Bolívia	Bolívia	PROPN	_	_	3	obl	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	interceptados	interceptar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Polícia	Polícia	PROPN	_	_	8	obl:agent	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Goiânia	Goiânia	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Há a possibilidade de que os bolivarianos tenham sido enviados pelo Presidente Evo Morales para prestar apoio à presidente Dilma Rousseff no domingo.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ExtPos=SCONJ	10	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	bolivarianos	bolivariano	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+8	tenham	ter	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	10	aux:pass	_	_
+10	enviados	enviar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Presidente	Presidente	PROPN	_	_	10	obl:agent	_	_
+14	Evo	Evo	PROPN	_	_	13	flat:name	_	_
+15	Morales	Morales	PROPN	_	_	13	flat:name	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	prestar	prestar	VERB	_	VerbForm=Inf	10	advcl	_	_
+18	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+19-20	à	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	presidente	presidente	NOUN	_	Number=Sing	18	nmod	_	_
+22	Dilma	Dilma	PROPN	_	_	21	nmod	_	_
+23	Rousseff	Rousseff	PROPN	_	_	22	flat:name	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = A caravana bolivariana se perdeu na cidade, o que acabou chamando a atenção da PM.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	caravana	caravana	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	bolivariana	bolivariano	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
+11	que	que	PRON	_	PronType=Rel	10	fixed	_	_
+12	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+13	chamando	chamar	VERB	_	VerbForm=Ger	12	xcomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	PM	PM	PROPN	_	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Os motoristas disseram que levariam os participantes para um congresso imobiliário.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	motoristas	motorista	NOUN	_	Number=Plur	3	nsubj	_	_
+3	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	levariam	levar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	3	ccomp	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	participantes	participante	NOUN	_	Number=Plur	5	obj	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	congresso	congresso	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+11	imobiliário	imobiliário	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O policial que abordou a caravana informou o comando da PM que passageiros informaram que outros ônibus estariam indo para a capital federal vindos de países como Venezuela e Paraguai para participar dos atos pró-Dilma.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	policial	policial	NOUN	_	Number=Sing	7	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	abordou	abordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	caravana	caravana	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	comando	comando	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	PM	PM	PROPN	_	_	9	nmod	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	informaram	informar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+16	que	que	SCONJ	_	_	20	mark	_	_
+17	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	ônibus	ônibus	NOUN	_	Gender=Masc	20	nsubj	_	_
+19	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	20	aux	_	_
+20	indo	ir	VERB	_	VerbForm=Ger	15	ccomp	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	capital	capital	NOUN	_	Number=Sing	20	obl	_	_
+24	federal	federal	ADJ	_	Number=Sing	23	amod	_	_
+25	vindos	vir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	23	acl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	países	país	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
+28	como	como	ADP	_	_	29	case	_	_
+29	Venezuela	Venezuela	PROPN	_	_	27	nmod	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	Paraguai	Paraguai	PROPN	_	_	29	conj	_	_
+32	para	para	ADP	_	_	33	mark	_	_
+33	participar	participar	VERB	_	VerbForm=Inf	25	advcl	_	_
+34-35	dos	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	atos	ato	NOUN	_	Gender=Masc|Number=Plur	33	obl	_	_
+37	pró-Dilma	pró-Dilma	PROPN	_	_	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	7	punct	_	_
+

@@ -1,0 +1,282 @@
+# sent_id = S0001
+# text = Depois da condenação do ex-senador Gim Argello, já dá pra imaginar o que irá acontecer com Lula.
+1	Depois	depois	ADV	_	_	12	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ex-senador	ex-senador	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Gim	Gim	PROPN	_	_	7	nmod	_	_
+9	Argello	Argello	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	1	punct	_	_
+11	já	já	ADV	_	_	12	advmod	_	_
+12	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	pra	para	ADP	_	_	14	mark	_	_
+14	imaginar	imaginar	VERB	_	VerbForm=Inf	12	csubj	_	_
+15	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
+16	que	que	PRON	_	PronType=Int	15	fixed	_	_
+17	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux	_	_
+18	acontecer	acontecer	VERB	_	VerbForm=Inf	14	ccomp	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	Lula	Lula	PROPN	_	_	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = O juiz federal Sergio Moro condenou ontem (13) o ex-senador Gim Argello (ex-PTB-DF) a 19 anos de prisão.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	federal	federal	ADJ	_	Number=Sing	2	amod	_	_
+4	Sergio	Sergio	PROPN	_	_	2	nmod	_	_
+5	Moro	Moro	PROPN	_	_	4	flat:name	_	_
+6	condenou	condenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ontem	ontem	ADV	_	_	6	advmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	13	13	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-senador	ex-senador	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+13	Gim	Gim	PROPN	_	_	12	nmod	_	_
+14	Argello	Argello	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	ex-PTB-DF	ex-PTB-DF	PROPN	_	_	12	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	19	19	NUM	_	NumType=Card	20	nummod	_	_
+20	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = Argello foi condenado pelos crimes de corrupção passiva, lavagem de dinheiro e obstrução à investigação de organização criminosa.
+1	Argello	Argello	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	pelos	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	passiva	passivo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	obstrução	obstrução	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	organização	organização	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Ele poderá recorrer da decisão de Moro, porém permanecerá preso.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	recorrer	recorrer	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Moro	Moro	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	porém	porém	CCONJ	_	_	11	cc	_	_
+11	permanecerá	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+12	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O magistrado também determinou o confisco de R$ 7, 35 milhões e argumentou que o valor deve ser considerado para reparação da atuação criminosa do ex-parlamentar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	magistrado	magistrado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	confisco	confisco	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	R$	R$	SYM	_	_	12	nmod	_	_
+9	7	7	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	35	35	NUM	_	NumType=Card	12	nummod	_	_
+12	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	argumentou	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	que	que	SCONJ	_	_	18	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	valor	valor	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	20	aux:pass	_	_
+20	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+21	para	para	ADP	_	_	22	case	_	_
+22	reparação	reparação	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ex-parlamentar	ex-parlamentar	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0010
+# text = abaixo parte da sentença de Moro: O condenado, ao invés de cumprir com seu dever, aproveitou o poder e oportunidade para enriquecer ilicitamente, dando continuidade a um ciclo criminoso.
+1	abaixo	abaixo	ADV	_	_	2	advmod	_	_
+2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sentença	sentença	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Moro	Moro	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	21	punct	_	_
+9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	condenado	condenado	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	invés	invés	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	cumprir	cumprir	VERB	_	VerbForm=Inf	14	acl	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	dever	dever	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	14	punct	_	_
+21	aproveitou	aproveitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	poder	poder	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+26	para	para	ADP	_	_	27	mark	_	_
+27	enriquecer	enriquecer	VERB	_	VerbForm=Inf	21	advcl	_	_
+28	ilicitamente	ilicitamente	ADV	_	_	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	dando	dar	VERB	_	VerbForm=Ger	21	advcl	_	_
+31	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+32	a	a	ADP	_	_	34	case	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
+35	criminoso	criminoso	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0012
+# text = A prática de crimes por parlamentares é especialmente reprovável, mas ainda mais diante de traição tão básica de seus deveres públicos e em um cenário de crescente preocupação com os crimes contra a Petrobras.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prática	prática	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	especialmente	especialmente	ADV	_	_	9	advmod	_	_
+9	reprovável	reprovável	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	mas	mas	CCONJ	_	_	14	cc	_	_
+12	ainda	ainda	ADV	_	_	13	advmod	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	diante	diante	ADV	_	_	9	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	traição	traição	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+17	tão	tão	ADV	_	_	18	advmod	_	_
+18	básica	básico	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	deveres	dever	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+22	públicos	público	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	_	_	26	cc	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	crescente	crescente	ADJ	_	Number=Sing	29	amod	_	_
+29	preocupação	preocupação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30	com	com	ADP	_	_	32	case	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+33	contra	contra	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Petrobras	Petrobras	PROPN	_	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0014
+# text = Quanto maior a responsabilidade, maior a culpa, e não há responsabilidade maior do que a de um legislador, afirmou Moro.
+1	Quanto	quanto	SCONJ	_	_	2	mark	_	_
+2	maior	maior	ADJ	_	Number=Sing	6	advcl	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	maior	maior	ADJ	_	Number=Sing	23	ccomp:speech	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	culpa	culpa	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	maior	maior	ADJ	_	Number=Sing	13	amod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	ExtPos=SCONJ	18	mark	_	_
+16	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	fixed	_	_
+17	que	que	PRON	_	PronType=Rel	15	fixed	_	_
+18	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	advcl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	legislador	legislador	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	6	punct	_	_
+23	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	Moro	Moro	PROPN	_	_	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0016
+# text = Diante da condenação de Argello e da sentença do juiz, já dá pra imaginar o que acontecerá com o chefão da ORCRIM.
+1	Diante	diante	ADV	_	_	16	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Argello	Argello	PROPN	_	_	4	nmod	_	_
+7	e	e	CCONJ	_	_	10	cc	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sentença	sentença	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	1	punct	_	_
+15	já	já	ADV	_	_	16	advmod	_	_
+16	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	pra	para	ADP	_	_	18	mark	_	_
+18	imaginar	imaginar	VERB	_	VerbForm=Inf	16	csubj	_	_
+19	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	nsubj	_	_
+20	que	que	PRON	_	PronType=Int	19	fixed	_	_
+21	acontecerá	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	acl:relcl	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	chefão	chefão	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	ORCRIM	ORCRIM	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0018
+# text = Te cuida barbudo!
+1	Te	te	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+2	cuida	cuidar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	barbudo	barbudo	ADJ	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	_
+

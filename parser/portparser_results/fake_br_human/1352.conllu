@@ -1,0 +1,381 @@
+# sent_id = S0001
+# text = "Se EUA os atacarem, Kim Jon vai sequestrar turistas e funcionários de embaixadas" diz desertor.
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	_	_	5	mark	_	_
+3	EUA	EUA	PROPN	_	_	5	nsubj	_	_
+4	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	atacarem	atacar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Kim	Kim	PROPN	_	_	10	nsubj	_	_
+8	Jon	Jon	PROPN	_	_	7	flat:name	_	_
+9	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sequestrar	sequestrar	VERB	_	VerbForm=Inf	17	ccomp:speech	_	_
+11	turistas	turista	NOUN	_	Number=Plur	10	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	embaixadas	embaixada	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	10	punct	_	_
+17	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	desertor	desertor	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0003
+# text = "A Coréia do Norte planeja tomar reféns ocidentais se os ataques dos EUA acontecerem", revelou um desertor.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Coréia	Coréia	PROPN	_	_	7	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Norte	Norte	PROPN	_	_	3	flat:name	_	_
+7	planeja	planejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp:speech	_	_
+8	tomar	tomar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	reféns	refén	NOUN	_	Number=Plur	8	obj	_	_
+10	ocidentais	ocidental	ADJ	_	Number=Plur	9	amod	_	_
+11	se	se	SCONJ	_	_	17	mark	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	EUA	EUA	PROPN	_	_	13	nmod	_	_
+17	acontecerem	acontecer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	7	punct	_	_
+20	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	desertor	desertor	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0005
+# text = (NEWS.AU.COM) O regime paranóico de Kim Jong-un teria treinado equipes especializadas para seqüestrar turistas e funcionários de governos no exterior (embaixadores, diplomatas, etc...) em caso de deflagração de uma Guerra Mundial.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	NEWS.AU.COM	NEWS.AU.COM	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	regime	regime	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	paranóico	paranóico	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Kim	Kim	PROPN	_	_	5	nmod	_	_
+9	Jong-un	Jong-un	PROPN	_	_	8	flat:name	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	treinado	treinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+12	equipes	equipe	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	especializadas	especializado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	seqüestrar	seqüestrar	VERB	_	VerbForm=Inf	11	advcl	_	_
+16	turistas	turista	NOUN	_	Number=Plur	15	obj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	governos	governo	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	exterior	exterior	NOUN	_	Number=Sing	18	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	embaixadores	embaixador	NOUN	_	Gender=Masc|Number=Plur	16	appos	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	diplomatas	diplomata	NOUN	_	Number=Plur	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	etc.	etc.	PUNCT	_	_	25	conj	_	SpaceAfter=No
+30	..	..	PUNCT	_	_	25	punct	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	25	punct	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	caso	caso	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	deflagração	deflagração	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Guerra	Guerra	PROPN	_	_	35	nmod	_	_
+39	Mundial	Mundial	PROPN	_	_	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Os chamados "esquadrões de elite" invadiriam as fronteiras com a Coréia do Sul para capturar essas pessoas, revelou um ex-membro do exército de Kim Jon-un.
+1	Os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	nsubj	_	_
+2	chamados	chamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	esquadrões	esquadrão	NOUN	_	Gender=Masc|Number=Plur	2	xcomp	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	elite	elite	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	4	punct	_	_
+8	invadiriam	invadir	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	22	ccomp:speech	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	fronteiras	fronteira	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Coréia	Coréia	PROPN	_	_	10	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Sul	Sul	PROPN	_	_	13	flat:name	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	capturar	capturar	VERB	_	VerbForm=Inf	8	advcl	_	_
+19	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	8	punct	_	_
+22	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ex-membro	ex-membro	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	exército	exército	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Kim	Kim	PROPN	_	_	27	nmod	_	_
+30	Jon-un	Jon-un	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0009
+# text = As tais Forças Especiais (os esquadrões de elite) estariam armados com agentes nervosos mortais e já teriam sido instruídos para matar seus reféns.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	tais	tal	DET	_	Number=Plur|PronType=Dem	3	det	_	_
+3	Forças	Forças	PROPN	_	_	12	nsubj	_	_
+4	Especiais	Especiais	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	esquadrões	esquadrão	NOUN	_	Gender=Masc|Number=Plur	3	appos	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	elite	elite	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
+11	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	12	cop	_	_
+12	armados	armado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	agentes	agente	NOUN	_	Number=Plur	12	obl	_	_
+15	nervosos	nervoso	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	mortais	mortal	ADJ	_	Number=Plur	14	amod	_	_
+17	e	e	CCONJ	_	_	21	cc	_	_
+18	já	já	ADV	_	_	21	advmod	_	_
+19	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	21	aux	_	_
+20	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	21	aux:pass	_	_
+21	instruídos	instruir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	conj	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	matar	matar	VERB	_	VerbForm=Inf	21	advcl	_	_
+24	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	reféns	refén	NOUN	_	Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Os seqüestradores realizarão ataques de alto impacto, usando táticas semelhantes às usadas pelo ISIS.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	seqüestradores	seqüestrador	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	realizarão	realizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	alto	alto	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	usando	usar	VERB	_	VerbForm=Ger	3	advcl	_	_
+10	táticas	tática	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	semelhantes	semelhante	ADJ	_	Number=Plur	10	amod	_	_
+12-13	às	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	as	o	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	11	obl	_	_
+14	usadas	usar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ISIS	ISIS	PROPN	_	_	14	obl:agent	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0012
+# text = disse o desertor.
+1	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	desertor	desertor	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0014
+# text = Turistas estrangeiros, empresários e funcionários de diversos governos seriam levados ao norte da fronteira e em seguida executados brutalmente.
+1	Turistas	turista	NOUN	_	Number=Plur	11	nsubj:pass	_	_
+2	estrangeiros	estrangeiro	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	empresários	empresário	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	governos	governo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	11	aux:pass	_	_
+11	levados	levar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	norte	norte	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fronteira	fronteira	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+21	executados	executar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	conj	_	_
+22	brutalmente	brutalmente	ADV	_	_	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0016
+# text = Ung Lee desertou para o Sul depois de cumprir seis anos em uma das unidades de elite.
+1	Ung	Ung	PROPN	_	_	3	nsubj	_	_
+2	Lee	Lee	PROPN	_	_	1	flat:name	_	_
+3	desertou	desertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	para	para	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sul	Sul	PROPN	_	_	3	obl	_	_
+7	depois	depois	ADV	_	_	3	advmod	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	cumprir	cumprir	VERB	_	VerbForm=Inf	7	acl	_	_
+10	seis	seis	NUM	_	NumType=Card	11	nummod	_	_
+11	anos	ano	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	uma	um	NUM	_	Gender=Fem|NumType=Card	9	obl	_	_
+14-15	das	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	elite	elite	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0018
+# text = Ele revelou que, com frequência, entrava na Coreia do Sul, mudava de roupa e invadia áreas onde há muitos estrangeiros: Memorizamos locais, números de telefone e placas de carros das principais embaixadas.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	entrava	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Coreia	Coreia	PROPN	_	_	8	obl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Sul	Sul	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	mudava	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	roupa	roupa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	invadia	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+21	áreas	área	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+22	onde	onde	ADV	_	_	23	advmod	_	_
+23	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
+25	estrangeiros	estrangeiro	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	27	punct	_	_
+27	Memorizamos	memorizar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+28	locais	local	NOUN	_	Number=Plur	27	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	números	número	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	placas	placa	NOUN	_	Gender=Fem|Number=Plur	28	conj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	carros	carro	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
+37-38	das	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	40	case	_	_
+38	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+39	principais	principal	ADJ	_	Number=Plur	40	amod	_	_
+40	embaixadas	embaixada	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0020
+# text = Todos serão mortos, aconteça o que acontecer disse.
+1	Todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj:pass	_	_
+2	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
+3	mortos	mortos	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	aconteça	acontecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+6	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+7	que	que	PRON	_	PronType=Rel	8	fixed	_	_
+8	acontecer	acontecer	VERB	_	ExtPos=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+9	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0022
+# text = Lee, que agora trabalha como conselheiro financeiro, disse que os EUA precisaram eliminar completamente o LÍDER SUPREMO (se referindo a Kim Jon) e todos os militares de alta patente.
+1	Lee	Lee	PROPN	_	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	agora	agora	ADV	_	_	5	advmod	_	_
+5	trabalha	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	como	como	ADP	_	_	7	case	_	_
+7	conselheiro	conselheiro	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	EUA	EUA	PROPN	_	_	14	nsubj	_	_
+14	precisaram	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+15	eliminar	eliminar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	completamente	completamente	ADV	_	_	15	advmod	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	LÍDER	LÍDER	PROPN	_	_	15	obj	_	_
+19	SUPREMO	SUPREMO	PROPN	_	_	18	flat:name	_	_
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	22	expl	_	_
+22	referindo	referir	VERB	_	VerbForm=Ger	18	acl	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	Kim	Kim	PROPN	_	_	22	obl	_	_
+25	Jon	Jon	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	22	punct	_	_
+27	e	e	CCONJ	_	_	30	cc	_	_
+28	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	30	det	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	militares	militar	NOUN	_	Number=Plur	18	conj	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	alta	alto	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+33	patente	patente	NOUN	_	Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0024
+# text = O ex-cabo disse que a Coreia vai lutar e usar todas as medidas de retaliação aos EUA: "Trump tem que fazer um ataque certeiro e eliminar o líder ou então é melhor não atacar" encerrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-cabo	ex-cabo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Coreia	Coreia	PROPN	_	_	8	nsubj	_	_
+7	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	lutar	lutar	VERB	_	VerbForm=Inf	3	ccomp	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	usar	usar	VERB	_	VerbForm=Inf	8	conj	_	_
+11	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	retaliação	retaliação	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	aos	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	EUA	EUA	PROPN	_	_	15	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	22	punct	_	_
+20	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	Trump	Trump	PROPN	_	_	22	nsubj	_	_
+22	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp:speech	_	_
+23	que	que	ADP	_	_	24	mark	_	_
+24	fazer	fazer	VERB	_	VerbForm=Inf	22	xcomp	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27	certeiro	certeiro	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	eliminar	eliminar	VERB	_	VerbForm=Inf	24	conj	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	líder	líder	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32	ou	ou	CCONJ	_	_	35	cc	_	_
+33	então	então	ADV	_	_	35	advmod	_	_
+34	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+35	melhor	melhor	ADJ	_	Number=Sing	22	conj	_	_
+36	não	não	ADV	_	_	37	advmod	_	_
+37	atacar	atacar	VERB	_	VerbForm=Inf	35	xcomp	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	22	punct	_	_
+39	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+

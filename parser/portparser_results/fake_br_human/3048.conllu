@@ -1,0 +1,117 @@
+# sent_id = S0001
+# text = URGENTE: Gilmar Mendes suspende nomeação de Lula.
+1	URGENTE	urgente	ADJ	_	Number=Sing	5	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Gilmar	Gilmar	PROPN	_	_	5	nsubj	_	_
+4	Mendes	Mendes	PROPN	_	_	3	flat:name	_	_
+5	suspende	suspender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Lula	Lula	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = MINISTRO NÃO RECONHECEU O FORO PRIVILEGIADO DE LULA.
+1	MINISTRO	MINISTRO	PROPN	_	_	3	nsubj	_	_
+2	NÃO	não	ADV	_	_	3	advmod	_	_
+3	RECONHECEU	reconhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	FORO	FORO	PROPN	_	_	3	obj	_	_
+6	PRIVILEGIADO	PRIVILEGIADO	PROPN	_	_	5	amod	_	_
+7	DE	de	ADP	_	_	8	case	_	_
+8	LULA	LULA	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O ministro do STF (Supremo Tribunal Federal) acaba de conceder uma liminar onde mantém as investigações sobre o ex-presidente Lula com o juiz do Paraná Sérgio Moro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	2	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Supremo	Supremo	PROPN	_	_	5	appos	_	_
+8	Tribunal	Tribunal	PROPN	_	_	7	flat:name	_	_
+9	Federal	Federal	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
+11	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	conceder	conceder	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	liminar	liminar	NOUN	_	Number=Sing	13	obj	_	_
+16	onde	onde	ADV	_	_	17	advmod	_	_
+17	mantém	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+20	sobre	sobre	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ex-presidente	ex-presidente	NOUN	_	Number=Sing	19	nmod	_	_
+23	Lula	Lula	PROPN	_	_	22	nmod	_	_
+24	com	com	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Paraná	Paraná	PROPN	_	_	26	nmod	_	_
+30	Sérgio	Sérgio	PROPN	_	_	26	nmod	_	_
+31	Moro	Moro	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = O despacho também suspendeu a nomeação de Lula como ministro chefe da Casa Civil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	despacho	despacho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	suspendeu	suspender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Lula	Lula	PROPN	_	_	6	nmod	_	_
+9	como	como	ADP	_	_	10	case	_	_
+10	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Casa	Casa	PROPN	_	_	10	nmod	_	_
+15	Civil	Civil	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Mendes afirmou que Lula tentou fraudar a investigação.
+1	Mendes	Mendes	PROPN	_	_	2	nsubj	_	_
+2	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	Lula	Lula	PROPN	_	_	5	nsubj	_	_
+5	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	fraudar	fraudar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = A decisão é de caráter provisório e os advogados do ex-presidente podem apresentar recurso no STF.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	caráter	caráter	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	provisório	provisório	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	13	cc	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	nmod	_	_
+13	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	apresentar	apresentar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	STF	STF	PROPN	_	_	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+

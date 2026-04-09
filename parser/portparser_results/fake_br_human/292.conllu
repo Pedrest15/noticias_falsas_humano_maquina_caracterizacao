@@ -1,0 +1,279 @@
+# sent_id = S0001
+# text = Uma mão lava a outra!
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mão	mão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	lava	lavar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	outra	outro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Saiba porque Sílvio permitiu a presença de Temer em seu programa.
+1	Saiba	saber	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	porque	porque	SCONJ	_	_	4	mark	_	_
+3	Sílvio	Sílvio	PROPN	_	_	4	nsubj	_	_
+4	permitiu	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presença	presença	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Temer	Temer	PROPN	_	_	6	nmod	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	programa	programa	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Silvio Santos recebeu o presidente Michel Temer em seu programa de ontem (28).
+1	Silvio	Silvio	PROPN	_	_	3	nsubj	_	_
+2	Santos	Santos	PROPN	_	_	1	flat:name	_	_
+3	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	_	Number=Sing	3	obj	_	_
+6	Michel	Michel	PROPN	_	_	5	nmod	_	_
+7	Temer	Temer	PROPN	_	_	6	flat:name	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	programa	programa	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	ontem	ontem	ADV	_	_	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	28	28	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A visita, que foi previamente combinada em um almoço de compadres, teve como tema a Reforma da Previdência.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visita	visita	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	que	que	PRON	_	PronType=Rel	7	nsubj:pass	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+6	previamente	previamente	ADV	_	_	7	advmod	_	_
+7	combinada	combinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	almoço	almoço	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	compadres	compadre	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	como	como	ADP	_	_	16	case	_	_
+16	tema	tema	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Reforma	Reforma	PROPN	_	_	14	obj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Previdência	Previdência	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = O presidente da república subiu no palco para convencer o público de Sílvio de que a Reforma é fundamental e inevitável para o país.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	república	república	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	subiu	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	palco	palco	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	convencer	convencer	VERB	_	VerbForm=Inf	6	advcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	público	público	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Sílvio	Sílvio	PROPN	_	_	13	nmod	_	_
+16	de	de	ADP	_	ExtPos=SCONJ	21	mark	_	_
+17	que	que	SCONJ	_	_	16	fixed	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Reforma	Reforma	PROPN	_	_	21	nsubj	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	fundamental	fundamental	ADJ	_	Number=Sing	11	ccomp	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	inevitável	inevitável	ADJ	_	Number=Sing	21	conj	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	país	país	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Para tentar ser "mais popular", o presidente tentou fazer uma brincadeira (que lembrou uma espécie se suborno) com Sílvio e disse: Vou passar um dinheiro para você!
+1	Para	para	ADP	_	_	2	mark	_	_
+2	tentar	tentar	VERB	_	VerbForm=Inf	11	advcl	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	6	cop	_	_
+4	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	popular	popular	ADJ	_	Number=Sing	2	xcomp	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	presidente	presidente	NOUN	_	Number=Sing	11	nsubj	_	_
+11	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	fazer	fazer	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	brincadeira	brincadeira	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	lembrou	lembrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	se	se	ADP	_	_	21	case	_	_
+21	suborno	suborno	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	17	punct	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	Sílvio	Sílvio	PROPN	_	_	12	obl	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+27	:	:	PUNCT	_	_	29	punct	_	_
+28	Vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	passar	passar	VERB	_	VerbForm=Inf	26	ccomp:speech	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32	para	para	ADP	_	_	33	case	_	_
+33	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	obl	_	SpaceAfter=No
+34	!	!	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = , brincou Temer tirando uma mala de dinheiro... ops... uma nota de R$ 50,00 e presenteando o apresentador.
+1	,	,	PUNCT	_	_	2	punct	_	_
+2	brincou	brincar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+4	tirando	tirar	VERB	_	VerbForm=Ger	2	advcl	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mala	mala	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	...	...	PUNCT	_	_	10	punct	_	_
+10	ops	ops	INTJ	_	_	13	discourse	_	SpaceAfter=No
+11	...	...	PUNCT	_	_	13	punct	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	nota	nota	NOUN	_	Gender=Fem|Number=Sing	6	parataxis	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	R$	R$	SYM	_	_	13	nmod	_	_
+16	50,00	50,00	NUM	_	NumType=Card	15	nummod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	presenteando	presentear	VERB	_	VerbForm=Ger	13	conj	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Para dar continuidade a seu império televisivo, o apresentador precisou de uma "autorização" da presidência da República.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	dar	dar	VERB	_	VerbForm=Inf	11	advcl	_	_
+3	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	império	império	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	televisivo	televisivo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	precisou	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	autorização	autorização	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	República	República	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0017
+# text = O Sistema Brasileiro de Televisão (SBT) não está mais em nome de Sílvio e sim no nome das filhas Daniela e Renata.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sistema	Sistema	PROPN	_	_	13	nsubj	_	_
+3	Brasileiro	Brasileiro	PROPN	_	_	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Televisão	Televisão	PROPN	_	_	2	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	SBT	SBT	PROPN	_	_	2	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	não	não	ADV	_	_	13	advmod	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	mais	mais	ADV	_	_	13	advmod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	nome	nome	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Sílvio	Sílvio	PROPN	_	_	13	nmod	_	_
+16	e	e	CCONJ	_	_	20	cc	_	_
+17	sim	sim	ADV	_	_	20	advmod	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	nome	nome	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	filhas	filho	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+24	Daniela	Daniela	PROPN	_	_	23	nmod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	Renata	Renata	PROPN	_	_	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = A mudança no controle foi feita, segundo ele, pelo "presidente Michel Temer" no mês de dezembro/2017.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	controle	controle	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	segundo	segundo	ADP	_	_	10	case	_	_
+10	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12-13	pelo	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	presidente	presidente	NOUN	_	Number=Sing	7	obl:agent	_	_
+16	Michel	Michel	PROPN	_	_	15	nmod	_	_
+17	Temer	Temer	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	15	punct	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mês	mês	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	dezembro/2017	dezembro/2017	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0021
+# text = O SBT e a Globo têm feito campanha em prol das reformas do governo vampiresco do peemedebista.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	SBT	SBT	PROPN	_	_	7	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Globo	Globo	PROPN	_	_	2	conj	_	_
+6	têm	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+8	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	prol	prol	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	reformas	reforma	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	vampiresco	vampiresco	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	peemedebista	peemedebista	NOUN	_	Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+

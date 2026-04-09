@@ -1,0 +1,146 @@
+====================================================================================================
+ANÁLISE DISCRIMINATIVA DE REGRAS GRAMATICAIS
+Modo: COM REPETICAO
+====================================================================================================
+
+INTERPRETAÇÃO:
+----------------------------------------------------------------------------------------------------
+  - mean_human/mean_llm: Média do TF-IDF da regra em cada grupo
+  - difference: (mean_human - mean_llm)
+      > 0: regra mais característica de textos HUMANOS
+      < 0: regra mais característica de textos LLM
+  - p_value: Significância estatística (Mann-Whitney U test)
+  - cohens_d: Tamanho do efeito (>0.8=grande, 0.5=médio, 0.2=pequeno)
+
+ESTATÍSTICAS DO CORPUS:
+----------------------------------------------------------------------------------------------------
+  Total de documentos: 10781
+  Documentos human: 5390
+  Documentos LLM: 5391
+  Total de regras únicas: 101269
+  Regras analisadas: 101269
+
+RESUMO DA ANÁLISE:
+----------------------------------------------------------------------------------------------------
+  Regras significativas (p<0.05): 6205 (6.1%)
+  Regras significativas (p<0.01): 3193 (3.2%)
+  Mais características de HUMAN: 52924
+  Mais características de LLM: 48345
+
+============================================================================================================================================
+TOP 50 REGRAS MAIS CARACTERÍSTICAS DE HUMANOS
+============================================================================================================================================
+
+#   Regra                                                                                              Diff   p-value  Cohen d     %H     %L
+--------------------------------------------------------------------------------------------------------------------------------------------
+1   PRON(*)                                                                                        +0.0203* 2.58e-70  +0.452   94.3   99.1
+2   X(*)                                                                                           +0.0150* 4.28e-24  +0.315   18.1   12.3
+3   NUM(*)                                                                                         +0.0103* 1.66e-07  +0.231   79.5   88.9
+4   *(NOUN)                                                                                        +0.0101* 3.67e-88  +0.497   57.4   51.8
+5   NOUN(ADP/case, DET/det, *)                                                                     +0.0088* 5.41e-45  +0.335   94.0   98.9
+6   PUNCT(PUNCT/punct, *, PUNCT/punct, PUNCT/punct)                                                +0.0081*3.44e-180  +0.496   14.3    0.1
+7   NOUN(PUNCT/punct, *)                                                                           +0.0078* 2.25e-44  +0.359   21.3   12.6
+8   INTJ(*)                                                                                        +0.0047* 5.32e-63  +0.262    6.9    0.7
+9   PRON(ADP/case, *)                                                                              +0.0042* 5.45e-03  +0.269   34.3   39.6
+10  SYM(ADP/case, DET/det, *)                                                                      +0.0039* 1.58e-53  +0.269    4.6    0.1
+11  PRON(*, VERB/acl:relcl)                                                                        +0.0039* 2.13e-23  +0.292   15.1    9.6
+12  NOUN(NUM/nummod, *)                                                                            +0.0038* 2.26e-02  +0.227   20.4   21.1
+13  *(PRON)                                                                                        +0.0033* 7.33e-30  +0.282    9.1    4.0
+14  NOUN(*, NOUN/nmod)                                                                             +0.0030* 1.68e-03  +0.160   52.2   69.7
+15  VERB(*, NOUN/obj, PUNCT/punct)                                                                 +0.0029* 4.89e-10  +0.212    9.4    6.5
+16  NOUN(PUNCT/punct, *, PUNCT/punct)                                                              +0.0029* 5.08e-22  +0.227    7.9    3.7
+17  ADV(ADP/case, *)                                                                               +0.0028* 4.58e-08  +0.217   13.2   10.6
+18  ADV(*, NUM/appos)                                                                              +0.0028* 4.55e-57  +0.292    4.7    0.1
+19  VERB(*, PUNCT/punct)                                                                           +0.0026* 9.26e-39  +0.247    4.9    0.7
+20  *(ADV)                                                                                         +0.0026* 9.04e-20  +0.227    6.2    2.7
+21  NOUN(PUNCT/punct, *, NOUN/nmod)                                                                +0.0026* 4.82e-03  +0.197   11.2   10.2
+22  VERB(SCONJ/mark, PRON/nsubj, *, VERB/xcomp, PUNCT/punct)                                       +0.0025* 7.66e-52  +0.280    4.8    0.2
+23  AUX(*)                                                                                         +0.0024  1.47e-01  +0.073   95.7   99.9
+24  ADV(ADP/case, *, NUM/appos)                                                                    +0.0024* 2.65e-41  +0.242    3.4    0.0
+25  PUNCT(*, PUNCT/punct, PUNCT/punct)                                                             +0.0024* 2.39e-55  +0.278    4.5    0.0
+26  *(PROPN)                                                                                       +0.0024* 5.68e-06  +0.166   10.0    7.9
+27  VERB(*, NOUN/obj, SYM/obl)                                                                     +0.0023* 1.27e-46  +0.266    4.3    0.2
+28  NOUN(ADP/case, DET/det, *, NOUN/conj, NOUN/conj)                                               +0.0022* 2.67e-40  +0.259    4.7    0.6
+29  NOUN(PUNCT/punct, DET/det, *)                                                                  +0.0022* 1.29e-23  +0.211    4.8    1.5
+30  NOUN(DET/det, DET/det, *)                                                                      +0.0021* 5.88e-05  +0.179   12.8   10.9
+31  NOUN(ADP/case, DET/det, *, ADV/nmod)                                                           +0.0021* 1.62e-32  +0.222    3.1    0.2
+32  NOUN(*, NOUN/nmod, PUNCT/punct)                                                                +0.0021* 2.67e-15  +0.190    4.2    1.7
+33  NOUN(*, NUM/nmod)                                                                              +0.0021* 2.46e-10  +0.177    3.5    1.6
+34  VERB(PUNCT/punct, *)                                                                           +0.0021* 1.37e-17  +0.194    3.9    1.3
+35  VERB(*, ADV/advmod, PUNCT/punct)                                                               +0.0020* 5.08e-35  +0.232    3.6    0.3
+36  VERB(ADP/mark, *)                                                                              +0.0020  5.71e-01  +0.158   11.7   12.1
+37  ADV(*, SCONJ/fixed)                                                                            +0.0020* 4.27e-10  +0.197    9.1    6.1
+38  ADJ(PUNCT/punct, *)                                                                            +0.0019* 5.25e-12  +0.175    5.5    2.9
+39  PROPN(*, NOUN/flat:name)                                                                       +0.0019* 2.05e-21  +0.160    1.8    0.1
+40  VERB(CCONJ/cc, *)                                                                              +0.0019  9.29e-02  +0.164   10.8   10.4
+41  NOUN(NUM/nummod, *, NOUN/nmod)                                                                 +0.0019  1.79e-01  +0.147    8.7    8.4
+42  NOUN(*, NOUN/flat:name)                                                                        +0.0019* 2.64e-32  +0.197    2.7    0.0
+43  NOUN(ADP/case, *, NOUN/nmod, PUNCT/punct)                                                      +0.0019* 9.72e-03  +0.172    9.8    8.9
+44  NOUN(PUNCT/punct, NOUN/nsubj, CCONJ/cc, DET/det, *, NOUN/nmod, PUNCT/punct)                    +0.0017* 2.12e-35  +0.223    2.8    0.0
+45  ADV(PUNCT/punct, *, PUNCT/punct)                                                               +0.0017* 6.68e-08  +0.180    6.8    4.6
+46  VERB(VERB/advcl, *, NOUN/obl, NOUN/obl, NOUN/obl, PUNCT/punct)                                 +0.0016* 2.95e-32  +0.211    2.6    0.0
+47  NOUN(ADP/case, DET/det, DET/det, *)                                                            +0.0016  1.16e-01  +0.124   17.2   20.2
+48  PRON(DET/det, *)                                                                               +0.0016* 3.58e-16  +0.184    3.7    1.3
+49  NOUN(ADP/case, *, PROPN/nmod, PUNCT/punct)                                                     +0.0015* 2.74e-11  +0.177    3.6    1.6
+50  X(ADP/case, DET/det, *)                                                                        +0.0015* 4.66e-18  +0.156    2.1    0.3
+
+============================================================================================================================================
+TOP 50 REGRAS MAIS CARACTERÍSTICAS DE LLMs
+============================================================================================================================================
+
+#   Regra                                                                                              Diff   p-value  Cohen d     %H     %L
+--------------------------------------------------------------------------------------------------------------------------------------------
+1   ADJ(*)                                                                                         -0.0807* 0.00e+00  -1.648   97.3  100.0
+2   PROPN(*)                                                                                       -0.0632*7.21e-138  -0.534   86.0   99.9
+3   NOUN(*)                                                                                        -0.0602* 0.00e+00  -0.798  100.0  100.0
+4   DET(*)                                                                                         -0.0528* 0.00e+00  -0.808   99.9  100.0
+5   ADP(*)                                                                                         -0.0469*2.67e-277  -0.755  100.0  100.0
+6   PUNCT(*)                                                                                       -0.0336*6.09e-119  -0.456  100.0  100.0
+7   VERB(*)                                                                                        -0.0164* 1.57e-63  -0.316   99.6  100.0
+8   VERB(PUNCT/punct, *, NOUN/obj)                                                                 -0.0136* 0.00e+00  -1.074   12.4   70.3
+9   NOUN(ADP/case, *, ADJ/amod)                                                                    -0.0129* 0.00e+00  -0.773   36.5   82.9
+10  NOUN(DET/det, *, ADJ/amod)                                                                     -0.0120* 0.00e+00  -0.741   38.5   84.1
+11  NOUN(ADP/case, DET/det, *, ADJ/amod)                                                           -0.0102*7.08e-294  -0.621   47.2   87.1
+12  PROPN(ADP/case, *)                                                                             -0.0100*3.02e-209  -0.449   48.4   85.6
+13  NOUN(*, ADJ/amod)                                                                              -0.0096* 0.00e+00  -0.605   27.1   70.5
+14  CCONJ(*)                                                                                       -0.0092* 7.25e-85  -0.333   94.9   99.9
+15  PROPN(PUNCT/punct, *, PUNCT/punct)                                                             -0.0086*9.67e-280  -0.510   16.1   51.5
+16  PROPN(ADP/case, DET/det, *)                                                                    -0.0075*8.83e-104  -0.259   58.3   93.3
+17  NOUN(DET/det, *, NOUN/nmod)                                                                    -0.0071*3.02e-130  -0.417   69.3   93.8
+18  VERB(ADP/mark, *, NOUN/obj)                                                                    -0.0069*1.31e-200  -0.438   42.0   78.9
+19  VERB(PUNCT/punct, *, VERB/ccomp)                                                               -0.0068* 0.00e+00  -0.672    2.9   31.6
+20  NOUN(DET/det, *, ADJ/amod, NOUN/nmod)                                                          -0.0063*5.15e-259  -0.542   13.7   46.4
+21  ADV(ADV/advmod, *)                                                                             -0.0060*7.98e-281  -0.574    7.6   37.6
+22  VERB(NOUN/nsubj, *, VERB/ccomp, PUNCT/punct)                                                   -0.0056*2.69e-212  -0.447   14.8   45.1
+23  NOUN(*, ADJ/amod, NOUN/nmod)                                                                   -0.0051*8.58e-239  -0.435    7.0   33.8
+24  ADV(*)                                                                                         -0.0050* 1.00e-21  -0.126   96.0   99.9
+25  PROPN(PUNCT/punct, *, PROPN/flat:name, PUNCT/punct)                                            -0.0050*1.66e-186  -0.412    8.8   32.8
+26  NOUN(ADP/case, *, NOUN/conj)                                                                   -0.0049*1.92e-199  -0.384   12.2   39.4
+27  NOUN(CCONJ/cc, *, ADJ/amod)                                                                    -0.0047*1.08e-194  -0.441    6.8   29.8
+28  ADV(*, PRON/fixed, PUNCT/punct)                                                                -0.0047*3.18e-251  -0.631    0.3   20.0
+29  ADP(*, DET/fixed, NOUN/fixed, PUNCT/punct)                                                     -0.0043*5.99e-224  -0.602    0.8   19.4
+30  NOUN(DET/det, *)                                                                               -0.0043* 4.45e-27  -0.157   91.5   99.5
+31  SCONJ(*)                                                                                       -0.0042* 1.72e-33  -0.164   85.0   98.1
+32  NOUN(DET/det, *, VERB/acl)                                                                     -0.0042*6.96e-141  -0.322   22.8   50.9
+33  ADJ(*, ADJ/conj)                                                                               -0.0042*1.40e-148  -0.370   10.9   32.8
+34  NOUN(ADP/case, DET/det, *, ADJ/amod, PUNCT/punct)                                              -0.0041*1.94e-200  -0.514    1.7   20.1
+35  NOUN(DET/det, *, PROPN/nmod)                                                                   -0.0041*2.62e-101  -0.237   40.0   71.0
+36  ADV(*, PRON/obl, PUNCT/punct)                                                                  -0.0040*1.78e-192  -0.552    0.9   17.3
+37  VERB(NOUN/nsubj, *, NOUN/obj, VERB/advcl, PUNCT/punct)                                         -0.0038*8.98e-173  -0.406    3.5   21.9
+38  VERB(PUNCT/punct, *, NOUN/obj, NOUN/obl)                                                       -0.0037*7.33e-168  -0.416    2.3   18.9
+39  ADJ(CCONJ/cc, *)                                                                               -0.0037*8.02e-130  -0.293   15.3   38.3
+40  NOUN(ADP/case, *, ADJ/amod, NOUN/nmod)                                                         -0.0035*2.76e-142  -0.377    4.5   21.4
+41  NOUN(DET/det, *, PROPN/nmod, PROPN/appos)                                                      -0.0034*3.76e-139  -0.382    3.2   18.5
+42  VERB(SCONJ/mark, NOUN/nsubj, *, VERB/xcomp)                                                    -0.0034*9.24e-126  -0.312    5.1   21.2
+43  NOUN(ADP/case, ADJ/amod, *)                                                                    -0.0033*5.94e-124  -0.293    9.7   28.8
+44  NOUN(ADP/case, DET/det, *, ADJ/amod, NOUN/nmod)                                                -0.0033*4.20e-129  -0.287   11.8   32.9
+45  NOUN(DET/det, *, ADJ/amod, VERB/acl)                                                           -0.0032*1.27e-120  -0.362    3.5   17.6
+46  NOUN(ADP/case, *, ADJ/amod, PUNCT/punct)                                                       -0.0031*3.68e-117  -0.392    0.8   11.4
+47  NOUN(CCONJ/cc, *, NOUN/nmod)                                                                   -0.0031*5.27e-118  -0.281    9.8   28.8
+48  ADP(*, DET/fixed)                                                                              -0.0030*4.62e-119  -0.266    7.0   24.1
+49  VERB(PUNCT/punct, *, NOUN/obl, PUNCT/punct)                                                    -0.0029*2.11e-107  -0.347    2.3   14.1
+50  *(VERB)                                                                                        -0.0029* 7.27e-12  -0.119   99.7  100.0
+
+====================================================================================================
+Legenda: * = significativo (p<0.05), %H = % docs human, %L = % docs LLM
+====================================================================================================

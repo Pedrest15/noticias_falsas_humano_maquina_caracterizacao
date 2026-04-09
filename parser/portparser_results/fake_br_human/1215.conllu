@@ -1,0 +1,175 @@
+# sent_id = S0001
+# text = Pai de Fred (primo de Aécio que foi preso) desabafa: Aécio não tem moral.
+1	Pai	pai	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Fred	Fred	PROPN	_	_	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	primo	primo	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Aécio	Aécio	PROPN	_	_	5	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	10	nsubj:pass	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl:relcl	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	5	punct	_	_
+12	desabafa	desabafar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	16	punct	_	_
+14	Aécio	Aécio	PROPN	_	_	16	nsubj	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp:speech	_	_
+17	moral	moral	NOUN	_	Number=Sing	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = Meu filho foi preso por lealdade.
+1	Meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	filho	filho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	lealdade	lealdade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A prisão de Frederico Pacheco de Medeiros (o Fred), primo de Aécio Neves, ocorreu no último dia 18.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Frederico	Frederico	PROPN	_	_	2	nmod	_	_
+5	Pacheco	Pacheco	PROPN	_	_	4	flat:name	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Medeiros	Medeiros	PROPN	_	_	4	flat:name	_	_
+8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Fred	Fred	PROPN	_	_	4	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	primo	primo	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Aécio	Aécio	PROPN	_	_	13	nmod	_	_
+16	Neves	Neves	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	_
+18	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	22	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	último	último	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	dia	dia	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+23	18	18	NUM	_	NumType=Card	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0007
+# text = Inconformado, o pai de Fred (que é desembargador aposentado) publicou um desabafo nas redes sociais.
+1	Inconformado	inconformado	ADJ	_	Gender=Masc|Number=Sing	13	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pai	pai	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Fred	Fred	PROPN	_	_	4	nmod	_	_
+7	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	desembargador	desembargador	NOUN	_	Gender=Masc|Number=Sing	4	acl:relcl	_	_
+11	aposentado	aposentado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	_
+13	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	desabafo	desabafo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16-17	nas	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	redes	rede	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+19	sociais	social	ADJ	_	Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = Lauro Pacheco disse que Aécio não tem qualidade moral para exercer o cargo de senador.
+1	Lauro	Lauro	PROPN	_	_	3	nsubj	_	_
+2	Pacheco	Pacheco	PROPN	_	_	1	flat:name	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	Aécio	Aécio	PROPN	_	_	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	moral	moral	ADJ	_	Number=Sing	8	amod	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	exercer	exercer	VERB	_	VerbForm=Inf	8	acl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	senador	senador	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = O jornal "O Globo" entrevistou o desembargador, que confirmou a publicação.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	O	O	PROPN	_	_	2	nmod	_	_
+5	Globo	Globo	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	4	punct	_	_
+7	entrevistou	entrevistar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	desembargador	desembargador	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = "Meu filho admirava o Aécio e agora está preso" disse.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	filho	filho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	admirava	admirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp:speech	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Aécio	Aécio	PROPN	_	_	4	obj	_	_
+7	e	e	CCONJ	_	_	10	cc	_	_
+8	agora	agora	ADV	_	_	10	advmod	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	conj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	4	punct	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0015
+# text = Frederico Pacheco foi preso após Joesley Batista divulgar um vídeo onde Aécio estaria pedindo propina de R$ 2 milhões ao empresário.
+1	Frederico	Frederico	PROPN	_	_	4	nsubj:pass	_	_
+2	Pacheco	Pacheco	PROPN	_	_	1	flat:name	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	após	após	ADP	_	_	8	mark	_	_
+6	Joesley	Joesley	PROPN	_	_	8	nsubj	_	_
+7	Batista	Batista	PROPN	_	_	6	flat:name	_	_
+8	divulgar	divulgar	VERB	_	VerbForm=Inf	4	advcl	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	onde	onde	ADV	_	_	14	advmod	_	_
+12	Aécio	Aécio	PROPN	_	_	14	nsubj	_	_
+13	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	aux	_	_
+14	pedindo	pedir	VERB	_	VerbForm=Ger	10	acl:relcl	_	_
+15	propina	propina	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	R$	R$	SYM	_	_	19	nmod	_	_
+18	2	2	NUM	_	NumType=Card	19	nummod	_	_
+19	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Fred era a "mula" de Aécio.
+1	Fred	Fred	PROPN	_	_	5	nsubj	_	_
+2	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	mula	mulo	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Aécio	Aécio	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+

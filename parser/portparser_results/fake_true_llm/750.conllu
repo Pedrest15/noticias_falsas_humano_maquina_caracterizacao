@@ -1,0 +1,112 @@
+# sent_id = S0001
+# text = Urgente! Revelação chocante: O CEO da Smartmatic, empresa acusada de manipular resultados eleitorais, foi detido em flagrante pelo FBI na manhã de hoje.
+1	Urgente	urgente	ADJ	_	Number=Sing	20	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	3	punct	_	_
+3	Revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+4	chocante	chocante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	3	punct	_	_
+6	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	CEO	CEO	PROPN	_	_	20	nsubj:pass	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Smartmatic	Smartmatic	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
+13	acusada	acusar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	manipular	manipular	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+17	eleitorais	eleitoral	ADJ	_	Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	12	punct	_	_
+19	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	detido	deter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	flagrante	flagrante	NOUN	_	Number=Sing	20	obl	_	_
+23-24	pelo	_	_	_	_	_	_	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	FBI	FBI	PROPN	_	_	20	obl:agent	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	hoje	hoje	ADV	_	_	28	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0003
+# text = Documentos confidenciais apreendidos indicam uma conexão direta com fraudes nas eleições brasileiras de 2022.
+1	Documentos	documento	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	confidenciais	confidencial	ADJ	_	Number=Plur	1	amod	_	_
+3	apreendidos	apreender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
+4	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	conexão	conexão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	direta	direto	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10-11	nas	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+13	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	2022	2022	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Especialistas afirmam que essas evidências poderiam alterar o rumo da política nacional.
+1	Especialistas	especialista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+6	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	_
+7	alterar	alterar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	política	política	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	nacional	nacional	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = A Smartmatic, que teria fornecido tecnologia "suspeita" para as urnas eletrônicas, nega as acusações, mas fontes anônimas garantem que a empresa ainda mantém influência nos bastidores.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Smartmatic	Smartmatic	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+6	fornecido	fornecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl:relcl	_	_
+7	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	suspeita	suspeito	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+14	eletrônicas	eletrônico	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	6	punct	_	_
+16	nega	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	mas	mas	CCONJ	_	_	23	cc	_	_
+21	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
+22	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+23	garantem	garantir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+24	que	que	SCONJ	_	_	28	mark	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
+27	ainda	ainda	ADV	_	_	28	advmod	_	_
+28	mantém	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+29	influência	influência	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+30-31	nos	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	bastidores	bastidor	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	16	punct	_	_
+

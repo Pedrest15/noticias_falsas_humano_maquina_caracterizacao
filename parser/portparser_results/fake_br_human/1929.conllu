@@ -1,0 +1,238 @@
+# sent_id = S0001
+# text = Deu ruim!
+1	Deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ruim	ruim	ADJ	_	Number=Sing	1	xcomp	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Pedro Corrêa cita Lula e seu advogado em audiência com Sérgio Moro.
+1	Pedro	Pedro	PROPN	_	_	3	nsubj	_	_
+2	Corrêa	Corrêa	PROPN	_	_	1	flat:name	_	_
+3	cita	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Lula	Lula	PROPN	_	_	3	obj	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	Sérgio	Sérgio	PROPN	_	_	9	nmod	_	_
+12	Moro	Moro	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Pedro Corrêa (ex-deputado pelo PP) criou uma "sinuca de bico" para o advogado José Roberto Batochio Batochio, além de ser advogado de Lula, também é ex-deputado.
+1	Pedro	Pedro	PROPN	_	_	9	nsubj	_	_
+2	Corrêa	Corrêa	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PP	PP	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	4	punct	_	_
+9	criou	criar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	sinuca	sinuca	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	bico	bico	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	12	punct	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+19	José	José	PROPN	_	_	18	nmod	_	_
+20	Roberto	Roberto	PROPN	_	_	19	flat:name	_	_
+21	Batochio	Batochio	PROPN	_	_	19	flat:name	_	_
+22	Batochio	Batochio	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	além	além	ADV	_	_	9	advmod	_	_
+25	de	de	ADP	_	_	27	mark	_	_
+26	ser	ser	AUX	_	VerbForm=Inf	27	cop	_	_
+27	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	24	acl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Lula	Lula	PROPN	_	_	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	24	punct	_	_
+31	também	também	ADV	_	_	33	advmod	_	_
+32	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Em seu depoimento a Sérgio Moro no caso do triplex de Lula, ele disse: Fomos ao presidente Lula, que era candidato a reeleição.
+1	Em	em	ADP	_	_	3	case	_	_
+2	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	Sérgio	Sérgio	PROPN	_	_	3	nmod	_	_
+6	Moro	Moro	PROPN	_	_	5	flat:name	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	triplex	triplex	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Lula	Lula	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	3	punct	_	_
+16	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	19	punct	_	_
+19	Fomos	ir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	17	ccomp:speech	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	presidente	presidente	NOUN	_	Number=Sing	19	obl	_	_
+23	Lula	Lula	PROPN	_	_	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+26	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+27	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	22	acl:relcl	_	_
+28	a	a	ADP	_	_	29	case	_	_
+29	reeleição	reeleição	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0009
+# text = Quem faz política, o dr. José Roberto Batochio sabe o que é isso, meu companheiro na Câmara dos Deputados, fomos membros da mesma comissão, ele sabe que quando chega na eleição você procura o candidato majoritário para fazer a despesa do partido.
+1	Quem	quem	PRON	_	PronType=Ind	10	nsubj	_	_
+2	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	política	política	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	26	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dr.	dr.	NOUN	_	_	10	nsubj	_	_
+7	José	José	PROPN	_	_	6	nmod	_	_
+8	Roberto	Roberto	PROPN	_	_	7	flat:name	_	_
+9	Batochio	Batochio	PROPN	_	_	7	flat:name	_	_
+10	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obj	_	_
+12	que	que	PRON	_	PronType=Int	11	fixed	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	26	punct	_	_
+16	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	companheiro	companheiro	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Câmara	Câmara	PROPN	_	_	17	nmod	_	_
+21-22	dos	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Deputados	Deputados	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	fomos	fer	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	26	cop	_	_
+26	membros	membro	NOUN	_	Gender=Masc|Number=Plur	10	parataxis	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	comissão	comissão	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+34	que	que	SCONJ	_	_	41	mark	_	_
+35	quando	quando	SCONJ	_	_	36	mark	_	_
+36	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
+37-38	na	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+40	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	41	nsubj	_	_
+41	procura	procurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	41	obj	_	_
+44	majoritário	majoritário	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	_
+45	para	para	ADP	_	_	46	mark	_	_
+46	fazer	fazer	VERB	_	VerbForm=Inf	41	advcl	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	despesa	despesa	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	_
+49-50	do	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	partido	partido	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = E como o candidato majoritário era o Lula, fomos lá atrás de dinheiro.
+1	E	e	CCONJ	_	_	10	cc	_	_
+2	como	como	SCONJ	_	_	8	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	majoritário	majoritário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Lula	Lula	PROPN	_	_	10	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	fomos	ir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+11	lá	lá	ADV	_	_	10	advmod	_	_
+12	atrás	atrás	ADV	_	_	10	advmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = De acordo com Corrêa, Lula teria dito: "Vocês não podem reclamar porque o Paulinho (Paulo Roberto Costa) me disse que vocês estão muito bem amparados financeiramente e vão fazer uma eleição tranquila".
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	Corrêa	Corrêa	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+7	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux	_	_
+8	dito	dizer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	13	punct	_	_
+10	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	Vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+14	reclamar	reclamar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	porque	porque	SCONJ	_	_	24	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Paulinho	Paulinho	PROPN	_	_	24	nsubj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Paulo	Paulo	PROPN	_	_	17	appos	_	_
+20	Roberto	Roberto	PROPN	_	_	19	flat:name	_	_
+21	Costa	Costa	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	19	punct	_	_
+23	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+24	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	_
+25	que	que	SCONJ	_	_	30	mark	_	_
+26	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	30	nsubj	_	_
+27	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	muito	muito	ADV	_	_	29	advmod	_	_
+29	bem	bem	ADV	_	_	30	advmod	_	_
+30	amparados	amparado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	24	ccomp	_	_
+31	financeiramente	financeiramente	ADV	_	_	30	advmod	_	_
+32	e	e	CCONJ	_	_	34	cc	_	_
+33	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	fazer	fazer	VERB	_	VerbForm=Inf	30	conj	_	_
+35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+37	tranquila	tranquilo	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0014
+# text = veja a partir do minuto 2:20 do vídeo do Antagonista Claúdio Dantas:
+1	veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	_	_	3	mark	_	_
+3	partir	partir	VERB	_	VerbForm=Inf	1	advcl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	2:20	2:20	NUM	_	NumType=Card	6	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Antagonista	Antagonista	PROPN	_	_	10	nmod	_	_
+14	Claúdio	Claúdio	PROPN	_	_	13	flat:name	_	_
+15	Dantas	Dantas	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	1	punct	_	_
+

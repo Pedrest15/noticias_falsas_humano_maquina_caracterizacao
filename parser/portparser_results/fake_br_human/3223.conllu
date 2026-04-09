@@ -1,0 +1,218 @@
+# sent_id = S0001
+# text = Portal de notícias informa que ex-presidente tem sintomas depressivos e chora pelos cantos.
+1	Portal	portal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+4	informa	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	ex-presidente	ex-presidente	NOUN	_	Number=Sing	7	nsubj	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	sintomas	sintoma	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	depressivos	depressivo	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	chora	chorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12-13	pelos	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cantos	canto	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = O que espanta é essa crise de depressão no mesmo momento que a PF deu indicações de sua prisão.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	espanta	espantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	crise	crise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	depressão	depressão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	momento	momento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+13	que	que	PRON	_	PronType=Rel	16	obj	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	PF	PF	PROPN	_	_	16	nsubj	_	_
+16	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+17	indicações	indicação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = (via Pensa Brasil ) Frei Chico, irmão do ex-presidente, afirmou que LULA precisou de auxilio médico para medir a sua pressão e verificar os batimentos cardíacos.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	via	via	ADP	_	_	14	parataxis	_	_
+3	Pensa	Pensa	PROPN	_	_	2	nmod	_	_
+4	Brasil	Brasil	PROPN	_	_	3	flat:name	_	_
+5	)	)	PUNCT	_	_	2	punct	_	_
+6	Frei	Frei	PROPN	_	_	14	nsubj	_	_
+7	Chico	Chico	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	que	que	SCONJ	_	_	17	mark	_	_
+16	LULA	LULA	PROPN	_	_	17	nsubj	_	_
+17	precisou	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	auxilio	auxilio	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20	médico	médico	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22	medir	medir	VERB	_	VerbForm=Inf	17	advcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	verificar	verificar	VERB	_	VerbForm=Inf	22	conj	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	batimentos	batimento	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+30	cardíacos	cardíaco	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = Vizinhos de LULA confirmaram a notícia de que aconteceu uma grande movimentação de parentes e amigos na sua casa em São Bernardo Ontem, seu irmão já tinha dado a seguinte declaração: Lula está triste.
+1	Vizinhos	vizinho	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	LULA	LULA	PROPN	_	_	1	nmod	_	_
+4	confirmaram	confirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	ExtPos=SCONJ	9	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	grande	grande	ADJ	_	Number=Sing	12	amod	_	_
+12	movimentação	movimentação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	parentes	parente	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	casa	casa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	São	São	PROPN	_	_	20	nmod	_	_
+23	Bernardo	Bernardo	PROPN	_	_	22	flat:name	_	_
+24	Ontem	ontem	ADV	_	_	9	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+28	já	já	ADV	_	_	30	advmod	_	_
+29	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+30	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	root	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	seguinte	seguinte	ADJ	_	Number=Sing	33	amod	_	_
+33	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+34	:	:	PUNCT	_	_	37	punct	_	_
+35	Lula	Lula	PROPN	_	_	37	nsubj	_	_
+36	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+37	triste	triste	ADJ	_	Number=Sing	33	parataxis	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Estamos encurralados.
+1	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	encurralados	encurralado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Precisamos sair desta situação.
+1	Precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sair	sair	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3-4	desta	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	situação	situação	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Militante do antigo PCB, foi Frei Chico quem levou Lula ao movimento sindical.
+1	Militante	militante	NOUN	_	Number=Sing	8	dislocated	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	antigo	antigo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	PCB	PCB	PROPN	_	_	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	discourse	_	_
+8	Frei	Frei	PROPN	_	_	11	nsubj	_	_
+9	Chico	Chico	PROPN	_	_	8	flat:name	_	_
+10	quem	quem	PRON	_	PronType=Rel	11	discourse	_	_
+11	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Lula	Lula	PROPN	_	_	11	obj	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	movimento	movimento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+16	sindical	sindical	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Nesta quinta-feira, ele almoçava num bar ao lado da sede nacional do PT.
+1-2	Nesta	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	almoçava	almoçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	num	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bar	bar	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lado	lado	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sede	sede	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	nacional	nacional	ADJ	_	Number=Sing	15	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	PT	PT	PROPN	_	_	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = Não podemos sacrificar Dilma.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sacrificar	sacrificar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	Dilma	Dilma	PROPN	_	_	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = É o que temos, disse ele, após uma reunião no sindicato dos aposentados.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	ccomp:speech	_	_
+3	que	que	PRON	_	PronType=Rel	4	obj	_	_
+4	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	após	após	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sindicato	sindicato	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	aposentados	aposentado	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+

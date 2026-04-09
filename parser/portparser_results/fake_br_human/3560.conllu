@@ -1,0 +1,120 @@
+# sent_id = S0001
+# text = Enéas Carneiro sobre Lula: "Como alguém que nunca educou a si mesmo pode dirigir um país?".
+1	Enéas	Enéas	PROPN	_	_	0	root	_	_
+2	Carneiro	Carneiro	PROPN	_	_	1	flat:name	_	_
+3	sobre	sobre	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	15	punct	_	_
+6	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+7	Como	como	ADV	_	_	15	advmod	_	_
+8	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	_
+9	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+10	nunca	nunca	ADV	_	_	11	advmod	_	_
+11	educou	educar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	si	si	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+15	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+16	dirigir	dirigir	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	país	país	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	?	?	PUNCT	_	_	15	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = O entrevistado é nada mais, nada menos que Éneas Carneiro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	entrevistado	entrevistado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	advmod	_	_
+5	mais	mais	ADV	_	_	0	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	fixed	_	_
+8	menos	menos	ADV	_	ExtPos=ADV	5	conj	_	_
+9	que	que	ADP	_	_	10	mark	_	_
+10	Éneas	Éneas	PROPN	_	_	5	advcl	_	_
+11	Carneiro	Carneiro	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Um dos ex-candidatos mais inteligentes que esse país já conheceu.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	0	root	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ex-candidatos	ex-candidato	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	inteligentes	inteligente	ADJ	_	Number=Plur	4	amod	_	_
+7	que	que	PRON	_	PronType=Rel	11	obj	_	_
+8	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	país	país	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	já	já	ADV	_	_	11	advmod	_	_
+11	conheceu	conhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Trecho do programa RODA VIVA da Tv Cultura Eu não sei como uma pessoa que nunca foi educada e nunca educou ninguém pode falar de educação.
+1	Trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	programa	programa	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	RODA	RODA	PROPN	_	_	4	nmod	_	_
+6	VIVA	VIVA	PROPN	_	_	5	flat:name	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Tv	Tv	PROPN	_	_	4	nmod	_	_
+10	Cultura	Cultura	PROPN	_	_	9	flat:name	_	_
+11	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	como	como	ADV	_	_	25	advmod	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+17	que	que	PRON	_	PronType=Rel	20	nsubj:pass	_	_
+18	nunca	nunca	ADV	_	_	20	advmod	_	_
+19	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	educada	educar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	nunca	nunca	ADV	_	_	23	advmod	_	_
+23	educou	educar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+24	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	23	obj	_	_
+25	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+26	falar	falar	VERB	_	VerbForm=Inf	25	xcomp	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	educação	educação	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = Eu não entendo.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	entendo	entender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Agora, se o senhor diz que eu estou ofendendo, não estou ofendendo, estou fazendo um diagnóstico preciso.
+1	Agora	agora	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	se	se	SCONJ	_	_	6	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	senhor	senhor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	ofendendo	ofender	VERB	_	VerbForm=Ger	6	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ofendendo	ofender	VERB	_	VerbForm=Ger	6	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fazendo	fazer	VERB	_	VerbForm=Ger	6	parataxis	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	diagnóstico	diagnóstico	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+

@@ -1,0 +1,153 @@
+# sent_id = S0001
+# text = Pilantragem petista: Vídeo flagra candidata a vice-prefeita do PT quebrando um vaso na cabeça de um PM.
+1	Pilantragem	pilantragem	NOUN	_	Gender=Fem|Number=Sing	5	dislocated	_	_
+2	petista	petista	ADJ	_	Number=Sing	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	flagra	flagrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	candidata	candidato	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	vice-prefeita	vice-prefeita	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PT	PT	PROPN	_	_	8	nmod	_	_
+12	quebrando	quebrar	VERB	_	VerbForm=Ger	5	xcomp	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vaso	vaso	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	PM	PM	PROPN	_	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Um vídeo espalhado nas redes sociais desmascara a candidata a vice-prefeita Silvana Conti (PT).
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	espalhado	espalhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	nas	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	redes	rede	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+7	sociais	social	ADJ	_	Number=Plur	6	amod	_	_
+8	desmascara	desmascarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	candidata	candidato	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	vice-prefeita	vice-prefeita	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	Silvana	Silvana	PROPN	_	_	12	nmod	_	_
+14	Conti	Conti	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	PT	PT	PROPN	_	_	10	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = O fato aconteceu em Porto Alegre/RS.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Porto	Porto	PROPN	_	_	3	obl	_	_
+6	Alegre/RS	Alegre/RS	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Silvana alegou que foi agredida pela polícia.
+1	Silvana	Silvana	PROPN	_	_	2	nsubj	_	_
+2	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	agredida	agredir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	polícia	polícia	NOUN	_	Number=Sing	5	obl:agent	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O vídeo desmente a versão dela.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	desmente	desmenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	versão	versão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	dela	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Podemos ver perfeitamente a vice-prefeita quebrando um vaso na cabeça de um policial militar.
+1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ver	ver	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	perfeitamente	perfeitamente	ADV	_	_	2	advmod	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vice-prefeita	vice-prefeita	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	quebrando	quebrar	VERB	_	VerbForm=Ger	2	xcomp	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vaso	vaso	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	policial	policial	NOUN	_	Number=Sing	11	nmod	_	_
+15	militar	militar	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = A Brigada Militar decidiu encaminhar à Polícia Civil do Rio Grande do Sul um registro de ocorrência contra a "vândala".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Brigada	Brigada	PROPN	_	_	4	nsubj	_	_
+3	Militar	Militar	PROPN	_	_	2	flat:name	_	_
+4	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	encaminhar	encaminhar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polícia	Polícia	PROPN	_	_	5	obl	_	_
+9	Civil	Civil	PROPN	_	_	8	flat:name	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Rio	Rio	PROPN	_	_	8	nmod	_	_
+13	Grande	Grande	PROPN	_	_	12	flat:name	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Sul	Sul	PROPN	_	_	12	flat:name	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	registro	registro	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	contra	contra	ADP	_	_	24	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	vândala	vândala	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Tudo aconteceu quando Dilma Rousseff estava presente na sessão eleitoral para votar.
+1	Tudo	tudo	PRON	_	PronType=Ind	2	nsubj	_	_
+2	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	quando	quando	SCONJ	_	_	7	mark	_	_
+4	Dilma	Dilma	PROPN	_	_	7	nsubj	_	_
+5	Rousseff	Rousseff	PROPN	_	_	4	flat:name	_	_
+6	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	presente	presente	ADJ	_	Number=Sing	2	advcl	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	eleitoral	eleitoral	ADJ	_	Number=Sing	10	amod	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	votar	votar	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+

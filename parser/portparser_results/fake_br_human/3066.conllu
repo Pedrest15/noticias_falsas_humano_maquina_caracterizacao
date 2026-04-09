@@ -1,0 +1,239 @@
+# sent_id = S0001
+# text = A mando de Dilma, Agência Brasileira de Inteligência (ABIN) estaria monitorando Sérgio Moro.
+1	A	a	ADP	_	_	2	case	_	_
+2	mando	mando	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Dilma	Dilma	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Agência	Agência	PROPN	_	_	14	nsubj	_	_
+7	Brasileira	Brasileira	PROPN	_	_	6	flat:name	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Inteligência	Inteligência	PROPN	_	_	6	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	ABIN	ABIN	PROPN	_	_	6	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	aux	_	_
+14	monitorando	monitorar	VERB	_	VerbForm=Ger	0	root	_	_
+15	Sérgio	Sérgio	PROPN	_	_	14	obj	_	_
+16	Moro	Moro	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0003
+# text = A decisão do magistrado estava tomada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	magistrado	magistrado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	tomada	tomado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Lula seria preso antes de ser nomeado ministro e obter a prerrogativa de foro privilegiado.
+1	Lula	Lula	PROPN	_	_	3	nsubj:pass	_	_
+2	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux:pass	_	_
+3	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	antes	antes	ADV	_	_	3	advmod	_	_
+5	de	de	ADP	_	_	7	mark	_	_
+6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
+7	nomeado	nomear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+8	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	obter	obter	VERB	_	VerbForm=Inf	7	conj	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	prerrogativa	prerrogativa	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	foro	foro	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = (reprodução do Jornal da Cidade ) Sérgio Moro estava sendo monitorado pela ABIN (Agência Brasileira de Inteligência) a mando da presidente Dilma Rousseff.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	reprodução	reprodução	NOUN	_	Gender=Fem|Number=Sing	14	parataxis	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Jornal	Jornal	PROPN	_	_	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Cidade	Cidade	PROPN	_	_	5	flat:name	_	_
+9	)	)	PUNCT	_	_	2	punct	_	_
+10	Sérgio	Sérgio	PROPN	_	_	14	nsubj:pass	_	_
+11	Moro	Moro	PROPN	_	_	10	flat:name	_	_
+12	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+13	sendo	ser	AUX	_	VerbForm=Ger	14	aux:pass	_	_
+14	monitorado	monitorar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+15-16	pela	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ABIN	ABIN	PROPN	_	_	14	obl:agent	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Agência	Agência	PROPN	_	_	17	appos	_	_
+20	Brasileira	Brasileira	PROPN	_	_	19	flat:name	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Inteligência	Inteligência	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	19	punct	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	mando	mando	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	presidente	presidente	NOUN	_	Number=Sing	25	nmod	_	_
+29	Dilma	Dilma	PROPN	_	_	28	nmod	_	_
+30	Rousseff	Rousseff	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = Foi quando chegou ao conhecimento de Moro a informação de que a prisão de Lula já havia sido comunicada ao Palácio do Planalto.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	discourse	_	_
+2	quando	quando	ADV	_	_	3	advmod	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	conhecimento	conhecimento	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Moro	Moro	PROPN	_	_	6	nmod	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	informação	informação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+11	de	de	ADP	_	ExtPos=SCONJ	20	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Lula	Lula	PROPN	_	_	14	nmod	_	_
+17	já	já	ADV	_	_	20	advmod	_	_
+18	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+19	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	20	aux:pass	_	_
+20	comunicada	comunicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Palácio	Palácio	PROPN	_	_	20	obl	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Planalto	Planalto	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Dilma então tomou providências urgentes para frustrar o cárcere do ex-presidente, publicando um decreto extraordinário no diário oficial efetivando a nomeação do Lula para o cargo de Ministro-Chefe da Casa Civil.
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	então	então	ADV	_	_	3	advmod	_	_
+3	tomou	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	providências	providência	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	urgentes	urgente	ADJ	_	Number=Plur	4	amod	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	frustrar	frustrar	VERB	_	VerbForm=Inf	4	acl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cárcere	cárcere	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	publicando	publicar	VERB	_	VerbForm=Ger	3	advcl	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	extraordinário	extraordinário	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	diário	diário	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+21	oficial	oficial	ADJ	_	Number=Sing	20	amod	_	_
+22	efetivando	efetivar	VERB	_	VerbForm=Ger	14	advcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Lula	Lula	PROPN	_	_	24	nmod	_	_
+28	para	para	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Ministro-Chefe	Ministro-Chefe	PROPN	_	_	30	nmod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Casa	Casa	PROPN	_	_	32	nmod	_	_
+36	Civil	Civil	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = A partir daí, o petista já estaria gozando das prerrogativas inerentes ao cargo, mais precisamente o foro privilegiado.
+1	A	a	ADP	_	_	2	mark	_	_
+2	partir	partir	VERB	_	VerbForm=Inf	10	advcl	_	_
+3-4	daí	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	aí	aí	ADV	_	_	2	advmod	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	petista	petista	NOUN	_	Number=Sing	10	nsubj	_	_
+8	já	já	ADV	_	_	10	advmod	_	_
+9	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+10	gozando	gozar	VERB	_	VerbForm=Ger	0	root	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	prerrogativas	prerrogativa	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+14	inerentes	inerente	ADJ	_	Number=Plur	13	amod	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	mais	mais	ADV	_	_	20	advmod	_	_
+20	precisamente	precisamente	ADV	_	_	22	advmod	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	foro	foro	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+23	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = Diante da situação e indignado com a atuação criminosa da presidente da República, o juiz resolveu quebrar o sigilo do processo e dar publicidade, como de fato foi feito.
+1	Diante	diante	ADV	_	_	20	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	situação	situação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	indignado	indignado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	conj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	presidente	presidente	NOUN	_	Number=Sing	9	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	República	República	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	1	punct	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+20	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	quebrar	quebrar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sigilo	sigilo	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	processo	processo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	dar	dar	VERB	_	VerbForm=Inf	21	conj	_	_
+29	publicidade	publicidade	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	35	punct	_	_
+31	como	como	SCONJ	_	_	35	mark	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	fato	fato	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
+34	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	aux:pass	_	_
+35	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	advcl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	20	punct	_	_
+

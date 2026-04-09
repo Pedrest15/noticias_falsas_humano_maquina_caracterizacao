@@ -1,0 +1,230 @@
+# sent_id = S0001
+# text = Senado aprova medida que libera controle total da EBC para o presidente da República!
+1	Senado	Senado	PROPN	_	_	2	nsubj	_	_
+2	aprova	aprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	medida	medida	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	libera	liberar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	controle	controle	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	total	total	ADJ	_	Number=Sing	6	amod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	EBC	EBC	PROPN	_	_	6	nmod	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	presidente	presidente	NOUN	_	Number=Sing	5	obl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	República	República	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Com a nova MP, Michel Temer pode trocar a direção da emissora a qualquer instante, sem necessidade de justificativas.
+1	Com	com	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	nova	novo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	MP	MP	PROPN	_	_	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Michel	Michel	PROPN	_	_	8	nsubj	_	_
+7	Temer	Temer	PROPN	_	_	6	flat:name	_	_
+8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	trocar	trocar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	direção	direção	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	17	det	_	_
+17	instante	instante	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	sem	sem	ADP	_	_	20	case	_	_
+20	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	justificativas	justificativa	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = O texto foi aprovado com uma votação esmagadora, 47 a 13, e agora aguarda sanção presidencial.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	texto	texto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	votação	votação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	esmagadora	esmagador	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	47	47	NUM	_	NumType=Card	7	appos	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	13	13	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	agora	agora	ADV	_	_	16	advmod	_	_
+16	aguarda	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	sanção	sanção	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	presidencial	presidencial	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = A EBC, que gerencia importantes veículos como a "Agência Brasil", TV NBR e TV Brasil, perderá seu Conselho Curador, órgão que garantia a pluralidade e a autonomia editorial.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	EBC	EBC	PROPN	_	_	21	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	gerencia	gerenciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	importantes	importante	ADJ	_	Number=Plur	7	amod	_	_
+7	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8	como	como	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Agência	Agência	PROPN	_	_	7	nmod	_	_
+12	Brasil	Brasil	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	TV	TV	PROPN	_	_	11	conj	_	_
+16	NBR	NBR	PROPN	_	_	15	flat:name	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	TV	TV	PROPN	_	_	11	conj	_	_
+19	Brasil	Brasil	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	5	punct	_	_
+21	perderá	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+22	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	Conselho	Conselho	PROPN	_	_	21	obj	_	_
+24	Curador	Curador	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	órgão	órgão	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
+27	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+28	garantia	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	pluralidade	pluralidade	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	autonomia	autonomia	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+34	editorial	editorial	ADJ	_	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0009
+# text = Em seu lugar, será instalado um Comitê Editorial com poderes ampliados, permitindo ao governo direcionar os conteúdos veiculados.
+1	Em	em	ADP	_	_	3	case	_	_
+2	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	instalado	instalar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Comitê	Comitê	PROPN	_	_	6	nsubj:pass	_	_
+9	Editorial	Editorial	PROPN	_	_	8	flat:name	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	poderes	poder	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	ampliados	ampliar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	permitindo	permitir	VERB	_	VerbForm=Ger	6	advcl	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	governo	governo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	direcionar	direcionar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	conteúdos	conteúdo	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+21	veiculados	veicular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	20	acl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Essa mudança foi motivada por uma disputa entre Temer e o ex-diretor Ricardo Melo, que conseguiu uma liminar do STF para retornar ao cargo, mas agora verá essa decisão ser anulada.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	motivada	motivar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	disputa	disputa	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	entre	entre	ADP	_	_	9	case	_	_
+9	Temer	Temer	PROPN	_	_	7	nmod	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-diretor	ex-diretor	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+13	Ricardo	Ricardo	PROPN	_	_	12	nmod	_	_
+14	Melo	Melo	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	liminar	liminar	NOUN	_	Number=Sing	17	obj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	STF	STF	PROPN	_	_	19	nmod	_	_
+23	para	para	ADP	_	_	24	mark	_	_
+24	retornar	retornar	VERB	_	VerbForm=Inf	17	advcl	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	mas	mas	CCONJ	_	_	31	cc	_	_
+30	agora	agora	ADV	_	_	31	advmod	_	_
+31	verá	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	conj	_	_
+32	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+33	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	ser	ser	AUX	_	VerbForm=Inf	35	aux:pass	_	_
+35	anulada	anular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	31	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = A nomeação de Laerte Rímoli, ex-chefe de comunicação da Câmara durante a gestão controversa de Eduardo Cunha, permanece intacta, levantando preocupações sobre a independência da mídia estatal.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Laerte	Laerte	PROPN	_	_	2	nmod	_	_
+5	Rímoli	Rímoli	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ex-chefe	ex-chefe	NOUN	_	Number=Sing	4	appos	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Câmara	Câmara	PROPN	_	_	9	nmod	_	_
+13	durante	durante	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+16	controversa	controverso	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Eduardo	Eduardo	PROPN	_	_	15	nmod	_	_
+19	Cunha	Cunha	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	7	punct	_	_
+21	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	intacta	intacto	ADJ	_	Gender=Fem|Number=Sing	21	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	levantando	levantar	VERB	_	VerbForm=Ger	21	advcl	_	_
+25	preocupações	preocupação	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+26	sobre	sobre	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	independência	independência	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	estatal	estatal	ADJ	_	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0015
+# text = Será o fim da imparcialidade na comunicação pública?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fim	fim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	imparcialidade	imparcialidade	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	pública	público	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	3	punct	_	_
+

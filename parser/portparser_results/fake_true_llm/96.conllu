@@ -1,0 +1,258 @@
+# sent_id = S0001
+# text = Urgente: STF decide que inadimplentes não poderão dirigir nem sair do país!
+1	Urgente	urgente	ADJ	_	Number=Sing	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	STF	STF	PROPN	_	_	4	nsubj	_	_
+4	decide	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	inadimplentes	inadimplente	NOUN	_	Number=Plur	8	nsubj	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+9	dirigir	dirigir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	nem	nem	ADV	_	_	11	cc	_	_
+11	sair	sair	VERB	_	VerbForm=Inf	9	conj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	país	país	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Em uma decisão surpreendente, o Supremo Tribunal Federal (STF) acatou o pedido do Partido dos Trabalhadores (PT) para endurecer as regras contra devedores inadimplentes.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+4	surpreendente	surpreendente	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Supremo	Supremo	PROPN	_	_	13	nsubj	_	_
+8	Tribunal	Tribunal	PROPN	_	_	7	flat:name	_	_
+9	Federal	Federal	PROPN	_	_	7	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	STF	STF	PROPN	_	_	7	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	acatou	acatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Partido	Partido	PROPN	_	_	15	nmod	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Trabalhadores	Trabalhadores	PROPN	_	_	18	flat:name	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	PT	PT	PROPN	_	_	18	appos	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	para	para	ADP	_	_	26	mark	_	_
+26	endurecer	endurecer	VERB	_	VerbForm=Inf	15	acl	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	regras	regra	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+29	contra	contra	ADP	_	_	30	case	_	_
+30	devedores	devedor	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+31	inadimplentes	inadimplente	ADJ	_	Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = A partir de agora, quem não quitar suas dívidas poderá ter a Carteira Nacional de Habilitação (CNH) e o passaporte apreendidos, ficando impedido de dirigir e de deixar o território nacional.
+1	A	a	ADP	_	_	2	mark	_	_
+2	partir	partir	VERB	_	VerbForm=Inf	11	advcl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	agora	agora	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	quem	quem	PRON	_	PronType=Ind	11	nsubj	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	quitar	quitar	VERB	_	VerbForm=Inf	6	acl:relcl	_	_
+9	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	dívidas	dívida	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	ter	ter	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Carteira	Carteira	PROPN	_	_	12	obj	_	_
+15	Nacional	Nacional	PROPN	_	_	14	flat:name	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Habilitação	Habilitação	PROPN	_	_	14	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	CNH	CNH	PROPN	_	_	14	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	passaporte	passaporte	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+24	apreendidos	apreender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	ficando	ficar	VERB	_	VerbForm=Ger	11	advcl	_	_
+27	impedido	impedido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	26	xcomp	_	_
+28	de	de	ADP	_	_	29	mark	_	_
+29	dirigir	dirigir	VERB	_	VerbForm=Inf	27	xcomp	_	_
+30	e	e	CCONJ	_	_	32	cc	_	_
+31	de	de	ADP	_	_	32	mark	_	_
+32	deixar	deixar	VERB	_	VerbForm=Inf	29	conj	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	território	território	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
+35	nacional	nacional	ADJ	_	Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Segundo fontes próximas ao tribunal, a medida visa garantir que os brasileiros cumpram com suas obrigações financeiras, evitando a fuga de devedores e assegurando a efetividade das decisões judiciais.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+3	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	medida	medida	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	garantir	garantir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	cumpram	cumprir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	obrigações	obrigação	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+19	financeiras	financeiro	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	evitando	evitar	VERB	_	VerbForm=Ger	15	advcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fuga	fuga	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	devedores	devedor	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	assegurando	assegurar	VERB	_	VerbForm=Ger	21	conj	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	efetividade	efetividade	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+30-31	das	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	_
+33	judiciais	judicial	ADJ	_	Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Além disso, o STF determinou que inadimplentes serão proibidos de participar de concursos públicos e licitações com o poder público.
+1	Além	além	ADV	_	_	7	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	STF	STF	PROPN	_	_	7	nsubj	_	_
+7	determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	11	mark	_	_
+9	inadimplentes	inadimplente	NOUN	_	Number=Plur	11	nsubj:pass	_	_
+10	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	aux:pass	_	_
+11	proibidos	proibir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	participar	participar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	concursos	concurso	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16	públicos	público	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	licitações	licitação	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	poder	poder	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	público	público	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Os ministros destacaram que essas ações são necessárias para coibir a inadimplência crescente no país e que serão aplicadas de forma a respeitar direitos fundamentais, como saúde e segurança, sempre seguindo os princípios da proporcionalidade e razoabilidade.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	destacaram	destacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	ações	ação	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	necessárias	necessário	ADJ	_	Gender=Fem|Number=Plur	3	ccomp	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	coibir	coibir	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	inadimplência	inadimplência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	crescente	crescente	ADJ	_	Number=Sing	12	amod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+17	e	e	CCONJ	_	_	20	cc	_	_
+18	que	que	SCONJ	_	_	20	mark	_	_
+19	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	20	aux:pass	_	_
+20	aplicadas	aplicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	8	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	forma	forma	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+23	a	a	ADP	_	_	24	mark	_	_
+24	respeitar	respeitar	VERB	_	VerbForm=Inf	22	acl	_	_
+25	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+26	fundamentais	fundamental	ADJ	_	Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	como	como	ADP	_	_	29	case	_	_
+29	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	segurança	segurança	NOUN	_	Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	sempre	sempre	ADV	_	_	34	advmod	_	_
+34	seguindo	seguir	VERB	_	VerbForm=Ger	24	advcl	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	princípios	princípio	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	proporcionalidade	proporcionalidade	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+40	e	e	CCONJ	_	_	41	cc	_	_
+41	razoabilidade	razoabilidade	NOUN	_	Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Entenda como essa decisão impacta milhões de brasileiros e prepare-se para as mudanças.
+1	Entenda	entender	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	como	como	ADV	_	_	5	advmod	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	impacta	impactar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10-11	prepare-se	_	_	_	_	_	_	_	_
+10	prepare	preparar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mudanças	mudança	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Fique atento e mantenha suas contas em dia para não perder seus direitos!
+1	Fique	ficar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	atento	atento	ADJ	_	Gender=Masc|Number=Sing	1	xcomp	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	mantenha	manter	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+5	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	contas	conta	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	dia	dia	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	para	para	ADP	_	_	11	mark	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	perder	perder	VERB	_	VerbForm=Inf	4	advcl	_	_
+12	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = Vídeo: Veja como identificar se uma mensagem é falsa.
+1	Vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+4	como	como	ADV	_	_	5	advmod	_	_
+5	identificar	identificar	VERB	_	VerbForm=Inf	3	ccomp	_	_
+6	se	se	SCONJ	_	_	10	mark	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	falsa	falso	ADJ	_	Gender=Fem|Number=Sing	5	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+

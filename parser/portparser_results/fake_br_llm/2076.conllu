@@ -1,0 +1,428 @@
+# sent_id = S0001
+# text = Exclusivo: Triplex de luxo no Guarujá, supostamente de Lula, avaliado em R$ 10 milhões!
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Triplex	triplex	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Guarujá	Guarujá	PROPN	_	_	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	supostamente	supostamente	ADV	_	_	12	advmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Lula	Lula	PROPN	_	_	3	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	avaliado	avaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	R$	R$	SYM	_	_	18	nmod	_	_
+17	10	10	NUM	_	NumType=Card	18	nummod	_	_
+18	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = O imóvel, atribuído ao ex-presidente pelo Ministério Público Federal (MPF), teria sido presente de um grande empresário amigo, João Pinheiro, em um gesto de gratidão por favores políticos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	imóvel	imóvel	NOUN	_	Number=Sing	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	atribuído	atribuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ex-presidente	ex-presidente	NOUN	_	Number=Sing	4	obl	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ministério	Ministério	PROPN	_	_	4	obl:agent	_	_
+11	Público	Público	PROPN	_	_	10	flat:name	_	_
+12	Federal	Federal	PROPN	_	_	10	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	MPF	MPF	PROPN	_	_	10	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	19	aux	_	_
+18	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	19	cop	_	_
+19	presente	presente	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	grande	grande	ADJ	_	Number=Sing	23	amod	_	_
+23	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+24	amigo	amigo	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	João	João	PROPN	_	_	23	appos	_	_
+27	Pinheiro	Pinheiro	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	gesto	gesto	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	gratidão	gratidão	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	por	por	ADP	_	_	35	case	_	_
+35	favores	favor	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
+36	políticos	político	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0005
+# text = A avaliação judicial, determinada pelo renomado juiz Sérgio Moro, revelou detalhes surpreendentes sobre o apartamento, que incluem uma suíte master com vista panorâmica para o mar, um spa privativo, e uma adega climatizada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	judicial	judicial	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	determinada	determinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	9	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	renomado	renomado	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
+10	Sérgio	Sérgio	PROPN	_	_	9	nmod	_	_
+11	Moro	Moro	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	surpreendentes	surpreendente	ADJ	_	Number=Plur	14	amod	_	_
+16	sobre	sobre	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	incluem	incluir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	suíte	suíte	NOUN	_	Number=Sing	21	obj	_	_
+24	master	master	X	_	Foreign=Yes	23	amod	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	vista	vista	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	panorâmica	panorâmico	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	para	para	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mar	mar	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	spa	spa	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	23	conj	_	_
+34	privativo	privativo	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	e	e	CCONJ	_	_	38	cc	_	_
+37	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	adega	adega	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+39	climatizada	climatizado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = A condenação de Lula em duas instâncias agora soma 15 anos de prisão, com a acusação de corrupção passiva e lavagem de dinheiro ganhando novos contornos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	nmod	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	duas	dois	NUM	_	Gender=Fem|NumType=Card	7	nummod	_	_
+7	instâncias	instância	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+8	agora	agora	ADV	_	_	9	advmod	_	_
+9	soma	somar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	15	15	NUM	_	NumType=Card	11	nummod	_	_
+11	anos	ano	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	passiva	passivo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	ganhando	ganhar	VERB	_	VerbForm=Ger	17	acl	_	_
+26	novos	novo	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
+27	contornos	contorno	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com fontes anônimas dentro do MPF, o triplex teria sido reformado com acabamentos de alto padrão, pagos por uma conta secreta destinada a políticos influentes.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	dentro	dentro	ADV	_	_	4	advmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	MPF	MPF	PROPN	_	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	triplex	triplex	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+13	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	aux	_	_
+14	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	15	aux:pass	_	_
+15	reformado	reformar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	acabamentos	acabamento	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	alto	alto	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	pagos	pagar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	17	acl	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	conta	conta	NOUN	_	Gender=Fem|Number=Sing	22	obl:agent	_	_
+26	secreta	secreto	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	destinada	destinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	25	acl	_	_
+28	a	a	ADP	_	_	29	case	_	_
+29	políticos	político	NOUN	_	Gender=Masc|Number=Plur	27	obl	_	_
+30	influentes	influente	ADJ	_	Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = As reformas teriam incluído decoração assinada por um designer internacional e tecnologia de ponta em toda a residência.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	reformas	reforma	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	4	aux	_	_
+4	incluído	incluír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	decoração	decoração	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	assinada	assinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	designer	designer	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	internacional	internacional	ADJ	_	Number=Sing	9	amod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	ponta	ponta	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	residência	residência	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = A oficial de Justiça, Flávia Matos Vaz, destacou em seu laudo que o imóvel está equipado com um elevador panorâmico de última geração, além de móveis de design moderno e equipamentos de cozinha gourmet.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	oficial	oficial	NOUN	_	Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Justiça	Justiça	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Flávia	Flávia	PROPN	_	_	2	appos	_	_
+7	Matos	Matos	PROPN	_	_	6	flat:name	_	_
+8	Vaz	Vaz	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	laudo	laudo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	que	que	SCONJ	_	_	18	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	imóvel	imóvel	NOUN	_	Number=Sing	18	nsubj	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	equipado	equipado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	ccomp	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	elevador	elevador	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	panorâmico	panorâmico	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	última	último	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+25	geração	geração	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	além	além	ADV	_	_	18	advmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	móveis	móvel	NOUN	_	Number=Plur	27	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	design	design	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32	moderno	moderno	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	29	conj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	cozinha	cozinha	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+37	gourmet	gourmet	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = "O triplex não apenas possui uma localização ímpar, mas é um verdadeiro oásis de luxo, com itens que jamais seriam encontrados em uma avaliação comum", afirmou.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	triplex	triplex	PROPN	_	_	6	nsubj	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	apenas	apenas	ADV	_	_	6	advmod	_	_
+6	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp:speech	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	localização	localização	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	ímpar	ímpar	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	mas	mas	CCONJ	_	_	15	cc	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	oásis	oásis	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	itens	item	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+21	que	que	PRON	_	PronType=Rel	24	nsubj:pass	_	_
+22	jamais	jamais	ADV	_	_	24	advmod	_	_
+23	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	24	aux:pass	_	_
+24	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	comum	comum	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	6	punct	_	_
+31	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = S0017
+# text = A defesa de Lula, liderada pelo advogado Cristiano Zanin, reagiu com indignação: Essas acusações são absurdas e sem fundamento.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	liderada	liderar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	Cristiano	Cristiano	PROPN	_	_	9	nmod	_	_
+11	Zanin	Zanin	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	indignação	indignação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	20	punct	_	_
+17	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	absurdas	absurdo	ADJ	_	Gender=Fem|Number=Plur	13	parataxis	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	sem	sem	ADP	_	_	23	case	_	_
+23	fundamento	fundamento	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = Lula nunca recebeu tal imóvel e não passa de uma tentativa de manipular a opinião pública.
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	nunca	nunca	ADV	_	_	3	advmod	_	_
+3	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	tal	tal	DET	_	Number=Sing|PronType=Dem	5	det	_	_
+5	imóvel	imóvel	NOUN	_	Number=Sing	3	obj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	manipular	manipular	VERB	_	VerbForm=Inf	11	acl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	pública	público	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = É mais uma prova de 'lawfare', uma campanha de difamação política sem precedentes.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	mais	mais	ADV	_	_	3	advmod	_	_
+3	uma	um	NUM	_	Gender=Fem|NumType=Card	4	nummod	_	_
+4	prova	prova	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	lawfare	lawfare	X	_	Foreign=Yes	4	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	difamação	difamação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	política	político	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	sem	sem	ADP	_	_	16	case	_	_
+16	precedentes	precedente	NOUN	_	Number=Plur	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = No entanto, documentos vazados sugerem que as chaves do triplex estavam sob posse direta de familiares de Lula, contrariando a versão oficial.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	7	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	vazados	vazar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	16	mark	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	chaves	chave	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	triplex	triplex	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	sob	sob	ADP	_	_	16	case	_	_
+16	posse	posse	NOUN	_	Gender=Fem|Number=Sing	7	ccomp	_	_
+17	direta	direto	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	familiares	familiar	NOUN	_	Number=Plur	16	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Lula	Lula	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	contrariando	contrariar	VERB	_	VerbForm=Ger	16	advcl	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	versão	versão	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	oficial	oficial	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0025
+# text = O leilão eletrônico do triplex está previsto para ocorrer em breve, com expectativas de que o imóvel supere o valor de avaliação devido à sua notoriedade e características exclusivas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	leilão	leilão	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	eletrônico	eletrônico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	triplex	triplex	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	previsto	previsto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	ocorrer	ocorrer	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	breve	breve	ADJ	_	Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	expectativas	expectativa	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+16	de	de	ADP	_	ExtPos=SCONJ	20	mark	_	_
+17	que	que	SCONJ	_	_	16	fixed	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	imóvel	imóvel	NOUN	_	Number=Sing	20	nsubj	_	_
+20	supere	superar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	valor	valor	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+26-27	à	_	_	_	_	_	_	_	_
+26	a	a	ADP	_	_	29	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	notoriedade	notoriedade	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	características	característica	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
+32	exclusivas	exclusivo	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0027
+# text = Será que o verdadeiro dono vai se manifestar antes do leilão?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	discourse	_	_
+2	que	que	SCONJ	_	_	8	discourse	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	dono	dono	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+8	manifestar	manifestar	VERB	_	VerbForm=Inf	0	root	_	_
+9	antes	antes	ADV	_	_	8	advmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	leilão	leilão	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	8	punct	_	_
+

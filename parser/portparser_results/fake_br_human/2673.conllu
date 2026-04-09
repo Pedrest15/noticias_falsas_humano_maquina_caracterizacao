@@ -1,0 +1,356 @@
+# sent_id = S0001
+# text = Pedido de cassação de Eduardo Cunha é aprovado no Conselho de Ética.
+1	Pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Eduardo	Eduardo	PROPN	_	_	3	nmod	_	_
+6	Cunha	Cunha	PROPN	_	_	5	flat:name	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Conselho	Conselho	PROPN	_	_	8	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Ética	Ética	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = 11 deputados votaram a favor da cassação e 9 votaram contra.
+1	11	11	NUM	_	NumType=Card	2	nummod	_	_
+2	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	votaram	votar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	favor	favor	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	9	9	NUM	_	NumType=Card	11	nsubj	_	_
+11	votaram	votar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	contra	contra	ADP	_	_	11	case	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O Conselho de Ética aprovou, agora pouco (às 17:50h) o parecer que pede a cassação do presidente da Câmara afastado, Eduardo Cunha.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Conselho	Conselho	PROPN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Ética	Ética	PROPN	_	_	2	flat:name	_	_
+5	aprovou	aprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	agora	agora	ADV	_	_	8	advmod	_	_
+8	pouco	pouco	ADV	_	_	5	advmod	_	_
+9	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10-11	às	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	17:50h	17:50h	NOUN	_	_	5	obl	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	parecer	parecer	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	presidente	presidente	NOUN	_	Number=Sing	19	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Câmara	Câmara	PROPN	_	_	22	nmod	_	_
+26	afastado	afastado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	22	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	Eduardo	Eduardo	PROPN	_	_	22	appos	_	_
+29	Cunha	Cunha	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Tia Eron, que teve o voto decisivo, votou a favor da cassação e foi aplaudida pelos parlamentares e presentes.
+1	Tia	tio	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+2	Eron	Eron	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	voto	voto	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	decisivo	decisivo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	votou	votar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	favor	favor	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	aplaudida	aplaudir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	conj	_	_
+19-20	pelos	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	18	obl:agent	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	presentes	presente	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = O relatório aprovado será encaminhado para a Comissão de Constituição e Justiça (CCJ), que avaliará os recursos que questionam os procedimentos do Conselho de Ética.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	encaminhado	encaminhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Comissão	Comissão	PROPN	_	_	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Constituição	Constituição	PROPN	_	_	8	flat:name	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Justiça	Justiça	PROPN	_	_	8	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	CCJ	CCJ	PROPN	_	_	8	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	avaliará	avaliar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+21	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+22	questionam	questionar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	procedimentos	procedimento	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Conselho	Conselho	PROPN	_	_	24	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Ética	Ética	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Se o colegiado rejeitar todos os recursos, o processo segue para o plenário da Câmara, que decide pela cassação ou manutenção do mandato.
+1	Se	se	SCONJ	_	_	4	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	colegiado	colegiado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	rejeitar	rejeitar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	11	advcl	_	_
+5	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	processo	processo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Câmara	Câmara	PROPN	_	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	decide	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+24	ou	ou	CCONJ	_	_	25	cc	_	_
+25	manutenção	manutenção	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = No plenário, a possibilidade de Cunha escapar dos votos abertos é praticamente ZERO!
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+7	de	de	ADP	_	_	9	mark	_	_
+8	Cunha	Cunha	PROPN	_	_	9	nsubj	_	_
+9	escapar	escapar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	6	acl	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	votos	voto	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+13	abertos	aberto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	12	amod	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	praticamente	praticamente	ADV	_	_	16	advmod	_	_
+16	ZERO	zero	ADJ	_	_	0	root	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0015
+# text = O poder não dura para sempre!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	poder	poder	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	dura	durar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	para	para	ADP	_	_	6	case	_	_
+6	sempre	sempre	ADV	_	_	4	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Eduardo Cunha (PMDB), deputado que perdeu o mandato hoje (14) e está prestes a ser julgado pelo STF, mandou um recado ao presidente Michel Temer: A informação é da coluna de Andreza Matais e Marcello de Moraes, no Estado: Cunha diz a interlocutores que, se cair, será atirando Eduardo Cunha mandou avisar a Michel Temer que, se não for salvo, leva com ele para o fundo do poço 150 deputados federais, um senador e um ministro próximo ao interino.
+1	Eduardo	Eduardo	PROPN	_	_	26	nsubj	_	_
+2	Cunha	Cunha	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	PMDB	PMDB	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	hoje	hoje	ADV	_	_	9	advmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	14	14	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	prestes	preste	ADJ	_	Number=Plur	9	conj	_	_
+19	a	a	ADP	_	_	21	mark	_	_
+20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
+21	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+22-23	pelo	_	_	_	_	_	_	_	_
+22	por	por	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	STF	STF	PROPN	_	_	21	obl:agent	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	7	punct	_	_
+26	mandou	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	recado	recado	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29-30	ao	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	presidente	presidente	NOUN	_	Number=Sing	26	obl	_	_
+32	Michel	Michel	PROPN	_	_	31	nmod	_	_
+33	Temer	Temer	PROPN	_	_	32	flat:name	_	SpaceAfter=No
+34	:	:	PUNCT	_	_	54	punct	_	_
+35	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	informação	informação	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	_
+37	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	26	parataxis	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	Andreza	Andreza	PROPN	_	_	40	nmod	_	_
+43	Matais	Matais	PROPN	_	_	42	flat:name	_	_
+44	e	e	CCONJ	_	_	45	cc	_	_
+45	Marcello	Marcello	PROPN	_	_	42	conj	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	Moraes	Moraes	PROPN	_	_	45	flat:name	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	51	punct	_	_
+49-50	no	_	_	_	_	_	_	_	_
+49	em	em	ADP	_	_	51	case	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	Estado	Estado	PROPN	_	_	40	nmod	_	SpaceAfter=No
+52	:	:	PUNCT	_	_	54	punct	_	_
+53	Cunha	Cunha	PROPN	_	_	54	nsubj	_	_
+54	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
+55	a	a	ADP	_	_	56	case	_	_
+56	interlocutores	interlocutor	NOUN	_	Gender=Masc|Number=Plur	54	obl	_	_
+57	que	que	SCONJ	_	_	63	mark	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	60	punct	_	_
+59	se	se	SCONJ	_	_	60	mark	_	_
+60	cair	cair	VERB	_	VerbForm=Inf	96	advcl	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	60	punct	_	_
+62	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	63	aux:pass	_	_
+63	atirando	atirar	VERB	_	VerbForm=Ger	18	acl	_	_
+64	Eduardo	Eduardo	PROPN	_	_	26	nsubj	_	_
+65	Cunha	Cunha	PROPN	_	_	64	flat:name	_	_
+66	mandou	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	root	_	_
+67	avisar	avisar	VERB	_	VerbForm=Inf	66	xcomp	_	_
+68	a	a	ADP	_	_	69	case	_	_
+69	Michel	Michel	PROPN	_	_	67	obl	_	_
+70	Temer	Temer	PROPN	_	_	69	flat:name	_	_
+71	que	que	SCONJ	_	_	78	mark	_	SpaceAfter=No
+72	,	,	PUNCT	_	_	76	punct	_	_
+73	se	se	SCONJ	_	_	76	mark	_	_
+74	não	não	ADV	_	_	76	advmod	_	_
+75	for	for	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	76	aux:pass	_	_
+76	salvo	salvar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	78	advcl	_	SpaceAfter=No
+77	,	,	PUNCT	_	_	76	punct	_	_
+78	leva	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	ccomp	_	_
+79	com	com	ADP	_	_	80	case	_	_
+80	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	78	obl	_	_
+81	para	para	ADP	_	_	83	case	_	_
+82	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	83	det	_	_
+83	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	78	obl	_	_
+84-85	do	_	_	_	_	_	_	_	_
+84	de	de	ADP	_	_	86	case	_	_
+85	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
+86	poço	poço	NOUN	_	Gender=Masc|Number=Sing	83	nmod	_	_
+87	150	150	NUM	_	NumType=Card	88	nummod	_	_
+88	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	78	obj	_	_
+89	federais	federal	ADJ	_	Number=Plur	88	amod	_	SpaceAfter=No
+90	,	,	PUNCT	_	_	92	punct	_	_
+91	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	92	det	_	_
+92	senador	senador	NOUN	_	Gender=Masc|Number=Sing	88	conj	_	_
+93	e	e	CCONJ	_	_	95	cc	_	_
+94	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	95	det	_	_
+95	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	88	conj	_	_
+96	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	95	amod	_	_
+97-98	ao	_	_	_	_	_	_	_	_
+97	a	a	ADP	_	_	99	case	_	_
+98	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	99	det	_	_
+99	interino	interino	NOUN	_	Gender=Masc|Number=Sing	96	obl	_	SpaceAfter=No
+100	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0019
+# text = Cunha teme ser preso e quer proteger a si mesmo e sua esposa Cláudia Cruz.
+1	Cunha	Cunha	PROPN	_	_	2	nsubj	_	_
+2	teme	temer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	proteger	proteger	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	si	si	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+10	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+14	Cláudia	Cláudia	PROPN	_	_	13	nmod	_	_
+15	Cruz	Cruz	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = Cláudia virou ré da Lava Jato por "lavar" US$ 1 mi de propina.
+1	Cláudia	Cláudia	PROPN	_	_	2	nsubj	_	_
+2	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ré	ré	NOUN	_	Number=Sing	2	xcomp	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Lava	Lava	PROPN	_	_	3	nmod	_	_
+7	Jato	Jato	PROPN	_	_	6	flat:name	_	_
+8	por	por	ADP	_	_	10	mark	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	lavar	lavar	VERB	_	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	14	punct	_	_
+12	US$	US$	SYM	_	_	14	nmod	_	_
+13	1	1	NUM	_	NumType=Card	14	nummod	_	_
+14	mi	mi	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	propina	propina	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = leia aqui...
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aqui	aqui	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	...	...	PUNCT	_	_	1	punct	_	_
+

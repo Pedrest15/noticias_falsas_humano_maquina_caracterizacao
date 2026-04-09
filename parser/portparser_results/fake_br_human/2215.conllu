@@ -1,0 +1,177 @@
+# sent_id = S0001
+# text = Dinheiro do seu imposto!
+1	Dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	imposto	imposto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = MST e MTST receberam mais de R$ 232 milhões nos governos petistas.
+1	MST	MST	PROPN	_	_	4	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	MTST	MTST	PROPN	_	_	1	conj	_	_
+4	receberam	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	mais	mais	ADV	_	ExtPos=ADV	9	advmod	_	_
+6	de	de	ADP	_	_	5	fixed	_	_
+7	R$	R$	SYM	_	_	9	nmod	_	_
+8	232	232	NUM	_	NumType=Card	9	nummod	_	_
+9	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+10-11	nos	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	governos	governo	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+13	petistas	petista	ADJ	_	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = O Movimento dos Sem Terra, sob o comando de João Pedro Stédile, recebeu R$ 152 milhões no primeiro mandato petista.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Movimento	Movimento	PROPN	_	_	16	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Sem	Sem	PROPN	_	_	2	flat:name	_	_
+6	Terra	Terra	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	sob	sob	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	comando	comando	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	João	João	PROPN	_	_	10	nmod	_	_
+13	Pedro	Pedro	PROPN	_	_	12	flat:name	_	_
+14	Stédile	Stédile	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	R$	R$	SYM	_	_	19	nmod	_	_
+18	152	152	NUM	_	NumType=Card	19	nummod	_	_
+19	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	23	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+24	petista	petista	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = O MTST, de Guilherme Boulos, recebeu (somente em 2014) mais de R$ 80 milhões do programa Minha Casa, Minha Vida.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	MTST	MTST	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Guilherme	Guilherme	PROPN	_	_	2	nmod	_	_
+6	Boulos	Boulos	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10	somente	somente	ADV	_	_	12	advmod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	2014	2014	NUM	_	NumType=Card	8	obl	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	mais	mais	ADV	_	ExtPos=ADV	18	advmod	_	_
+15	de	de	ADP	_	_	14	fixed	_	_
+16	R$	R$	SYM	_	_	18	nmod	_	_
+17	80	80	NUM	_	NumType=Card	18	nummod	_	_
+18	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	programa	programa	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+22	Minha	Minha	PROPN	_	_	21	nmod	_	_
+23	Casa	Casa	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	Minha	Minha	PROPN	_	_	22	flat:name	_	_
+26	Vida	Vida	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Dirigentes estudantis e sindicais também andaram mamando nas tetas públicas.
+1	Dirigentes	dirigente	NOUN	_	Number=Plur	6	nsubj	_	_
+2	estudantis	estudantil	ADJ	_	Number=Plur	1	amod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	sindicais	sindical	ADJ	_	Number=Plur	2	conj	_	_
+5	também	também	ADV	_	_	6	advmod	_	_
+6	andaram	andar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	mamando	mamar	VERB	_	VerbForm=Ger	6	xcomp	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	tetas	teta	NOUN	_	Number=Plur	7	obl	_	_
+11	públicas	público	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = O presidente da CUT, Vagner Freitas foi outro que engordou seus rendimentos com a participação em reuniões do conselho do BNDES.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	CUT	CUT	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Vagner	Vagner	PROPN	_	_	2	appos	_	_
+8	Freitas	Freitas	PROPN	_	_	7	flat:name	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	engordou	engordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+13	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	rendimentos	rendimento	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	participação	participação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	reuniões	reunião	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	conselho	conselho	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	BNDES	BNDES	PROPN	_	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = É por isso que eles estão "tocando" fogo no país!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	discourse	_	_
+2	por	por	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
+4	que	que	SCONJ	_	_	8	discourse	_	_
+5	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	tocando	tocar	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = Eles estão se lixando com o povo [...] só não querem é perder a mamata.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	lixando	lixar	VERB	_	VerbForm=Ger	0	root	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	povo	povo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+10	..	..	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	9	punct	_	_
+12	só	só	ADV	_	_	14	advmod	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	querem	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	perder	perder	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mamata	mamata	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+

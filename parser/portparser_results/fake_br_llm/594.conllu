@@ -1,0 +1,244 @@
+# sent_id = S0001
+# text = Urgente: Crise iminente no Vale do Silício!
+1	Urgente	urgente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Crise	crise	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+4	iminente	iminente	ADJ	_	Number=Sing	3	amod	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Vale	Vale	PROPN	_	_	3	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Silício	Silício	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Empresas como Uber e Airbnb à beira do colapso financeiro.
+1	Empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	como	como	ADP	_	_	3	case	_	_
+3	Uber	Uber	PROPN	_	_	1	nmod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	Airbnb	Airbnb	PROPN	_	_	3	conj	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	beira	beira	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	colapso	colapso	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Especialistas alertam que a bolha de tecnologia está prestes a estourar, repetindo o crash pontocom de 2000.
+1	Especialistas	especialista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	alertam	alertar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	9	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	prestes	preste	ADJ	_	Number=Plur	2	ccomp	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	estourar	estourar	VERB	_	VerbForm=Inf	9	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	repetindo	repetir	VERB	_	VerbForm=Ger	9	advcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	crash	crash	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	13	obj	_	_
+16	pontocom	pontocom	X	_	Foreign=Yes	15	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	2000	2000	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Startups supostamente valiosas, como Pinterest e Snapchat, enfrentam questionamentos sobre suas reais capacidades de gerar lucro.
+1	Startups	startup	NOUN	_	Foreign=Yes|Gender=Fem|Number=Plur	10	nsubj	_	_
+2	supostamente	supostamente	ADV	_	_	3	advmod	_	_
+3	valiosas	valioso	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	como	como	ADP	_	_	6	case	_	_
+6	Pinterest	Pinterest	PROPN	_	_	1	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	Snapchat	Snapchat	PROPN	_	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	enfrentam	enfrentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	questionamentos	questionamento	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+12	sobre	sobre	ADP	_	_	15	case	_	_
+13	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+14	reais	real	ADJ	_	Number=Plur	15	amod	_	_
+15	capacidades	capacidade	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	gerar	gerar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	lucro	lucro	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Investidores estão em pânico, temendo que valorizações bilionárias sejam insustentáveis.
+1	Investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	pânico	pânico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	temendo	temer	VERB	_	VerbForm=Ger	4	advcl	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	valorizações	valorização	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	bilionárias	bilionário	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	insustentáveis	insustentável	ADJ	_	Number=Plur	6	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = As empresas-unicórnio, agora mais de 100 nos Estados Unidos, podem enfrentar um "rebaixamento" em massa, levando à perda de bilhões de dólares em valor de mercado.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	empresas-unicórnio	empresas-unicórnio	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	agora	agora	ADV	_	_	7	advmod	_	_
+5	mais	mais	ADV	_	ExtPos=ADV	7	advmod	_	_
+6	de	de	ADP	_	_	5	fixed	_	_
+7	100	100	NUM	_	NumType=Card	2	nmod	_	_
+8-9	nos	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Estados	Estados	PROPN	_	_	7	nmod	_	_
+11	Unidos	Unidos	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	enfrentar	enfrentar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	rebaixamento	rebaixamento	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	massa	massa	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	levando	levar	VERB	_	VerbForm=Ger	14	advcl	_	_
+23-24	à	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	perda	perda	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	valor	valor	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = Além disso, a guerra por talentos elevou salários a níveis estratosféricos, enquanto os preços dos imóveis em São Francisco atingem picos alarmantes, expulsando moradores locais.
+1	Além	além	ADV	_	_	9	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	talentos	talento	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	elevou	elevar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	salários	salário	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+13	estratosféricos	estratosférico	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	24	punct	_	_
+15	enquanto	enquanto	SCONJ	_	_	24	mark	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	preços	preço	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+18-19	dos	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	imóveis	imóvel	NOUN	_	Number=Plur	17	nmod	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	São	São	PROPN	_	_	20	nmod	_	_
+23	Francisco	Francisco	PROPN	_	_	22	flat:name	_	_
+24	atingem	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+25	picos	pico	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+26	alarmantes	alarmante	ADJ	_	Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	expulsando	expulsar	VERB	_	VerbForm=Ger	24	advcl	_	_
+29	moradores	morador	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+30	locais	local	ADJ	_	Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = A cidade vive um clima de tensão, com comparações crescentes ao Occupy Wall Street.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	clima	clima	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	comparações	comparação	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+11	crescentes	crescente	ADJ	_	Number=Plur	10	amod	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Occupy	Occupy	PROPN	_	_	10	nmod	_	_
+15	Wall	Wall	PROPN	_	_	14	flat:name	_	_
+16	Street	Street	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Especialistas como Bill Gurley e Naval Ravikant preveem uma desaceleração severa, e o medo de uma nova crise financeira se espalha entre os empreendedores.
+1	Especialistas	especialista	NOUN	_	Number=Plur	8	nsubj	_	_
+2	como	como	ADP	_	_	3	case	_	_
+3	Bill	Bill	PROPN	_	_	1	nmod	_	_
+4	Gurley	Gurley	PROPN	_	_	3	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Naval	Naval	PROPN	_	_	3	conj	_	_
+7	Ravikant	Ravikant	PROPN	_	_	6	flat:name	_	_
+8	preveem	prever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	desaceleração	desaceleração	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	severa	severo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	22	punct	_	_
+13	e	e	CCONJ	_	_	22	cc	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	medo	medo	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	nova	novo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+19	crise	crise	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	22	expl	_	_
+22	espalha	espalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+23	entre	entre	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	empreendedores	empreendedor	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Prepare-se para a queda: o Vale do Silício pode não ser mais o eldorado que todos imaginam.
+1-2	Prepare-se	_	_	_	_	_	_	_	_
+1	Prepare	preparar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	queda	queda	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	12	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Vale	Vale	PROPN	_	_	12	nsubj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Silício	Silício	PROPN	_	_	8	flat:name	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+13	não	não	ADV	_	_	17	advmod	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	17	cop	_	_
+15	mais	mais	ADV	_	_	17	advmod	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	eldorado	eldorado	NOUN	_	Gender=Masc|Number=Sing	12	xcomp	_	_
+18	que	que	PRON	_	PronType=Rel	20	obj	_	_
+19	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	20	nsubj	_	_
+20	imaginam	imaginar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+

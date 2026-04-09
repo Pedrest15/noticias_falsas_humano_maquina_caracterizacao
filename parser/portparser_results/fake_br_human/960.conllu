@@ -1,0 +1,191 @@
+# sent_id = S0001
+# text = Fotógrafo tem equipamento de US$ 40 mil roubado e elogia ladrões do RJ: "São bons no que fazem".
+1	Fotógrafo	fotógrafo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	US$	US$	SYM	_	_	3	nmod	_	_
+6	40	40	NUM	_	NumType=Card	5	nummod	_	_
+7	mil	mil	NUM	_	NumType=Card	6	flat	_	_
+8	roubado	roubar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	elogia	elogiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	ladrões	ladrão	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	RJ	RJ	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	18	punct	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	bons	bom	ADJ	_	Gender=Masc|Number=Plur	2	parataxis	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	obl	_	_
+21	que	que	PRON	_	PronType=Rel	22	obj	_	_
+22	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Brett Costello, um fotógrafo australiano relatou o roubo à PM do Rio de Janeiro.
+1	Brett	Brett	PROPN	_	_	7	nsubj	_	_
+2	Costello	Costello	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fotógrafo	fotógrafo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+6	australiano	australiano	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	roubo	roubo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	PM	PM	PROPN	_	_	7	obl	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Rio	Rio	PROPN	_	_	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Janeiro	Janeiro	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = O profissional disse que todo seu material de trabalho foi levado por uma mulher [...] o equipamento é avaliado em cerca de 40 mil dólares.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	profissional	profissional	NOUN	_	Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	material	material	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	levado	levar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	[	[	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	22	parataxis	_	SpaceAfter=No
+17	..	..	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	]	]	PUNCT	_	_	16	punct	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	avaliado	avaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+23	em	em	ADP	_	_	28	case	_	_
+24	cerca	cerca	ADV	_	ExtPos=ADV	26	advmod	_	_
+25	de	de	ADP	_	_	24	fixed	_	_
+26	40	40	NUM	_	NumType=Card	28	nummod	_	_
+27	mil	mil	NUM	_	NumType=Card	26	flat	_	_
+28	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Em uma publicação no jornal australiano Daily Telegraph, Costello disse estava em um café quando foi abordado por uma mulher que o distraiu com conversas.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	australiano	australiano	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	Daily	Daily	PROPN	_	_	6	nmod	_	_
+9	Telegraph	Telegraph	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	Costello	Costello	PROPN	_	_	12	nsubj	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	café	café	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+17	quando	quando	SCONJ	_	_	19	mark	_	_
+18	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	abordado	abordar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	19	obl:agent	_	_
+23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+24	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	distraiu	distrair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+26	com	com	ADP	_	_	27	case	_	_
+27	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Enquanto isso "cúmplices" levaram todo o equipamento sem que ele percebesse.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	6	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	cúmplices	cúmplice	NOUN	_	Number=Plur	6	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	levaram	levar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10	sem	sem	ADP	_	ExtPos=SCONJ	13	mark	_	_
+11	que	que	SCONJ	_	_	10	fixed	_	_
+12	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	percebesse	perceber	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Estou destruído e sinto-me estúpido porque não percebi qual era o plano deles.
+1	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	destruído	destruído	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4-5	sinto-me	_	_	_	_	_	_	_	_
+4	sinto	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+6	estúpido	estúpido	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	porque	porque	SCONJ	_	_	9	mark	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	percebi	perceber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	advcl	_	_
+10	qual	qual	PRON	_	Number=Sing|PronType=Int	13	nsubj	_	_
+11	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	plano	plano	NOUN	_	Gender=Masc|Number=Sing	9	ccomp	_	_
+14-15	deles	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	_
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Ninguém viu nada, eu não podia acreditar.
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	2	nsubj	_	_
+2	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	podia	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	parataxis	_	_
+8	acreditar	acreditar	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Eles trabalham em grupo [...] são bons no que fazem, infelizmente, disse o fotógrafo.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	trabalham	trabalhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+5	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+7	..	..	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	]	]	PUNCT	_	_	6	punct	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	bons	bom	ADJ	_	Gender=Masc|Number=Plur	2	parataxis	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
+13	que	que	PRON	_	PronType=Rel	14	obj	_	_
+14	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	infelizmente	infelizmente	ADV	_	_	10	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	2	punct	_	_
+18	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	fotógrafo	fotógrafo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	18	punct	_	_
+

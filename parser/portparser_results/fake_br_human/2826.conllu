@@ -1,0 +1,494 @@
+# sent_id = S0001
+# text = Exército está de prontidão em todo país.
+1	Exército	Exército	PROPN	_	_	4	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	prontidão	prontidão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	país	país	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Vândalos com bandeiras vermelhas não serão poupados.
+1	Vândalos	vândalo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	bandeiras	bandeira	NOUN	_	Number=Plur	1	nmod	_	_
+4	vermelhas	vermelho	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+5	não	não	ADV	_	_	7	advmod	_	_
+6	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
+7	poupados	poupar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = O Clube Militar repudia os atos violentos que estão ocorrendo em todo país.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Clube	Clube	PROPN	_	_	4	nsubj	_	_
+3	Militar	Militar	PROPN	_	_	2	flat:name	_	_
+4	repudia	repudiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	atos	ato	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	violentos	violento	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+8	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	ocorrendo	ocorrer	VERB	_	VerbForm=Ger	6	acl:relcl	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = A nota chama o ex-presidente Lula de "agitador", além de considerar "inadmissível um ex-presidente da República pregar, abertamente, a cizânia na Nação".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nota	nota	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	chama	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	obj	_	_
+6	Lula	Lula	PROPN	_	_	5	nmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	agitador	agitador	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	além	além	ADV	_	_	3	advmod	_	_
+13	de	de	ADP	_	_	14	mark	_	_
+14	considerar	considerar	VERB	_	VerbForm=Inf	12	acl	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	inadmissível	inadmissível	ADJ	_	Number=Sing	14	xcomp	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ex-presidente	ex-presidente	NOUN	_	Number=Sing	22	nsubj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	República	República	PROPN	_	_	18	nmod	_	_
+22	pregar	pregar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	16	csubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	abertamente	abertamente	ADV	_	_	22	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cizânia	cizânia	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Nação	Nação	PROPN	_	_	22	obl	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = "Neste País sempre houve e sempre haverá somente um exército, o Exército Brasileiro, o Exército de Caxias, que sempre nos defendeu em todas as situações de perigo, externas ou internas", diz a nota.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2-3	Neste	_	_	_	_	_	_	_	_
+2	Em	em	ADP	_	_	4	case	_	_
+3	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	País	País	PROPN	_	_	6	obl	_	_
+5	sempre	sempre	ADV	_	_	6	advmod	_	_
+6	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	ccomp:speech	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	sempre	sempre	ADV	_	_	9	advmod	_	_
+9	haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj	_	_
+10	somente	somente	ADV	_	_	12	advmod	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	exército	exército	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Exército	Exército	PROPN	_	_	12	appos	_	_
+16	Brasileiro	Brasileiro	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Exército	Exército	PROPN	_	_	15	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Caxias	Caxias	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+24	sempre	sempre	ADV	_	_	26	advmod	_	_
+25	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	26	obj	_	_
+26	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+27	em	em	ADP	_	_	30	case	_	_
+28	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	situações	situação	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	perigo	perigo	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	externas	externo	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
+35	ou	ou	CCONJ	_	_	36	cc	_	_
+36	internas	interno	ADJ	_	Gender=Fem|Number=Plur	34	conj	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	6	punct	_	_
+39	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	nota	nota	NOUN	_	Gender=Fem|Number=Sing	39	nsubj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = S0011
+# text = O texto também faz referências a Operação Lava Jato da Polícia Federal que investiga denúncias de desvios e corrupção na Petrobras.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	texto	texto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	referências	referêncão	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	Operação	Operação	PROPN	_	_	5	nmod	_	_
+8	Lava	Lava	PROPN	_	_	7	flat:name	_	_
+9	Jato	Jato	PROPN	_	_	7	flat:name	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Polícia	Polícia	PROPN	_	_	7	nmod	_	_
+13	Federal	Federal	PROPN	_	_	12	flat:name	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	investiga	investigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+16	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	desvios	desvio	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Petrobras	Petrobras	PROPN	_	_	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = O que há mais por trás disso?
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mais	mais	ADV	_	_	3	advmod	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	trás	trás	ADV	_	_	3	advmod	_	_
+7-8	disso	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+9	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Atitude prévia e defensiva de quem teme as investigações sobre corrupção em curso?
+1	Atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	prévia	prévio	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	defensiva	defensivo	ADJ	_	Gender=Fem|Number=Sing	2	conj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	quem	quem	PRON	_	PronType=Ind	1	nmod	_	_
+7	teme	temer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	sobre	sobre	ADP	_	_	11	case	_	_
+11	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	curso	curso	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = , questiona a publicação.
+1	,	,	PUNCT	_	_	2	punct	_	_
+2	questiona	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = O BRASIL SÓ TEM UM EXÉRCITO: O DE CAXIAS!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	BRASIL	BRASIL	PROPN	_	_	4	nsubj	_	_
+3	SÓ	só	ADV	_	_	4	advmod	_	_
+4	TEM	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	UM	um	NUM	_	Gender=Masc|NumType=Card	6	nummod	_	_
+6	EXÉRCITO	EXÉRCITO	PROPN	_	_	4	obj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	appos	_	_
+9	DE	de	ADP	_	_	10	case	_	_
+10	CAXIAS	CAXIAS	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Desde os últimos meses pudemos assistir o despreparo dos petistas com as lides democráticas.
+1	Desde	desde	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	últimos	último	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+4	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+5	pudemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+6	assistir	assistir	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	despreparo	despreparo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	petistas	petista	NOUN	_	Number=Plur	8	nmod	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	lides	lide	NOUN	_	Number=Plur	8	nmod	_	_
+15	democráticas	democrático	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = Reagiram inconformados como se só a eles coubesse o "direito" da crítica aos atos de governo.
+1	Reagiram	reagir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	inconformados	inconformado	ADJ	_	Gender=Masc|Number=Plur	1	advcl	_	_
+3	como	como	SCONJ	_	ExtPos=SCONJ	8	mark	_	_
+4	se	se	SCONJ	_	_	3	fixed	_	_
+5	só	só	ADV	_	_	8	advmod	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+8	coubesse	caber	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	direito	direito	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	crítica	crítica	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16-17	aos	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	atos	ato	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	governo	governo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Doeu aos militantes petistas, e os levou à reação física, ouvir os brados alheios de "Fora Dilma".
+1	Doeu	doer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	aos	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	militantes	militante	NOUN	_	Number=Plur	1	obl	_	_
+5	petistas	petista	ADJ	_	Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	reação	reação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	física	físico	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	ouvir	ouvir	VERB	_	VerbForm=Inf	1	parataxis	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	brados	brado	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+18	alheios	alheio	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Fora	Fora	PROPN	_	_	17	nmod	_	_
+22	Dilma	Dilma	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0027
+# text = Entretanto, o pior estava por vir!
+1	Entretanto	entretanto	CCONJ	_	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+4	pior	pior	ADJ	_	Number=Sing	3	amod	_	_
+5	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	por	por	ADP	_	_	7	mark	_	_
+7	vir	vir	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0029
+# text = Ao discursar para suas hostes, o ex-presidente Lula, referindo-se a essas manifestações, bradou irresponsáveis ameaças: também sabemos brigar Sobretudo quando o Stédile colocar o exército dele nas ruas.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	discursar	discursar	VERB	_	VerbForm=Inf	18	advcl	_	_
+4	para	para	ADP	_	_	6	case	_	_
+5	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	hostes	hoste	NOUN	_	Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ex-presidente	ex-presidente	NOUN	_	Number=Sing	18	nsubj	_	_
+10	Lula	Lula	PROPN	_	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12-13	referindo-se	_	_	_	_	_	_	_	_
+12	referindo	referir	VERB	_	VerbForm=Ger	9	advcl	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	manifestações	manifestação	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	bradou	bradar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	irresponsáveis	irresponsável	ADJ	_	Number=Plur	20	amod	_	_
+20	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	23	punct	_	_
+22	também	também	ADV	_	_	23	advmod	_	_
+23	sabemos	saber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+24	brigar	brigar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	Sobretudo	sobretudo	ADV	_	_	29	advmod	_	_
+26	quando	quando	SCONJ	_	_	29	mark	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Stédile	Stédile	PROPN	_	_	29	nsubj	_	_
+29	colocar	colocar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	23	advcl	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	exército	exército	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32-33	dele	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	_
+34-35	nas	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0031
+# text = Esta postura incitadora de discórdia não pode ser de quem se considera estadista, mas sim de um agitador de rua qualquer.
+1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	postura	postura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	incitadora	incitador	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	discórdia	discórdia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	10	cop	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	quem	quem	PRON	_	PronType=Ind	7	obl	_	_
+11	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	12	obj	_	_
+12	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	estadista	estadista	NOUN	_	Number=Sing	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	mas	mas	CCONJ	_	_	19	cc	_	_
+16	sim	sim	ADV	_	_	19	advmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	agitador	agitador	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	rua	rua	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	19	det	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0033
+# text = É inadmissível um ex-presidente da República pregar, abertamente, a cizânia na Nação.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	inadmissível	inadmissível	ADJ	_	Number=Sing	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ex-presidente	ex-presidente	NOUN	_	Number=Sing	8	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	República	República	PROPN	_	_	4	nmod	_	_
+8	pregar	pregar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	2	csubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	abertamente	abertamente	ADV	_	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cizânia	cizânia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Nação	Nação	PROPN	_	_	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0035
+# text = Não cabem arrebatamentos típicos de líder sindical que ataca patrões na busca de objetivos classistas.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	cabem	caber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	arrebatamentos	arrebatamento	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	típicos	típico	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	líder	líder	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	sindical	sindical	ADJ	_	Number=Sing	6	amod	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	ataca	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	patrões	patrão	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	busca	busca	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	objetivos	objetivo	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	classistas	classista	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0037
+# text = O que há mais por trás disso?
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mais	mais	ADV	_	_	3	advmod	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	trás	trás	ADV	_	_	3	advmod	_	_
+7-8	disso	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+9	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0039
+# text = Atitude prévia e defensiva de quem teme as investigações sobre corrupção em curso?
+1	Atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	prévia	prévio	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	defensiva	defensivo	ADJ	_	Gender=Fem|Number=Sing	2	conj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	quem	quem	PRON	_	PronType=Ind	1	nmod	_	_
+7	teme	temer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	sobre	sobre	ADP	_	_	11	case	_	_
+11	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	curso	curso	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0041
+# text = Algum recado?
+1	Algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	recado	recado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0043
+# text = O Clube Militar repudia, veementemente, a infeliz colocação desse senhor, pois neste País sempre houve e sempre haverá somente um exército, o Exército Brasileiro, o Exército de Caxias, que sempre nos defendeu em todas as situações de perigo, externas ou internas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Clube	Clube	PROPN	_	_	4	nsubj	_	_
+3	Militar	Militar	PROPN	_	_	2	flat:name	_	_
+4	repudia	repudiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	veementemente	veementemente	ADV	_	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	infeliz	infeliz	ADJ	_	Number=Sing	10	amod	_	_
+10	colocação	colocação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+11-12	desse	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	senhor	senhor	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	20	punct	_	_
+15	pois	pois	SCONJ	_	_	20	mark	_	_
+16-17	neste	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	País	País	PROPN	_	_	20	obl	_	_
+19	sempre	sempre	ADV	_	_	20	advmod	_	_
+20	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	sempre	sempre	ADV	_	_	23	advmod	_	_
+23	haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	conj	_	_
+24	somente	somente	ADV	_	_	26	advmod	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	nummod	_	_
+26	exército	exército	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Exército	Exército	PROPN	_	_	26	appos	_	_
+30	Brasileiro	Brasileiro	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Exército	Exército	PROPN	_	_	29	appos	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	Caxias	Caxias	PROPN	_	_	33	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	40	punct	_	_
+37	que	que	PRON	_	PronType=Rel	40	nsubj	_	_
+38	sempre	sempre	ADV	_	_	40	advmod	_	_
+39	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	40	obj	_	_
+40	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+41	em	em	ADP	_	_	44	case	_	_
+42	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	44	det	_	_
+43	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	situações	situação	NOUN	_	Gender=Fem|Number=Plur	40	obl	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	perigo	perigo	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	externas	externo	ADJ	_	Gender=Fem|Number=Plur	44	amod	_	_
+49	ou	ou	CCONJ	_	_	50	cc	_	_
+50	internas	interno	ADJ	_	Gender=Fem|Number=Plur	48	conj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	4	punct	_	_
+

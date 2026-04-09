@@ -1,0 +1,180 @@
+# sent_id = S0001
+# text = Atenção Motoristas! A Polícia Rodoviária Federal (PRF) iniciou oficialmente a fiscalização de rodovias com drones de última geração.
+1	Atenção	atenção	NOUN	_	_	11	discourse	_	_
+2	Motoristas	Motoristas	PROPN	_	_	1	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+4	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polícia	Polícia	PROPN	_	_	11	nsubj	_	_
+6	Rodoviária	Rodoviária	PROPN	_	_	5	flat:name	_	_
+7	Federal	Federal	PROPN	_	_	5	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	PRF	PRF	PROPN	_	_	5	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	iniciou	iniciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	oficialmente	oficialmente	ADV	_	_	11	advmod	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fiscalização	fiscalização	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	rodovias	rodovia	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	drones	drone	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	última	último	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	geração	geração	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = As rodovias BR-116, BR-11, BR-381, BR-324, BR-4, BR-153 e BR-47 já estão sob monitoramento constante.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	rodovias	rodovia	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
+3	BR-116	BR-116	PROPN	_	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	BR-11	br-11	NUM	_	NumType=Card	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	BR-381	br-381	NUM	_	NumType=Card	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	BR-324	br-324	NUM	_	NumType=Card	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	BR-4	br-4	NUM	_	_	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	BR-153	br-153	NUM	_	_	2	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	BR-47	br-47	NUM	_	NumType=Card	2	conj	_	_
+16	já	já	ADV	_	_	19	advmod	_	_
+17	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	sob	sob	ADP	_	_	19	case	_	_
+19	monitoramento	monitoramento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+20	constante	constante	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0005
+# text = Esses drones são capazes de detectar infrações como excesso de velocidade, uso de celular ao volante e falta de cinto de segurança de forma precisa e em tempo real.
+1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	drones	drone	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	capazes	capaz	ADJ	_	Number=Plur	0	root	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	detectar	detectar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	infrações	infração	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	excesso	excesso	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	uso	uso	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	celular	celular	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	volante	volante	NOUN	_	Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	falta	falta	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	cinto	cinto	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	segurança	segurança	NOUN	_	Number=Sing	22	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	forma	forma	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+27	precisa	preciso	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
+31	real	real	ADJ	_	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = A PRF anunciou que as multas começaram a ser aplicadas imediatamente, aumentando a eficiência na prevenção de acidentes.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PRF	PRF	PROPN	_	_	3	nsubj	_	_
+3	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	multas	multa	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	começaram	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	a	a	ADP	_	_	10	mark	_	_
+9	ser	ser	AUX	_	VerbForm=Inf	10	aux:pass	_	_
+10	aplicadas	aplicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+11	imediatamente	imediatamente	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	aumentando	aumentar	VERB	_	VerbForm=Ger	7	advcl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	prevenção	prevenção	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	acidentes	acidente	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Especialistas afirmam que essa tecnologia representa um avanço significativo na segurança viária, garantindo que as leis de trânsito sejam cumpridas rigorosamente.
+1	Especialistas	especialista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	segurança	segurança	NOUN	_	Number=Sing	8	nmod	_	_
+13	viária	viário	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	garantindo	garantir	VERB	_	VerbForm=Ger	6	advcl	_	_
+16	que	que	SCONJ	_	_	22	mark	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	leis	lei	NOUN	_	Gender=Fem|Number=Plur	22	nsubj:pass	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	trânsito	trânsito	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	cumpridas	cumprir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	ccomp	_	_
+23	rigorosamente	rigorosamente	ADV	_	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Lembre-se: manter os faróis ligados, respeitar as sinalizações e dirigir com atenção é fundamental.
+1-2	Lembre-se	_	_	_	_	_	_	_	_
+1	Lembre	lembrar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	manter	manter	VERB	_	VerbForm=Inf	1	ccomp	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	faróis	farói	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	ligados	ligado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	respeitar	respeitar	VERB	_	VerbForm=Inf	4	conj	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	sinalizações	sinalização	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	dirigir	dirigir	VERB	_	VerbForm=Inf	4	conj	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	fundamental	fundamental	ADJ	_	Number=Sing	1	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Compartilhe essa informação crucial para que todos os condutores estejam cientes da nova fiscalização.
+1	Compartilhe	compartilhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	informação	informação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	crucial	crucial	ADJ	_	Number=Sing	3	amod	_	_
+5	para	para	ADP	_	ExtPos=SCONJ	11	mark	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	condutores	condutor	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	cientes	ciente	ADJ	_	Number=Plur	1	advcl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nova	novo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	fiscalização	fiscalização	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+

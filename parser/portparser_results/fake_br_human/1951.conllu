@@ -1,0 +1,152 @@
+# sent_id = S0001
+# text = Rede Social incomoda o Governo Federal.
+1	Rede	Rede	PROPN	_	_	3	nsubj	_	_
+2	Social	Social	PROPN	_	_	1	flat:name	_	_
+3	incomoda	incomodar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Governo	Governo	PROPN	_	_	3	obj	_	_
+6	Federal	Federal	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Planalto quer "censurar" emojis.
+1	Planalto	Planalto	PROPN	_	_	2	nsubj	_	_
+2	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	censurar	censurar	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	emojis	emoji	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O jornalista Guilherme Amado, do Globo, informou que o Palácio do Planalto entrou em contato com o Facebook para procurar uma maneira se livrar dos emojis de vômito.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	10	nsubj	_	_
+3	Guilherme	Guilherme	PROPN	_	_	2	nmod	_	_
+4	Amado	Amado	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Globo	Globo	PROPN	_	_	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	17	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Palácio	Palácio	PROPN	_	_	17	nsubj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Planalto	Planalto	PROPN	_	_	13	flat:name	_	_
+17	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	contato	contato	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20	com	com	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Facebook	Facebook	PROPN	_	_	19	nmod	_	_
+23	para	para	ADP	_	_	24	mark	_	_
+24	procurar	procurar	VERB	_	VerbForm=Inf	17	advcl	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	28	expl	_	_
+28	livrar	livrar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	26	acl	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	emojis	emoji	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	28	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	vômito	vômito	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Essas imagens são usadas por manifestantes virtuais para expressar seu protesto contra Michel Temer.
+1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	usadas	usar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	manifestantes	manifestante	NOUN	_	Number=Plur	4	obl:agent	_	_
+7	virtuais	virtual	ADJ	_	Number=Plur	6	amod	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	expressar	expressar	VERB	_	VerbForm=Inf	4	advcl	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	contra	contra	ADP	_	_	13	case	_	_
+13	Michel	Michel	PROPN	_	_	11	nmod	_	_
+14	Temer	Temer	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com O Globo, a rede social se pronunciou dizendo que ainda está desenvolvendo uma maneira de barrar "essas carinhas".
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	O	O	PROPN	_	_	2	nmod	_	_
+5	Globo	Globo	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rede	rede	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	social	social	ADJ	_	Number=Sing	8	amod	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	pronunciou	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	dizendo	dizer	VERB	_	VerbForm=Ger	11	advcl	_	_
+13	que	que	SCONJ	_	_	16	mark	_	_
+14	ainda	ainda	ADV	_	_	16	advmod	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	desenvolvendo	desenvolver	VERB	_	VerbForm=Ger	12	ccomp	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	barrar	barrar	VERB	_	VerbForm=Inf	18	acl	_	_
+21	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+22	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	carinhas	carinha	NOUN	_	Number=Plur	20	obj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = Que coisa hein?
+1	Que	que	DET	_	PronType=Ind	2	det	_	_
+2	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	hein	hein	INTJ	_	_	2	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Tantos problemas no país (incluindo um ministro recém denunciado que usou o cargo para resolver problemas pessoais) e o Planalto preocupado em "censurar carinhas de vômito"?!?!
+1	Tantos	tanto	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	país	país	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	incluindo	incluir	VERB	_	VerbForm=Ger	2	acl	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	recém	recém	ADV	_	_	11	advmod	_	_
+11	denunciado	denunciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	usou	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	resolver	resolver	VERB	_	VerbForm=Inf	13	advcl	_	_
+18	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+19	pessoais	pessoal	ADJ	_	Number=Plur	18	amod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	7	punct	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Planalto	Planalto	PROPN	_	_	2	conj	_	_
+24	preocupado	preocupado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	23	amod	_	_
+25	em	em	ADP	_	_	27	mark	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	censurar	censurar	VERB	_	VerbForm=Inf	24	xcomp	_	_
+28	carinhas	carinha	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	vômito	vômito	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+32	?	?	PUNCT	_	_	24	punct	_	SpaceAfter=No
+33	!	!	PUNCT	_	_	24	punct	_	SpaceAfter=No
+34	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
+35	!	!	PUNCT	_	_	2	punct	_	_
+

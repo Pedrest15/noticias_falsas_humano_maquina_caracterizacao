@@ -1,0 +1,267 @@
+# sent_id = S0001
+# text = Polícia investiga vídeo em que padre aparece beijando uma jovem de 14 anos.
+1	Polícia	Polícia	PROPN	_	_	2	nsubj	_	_
+2	investiga	investigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	que	que	PRON	_	PronType=Rel	7	obl	_	_
+6	padre	padre	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	aparece	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	beijando	beijar	VERB	_	VerbForm=Ger	7	xcomp	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	jovem	jovem	NOUN	_	Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	14	14	NUM	_	NumType=Card	13	nummod	_	_
+13	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Registro teria sido feito pela própria vítima dos abusos.
+1	Registro	registro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+3	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	4	aux:pass	_	_
+4	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	abusos	abuso	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Um padre de aproximadamente 60 anos está sendo acusado de abusar de uma jovem de 14.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	aproximadamente	aproximadamente	ADV	_	_	5	advmod	_	_
+5	60	60	NUM	_	NumType=Card	6	nummod	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	sendo	ser	AUX	_	VerbForm=Ger	9	aux:pass	_	_
+9	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	abusar	abusar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	jovem	jovem	NOUN	_	Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	14	14	NUM	_	NumType=Card	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = O caso aconteceu na cidade de Arceburgo, Sul de Minas Gerais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Arceburgo	Arceburgo	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Sul	Sul	PROPN	_	_	8	appos	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Minas	Minas	PROPN	_	_	10	nmod	_	_
+13	Gerais	Gerais	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Em uma denúncia anônima recebida pela PM, o interlocutor alegou que um vídeo estaria circulando nas redes sociais e as imagens mostravam um religioso beijando uma menina de 14 anos dentro da igreja.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+4	anônima	anônimo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	recebida	receber	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	PM	PM	PROPN	_	_	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	interlocutor	interlocutor	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	17	mark	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	17	aux	_	_
+17	circulando	circular	VERB	_	VerbForm=Ger	12	ccomp	_	_
+18-19	nas	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	redes	rede	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+21	sociais	social	ADJ	_	Number=Plur	20	amod	_	_
+22	e	e	CCONJ	_	_	25	cc	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
+25	mostravam	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	religioso	religioso	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	beijando	beijar	VERB	_	VerbForm=Ger	25	xcomp	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	menina	menino	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	14	14	NUM	_	NumType=Card	33	nummod	_	_
+33	anos	ano	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
+34	dentro	dentro	ADV	_	_	28	advmod	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	igreja	igreja	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Após a denúncia, o sacerdote foi identificado e afastado de suas funções, informou o G1.
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sacerdote	sacerdote	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	identificado	identificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	ccomp:speech	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	afastado	afastar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	conj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	funções	função	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	8	punct	_	_
+15	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	G1	G1	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0013
+# text = No boletim de ocorrência que foi registrado, a adolescente (que é coroinha na igreja do pároco) confirmou os abusos e relatou que não foi a única vítima do padre.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	boletim	boletim	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	registrado	registrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	adolescente	adolescente	NOUN	_	Number=Sing	23	nsubj	_	_
+12	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+13	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	coroinha	coroinho	NOUN	_	Number=Sing	11	acl:relcl	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	igreja	igreja	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pároco	pároco	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	15	punct	_	_
+23	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	abusos	abuso	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	conj	_	_
+28	que	que	SCONJ	_	_	33	mark	_	_
+29	não	não	ADV	_	_	33	advmod	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	cop	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	única	único	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+33	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	27	ccomp	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	padre	padre	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0015
+# text = Uma outra jovem (que hoje tem 18 anos) também estaria sofrendo abusos há cerca de 8 anos.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	jovem	jovem	NOUN	_	Number=Sing	13	nsubj	_	_
+4	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	hoje	hoje	ADV	_	_	7	advmod	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	18	18	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
+11	também	também	ADV	_	_	13	advmod	_	_
+12	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	aux	_	_
+13	sofrendo	sofrer	VERB	_	VerbForm=Ger	0	root	_	_
+14	abusos	abuso	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+16	cerca	cerca	ADV	_	ExtPos=ADV	18	advmod	_	_
+17	de	de	ADP	_	_	16	fixed	_	_
+18	8	8	NUM	_	NumType=Card	19	nummod	_	_
+19	anos	ano	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0017
+# text = No vídeo que circula nas redes sociais, é possível ver o padre beijando a garota.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	circula	circular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	redes	rede	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	sociais	social	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	possível	possível	ADJ	_	Number=Sing	0	root	_	_
+13	ver	ver	VERB	_	VerbForm=Inf	12	csubj	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	padre	padre	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	beijando	beijar	VERB	_	VerbForm=Ger	13	xcomp	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	garota	garoto	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0019
+# text = A delegada responsável pelo caso disse que o vídeo foi feito na casa paroquial e uma perícia irá apurar se as imagens realmente condizem com o quarto do pároco.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	responsável	responsável	ADJ	_	Number=Sing	2	amod	_	_
+4-5	pelo	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	12	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	casa	casa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	paroquial	paroquial	ADJ	_	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	_	_	21	cc	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	perícia	perícia	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+20	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	aux	_	_
+21	apurar	apurar	VERB	_	VerbForm=Inf	7	conj	_	_
+22	se	se	SCONJ	_	_	26	mark	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
+25	realmente	realmente	ADV	_	_	26	advmod	_	_
+26	condizem	condizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+27	com	com	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	quarto	quarto	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	pároco	pároco	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	7	punct	_	_
+

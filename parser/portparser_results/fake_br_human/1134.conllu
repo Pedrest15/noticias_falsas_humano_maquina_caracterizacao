@@ -1,0 +1,214 @@
+# sent_id = S0001
+# text = Gilmar Mendes há 1 ano: "Não há casos de precedentes [...] Se Dilma cair, Michel Temer cairá junto ".
+1	Gilmar	Gilmar	PROPN	_	_	0	root	_	_
+2	Mendes	Mendes	PROPN	_	_	1	flat:name	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	1	1	NUM	_	NumType=Card	5	nummod	_	_
+5	ano	ano	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	9	punct	_	_
+7	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	Não	não	ADV	_	_	9	advmod	_	_
+9	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	casos	caso	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	precedentes	precedente	NOUN	_	Number=Plur	10	nmod	_	_
+13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+15	..	..	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	]	]	PUNCT	_	_	14	punct	_	_
+17	Se	se	SCONJ	_	_	19	mark	_	_
+18	Dilma	Dilma	PROPN	_	_	19	nsubj	_	_
+19	cair	cair	VERB	_	Number=Sing|Person=3|VerbForm=Inf	9	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	Michel	Michel	PROPN	_	_	23	nsubj	_	_
+22	Temer	Temer	PROPN	_	_	21	flat:name	_	_
+23	cairá	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
+24	junto	junto	ADV	_	_	23	advmod	_	_
+25	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = (matéria de agosto de 2016) A declaração caiu como uma bomba na estratégia que está sendo articulada pelo vice-presidente Michel Temer em sua defesa.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	10	parataxis	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	2016	2016	NUM	_	NumType=Card	4	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	2	punct	_	_
+8	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	como	como	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+17	que	que	PRON	_	PronType=Rel	20	nsubj:pass	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	sendo	ser	AUX	_	VerbForm=Ger	20	aux:pass	_	_
+20	articulada	articular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	vice-presidente	vice-presidente	NOUN	_	Number=Sing	20	obl:agent	_	_
+24	Michel	Michel	PROPN	_	_	23	nmod	_	_
+25	Temer	Temer	PROPN	_	_	24	flat:name	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com informações, a articulação de Temer, que prega a "separação" das campanhas, não tem fundamento legal.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	articulação	articulação	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Temer	Temer	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	prega	pregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	separação	separação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	12	punct	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	fundamento	fundamento	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+24	legal	legal	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0007
+# text = O presidente contratou o advogado Gustavo Guedes, especialista em Direito Eleitoral, para conduzir o processo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	3	nsubj	_	_
+3	contratou	contratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	Gustavo	Gustavo	PROPN	_	_	5	nmod	_	_
+7	Guedes	Guedes	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	especialista	especialista	NOUN	_	Number=Sing	5	appos	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Direito	Direito	PROPN	_	_	9	nmod	_	_
+12	Eleitoral	Eleitoral	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	conduzir	conduzir	VERB	_	VerbForm=Inf	3	advcl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	processo	processo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = A ação cassação do mandato presidencial é liderada pelo senador Aécio Neves.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	presidencial	presidencial	ADJ	_	Number=Sing	6	amod	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	liderada	liderar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	senador	senador	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
+13	Aécio	Aécio	PROPN	_	_	12	nmod	_	_
+14	Neves	Neves	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = O PSDB acusa a chapa Com a Força do Povo, de Dilma e Temer, de abuso de poder político e econômico na campanha eleitoral.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PSDB	PSDB	PROPN	_	_	3	nsubj	_	_
+3	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	chapa	chapa	NOUN	_	Number=Sing	3	obj	_	_
+6	Com	Com	PROPN	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Força	Força	PROPN	_	_	5	flat:name	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Povo	Povo	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Dilma	Dilma	PROPN	_	_	5	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	Temer	Temer	PROPN	_	_	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	abuso	abuso	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	poder	poder	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22	político	político	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	econômico	econômico	ADJ	_	Gender=Masc|Number=Sing	22	conj	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+28	eleitoral	eleitoral	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Para o ministro Gilmar Mendes, o TSE julgou apenas casos em que foi possível separar os membros da mesma chapa porque um dos candidatos era inelegível.
+1	Para	para	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	Gilmar	Gilmar	PROPN	_	_	3	nmod	_	_
+5	Mendes	Mendes	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	TSE	TSE	PROPN	_	_	9	nsubj	_	_
+9	julgou	julgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	apenas	apenas	ADV	_	_	11	advmod	_	_
+11	casos	caso	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	que	que	PRON	_	PronType=Rel	15	obl	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	possível	possível	ADJ	_	Number=Sing	11	acl:relcl	_	_
+16	separar	separar	VERB	_	VerbForm=Inf	15	csubj	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	membros	membro	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	22	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	chapa	chapa	NOUN	_	Number=Sing	18	nmod	_	_
+23	porque	porque	SCONJ	_	_	29	mark	_	_
+24	um	um	NUM	_	Gender=Masc|NumType=Card	29	nsubj	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+28	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+29	inelegível	inelegível	ADJ	_	Number=Sing	16	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = Porque será que o ministro mudou de opinião?
+1	Porque	porque	CCONJ	_	_	6	cc	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	discourse	_	_
+3	que	que	SCONJ	_	_	6	discourse	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	6	punct	_	_
+

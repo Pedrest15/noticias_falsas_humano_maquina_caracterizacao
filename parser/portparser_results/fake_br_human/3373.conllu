@@ -1,0 +1,97 @@
+# sent_id = S0001
+# text = Em vídeo imperdível de 1979, Lula explica o que é ser um "comunista profissional".
+1	Em	em	ADP	_	_	2	case	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	imperdível	imperdível	ADJ	_	Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	1979	1979	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+8	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	_
+10	que	que	PRON	_	PronType=Int	15	fixed	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	15	cop	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	comunista	comunista	NOUN	_	ExtPos=NOUN|Number=Sing	9	ccomp	_	_
+16	profissional	profissional	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Quem diria!
+1	Quem	quem	PRON	_	PronType=Int	2	nsubj	_	_
+2	diria	dizer	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Lula criticando os comunistas e os políticos profissionais.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	criticando	criticar	VERB	_	VerbForm=Ger	0	root	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	comunistas	comunista	NOUN	_	Number=Plur	2	obj	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	políticos	político	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
+8	profissionais	profissional	ADJ	_	Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Entrevista de 1979.
+1	Entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	1979	1979	NUM	_	NumType=Card	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Palavras de Lula, o maior charlatão que já existiu na história do Brasil: " Políticos profissionais são aqueles que se dizem pobres, pregam a distribuição de renda e na época de eleições gastam fortunas para se eleger ".
+1	Palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Lula	Lula	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	maior	maior	ADJ	_	Number=Sing	7	amod	_	_
+7	charlatão	charlatão	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+8	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+9	já	já	ADV	_	_	10	advmod	_	_
+10	existiu	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	história	história	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	22	punct	_	_
+18	"	"	PUNCT	_	_	22	punct	_	_
+19	Políticos	político	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
+20	profissionais	profissional	ADJ	_	Number=Plur	19	amod	_	_
+21	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	1	parataxis	_	_
+23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+24	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	25	expl	_	_
+25	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	pobres	pobre	ADJ	_	Number=Plur	25	xcomp	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	pregam	pregar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	distribuição	distribuição	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	renda	renda	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33	e	e	CCONJ	_	_	39	cc	_	_
+34-35	na	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	época	época	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	36	nmod	_	_
+39	gastam	gastar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+40	fortunas	fortuna	NOUN	_	Gender=Fem|Number=Plur	39	obj	_	_
+41	para	para	ADP	_	_	43	mark	_	_
+42	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	43	expl	_	_
+43	eleger	eleger	VERB	_	VerbForm=Inf	39	advcl	_	_
+44	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,360 @@
+# sent_id = S0001
+# text = Aparelho que faz massagem cardíaca mecanicamente pode salvar o dobro das vítimas de infarto.
+1	Aparelho	aparelho	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	massagem	massagem	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	cardíaca	cardíaco	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	mecanicamente	mecanicamente	ADV	_	_	3	advmod	_	_
+7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	salvar	salvar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dobro	dobro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	infarto	infarto	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = As doenças cardiovasculares são responsáveis por 29,4% de todas as mortes registradas no Brasil em um ano.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	cardiovasculares	cardiovascular	ADJ	_	Number=Plur	2	amod	_	_
+4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	responsáveis	responsável	ADJ	_	Number=Plur	0	root	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	29,4	29,4	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	_	_	5	obl	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	mortes	morte	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+13	registradas	registrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	_	13	obl	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	um	um	NUM	_	Gender=Masc|NumType=Card	19	nummod	_	_
+19	ano	ano	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Isso significa que mais de 308 mil pessoas faleceram principalmente de infarto e acidente vascular cerebral (AVC).
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	9	mark	_	_
+4	mais	mais	ADV	_	ExtPos=ADV	6	advmod	_	_
+5	de	de	ADP	_	_	4	fixed	_	_
+6	308	308	NUM	_	NumType=Card	8	nummod	_	_
+7	mil	mil	NUM	_	NumType=Card	6	flat	_	_
+8	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+9	faleceram	falecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+10	principalmente	principalmente	ADV	_	_	12	advmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	infarto	infarto	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+15	vascular	vascular	ADJ	_	Number=Sing	14	amod	_	_
+16	cerebral	cerebral	ADJ	_	Number=Sing	14	amod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	AVC	AVC	PROPN	_	_	14	appos	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Estudos do Instituto Dante Pazzanese de Cardiologia (São Paulo) mostram que 60% dessas vítimas são homens, com média de idade de 56 anos.
+1	Estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Instituto	Instituto	PROPN	_	_	1	nmod	_	_
+5	Dante	Dante	PROPN	_	_	4	flat:name	_	_
+6	Pazzanese	Pazzanese	PROPN	_	_	4	flat:name	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Cardiologia	Cardiologia	PROPN	_	_	4	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	São	São	PROPN	_	_	4	parataxis	_	_
+11	Paulo	Paulo	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	_
+13	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	21	mark	_	_
+15	60	60	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	_	_	21	nsubj	_	_
+17-18	dessas	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+20	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	homens	homem	NOUN	_	Gender=Masc|Number=Plur	13	ccomp	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	média	média	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	idade	idade	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	56	56	NUM	_	NumType=Card	29	nummod	_	_
+29	anos	ano	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = A alta freqüência do problema coloca o Brasil entre os 10 países com maior índice de mortes por doenças Um aparelho chamado LUCAS foi criado com o objetivo de salvar a vida de pacientes com parada cardíaca súbita e evitar danos neurológicos, mantendo um suprimento constante de oxigênio necessário ao cérebro.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	alta	alto	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	freqüência	freqüência	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	problema	problema	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	coloca	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Brasil	Brasil	PROPN	_	_	7	obj	_	_
+10	entre	entre	ADP	_	_	13	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	10	10	NUM	_	NumType=Card	13	nummod	_	_
+13	países	país	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	maior	maior	ADJ	_	Number=Sing	16	amod	_	_
+16	índice	índice	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	mortes	morte	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+21	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	aparelho	aparelho	NOUN	_	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+23	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
+24	LUCAS	LUCAS	PROPN	_	_	23	xcomp	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	root	_	_
+27	com	com	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+30	de	de	ADP	_	_	31	mark	_	_
+31	salvar	salvar	VERB	_	VerbForm=Inf	29	acl	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	vida	vida	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	pacientes	paciente	NOUN	_	Number=Plur	33	nmod	_	_
+36	com	com	ADP	_	_	37	case	_	_
+37	parada	parada	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+38	cardíaca	cardíaco	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
+39	súbita	súbito	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
+40	e	e	CCONJ	_	_	41	cc	_	_
+41	evitar	evitar	VERB	_	VerbForm=Inf	31	conj	_	_
+42	danos	dano	NOUN	_	Gender=Masc|Number=Plur	41	obj	_	_
+43	neurológicos	neurológico	ADJ	_	Gender=Masc|Number=Plur	42	amod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	mantendo	manter	VERB	_	VerbForm=Ger	31	advcl	_	_
+46	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	suprimento	suprimento	NOUN	_	Gender=Masc|Number=Sing	45	obj	_	_
+48	constante	constante	ADJ	_	Number=Sing	47	amod	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	oxigênio	oxigênio	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
+51	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	_
+52-53	ao	_	_	_	_	_	_	_	_
+52	a	a	ADP	_	_	54	case	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	cérebro	cérebro	NOUN	_	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = O aparelho é portátil e pode ser carregado facilmente em uma mochila.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	aparelho	aparelho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	portátil	portátil	ADJ	_	Number=Sing	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	ser	ser	AUX	_	VerbForm=Inf	8	aux:pass	_	_
+8	carregado	carregar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+9	facilmente	facilmente	ADV	_	_	8	advmod	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mochila	mochila	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Ele realiza compressões toráxicas ininterruptas.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	realiza	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	compressões	compressão	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+4	toráxicas	toráxico	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+5	ininterruptas	ininterrupto	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Quem já precisou fazer massagem cardíaca sabe que realizar tais compressões manualmente com alta qualidade é difícil e cansativo e, em certas situações é impossível.
+1	Quem	quem	PRON	_	PronType=Ind	7	nsubj	_	_
+2	já	já	ADV	_	_	3	advmod	_	_
+3	precisou	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+4	fazer	fazer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	massagem	massagem	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	cardíaca	cardíaco	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	17	mark	_	_
+9	realizar	realizar	VERB	_	VerbForm=Inf	17	csubj	_	_
+10	tais	tal	DET	_	Number=Plur|PronType=Dem	11	det	_	_
+11	compressões	compressão	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12	manualmente	manualmente	ADV	_	_	9	advmod	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	alta	alto	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	difícil	difícil	ADJ	_	Number=Sing	7	ccomp	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	cansativo	cansativo	ADJ	_	Gender=Masc|Number=Sing	17	conj	_	_
+20	e	e	CCONJ	_	_	26	cc	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	certas	certo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	situações	situação	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	impossível	impossível	ADJ	_	Number=Sing	17	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = O LUCAS é uma ferramenta segura e eficiente que uniformiza as compressões torácicas de acordo com as mais recentes orientações científicas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	LUCAS	LUCAS	PROPN	_	_	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ferramenta	ferramenta	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	segura	seguro	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	eficiente	eficiente	ADJ	_	Number=Sing	6	conj	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	uniformiza	uniformizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	compressões	compressão	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	torácicas	torácico	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+16	com	com	ADP	_	_	20	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+18	mais	mais	ADV	_	_	19	advmod	_	_
+19	recentes	recente	ADJ	_	Number=Plur	20	amod	_	_
+20	orientações	orientação	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+21	científicas	científico	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = Ele fornece a mesma qualidade para todos os pacientes e ao longo do tempo, independente das condições de transporte, cansaço dos socorristas, ou falta de experiência do acompanhante.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fornece	fornecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	para	para	ADP	_	_	9	case	_	_
+7	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pacientes	paciente	NOUN	_	Number=Plur	2	obl	_	_
+10	e	e	CCONJ	_	_	13	cc	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	longo	longo	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	independente	independente	ADV	_	_	2	advmod	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	condições	condição	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	cansaço	cansaço	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+26-27	dos	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	socorristas	socorrista	NOUN	_	Number=Plur	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	ou	ou	CCONJ	_	_	31	cc	_	_
+31	falta	falta	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	acompanhante	acompanhante	NOUN	_	Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = O aparelho libera os socorristas para se concentrarem em outras tarefas que salvam vidas e cria novas oportunidades de resgate.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	aparelho	aparelho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	libera	liberar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	socorristas	socorrista	NOUN	_	Number=Plur	3	obj	_	_
+6	para	para	ADP	_	_	8	mark	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+8	concentrarem	concentrar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	3	advcl	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	tarefas	tarefa	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	salvam	salvar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	vidas	vida	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	cria	criar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	novas	novo	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+18	oportunidades	oportunidade	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	resgate	resgate	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Estudos experimentais mostram que as compressões controladas mecanicamente com o LUCAS são capazes de sustentar maior quantidade de fluxo sanguíneo no cérebro e coração em comparação com compressões manuais.
+1	Estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	experimentais	experimental	ADJ	_	Number=Plur	1	amod	_	_
+3	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	compressões	compressão	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+7	controladas	controlar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	mecanicamente	mecanicamente	ADV	_	_	7	advmod	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	LUCAS	LUCAS	PROPN	_	_	7	obl	_	_
+12	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	capazes	capaz	ADJ	_	Number=Plur	3	ccomp	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	sustentar	sustentar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	maior	maior	ADJ	_	Number=Sing	17	amod	_	_
+17	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	sanguíneo	sanguíneo	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cérebro	cérebro	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	coração	coração	NOUN	_	Number=Sing	23	conj	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+28	com	com	ADP	_	_	29	case	_	_
+29	compressões	compressão	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
+30	manuais	manual	ADJ	_	Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Os efeitos colaterais são semelhantes como para as compressões manuais.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	colaterais	colateral	ADJ	_	Number=Plur	2	amod	_	_
+4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	semelhantes	semelhante	ADJ	_	Number=Plur	0	root	_	_
+6	como	como	SCONJ	_	_	9	mark	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	compressões	compressão	NOUN	_	Gender=Fem|Number=Plur	5	advcl	_	_
+10	manuais	manual	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+

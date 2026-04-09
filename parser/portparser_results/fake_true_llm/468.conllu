@@ -1,0 +1,344 @@
+# sent_id = S0001
+# text = Câmeras de segurança chocam ao capturar uma perseguição mortal em Jundiaí (SP), na noite de sábado (13).
+1	Câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	segurança	segurança	NOUN	_	Number=Sing	1	nmod	_	_
+4	chocam	chocar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	ExtPos=SCONJ	7	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
+7	capturar	capturar	VERB	_	VerbForm=Inf	4	advcl	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	mortal	mortal	ADJ	_	Number=Sing	9	amod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Jundiaí	Jundiaí	PROPN	_	_	9	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	SP	SP	PROPN	_	_	12	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	noite	noite	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	13	13	NUM	_	NumType=Card	21	appos	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = David Michel dos Santos, um conhecido ativista local de 37 anos, foi encontrado morto com múltiplos ferimentos de faca.
+1	David	David	PROPN	_	_	16	nsubj:pass	_	_
+2	Michel	Michel	PROPN	_	_	1	flat:name	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Santos	Santos	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_
+9	ativista	ativista	NOUN	_	Number=Sing	1	appos	_	_
+10	local	local	ADJ	_	Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	37	37	NUM	_	NumType=Card	13	nummod	_	_
+13	anos	ano	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17	morto	morto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	16	xcomp	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	múltiplos	múltiplo	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+20	ferimentos	ferimento	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	faca	faca	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0005
+# text = O Serviço de Atendimento Móvel de Urgência (SAMU) foi rapidamente acionado, mas nada pôde fazer para salvar a vítima.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Serviço	Serviço	PROPN	_	_	13	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Atendimento	Atendimento	PROPN	_	_	2	flat:name	_	_
+5	Móvel	Móvel	PROPN	_	_	2	flat:name	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Urgência	Urgência	PROPN	_	_	2	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	SAMU	SAMU	PROPN	_	_	2	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+12	rapidamente	rapidamente	ADV	_	_	13	advmod	_	_
+13	acionado	acionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	mas	mas	CCONJ	_	_	17	cc	_	_
+16	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	_
+17	pôde	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+18	fazer	fazer	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	salvar	salvar	VERB	_	VerbForm=Inf	18	advcl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = Nas imagens, dois homens são vistos inicialmente caminhando juntos pela Rua da Várzea, na Vila Progresso, por volta das 22h.
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	dois	dois	NUM	_	Gender=Masc|NumType=Card	6	nummod	_	_
+6	homens	homem	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	vistos	ver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	inicialmente	inicialmente	ADV	_	_	10	advmod	_	_
+10	caminhando	caminhar	VERB	_	VerbForm=Ger	8	advcl	_	_
+11	juntos	junto	ADJ	_	Gender=Masc|Number=Plur	10	advcl	_	_
+12-13	pela	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Rua	Rua	PROPN	_	_	10	obl	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Várzea	Várzea	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Vila	Vila	PROPN	_	_	14	nmod	_	_
+22	Progresso	Progresso	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	por	por	ADP	_	ExtPos=ADP	28	case	_	_
+25	volta	volta	NOUN	_	Gender=Fem|Number=Sing	24	fixed	_	_
+26-27	das	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	24	fixed	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	22h	22h	NOUN	_	_	10	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Uma discussão acalorada se transforma em uma briga violenta com troca de socos.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	acalorada	acalorado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	2	amod	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	transforma	transformar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	briga	briga	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	violenta	violento	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	troca	troca	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	socos	soco	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Em um momento tenso, os dois começam uma perseguição frenética entre os carros estacionados, com um deles brandindo uma faca.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	tenso	tenso	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	dois	dois	NUM	_	Gender=Masc|NumType=Card	8	nsubj	_	_
+8	começam	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	frenética	frenético	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	entre	entre	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	carros	carro	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+15	estacionados	estacionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	14	acl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	um	um	NUM	_	Gender=Masc|NumType=Card	8	obl	_	_
+19-20	deles	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	nmod	_	_
+21	brandindo	brandir	VERB	_	VerbForm=Ger	18	acl	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	faca	faca	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = A gravação mostra um golpe certeiro, e logo após, David cai ao chão.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	certeiro	certeiro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	13	punct	_	_
+8	e	e	CCONJ	_	_	13	cc	_	_
+9	logo	logo	ADV	_	_	10	advmod	_	_
+10	após	após	ADP	_	_	13	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	David	David	PROPN	_	_	13	nsubj	_	_
+13	cai	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14-15	ao	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	chão	chão	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O agressor, um homem misterioso usando capuz, desaparece na escuridão da noite.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	agressor	agressor	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	homem	homem	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+6	misterioso	misterioso	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	usando	usar	VERB	_	VerbForm=Ger	5	acl	_	_
+8	capuz	capuz	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	desaparece	desaparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	escuridão	escuridão	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	noite	noite	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = A polícia militar foi alertada por um morador que descobriu o corpo sem vida de David.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	5	nsubj:pass	_	_
+3	militar	militar	ADJ	_	Number=Sing	2	amod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	alertada	alertar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	morador	morador	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	descobriu	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	sem	sem	ADP	_	_	14	case	_	_
+14	vida	vida	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	David	David	PROPN	_	_	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = Estranhamente, nenhum objeto pessoal foi encontrado no local, levantando suspeitas de um crime premeditado.
+1	Estranhamente	estranhamente	ADV	_	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	objeto	objeto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+5	pessoal	pessoal	ADJ	_	Number=Sing	4	amod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	local	local	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	levantando	levantar	VERB	_	VerbForm=Ger	7	advcl	_	_
+13	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	crime	crime	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	premeditado	premeditado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0021
+# text = A identidade do suspeito ainda é desconhecida, mas rumores nas redes sociais apontam para uma possível conexão com uma organização criminosa local, em meio a acusações de que David estava prestes a expor um grande esquema de corrupção.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	identidade	identidade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	suspeito	suspeito	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ainda	ainda	ADV	_	_	8	advmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	desconhecida	desconhecido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	16	punct	_	_
+10	mas	mas	CCONJ	_	_	16	cc	_	_
+11	rumores	rumor	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+12-13	nas	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	redes	rede	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+15	sociais	social	ADJ	_	Number=Plur	14	amod	_	_
+16	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+17	para	para	ADP	_	_	20	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	possível	possível	ADJ	_	Number=Sing	20	amod	_	_
+20	conexão	conexão	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	organização	organização	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	local	local	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	em	em	ADP	_	ExtPos=ADP	30	case	_	_
+28	meio	meio	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	_
+29	a	a	ADP	_	_	27	fixed	_	_
+30	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+31	de	de	ADP	_	ExtPos=SCONJ	35	mark	_	_
+32	que	que	SCONJ	_	_	31	fixed	_	_
+33	David	David	PROPN	_	_	35	nsubj	_	_
+34	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
+35	prestes	preste	ADJ	_	Number=Plur	30	acl	_	_
+36	a	a	ADP	_	_	37	mark	_	_
+37	expor	expor	VERB	_	VerbForm=Inf	35	acl	_	_
+38	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	grande	grande	ADJ	_	Number=Sing	40	amod	_	_
+40	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0023
+# text = A polícia permanece em silêncio sobre essas alegações, enquanto a comunidade de Várzea Paulista está em estado de choque.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	3	nsubj	_	_
+3	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	sobre	sobre	ADP	_	_	8	case	_	_
+7	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	alegações	alegação	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	18	punct	_	_
+10	enquanto	enquanto	SCONJ	_	_	18	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Várzea	Várzea	PROPN	_	_	12	nmod	_	_
+15	Paulista	Paulista	PROPN	_	_	14	flat:name	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	estado	estado	NOUN	_	Gender=Masc|Number=Sing	3	advcl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	choque	choque	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Acompanhe mais detalhes e as últimas atualizações dessa história no G1 Sorocaba e Jundiaí.
+1	Acompanhe	acompanhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	mais	mais	DET	_	PronType=Ind	3	det	_	_
+3	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	_	_	7	cc	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	últimas	último	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+7	atualizações	atualização	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
+8-9	dessa	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	história	história	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	G1	G1	PROPN	_	_	1	obl	_	_
+14	Sorocaba	Sorocaba	PROPN	_	_	13	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	Jundiaí	Jundiaí	PROPN	_	_	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+

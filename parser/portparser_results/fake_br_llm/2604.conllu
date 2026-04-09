@@ -1,0 +1,581 @@
+# sent_id = S0001
+# text = Terça-feira, 27 de março de 2018.
+1	Terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	27	27	NUM	_	NumType=Card	1	appos	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	março	março	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	2018	2018	NUM	_	NumType=Card	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Boa noite!
+1	Boa	bom	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	noite	noite	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Aqui estão as notícias que estão abalando o país e o mundo.
+1	Aqui	aqui	ADV	_	_	4	advmod	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	abalando	abalar	VERB	_	VerbForm=Ger	4	acl:relcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	país	país	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = O ministro Edson Fachin, relator da Operação Lava Jato no Supremo Tribunal Federal (STF), revelou em entrevista exclusiva ao jornalista Roberto DAvila, da GloboNews, que sua família tem sido alvo de graves ameaças de morte.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+3	Edson	Edson	PROPN	_	_	2	nmod	_	_
+4	Fachin	Fachin	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	relator	relator	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Operação	Operação	PROPN	_	_	6	nmod	_	_
+10	Lava	Lava	PROPN	_	_	9	flat:name	_	_
+11	Jato	Jato	PROPN	_	_	9	flat:name	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Supremo	Supremo	PROPN	_	_	6	nmod	_	_
+15	Tribunal	Tribunal	PROPN	_	_	14	flat:name	_	_
+16	Federal	Federal	PROPN	_	_	14	flat:name	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	STF	STF	PROPN	_	_	14	appos	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	6	punct	_	_
+21	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+24	exclusiva	exclusivo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	jornalista	jornalista	NOUN	_	Number=Sing	23	nmod	_	_
+28	Roberto	Roberto	PROPN	_	_	27	nmod	_	_
+29	DAvila	DAvila	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	GloboNews	GloboNews	PROPN	_	_	27	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	que	que	SCONJ	_	_	40	mark	_	_
+36	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	det	_	_
+37	família	família	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	_
+38	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+39	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	40	cop	_	_
+40	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	21	ccomp	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	graves	grave	ADJ	_	Number=Plur	43	amod	_	_
+43	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	40	nmod	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	morte	morte	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0009
+# text = Fachin acusou diretamente políticos influentes de estarem por trás dessas ameaças, relacionando-as a recentes decisões da Lava Jato.
+1	Fachin	Fachin	PROPN	_	_	2	nsubj	_	_
+2	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	diretamente	diretamente	ADV	_	_	2	advmod	_	_
+4	políticos	político	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5	influentes	influente	ADJ	_	Number=Plur	4	amod	_	_
+6	de	de	ADP	_	_	9	mark	_	_
+7	estarem	estar	AUX	_	Number=Plur|Person=3|VerbForm=Inf	9	cop	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	trás	trás	ADV	_	_	2	advmod	_	_
+10-11	dessas	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14-15	relacionando-as	_	_	_	_	_	_	_	_
+14	relacionando	relacionar	VERB	_	VerbForm=Ger	2	advcl	_	_
+15	as	o	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	recentes	recente	ADJ	_	Number=Plur	18	amod	_	_
+18	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Lava	Lava	PROPN	_	_	18	nmod	_	_
+22	Jato	Jato	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = A situação é tão séria que ele solicitou proteção especial à presidente do STF, ministra Cármen Lúcia, e à Polícia Federal.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	tão	tão	ADV	_	_	5	advmod	_	_
+5	séria	sério	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+6	que	que	SCONJ	_	_	8	mark	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	solicitou	solicitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+9	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	especial	especial	ADJ	_	Number=Sing	9	amod	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	presidente	presidente	NOUN	_	Number=Sing	8	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	STF	STF	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	13	appos	_	_
+19	Cármen	Cármen	PROPN	_	_	18	nmod	_	_
+20	Lúcia	Lúcia	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	18	punct	_	_
+22	e	e	CCONJ	_	_	25	cc	_	_
+23-24	à	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Polícia	Polícia	PROPN	_	_	13	conj	_	_
+26	Federal	Federal	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Enquanto isso, um escândalo chocante: o corpo de Caique Trindade de Oliveira, jovem brasileiro de 24 anos que estava desaparecido na Irlanda, foi encontrado com sinais de tortura em um parque de Dublin.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	5	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	chocante	chocante	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	9	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Caique	Caique	PROPN	_	_	9	nmod	_	_
+12	Trindade	Trindade	PROPN	_	_	11	flat:name	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Oliveira	Oliveira	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	jovem	jovem	NOUN	_	Number=Sing	11	appos	_	_
+17	brasileiro	brasileiro	NOUN	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	24	24	NUM	_	NumType=Card	20	nummod	_	_
+20	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+21	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+22	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+23	desaparecido	desaparecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl:relcl	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Irlanda	Irlanda	PROPN	_	_	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	16	punct	_	_
+28	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux:pass	_	_
+29	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	root	_	_
+30	com	com	ADP	_	_	31	case	_	_
+31	sinais	sinal	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	tortura	tortura	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	parque	parque	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	Dublin	Dublin	PROPN	_	_	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = Caique havia iniciado recentemente um intercâmbio, mas informações anônimas sugerem que ele pode ter sido vítima de uma quadrilha internacional que atua contra estudantes estrangeiros.
+1	Caique	Caique	PROPN	_	_	3	nsubj	_	_
+2	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	iniciado	iniciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	recentemente	recentemente	ADV	_	_	3	advmod	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	intercâmbio	intercâmbio	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	mas	mas	CCONJ	_	_	11	cc	_	_
+9	informações	informação	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+10	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+15	ter	ter	AUX	_	VerbForm=Inf	17	aux	_	_
+16	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	17	cop	_	_
+17	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	14	xcomp	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	quadrilha	quadrilha	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	internacional	internacional	ADJ	_	Number=Sing	20	amod	_	_
+22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+23	atua	atuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	contra	contra	ADP	_	_	25	case	_	_
+25	estudantes	estudante	NOUN	_	Number=Plur	23	obl	_	_
+26	estrangeiros	estrangeiro	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = O Itamaraty prometeu uma investigação rigorosa e apoio total à família.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Itamaraty	Itamaraty	PROPN	_	_	3	nsubj	_	_
+3	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	rigorosa	rigoroso	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+9	total	total	ADJ	_	Number=Sing	8	amod	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	família	família	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = E mais: o Burger King no Brasil está no centro de uma polêmica racial.
+1	E	e	CCONJ	_	_	13	cc	_	_
+2	mais	mais	ADV	_	_	13	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Burger	Burger	PROPN	_	_	13	nsubj	_	_
+6	King	King	PROPN	_	_	5	flat:name	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Brasil	Brasil	PROPN	_	_	5	nmod	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	centro	centro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	polêmica	polêmica	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	racial	racial	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0021
+# text = David Reginaldo de Paula Silva, um universitário negro, foi vítima de racismo ao receber um pedido onde estava escrito "macaco".
+1	David	David	PROPN	_	_	12	nsubj	_	_
+2	Reginaldo	Reginaldo	PROPN	_	_	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Paula	Paula	PROPN	_	_	1	flat:name	_	_
+5	Silva	Silva	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	universitário	universitário	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+9	negro	negro	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	racismo	racismo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	ExtPos=SCONJ	17	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
+17	receber	receber	VERB	_	VerbForm=Inf	12	advcl	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	onde	onde	ADV	_	_	22	advmod	_	_
+21	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+22	escrito	escrito	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl:relcl	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	macaco	macaco	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0023
+# text = O caso ganhou repercussão nacional e a rede de fast-food enfrenta uma onda de boicote.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	repercussão	repercussão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	nacional	nacional	ADJ	_	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	11	cc	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rede	rede	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	fast-food	fast-food	NOUN	_	Foreign=Yes|Number=Sing	8	nmod	_	_
+11	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	onda	onda	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	boicote	boicote	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = A empresa tentou se defender alegando que David é um ex-funcionário insatisfeito, mas o vídeo apresentado gerou ainda mais controvérsias, mostrando um funcionário claramente alterando o pedido.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	defender	defender	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	alegando	alegar	VERB	_	VerbForm=Ger	5	advcl	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	David	David	PROPN	_	_	11	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ex-funcionário	ex-funcionário	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	_
+12	insatisfeito	insatisfeito	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	mas	mas	CCONJ	_	_	18	cc	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
+18	gerou	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+19	ainda	ainda	ADV	_	_	18	advmod	_	_
+20	mais	mais	DET	_	PronType=Ind	21	det	_	_
+21	controvérsias	controvérsão	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	mostrando	mostrar	VERB	_	VerbForm=Ger	18	advcl	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	claramente	claramente	ADV	_	_	27	advmod	_	_
+27	alterando	alterar	VERB	_	VerbForm=Ger	23	xcomp	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0027
+# text = Mark Zuckerberg, presidente-executivo do Facebook, surpreendeu ao anunciar que não só prestará testemunho no Congresso dos EUA sobre o escândalo de dados, como também revelará novas políticas de privacidade.
+1	Mark	Mark	PROPN	_	_	9	nsubj	_	_
+2	Zuckerberg	Zuckerberg	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	presidente-executivo	presidente-executivo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Facebook	Facebook	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	ExtPos=SCONJ	12	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	_	_
+12	anunciar	anunciar	VERB	_	VerbForm=Inf	9	advcl	_	_
+13	que	que	SCONJ	_	_	16	mark	_	_
+14	não	não	ADV	_	_	15	advmod	_	_
+15	só	só	ADV	_	_	16	advmod	_	_
+16	prestará	prestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
+17	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Congresso	Congresso	PROPN	_	_	17	nmod	_	_
+21-22	dos	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	EUA	EUA	PROPN	_	_	20	nmod	_	_
+24	sobre	sobre	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	dados	dado	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	como	como	CCONJ	_	_	32	cc	_	_
+31	também	também	ADV	_	_	32	advmod	_	_
+32	revelará	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	conj	_	_
+33	novas	novo	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	_
+34	políticas	política	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	privacidade	privacidade	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0029
+# text = No entanto, a recusa em comparecer ao parlamento britânico aumentou as tensões internacionais, com parlamentares do Reino Unido acusando-o de desrespeito.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	13	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	recusa	recusa	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+7	em	em	ADP	_	_	8	mark	_	_
+8	comparecer	comparecer	VERB	_	VerbForm=Inf	6	acl	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	parlamento	parlamento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	britânico	britânico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	aumentou	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16	internacionais	internacional	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Reino	Reino	PROPN	_	_	19	nmod	_	_
+23	Unido	Unido	PROPN	_	_	22	flat:name	_	_
+24-25	acusando-o	_	_	_	_	_	_	_	_
+24	acusando	acusar	VERB	_	VerbForm=Ger	19	acl	_	_
+25	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	desrespeito	desrespeito	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0031
+# text = Por fim, um fato que vai mudar sua bebida favorita: um juiz federal de Goiás determinou que as cervejarias devem listar ingredientes não tradicionais, como milho e arroz, nos rótulos das cervejas.
+1	Por	por	ADP	_	_	2	case	_	_
+2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+7	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	mudar	mudar	VERB	_	VerbForm=Inf	5	acl:relcl	_	_
+9	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	bebida	bebida	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	favorita	favorito	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	18	punct	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+15	federal	federal	ADJ	_	Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Goiás	Goiás	PROPN	_	_	14	nmod	_	_
+18	determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+19	que	que	SCONJ	_	_	22	mark	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	cervejarias	cervejaria	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
+22	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+23	listar	listar	VERB	_	VerbForm=Inf	22	xcomp	_	_
+24	ingredientes	ingrediente	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+25	não	não	ADV	_	_	26	advmod	_	_
+26	tradicionais	tradicional	ADJ	_	Number=Plur	24	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	como	como	ADP	_	_	29	case	_	_
+29	milho	milho	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	arroz	arroz	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	29	punct	_	_
+33-34	nos	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	rótulos	rótulo	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+36-37	das	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	cervejas	cerveja	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0033
+# text = A decisão afeta gigantes como Ambev, Cervejaria Petrópolis e Brasil Kirin, que terão 120 dias para cumprir a ordem.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	afeta	afetar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gigantes	gigante	NOUN	_	Number=Plur	3	obj	_	_
+5	como	como	ADP	_	_	6	case	_	_
+6	Ambev	Ambev	PROPN	_	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Cervejaria	Cervejaria	PROPN	_	_	6	conj	_	_
+9	Petrópolis	Petrópolis	PROPN	_	_	8	flat:name	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	Brasil	Brasil	PROPN	_	_	6	conj	_	_
+12	Kirin	Kirin	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	terão	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+16	120	120	NUM	_	NumType=Card	17	nummod	_	_
+17	dias	dia	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	cumprir	cumprir	VERB	_	VerbForm=Inf	15	advcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0035
+# text = A medida visa aumentar a transparência, mas especialistas afirmam que pode desencadear uma crise no setor cervejeiro.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aumentar	aumentar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	mas	mas	CCONJ	_	_	10	cc	_	_
+9	especialistas	especialista	NOUN	_	Number=Plur	10	nsubj	_	_
+10	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+13	desencadear	desencadear	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	crise	crise	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	setor	setor	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	cervejeiro	cervejeiro	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0037
+# text = E no futebol, a seleção brasileira conquistou uma vitória histórica ao derrotar a Alemanha por 1 x 0 no Estádio Olímpico de Berlim, com um gol polêmico de Gabriel Jesus.
+1	E	e	CCONJ	_	_	9	cc	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	futebol	futebol	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	conquistou	conquistar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vitória	vitória	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	histórica	histórico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	ExtPos=SCONJ	15	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	fixed	_	_
+15	derrotar	derrotar	VERB	_	VerbForm=Inf	9	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Alemanha	Alemanha	PROPN	_	_	15	obj	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	1	1	NUM	_	NumType=Card	15	obl	_	_
+20	x	x	SYM	_	_	21	case	_	_
+21	0	0	NUM	_	NumType=Card	19	nmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Estádio	Estádio	PROPN	_	_	15	obl	_	_
+25	Olímpico	Olímpico	PROPN	_	_	24	flat:name	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Berlim	Berlim	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	gol	gol	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+32	polêmico	polêmico	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	Gabriel	Gabriel	PROPN	_	_	31	nmod	_	_
+35	Jesus	Jesus	PROPN	_	_	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0039
+# text = A jogada levantou suspeitas de erro proposital do goleiro alemão Trapp, reacendendo especulações sobre manipulação de resultados.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	jogada	jogada	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	levantou	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	erro	erro	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	proposital	proposital	ADJ	_	Number=Sing	6	amod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	goleiro	goleiro	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	alemão	alemão	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	Trapp	Trapp	PROPN	_	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	reacendendo	reacender	VERB	_	VerbForm=Ger	3	advcl	_	_
+15	especulações	especulação	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16	sobre	sobre	ADP	_	_	17	case	_	_
+17	manipulação	manipulação	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+

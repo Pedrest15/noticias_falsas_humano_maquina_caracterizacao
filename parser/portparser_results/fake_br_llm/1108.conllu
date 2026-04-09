@@ -1,0 +1,490 @@
+# sent_id = S0001
+# text = Ministra Cármen Lúcia denuncia plano secreto de Michel Temer para espionar ministro da Lava Jato.
+1	Ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Cármen	Cármen	PROPN	_	_	1	nmod	_	_
+3	Lúcia	Lúcia	PROPN	_	_	2	flat:name	_	_
+4	denuncia	denunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	plano	plano	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Michel	Michel	PROPN	_	_	5	nmod	_	_
+9	Temer	Temer	PROPN	_	_	8	flat:name	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	espionar	espionar	VERB	_	VerbForm=Inf	5	acl	_	_
+12	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Lava	Lava	PROPN	_	_	12	nmod	_	_
+16	Jato	Jato	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Segundo fontes exclusivas, o presidente teria ordenado a Abin não só para investigar Luiz Edson Fachin, mas também para coletar provas comprometedoras que poderiam levar à sua destituição.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+3	exclusivas	exclusivo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	8	nsubj	_	_
+7	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux	_	_
+8	ordenado	ordenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Abin	Abin	PROPN	_	_	8	obj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	só	só	ADV	_	_	8	advmod	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	investigar	investigar	VERB	_	VerbForm=Inf	8	advcl	_	_
+15	Luiz	Luiz	PROPN	_	_	14	obj	_	_
+16	Edson	Edson	PROPN	_	_	15	flat:name	_	_
+17	Fachin	Fachin	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	mas	mas	CCONJ	_	_	22	cc	_	_
+20	também	também	ADV	_	_	22	advmod	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22	coletar	coletar	VERB	_	VerbForm=Inf	14	conj	_	_
+23	provas	prova	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+24	comprometedoras	comprometedor	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	23	acl:relcl	_	_
+27	levar	levar	VERB	_	VerbForm=Inf	26	xcomp	_	_
+28-29	à	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	31	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	destituição	destituição	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = A revista Veja revelou que a investigação clandestina já teria descoberto que Fachin utilizou o jatinho da JBS antes de sua sabatina no Senado em 2015, insinuando favorecimento na delação premiada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	revista	revista	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Veja	Veja	PROPN	_	_	2	nmod	_	_
+4	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	11	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	clandestina	clandestino	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	já	já	ADV	_	_	11	advmod	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	descoberto	descobrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	Fachin	Fachin	PROPN	_	_	14	nsubj	_	_
+14	utilizou	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	jatinho	jatinho	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	JBS	JBS	PROPN	_	_	16	nmod	_	_
+20	antes	antes	ADV	_	_	14	advmod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	sabatina	sabatina	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Senado	Senado	PROPN	_	_	23	nmod	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	2015	2015	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	insinuando	insinuar	VERB	_	VerbForm=Ger	14	advcl	_	_
+31	favorecimento	favorecimento	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	delação	delação	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+35	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = O Planalto nega as acusações, mas a indignação de Cármen Lúcia, Rodrigo Janot e entidades como a OAB e a Ajufe aponta para uma grave ameaça à democracia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Planalto	Planalto	PROPN	_	_	3	nsubj	_	_
+3	nega	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	24	punct	_	_
+7	mas	mas	CCONJ	_	_	24	cc	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	indignação	indignação	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Cármen	Cármen	PROPN	_	_	9	nmod	_	_
+12	Lúcia	Lúcia	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Rodrigo	Rodrigo	PROPN	_	_	11	conj	_	_
+15	Janot	Janot	PROPN	_	_	14	flat:name	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	entidades	entidade	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+18	como	como	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	OAB	OAB	PROPN	_	_	17	nmod	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Ajufe	Ajufe	PROPN	_	_	20	conj	_	_
+24	aponta	apontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+25	para	para	ADP	_	_	28	case	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	grave	grave	ADJ	_	Number=Sing	28	amod	_	_
+28	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+29-30	à	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = A ministra afirma que tais ações são "próprias de ditaduras" e exigem "veemente repúdio e apuração penal".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	9	mark	_	_
+5	tais	tal	DET	_	Number=Sing|PronType=Dem	6	det	_	_
+6	ações	ação	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	próprias	próprio	ADJ	_	Gender=Fem|Number=Plur	3	ccomp	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	ditaduras	ditadura	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	9	punct	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	exigem	exigir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	veemente	veemente	ADJ	_	Number=Sing	17	amod	_	_
+17	repúdio	repúdio	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	apuração	apuração	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+20	penal	penal	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Nota oficial da ministra Cármen Lúcia, presidente do STF: É inaceitável a existência de um plano secreto para espionar e comprometer membros do Supremo Tribunal Federal.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+2	oficial	oficial	ADJ	_	Number=Sing	1	amod	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	Cármen	Cármen	PROPN	_	_	5	nmod	_	_
+7	Lúcia	Lúcia	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	presidente	presidente	NOUN	_	Number=Sing	5	appos	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	STF	STF	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	9	punct	_	_
+14	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	inaceitável	inaceitável	ADJ	_	Number=Sing	0	root	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	existência	existência	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	plano	plano	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	espionar	espionar	VERB	_	VerbForm=Inf	20	acl	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	comprometer	comprometer	VERB	_	VerbForm=Inf	23	conj	_	_
+26	membros	membro	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Supremo	Supremo	PROPN	_	_	26	nmod	_	_
+30	Tribunal	Tribunal	PROPN	_	_	29	flat:name	_	_
+31	Federal	Federal	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0013
+# text = Tais atos são um atentado direto à democracia e à liberdade de nossos juízes, e se comprovados, devem resultar em severas consequências jurídicas e políticas.
+1	Tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	atos	ato	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	atentado	atentado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	direto	direto	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	_	_	13	cc	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+16	juízes	juíz	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	22	punct	_	_
+18	e	e	CCONJ	_	_	22	cc	_	_
+19	se	se	SCONJ	_	_	20	mark	_	_
+20	comprovados	comprovar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	22	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+23	resultar	resultar	VERB	_	VerbForm=Inf	22	xcomp	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	severas	severo	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
+26	consequências	consequência	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+27	jurídicas	jurídico	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	políticas	político	ADJ	_	Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = A Constituição será defendida vigorosamente para assegurar que práticas obscuras não prevaleçam sobre o Estado de Direito.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Constituição	Constituição	PROPN	_	_	4	nsubj:pass	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	defendida	defender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	vigorosamente	vigorosamente	ADV	_	_	4	advmod	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	assegurar	assegurar	VERB	_	VerbForm=Inf	4	advcl	_	_
+8	que	que	SCONJ	_	_	12	mark	_	_
+9	práticas	prática	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+10	obscuras	obscuro	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	prevaleçam	prevalecer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+13	sobre	sobre	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Estado	Estado	PROPN	_	_	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Direito	Direito	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Nota do procurador-geral da República, Rodrigo Janot: A tentativa de usar o aparato estatal para desacreditar um membro da Suprema Corte é um escândalo que não pode ser tolerado.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	29	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	procurador-geral	procurador-geral	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	República	República	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Rodrigo	Rodrigo	PROPN	_	_	4	appos	_	_
+10	Janot	Janot	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	9	punct	_	_
+12	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	usar	usar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	aparato	aparato	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	estatal	estatal	ADJ	_	Number=Sing	17	amod	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	desacreditar	desacreditar	VERB	_	VerbForm=Inf	15	advcl	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	membro	membro	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Suprema	Suprema	PROPN	_	_	22	nmod	_	_
+26	Corte	Corte	PROPN	_	_	25	flat:name	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+30	que	que	PRON	_	PronType=Rel	32	nsubj	_	_
+31	não	não	ADV	_	_	32	advmod	_	_
+32	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	ser	ser	AUX	_	VerbForm=Inf	34	aux:pass	_	_
+34	tolerado	tolerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	xcomp	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0019
+# text = O Ministério Público Brasileiro está comprometido a defender a democracia e a integridade de nossas instituições contra qualquer forma de intimidação.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministério	Ministério	PROPN	_	_	6	nsubj	_	_
+3	Público	Público	PROPN	_	_	2	flat:name	_	_
+4	Brasileiro	Brasileiro	PROPN	_	_	2	flat:name	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	comprometido	comprometido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	defender	defender	VERB	_	VerbForm=Inf	6	acl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	nossas	nosso	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+16	instituições	instituição	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+17	contra	contra	ADP	_	_	19	case	_	_
+18	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	19	det	_	_
+19	forma	forma	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	intimidação	intimidação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Nota do Palácio do Planalto: O presidente Michel Temer reafirma que não houve qualquer ordem para a Abin investigar o ministro Edson Fachin.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Palácio	Palácio	PROPN	_	_	1	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Planalto	Planalto	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	1	punct	_	_
+9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	presidente	presidente	NOUN	_	Number=Sing	13	nsubj	_	_
+11	Michel	Michel	PROPN	_	_	10	nmod	_	_
+12	Temer	Temer	PROPN	_	_	11	flat:name	_	_
+13	reafirma	reafirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	16	mark	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+17	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	18	det	_	_
+18	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	para	para	ADP	_	_	22	mark	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Abin	Abin	PROPN	_	_	22	nsubj	_	_
+22	investigar	investigar	VERB	_	VerbForm=Inf	18	acl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	Edson	Edson	PROPN	_	_	24	nmod	_	_
+26	Fachin	Fachin	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0023
+# text = O governo respeita os princípios democráticos e repudia a difusão de informações infundadas que visam abalar a confiança nas instituições.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	respeita	respeitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	princípios	princípio	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	democráticos	democrático	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	repudia	repudiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	difusão	difusão	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	informações	informação	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+13	infundadas	infundado	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	visam	visar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	abalar	abalar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	confiança	confiança	NOUN	_	Number=Sing	16	obj	_	_
+19-20	nas	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	instituições	instituição	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Nota da Ajufe: A tentativa de constranger o ministro Fachin e a Suprema Corte é um ataque inaceitável à independência do Judiciário.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Ajufe	Ajufe	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+6	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	constranger	constranger	VERB	_	VerbForm=Inf	7	acl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	Fachin	Fachin	PROPN	_	_	11	nmod	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Suprema	Suprema	PROPN	_	_	11	conj	_	_
+16	Corte	Corte	PROPN	_	_	15	flat:name	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+20	inaceitável	inaceitável	ADJ	_	Number=Sing	19	amod	_	_
+21-22	à	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	independência	independência	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Judiciário	Judiciário	PROPN	_	_	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0027
+# text = A Ajufe manifesta total repulsa a essas ações que buscam minar a Justiça e enfraquecer nossa democracia.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ajufe	Ajufe	PROPN	_	_	3	nsubj	_	_
+3	manifesta	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	total	total	ADJ	_	Number=Sing	5	amod	_	_
+5	repulsa	repulso	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	ações	ação	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	buscam	buscar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	minar	minar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Justiça	Justiça	PROPN	_	_	11	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	enfraquecer	enfraquecer	VERB	_	VerbForm=Inf	11	conj	_	_
+16	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0029
+# text = Nota da OAB: A Ordem dos Advogados do Brasil condena veementemente qualquer ação ilegal contra membros do STF.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	OAB	OAB	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+6	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Ordem	Ordem	PROPN	_	_	14	nsubj	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Advogados	Advogados	PROPN	_	_	7	flat:name	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Brasil	Brasil	PROPN	_	_	7	flat:name	_	_
+14	condena	condenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	veementemente	veementemente	ADV	_	_	14	advmod	_	_
+16	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	17	det	_	_
+17	ação	ação	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+18	ilegal	ilegal	ADJ	_	Number=Sing	17	amod	_	_
+19	contra	contra	ADP	_	_	20	case	_	_
+20	membros	membro	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	STF	STF	PROPN	_	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0031
+# text = Confirmada a denúncia, estaríamos diante de um ataque direto ao Estado Democrático de Direito, exigindo esclarecimentos e punições severas.
+1	Confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	advcl	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	estaríamos	estar	AUX	_	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	6	cop	_	_
+6	diante	diante	ADV	_	_	0	root	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	direto	direto	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Estado	Estado	PROPN	_	_	9	nmod	_	_
+14	Democrático	Democrático	PROPN	_	_	13	flat:name	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Direito	Direito	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	exigindo	exigir	VERB	_	VerbForm=Ger	6	advcl	_	_
+19	esclarecimentos	esclarecimento	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	punições	punição	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	_
+22	severas	severo	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+

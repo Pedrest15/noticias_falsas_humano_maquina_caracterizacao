@@ -1,0 +1,191 @@
+# sent_id = S0001
+# text = Ronaldo elogia esposa de jogador português e toma um chega pra lá: "Será que ele gosta?".
+1	Ronaldo	Ronaldo	PROPN	_	_	2	nsubj	_	_
+2	elogia	elogiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	português	português	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	toma	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	chega	chega	NOUN	_	Number=Sing	8	obj	_	_
+11	pra	para	ADP	_	_	12	case	_	_
+12	lá	lá	ADV	_	_	10	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	18	punct	_	_
+14	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+15	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	discourse	_	_
+16	que	que	SCONJ	_	_	18	discourse	_	_
+17	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+19	?	?	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Tenha um estilo de vida mais sossegado.
+1	Tenha	ter	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	vida	vida	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	sossegado	sossegado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Olhe o exemplo do jogador Luis Figo, seu ex-companheiro de time aconselhou o dirigente.
+1	Olhe	olhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Luis	Luis	PROPN	_	_	6	nmod	_	_
+8	Figo	Figo	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	ex-companheiro	ex-companheiro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	time	time	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	aconselhou	aconselhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	dirigente	dirigente	NOUN	_	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Na época em que jogavam juntos, Figo fazia o estilo "belo, recatado e do lar".
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	época	época	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	que	que	PRON	_	PronType=Rel	6	obl	_	_
+6	jogavam	jogar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	juntos	junto	ADJ	_	Gender=Masc|Number=Plur	6	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	Figo	Figo	PROPN	_	_	10	nsubj	_	_
+10	fazia	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	belo	belo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	recatado	recatado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	conj	_	_
+17	e	e	CCONJ	_	_	20	cc	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	lar	lar	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = O jogador é casado com a bela Helen Svedin, uma modelo sueca (foto acima).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	casado	casado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	com	com	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	bela	belo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	Helen	Helen	PROPN	_	_	4	obl	_	_
+9	Svedin	Svedin	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	modelo	modelo	NOUN	_	Number=Sing	8	appos	_	_
+13	sueca	sueco	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	foto	foto	NOUN	_	Number=Sing	8	parataxis	_	_
+16	acima	acima	ADV	_	_	15	advmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Ronaldo respondeu em tom irônico: Eu disse ao Florentino que, se eu tivesse uma mulher espetacular como a do Figo, também ficaria em casa O meio campista Luiz Figo não gostou da declaração do baladeiro Ronaldo e respondeu no pé da lata: Talvez se ele tivesse o meu perfil, poderia ter uma mulher tão bela quanto a minha.
+1	Ronaldo	Ronaldo	PROPN	_	_	2	nsubj	_	_
+2	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	tom	tom	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+5	irônico	irônico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Florentino	Florentino	PROPN	_	_	8	obl	_	_
+12	que	que	SCONJ	_	_	61	mark	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	se	se	SCONJ	_	_	16	mark	_	_
+15	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	tivesse	ter	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	61	advcl	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	espetacular	espetacular	ADJ	_	Number=Sing	18	amod	_	_
+20	como	como	ADP	_	_	21	case	_	_
+21	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	18	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Figo	Figo	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	16	punct	_	_
+26	também	também	ADV	_	_	27	advmod	_	_
+27	ficaria	ficar	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	8	ccomp	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	casa	casa	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+30	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	amod	_	_
+32	campista	campista	NOUN	_	Number=Sing	31	nmod	_	_
+33	Luiz	Luiz	PROPN	_	_	32	nmod	_	_
+34	Figo	Figo	PROPN	_	_	33	flat:name	_	_
+35	não	não	ADV	_	_	36	advmod	_	_
+36	gostou	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	baladeiro	baladeiro	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+43	Ronaldo	Ronaldo	PROPN	_	_	42	nmod	_	_
+44	e	e	CCONJ	_	_	45	cc	_	_
+45	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+46-47	no	_	_	_	_	_	_	_	_
+46	em	em	ADP	_	_	48	case	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	pé	pé	NOUN	_	Gender=Masc|Number=Sing	45	obl	_	_
+49-50	da	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	lata	lata	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+52	:	:	PUNCT	_	_	61	punct	_	_
+53	Talvez	talvez	ADV	_	_	61	advmod	_	_
+54	se	se	SCONJ	_	_	56	mark	_	_
+55	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	_
+56	tivesse	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	61	advcl	_	_
+57	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+58	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	59	det	_	_
+59	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	56	obj	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	16	punct	_	_
+61	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	ccomp	_	_
+62	ter	ter	VERB	_	VerbForm=Inf	61	xcomp	_	_
+63	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	62	obj	_	_
+65	tão	tão	ADV	_	_	66	advmod	_	_
+66	bela	belo	ADJ	_	Gender=Fem|Number=Sing	64	amod	_	_
+67	quanto	quanto	SCONJ	_	_	69	mark	_	_
+68	a	o	PRON	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	advcl	_	_
+69	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	66	advcl	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Será que ele gosta?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	discourse	_	_
+2	que	que	SCONJ	_	_	4	discourse	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+

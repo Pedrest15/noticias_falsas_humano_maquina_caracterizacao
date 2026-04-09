@@ -1,0 +1,169 @@
+# sent_id = S0001
+# text = URGENTE: Palocci pode ter fortuna bilionária escondida em banco americano.
+1	URGENTE	URGENTE	PROPN	_	_	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Palocci	Palocci	PROPN	_	_	4	nsubj	_	_
+4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ter	ter	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	fortuna	fortuna	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	bilionária	bilionário	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	escondida	esconder	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	banco	banco	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11	americano	americano	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = A Lava Jato recebeu informação de que o ex-ministro petista Antônio Palocci teria US$ 348 milhões depositados em uma conta em Miami.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lava	Lava	PROPN	_	_	4	nsubj	_	_
+3	Jato	Jato	PROPN	_	_	2	flat:name	_	_
+4	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	ExtPos=SCONJ	13	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	petista	petista	ADJ	_	Number=Sing	9	amod	_	_
+11	Antônio	Antônio	PROPN	_	_	9	nmod	_	_
+12	Palocci	Palocci	PROPN	_	_	11	flat:name	_	_
+13	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	acl	_	_
+14	US$	US$	SYM	_	_	16	nmod	_	_
+15	348	348	NUM	_	NumType=Card	16	nummod	_	_
+16	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+17	depositados	depositar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	conta	conta	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	Miami	Miami	PROPN	_	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = No Brasil, já foram encontrados R$ 61 milhões nas contas bancárias do acusado [...] uma ninharia!
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Brasil	Brasil	PROPN	_	_	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	já	já	ADV	_	_	7	advmod	_	_
+6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+8	R$	R$	SYM	_	_	10	nmod	_	_
+9	61	61	NUM	_	NumType=Card	10	nummod	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+11-12	nas	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	contas	conta	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+14	bancárias	bancário	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	acusado	acusado	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+18	[	[	PUNCT	_	_	23	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	23	parataxis	_	SpaceAfter=No
+20	..	..	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	]	]	PUNCT	_	_	19	punct	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	ninharia	ninharia	NOUN	_	Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
+24	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = A grande bolada ainda está por vir...
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	_	Number=Sing	3	amod	_	_
+3	bolada	bolada	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	ainda	ainda	ADV	_	_	7	advmod	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	por	por	ADP	_	_	7	mark	_	_
+7	vir	vir	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	...	...	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = Cerca de R$ 1, 1 bilhão estaria escondido em terras norte americanas.
+1	Cerca	cerca	ADV	_	ExtPos=ADV	3	advmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	R$	R$	SYM	_	_	7	nmod	_	_
+4	1	1	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	1	1	NUM	_	NumType=Card	7	nummod	_	_
+7	bilhão	bilhão	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	cop	_	_
+9	escondido	escondido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	terras	terra	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+12	norte	norte	ADJ	_	Number=Sing	11	amod	_	_
+13	americanas	americano	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = O Antagonista informou (em postagem exclusiva) que as investigações poderão chegar até os EUA.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Antagonista	Antagonista	PROPN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	em	em	ADP	_	_	6	case	_	_
+6	postagem	postagem	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	exclusiva	exclusivo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	6	punct	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+12	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+13	chegar	chegar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	até	até	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	EUA	EUA	PROPN	_	_	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O PT criou um banco particular na terra do Tio Sam que era presidido por Antonio Palocci.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PT	PT	PROPN	_	_	3	nsubj	_	_
+3	criou	criar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	banco	banco	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	particular	particular	ADJ	_	Number=Sing	5	amod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	terra	terra	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Tio	Tio	PROPN	_	_	9	nmod	_	_
+13	Sam	Sam	PROPN	_	_	12	flat:name	_	_
+14	que	que	PRON	_	PronType=Rel	16	nsubj:pass	_	_
+15	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:pass	_	_
+16	presidido	presidir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	Antonio	Antonio	PROPN	_	_	16	obl:agent	_	_
+19	Palocci	Palocci	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Caso a informação seja confirmada, Palocci corre o risco de ser deportado e até julgado nos Estados Unidos.
+1	Caso	caso	SCONJ	_	_	5	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	informação	informação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Palocci	Palocci	PROPN	_	_	8	nsubj	_	_
+8	corre	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	risco	risco	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	13	mark	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	13	aux:pass	_	_
+13	deportado	deportar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	até	até	ADV	_	_	16	advmod	_	_
+16	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	_
+17-18	nos	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Estados	Estados	PROPN	_	_	16	obl	_	_
+20	Unidos	Unidos	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+

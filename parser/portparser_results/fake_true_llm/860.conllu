@@ -1,0 +1,273 @@
+# sent_id = S0001
+# text = Urgente: Governo anuncia lei radical contra idosos que desobedecem isolamento!
+1	Urgente	urgente	ADJ	_	Number=Sing	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Governo	Governo	PROPN	_	_	4	nsubj	_	_
+4	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	lei	lei	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	radical	radical	ADJ	_	Number=Sing	5	amod	_	_
+7	contra	contra	ADP	_	_	8	case	_	_
+8	idosos	idoso	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	desobedecem	desobedecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Em uma medida drástica para combater a disseminação do novo coronavírus, o governo federal teria aprovado a Medida Provisória 922, que prevê a suspensão imediata da aposentadoria de qualquer cidadão com mais de 65 anos flagrado nas ruas sem justificativa válida.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	medida	medida	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+4	drástica	drástico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	combater	combater	VERB	_	VerbForm=Inf	3	acl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	disseminação	disseminação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	novo	novo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	coronavírus	coronavírus	NOUN	_	Gender=Masc	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governo	governo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+16	federal	federal	ADJ	_	Number=Sing	15	amod	_	_
+17	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
+18	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Medida	Medida	PROPN	_	_	18	obj	_	_
+21	Provisória	Provisória	PROPN	_	_	20	flat:name	_	_
+22	922	922	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	prevê	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	imediata	imediato	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	aposentadoria	aposentadoria	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	34	det	_	_
+34	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+35	com	com	ADP	_	_	39	case	_	_
+36	mais	mais	ADV	_	ExtPos=ADV	38	advmod	_	_
+37	de	de	ADP	_	_	36	fixed	_	_
+38	65	65	NUM	_	NumType=Card	39	nummod	_	_
+39	anos	ano	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
+40	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	34	acl	_	_
+41-42	nas	_	_	_	_	_	_	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	40	obl	_	_
+44	sem	sem	ADP	_	_	45	case	_	_
+45	justificativa	justificativa	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	_
+46	válida	válido	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = A medida, que teria sido assinada ontem, também inclui uma penalidade financeira severa: filhos e netos maiores de 18 anos do infrator serão multados em R$ 1.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	que	que	PRON	_	PronType=Rel	7	nsubj:pass	_	_
+5	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+6	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	aux:pass	_	_
+7	assinada	assinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+8	ontem	ontem	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	penalidade	penalidade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	severa	severo	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	28	punct	_	_
+17	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	28	nsubj:pass	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	netos	neto	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+20	maiores	maior	ADJ	_	Number=Plur	17	amod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	18	18	NUM	_	NumType=Card	23	nummod	_	_
+23	anos	ano	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	infrator	infrator	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	28	aux:pass	_	_
+28	multados	multar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	R$	R$	SYM	_	_	28	obl	_	_
+31	1	1	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = 450,00 por cada ocorrência.
+1	450,00	450,00	NUM	_	NumType=Card	0	root	_	_
+2	por	por	ADP	_	_	4	case	_	_
+3	cada	cada	DET	_	Number=Sing|PronType=Ind	4	det	_	_
+4	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = A nova MP, segundo fontes não oficiais, visa garantir que os mais vulneráveis cumpram o isolamento social rigorosamente.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nova	novo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	MP	MP	PROPN	_	_	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	segundo	segundo	ADP	_	_	6	case	_	_
+6	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	oficiais	oficial	ADJ	_	Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	garantir	garantir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	que	que	SCONJ	_	_	16	mark	_	_
+13	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	16	nsubj	_	_
+14	mais	mais	ADV	_	_	15	advmod	_	_
+15	vulneráveis	vulnerável	ADJ	_	Number=Plur	13	amod	_	_
+16	cumpram	cumprir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	social	social	ADJ	_	Number=Sing	18	amod	_	_
+20	rigorosamente	rigorosamente	ADV	_	_	16	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Além disso, a medida também autorizaria a contratação de servidores civis federais aposentados para reforçar o atendimento em áreas críticas afetadas pela pandemia.
+1	Além	além	ADV	_	_	8	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	medida	medida	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	também	também	ADV	_	_	8	advmod	_	_
+8	autorizaria	autorizar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	contratação	contratação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	servidores	servidor	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	civis	civil	ADJ	_	Number=Plur	12	amod	_	_
+14	federais	federal	ADJ	_	Number=Plur	12	amod	_	_
+15	aposentados	aposentado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	12	amod	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	reforçar	reforçar	VERB	_	VerbForm=Inf	8	advcl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	atendimento	atendimento	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	áreas	área	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+22	críticas	crítico	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+23	afetadas	afetar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	21	acl	_	_
+24-25	pela	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	23	obl:agent	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = A polêmica está gerando debates acalorados nas redes sociais, com muitos usuários expressando preocupação e revolta.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polêmica	polêmica	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	gerando	gerar	VERB	_	VerbForm=Ger	0	root	_	_
+5	debates	debate	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	acalorados	acalorado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	5	amod	_	_
+7-8	nas	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	redes	rede	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+10	sociais	social	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+15	expressando	expressar	VERB	_	VerbForm=Ger	14	acl	_	_
+16	preocupação	preocupação	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	revolta	revolto	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Especialistas em direito constitucional estão analisando a legalidade das sanções propostas, enquanto o Ministério da Saúde alega que tal medida é essencial para salvar vidas.
+1	Especialistas	especialista	NOUN	_	Number=Plur	6	nsubj	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	direito	direito	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	constitucional	constitucional	ADJ	_	Number=Sing	3	amod	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	analisando	analisar	VERB	_	VerbForm=Ger	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	legalidade	legalidade	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	sanções	sanção	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	propostas	propor	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	20	punct	_	_
+14	enquanto	enquanto	SCONJ	_	_	20	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Ministério	Ministério	PROPN	_	_	20	nsubj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Saúde	Saúde	PROPN	_	_	16	flat:name	_	_
+20	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+21	que	que	SCONJ	_	_	25	mark	_	_
+22	tal	tal	DET	_	Number=Sing|PronType=Dem	23	det	_	_
+23	medida	medida	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	essencial	essencial	ADJ	_	Number=Sing	20	ccomp	_	_
+26	para	para	ADP	_	_	27	mark	_	_
+27	salvar	salvar	VERB	_	VerbForm=Inf	25	advcl	_	_
+28	vidas	vida	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = Atenção: O Ministério da Economia ainda não se pronunciou oficialmente, mas circulam rumores de que a mensagem é autêntica.
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	11	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ministério	Ministério	PROPN	_	_	11	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Economia	Economia	PROPN	_	_	4	flat:name	_	_
+8	ainda	ainda	ADV	_	_	11	advmod	_	_
+9	não	não	ADV	_	_	11	advmod	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	pronunciou	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	oficialmente	oficialmente	ADV	_	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	mas	mas	CCONJ	_	_	15	cc	_	_
+15	circulam	circular	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	rumores	rumor	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+17	de	de	ADP	_	ExtPos=SCONJ	22	mark	_	_
+18	que	que	SCONJ	_	_	17	fixed	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	autêntica	autêntico	ADJ	_	Gender=Fem|Number=Sing	16	acl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0019
+# text = A recomendação é que todos os idosos e seus familiares sigam as novas diretrizes para evitar penalidades.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	recomendação	recomendação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:outer	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	idosos	idoso	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	familiares	familiar	NOUN	_	Number=Plur	7	conj	_	_
+11	sigam	seguir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	novas	novo	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+14	diretrizes	diretrize	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	evitar	evitar	VERB	_	VerbForm=Inf	11	advcl	_	_
+17	penalidades	penalidade	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+

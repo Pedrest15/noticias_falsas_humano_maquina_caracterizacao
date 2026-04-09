@@ -1,0 +1,230 @@
+# sent_id = S0001
+# text = Brasília contrata fundação espírita que incorpora Galileu e Abraham Lincoln para controlar escassez de água.
+1	Brasília	Brasília	PROPN	_	_	2	nsubj	_	_
+2	contrata	contratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	fundação	fundação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	espírita	espírita	ADJ	_	Number=Sing	3	amod	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	incorpora	incorporar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	Galileu	Galileu	PROPN	_	_	6	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	Abraham	Abraham	PROPN	_	_	7	conj	_	_
+10	Lincoln	Lincoln	PROPN	_	_	9	flat:name	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	controlar	controlar	VERB	_	VerbForm=Inf	2	advcl	_	_
+13	escassez	escassez	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	água	água	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Não [...] não é uma piada!
+1	Não	não	ADV	_	_	9	advmod	_	_
+2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+4	..	..	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	3	punct	_	_
+6	não	não	ADV	_	_	9	advmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	piada	piada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = A informação é da jornalista Cleo Guimarães, do Globo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	jornalista	jornalista	NOUN	_	Number=Sing	0	root	_	_
+7	Cleo	Cleo	PROPN	_	_	6	nmod	_	_
+8	Guimarães	Guimarães	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Globo	Globo	PROPN	_	_	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Correndo um risco real de "secar" literalmente, ou seja, passar por um desabastecimento de água, a cidade de Brasília resolveu inovar.
+1	Correndo	correr	VERB	_	VerbForm=Ger	25	advcl	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	risco	risco	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	real	real	ADJ	_	Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	7	mark	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	secar	secar	VERB	_	VerbForm=Inf	3	acl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	literalmente	literalmente	ADV	_	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	ou	ou	CCONJ	_	ExtPos=CCONJ	14	cc	_	_
+12	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	passar	passar	VERB	_	VerbForm=Inf	7	conj	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	desabastecimento	desabastecimento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	água	água	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	1	punct	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Brasília	Brasília	PROPN	_	_	22	nmod	_	_
+25	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	inovar	inovar	VERB	_	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0009
+# text = A Capital Federal contratou a Cacique Cobra Coral, uma fundação exotérica que diz "ter poder" de controlar o tempo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Capital	Capital	PROPN	_	_	4	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	contratou	contratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Cacique	Cacique	PROPN	_	_	4	obj	_	_
+7	Cobra	Cobra	PROPN	_	_	6	flat:name	_	_
+8	Coral	Coral	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fundação	fundação	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
+12	exotérica	exotérico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	ter	ter	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	poder	poder	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	controlar	controlar	VERB	_	VerbForm=Inf	17	acl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = No site da Cobra Coral, a explicação é a seguinte: A Fundação Cacique Cobra Coral foi criada para intervir nos desequilíbrios provocados pelo homem na natureza [...] Fundada por Ângelo Scritori e tendo a frente sua filha Adelaide Scritori também médium que incorpora o espírito e mentor Cacique Cobra Coral que também já teria sido de Galileu Galilei e Abraham Lincoln.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	site	site	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Cobra	Cobra	PROPN	_	_	3	nmod	_	_
+7	Coral	Coral	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	explicação	explicação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+13	seguinte	seguinte	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	21	punct	_	_
+15	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Fundação	Fundação	PROPN	_	_	21	nsubj:pass	_	_
+17	Cacique	Cacique	PROPN	_	_	16	flat:name	_	_
+18	Cobra	Cobra	PROPN	_	_	16	flat:name	_	_
+19	Coral	Coral	PROPN	_	_	16	flat:name	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	criada	criar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	parataxis	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	intervir	intervir	VERB	_	VerbForm=Inf	21	advcl	_	_
+24-25	nos	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	desequilíbrios	desequilíbrio	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+27	provocados	provocar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	26	acl	_	_
+28-29	pelo	_	_	_	_	_	_	_	_
+28	por	por	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	homem	homem	NOUN	_	Gender=Masc|Number=Sing	27	obl:agent	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+34	[	[	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+36	..	..	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	]	]	PUNCT	_	_	35	punct	_	_
+38	Fundada	fundar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+39	por	por	ADP	_	_	40	case	_	_
+40	Ângelo	Ângelo	PROPN	_	_	38	obl:agent	_	_
+41	Scritori	Scritori	PROPN	_	_	40	flat:name	_	_
+42	e	e	CCONJ	_	_	43	cc	_	_
+43	tendo	ter	VERB	_	VerbForm=Ger	53	conj	_	_
+44	a	a	ADP	_	_	45	case	_	_
+45	frente	frente	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	_
+46	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	47	det	_	_
+47	filha	filho	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	_
+48	Adelaide	Adelaide	PROPN	_	_	47	nmod	_	_
+49	Scritori	Scritori	PROPN	_	_	48	flat:name	_	_
+50	também	também	ADV	_	_	51	advmod	_	_
+51	médium	médium	NOUN	_	Number=Sing	40	appos	_	_
+52	que	que	PRON	_	PronType=Rel	53	nsubj	_	_
+53	incorpora	incorporar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	acl:relcl	_	_
+54	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	espírito	espírito	NOUN	_	Gender=Masc|Number=Sing	53	obj	_	_
+56	e	e	CCONJ	_	_	57	cc	_	_
+57	mentor	mentor	NOUN	_	Gender=Masc|Number=Sing	55	conj	_	_
+58	Cacique	Cacique	PROPN	_	_	55	nmod	_	_
+59	Cobra	Cobra	PROPN	_	_	58	flat:name	_	_
+60	Coral	Coral	PROPN	_	_	58	flat:name	_	_
+61	que	que	PRON	_	PronType=Rel	67	nsubj	_	_
+62	também	também	ADV	_	_	67	advmod	_	_
+63	já	já	ADV	_	_	67	advmod	_	_
+64	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	67	aux	_	_
+65	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	67	cop	_	_
+66	de	de	ADP	_	_	67	case	_	_
+67	Galileu	Galileu	PROPN	_	_	26	acl:relcl	_	_
+68	Galilei	Galilei	PROPN	_	_	67	flat:name	_	_
+69	e	e	CCONJ	_	_	70	cc	_	_
+70	Abraham	Abraham	PROPN	_	_	67	conj	_	_
+71	Lincoln	Lincoln	PROPN	_	_	70	flat:name	_	SpaceAfter=No
+72	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0013
+# text = Ângelo Scritori, morreu aos 104 anos, no ano de 2002.
+1	Ângelo	Ângelo	PROPN	_	_	4	nsubj	_	_
+2	Scritori	Scritori	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	aos	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	8	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	104	104	NUM	_	NumType=Card	8	nummod	_	_
+8	anos	ano	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ano	ano	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	2002	2002	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = O site também informa que a responsável Adelaide nasceu acompanhada de uma profecia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	site	site	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	informa	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	responsável	responsável	NOUN	_	Number=Sing	9	nsubj	_	_
+8	Adelaide	Adelaide	PROPN	_	_	7	nmod	_	_
+9	nasceu	nascer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+10	acompanhada	acompanhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	9	advcl	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	profecia	profecia	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Será que funciona?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	discourse	_	_
+2	que	que	SCONJ	_	_	3	discourse	_	_
+3	funciona	funcionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+

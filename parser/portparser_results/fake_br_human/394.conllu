@@ -1,0 +1,408 @@
+# sent_id = S0001
+# text = Cliente pede frango e leva rato frito em rede de fast-food.
+1	Cliente	cliente	NOUN	_	Number=Sing	2	nsubj	_	_
+2	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	frango	frango	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	leva	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	rato	rato	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	frito	frito	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	rede	rede	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	fast-food	fast-food	NOUN	_	Foreign=Yes|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Imagine a seguinte cena: Você chega morrendo de fome a um restaurante Fast Food e pede aquela comida do cardápio que aparenta ser muito suculenta.
+1	Imagine	imaginar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	seguinte	seguinte	ADJ	_	Number=Sing	4	amod	_	_
+4	cena	cena	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	7	punct	_	_
+6	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+7	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+8	morrendo	morrer	VERB	_	VerbForm=Ger	7	advcl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	fome	fome	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	restaurante	restaurante	NOUN	_	Number=Sing	8	obl	_	_
+14	Fast	Fast	PROPN	_	_	13	nmod	_	_
+15	Food	Food	PROPN	_	_	14	flat:name	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	comida	comida	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cardápio	cardápio	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	que	que	PRON	_	PronType=Rel	24	nsubj	_	_
+24	aparenta	aparentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+25	ser	ser	AUX	_	VerbForm=Inf	27	cop	_	_
+26	muito	muito	ADV	_	_	27	advmod	_	_
+27	suculenta	suculento	ADJ	_	Gender=Fem|Number=Sing	24	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = De repente, no meio do seu lanche, você encontra um pedaço de frango com a aparência de um rato [...] isso mesmo, um rato!
+1	De	de	ADP	_	_	2	case	_	_
+2	repente	repente	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meio	meio	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	lanche	lanche	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
+13	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pedaço	pedaço	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	frango	frango	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	aparência	aparência	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	rato	rato	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	[	[	PUNCT	_	_	28	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+26	..	..	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	]	]	PUNCT	_	_	28	punct	_	_
+28	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	32	parataxis	_	_
+29	mesmo	mesmo	ADV	_	_	28	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	28	punct	_	_
+31	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	rato	rato	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+33	!	!	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = Foi o que aconteceu com um cliente da KFC (Rede Americana especialista em frangos fritos) na cidade de Wilmington, Califórnia, EUA.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	discourse	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	root	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cliente	cliente	NOUN	_	Number=Sing	4	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	KFC	KFC	PROPN	_	_	7	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Rede	Rede	PROPN	_	_	10	appos	_	_
+13	Americana	Americana	PROPN	_	_	12	flat:name	_	_
+14	especialista	especialista	NOUN	_	Number=Sing	12	amod	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	frangos	frango	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+17	fritos	frito	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	12	punct	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Wilmington	Wilmington	PROPN	_	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	Califórnia	Califórnia	PROPN	_	_	23	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	EUA	EUA	PROPN	_	_	23	parataxis	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Ao chegar em casa para jantar, Devorise Dixon (o cliente) disse que chegou a morder o suposto roedor e verificou que não poderia ser um peito de frango.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	chegar	chegar	VERB	_	VerbForm=Inf	15	advcl	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	casa	casa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	jantar	jantar	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	Devorise	Devorise	PROPN	_	_	15	nsubj	_	_
+10	Dixon	Dixon	PROPN	_	_	9	flat:name	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cliente	cliente	NOUN	_	Number=Sing	9	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+18	a	a	ADP	_	_	19	mark	_	_
+19	morder	morder	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suposto	suposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	22	amod	_	_
+22	roedor	roedor	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	verificou	verificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+25	que	que	SCONJ	_	_	27	mark	_	_
+26	não	não	ADV	_	_	27	advmod	_	_
+27	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	24	ccomp	_	_
+28	ser	ser	AUX	_	VerbForm=Inf	30	cop	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	peito	peito	NOUN	_	Gender=Masc|Number=Sing	27	xcomp	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	frango	frango	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = Indignado, ele publicou várias fotos e dois vídeos em seu perfil no no Facebook, além de embalar o suposto rato e retornar à loja para reclamar com o gerente.
+1	Indignado	indignado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	fotos	foto	NOUN	_	Number=Plur	4	obj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	dois	dois	NUM	_	Gender=Masc|NumType=Card	9	nummod	_	_
+9	vídeos	vídeo	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nmod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Facebook	Facebook	PROPN	_	_	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	além	além	ADV	_	_	4	advmod	_	_
+20	de	de	ADP	_	_	21	mark	_	_
+21	embalar	embalar	VERB	_	VerbForm=Inf	19	acl	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suposto	suposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	24	amod	_	_
+24	rato	rato	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	retornar	retornar	VERB	_	VerbForm=Inf	21	conj	_	_
+27-28	à	_	_	_	_	_	_	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	loja	loja	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31	reclamar	reclamar	VERB	_	VerbForm=Inf	26	advcl	_	_
+32	com	com	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	gerente	gerente	NOUN	_	Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Dei uma mordida e percebi que era duro e com aparência de borracha, o que me fez prestar atenção no que realmente era a comida.
+1	Dei	dar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mordida	mordida	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	percebi	perceber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+6	que	que	SCONJ	_	_	8	mark	_	_
+7	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	duro	duro	ADJ	_	Gender=Masc|Number=Sing	5	ccomp	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	aparência	aparência	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	borracha	borracha	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
+16	que	que	PRON	_	PronType=Rel	15	fixed	_	_
+17	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+19	prestar	prestar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nmod	_	_
+23	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+24	realmente	realmente	ADV	_	_	27	advmod	_	_
+25	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	comida	comida	NOUN	_	Gender=Fem|Number=Sing	22	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Quando tirei da boca e olhei para baixo, percebi tinha a forma de um rato com rabo, publicou Devorise.
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	tirei	tirar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	advcl	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	boca	boca	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	olhei	olhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	baixo	baixo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	percebi	perceber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	ccomp:speech	_	_
+12	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	forma	forma	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	rato	rato	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	rabo	rabo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	11	punct	_	_
+21	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	Devorise	Devorise	PROPN	_	_	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0017
+# text = Me arrepiei todo!
+1	Me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	arrepiei	arrepiar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = Tenho me sentido mal desde então.
+1	Tenho	ter	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	sentido	sentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	mal	mal	ADV	_	_	3	advmod	_	_
+5	desde	desde	ADP	_	_	6	case	_	_
+6	então	então	ADV	_	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Vou procurar um advogado e processar o estabelecimento.
+1	Vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	procurar	procurar	VERB	_	VerbForm=Inf	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	processar	processar	VERB	_	VerbForm=Inf	2	conj	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	estabelecimento	estabelecimento	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Fica aqui um aviso para as pessoas que gostam de comer fast-food!
+1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aqui	aqui	ADV	_	_	1	advmod	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	aviso	aviso	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	gostam	gostar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	comer	comer	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	fast-food	fast-food	X	_	Foreign=Yes	11	obj	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0024
+# text = alertou.
+1	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0026
+# text = O KFC informou ao jornal inglês The Mirror que a empresa não encontrou nenhuma evidência que confirme as acusações, porém não detalhou o que era o tal pedaço de carne: Acreditamos absolutamente que esta é uma afirmação falsa, nada mais do que um engano e uma alegação inaceitável sobre a qualidade da nossa comida.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	KFC	KFC	PROPN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	inglês	inglês	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	The	The	PROPN	_	_	6	nmod	_	_
+9	Mirror	Mirror	PROPN	_	_	8	flat:name	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+15	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+16	evidência	evidência	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	confirme	confirmar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	porém	porém	CCONJ	_	_	24	cc	_	_
+23	não	não	ADV	_	_	24	advmod	_	_
+24	detalhou	detalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+25	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	obj	_	_
+26	que	que	PRON	_	PronType=Int	25	fixed	_	_
+27	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	tal	tal	DET	_	Number=Sing|PronType=Dem	30	det	_	_
+30	pedaço	pedaço	NOUN	_	Gender=Masc|Number=Sing	25	ccomp	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	carne	carne	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	34	punct	_	_
+34	Acreditamos	acreditar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+35	absolutamente	absolutamente	ADV	_	_	34	advmod	_	_
+36	que	que	SCONJ	_	_	40	mark	_	_
+37	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	40	nsubj	_	_
+38	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	afirmação	afirmação	NOUN	_	Gender=Fem|Number=Sing	34	ccomp	_	_
+41	falsa	falso	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	49	punct	_	_
+43	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	49	advmod	_	_
+44	mais	mais	ADV	_	_	49	advmod	_	_
+45-46	do	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	ExtPos=SCONJ	49	mark	_	_
+46	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	45	fixed	_	_
+47	que	que	PRON	_	PronType=Rel	45	fixed	_	_
+48	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	engano	engano	NOUN	_	Gender=Masc|Number=Sing	40	advcl	_	_
+50	e	e	CCONJ	_	_	52	cc	_	_
+51	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	alegação	alegação	NOUN	_	Gender=Fem|Number=Sing	40	conj	_	_
+53	inaceitável	inaceitável	ADJ	_	Number=Sing	52	amod	_	_
+54	sobre	sobre	ADP	_	_	56	case	_	_
+55	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
+57-58	da	_	_	_	_	_	_	_	_
+57	de	de	ADP	_	_	60	case	_	_
+58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+59	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	60	det	_	_
+60	comida	comida	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0028
+# text = A KFC analisa seriamente esse tipo de situação, pois pode arruinar nossa reputação.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	KFC	KFC	PROPN	_	_	3	nsubj	_	_
+3	analisa	analisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	seriamente	seriamente	ADV	_	_	3	advmod	_	_
+5	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	situação	situação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	pois	pois	SCONJ	_	_	11	mark	_	_
+11	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	arruinar	arruinar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	reputação	reputação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0030
+# text = A sede americana da empresa não comentou oficialmente as acusações de Devorise.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sede	sede	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	americana	americano	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	oficialmente	oficialmente	ADV	_	_	8	advmod	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Devorise	Devorise	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+

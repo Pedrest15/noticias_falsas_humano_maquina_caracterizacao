@@ -1,0 +1,282 @@
+# sent_id = S0001
+# text = O PT fazendo fama no mundo: "O legado olímpico brasileiro de US$ 12 bilhões está em ruínas".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PT	PT	PROPN	_	_	3	nsubj	_	_
+3	fazendo	fazer	VERB	_	VerbForm=Ger	0	root	_	_
+4	fama	fama	NOUN	_	Number=Sing	3	obj	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	20	punct	_	_
+9	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+10	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	legado	legado	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+12	olímpico	olímpico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	US$	US$	SYM	_	_	17	nmod	_	_
+16	12	12	NUM	_	NumType=Card	17	nummod	_	_
+17	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	ruínas	ruína	NOUN	_	Gender=Fem|Number=Plur	3	parataxis	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Uma reportagem do britânico Daily Mail publicada hoje (20) está fazendo o país passar vergonha em todo o planeta.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	britânico	britânico	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Daily	Daily	PROPN	_	_	5	nmod	_	_
+7	Mail	Mail	PROPN	_	_	6	flat:name	_	_
+8	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+9	hoje	hoje	ADV	_	_	8	advmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	20	20	NUM	_	NumType=Card	5	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fazendo	fazer	VERB	_	VerbForm=Ger	0	root	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	passar	passar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+18	vergonha	vergonha	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	em	em	ADP	_	_	22	case	_	_
+20	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	planeta	planeta	NOUN	_	Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0005
+# text = Obrigado Lula, obrigado Dilma e obrigado Michel Temer!
+1	Obrigado	obrigado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+2	Lula	Lula	PROPN	_	_	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	obrigado	obrigado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	conj	_	_
+5	Dilma	Dilma	PROPN	_	_	4	nsubj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	obrigado	obrigado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	conj	_	_
+8	Michel	Michel	PROPN	_	_	7	nsubj	_	_
+9	Temer	Temer	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0006
+# text = leia abaixo um trecho da matéria: Bilhões de dólares foram gastos para levar o evento esportivo para o Brasil com um custo total estimado em cerca de 12 bilhões de dólares.
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	abaixo	abaixo	ADV	_	_	1	advmod	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	13	punct	_	_
+9	Bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	gastos	gastar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	parataxis	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	levar	levar	VERB	_	VerbForm=Inf	13	advcl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	evento	evento	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	esportivo	esportivo	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Brasil	Brasil	PROPN	_	_	15	obl	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	custo	custo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+25	total	total	ADJ	_	Number=Sing	24	amod	_	_
+26	estimado	estimar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
+27	em	em	ADP	_	_	31	case	_	_
+28	cerca	cerca	ADV	_	ExtPos=ADV	30	advmod	_	_
+29	de	de	ADP	_	_	28	fixed	_	_
+30	12	12	NUM	_	NumType=Card	31	nummod	_	_
+31	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0008
+# text = Agora o legado olímpico está em ruínas e novas fotos revelaram como as arenas estão se desintegrando.
+1	Agora	agora	ADV	_	_	7	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	legado	legado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	olímpico	olímpico	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	ruínas	ruína	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+8	e	e	CCONJ	_	_	11	cc	_	_
+9	novas	novo	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+10	fotos	foto	NOUN	_	Number=Plur	11	nsubj	_	_
+11	revelaram	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	como	como	ADV	_	_	17	advmod	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	arenas	arena	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl	_	_
+17	desintegrando	desintegrar	VERB	_	VerbForm=Ger	11	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0010
+# text = Dois anos antes, o Ministério dos Esportes declarou que foram gastos US$ 11,63 bilhões para levar a Copa do Mundo para o país.
+1	Dois	dois	NUM	_	Gender=Masc|NumType=Card	2	nummod	_	_
+2	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+3	antes	antes	ADV	_	_	10	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ministério	Ministério	PROPN	_	_	10	nsubj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Esportes	Esportes	PROPN	_	_	6	flat:name	_	_
+10	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	13	mark	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	gastos	gastar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+14	US$	US$	SYM	_	_	16	nmod	_	_
+15	11,63	11,63	NUM	_	NumType=Card	16	nummod	_	_
+16	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	levar	levar	VERB	_	VerbForm=Inf	13	advcl	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Copa	Copa	PROPN	_	_	18	obj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Mundo	Mundo	PROPN	_	_	20	flat:name	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	país	país	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0012
+# text = O governo não ouviu o clamor dos brasileiros que foram às ruas para protestar contra a enorme despesa em um momento que os serviços públicos estavam caóticos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	ouviu	ouvir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	clamor	clamor	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	foram	foram	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+12-13	às	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	protestar	protestar	VERB	_	VerbForm=Inf	11	advcl	_	_
+17	contra	contra	ADP	_	_	20	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	enorme	enorme	ADJ	_	Number=Sing	20	amod	_	_
+20	despesa	despesa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	momento	momento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+24	que	que	PRON	_	PronType=Rel	29	obl	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	29	nsubj	_	_
+27	públicos	público	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
+28	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+29	caóticos	caótico	ADJ	_	Gender=Masc|Number=Plur	23	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0014
+# text = O New York Times teve acesso a relatórios que apontam que o Rio de Janeiro prevê um déficit orçamentário de US$ 1 bilhão em 2017, com o orçamento do Estado chegando a US$ 6 bilhões.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	New	New	PROPN	_	_	5	nsubj	_	_
+3	York	York	PROPN	_	_	2	flat:name	_	_
+4	Times	Times	PROPN	_	_	2	flat:name	_	_
+5	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	relatórios	relatório	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	que	que	SCONJ	_	_	16	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Rio	Rio	PROPN	_	_	16	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Janeiro	Janeiro	PROPN	_	_	13	flat:name	_	_
+16	prevê	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	orçamentário	orçamentário	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	US$	US$	SYM	_	_	23	nmod	_	_
+22	1	1	NUM	_	NumType=Card	23	nummod	_	_
+23	bilhão	bilhão	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	2017	2017	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	33	punct	_	_
+27	com	com	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	orçamento	orçamento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Estado	Estado	PROPN	_	_	29	nmod	_	_
+33	chegando	chegar	VERB	_	VerbForm=Ger	16	advcl	_	_
+34	a	a	ADP	_	_	37	case	_	_
+35	US$	US$	SYM	_	_	37	nmod	_	_
+36	6	6	NUM	_	NumType=Card	37	nummod	_	_
+37	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0016
+# text = O Rio também deve US$ 10 bilhões em empréstimos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Rio	Rio	PROPN	_	_	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	US$	US$	SYM	_	_	7	nmod	_	_
+6	10	10	NUM	_	NumType=Card	7	nummod	_	_
+7	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	empréstimos	empréstimo	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0018
+# text = É isso aí!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	aí	aí	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0020
+# text = Parabéns senhor Luiz Inácio!
+1	Parabéns	parabéns	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	senhor	senhor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	Luiz	Luiz	PROPN	_	_	2	nmod	_	_
+4	Inácio	Inácio	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0022
+# text = Parabéns Cabral!
+1	Parabéns	parabéns	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	Cabral	Cabral	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0024
+# text = Parabéns Eduardo Paes!
+1	Parabéns	parabéns	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	Eduardo	Eduardo	PROPN	_	_	1	nmod	_	_
+3	Paes	Paes	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0026
+# text = Vocês fizeram história.
+1	Vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	história	história	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+

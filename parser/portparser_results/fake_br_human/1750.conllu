@@ -1,0 +1,74 @@
+# sent_id = S0001
+# text = Anota aí Michel!
+1	Anota	anotar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aí	aí	ADV	_	_	1	advmod	_	_
+3	Michel	Michel	PROPN	_	_	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Juiz alerta: Próximo "acidente pavoroso" poderá ocorrer em Tocantins.
+1	Juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	alerta	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	9	punct	_	_
+4	Próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	pavoroso	pavoroso	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	6	punct	_	_
+9	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp:speech	_	_
+10	ocorrer	ocorrer	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Tocantins	Tocantins	PROPN	_	_	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O juiz da 2.a Vara Criminal e de Execução Penal do Tocantins, fez um alerta para o risco de rebelião no presídio Barra da Grota, no norte do estado, informou o Estadão.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	2.a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vara	Vara	PROPN	_	_	2	nmod	_	_
+7	Criminal	Criminal	PROPN	_	_	6	flat:name	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Execução	Execução	PROPN	_	_	6	flat:name	_	_
+11	Penal	Penal	PROPN	_	_	10	flat:name	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Tocantins	Tocantins	PROPN	_	_	6	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	ccomp:speech	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	alerta	alerta	NOUN	_	Number=Sing	16	obj	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	risco	risco	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	rebelião	rebelião	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	presídio	presídio	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	Barra	Barra	PROPN	_	_	26	nmod	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Grota	Grota	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	34	punct	_	_
+32-33	no	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	norte	norte	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	estado	estado	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	16	punct	_	_
+39	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Estadão	Estadão	PROPN	_	_	39	nsubj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	39	punct	_	_
+

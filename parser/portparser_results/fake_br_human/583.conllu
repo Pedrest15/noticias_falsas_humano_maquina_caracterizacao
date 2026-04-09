@@ -1,0 +1,303 @@
+# sent_id = S0001
+# text = Três casos de adolescentes que cometeram crimes bárbaros.
+1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
+2	casos	caso	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	adolescentes	adolescente	NOUN	_	Number=Plur	2	nmod	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	cometeram	cometer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	bárbaros	bárbaro	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Todos pegaram prisão perpétua.
+1	Todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	pegaram	pegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	perpétua	perpétuo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = SETEMBRO DE 2012 EUA Cristian Fernandez, 13 anos, teve uma infância perturbada desde o seu nascimento, foi julgado como um adulto pelas suas acusações, entre elas, o assassinato de seu irmão mais novo.
+1	SETEMBRO	setembro	NOUN	_	Gender=Masc|Number=Sing	11	root	_	_
+2	DE	de	ADP	_	_	3	case	_	_
+3	2012	2012	NUM	_	NumType=Card	1	nmod	_	_
+4	EUA	EUA	PROPN	_	_	1	nmod	_	_
+5	Cristian	Cristian	PROPN	_	_	1	nmod	_	_
+6	Fernandez	Fernandez	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	13	13	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	infância	infância	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	perturbada	perturbar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+15	desde	desde	ADP	_	_	18	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	nascimento	nascimento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	_
+22	como	como	ADP	_	_	24	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	adulto	adulto	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25-26	pelas	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	28	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	entre	entre	ADP	_	_	31	case	_	_
+31	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	34	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	assassinato	assassinato	NOUN	_	Gender=Masc|Number=Sing	28	appos	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	det	_	_
+37	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+38	mais	mais	ADV	_	_	39	advmod	_	_
+39	novo	novo	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Ele foi condenado a prisão perpétua e julgado como adulto.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	perpétua	perpétuo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	como	como	ADP	_	_	10	case	_	_
+10	adulto	adulto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O garoto também foi condenado por abusar do seu outro irmão de apenas 5 anos de idade.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	garoto	garoto	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	também	também	ADV	_	_	5	advmod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	por	por	ADP	_	_	7	mark	_	_
+7	abusar	abusar	VERB	_	VerbForm=Inf	5	advcl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	12	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+11	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	de	de	ADP	_	_	16	case	_	_
+14	apenas	apenas	ADV	_	_	15	advmod	_	_
+15	5	5	NUM	_	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	idade	idade	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = ABRIL DE 2015 INGLATERRA Petri Kurti, um adolescente de 13 anos recebeu uma sentença de prisão para o resto da vida pelo assassinato de uma mulher na cidade de West Midlands, região central da Inglaterra.
+1	ABRIL	abril	NOUN	_	Gender=Masc|Number=Sing	13	root	_	_
+2	DE	de	ADP	_	_	3	case	_	_
+3	2015	2015	NUM	_	NumType=Card	1	nmod	_	_
+4	INGLATERRA	INGLATERRA	PROPN	_	_	1	nmod	_	_
+5	Petri	Petri	PROPN	_	_	13	nsubj	_	_
+6	Kurti	Kurti	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	adolescente	adolescente	NOUN	_	Number=Sing	5	appos	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	13	13	NUM	_	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+13	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sentença	sentença	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	resto	resto	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	vida	vida	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	pelo	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	assassinato	assassinato	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30-31	na	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	West	West	PROPN	_	_	32	nmod	_	_
+35	Midlands	Midlands	PROPN	_	_	34	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	região	região	NOUN	_	Gender=Fem|Number=Sing	32	appos	_	_
+38	central	central	ADJ	_	Number=Sing	37	amod	_	_
+39-40	da	_	_	_	_	_	_	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Inglaterra	Inglaterra	PROPN	_	_	37	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = O The Guardian informou que, por ser menor de idade, Kurti terá de cumprir (pelo menos) 12 anos de prisão antes de ser liberado da custódia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	The	The	PROPN	_	_	4	nsubj	_	_
+3	Guardian	Guardian	PROPN	_	_	2	flat:name	_	_
+4	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	por	por	ADP	_	_	9	mark	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	9	cop	_	_
+9	menor	menor	NOUN	_	Number=Sing	14	advcl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	idade	idade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	Kurti	Kurti	PROPN	_	_	14	nsubj	_	_
+14	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	cumprir	cumprir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18-19	pelo	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	ExtPos=ADV	22	advmod	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	fixed	_	_
+20	menos	menos	NOUN	_	Gender=Masc|Number=Sing	18	fixed	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	18	punct	_	_
+22	12	12	NUM	_	NumType=Card	23	nummod	_	_
+23	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	antes	antes	ADV	_	_	16	advmod	_	_
+27	de	de	ADP	_	_	29	mark	_	_
+28	ser	ser	AUX	_	VerbForm=Inf	29	aux:pass	_	_
+29	liberado	liberar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	acl	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	custódia	custódia	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Após esse período, de acordo com as leis da Inglaterra, ele ficará em condicional e será monitorado pelas autoridades pelo resto da vida.
+1	Após	após	ADP	_	_	3	case	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	período	período	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	leis	lei	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Inglaterra	Inglaterra	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	ficará	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	condicional	condicional	NOUN	_	Number=Sing	15	obl	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux:pass	_	_
+20	monitorado	monitorar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	_
+21-22	pelas	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	20	obl:agent	_	_
+24-25	pelo	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	resto	resto	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	vida	vida	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0017
+# text = ABRIL DE 2016 INGLATERRA As duas meninas, cujos nomes não foram divulgados por razões legais, tinham 13 e 14 anos quando atacaram Angela Wrightson em sua residência em Hartlepool, nordeste da Inglaterra, em dezembro de 2014.
+1	ABRIL	abril	NOUN	_	Gender=Masc|Number=Sing	18	root	_	_
+2	DE	de	ADP	_	_	3	case	_	_
+3	2016	2016	NUM	_	NumType=Card	1	nmod	_	_
+4	INGLATERRA	INGLATERRA	PROPN	_	_	1	nmod	_	_
+5	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	duas	dois	NUM	_	Gender=Fem|NumType=Card	7	nummod	_	_
+7	meninas	menino	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	cujos	cujo	DET	_	Gender=Masc|Number=Plur|PronType=Rel	10	det	_	_
+10	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+11	não	não	ADV	_	_	13	advmod	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	divulgados	divulgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	razões	razão	NOUN	_	Number=Plur	13	obl	_	_
+16	legais	legal	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	_
+18	tinham	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	13	13	NUM	_	NumType=Card	22	nummod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	14	14	NUM	_	NumType=Card	19	conj	_	_
+22	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+23	quando	quando	SCONJ	_	_	24	mark	_	_
+24	atacaram	atacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
+25	Angela	Angela	PROPN	_	_	24	obj	_	_
+26	Wrightson	Wrightson	PROPN	_	_	25	flat:name	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	residência	residência	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	Hartlepool	Hartlepool	PROPN	_	_	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	nordeste	nordeste	NOUN	_	Gender=Masc|Number=Sing	31	appos	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Inglaterra	Inglaterra	PROPN	_	_	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	33	punct	_	_
+38	em	em	ADP	_	_	39	case	_	_
+39	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	2014	2014	NUM	_	NumType=Card	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0019
+# text = Ambas pegaram prisão perpétua por crime bárbaro.
+1	Ambas	ambos	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	pegaram	pegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	perpétua	perpétuo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	crime	crime	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	bárbaro	bárbaro	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = Elas torturaram a mulher por 5 horas, a mataram e ainda tiraram selfies durante o crime.
+1	Elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	torturaram	torturar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	5	5	NUM	_	NumType=Card	7	nummod	_	_
+7	horas	hora	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	mataram	matar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	ainda	ainda	ADV	_	_	13	advmod	_	_
+13	tiraram	tirar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	selfies	selfie	NOUN	_	Foreign=Yes|Gender=Fem|Number=Plur	13	obj	_	_
+15	durante	durante	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	crime	crime	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+

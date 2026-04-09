@@ -1,0 +1,121 @@
+# sent_id = S0001
+# text = Em nota oficial, governo diz que Dilma gastou R$ 3 mil/dia com alimentação.
+1	Em	em	ADP	_	_	2	case	_	_
+2	nota	nota	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+3	oficial	oficial	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	Dilma	Dilma	PROPN	_	_	9	nsubj	_	_
+9	gastou	gastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+10	R$	R$	SYM	_	_	12	nmod	_	_
+11	3	3	NUM	_	NumType=Card	12	nummod	_	_
+12	mil/dia	mil/dia	NOUN	_	_	9	obj	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Lula e a militância petista se prestaram a reclamar que o presidente em exercício Michel Temer estaria fazendo Dilma "passar fome".
+1	Lula	Lula	PROPN	_	_	7	nsubj	_	_
+2	e	e	CCONJ	_	_	4	cc	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	militância	militância	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+5	petista	petista	ADJ	_	Number=Sing	4	amod	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	prestaram	prestar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	reclamar	reclamar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	que	que	SCONJ	_	_	18	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	presidente	presidente	NOUN	_	Number=Sing	18	nsubj	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	exercício	exercício	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	Michel	Michel	PROPN	_	_	12	nmod	_	_
+16	Temer	Temer	PROPN	_	_	15	flat:name	_	_
+17	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
+18	fazendo	fazer	VERB	_	VerbForm=Ger	9	ccomp	_	_
+19	Dilma	Dilma	PROPN	_	_	18	obj	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	passar	passar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+22	fome	fome	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = O governo Temer oficializou a resposta para a ladainha petista: Dilma Rousseff vinha, em 2016, gastando R$ 62 mil por mês com comida.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Temer	Temer	PROPN	_	_	2	nmod	_	_
+4	oficializou	oficializar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ladainha	ladainha	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	petista	petista	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	19	punct	_	_
+12	Dilma	Dilma	PROPN	_	_	19	nsubj	_	_
+13	Rousseff	Rousseff	PROPN	_	_	12	flat:name	_	_
+14	vinha	vir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	2016	2016	NUM	_	NumType=Card	19	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	gastando	gastar	VERB	_	VerbForm=Ger	4	advcl	_	_
+20	R$	R$	SYM	_	_	19	obj	_	_
+21	62	62	NUM	_	NumType=Card	20	nummod	_	_
+22	mil	mil	NUM	_	NumType=Card	21	flat	_	_
+23	por	por	ADP	_	_	24	case	_	_
+24	mês	mês	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	comida	comida	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Em 18 dias afastada do cargo, gastaria R$ 54 mil, ou R$ 3 mil por dia.
+1	Em	em	ADP	_	_	3	case	_	_
+2	18	18	NUM	_	NumType=Card	3	nummod	_	_
+3	dias	dia	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+4	afastada	afastado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	advcl	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	gastaria	gastar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	R$	R$	SYM	_	_	9	obj	_	_
+11	54	54	NUM	_	NumType=Card	10	nummod	_	_
+12	mil	mil	NUM	_	NumType=Card	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	ou	ou	CCONJ	_	_	15	cc	_	_
+15	R$	R$	SYM	_	_	10	conj	_	_
+16	3	3	NUM	_	NumType=Card	15	nummod	_	_
+17	mil	mil	NUM	_	NumType=Card	16	flat	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	dia	dia	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Será que Dilma está comendo tanto assim?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+2	que	que	SCONJ	_	_	5	discourse	_	_
+3	Dilma	Dilma	PROPN	_	_	5	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	comendo	comer	VERB	_	VerbForm=Ger	0	root	_	_
+6	tanto	tanto	ADV	_	_	5	advmod	_	_
+7	assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Tempos atrás ela estava de regime ué!
+1	Tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+2	atrás	atrás	ADV	_	_	1	advmod	_	_
+3	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	regime	regime	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	ué	ué	INTJ	_	_	6	discourse	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	6	punct	_	_
+

@@ -1,0 +1,439 @@
+# sent_id = S0001
+# text = Site americano afirma que Elvis Presley está vivo, tem 82 anos e vive sob proteção do FBI.
+1	Site	site	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	americano	americano	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	Elvis	Elvis	PROPN	_	_	8	nsubj	_	_
+6	Presley	Presley	PROPN	_	_	5	flat:name	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	vivo	vivo	ADJ	_	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	82	82	NUM	_	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	sob	sob	ADP	_	_	16	case	_	_
+16	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	FBI	FBI	PROPN	_	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Para um fã, um ídolo nunca morre [...] mas alguns desses fãs tem exagerado no quesito "idolatria".
+1	Para	para	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fã	fã	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ídolo	ídolo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	nunca	nunca	ADV	_	_	8	advmod	_	_
+8	morre	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	parataxis	_	SpaceAfter=No
+11	..	..	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	10	punct	_	_
+13	mas	mas	CCONJ	_	_	19	cc	_	_
+14	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	19	nsubj	_	_
+15-16	desses	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+17	fãs	fã	NOUN	_	Number=Plur	14	nmod	_	_
+18	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	exagerado	exagerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	quesito	quesito	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	idolatria	idolatria	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com a matéria publicada no portal News Week, Elvis Presley foi visto em vários lugares do mundo desde 1977, ano oficial de sua morte.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	portal	portal	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	News	News	PROPN	_	_	9	nmod	_	_
+11	Week	Week	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	Elvis	Elvis	PROPN	_	_	16	nsubj:pass	_	_
+14	Presley	Presley	PROPN	_	_	13	flat:name	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	lugares	lugar	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	desde	desde	ADP	_	_	24	case	_	_
+24	1977	1977	NUM	_	NumType=Card	16	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	ano	ano	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
+27	oficial	oficial	ADJ	_	Number=Sing	26	amod	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+30	morte	morte	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = O jornalista escreveu que o Rei do Rock estaria usando o codinome de John Burrows, usado diversas vezes pelo cantordurante sua carreira.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Rei	Rei	PROPN	_	_	11	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Rock	Rock	PROPN	_	_	6	flat:name	_	_
+10	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	usando	usar	VERB	_	VerbForm=Ger	3	ccomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	codinome	codinome	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	John	John	PROPN	_	_	13	nmod	_	_
+16	Burrows	Burrows	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+19	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	25	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	cantordurante	cantordurante	ADJ	_	Number=Sing	18	obl	_	_
+24	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Ela teria forjado sua morte para viver na Argentina porque não suportava a fama e queria desfrutar o resto de sua vida em paz.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	_
+3	forjado	forjar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	morte	morte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	viver	viver	VERB	_	VerbForm=Inf	3	advcl	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Argentina	Argentina	PROPN	_	_	7	obl	_	_
+11	porque	porque	SCONJ	_	_	13	mark	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	suportava	suportar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fama	fama	NOUN	_	Number=Sing	13	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+18	desfrutar	desfrutar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	resto	resto	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	vida	vida	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	paz	paz	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = O plano teria sido planejado pelo FBI, informou a matéria que alega que Elvis colaborou com o serviço secreto dos Estados Unidos (durante anos) na condição de informante.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	plano	plano	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	planejado	planejar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp:speech	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	FBI	FBI	PROPN	_	_	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	que	que	SCONJ	_	_	17	mark	_	_
+16	Elvis	Elvis	PROPN	_	_	17	nsubj	_	_
+17	colaborou	colaborar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Estados	Estados	PROPN	_	_	20	nmod	_	_
+25	Unidos	Unidos	PROPN	_	_	24	flat:name	_	_
+26	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	durante	durante	ADP	_	_	28	case	_	_
+28	anos	ano	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	_
+30-31	na	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	condição	condição	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	informante	informante	NOUN	_	Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = A tal "missão" do astro no FBI não foi detalhada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	tal	tal	DET	_	Number=Sing|PronType=Dem	4	det	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	missão	missão	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	astro	astro	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	FBI	FBI	PROPN	_	_	4	nmod	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	detalhada	detalhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0015
+# text = De acordo com a matéria, Elvis Presley foi visto em vários lugares do mundo desde 1977, ano oficial de sua morte.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Elvis	Elvis	PROPN	_	_	10	nsubj:pass	_	_
+8	Presley	Presley	PROPN	_	_	7	flat:name	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	lugares	lugar	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	desde	desde	ADP	_	_	18	case	_	_
+18	1977	1977	NUM	_	NumType=Card	10	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	ano	ano	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
+21	oficial	oficial	ADJ	_	Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	morte	morte	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = O jornalista escreveu que o Rei do Rock estaria usando o codinome de John Burrows, usado diversas vezes pelo cantordurante sua carreira.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Rei	Rei	PROPN	_	_	11	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Rock	Rock	PROPN	_	_	6	flat:name	_	_
+10	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	usando	usar	VERB	_	VerbForm=Ger	3	ccomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	codinome	codinome	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	John	John	PROPN	_	_	13	nmod	_	_
+16	Burrows	Burrows	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+19	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	25	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	cantordurante	cantordurante	ADJ	_	Number=Sing	18	obl	_	_
+24	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Ela teria forjado sua morte para viver na Argentina porque não suportava a fama e queria desfrutar o resto de sua vida em paz.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	_
+3	forjado	forjar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	morte	morte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	viver	viver	VERB	_	VerbForm=Inf	3	advcl	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Argentina	Argentina	PROPN	_	_	7	obl	_	_
+11	porque	porque	SCONJ	_	_	13	mark	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	suportava	suportar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fama	fama	NOUN	_	Number=Sing	13	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+18	desfrutar	desfrutar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	resto	resto	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	vida	vida	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	paz	paz	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = O plano teria sido arquitetado pelo FBI, informou a matéria que alega que Elvis colaborou com o serviço secreto dos Estados Unidos (durante anos) na condição de informante.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	plano	plano	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	arquitetado	arquitetar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp:speech	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	FBI	FBI	PROPN	_	_	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	que	que	SCONJ	_	_	17	mark	_	_
+16	Elvis	Elvis	PROPN	_	_	17	nsubj	_	_
+17	colaborou	colaborar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Estados	Estados	PROPN	_	_	20	nmod	_	_
+25	Unidos	Unidos	PROPN	_	_	24	flat:name	_	_
+26	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	durante	durante	ADP	_	_	28	case	_	_
+28	anos	ano	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	_
+30-31	na	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	condição	condição	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	informante	informante	NOUN	_	Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = A tal "missão" do astro no FBI não foi detalhada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	tal	tal	DET	_	Number=Sing|PronType=Dem	4	det	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	missão	missão	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	astro	astro	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	FBI	FBI	PROPN	_	_	4	nmod	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	detalhada	detalhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0025
+# text = O The News of America jura que Elvis ainda vive escondido na Argentina e tem hoje 82 anos de idade.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	The	The	PROPN	_	_	6	nsubj	_	_
+3	News	News	PROPN	_	_	2	flat:name	_	_
+4	of	of	PROPN	_	_	2	flat:name	_	_
+5	America	America	PROPN	_	_	2	flat:name	_	_
+6	jura	jurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	Elvis	Elvis	PROPN	_	_	10	nsubj	_	_
+9	ainda	ainda	ADV	_	_	10	advmod	_	_
+10	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	escondido	escondido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	advcl	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Argentina	Argentina	PROPN	_	_	10	obl	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	hoje	hoje	ADV	_	_	16	advmod	_	_
+18	82	82	NUM	_	NumType=Card	19	nummod	_	_
+19	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	idade	idade	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0027
+# text = A polêmica mais recente é do ano de 2009, onde o rei estaria com 74 anos participando da posse do presidente Barack Obama, em Washington.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polêmica	polêmica	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	recente	recente	ADJ	_	Number=Sing	2	amod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ano	ano	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	2009	2009	NUM	_	NumType=Card	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	18	punct	_	_
+12	onde	onde	ADV	_	_	18	advmod	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rei	rei	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+15	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	cop	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	74	74	NUM	_	NumType=Card	18	nummod	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	8	acl:relcl	_	_
+19	participando	participar	VERB	_	VerbForm=Ger	8	acl	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	posse	posse	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	presidente	presidente	NOUN	_	Number=Sing	22	nmod	_	_
+26	Barack	Barack	PROPN	_	_	25	nmod	_	_
+27	Obama	Obama	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	Washington	Washington	PROPN	_	_	22	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0028
+# text = assista a partir do minuto 1:50.
+1	assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	_	_	3	mark	_	_
+3	partir	partir	VERB	_	VerbForm=Inf	1	advcl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	1:50	1:50	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+

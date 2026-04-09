@@ -1,0 +1,252 @@
+# sent_id = S0001
+# text = O Trio Parada Dura vai cantar na cadeia de Curitiba!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Trio	Trio	PROPN	_	_	6	nsubj	_	_
+3	Parada	Parada	PROPN	_	_	2	flat:name	_	_
+4	Dura	Dura	PROPN	_	_	2	flat:name	_	_
+5	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cantar	cantar	VERB	_	VerbForm=Inf	0	root	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Curitiba	Curitiba	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = A Lava-Jato descobriu tudo!.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lava-Jato	Lava-Jato	PROPN	_	_	3	nsubj	_	_
+3	descobriu	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	tudo	tudo	PRON	_	PronType=Ind	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O documento que vai acabar de vez com a farsa de Lula!.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	acabar	acabar	VERB	_	VerbForm=Inf	2	acl:relcl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	farsa	farsa	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Lula	Lula	PROPN	_	_	10	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = O ex-presidente tinha uma conta corrente no Setor de Operações Estruturadas da Odebrecht [...] leia-se SETOR DE PROPINAS.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	nsubj	_	_
+3	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	conta	conta	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	corrente	corrente	ADJ	_	Number=Sing	5	amod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Setor	Setor	PROPN	_	_	5	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Operações	Operações	PROPN	_	_	9	flat:name	_	_
+12	Estruturadas	Estruturadas	PROPN	_	_	9	flat:name	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Odebrecht	Odebrecht	PROPN	_	_	9	nmod	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	20	parataxis	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	parataxis	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20-21	leia-se	_	_	_	_	_	_	_	_
+20	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl:impers	_	_
+22	SETOR	SETOR	PROPN	_	_	20	obj	_	_
+23	DE	de	ADP	_	_	24	case	_	_
+24	PROPINAS	PROPINAS	PROPN	_	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Um documento de nome "Posição Programa Especial Italiano" está em poder dos investigadores da Lava Jato e mostra o saldo que o Trio Parada Dura tinha a receber da Odebrecht: "Italiano", também conhecido como Antonio Palocci R$ 6.000.000 "Amigo", também conhecido como Luíz Inácio R$ 23.000.000 "Pós-Itália", também conhecido como Guido Mantega R$ 50.000.000 De acordo com as investigações, o Trio Parada Dura era bonificado com um % sobre os contratos da empreiteira.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	nome	nome	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Posição	Posição	PROPN	_	_	4	nmod	_	_
+7	Programa	Programa	PROPN	_	_	6	flat:name	_	_
+8	Especial	Especial	PROPN	_	_	6	flat:name	_	_
+9	Italiano	Italiano	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	6	punct	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	poder	poder	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	investigadores	investigador	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Lava	Lava	PROPN	_	_	16	nmod	_	_
+20	Jato	Jato	PROPN	_	_	19	flat:name	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	saldo	saldo	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	que	que	PRON	_	PronType=Rel	30	obj	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Trio	Trio	PROPN	_	_	30	nsubj	_	_
+28	Parada	Parada	PROPN	_	_	27	flat:name	_	_
+29	Dura	Dura	PROPN	_	_	27	flat:name	_	_
+30	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+31	a	a	ADP	_	_	32	mark	_	_
+32	receber	receber	VERB	_	VerbForm=Inf	30	xcomp	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Odebrecht	Odebrecht	PROPN	_	_	32	obl	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	38	punct	_	_
+37	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	Italiano	Italiano	PROPN	_	_	13	parataxis	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	_
+41	também	também	ADV	_	_	53	advmod	_	_
+42	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
+43	como	como	ADP	_	_	55	case	_	_
+44	Antonio	Antonio	PROPN	_	_	42	obl	_	_
+45	Palocci	Palocci	PROPN	_	_	55	flat:name	_	_
+46	R$	R$	SYM	_	_	32	obj	_	_
+47	6.000.000	6.000.000	NUM	_	NumType=Card	57	nummod	_	_
+48	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+49	Amigo	Amigo	PROPN	_	_	38	appos	_	SpaceAfter=No
+50	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	53	punct	_	_
+52	também	também	ADV	_	_	53	advmod	_	_
+53	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	49	acl	_	_
+54	como	como	ADP	_	_	55	case	_	_
+55	Luíz	Luíz	PROPN	_	_	53	obl	_	_
+56	Inácio	Inácio	PROPN	_	_	55	flat:name	_	_
+57	R$	R$	SYM	_	_	32	obj	_	_
+58	23.000.000	23.000.000	NUM	_	NumType=Card	57	nummod	_	_
+59	"	"	PUNCT	_	_	60	punct	_	SpaceAfter=No
+60	Pós-Itália	Pós-Itália	PROPN	_	_	38	appos	_	SpaceAfter=No
+61	"	"	PUNCT	_	_	60	punct	_	SpaceAfter=No
+62	,	,	PUNCT	_	_	64	punct	_	_
+63	também	também	ADV	_	_	64	advmod	_	_
+64	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	60	acl	_	_
+65	como	como	ADP	_	_	66	case	_	_
+66	Guido	Guido	PROPN	_	_	64	obl	_	_
+67	Mantega	Mantega	PROPN	_	_	66	flat:name	_	_
+68	R$	R$	SYM	_	_	64	obl	_	_
+69	50.000.000	50.000.000	NUM	_	NumType=Card	68	nummod	_	_
+70	De	de	ADP	_	_	71	case	_	_
+71	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+72	com	com	ADP	_	_	74	case	_	_
+73	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	74	det	_	_
+74	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	71	nmod	_	SpaceAfter=No
+75	,	,	PUNCT	_	_	64	punct	_	_
+76	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
+77	Trio	Trio	PROPN	_	_	81	nsubj:pass	_	_
+78	Parada	Parada	PROPN	_	_	77	flat:name	_	_
+79	Dura	Dura	PROPN	_	_	77	flat:name	_	_
+80	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	81	aux:pass	_	_
+81	bonificado	bonificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	root	_	_
+82	com	com	ADP	_	_	84	case	_	_
+83	um	um	NUM	_	Gender=Masc|NumType=Card	84	nummod	_	_
+84	%	%	SYM	_	_	81	obl	_	_
+85	sobre	sobre	ADP	_	_	87	case	_	_
+86	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	87	det	_	_
+87	contratos	contrato	NOUN	_	Gender=Masc|Number=Plur	84	nmod	_	_
+88-89	da	_	_	_	_	_	_	_	_
+88	de	de	ADP	_	_	90	case	_	_
+89	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	90	det	_	_
+90	empreiteira	empreiteiro	NOUN	_	Gender=Fem|Number=Sing	87	nmod	_	SpaceAfter=No
+91	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = Os créditos ficavam disponíveis no nome de cada um deles [...] quando eles precisavam, era só fazer o saque no Setor de Operações Estruturadas da Odebrecht.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	créditos	crédito	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	ficavam	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	disponíveis	disponível	ADJ	_	Number=Plur	3	xcomp	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nome	nome	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	cada	cada	DET	_	Number=Sing|PronType=Ind	10	det	_	_
+10	um	um	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	nmod	_	_
+11-12	deles	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
+13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+15	..	..	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	]	]	PUNCT	_	_	14	punct	_	_
+17	quando	quando	SCONJ	_	_	19	mark	_	_
+18	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	precisavam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+22	só	só	ADV	_	_	23	advmod	_	_
+23	fazer	fazer	VERB	_	VerbForm=Inf	3	parataxis	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	saque	saque	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Setor	Setor	PROPN	_	_	23	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Operações	Operações	PROPN	_	_	28	flat:name	_	_
+31	Estruturadas	Estruturadas	PROPN	_	_	28	flat:name	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Odebrecht	Odebrecht	PROPN	_	_	28	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Facil né?
+1	Facil	facil	ADJ	_	Number=Sing	0	root	_	_
+2	né	né	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = O esquema foi confirmado por Emilio Odebrecht e por outros funcionários da empresa.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	confirmado	confirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	Emilio	Emilio	PROPN	_	_	4	obl:agent	_	_
+7	Odebrecht	Odebrecht	PROPN	_	_	6	flat:name	_	_
+8	e	e	CCONJ	_	_	11	cc	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = O Trio Parada Dura vai cantar na cadeia!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Trio	Trio	PROPN	_	_	6	nsubj	_	_
+3	Parada	Parada	PROPN	_	_	2	flat:name	_	_
+4	Dura	Dura	PROPN	_	_	2	flat:name	_	_
+5	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cantar	cantar	VERB	_	VerbForm=Inf	0	root	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	6	punct	_	_
+

@@ -1,0 +1,361 @@
+# sent_id = S0001
+# text = Ex-Governador do DF, Rogério Rosso, é acusado de receber R$ 5 milhões em propina no caso Mané Garrincha, revela delator.
+1	Ex-Governador	ex-governador	NOUN	_	Gender=Masc|Number=Sing	10	dislocated	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	DF	DF	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	Rogério	Rogério	PROPN	_	_	10	nsubj:pass	_	_
+7	Rosso	Rosso	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	ccomp:speech	_	_
+11	de	de	ADP	_	_	12	mark	_	_
+12	receber	receber	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	R$	R$	SYM	_	_	15	nmod	_	_
+14	5	5	NUM	_	NumType=Card	15	nummod	_	_
+15	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	propina	propina	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	caso	caso	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+21	Mané	Mané	PROPN	_	_	20	nmod	_	_
+22	Garrincha	Garrincha	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	10	punct	_	_
+24	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	delator	delator	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0003
+# text = O dinheiro teria sido pago em 2011, após ele deixar o cargo, por influenciar decisões chave na licitação ainda em 2010.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	pago	pagar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	2011	2011	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	após	após	ADP	_	_	11	mark	_	_
+10	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	deixar	deixar	VERB	_	VerbForm=Inf	5	advcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	por	por	ADP	_	_	16	mark	_	_
+16	influenciar	influenciar	VERB	_	VerbForm=Inf	5	advcl	_	_
+17	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+18	chave	chave	ADJ	_	Number=Sing	17	amod	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	licitação	licitação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22	ainda	ainda	ADV	_	_	24	advmod	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	2010	2010	NUM	_	NumType=Card	16	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com Rodrigo Lopes, ex-executivo da Andrade Gutierrez, Rosso teria solicitado inicialmente R$ 15 milhões, mas um acordo reduziu o valor para R$ 5 milhões.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	Rodrigo	Rodrigo	PROPN	_	_	2	nmod	_	_
+5	Lopes	Lopes	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ex-executivo	ex-executivo	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Andrade	Andrade	PROPN	_	_	7	nmod	_	_
+11	Gutierrez	Gutierrez	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	Rosso	Rosso	PROPN	_	_	15	nsubj	_	_
+14	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	aux	_	_
+15	solicitado	solicitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+16	inicialmente	inicialmente	ADV	_	_	15	advmod	_	_
+17	R$	R$	SYM	_	_	19	nmod	_	_
+18	15	15	NUM	_	NumType=Card	19	nummod	_	_
+19	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	mas	mas	CCONJ	_	_	24	cc	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+24	reduziu	reduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	valor	valor	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27	para	para	ADP	_	_	30	case	_	_
+28	R$	R$	SYM	_	_	30	nmod	_	_
+29	5	5	NUM	_	NumType=Card	30	nummod	_	_
+30	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0007
+# text = Lopes afirma que a transação foi fundamental para a continuidade das obras do estádio, o mais caro da Copa, estimado em R$ 2 bilhões.
+1	Lopes	Lopes	PROPN	_	_	2	nsubj	_	_
+2	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	transação	transação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	fundamental	fundamental	ADJ	_	Number=Sing	2	ccomp	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	obras	obra	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	estádio	estádio	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	appos	_	_
+19	mais	mais	ADV	_	_	20	advmod	_	_
+20	caro	caro	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Copa	Copa	PROPN	_	_	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	estimado	estimar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+26	em	em	ADP	_	_	29	case	_	_
+27	R$	R$	SYM	_	_	29	nmod	_	_
+28	2	2	NUM	_	NumType=Card	29	nummod	_	_
+29	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Em nota, Rosso negou as acusações, chamando-as de "mentiras absurdas".
+1	Em	em	ADP	_	_	2	case	_	_
+2	nota	nota	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Rosso	Rosso	PROPN	_	_	5	nsubj	_	_
+5	negou	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9-10	chamando-as	_	_	_	_	_	_	_	_
+9	chamando	chamar	VERB	_	VerbForm=Ger	5	advcl	_	_
+10	as	o	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	mentiras	mentira	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+14	absurdas	absurdo	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Ele alegou que não tinha poder de decisão sobre a licitação do Mané Garrincha quando assumiu o governo interino em 2010 e que nenhuma das empresas envolvidas contribuiu para suas campanhas.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+6	poder	poder	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	licitação	licitação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Mané	Mané	PROPN	_	_	11	nmod	_	_
+15	Garrincha	Garrincha	PROPN	_	_	14	flat:name	_	_
+16	quando	quando	SCONJ	_	_	17	mark	_	_
+17	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	governo	governo	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	interino	interino	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	2010	2010	NUM	_	NumType=Card	17	obl	_	_
+23	e	e	CCONJ	_	_	30	cc	_	_
+24	que	que	SCONJ	_	_	30	mark	_	_
+25	nenhuma	nenhum	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	30	nsubj	_	_
+26-27	das	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
+29	envolvidas	envolver	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	28	acl	_	_
+30	contribuiu	contribuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+31	para	para	ADP	_	_	33	case	_	_
+32	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	campanhas	campanha	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Rodrigo Lopes, no entanto, detalhou que a propina foi entregue em malas de dinheiro na residência de um alto funcionário ligado a Rosso.
+1	Rodrigo	Rodrigo	PROPN	_	_	8	nsubj	_	_
+2	Lopes	Lopes	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	ExtPos=CCONJ	8	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	detalhou	detalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	propina	propina	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	entregue	entregar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	malas	mala	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	residência	residência	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+21	de	de	ADP	_	_	24	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	alto	alto	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+25	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
+26	a	a	ADP	_	_	27	case	_	_
+27	Rosso	Rosso	PROPN	_	_	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = Além disso, a delação menciona que outros políticos, incluindo os ex-governadores José Roberto Arruda e Agnelo Queiroz, além do ex-vice-governador Tadeu Filippelli, também fizeram parte do esquema.
+1	Além	além	ADV	_	_	7	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	delação	delação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	menciona	mencionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	30	mark	_	_
+9	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	políticos	político	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	incluindo	incluir	VERB	_	VerbForm=Ger	10	acl	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ex-governadores	ex-governador	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15	José	José	PROPN	_	_	14	nmod	_	_
+16	Roberto	Roberto	PROPN	_	_	15	flat:name	_	_
+17	Arruda	Arruda	PROPN	_	_	15	flat:name	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	Agnelo	Agnelo	PROPN	_	_	15	conj	_	_
+20	Queiroz	Queiroz	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	além	além	ADV	_	_	12	advmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ex-vice-governador	ex-vice-governador	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+26	Tadeu	Tadeu	PROPN	_	_	25	nmod	_	_
+27	Filippelli	Filippelli	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	22	punct	_	_
+29	também	também	ADV	_	_	30	advmod	_	_
+30	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+31	parte	parte	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = O Ministério Público Federal (MPF) considera a delação robusta e com indícios suficientes para justificar uma investigação aprofundada pelo Supremo Tribunal Federal (STF).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministério	Ministério	PROPN	_	_	8	nsubj	_	_
+3	Público	Público	PROPN	_	_	2	flat:name	_	_
+4	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	MPF	MPF	PROPN	_	_	2	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	delação	delação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	robusta	robusto	ADJ	_	Gender=Fem|Number=Sing	8	xcomp	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	indícios	indício	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+15	suficientes	suficiente	ADJ	_	Number=Plur	14	amod	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	justificar	justificar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	aprofundada	aprofundar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Supremo	Supremo	PROPN	_	_	20	obl:agent	_	_
+24	Tribunal	Tribunal	PROPN	_	_	23	flat:name	_	_
+25	Federal	Federal	PROPN	_	_	23	flat:name	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	STF	STF	PROPN	_	_	23	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = As acusações vêm à tona após a operação Panathenaicos, que resultou na prisão dos ex-governadores e ex-gestores envolvidos.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	vêm	vir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tona	tona	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	após	após	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	operação	operação	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+10	Panathenaicos	Panathenaicos	PROPN	_	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	ex-governadores	ex-governador	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	ex-gestores	ex-gestor	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+22	envolvidos	envolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	19	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = A Andrade Gutierrez, até o momento, não se pronunciou sobre as novas revelações.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Andrade	Andrade	PROPN	_	_	11	nsubj	_	_
+3	Gutierrez	Gutierrez	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	até	até	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	não	não	ADV	_	_	11	advmod	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	pronunciou	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	sobre	sobre	ADP	_	_	15	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	novas	novo	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+15	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0023
+# text = A defesa de Filippelli ainda não foi localizada para comentar as acusações.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Filippelli	Filippelli	PROPN	_	_	2	nmod	_	_
+5	ainda	ainda	ADV	_	_	8	advmod	_	_
+6	não	não	ADV	_	_	8	advmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	localizada	localizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	comentar	comentar	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+

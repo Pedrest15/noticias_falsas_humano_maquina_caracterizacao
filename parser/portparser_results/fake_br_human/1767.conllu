@@ -1,0 +1,344 @@
+# sent_id = S0001
+# text = Temer diz que massacre em Manaus foi "acidente pavoroso".
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	9	mark	_	_
+4	massacre	massacre	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	Manaus	Manaus	PROPN	_	_	4	nmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+10	pavoroso	pavoroso	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O governo dele também!.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	5	root	_	_
+3-4	dele	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+5	também	também	ADV	_	_	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Qual a solução?.
+1	Qual	qual	PRON	_	Number=Sing|PronType=Int	3	nsubj	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	solução	solução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Michel Temer afirmou nesta quinta-feira (05) que o massacre ocorrido no Complexo Penitenciário Anísio Jobim, em Manaus, foi um "acidente pavoroso".
+1	Michel	Michel	PROPN	_	_	3	nsubj	_	_
+2	Temer	Temer	PROPN	_	_	1	flat:name	_	_
+3	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	nesta	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	05	05	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	que	que	SCONJ	_	_	27	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	massacre	massacre	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+13	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Complexo	Complexo	PROPN	_	_	13	obl	_	_
+17	Penitenciário	Penitenciário	PROPN	_	_	16	flat:name	_	_
+18	Anísio	Anísio	PROPN	_	_	16	flat:name	_	_
+19	Jobim	Jobim	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	Manaus	Manaus	PROPN	_	_	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	_
+28	pavoroso	pavoroso	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Não Temer, não foi pavoroso.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	Temer	Temer	PROPN	_	_	6	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	não	não	ADV	_	_	6	advmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	pavoroso	pavoroso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Os presos quiseram se matar.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	presos	preso	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	quiseram	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	matar	matar	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Eram pessoas que, se tivessem a chance de sair e cometer novos crimes hediondos, certamente cometeriam [...] sem dó nem piedade.
+1	Eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+3	que	que	PRON	_	PronType=Rel	18	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	se	se	SCONJ	_	_	6	mark	_	_
+6	tivessem	ter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	chance	chance	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	sair	sair	VERB	_	VerbForm=Inf	8	acl	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	cometer	cometer	VERB	_	VerbForm=Inf	10	conj	_	_
+13	novos	novo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15	hediondos	hediondo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	6	punct	_	_
+17	certamente	certamente	ADV	_	_	18	advmod	_	_
+18	cometeriam	cometer	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	2	acl:relcl	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	parataxis	_	SpaceAfter=No
+21	..	..	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	]	]	PUNCT	_	_	20	punct	_	_
+23	sem	sem	ADP	_	_	24	case	_	_
+24	dó	dó	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+25	nem	nem	CCONJ	_	_	26	cc	_	_
+26	piedade	piedade	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Já o Ministro Alexandre de Moraes disse que a matança de Manaus é culpa da superlotação causada pela quantidade de presos provisórios.
+1	Já	já	CCONJ	_	_	7	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ministro	Ministro	PROPN	_	_	7	nsubj	_	_
+4	Alexandre	Alexandre	PROPN	_	_	3	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Moraes	Moraes	PROPN	_	_	3	flat:name	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	14	mark	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	matança	matança	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Manaus	Manaus	PROPN	_	_	10	nmod	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	culpa	culpa	NOUN	_	Gender=Fem|Number=Sing	7	ccomp	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	superlotação	superlotação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	causada	causar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	_
+19-20	pela	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	18	obl:agent	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	presos	preso	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+24	provisórios	provisório	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = Disse o Ministro da Justiça: Nós prendemos muito, mas prendemos mal.
+1	Disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ministro	Ministro	PROPN	_	_	1	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Justiça	Justiça	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	9	punct	_	_
+8	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	prendemos	prender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp:speech	_	_
+10	muito	muito	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	mas	mas	CCONJ	_	_	13	cc	_	_
+13	prendemos	prender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	mal	mal	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Prendemos quantitativamente, mas não qualitativamente, afirmou.
+1	Prendemos	prender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+2	quantitativamente	quantitativamente	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	mas	mas	CCONJ	_	_	6	cc	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	qualitativamente	qualitativamente	ADV	_	_	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0021
+# text = O que será que ele quis dizer?
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	discourse	_	_
+4	que	que	SCONJ	_	_	6	discourse	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	dizer	dizer	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0023
+# text = Sabemos que o judiciário brasileiro é lento [...] praticamente uma "lesma" para julgar os crimes.
+1	Sabemos	saber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	7	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	judiciário	judiciário	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	lento	lento	ADJ	_	Gender=Masc|Number=Sing	1	ccomp	_	_
+8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+10	..	..	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	9	punct	_	_
+12	praticamente	praticamente	ADV	_	_	15	advmod	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	lesma	lesma	NOUN	_	Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	julgar	julgar	VERB	_	VerbForm=Inf	15	acl	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Será que o governo deve soltar esses presos provisórios enquanto aguarda uma resposta do judiciário?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+2	que	que	SCONJ	_	_	5	discourse	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	soltar	soltar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	presos	preso	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	provisórios	provisório	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	enquanto	enquanto	SCONJ	_	_	11	mark	_	_
+11	aguarda	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	judiciário	judiciário	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0027
+# text = Ou será que daqui pra frente precisamos orientar nossas polícias a prender "qualitativamente"!
+1	Ou	ou	CCONJ	_	_	9	cc	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	discourse	_	_
+3	que	que	SCONJ	_	_	9	discourse	_	_
+4-5	daqui	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	aqui	aqui	ADV	_	_	9	advmod	_	_
+6-7	pra	_	_	_	_	_	_	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	frente	frente	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	orientar	orientar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	nossas	nosso	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	polícias	polícia	NOUN	_	Number=Plur	10	obj	_	_
+13	a	a	ADP	_	_	14	mark	_	_
+14	prender	prender	VERB	_	VerbForm=Inf	10	xcomp	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	qualitativamente	qualitativamente	ADV	_	_	14	advmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0029
+# text = Esse governo é um acidente pavoroso.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	pavoroso	pavoroso	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0031
+# text = Simples: Uma reforma corajosa e radical no Código de Processo Penal Brasileiro.
+1	Simples	simples	ADJ	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	4	punct	_	_
+3	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+5	corajosa	corajoso	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	radical	radical	ADJ	_	Number=Sing	5	conj	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Código	Código	PROPN	_	_	4	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Processo	Processo	PROPN	_	_	10	flat:name	_	_
+13	Penal	Penal	PROPN	_	_	10	flat:name	_	_
+14	Brasileiro	Brasileiro	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0033
+# text = Temos que dobrar as penas dos crimes mais simples.
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	ADP	_	_	3	mark	_	_
+3	dobrar	dobrar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	penas	pena	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	mais	mais	ADV	_	_	10	advmod	_	_
+10	simples	simples	ADJ	_	_	8	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0035
+# text = Temos que instituir prisões perpétuas para crimes hediondos.
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	ADP	_	_	3	mark	_	_
+3	instituir	instituir	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	prisões	prisão	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	perpétuas	perpétuo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+8	hediondos	hediondo	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0037
+# text = Temos (porque não) que avaliar a possibilidade de pena de morte.
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	porque	porque	SCONJ	_	_	4	mark	_	_
+4	não	não	ADV	_	_	1	advmod	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	que	que	ADP	_	_	7	mark	_	_
+7	avaliar	avaliar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	pena	pena	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	morte	morte	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0039
+# text = Ninguém tem coragem de tocar na ferida!
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	2	nsubj	_	_
+2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	coragem	coragem	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	tocar	tocar	VERB	_	VerbForm=Inf	3	acl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ferida	ferida	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	2	punct	_	_
+

@@ -1,0 +1,203 @@
+# sent_id = S0001
+# text = Apresentadora da Globo manda Sílvio Santos "calar a boca".
+1	Apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Globo	Globo	PROPN	_	_	1	nmod	_	_
+5	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Sílvio	Sílvio	PROPN	_	_	5	obj	_	_
+7	Santos	Santos	PROPN	_	_	6	flat:name	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	calar	calar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	boca	boca	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Em julho de 2017, o "mito" Sílvio Santos fez mais uma de suas "habituais brincadeiras" durante seu programa de domingo.
+1	Em	em	ADP	_	_	2	case	_	_
+2	julho	julho	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	2017	2017	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	mito	mito	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	Sílvio	Sílvio	PROPN	_	_	8	nmod	_	_
+11	Santos	Santos	PROPN	_	_	10	flat:name	_	_
+12	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	uma	um	NUM	_	Gender=Fem|NumType=Card	12	obj	_	_
+15	de	de	ADP	_	_	19	case	_	_
+16	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+17	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	habituais	habitual	ADJ	_	Number=Plur	19	amod	_	_
+19	brincadeiras	brincadeira	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	durante	durante	ADP	_	_	23	case	_	_
+22	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	programa	programa	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = Sílvio citou a apresentadora e ex-modelo Fernanda Lima: A Fernanda?
+1	Sílvio	Sílvio	PROPN	_	_	2	nsubj	_	_
+2	citou	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	ex-modelo	ex-modelo	NOUN	_	Number=Sing	4	conj	_	_
+7	Fernanda	Fernanda	PROPN	_	_	4	nmod	_	_
+8	Lima	Lima	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Fernanda	Fernanda	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Ela é muito magrela [...] muito magra [...] com ela não tem amor nem sexo brincou o apresentador fazendo uma menção ao programa global comandado pela apresentadora.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	muito	muito	ADV	_	_	4	advmod	_	_
+4	magrela	magrelo	ADJ	_	Gender=Fem|Number=Sing	22	ccomp:speech	_	_
+5	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	10	appos	_	SpaceAfter=No
+7	..	..	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	]	]	PUNCT	_	_	6	punct	_	_
+9	muito	muito	ADV	_	_	10	advmod	_	_
+10	magra	magro	ADJ	_	Gender=Fem|Number=Sing	4	conj	_	_
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	..	..	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	12	punct	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+17	não	não	ADV	_	_	18	advmod	_	_
+18	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+19	amor	amor	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+20	nem	nem	CCONJ	_	_	21	cc	_	_
+21	sexo	sexo	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+22	brincou	brincar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+25	fazendo	fazer	VERB	_	VerbForm=Ger	22	advcl	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	menção	menção	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	programa	programa	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	global	global	ADJ	_	Number=Sing	30	amod	_	_
+32	comandado	comandar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	30	acl	_	_
+33-34	pela	_	_	_	_	_	_	_	_
+33	por	por	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	32	obl:agent	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0009
+# text = "Quem gosta de osso é cachorro", disse Silvio às gargalhadas.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	Quem	quem	PRON	_	PronType=Ind	7	nsubj	_	_
+3	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	osso	osso	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	cachorro	cachorro	NOUN	_	Gender=Masc|Number=Sing	10	ccomp:speech	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Silvio	Silvio	PROPN	_	_	10	nsubj	_	_
+12-13	às	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	gargalhadas	gargalhada	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Na última semana, durante o programa Pânico na Band (dia 30), Fernanda foi questionada sobre os comentários do dono do SBT.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	semana	semana	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	durante	durante	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	programa	programa	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+9	Pânico	Pânico	PROPN	_	_	8	nmod	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Band	Band	PROPN	_	_	9	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	dia	dia	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
+15	30	30	NUM	_	NumType=Card	14	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	8	punct	_	_
+18	Fernanda	Fernanda	PROPN	_	_	20	nsubj:pass	_	_
+19	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	questionada	questionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+21	sobre	sobre	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	dono	dono	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	SBT	SBT	PROPN	_	_	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0013
+# text = Extremamente incomodada, a apresentadora respondeu: "Silvio é o maior comunicador do Brasil vivo [...] mas, com relação a essas frases, eu digo: "Silvio, por que não te calas?
+1	Extremamente	extremamente	ADV	_	_	2	advmod	_	_
+2	incomodada	incomodado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	13	punct	_	_
+8	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+9	Silvio	Silvio	PROPN	_	_	13	nsubj	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	maior	maior	ADJ	_	Number=Sing	13	amod	_	_
+13	comunicador	comunicador	NOUN	_	Gender=Masc|Number=Sing	6	ccomp:speech	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	_	13	nmod	_	_
+17	vivo	vivo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+20	..	..	PUNCT	_	_	19	parataxis	_	SpaceAfter=No
+21	]	]	PUNCT	_	_	19	punct	_	_
+22	mas	mas	CCONJ	_	_	31	cc	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	relação	relação	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	28	det	_	_
+28	frases	frase	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	25	punct	_	_
+30	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+31	digo	dizer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+32	:	:	PUNCT	_	_	34	punct	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	Silvio	Silvio	PROPN	_	_	40	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	por	por	ADP	_	_	37	case	_	_
+37	que	que	PRON	_	PronType=Rel	40	obl	_	_
+38	não	não	ADV	_	_	40	advmod	_	_
+39	te	te	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	40	obj	_	_
+40	calas	calar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	ccomp:speech	_	SpaceAfter=No
+41	?	?	PUNCT	_	_	6	punct	_	_
+

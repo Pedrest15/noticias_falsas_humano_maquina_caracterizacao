@@ -1,0 +1,273 @@
+# sent_id = S0001
+# text = OAB quer cassar Bolsonaro?
+1	OAB	OAB	PROPN	_	_	2	nsubj	_	_
+2	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cassar	cassar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	Bolsonaro	Bolsonaro	PROPN	_	_	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Ora [...] vá...
+1	Ora	ora	INTJ	_	_	6	discourse	_	_
+2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	6	parataxis	_	SpaceAfter=No
+4	..	..	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	3	punct	_	_
+6	vá	ir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	...	...	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = O PT vive homenageando sanguinários de esquerda!.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PT	PT	PROPN	_	_	3	nsubj	_	_
+3	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	homenageando	homenagear	VERB	_	VerbForm=Ger	3	advcl	_	_
+5	sanguinários	sanguinário	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Bolsonaro foi infeliz?
+1	Bolsonaro	Bolsonaro	PROPN	_	_	3	nsubj	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	infeliz	infeliz	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = FOI [...] ele exagerou?
+1	FOI	foi	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	discourse	_	_
+2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+4	..	..	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	3	punct	_	_
+6	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	exagerou	exagerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = SIM [...].
+1	SIM	SIM	PROPN	_	_	0	root	_	_
+2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+4	..	..	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = O presidente da OAB-RJ disse que a seccional irá acionar o STF para pedir a cassação do mandato do deputado federal Jair Bolsonaro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	OAB-RJ	OAB-RJ	PROPN	_	_	2	nmod	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	seccional	seccional	NOUN	_	Number=Sing	11	nsubj	_	_
+10	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	_
+11	acionar	acionar	VERB	_	VerbForm=Inf	6	ccomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	STF	STF	PROPN	_	_	11	obj	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	pedir	pedir	VERB	_	VerbForm=Inf	11	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cassação	cassação	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	federal	federal	ADJ	_	Number=Sing	23	amod	_	_
+25	Jair	Jair	PROPN	_	_	23	nmod	_	_
+26	Bolsonaro	Bolsonaro	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = Durante a votação do processo de impeachment da presidente Dilma Rousseff (PT), Bolsonaro prestou homenagem a um coronel acusado de tortura durante a ditadura militar (1964-85).
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	votação	votação	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	processo	processo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	presidente	presidente	NOUN	_	Number=Sing	8	nmod	_	_
+12	Dilma	Dilma	PROPN	_	_	11	nmod	_	_
+13	Rousseff	Rousseff	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	PT	PT	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	3	punct	_	_
+18	Bolsonaro	Bolsonaro	PROPN	_	_	19	nsubj	_	_
+19	prestou	prestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	homenagem	homenagem	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	coronel	coronel	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	tortura	tortura	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+27	durante	durante	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+30	militar	militar	ADJ	_	Number=Sing	29	amod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	1964-85	1964-85	NUM	_	NumType=Card	29	parataxis	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0017
+# text = A declaração foi considerada como "apologia à tortura" pelo órgão.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	como	como	ADP	_	_	7	case	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	apologia	apologia	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tortura	tortura	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	7	punct	_	_
+12-13	pelo	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	órgão	órgão	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Foi uma infelicidade do deputado.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	infelicidade	infelicidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Mas porque "pau" que bate em "chico" também não "bate" em "francisco"?
+1	Mas	mas	CCONJ	_	_	15	cc	_	_
+2	porque	porque	SCONJ	_	_	15	mark	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	pau	pau	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	bate	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	chico	chico	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	também	também	ADV	_	_	15	advmod	_	_
+13	não	não	ADV	_	_	15	advmod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	bate	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	19	punct	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	francisco	francisco	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	?	?	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0023
+# text = No Brasil dos petistas é permitido homenagear livremente ditadores, assassinos e todos os tipos de psicopatas, desde que sejam de esquerda!
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Brasil	Brasil	PROPN	_	_	8	obl	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	petistas	petista	NOUN	_	Number=Plur	3	nmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	permitido	permitir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	homenagear	homenagear	VERB	_	VerbForm=Inf	8	csubj	_	_
+10	livremente	livremente	ADV	_	_	9	advmod	_	_
+11	ditadores	ditador	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	assassinos	assassino	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	psicopatas	psicopata	NOUN	_	Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	desde	desde	ADP	_	ExtPos=SCONJ	25	mark	_	_
+22	que	que	SCONJ	_	_	21	fixed	_	_
+23	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	9	advcl	_	SpaceAfter=No
+26	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0025
+# text = Um viva para Fidel, Maduro, Cuba, Venezuela, Coréia do Norte!
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viva	vivo	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	Fidel	Fidel	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Maduro	Maduro	PROPN	_	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Cuba	Cuba	PROPN	_	_	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Venezuela	Venezuela	PROPN	_	_	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	Coréia	Coréia	PROPN	_	_	4	conj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Norte	Norte	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Pela memória de Marighela, Lamarca, Che,... Quanta hipocrisia!!!!
+1-2	Pela	_	_	_	_	_	_	_	_
+1	Por	por	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	memória	memória	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Marighela	Marighela	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Lamarca	Lamarca	PROPN	_	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Che	Che	PROPN	_	_	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	...	...	PUNCT	_	_	13	punct	_	_
+12	Quanta	quanto	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	hipocrisia	hipocrisia	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0029
+# text = Ahhhh.... e cuspir na cara de deputados também pode!
+1	Ahhhh	ahhhh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+2	...	...	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	12	punct	_	_
+4	e	e	CCONJ	_	_	12	cc	_	_
+5	cuspir	cuspir	VERB	_	VerbForm=Inf	12	csubj	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cara	cara	NOUN	_	Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	também	também	ADV	_	_	12	advmod	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	12	punct	_	_
+

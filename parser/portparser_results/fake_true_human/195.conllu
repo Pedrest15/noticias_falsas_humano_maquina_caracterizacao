@@ -1,0 +1,94 @@
+# sent_id = S0001
+# text = boneca androide chinesa se parece com criança real, mostra vídeo estes chineses são demais.!
+1	boneca	boneco	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	androide	androide	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	chinesa	chinÃªs	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	criança	criança	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	real	real	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+12	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	chineses	chinÃªs	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	demais	demais	ADV	_	_	5	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = isto é uma boneca.
+1	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	boneca	boneco	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = esta é uma boneca android fabricada na china.
+1	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	boneca	boneco	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	android	android	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	4	nmod	_	_
+6	fabricada	fabricar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	china	china	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = é tão real o que a próxima china fará.span, esta é uma boneca android fabricada na china.
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	tão	tão	ADV	_	_	3	advmod	_	_
+3	real	real	ADJ	_	Number=Sing	0	root	_	_
+4	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
+5	que	que	PRON	_	PronType=Rel	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	china	china	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+9	fará.span	fará.span	NOUN	_	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	14	nsubj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	boneca	boneco	NOUN	_	Gender=Fem|Number=Sing	3	parataxis	_	_
+15	android	android	X	_	Foreign=Yes	14	nmod	_	_
+16	fabricada	fabricar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	china	china	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = é tão real que parecem crianças de verdade.
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	tão	tão	ADV	_	_	3	advmod	_	_
+3	real	real	ADJ	_	Number=Sing	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	parecem	parecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	5	xcomp	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = será que o próximo passo serão bonecas dotadas de ai inteligência artificial.span.
+1	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	discourse	_	_
+2	que	que	SCONJ	_	_	7	discourse	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	passo	passo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+7	bonecas	boneco	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+8	dotadas	dotar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	ai	ai	ADV	_	_	11	det	_	_
+11	inteligência	inteligência	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	artificial.span	artificial.span	NOUN	_	_	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+

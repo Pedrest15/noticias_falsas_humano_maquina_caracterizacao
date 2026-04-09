@@ -1,0 +1,133 @@
+# sent_id = S0001
+# text = Dória responde a Lula sobre a casa em que vive: "Comprei com o meu dinheiro, diferente de seus filhos".
+1	Dória	Dória	PROPN	_	_	2	nsubj	_	_
+2	responde	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	obl	_	_
+5	sobre	sobre	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	casa	casa	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	que	que	PRON	_	PronType=Rel	10	obl	_	_
+10	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	13	punct	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Comprei	comprar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+14	com	com	ADP	_	_	17	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	diferente	diferente	ADJ	_	Number=Sing	13	advmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Lula fez uma declaração sobre o então candidato à Prefeitura de São Paulo, João Dória Jr.. a declaração: O povo foi induzido pela imprensa a não gostar de mim porque a minha mulher comprou um cisne para o meu filho e vai votar no João Doria que mora numa casa que vale 10 milhões de cisnes.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	sobre	sobre	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	então	então	ADV	_	_	8	advmod	_	_
+8	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9-10	à	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Prefeitura	Prefeitura	PROPN	_	_	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	São	São	PROPN	_	_	11	nmod	_	_
+14	Paulo	Paulo	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	João	João	PROPN	_	_	8	appos	_	_
+17	Dória	Dória	PROPN	_	_	16	flat:name	_	_
+18	Jr.	Jr.	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	26	punct	_	_
+23	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	povo	povo	NOUN	_	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	induzido	induzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+27-28	pela	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	26	obl:agent	_	_
+30	a	a	ADP	_	_	32	mark	_	_
+31	não	não	ADV	_	_	32	advmod	_	_
+32	gostar	gostar	VERB	_	VerbForm=Inf	26	xcomp	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	32	obl	_	_
+35	porque	porque	SCONJ	_	_	39	mark	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	38	det	_	_
+38	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	39	nsubj	_	_
+39	comprou	comprar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	_
+40	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	cisne	cisne	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	_
+42	para	para	ADP	_	_	45	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	45	det	_	_
+45	filho	filho	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+46	e	e	CCONJ	_	_	48	cc	_	_
+47	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	votar	votar	VERB	_	VerbForm=Inf	39	conj	_	_
+49-50	no	_	_	_	_	_	_	_	_
+49	em	em	ADP	_	_	51	case	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	João	João	PROPN	_	_	48	obl	_	_
+52	Doria	Doria	PROPN	_	_	51	flat:name	_	_
+53	que	que	PRON	_	PronType=Rel	54	nsubj	_	_
+54	mora	morar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	acl:relcl	_	_
+55-56	numa	_	_	_	_	_	_	_	_
+55	em	em	ADP	_	_	57	case	_	_
+56	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	casa	casa	NOUN	_	Gender=Fem|Number=Sing	54	obl	_	_
+58	que	que	PRON	_	PronType=Rel	59	nsubj	_	_
+59	vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	acl:relcl	_	_
+60	10	10	NUM	_	NumType=Card	61	nummod	_	_
+61	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	59	obj	_	_
+62	de	de	ADP	_	_	63	case	_	_
+63	cisnes	cisne	NOUN	_	Gender=Masc|Number=Plur	61	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Só aquele casaco dele daria para comprar os dois cisnes da Marisa e os dois barquinhos que ela tem.
+1	Só	só	ADV	_	_	3	advmod	_	_
+2	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	casaco	casaco	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4-5	dele	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+6	daria	dar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	comprar	comprar	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	dois	dois	NUM	_	Gender=Masc|NumType=Card	11	nummod	_	_
+11	cisnes	cisne	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Marisa	Marisa	PROPN	_	_	11	nmod	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	dois	dois	NUM	_	Gender=Masc|NumType=Card	18	nummod	_	_
+18	barquinhos	barquinho	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+19	que	que	PRON	_	PronType=Rel	21	obj	_	_
+20	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0006
+# text = a resposta de Dória:
+1	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Dória	Dória	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	2	punct	_	_
+

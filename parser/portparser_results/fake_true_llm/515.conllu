@@ -1,0 +1,132 @@
+# sent_id = S0001
+# text = Atenção! Imagens Fortes: Agressão brutal a cachorro em bar de Araguari, Minas Gerais, choca o país! Um homem, identificado como João Mendes, foi flagrado esfaqueando um cachorro indefeso.
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	18	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+3	Imagens	Imagens	PROPN	_	_	1	parataxis	_	_
+4	Fortes	Fortes	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	6	punct	_	_
+6	Agressão	agressão	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+7	brutal	brutal	ADJ	_	Number=Sing	6	amod	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	cachorro	cachorro	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	bar	bar	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Araguari	Araguari	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Minas	Minas	PROPN	_	_	13	parataxis	_	_
+16	Gerais	Gerais	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	choca	chocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	país	país	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	31	punct	_	_
+22	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	homem	homem	NOUN	_	Gender=Masc|Number=Sing	31	nsubj:pass	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	identificado	identificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
+26	como	como	ADP	_	_	27	case	_	_
+27	João	João	PROPN	_	_	25	obl	_	_
+28	Mendes	Mendes	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	25	punct	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	parataxis	_	_
+32	esfaqueando	esfaquear	VERB	_	VerbForm=Ger	31	advcl	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	cachorro	cachorro	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
+35	indefeso	indefeso	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0003
+# text = A brutalidade da cena fez com que a polícia local intensificasse as buscas, mas o agressor está foragido.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	brutalidade	brutalidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cena	cena	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	com	com	ADP	_	ExtPos=SCONJ	12	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	polícia	polícia	NOUN	_	Number=Sing	12	nsubj	_	_
+11	local	local	ADJ	_	Number=Sing	10	amod	_	_
+12	intensificasse	intensificar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	buscas	busca	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	mas	mas	CCONJ	_	_	20	cc	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	agressor	agressor	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	foragido	foragido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = Familiares de João afirmam que ele já apresentava comportamento violento e temem pela própria segurança após a casa deles ser vandalizada por manifestantes revoltados.
+1	Familiares	familiar	NOUN	_	Number=Plur	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	João	João	PROPN	_	_	1	nmod	_	_
+4	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	já	já	ADV	_	_	8	advmod	_	_
+8	apresentava	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+9	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	violento	violento	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	temem	temer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	16	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	segurança	segurança	NOUN	_	Number=Sing	12	obl	_	_
+17	após	após	ADP	_	_	23	mark	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	casa	casa	NOUN	_	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+20-21	deles	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nmod	_	_
+22	ser	ser	AUX	_	Number=Sing|Person=3|VerbForm=Inf	23	aux:pass	_	_
+23	vandalizada	vandalizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	_
+24	por	por	ADP	_	_	25	case	_	_
+25	manifestantes	manifestante	NOUN	_	Number=Plur	23	obl:agent	_	_
+26	revoltados	revoltado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = O caso ganhou repercussão internacional, com autoridades americanas oferecendo apoio para a captura do criminoso.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	repercussão	repercussão	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	internacional	internacional	ADJ	_	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+9	americanas	americano	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	oferecendo	oferecer	VERB	_	VerbForm=Ger	8	acl	_	_
+11	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	captura	captura	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	criminoso	criminoso	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Um abaixo-assinado já ultrapassou 1 milhão de assinaturas exigindo justiça.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	abaixo-assinado	abaixo-assinado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	já	já	ADV	_	_	4	advmod	_	_
+4	ultrapassou	ultrapassar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	1	1	NUM	_	NumType=Card	6	nummod	_	_
+6	milhão	milhão	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	assinaturas	assinatura	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	exigindo	exigir	VERB	_	VerbForm=Ger	4	advcl	_	_
+10	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+

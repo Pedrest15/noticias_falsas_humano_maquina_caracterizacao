@@ -1,0 +1,155 @@
+# sent_id = S0001
+# text = Resende: "O Brasil tem a justiça mais cara do mundo e só temos o Sérgio Moro trabalhando".
+1	Resende	Resende	PROPN	_	_	6	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	6	punct	_	_
+3	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	_	6	nsubj	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	mais	mais	ADV	_	_	10	advmod	_	_
+10	cara	caro	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	só	só	ADV	_	_	16	advmod	_	_
+16	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Sérgio	Sérgio	PROPN	_	_	16	obj	_	_
+19	Moro	Moro	PROPN	_	_	18	flat:name	_	_
+20	trabalhando	trabalhar	VERB	_	VerbForm=Ger	16	xcomp	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0002
+# text = abre aspas Veja se é possível viver no nosso Brasil.
+1	abre	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	root	_	_
+2	aspas	aspa	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+3	Veja	ver	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	se	se	SCONJ	_	_	6	mark	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	possível	possível	ADJ	_	Number=Sing	3	ccomp	_	_
+7	viver	viver	VERB	_	VerbForm=Inf	6	csubj	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	Brasil	Brasil	PROPN	_	_	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0004
+# text = Veja se é possível a gente conviver com essa gente que vive da política.
+1	Veja	ver	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	SCONJ	_	_	4	mark	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	possível	possível	ADJ	_	Number=Sing	1	ccomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gente	gente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	conviver	conviver	VERB	_	VerbForm=Inf	4	csubj	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	gente	gente	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	política	política	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0006
+# text = O que nós temos nesse momento é a justiça mais cara do mundo [...] essa justiça só empata com a da Suíça, que tem uma população 25 menor e uma renda per capita 5 vezes maior.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	obj	_	_
+3	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5-6	nesse	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	momento	momento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11	mais	mais	ADV	_	_	12	advmod	_	_
+12	cara	caro	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	23	parataxis	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	só	só	ADV	_	_	23	advmod	_	_
+23	empata	empatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	23	obl	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Suíça	Suíça	PROPN	_	_	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	que	que	PRON	_	PronType=Rel	31	nsubj	_	_
+31	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	população	população	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	25	25	NUM	_	NumType=Card	33	nummod	_	_
+35	menor	menor	ADJ	_	Number=Sing	33	amod	_	_
+36	e	e	CCONJ	_	_	38	cc	_	_
+37	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	renda	renda	NOUN	_	Gender=Fem|Number=Sing	33	conj	_	_
+39	per	per	X	_	Foreign=Yes	38	nmod	_	_
+40	capita	capita	X	_	Foreign=Yes	39	flat:foreign	_	_
+41	5	5	NUM	_	NumType=Card	42	nummod	_	_
+42	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	43	obl	_	_
+43	maior	maior	ADJ	_	Number=Sing	38	amod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0008
+# text = A justiça hoje parece que só tem o Sérgio Moro trabalhando [...] o que passa na mão dele caminha, o que não passa fica parado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	hoje	hoje	ADV	_	_	4	advmod	_	_
+4	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	só	só	ADV	_	_	7	advmod	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Sérgio	Sérgio	PROPN	_	_	7	obj	_	_
+10	Moro	Moro	PROPN	_	_	9	flat:name	_	_
+11	trabalhando	trabalhar	VERB	_	VerbForm=Ger	7	xcomp	_	_
+12	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	24	parataxis	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	nsubj	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mão	mão	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22-23	dele	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+24	caminha	caminhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	30	punct	_	_
+26	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	nsubj	_	_
+27	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+28	não	não	ADV	_	_	29	advmod	_	_
+29	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+31	parado	parado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	30	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = fecha aspas.
+1	fecha	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aspas	aspa	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+

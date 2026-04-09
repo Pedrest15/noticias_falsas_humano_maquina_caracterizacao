@@ -1,0 +1,129 @@
+# sent_id = S0001
+# text = capa da veja mostra bolsonaro eleito com 87,5% em pesquisa o primeiro presidente honesto do brasil.
+1	capa	capa	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	veja	veja	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	eleito	eleger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	87,5	87,5	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	_	_	7	obl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	presidente	presidente	NOUN	_	Number=Sing	7	obj	_	_
+16	honesto	honesto	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	brasil	brasil	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = edicao especial.
+1	edicao	edicao	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	especial	especial	ADJ	_	Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = veja.
+1	veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = o presidente dos e.u.a.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	0	root	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	e.u.a	e.u.a	ADP	_	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = donald trump parabeniza o bolsonaro.
+1	donald	donald	PROPN	_	_	3	nsubj	_	_
+2	trump	trump	X	_	Foreign=Yes	1	nmod	_	_
+3	parabeniza	parabenizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = cresceremos juntos disse: trump.
+1	cresceremos	crescer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	ccomp:speech	_	_
+2	juntos	junto	ADJ	_	Gender=Masc|Number=Plur	1	advcl	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	trump	trump	X	_	Foreign=Yes	3	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = o pais todo esta nas ruas comemorando o fato historico.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pais	pai	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+4	esta	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	nas	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+8	comemorando	comemorar	VERB	_	VerbForm=Ger	7	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fato	fato	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	historico	historico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = o otimismo toma conta do brasil.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	otimismo	otimismo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	toma	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	conta	conta	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	brasil	brasil	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = 87,5% do brasil elege bolsonaro no primeiro turno.ate que enfim uma pesquisa com numeros reais #bolsonaro reeleito no 1 turnocom 87,5% de votos #compartilhe!!
+1	87,5	87,5	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
+2	%	%	SYM	_	_	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	brasil	brasil	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	elege	eleger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	obl	_	_
+11	turno.ate	turno.ate	ADP	_	ExtPos=SCONJ	13	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	enfim	enfim	ADV	_	_	15	advmod	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	numeros	numero	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	reais	real	ADJ	_	Number=Plur	17	amod	_	_
+19	#bolsonaro	#bolsonaro	NOUN	_	_	17	nmod	_	_
+20	reeleito	reeleger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	1	1	NUM	_	NumType=Card	20	obl	_	_
+24	turnocom	turnocom	ADP	_	_	26	case	_	_
+25	87,5	87,5	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	_	_	20	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	votos	voto	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+29	#compartilhe	#compartilhar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	root	_	SpaceAfter=No
+30	!	!	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	!	!	PUNCT	_	_	6	punct	_	_
+

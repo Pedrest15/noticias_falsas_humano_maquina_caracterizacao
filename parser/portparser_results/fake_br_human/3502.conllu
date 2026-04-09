@@ -1,0 +1,282 @@
+# sent_id = S0001
+# text = EI divulga vídeo e ameaça França e EUA: " Vamos vingar as mulheres e crianças que vocês bombardeiam todos os dias".
+1	EI	EI	PROPN	_	_	2	nsubj	_	_
+2	divulga	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	ameaça	ameaçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	França	França	PROPN	_	_	5	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	EUA	EUA	PROPN	_	_	6	conj	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	12	punct	_	_
+10	"	"	PUNCT	_	_	12	punct	_	_
+11	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	vingar	vingar	VERB	_	VerbForm=Inf	2	parataxis	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+17	que	que	PRON	_	PronType=Rel	19	obj	_	_
+18	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	19	nsubj	_	_
+19	bombardeiam	bombardear	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+20	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	dias	dia	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O E.I.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	E.I	E.I	PROPN	_	_	0	root	_	SpaceAfter=No
+3	.	.	PROPN	_	_	2	flat:name	_	_
+
+# sent_id = S0005
+# text = (Estado Islâmico) prometeu vingança pelos recentes bombardeios da França contra a cidade síria de Al Raqqa, principal reduto do grupo na Síria, em um novo vídeo divulgado hoje (22) Seus bombardeios não vão nos debilitar, e sim reforçar nossas fileiras.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Estado	Estado	PROPN	_	_	5	nsubj	_	_
+3	Islâmico	Islâmico	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	2	punct	_	_
+5	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	vingança	vingança	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7-8	pelos	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	10	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	recentes	recente	ADJ	_	Number=Plur	10	amod	_	_
+10	bombardeios	bombardeio	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	França	França	PROPN	_	_	10	nmod	_	_
+14	contra	contra	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+17	síria	sírio	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Al	Al	PROPN	_	_	16	nmod	_	_
+20	Raqqa	Raqqa	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	principal	principal	ADJ	_	Number=Sing	23	amod	_	_
+23	reduto	reduto	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	na	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Síria	Síria	PROPN	_	_	23	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	34	punct	_	_
+31	em	em	ADP	_	_	34	case	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	novo	novo	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+34	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+35	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	34	acl	_	_
+36	hoje	hoje	ADV	_	_	35	advmod	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	22	22	NUM	_	NumType=Card	36	appos	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	_
+40	Seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	det	_	_
+41	bombardeios	bombardeio	NOUN	_	Gender=Masc|Number=Plur	45	nsubj	_	_
+42	não	não	ADV	_	_	45	advmod	_	_
+43	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+44	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	45	obj	_	_
+45	debilitar	debilitar	VERB	_	VerbForm=Inf	5	ccomp:speech	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	49	punct	_	_
+47	e	e	CCONJ	_	_	49	cc	_	_
+48	sim	sim	ADV	_	_	49	advmod	_	_
+49	reforçar	reforçar	VERB	_	VerbForm=Inf	45	conj	_	_
+50	nossas	nosso	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	51	det	_	_
+51	fileiras	fileira	NOUN	_	Gender=Fem|Number=Plur	49	obj	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Mais gente se unirá a nós para vingar o país.
+1	Mais	mais	DET	_	PronType=Ind	2	det	_	_
+2	gente	gente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	unirá	unir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	vingar	vingar	VERB	_	VerbForm=Inf	4	advcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	país	país	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Vamos vingar as mulheres e crianças que vocês bombardeiam todos os dias, disse um membro do EI na gravação.
+1	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	vingar	vingar	VERB	_	VerbForm=Inf	14	ccomp:speech	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+7	que	que	PRON	_	PronType=Rel	9	obj	_	_
+8	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
+9	bombardeiam	bombardear	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	dias	dia	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	membro	membro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	EI	EI	PROPN	_	_	16	nmod	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0011
+# text = Nas imagens divulgadas, c uja veracidade não foi ser constatada, dois homens de capuz denunciam que pelo menos dez bombas atingiram a administração central de distribuição de pão de Al Raqqa e, segundo eles, "aterrorizaram os moradores".
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+4	divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	12	punct	_	_
+6	c	c	ADP	_	_	12	mark	_	_
+7	uja	ujo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	veracidade	veracidade	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+9	não	não	ADV	_	_	12	advmod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	constatada	constatar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	18	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	dois	dois	NUM	_	Gender=Masc|NumType=Card	15	nummod	_	_
+15	homens	homem	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	capuz	capuz	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	denunciam	denunciar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	que	que	SCONJ	_	_	25	mark	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	ExtPos=ADV	23	advmod	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	_
+22	menos	menos	NOUN	_	Gender=Masc|Number=Sing	20	fixed	_	_
+23	dez	dez	NUM	_	NumType=Card	24	nummod	_	_
+24	bombas	bomba	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
+25	atingiram	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	administração	administração	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	central	central	ADJ	_	Number=Sing	27	amod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	distribuição	distribuição	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	pão	pão	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	Al	Al	PROPN	_	_	30	nmod	_	_
+35	Raqqa	Raqqa	PROPN	_	_	34	flat:name	_	_
+36	e	e	CCONJ	_	_	42	cc	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	39	punct	_	_
+38	segundo	segundo	ADP	_	_	39	case	_	_
+39	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	obl	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	"	"	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	aterrorizaram	aterrorizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	conj	_	_
+43	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	moradores	morador	NOUN	_	Gender=Masc|Number=Plur	42	obj	_	SpaceAfter=No
+45	"	"	PUNCT	_	_	42	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0013
+# text = Os dois combatentes falaram em francês e afirmaram que os ataques atingiram edifícios e infraestruturas civis.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	dois	dois	NUM	_	Gender=Masc|NumType=Card	3	nummod	_	_
+3	combatentes	combatente	NOUN	_	Number=Plur	4	nsubj	_	_
+4	falaram	falar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	francês	francês	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	afirmaram	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	atingiram	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+13	edifícios	edifício	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	infraestruturas	infraestrutura	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
+16	civis	civil	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Eles também disseram que os atentados de Paris foram "só uma advertência" contra a França por ter atacado o grupo radical no Iraque e na Síria.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	atentados	atentado	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Paris	Paris	PROPN	_	_	6	nmod	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+10	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	só	só	ADV	_	_	13	advmod	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	advertência	advertência	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	contra	contra	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	França	França	PROPN	_	_	13	nmod	_	_
+18	por	por	ADP	_	_	20	mark	_	_
+19	ter	ter	AUX	_	VerbForm=Inf	20	aux	_	_
+20	atacado	atacar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	radical	radical	ADJ	_	Number=Sing	22	amod	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Iraque	Iraque	PROPN	_	_	20	obl	_	_
+27	e	e	CCONJ	_	_	30	cc	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Síria	Síria	PROPN	_	_	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = O segundo homem do vídeo afirma que os Estados Unidos também não devem crer que estão imunes e reforçou que o ataque em Paris foi apenas "o princípio de uma cadeia de ataques".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	homem	homem	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	14	mark	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Estados	Estados	PROPN	_	_	14	nsubj	_	_
+11	Unidos	Unidos	PROPN	_	_	10	flat:name	_	_
+12	também	também	ADV	_	_	14	advmod	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+15	crer	crer	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	que	que	SCONJ	_	_	18	mark	_	_
+17	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	imunes	imune	ADJ	_	Number=Plur	15	ccomp	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	reforçou	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+21	que	que	SCONJ	_	_	30	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	Paris	Paris	PROPN	_	_	23	nmod	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	_
+27	apenas	apenas	ADV	_	_	30	advmod	_	_
+28	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	20	ccomp	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	7	punct	_	_
+

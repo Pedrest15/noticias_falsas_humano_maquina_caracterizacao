@@ -1,0 +1,181 @@
+# sent_id = S0001
+# text = Presidente fará pronunciamento em cadeia nacional: "Só resta, agora, a renúncia imediata".
+1	Presidente	presidente	NOUN	_	Number=Sing	2	nsubj	_	_
+2	fará	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	nacional	nacional	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	10	punct	_	_
+8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	Só	só	ADV	_	_	10	advmod	_	_
+10	resta	restar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	agora	agora	ADV	_	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	renúncia	renúncia	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+16	imediata	imediato	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Dilma Rousseff decidiu que fará pronunciamento em cadeia nacional hoje a noite.
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	Rousseff	Rousseff	PROPN	_	_	1	flat:name	_	_
+3	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	fará	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+6	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	nacional	nacional	ADJ	_	Number=Sing	8	amod	_	_
+10	hoje	hoje	ADV	_	_	5	advmod	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	noite	noite	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Tomara que, num lapso de consciência, ela esteja pensando em aproveitar a ocasião e entregar o cargo.
+1	Tomara	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4-5	num	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lapso	lapso	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	consciência	consciência	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	esteja	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	pensando	pensar	VERB	_	VerbForm=Ger	1	ccomp	_	_
+13	em	em	ADP	_	_	14	mark	_	_
+14	aproveitar	aproveitar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ocasião	ocasião	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	entregar	entregar	VERB	_	VerbForm=Inf	14	conj	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Para Lula, o mais interessante seria um acordo, fato que só aconteceria com a renúncia de DILMA.
+1	Para	para	ADP	_	_	2	case	_	_
+2	Lula	Lula	PROPN	_	_	9	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	interessante	interessante	ADJ	_	Number=Sing	4	amod	_	_
+7	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	cop	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	fato	fato	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+12	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+13	só	só	ADV	_	_	14	advmod	_	_
+14	aconteceria	acontecer	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	acl:relcl	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	renúncia	renúncia	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	DILMA	DILMA	PROPN	_	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Se Dilma sofrer impeachment, o pixuleco perderá o foro privilegiado e seus processos voltarão para a "República do Paraná" O ex-presidente quer eleições ainda esse ano.
+1	Se	se	SCONJ	_	_	3	mark	_	_
+2	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+3	sofrer	sofrer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	8	advcl	_	_
+4	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pixuleco	pixuleco	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	perderá	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	foro	foro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	_
+12	e	e	CCONJ	_	_	15	cc	_	_
+13	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	processos	processo	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	voltarão	voltar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	_
+16	para	para	ADP	_	_	19	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	República	República	PROPN	_	_	15	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Paraná	Paraná	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	19	punct	_	_
+24	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ex-presidente	ex-presidente	NOUN	_	Number=Sing	26	nsubj	_	_
+26	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	root	_	_
+27	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	ainda	ainda	ADV	_	_	30	advmod	_	_
+29	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
+30	ano	ano	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Ele pensa em salvar a própria pele e, por caridade, pode incluir Dilma e mais alguns próximos, como Jaques Wagner.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pensa	pensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	em	em	ADP	_	_	4	mark	_	_
+4	salvar	salvar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	pele	pele	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8	e	e	CCONJ	_	_	13	cc	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	caridade	caridade	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	incluir	incluir	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	Dilma	Dilma	PROPN	_	_	14	obj	_	_
+16	e	e	CCONJ	_	_	19	cc	_	_
+17	mais	mais	DET	_	PronType=Ind	19	det	_	_
+18	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	próximos	próximo	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	como	como	ADP	_	_	22	case	_	_
+22	Jaques	Jaques	PROPN	_	_	19	nmod	_	_
+23	Wagner	Wagner	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Resumindo: Com o impeachment, cai Dilma e cai Lula [...] com a renúncia, cai Dilma e Lula tem uma pequena chance de se salvar.
+1	Resumindo	resumir	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	cai	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp:speech	_	_
+8	Dilma	Dilma	PROPN	_	_	7	nsubj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	cai	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	Lula	Lula	PROPN	_	_	10	nsubj	_	_
+12	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	20	parataxis	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	renúncia	renúncia	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	cai	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+21	Dilma	Dilma	PROPN	_	_	20	nsubj	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	Lula	Lula	PROPN	_	_	24	nsubj	_	_
+24	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
+27	chance	chance	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+28	de	de	ADP	_	_	30	mark	_	_
+29	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	30	obj	_	_
+30	salvar	salvar	VERB	_	VerbForm=Inf	27	acl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	1	punct	_	_
+

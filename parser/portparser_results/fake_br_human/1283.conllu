@@ -1,0 +1,186 @@
+# sent_id = S0001
+# text = Metrô de Tóquio paralisou operações após ameaça de míssil norte-coreano.
+1	Metrô	Metrô	PROPN	_	_	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Tóquio	Tóquio	PROPN	_	_	1	nmod	_	_
+4	paralisou	paralisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	operações	operação	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	após	após	ADP	_	_	7	case	_	_
+7	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	norte-coreano	norte-coreano	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Durante sua visita a Londres, o primeiro-ministro japonês classificou a Coréia do Norte como uma "ameaça gravíssima".
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	visita	visita	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	Londres	Londres	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	primeiro-ministro	primeiro-ministro	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	japonês	japonês	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	classificou	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Coréia	Coréia	PROPN	_	_	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Norte	Norte	PROPN	_	_	12	flat:name	_	_
+16	como	como	ADP	_	_	19	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+20	gravíssima	gravíssimo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Shinzo Abe disse que o teste ( fracassado ) realizado pela Coréia do Norte ontem (28) é algo "absolutamente inaceitável" e uma "grave ameaça ao Japão".
+1	Shinzo	Shinzo	PROPN	_	_	3	nsubj	_	_
+2	Abe	Abe	PROPN	_	_	1	flat:name	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	22	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	teste	teste	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	_
+8	fracassado	fracassado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+11-12	pela	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Coréia	Coréia	PROPN	_	_	10	obl:agent	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Norte	Norte	PROPN	_	_	13	flat:name	_	_
+17	ontem	ontem	ADV	_	_	10	advmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	28	28	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	ccomp	_	_
+23	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+24	absolutamente	absolutamente	ADV	_	_	25	advmod	_	_
+25	inaceitável	inaceitável	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	_
+27	e	e	CCONJ	_	_	31	cc	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+29	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+30	grave	grave	ADJ	_	Number=Sing	31	amod	_	_
+31	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
+32-33	ao	_	_	_	_	_	_	_	_
+32	a	a	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Japão	Japão	PROPN	_	_	31	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Uma das principais linhas de metrô de Tóquio fechou todas as linhas depois de receber o aviso de um novo lançamento de mísseis autorizado por Kim Jon-un.
+1	Uma	um	NUM	_	Gender=Fem|NumType=Card	10	nsubj	_	_
+2-3	das	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	principais	principal	ADJ	_	Number=Plur	5	amod	_	_
+5	linhas	linha	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	metrô	metrô	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Tóquio	Tóquio	PROPN	_	_	5	nmod	_	_
+10	fechou	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	linhas	linha	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+14	depois	depois	ADV	_	_	10	advmod	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	receber	receber	VERB	_	VerbForm=Inf	14	acl	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	aviso	aviso	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	22	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	novo	novo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	mísseis	míssil	NOUN	_	Number=Plur	22	nmod	_	_
+25	autorizado	autorizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+26	por	por	ADP	_	_	27	case	_	_
+27	Kim	Kim	PROPN	_	_	25	obl:agent	_	_
+28	Jon-un	Jon-un	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = O responsável pelo metrô de Tóquio, Hiroshi Takizawa, disse que a suspensão temporária afetou 13 mil passageiros.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	responsável	responsável	NOUN	_	Number=Sing	12	nsubj	_	_
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	metrô	metrô	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Tóquio	Tóquio	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Hiroshi	Hiroshi	PROPN	_	_	2	appos	_	_
+10	Takizawa	Takizawa	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	17	mark	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	temporária	temporário	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	afetou	afetar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+18	13	13	NUM	_	NumType=Card	20	nummod	_	_
+19	mil	mil	NUM	_	NumType=Card	18	flat	_	_
+20	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = "Geralmente os serviços de trem são suspensos após grandes terremotos" declarou Takizawa.
+1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2	Geralmente	geralmente	ADV	_	_	8	advmod	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	trem	trem	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	suspensos	suspender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	ccomp:speech	_	_
+9	após	após	ADP	_	_	11	case	_	_
+10	grandes	grande	ADJ	_	Number=Plur	11	amod	_	_
+11	terremotos	terremoto	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	8	punct	_	_
+13	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Takizawa	Takizawa	PROPN	_	_	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = O primeiro-ministro Shinzo Abe acrescentou que o Japão não pode "continuar aceitando repetidas provocações da Coréia do Norte".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	primeiro-ministro	primeiro-ministro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Shinzo	Shinzo	PROPN	_	_	2	nmod	_	_
+4	Abe	Abe	PROPN	_	_	3	flat:name	_	_
+5	acrescentou	acrescentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Japão	Japão	PROPN	_	_	10	nsubj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	continuar	continuar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	aceitando	aceitar	VERB	_	VerbForm=Ger	12	xcomp	_	_
+14	repetidas	repetido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	15	amod	_	_
+15	provocações	provocação	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Coréia	Coréia	PROPN	_	_	15	nmod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Norte	Norte	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+

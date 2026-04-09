@@ -1,0 +1,117 @@
+# sent_id = S0001
+# text = Que coisa feia!
+1	Que	que	DET	_	PronType=Ind	2	det	_	_
+2	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	feia	feio	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Vídeo mostra deputados "aos tapas" em sessão na Câmara.
+1	Vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+4	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+5-6	aos	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	tapas	tapa	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Câmara	Câmara	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Deputado do PR e do PT se desentenderam e tiveram que ser contidos.
+1	Deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PR	PR	PROPN	_	_	1	nmod	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PT	PT	PROPN	_	_	4	conj	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	desentenderam	desentender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+13	que	que	ADP	_	_	15	mark	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	15	aux:pass	_	_
+15	contidos	conter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Em uma sessão tensa do Conselho de Ética da Câmara, os deputados Zé Geraldo (PT-PA) e Wellington Roberto (PR-PB) quase partiram para a agressão durante uma discussão sobre o painel de registro de presença.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+4	tensa	tenso	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Conselho	Conselho	PROPN	_	_	3	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Ética	Ética	PROPN	_	_	7	flat:name	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Câmara	Câmara	PROPN	_	_	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+16	Zé	Zé	PROPN	_	_	15	nmod	_	_
+17	Geraldo	Geraldo	PROPN	_	_	16	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	PT-PA	PT-PA	PROPN	_	_	16	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	Wellington	Wellington	PROPN	_	_	16	conj	_	_
+23	Roberto	Roberto	PROPN	_	_	22	flat:name	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	PR-PB	PR-PB	PROPN	_	_	22	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	quase	quase	ADV	_	_	28	advmod	_	_
+28	partiram	partir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	agressão	agressão	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+32	durante	durante	ADP	_	_	34	case	_	_
+33	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+35	sobre	sobre	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	painel	painel	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	registro	registro	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	presença	presença	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = S0009
+# text = Eles tiveram que ser apartados por parlamentares e chegaram a ser separados por seguranças.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	ADP	_	_	5	mark	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	apartados	apartar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	5	obl:agent	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	chegaram	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	a	a	ADP	_	_	12	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	separados	separar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	seguranças	segurança	NOUN	_	Number=Plur	12	obl:agent	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0010
+# text = confira:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

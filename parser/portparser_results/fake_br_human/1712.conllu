@@ -1,0 +1,176 @@
+# sent_id = S0001
+# text = Um maluco à solta!
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	maluco	maluco	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3-4	à	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	solta	solta	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Nicolás Maduro ameaça guerra armada na América Latina.
+1	Nicolás	Nicolás	PROPN	_	_	3	nsubj	_	_
+2	Maduro	Maduro	PROPN	_	_	1	flat:name	_	_
+3	ameaça	ameaçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	armada	armado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	América	América	PROPN	_	_	4	nmod	_	_
+9	Latina	Latina	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Nicolás Maduro disse que está disposto a começar uma "luta armada continental" se seus adversários tentarem um golpe de Estado.
+1	Nicolás	Nicolás	PROPN	_	_	3	nsubj	_	_
+2	Maduro	Maduro	PROPN	_	_	1	flat:name	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	disposto	disposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	ccomp	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	começar	começar	VERB	_	VerbForm=Inf	6	acl	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	luta	luta	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	armada	armado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	11	amod	_	_
+13	continental	continental	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	11	punct	_	_
+15	se	se	SCONJ	_	_	18	mark	_	_
+16	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	adversários	adversário	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	tentarem	tentar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	6	advcl	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Estado	Estado	PROPN	_	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Trocando em miúdos: O povo Venezuelano quer tirar Maduro do poder e ele classifica isso como "golpe de estado" [...] coisa típica de comunista.
+1	Trocando	trocar	VERB	_	VerbForm=Ger	8	advcl	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	miúdos	miúdo	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	povo	povo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Venezuelano	Venezuelano	PROPN	_	_	6	amod	_	_
+8	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	tirar	tirar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	Maduro	Maduro	PROPN	_	_	9	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	poder	poder	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	classifica	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+17	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	_
+18	como	como	ADP	_	_	20	case	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	estado	estado	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	20	punct	_	_
+24	[	[	PUNCT	_	_	28	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
+26	..	..	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	]	]	PUNCT	_	_	25	punct	_	_
+28	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	20	parataxis	_	_
+29	típica	típico	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	comunista	comunista	NOUN	_	Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = O presidente Venezuelano ameaçou: "A paz poderá acabar neste continente", disse o "doido varrido" em discurso feito no Tribunal de Justiça da Venezuela.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	Venezuelano	Venezuelano	PROPN	_	_	2	amod	_	_
+4	ameaçou	ameaçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	9	punct	_	_
+6	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	paz	paz	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp:speech	_	_
+10	acabar	acabar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11-12	neste	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	continente	continente	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	9	punct	_	_
+16	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	doido	doido	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+20	varrido	varrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	19	punct	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+24	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Tribunal	Tribunal	PROPN	_	_	24	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Justiça	Justiça	PROPN	_	_	27	flat:name	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Venezuela	Venezuela	PROPN	_	_	27	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0011
+# text = Na última semana, após o parlamento venezuelano decretar abandono de cargo pelo presidente, Maduro criou uma espécie de "comando antigolpe".
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	semana	semana	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	após	após	ADP	_	_	10	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	parlamento	parlamento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	venezuelano	venezuelano	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	decretar	decretar	VERB	_	VerbForm=Inf	19	advcl	_	_
+11	abandono	abandono	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14-15	pelo	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	presidente	presidente	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	10	punct	_	_
+18	Maduro	Maduro	PROPN	_	_	19	nsubj	_	_
+19	criou	criar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	comando	comando	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	antigolpe	antigolpe	ADJ	_	Foreign=Yes	24	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0013
+# text = O ditador mandou prender vários opositores e os acusou de promoverem "ações desestabilizadoras".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	mandou	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	prender	prender	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	opositores	opositor	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	promoverem	promover	VERB	_	Number=Plur|Person=3|VerbForm=Inf	9	xcomp	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	ações	ação	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+14	desestabilizadoras	desestabilizador	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+

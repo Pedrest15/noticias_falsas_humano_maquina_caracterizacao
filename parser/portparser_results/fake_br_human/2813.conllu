@@ -1,0 +1,212 @@
+# sent_id = S0001
+# text = Farinha do mesmo saco?
+1	Farinha	farinha	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	saco	saco	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Governo Temer vai atrás de Lula para solucionar crise econômica.
+1	Governo	governo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Temer	Temer	PROPN	_	_	1	nmod	_	_
+3	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	atrás	atrás	ADV	_	_	3	advmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	4	obl	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	solucionar	solucionar	VERB	_	VerbForm=Inf	3	advcl	_	_
+9	crise	crise	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Um dos novos ministros nomeados pelo presidente em exercício [Michel Temer] está dando o que falar nos bastidores de Brasília.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	17	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	novos	novo	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+5	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+6	nomeados	nomear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	_	Number=Sing	6	obl:agent	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	exercício	exercício	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Michel	Michel	PROPN	_	_	9	appos	_	_
+14	Temer	Temer	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	dando	dar	VERB	_	VerbForm=Ger	0	root	_	_
+18	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	obj	_	_
+19	que	que	PRON	_	PronType=Int	18	fixed	_	_
+20	falar	falar	VERB	_	VerbForm=Inf	17	ccomp	_	_
+21-22	nos	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	bastidores	bastidor	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Brasília	Brasília	PROPN	_	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = Geddel Vieira Lima [PMDB-BA] concedeu uma entrevista ao Estado de São Paulo dizendo que Lula poderá ser chamado a qualquer momento para participar das novas propostas que visam solucionar a crise econômica do país.
+1	Geddel	Geddel	PROPN	_	_	7	nsubj	_	_
+2	Vieira	Vieira	PROPN	_	_	1	flat:name	_	_
+3	Lima	Lima	PROPN	_	_	1	flat:name	_	_
+4	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	PMDB-BA	PMDB-BA	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+6	]	]	PUNCT	_	_	5	punct	_	_
+7	concedeu	conceder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Estado	Estado	PROPN	_	_	7	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	São	São	PROPN	_	_	12	flat:name	_	_
+15	Paulo	Paulo	PROPN	_	_	12	flat:name	_	_
+16	dizendo	dizer	VERB	_	VerbForm=Ger	7	advcl	_	_
+17	que	que	SCONJ	_	_	19	mark	_	_
+18	Lula	Lula	PROPN	_	_	19	nsubj	_	_
+19	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	ccomp	_	_
+20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
+21	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	24	det	_	_
+24	momento	momento	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25	para	para	ADP	_	_	26	mark	_	_
+26	participar	participar	VERB	_	VerbForm=Inf	21	advcl	_	_
+27-28	das	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+29	novas	novo	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
+30	propostas	proposta	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
+31	que	que	PRON	_	PronType=Rel	32	nsubj	_	_
+32	visam	visar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	solucionar	solucionar	VERB	_	VerbForm=Inf	32	xcomp	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	crise	crise	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
+36	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	país	país	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = SERÁ QUE VOCÊ ENTENDEU DIREITO?
+1	SERÁ	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	discourse	_	_
+2	QUE	que	SCONJ	_	_	4	discourse	_	_
+3	VOCÊ	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	ENTENDEU	entender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	DIREITO	DIREITO	PROPN	_	_	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = SIM, É ISSO MESMO!
+1	SIM	sim	ADV	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ISSO	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	MESMO	MESMO	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = GEDDEL DIZ QUE LULA SERÁ CHAMADO PARA CONTER A CRISE!
+1	GEDDEL	GEDDEL	PROPN	_	_	2	nsubj	_	_
+2	DIZ	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	QUE	que	SCONJ	_	_	6	mark	_	_
+4	LULA	LULA	PROPN	_	_	6	nsubj:pass	_	_
+5	SERÁ	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	CHAMADO	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+7	PARA	para	ADP	_	_	8	mark	_	_
+8	CONTER	conter	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	CRISE	CRISE	PROPN	_	_	8	obj	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = O ministro disse ainda que não terá qualquer dificuldade em tentar um diálogo com Lula.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ainda	ainda	ADV	_	_	3	advmod	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+8	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	9	det	_	_
+9	dificuldade	dificuldade	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	em	em	ADP	_	_	11	mark	_	_
+11	tentar	tentar	VERB	_	VerbForm=Inf	9	acl	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	diálogo	diálogo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	Lula	Lula	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Em seu discurso de posse, Temer disse que vai buscar o diálogo, coisa que o PT não fez.
+1	Em	em	ADP	_	_	3	case	_	_
+2	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	posse	posse	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Temer	Temer	PROPN	_	_	8	nsubj	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	11	mark	_	_
+10	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	buscar	buscar	VERB	_	VerbForm=Inf	8	ccomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	diálogo	diálogo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	13	appos	_	_
+16	que	que	PRON	_	PronType=Rel	20	obj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	PT	PT	PROPN	_	_	20	nsubj	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Pergunta que não quer calar: O PMDB derrubou o PT para conquistar o poder e agora buscará uma "provável" solução para a crise no próprio PT?
+1	Pergunta	pergunta	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	calar	calar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	9	punct	_	_
+7	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PMDB	PMDB	PROPN	_	_	9	nsubj	_	_
+9	derrubou	derrubar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PT	PT	PROPN	_	_	9	obj	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	conquistar	conquistar	VERB	_	VerbForm=Inf	9	advcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	poder	poder	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	agora	agora	ADV	_	_	18	advmod	_	_
+18	buscará	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	provável	provável	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	23	punct	_	_
+23	solução	solução	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	crise	crise	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	30	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
+30	PT	PT	PROPN	_	_	18	obl	_	SpaceAfter=No
+31	?	?	PUNCT	_	_	1	punct	_	_
+

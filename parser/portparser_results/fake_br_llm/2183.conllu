@@ -1,0 +1,249 @@
+# sent_id = S0001
+# text = Empresário Marcelo Odebrecht revela em depoimento bombástico: Lula teria recebido R$ 50 milhões por meio de Palocci.
+1	Empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Marcelo	Marcelo	PROPN	_	_	1	nmod	_	_
+3	Odebrecht	Odebrecht	PROPN	_	_	2	flat:name	_	_
+4	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	bombástico	bombástico	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	11	punct	_	_
+9	Lula	Lula	PROPN	_	_	11	nsubj	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp:speech	_	_
+12	R$	R$	SYM	_	_	14	nmod	_	_
+13	50	50	NUM	_	NumType=Card	14	nummod	_	_
+14	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	meio	meio	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Palocci	Palocci	PROPN	_	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = O delator menciona uma operação financeira clandestina envolvendo o ex-presidente Luiz Inácio Lula da Silva, com valores superiores aos inicialmente divulgados.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delator	delator	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	menciona	mencionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	operação	operação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	clandestina	clandestino	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+8	envolvendo	envolver	VERB	_	VerbForm=Ger	5	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ex-presidente	ex-presidente	NOUN	_	Number=Sing	8	obj	_	_
+11	Luiz	Luiz	PROPN	_	_	10	nmod	_	_
+12	Inácio	Inácio	PROPN	_	_	11	flat:name	_	_
+13	Lula	Lula	PROPN	_	_	11	flat:name	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Silva	Silva	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+20	superiores	superior	ADJ	_	Number=Plur	19	amod	_	_
+21-22	aos	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	20	obl	_	_
+23	inicialmente	inicialmente	ADV	_	_	24	advmod	_	_
+24	divulgados	divulgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	22	acl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Odebrecht afirma que, além dos R$ 40 milhões já mencionados, houve um depósito adicional de R$ 10 milhões para cobrir despesas pessoais de Lula e sua família.
+1	Odebrecht	Odebrecht	PROPN	_	_	2	nsubj	_	_
+2	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	além	além	ADV	_	_	14	advmod	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	10	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	R$	R$	SYM	_	_	10	nmod	_	_
+9	40	40	NUM	_	NumType=Card	10	nummod	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+11	já	já	ADV	_	_	12	advmod	_	_
+12	mencionados	mencionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	5	punct	_	_
+14	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	depósito	depósito	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	adicional	adicional	ADJ	_	Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	21	case	_	_
+19	R$	R$	SYM	_	_	21	nmod	_	_
+20	10	10	NUM	_	NumType=Card	21	nummod	_	_
+21	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	cobrir	cobrir	VERB	_	VerbForm=Inf	16	acl	_	_
+24	despesas	despesa	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
+25	pessoais	pessoal	ADJ	_	Number=Plur	24	amod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Lula	Lula	PROPN	_	_	24	nmod	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+30	família	família	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Essa quantia teria sido gerida secretamente pelo ex-ministro Antonio Palocci, conhecido como "o operador".
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	quantia	quantia	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	gerida	gerir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	secretamente	secretamente	ADV	_	_	5	advmod	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
+10	Antonio	Antonio	PROPN	_	_	9	nmod	_	_
+11	Palocci	Palocci	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+14	como	como	ADP	_	_	17	case	_	_
+15	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	operador	operador	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = "Foi uma estratégia para garantir apoio contínuo do governo à Odebrecht", declarou Odebrecht, sugerindo uma relação ainda mais profunda entre as partes.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	17	ccomp:speech	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	garantir	garantir	VERB	_	VerbForm=Inf	4	acl	_	_
+7	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	contínuo	contínuo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Odebrecht	Odebrecht	PROPN	_	_	7	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Odebrecht	Odebrecht	PROPN	_	_	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	sugerindo	sugerir	VERB	_	VerbForm=Ger	17	advcl	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	relação	relação	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	ainda	ainda	ADV	_	_	25	advmod	_	_
+24	mais	mais	ADV	_	_	25	advmod	_	_
+25	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+26	entre	entre	ADP	_	_	28	case	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	partes	parte	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0011
+# text = O depoimento, prestado na segunda-feira (10), foi tornado público pelo juiz Sérgio Moro na quarta-feira (12), gerando grande repercussão.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	prestado	prestar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	10	10	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	tornado	tornar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14	público	público	ADJ	_	Gender=Masc|Number=Sing	13	xcomp	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
+18	Sérgio	Sérgio	PROPN	_	_	17	nmod	_	_
+19	Moro	Moro	PROPN	_	_	18	flat:name	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	12	12	NUM	_	NumType=Card	22	appos	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	gerando	gerar	VERB	_	VerbForm=Ger	13	advcl	_	_
+28	grande	grande	ADJ	_	Number=Sing	29	amod	_	_
+29	repercussão	repercussão	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = O caso, que investiga propina em troca de favores políticos, envolve Palocci, Odebrecht e outros 13 réus.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	investiga	investigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	propina	propina	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	troca	troca	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	favores	favor	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	políticos	político	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	Palocci	Palocci	PROPN	_	_	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	Odebrecht	Odebrecht	PROPN	_	_	14	conj	_	_
+17	e	e	CCONJ	_	_	20	cc	_	_
+18	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+19	13	13	NUM	_	NumType=Card	20	nummod	_	_
+20	réus	réu	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = O Instituto Lula negou todas as acusações, reafirmando que todas as doações foram legais e registradas, mas a nova revelação coloca ainda mais pressão sobre a defesa do ex-presidente e levanta dúvidas na opinião pública.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Instituto	Instituto	PROPN	_	_	4	nsubj	_	_
+3	Lula	Lula	PROPN	_	_	2	flat:name	_	_
+4	negou	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	reafirmando	reafirmar	VERB	_	VerbForm=Ger	4	advcl	_	_
+10	que	que	SCONJ	_	_	15	mark	_	_
+11	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	doações	doação	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+14	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	legais	legal	ADJ	_	Number=Plur	9	ccomp	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	registradas	registrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	23	punct	_	_
+19	mas	mas	CCONJ	_	_	23	cc	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	nova	novo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+23	coloca	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+24	ainda	ainda	ADV	_	_	23	advmod	_	_
+25	mais	mais	DET	_	PronType=Ind	26	det	_	_
+26	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+27	sobre	sobre	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ex-presidente	ex-presidente	NOUN	_	Number=Sing	29	nmod	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	levanta	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+35	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	34	obj	_	_
+36-37	na	_	_	_	_	_	_	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+39	pública	público	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	4	punct	_	_
+

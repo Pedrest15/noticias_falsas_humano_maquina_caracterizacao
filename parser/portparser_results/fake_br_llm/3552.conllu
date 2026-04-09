@@ -1,0 +1,203 @@
+# sent_id = S0001
+# text = Exclusivo: Renan Calheiros e Roberto Requião são acusados de criar lei que protege criminosos de colarinho branco!
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	9	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Renan	Renan	PROPN	_	_	9	nsubj:pass	_	_
+4	Calheiros	Calheiros	PROPN	_	_	3	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Roberto	Roberto	PROPN	_	_	3	conj	_	_
+7	Requião	Requião	PROPN	_	_	6	flat:name	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	acusados	acusar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	criar	criar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	lei	lei	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	protege	proteger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	criminosos	criminoso	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	colarinho	colarinho	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	branco	branco	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = Um documento vazado revela um plano audacioso dos senadores para impedir que juízes e promotores atuem contra poderosos.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	vazado	vazar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	plano	plano	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	audacioso	audacioso	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	impedir	impedir	VERB	_	VerbForm=Inf	6	acl	_	_
+13	que	que	SCONJ	_	_	17	mark	_	_
+14	juízes	juíz	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	promotores	promotor	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+17	atuem	atuar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+18	contra	contra	ADP	_	_	19	case	_	_
+19	poderosos	poderoso	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A 'Lei da Impunidade', como foi apelidada, visa garantir que figuras influentes escapem de punições, enquanto uma campanha de desinformação culpa agentes do Estado por abuso de autoridade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Lei	Lei	PROPN	_	_	13	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Impunidade	Impunidade	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+7	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	como	como	ADV	_	_	11	advmod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	apelidada	apelidar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	garantir	garantir	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	que	que	SCONJ	_	_	18	mark	_	_
+16	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
+17	influentes	influente	ADJ	_	Number=Plur	16	amod	_	_
+18	escapem	escapar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	punições	punição	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	27	punct	_	_
+22	enquanto	enquanto	SCONJ	_	_	27	mark	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	desinformação	desinformação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	culpa	culpar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+28	agentes	agente	NOUN	_	Number=Plur	27	obj	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Estado	Estado	PROPN	_	_	28	nmod	_	_
+32	por	por	ADP	_	_	33	case	_	_
+33	abuso	abuso	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	autoridade	autoridade	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = Testemunhas afirmam que Requião, conhecido por seu histórico de fraudes eleitorais, teria utilizado até mesmo uma máquina de escrever de um famoso jornalista para forjar provas.
+1	Testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	15	mark	_	_
+4	Requião	Requião	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+12	eleitorais	eleitoral	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	aux	_	_
+15	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+16	até	até	ADV	_	_	19	advmod	_	_
+17	mesmo	mesmo	ADV	_	_	16	advmod	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+20	de	de	ADP	_	_	21	mark	_	_
+21	escrever	escrever	VERB	_	VerbForm=Inf	19	acl	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+25	jornalista	jornalista	NOUN	_	Number=Sing	19	nmod	_	_
+26	para	para	ADP	_	_	27	mark	_	_
+27	forjar	forjar	VERB	_	VerbForm=Inf	15	advcl	_	_
+28	provas	prova	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Enquanto isso, Renan, envolvido em múltiplos processos judiciais, alega precisar de seus supersalários para cobrir indenizações, mas fontes internas sugerem que o dinheiro é usado para financiar a resistência contra investigações.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	12	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	Renan	Renan	PROPN	_	_	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	envolvido	envolvido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	múltiplos	múltiplo	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+9	processos	processo	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10	judiciais	judicial	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	precisar	precisar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	supersalários	supersalário	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	cobrir	cobrir	VERB	_	VerbForm=Inf	13	advcl	_	_
+19	indenizações	indenização	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	mas	mas	CCONJ	_	_	24	cc	_	_
+22	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
+23	internas	interno	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+25	que	que	SCONJ	_	_	29	mark	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	29	nsubj:pass	_	_
+28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+29	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	ccomp	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31	financiar	financiar	VERB	_	VerbForm=Inf	29	advcl	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	contra	contra	ADP	_	_	35	case	_	_
+35	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = A população clama por justiça, enquanto líderes de diversos setores criticam duramente a tentativa de blindar os poderosos da accountability.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	população	população	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	clama	clamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	12	punct	_	_
+7	enquanto	enquanto	SCONJ	_	_	12	mark	_	_
+8	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	setores	setor	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	criticam	criticar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+13	duramente	duramente	ADV	_	_	12	advmod	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	blindar	blindar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	poderosos	poderoso	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	accountability	accountability	X	_	Foreign=Yes	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Será que a ética e a democracia prevalecerão, ou a vingança mascarada vencerá?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	discourse	_	_
+2	que	que	SCONJ	_	_	8	discourse	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ética	ética	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+8	prevalecerão	prevalecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	ou	ou	CCONJ	_	_	14	cc	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vingança	vingança	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	mascarada	mascarado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	12	amod	_	_
+14	vencerá	vencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	8	punct	_	_
+

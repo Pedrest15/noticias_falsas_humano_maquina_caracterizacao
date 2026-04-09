@@ -1,0 +1,296 @@
+# sent_id = S0001
+# text = Apresentadora Ana Hickmann sofre ataque em hotel e escapa de fã obsessivo.
+1	Apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Ana	Ana	PROPN	_	_	1	nmod	_	_
+3	Hickmann	Hickmann	PROPN	_	_	2	flat:name	_	_
+4	sofre	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	escapa	escapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	fã	fã	NOUN	_	Number=Sing	9	obl	_	_
+12	obsessivo	obsessivo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Rodrigo Augusto de Pádua, 30 anos, invadiu o hotel Caesar Business [em Belo Horizonte], onde Ana estava hospedada.
+1	Rodrigo	Rodrigo	PROPN	_	_	9	nsubj	_	_
+2	Augusto	Augusto	PROPN	_	_	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Pádua	Pádua	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	30	30	NUM	_	NumType=Card	7	nummod	_	_
+7	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	invadiu	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	Caesar	Caesar	PROPN	_	_	11	nmod	_	_
+13	Business	Business	PROPN	_	_	12	flat:name	_	_
+14	[	[	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	em	em	ADP	_	_	16	case	_	_
+16	Belo	Belo	PROPN	_	_	11	nmod	_	_
+17	Horizonte	Horizonte	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	]	]	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	onde	onde	ADV	_	_	23	advmod	_	_
+21	Ana	Ana	PROPN	_	_	23	nsubj	_	_
+22	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+23	hospedada	hospedado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = A PM de Minas Gerais informou que Rodrigo Augusto de Pádua, abordou Gustavo Henrique Correa [o sócio da apresentadora] se dizendo amante de Ana Hickman.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Minas	Minas	PROPN	_	_	2	nmod	_	_
+5	Gerais	Gerais	PROPN	_	_	4	flat:name	_	_
+6	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	13	mark	_	_
+8	Rodrigo	Rodrigo	PROPN	_	_	13	nsubj	_	_
+9	Augusto	Augusto	PROPN	_	_	8	flat:name	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Pádua	Pádua	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	abordou	abordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+14	Gustavo	Gustavo	PROPN	_	_	13	obj	_	_
+15	Henrique	Henrique	PROPN	_	_	14	flat:name	_	_
+16	Correa	Correa	PROPN	_	_	14	flat:name	_	_
+17	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sócio	sócio	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	19	punct	_	_
+24	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	25	expl	_	_
+25	dizendo	dizer	VERB	_	VerbForm=Ger	13	advcl	_	_
+26	amante	amante	NOUN	_	Number=Sing	25	xcomp	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Ana	Ana	PROPN	_	_	26	nmod	_	_
+29	Hickman	Hickman	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = A assessora da apresentadora [Giovana Alves de Oliveira] foi atingida por dois tiros durante a invasão e foi socorrida no hospital Biocor.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assessora	assessor	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Giovana	Giovana	PROPN	_	_	2	appos	_	_
+8	Alves	Alves	PROPN	_	_	7	flat:name	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Oliveira	Oliveira	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	7	punct	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	atingida	atingir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	dois	dois	NUM	_	Gender=Masc|NumType=Card	16	nummod	_	_
+16	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	_
+17	durante	durante	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	socorrida	socorrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+26	Biocor	Biocor	PROPN	_	_	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = A PM informou que Rodrigo [de possse de uma arma] obrigou o sócio de Ana Hickman a levá-lo até o apartamento da apresentadora.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	Rodrigo	Rodrigo	PROPN	_	_	13	nsubj	_	_
+6	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	de	de	ADP	_	_	8	case	_	_
+8	possse	possse	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	arma	arma	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	8	punct	_	_
+13	obrigou	obrigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sócio	sócio	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Ana	Ana	PROPN	_	_	15	nmod	_	_
+18	Hickman	Hickman	PROPN	_	_	17	flat:name	_	_
+19	a	a	ADP	_	_	20	mark	_	_
+20-21	levá-lo	_	_	_	_	_	_	_	_
+20	levar	levar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+21	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	até	até	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = O criminoso colocou Ana sob a mira de sua arma e começou a ofendê-la e ameaçá-la.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	criminoso	criminoso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Ana	Ana	PROPN	_	_	3	obj	_	_
+5	sob	sob	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mira	mira	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	arma	arma	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	a	a	ADP	_	_	14	mark	_	_
+14-15	ofendê-la	_	_	_	_	_	_	_	_
+14	ofender	ofender	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17-18	ameaçá-la	_	_	_	_	_	_	_	_
+17	ameaçar	ameaçar	VERB	_	VerbForm=Inf	14	conj	_	_
+18	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Gustavo [assessor de Ana] entrou em luta corporal com o atirador, que atingiu a assessora de Hickmann com dois tiros, na perna e na barriga.
+1	Gustavo	Gustavo	PROPN	_	_	7	nsubj	_	_
+2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	assessor	assessor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Ana	Ana	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	]	]	PUNCT	_	_	3	punct	_	_
+7	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	luta	luta	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	corporal	corporal	ADJ	_	Number=Sing	9	amod	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	atirador	atirador	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	atingiu	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	assessora	assessor	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Hickmann	Hickmann	PROPN	_	_	18	nmod	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	dois	dois	NUM	_	Gender=Masc|NumType=Card	23	nummod	_	_
+23	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	perna	perna	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+28	e	e	CCONJ	_	_	31	cc	_	_
+29-30	na	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	barriga	barriga	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Após a luta, Gustavo conseguiu desarmar o atirador e o acertou com três tiros na cabeça.
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	luta	luta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Gustavo	Gustavo	PROPN	_	_	6	nsubj	_	_
+6	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	desarmar	desarmar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	atirador	atirador	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	acertou	acertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	três	três	NUM	_	NumType=Card	15	nummod	_	_
+15	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = O homem morreu no local.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	homem	homem	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	local	local	NOUN	_	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Em sua rede social, Rodrigo [o criminoso] tem fotos e inúmeras declarações íntimas feitas à apresentadora, mostrando uma espécie de amor obsessivo.
+1	Em	em	ADP	_	_	3	case	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	rede	rede	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+4	social	social	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	Rodrigo	Rodrigo	PROPN	_	_	11	nsubj	_	_
+7	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	criminoso	criminoso	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+10	]	]	PUNCT	_	_	9	punct	_	_
+11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	fotos	foto	NOUN	_	Number=Plur	11	obj	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	inúmeras	inúmero	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+15	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
+16	íntimas	íntimo	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+17	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	mostrando	mostrar	VERB	_	VerbForm=Ger	11	advcl	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	amor	amor	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+27	obsessivo	obsessivo	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0021
+# text = Ana Hickmann iria participar de lançamento de coleção autoral de roupas na tarde desse sábado, em Belo Horizonte.
+1	Ana	Ana	PROPN	_	_	4	nsubj	_	_
+2	Hickmann	Hickmann	PROPN	_	_	1	flat:name	_	_
+3	iria	ir	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	participar	participar	VERB	_	VerbForm=Inf	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	coleção	coleção	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	autoral	autoral	ADJ	_	Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+15-16	desse	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	Belo	Belo	PROPN	_	_	4	obl	_	_
+21	Horizonte	Horizonte	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+

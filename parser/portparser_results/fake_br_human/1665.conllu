@@ -1,0 +1,164 @@
+# sent_id = S0001
+# text = Aos 30 anos, ator global Felipe Titto infarta e está na UTI.
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	30	30	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ator	ator	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	global	global	ADJ	_	Number=Sing	6	amod	_	_
+8	Felipe	Felipe	PROPN	_	_	6	nmod	_	_
+9	Titto	Titto	PROPN	_	_	8	flat:name	_	_
+10	infarta	infartir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	e	e	CCONJ	_	_	15	cc	_	_
+12	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	UTI	UTI	PROPN	_	_	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = Ele deu entrada no Hospital São Luiz, em São Paulo, por volta das 10:30, fez exames detalhados e o problema foi diagnosticado.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Hospital	Hospital	PROPN	_	_	2	obl	_	_
+7	São	São	PROPN	_	_	6	flat:name	_	_
+8	Luiz	Luiz	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	São	São	PROPN	_	_	2	obl	_	_
+12	Paulo	Paulo	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	por	por	ADP	_	ExtPos=ADP	18	case	_	_
+15	volta	volta	NOUN	_	Gender=Fem|Number=Sing	14	fixed	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	14	fixed	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	10:30	10:30	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	exames	exame	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+22	detalhados	detalhado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	21	amod	_	_
+23	e	e	CCONJ	_	_	27	cc	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	problema	problema	NOUN	_	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	diagnosticado	diagnosticar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Felipe está na UTI do São Luíz, mas passa bem.
+1	Felipe	Felipe	PROPN	_	_	5	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	UTI	UTI	PROPN	_	_	0	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	São	São	PROPN	_	_	5	nmod	_	_
+9	Luíz	Luíz	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	mas	mas	CCONJ	_	_	12	cc	_	_
+12	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	bem	bem	ADV	_	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Um amigo que o acompanhava na chegada ao hospital narrou que ele sentiu sentindo fortes dores no peito que irradiavam para o braço esquerdo.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	acompanhava	acompanhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	chegada	chegada	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	narrou	narrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	sentiu	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+16	sentindo	sentir	VERB	_	VerbForm=Ger	15	advcl	_	_
+17	fortes	forte	ADJ	_	Number=Plur	18	amod	_	_
+18	dores	dor	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	peito	peito	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+23	irradiavam	irradiar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	braço	braço	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+27	esquerdo	esquerdo	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = "Os médicos diagnosticaram imediatamente que ele estava sofrendo um infarto" disse um enfermeiro.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	médicos	médico	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	diagnosticaram	diagnosticar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	ccomp:speech	_	_
+5	imediatamente	imediatamente	ADV	_	_	4	advmod	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	sofrendo	sofrer	VERB	_	VerbForm=Ger	4	ccomp	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	infarto	infarto	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	4	punct	_	_
+13	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	enfermeiro	enfermeiro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = O ator usou o Snapchat e mandou uma mensagem para os fãs: "Deu ruim, mas nós é zika"!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ator	ator	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	usou	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Snapchat	Snapchat	PROPN	_	_	3	obj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	mandou	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	para	para	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	fãs	fã	NOUN	_	Number=Plur	7	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	15	punct	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+16	ruim	ruim	ADJ	_	Number=Sing	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	mas	mas	CCONJ	_	_	21	cc	_	_
+19	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	zika	zika	NOUN	_	Number=Sing	15	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Ele passará por uma nova bateria de exames.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	passará	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	por	por	ADP	_	_	6	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nova	novo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	bateria	bateria	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	exames	exame	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+

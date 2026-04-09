@@ -1,0 +1,228 @@
+# sent_id = S0001
+# text = A entrevista que o PT tentou censurar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	que	que	PRON	_	PronType=Rel	6	obj	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PT	PT	PROPN	_	_	6	nsubj	_	_
+6	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7	censurar	censurar	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Carlos Vereza sobre Lula: "Ele é megalômano, ele delira".
+1	Carlos	Carlos	PROPN	_	_	0	root	_	_
+2	Vereza	Vereza	PROPN	_	_	1	flat:name	_	_
+3	sobre	sobre	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	9	punct	_	_
+6	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	megalômano	megalômano	ADJ	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	delira	delirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = "O Lula é uma invenção da USP, da Unicamp e das Comunidades Eclesiais de Base, com o aval do falecido Golbery do Couto e Silva (...) O que era um grande líder metalúrgico transformou-se na glamourização do apedeuta, na glamourização da ignorância".
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	invenção	invenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	USP	USP	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Unicamp	Unicamp	PROPN	_	_	9	conj	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15-16	das	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Comunidades	Comunidades	PROPN	_	_	9	conj	_	_
+18	Eclesiais	Eclesiais	PROPN	_	_	17	flat:name	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Base	Base	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	aval	aval	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	28	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	falecido	falecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	28	amod	_	_
+28	Golbery	Golbery	PROPN	_	_	24	nmod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Couto	Couto	PROPN	_	_	28	flat:name	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	Silva	Silva	PROPN	_	_	28	flat:name	_	_
+34	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	45	parataxis	_	SpaceAfter=No
+36	..	..	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	43	punct	_	_
+38	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	45	nsubj	_	_
+39	que	que	PRON	_	PronType=Rel	43	nsubj	_	_
+40	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	_
+41	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	grande	grande	ADJ	_	Number=Sing	43	amod	_	_
+43	líder	líder	NOUN	_	Gender=Masc|Number=Sing	38	acl:relcl	_	_
+44	metalúrgico	metalúrgico	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	_
+45-46	transformou-se	_	_	_	_	_	_	_	_
+45	transformou	transformar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+46	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	45	expl	_	_
+47-48	na	_	_	_	_	_	_	_	_
+47	em	em	ADP	_	_	49	case	_	_
+48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	glamourização	glamourização	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	_
+50-51	do	_	_	_	_	_	_	_	_
+50	de	de	ADP	_	_	52	case	_	_
+51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	apedeuta	apedeuta	NOUN	_	Number=Sing	49	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	56	punct	_	_
+54-55	na	_	_	_	_	_	_	_	_
+54	em	em	ADP	_	_	56	case	_	_
+55	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	glamourização	glamourização	NOUN	_	Gender=Fem|Number=Sing	49	conj	_	_
+57-58	da	_	_	_	_	_	_	_	_
+57	de	de	ADP	_	_	59	case	_	_
+58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	ignorância	ignorância	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	SpaceAfter=No
+60	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = O PT não me engana (...) Foi a oposição mais cruel, mais feroz, mais desonesta que se fez a todas as tentativas boas e generosas de mudar o país.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PT	PT	PROPN	_	_	5	nsubj	_	_
+3	não	não	ADV	_	_	5	advmod	_	_
+4	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	engana	enganar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+8	..	..	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	7	punct	_	_
+10	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	5	parataxis	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	cruel	cruel	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	mais	mais	ADV	_	_	17	advmod	_	_
+17	feroz	feroz	ADJ	_	Number=Sing	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	mais	mais	ADV	_	_	20	advmod	_	_
+20	desonesta	desonesto	ADJ	_	Gender=Fem|Number=Sing	14	conj	_	_
+21	que	que	PRON	_	PronType=Rel	23	obj	_	_
+22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl:impers	_	_
+23	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+24	a	a	ADP	_	_	27	case	_	_
+25	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	27	det	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	tentativas	tentativa	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+28	boas	bom	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+29	e	e	CCONJ	_	_	30	cc	_	_
+30	generosas	generoso	ADJ	_	Gender=Fem|Number=Plur	28	conj	_	_
+31	de	de	ADP	_	_	32	mark	_	_
+32	mudar	mudar	VERB	_	VerbForm=Inf	27	acl	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	país	país	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Eles eram contra.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	contra	contra	ADP	_	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Levavam apito, pandeiro, batiam na bancada no Congresso, né?
+1	Levavam	levar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	apito	apito	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	pandeiro	pandeiro	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	batiam	bater	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Congresso	Congresso	PROPN	_	_	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	né	né	INTJ	_	_	1	discourse	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = E com um discurso da ética, da moralidade, da virtude, como se eles detivessem o monopólio da virtude, da verdade, da honestidade.
+1	E	e	CCONJ	_	_	4	cc	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ética	ética	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	moralidade	moralidade	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	virtude	virtude	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	como	como	SCONJ	_	ExtPos=SCONJ	20	mark	_	_
+18	se	se	SCONJ	_	_	17	fixed	_	_
+19	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	detivessem	deter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	monopólio	monopólio	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	virtude	virtude	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	honestidade	honestidade	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = E chegam ao poder sem projeto de governo (..).
+1	E	e	CCONJ	_	_	2	cc	_	_
+2	chegam	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	poder	poder	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	sem	sem	ADP	_	_	7	case	_	_
+7	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+

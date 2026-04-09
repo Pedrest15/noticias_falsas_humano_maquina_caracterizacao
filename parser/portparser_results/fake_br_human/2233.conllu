@@ -1,0 +1,207 @@
+# sent_id = S0001
+# text = Gás de cozinha terá novo aumento a partir de amanhã.
+1	Gás	gás	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	cozinha	cozinha	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	novo	novo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	partir	partir	VERB	_	VerbForm=Inf	4	advcl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	amanhã	amanhã	ADV	_	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Unidades poderão custar até R$ 90, 00.
+1	Unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	custar	custar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	até	até	ADP	_	_	5	case	_	_
+5	R$	R$	SYM	_	_	3	obl	_	_
+6	90	90	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	00	00	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = A partir de amanhã começa a valer o reajuste de 9% no preço do botijão do Gás.
+1	A	a	ADP	_	_	2	mark	_	_
+2	partir	partir	VERB	_	VerbForm=Inf	5	advcl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	amanhã	amanhã	ADV	_	_	2	advmod	_	_
+5	começa	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	_	_	7	mark	_	_
+7	valer	valer	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	reajuste	reajuste	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	9	9	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	_	_	9	nmod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	preço	preço	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	botijão	botijão	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Gás	Gás	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = O índice é calculado pela Associação Brasiliense das Empresas de Gás (Abrasgás).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	índice	índice	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Associação	Associação	PROPN	_	_	4	obl:agent	_	_
+8	Brasiliense	Brasiliense	PROPN	_	_	7	flat:name	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	Empresas	Empresas	PROPN	_	_	7	flat:name	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Gás	Gás	PROPN	_	_	7	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Abrasgás	Abrasgás	PROPN	_	_	7	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Dependendo da região do país, o consumidor poderá pagar até até R$ 90 por unidade.
+1	Dependendo	depender	VERB	_	VerbForm=Ger	11	advcl	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	região	região	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	país	país	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	consumidor	consumidor	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	pagar	pagar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	até	até	ADP	_	_	15	case	_	_
+14	até	até	ADP	_	_	15	case	_	_
+15	R$	R$	SYM	_	_	12	obl	_	_
+16	90	90	NUM	_	NumType=Card	15	nummod	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = A ANP (Agência Nacional de Petróleo) informou que não regula nem fiscaliza preços.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ANP	ANP	PROPN	_	_	9	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Agência	Agência	PROPN	_	_	2	appos	_	_
+5	Nacional	Nacional	PROPN	_	_	4	flat:name	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Petróleo	Petróleo	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	4	punct	_	_
+9	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	12	mark	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	regula	regular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+13	nem	nem	CCONJ	_	_	14	cc	_	_
+14	fiscaliza	fiscalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	preços	preço	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = VARIAÇÃO DO PREÇO DO GÁS DE COZINHA P13 NO BRASIL 2004 R$ 30, 17 2005 R$ 29, 97 2006 R$ 33, 02 2007 R$ 32, 76 2008 R$ 33, 38 2009 R$ 38, 21 2010 R$ 38, 30 2011 R$ 38, 93 2012 R$ 39, 59 2013 R$ 40, 98 2014 R$ 43, 70 2015 R$ 66, 00 2016 R$ 90, 00 Fonte: Sindigás.
+1	VARIAÇÃO	variação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	DO	_	_	_	_	_	_	_	_
+2	DE	de	ADP	_	_	4	case	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PREÇO	PREÇO	PROPN	_	_	1	nmod	_	_
+5-6	DO	_	_	_	_	_	_	_	_
+5	DE	de	ADP	_	_	7	case	_	_
+6	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	GÁS	GÁS	PROPN	_	_	4	nmod	_	_
+8	DE	de	ADP	_	_	9	case	_	_
+9	COZINHA	COZINHA	PROPN	_	_	7	flat:name	_	_
+10	P13	P13	PROPN	_	_	7	nmod	_	_
+11-12	NO	_	_	_	_	_	_	_	_
+11	EM	em	ADP	_	_	13	case	_	_
+12	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	BRASIL	BRASIL	PROPN	_	_	7	nmod	_	_
+14	2004	2004	NUM	_	NumType=Card	15	nummod	_	_
+15	R$	R$	SYM	_	_	1	nmod	_	_
+16	30	30	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	17	17	NUM	_	NumType=Card	60	nummod	_	_
+19	2005	2005	NUM	_	NumType=Card	15	nummod	_	_
+20	R$	R$	SYM	_	_	15	nmod	_	_
+21	29	29	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	68	punct	_	_
+23	97	97	NUM	_	NumType=Card	65	nummod	_	_
+24	2006	2006	NUM	_	NumType=Card	15	nummod	_	_
+25	R$	R$	SYM	_	_	24	nmod	_	_
+26	33	33	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	73	punct	_	_
+28	02	02	NUM	_	NumType=Card	70	nummod	_	_
+29	2007	2007	NUM	_	NumType=Card	25	nummod	_	_
+30	R$	R$	SYM	_	_	24	nmod	_	_
+31	32	32	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	73	punct	_	_
+33	76	76	NUM	_	NumType=Card	76	nummod	_	_
+34	2008	2008	NUM	_	NumType=Card	75	nummod	_	_
+35	R$	R$	SYM	_	_	29	nmod	_	_
+36	33	33	NUM	_	NumType=Card	35	nummod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	38	38	NUM	_	NumType=Card	76	nummod	_	_
+39	2009	2009	NUM	_	NumType=Card	40	nummod	_	_
+40	R$	R$	SYM	_	_	1	nmod	_	_
+41	38	38	NUM	_	NumType=Card	45	nummod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	48	punct	_	_
+43	21	21	NUM	_	NumType=Card	76	nummod	_	_
+44	2010	2010	NUM	_	NumType=Card	40	nummod	_	_
+45	R$	R$	SYM	_	_	1	nmod	_	_
+46	38	38	NUM	_	NumType=Card	45	nummod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	30	30	NUM	_	NumType=Card	46	nummod	_	_
+49	2011	2011	NUM	_	NumType=Card	50	nummod	_	_
+50	R$	R$	SYM	_	_	1	nmod	_	_
+51	38	38	NUM	_	NumType=Card	50	nummod	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	58	punct	_	_
+53	93	93	NUM	_	NumType=Card	10	nummod	_	_
+54	2012	2012	NUM	_	NumType=Card	15	nummod	_	_
+55	R$	R$	SYM	_	_	1	nmod	_	_
+56	39	39	NUM	_	NumType=Card	55	nummod	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	58	punct	_	_
+58	59	59	NUM	_	NumType=Card	56	nummod	_	_
+59	2013	2013	NUM	_	NumType=Card	15	nummod	_	_
+60	R$	R$	SYM	_	_	1	nmod	_	_
+61	40	40	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+62	,	,	PUNCT	_	_	63	punct	_	_
+63	98	98	NUM	_	NumType=Card	65	nummod	_	_
+64	2014	2014	NUM	_	NumType=Card	15	nummod	_	_
+65	R$	R$	SYM	_	_	1	nmod	_	_
+66	43	43	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+67	,	,	PUNCT	_	_	68	punct	_	_
+68	70	70	NUM	_	NumType=Card	65	nummod	_	_
+69	2015	2015	NUM	_	NumType=Card	20	nummod	_	_
+70	R$	R$	SYM	_	_	24	nmod	_	_
+71	66	66	NUM	_	NumType=Card	70	nummod	_	SpaceAfter=No
+72	,	,	PUNCT	_	_	73	punct	_	_
+73	00	00	NUM	_	NumType=Card	70	nummod	_	_
+74	2016	2016	NUM	_	NumType=Card	75	nummod	_	_
+75	R$	R$	SYM	_	_	25	nmod	_	_
+76	90	90	NUM	_	NumType=Card	75	nummod	_	SpaceAfter=No
+77	,	,	PUNCT	_	_	78	punct	_	_
+78	00	00	NUM	_	NumType=Card	35	nummod	_	_
+79	Fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	75	list	_	SpaceAfter=No
+80	:	:	PUNCT	_	_	81	punct	_	_
+81	Sindigás	Sindigás	PROPN	_	_	15	nmod	_	SpaceAfter=No
+82	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,268 @@
+# sent_id = S0001
+# text = Militante anti-Dilma e senadora Vanessa Graziotin brigam dentro de avião.
+1	Militante	militante	NOUN	_	Number=Sing	7	nsubj	_	_
+2	anti-Dilma	anti-Dilma	PROPN	_	_	1	nmod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+5	Vanessa	Vanessa	PROPN	_	_	4	nmod	_	_
+6	Graziotin	Graziotin	PROPN	_	_	5	flat:name	_	_
+7	brigam	brigar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	dentro	dentro	ADV	_	_	7	advmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	avião	avião	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = O homem foi preso pela PF.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	homem	homem	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	PF	PF	PROPN	_	_	4	obl:agent	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A senadora Vanessa Graziotin (PCdoB) foi agredida fisicamente ao desembarcar de um voo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	Vanessa	Vanessa	PROPN	_	_	2	nmod	_	_
+4	Graziotin	Graziotin	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PCdoB	PCdoB	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	agredida	agredir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	fisicamente	fisicamente	ADV	_	_	9	advmod	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	ExtPos=SCONJ	13	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
+13	desembarcar	desembarcar	VERB	_	VerbForm=Inf	9	advcl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	voo	voo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = A Polícia Federal deteve um passageiro no Aeroporto Afonso Pena (Curitiba) na noite de ontem (31).
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	4	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	deteve	deter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passageiro	passageiro	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Aeroporto	Aeroporto	PROPN	_	_	4	obl	_	_
+10	Afonso	Afonso	PROPN	_	_	9	flat:name	_	_
+11	Pena	Pena	PROPN	_	_	9	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Curitiba	Curitiba	PROPN	_	_	9	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	noite	noite	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	ontem	ontem	ADV	_	_	17	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	31	31	NUM	_	NumType=Card	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Ele é acusado de por "suposta" tentativa de agressão.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	de	de	ADP	_	_	9	case	_	_
+5	por	por	ADP	_	_	9	case	_	_
+6	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	_
+9	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	agressão	agressão	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = O homem, de acordo com relatos de testemunhas, estava alterado e foi retido até que todos os passageiros desembarcassem.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	homem	homem	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	alterado	alterado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	retido	reter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	conj	_	_
+16	até	até	ADP	_	ExtPos=SCONJ	21	mark	_	_
+17	que	que	SCONJ	_	_	16	fixed	_	_
+18	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+21	desembarcassem	desembarcar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0013
+# text = Ao ser hostilizada por um grupo anti-Dilma, a senadora Vanessa começou a filmar as agressões verbais.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	4	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	hostilizada	hostilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	anti-Dilma	anti-Dilma	PROPN	_	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	Vanessa	Vanessa	PROPN	_	_	11	nmod	_	_
+13	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	a	ADP	_	_	15	mark	_	_
+15	filmar	filmar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	agressões	agressão	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+18	verbais	verbal	ADJ	_	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = O agressor tentou tirar o celular das mãos da senadora e os dois quase entraram em luta corporal.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	agressor	agressor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	tirar	tirar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	celular	celular	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	das	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	_	_	17	cc	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	dois	dois	NUM	_	Gender=Masc|NumType=Card	17	nsubj	_	_
+16	quase	quase	ADV	_	_	17	advmod	_	_
+17	entraram	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	luta	luta	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	corporal	corporal	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Vanessa teve os cabelos puxados pelo cidadão e acabou batendo a cabeça na poltrona do avião.
+1	Vanessa	Vanessa	PROPN	_	_	2	nsubj	_	_
+2	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cabelos	cabelo	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5	puxados	puxar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	batendo	bater	VERB	_	VerbForm=Ger	10	xcomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	poltrona	poltrÃ£o	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	avião	avião	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = "Foi um absurdo" disse uma passageira.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	absurdo	absurdo	NOUN	_	Gender=Masc|Number=Sing	6	ccomp:speech	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	passageira	passageiro	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Ela apontou o celular para filmar e quando ele puxou, ela puxou também, e pegou no cabelo dela.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	apontou	apontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	celular	celular	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	filmar	filmar	VERB	_	VerbForm=Inf	2	advcl	_	_
+7	e	e	CCONJ	_	_	13	cc	_	_
+8	quando	quando	SCONJ	_	_	10	mark	_	_
+9	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	puxou	puxar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	puxou	puxar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	também	também	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	dela	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = E ela acabou batendo a cabeça no braço da poltrona relatou.
+1	E	e	CCONJ	_	_	3	cc	_	_
+2	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp:speech	_	_
+4	batendo	bater	VERB	_	VerbForm=Ger	3	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	braço	braço	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	poltrona	poltrÃ£o	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0025
+# text = O agressor foi levado para uma sala da PF no aeroporto.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	agressor	agressor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	levado	levar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sala	sala	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	PF	PF	PROPN	_	_	7	nmod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+

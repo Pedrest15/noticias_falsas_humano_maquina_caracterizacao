@@ -1,0 +1,373 @@
+# sent_id = S0001
+# text = Ex-presidente Lula faz revelações bombásticas em depoimento a Moro.
+1	Ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	nsubj	_	_
+2	Lula	Lula	PROPN	_	_	1	nmod	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	bombásticas	bombástico	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	Moro	Moro	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Lula afirmou categoricamente que toda acusação de propina da Odebrecht é uma conspiração orquestrada por seus adversários políticos e membros do Ministério Público.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	categoricamente	categoricamente	ADV	_	_	2	advmod	_	_
+4	que	que	SCONJ	_	_	14	mark	_	_
+5	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	propina	propina	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Odebrecht	Odebrecht	PROPN	_	_	8	nmod	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	_
+15	orquestrada	orquestrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	adversários	adversário	NOUN	_	Gender=Masc|Number=Plur	15	obl:agent	_	_
+19	políticos	político	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	membros	membro	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Ministério	Ministério	PROPN	_	_	21	nmod	_	_
+25	Público	Público	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O ex-presidente sugeriu que os procuradores e o juiz Moro estariam envolvidos em uma trama para distorcer fatos e incriminá-lo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	nsubj	_	_
+3	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	12	mark	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	procuradores	procurador	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+10	Moro	Moro	PROPN	_	_	9	nmod	_	_
+11	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	12	cop	_	_
+12	envolvidos	envolvido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	3	ccomp	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	trama	trama	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	distorcer	distorcer	VERB	_	VerbForm=Inf	12	advcl	_	_
+18	fatos	fato	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20-21	incriminá-lo	_	_	_	_	_	_	_	_
+20	incriminar	incriminar	VERB	_	VerbForm=Inf	17	conj	_	_
+21	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Durante o depoimento, Lula destacou que as doações ao Instituto Lula, supostamente feitas pela Odebrecht, foram na verdade contribuições legítimas de admiradores de sua gestão, sem qualquer vínculo ilícito.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+6	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	25	mark	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	doações	doação	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Instituto	Instituto	PROPN	_	_	9	nmod	_	_
+13	Lula	Lula	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	supostamente	supostamente	ADV	_	_	16	advmod	_	_
+16	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Odebrecht	Odebrecht	PROPN	_	_	16	obl:agent	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+25	contribuições	contribuição	NOUN	_	Gender=Fem|Number=Plur	6	ccomp	_	_
+26	legítimas	legítimo	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	admiradores	admirador	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	35	punct	_	_
+33	sem	sem	ADP	_	_	35	case	_	_
+34	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	35	det	_	_
+35	vínculo	vínculo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+36	ilícito	ilícito	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Ele desafiou Moro e os procuradores a apresentarem provas concretas, alegando que as evidências apresentadas até agora são "mentirosas e manipuladas".
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	desafiou	desafiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Moro	Moro	PROPN	_	_	2	obj	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	procuradores	procurador	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	apresentarem	apresentar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	2	xcomp	_	_
+9	provas	prova	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	concretas	concreto	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	alegando	alegar	VERB	_	VerbForm=Ger	2	advcl	_	_
+13	que	que	SCONJ	_	_	21	mark	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+16	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
+17	até	até	ADP	_	_	18	case	_	_
+18	agora	agora	ADV	_	_	16	advmod	_	_
+19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	mentirosas	mentiroso	ADJ	_	Gender=Fem|Number=Plur	12	ccomp	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	21	conj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Lula ainda insinuou que a Polícia Federal pode ter plantado documentos em sua residência, questionando a integridade das investigações.
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	ainda	ainda	ADV	_	_	3	advmod	_	_
+3	insinuou	insinuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polícia	Polícia	PROPN	_	_	8	nsubj	_	_
+7	Federal	Federal	PROPN	_	_	6	flat:name	_	_
+8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	ter	ter	AUX	_	VerbForm=Inf	10	aux	_	_
+10	plantado	plantar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	xcomp	_	_
+11	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	residência	residência	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	questionando	questionar	VERB	_	VerbForm=Ger	3	advcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Eu não uso e-mail por segurança, doutora.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	uso	usar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	e-mail	e-mail	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	3	obj	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	segurança	segurança	NOUN	_	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	doutora	doutor	NOUN	_	Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = A ideia de que documentos foram 'cuidadosamente guardados' em minha casa é suspeita, afirmou.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	de	de	ADP	_	ExtPos=SCONJ	9	mark	_	_
+4	que	que	SCONJ	_	_	3	fixed	_	_
+5	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+7	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	cuidadosamente	cuidadosamente	ADV	_	_	9	advmod	_	_
+9	guardados	guardar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	SpaceAfter=No
+10	'	'	PUNCT	_	_	9	punct	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	casa	casa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	suspeita	suspeito	ADJ	_	Gender=Fem|Number=Sing	17	ccomp:speech	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0017
+# text = Em um momento de tensão, Lula perguntou a Moro se poderia olhar nos olhos de seus netos e dizer que estava prestando depoimento a um juiz imparcial.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+8	perguntou	perguntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	Moro	Moro	PROPN	_	_	8	obl	_	_
+11	se	se	SCONJ	_	_	12	mark	_	_
+12	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	ccomp	_	_
+13	olhar	olhar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14-15	nos	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	olhos	olho	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	netos	neto	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	dizer	dizer	VERB	_	VerbForm=Inf	13	conj	_	_
+22	que	que	SCONJ	_	_	24	mark	_	_
+23	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	prestando	prestar	VERB	_	VerbForm=Ger	21	ccomp	_	_
+25	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+29	imparcial	imparcial	ADJ	_	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Moro respondeu evasivamente, sem abordar diretamente a questão da imparcialidade, o que gerou reações nas redes sociais e entre seus apoiadores.
+1	Moro	Moro	PROPN	_	_	2	nsubj	_	_
+2	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	evasivamente	evasivamente	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	sem	sem	ADP	_	_	6	mark	_	_
+6	abordar	abordar	VERB	_	VerbForm=Inf	2	advcl	_	_
+7	diretamente	diretamente	ADV	_	_	6	advmod	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	questão	questão	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	imparcialidade	imparcialidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
+15	que	que	PRON	_	PronType=Rel	14	fixed	_	_
+16	gerou	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+17	reações	reação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+18-19	nas	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	redes	rede	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	sociais	social	ADJ	_	Number=Plur	20	amod	_	_
+22	e	e	CCONJ	_	_	25	cc	_	_
+23	entre	entre	ADP	_	_	25	case	_	_
+24	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	apoiadores	apoiador	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = A defesa de Lula garantiu que todos os aluguéis do apartamento mencionado foram pagos conforme declarado nos impostos de renda do ex-presidente e de sua falecida esposa, Marisa.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	nmod	_	_
+5	garantiu	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	15	mark	_	_
+7	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	aluguéis	aluguel	NOUN	_	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	pagos	pagar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+16	conforme	conforme	SCONJ	_	_	17	mark	_	_
+17	declarado	declarar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	_
+18-19	nos	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	renda	renda	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ex-presidente	ex-presidente	NOUN	_	Number=Sing	20	nmod	_	_
+26	e	e	CCONJ	_	_	30	cc	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+29	falecida	falecido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	30	amod	_	_
+30	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	Marisa	Marisa	PROPN	_	_	30	appos	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = O advogado de Lula criticou a insistência de Moro em pontos já esclarecidos, acusando-o de tentar confundir o depoente.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Lula	Lula	PROPN	_	_	2	nmod	_	_
+5	criticou	criticar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	insistência	insistência	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Moro	Moro	PROPN	_	_	7	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+12	já	já	ADV	_	_	13	advmod	_	_
+13	esclarecidos	esclarecer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15-16	acusando-o	_	_	_	_	_	_	_	_
+15	acusando	acusar	VERB	_	VerbForm=Ger	5	advcl	_	_
+16	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	de	de	ADP	_	_	18	mark	_	_
+18	tentar	tentar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+19	confundir	confundir	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	depoente	depoente	NOUN	_	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = Esse depoimento reacendeu o debate sobre a veracidade das acusações contra Lula e a conduta dos investigadores, colocando em dúvida a narrativa construída pelo Ministério Público e pela Lava Jato.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	reacendeu	reacender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	debate	debate	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	sobre	sobre	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	veracidade	veracidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	contra	contra	ADP	_	_	13	case	_	_
+13	Lula	Lula	PROPN	_	_	11	nmod	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	conduta	conduta	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	investigadores	investigador	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	colocando	colocar	VERB	_	VerbForm=Ger	3	advcl	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	dúvida	dúvida	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	narrativa	narrativa	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+26	construída	construír	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	25	acl	_	_
+27-28	pelo	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Ministério	Ministério	PROPN	_	_	26	obl:agent	_	_
+30	Público	Público	PROPN	_	_	29	flat:name	_	_
+31	e	e	CCONJ	_	_	34	cc	_	_
+32-33	pela	_	_	_	_	_	_	_	_
+32	por	por	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Lava	Lava	PROPN	_	_	29	conj	_	_
+35	Jato	Jato	PROPN	_	_	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	3	punct	_	_
+

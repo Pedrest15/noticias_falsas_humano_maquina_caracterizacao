@@ -1,0 +1,213 @@
+# sent_id = S0001
+# text = O ANTAGONISTA: Dilma usa agência estatal (sustentada com dinheiro público) para espionar o vice Michel Temer.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ANTAGONISTA	ANTAGONISTA	PROPN	_	_	5	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	Dilma	Dilma	PROPN	_	_	5	nsubj	_	_
+5	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	agência	agência	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	estatal	estatal	ADJ	_	Number=Sing	6	amod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	sustentada	sustentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	público	público	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	9	punct	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	espionar	espionar	VERB	_	VerbForm=Inf	5	advcl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	vice	vice	NOUN	_	Number=Sing	15	obj	_	_
+18	Michel	Michel	PROPN	_	_	17	nmod	_	_
+19	Temer	Temer	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = A mando do ministro da Secretaria de Governo, o governo federal está espionando, através da ABIN (Agência Brasileira de Inteligência), o vice-presidente da República, Michel Temer.
+1	A	a	ADP	_	_	2	case	_	_
+2	mando	mando	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Secretaria	Secretaria	PROPN	_	_	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Governo	Governo	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	governo	governo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	federal	federal	ADJ	_	Number=Sing	13	amod	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	espionando	espionar	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	através	através	ADV	_	_	16	advmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ABIN	ABIN	PROPN	_	_	18	obl	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Agência	Agência	PROPN	_	_	21	appos	_	_
+24	Brasileira	Brasileira	PROPN	_	_	23	flat:name	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Inteligência	Inteligência	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	18	punct	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	vice-presidente	vice-presidente	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	República	República	PROPN	_	_	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	Michel	Michel	PROPN	_	_	30	appos	_	_
+36	Temer	Temer	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0005
+# text = A informação foi divulgada no site o Antagonista.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	site	site	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Antagonista	Antagonista	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com o portal, o objetivo das investigações é monitorar os movimentos políticos do vice-presidente da República, que se articula para suceder a petista dentro das regras democráticas.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	portal	portal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	monitorar	monitorar	VERB	_	VerbForm=Inf	0	root	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	políticos	político	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	vice-presidente	vice-presidente	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	República	República	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+25	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	26	expl	_	_
+26	articula	articular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+27	para	para	ADP	_	_	28	mark	_	_
+28	suceder	suceder	VERB	_	VerbForm=Inf	26	advcl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	petista	petista	NOUN	_	Number=Sing	28	obj	_	_
+31	dentro	dentro	ADV	_	_	28	advmod	_	_
+32-33	das	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	regras	regra	NOUN	_	Gender=Fem|Number=Plur	31	obl	_	_
+35	democráticas	democrático	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = O antagonista ainda considerou um escândalo que a presidente da República, por meio de um ministro, espione o seu vice. .
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	antagonista	antagonista	NOUN	_	Number=Sing	4	nsubj	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	considerou	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	que	que	SCONJ	_	_	20	mark	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	_	Number=Sing	20	nsubj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	República	República	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	meio	meio	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	espione	espionar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	vice	vice	NOUN	_	Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+25	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = É um absurdo que a presidente da República use uma agência estatal, sustentada com dinheiro público, em benefício pessoal.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	absurdo	absurdo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	República	República	PROPN	_	_	6	nmod	_	_
+10	use	usar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	agência	agência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	estatal	estatal	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	sustentada	sustentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	público	público	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	benefício	benefício	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+22	pessoal	pessoal	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = É um escândalo que a presidente da República transforme o Estado de Direito em Estado policial. .
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	República	República	PROPN	_	_	6	nmod	_	_
+10	transforme	transformar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Estado	Estado	PROPN	_	_	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Direito	Direito	PROPN	_	_	12	flat:name	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	Estado	Estado	PROPN	_	_	10	obl	_	_
+17	policial	policial	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O Brasil não pode continuar assim.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	_	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	continuar	continuar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+

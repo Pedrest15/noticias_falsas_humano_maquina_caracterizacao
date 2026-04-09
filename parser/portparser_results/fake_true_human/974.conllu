@@ -1,0 +1,119 @@
+# sent_id = S0001
+# text = tracking btg mostra bolsonaro com 77% e haddad com 23% essa pesquisa saiu, para o mercado financeiro!!!
+1	tracking	tracking	X	_	Foreign=Yes	3	nsubj	_	_
+2	btg	btg	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bolsonaro	bolsonaro	NOUN	_	Foreign=Yes	3	obj	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	77	77	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	_	_	4	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	haddad	haddad	X	_	Foreign=Yes	4	conj	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	23	23	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	_	_	9	nmod	_	_
+13	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	saiu	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+20	financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	15	punct	_	SpaceAfter=No
+22	!	!	PUNCT	_	_	15	punct	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = essa é a real!!!
+1	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+4	real	real	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = tracking btg que acabou de sair para o mercado financeiro: bolsonaro 77%; haddad 23%.
+1	tracking	tracking	X	_	Foreign=Yes	0	root	_	_
+2	btg	btg	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	1	flat:foreign	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	sair	sair	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	12	punct	_	_
+12	bolsonaro	bolsonaro	X	_	Foreign=Yes	1	parataxis	_	_
+13	77	77	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
+14	%	%	SYM	_	_	12	parataxis	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	16	punct	_	_
+16	haddad	haddad	X	_	Foreign=Yes	12	conj	_	_
+17	23	23	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = ps: votos válidos., temos que espalhar ao máximo, pois os institutos de pesquisas comprados vão começar a divulgar as falsas pesquisas onde haddad em apenas 3 dias já se aproxima de bolsonaro.
+1	ps	ps	NOUN	_	_	7	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	votos	voto	NOUN	_	Gender=Masc|Number=Plur	7	parataxis	_	_
+4	válidos	válido	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	ADP	_	_	9	mark	_	_
+9	espalhar	espalhar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	21	punct	_	_
+14	pois	pois	SCONJ	_	_	21	mark	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	institutos	instituto	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	pesquisas	pesquisa	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+19	comprados	comprar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	16	acl	_	_
+20	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	começar	começar	VERB	_	VerbForm=Inf	9	advcl	_	_
+22	a	a	ADP	_	_	23	mark	_	_
+23	divulgar	divulgar	VERB	_	VerbForm=Inf	21	xcomp	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	falsas	falso	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
+26	pesquisas	pesquisa	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
+27	onde	onde	ADV	_	_	35	advmod	_	_
+28	haddad	haddad	PROPN	_	_	35	nsubj	_	_
+29	em	em	ADP	_	_	32	case	_	_
+30	apenas	apenas	ADV	_	_	31	advmod	_	_
+31	3	3	NUM	_	NumType=Card	32	nummod	_	_
+32	dias	dia	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	_
+33	já	já	ADV	_	_	35	advmod	_	_
+34	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	35	expl	_	_
+35	aproxima	aproximar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = querem manipular as pesquisas para fraudar os resultados.
+1	querem	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	manipular	manipular	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	pesquisas	pesquisa	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	fraudar	fraudar	VERB	_	VerbForm=Inf	2	advcl	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = compartilhem sem dó!
+1	compartilhem	compartilhar	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	sem	sem	ADP	_	_	3	case	_	_
+3	dó	dó	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+

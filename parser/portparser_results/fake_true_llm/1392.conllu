@@ -1,0 +1,384 @@
+# sent_id = S0001
+# text = Em Santa Catarina, um total de 1.
+1	Em	em	ADP	_	_	2	case	_	_
+2	Santa	Santa	PROPN	_	_	6	nmod	_	_
+3	Catarina	Catarina	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	total	total	NOUN	_	Number=Sing	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	1	1	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = 591 detentos receberão o benefício especial de saída temporária de Natal, uma decisão que está gerando controvérsias entre a população.
+1	591	591	NUM	_	NumType=Card	2	nummod	_	_
+2	detentos	detento	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	receberão	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	benefício	benefício	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	especial	especial	ADJ	_	Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	saída	saída	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	temporária	temporário	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Natal	Natal	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+15	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	gerando	gerar	VERB	_	VerbForm=Ger	14	acl:relcl	_	_
+18	controvérsias	controvérsão	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	entre	entre	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	população	população	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Segundo fontes não oficiais, essa quantidade é a maior já registrada na história do estado, causando preocupações com a segurança pública.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	oficiais	oficial	ADJ	_	Number=Plur	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+10	maior	maior	ADJ	_	Number=Sing	9	amod	_	_
+11	já	já	ADV	_	_	12	advmod	_	_
+12	registrada	registrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	história	história	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	estado	estado	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	causando	causar	VERB	_	VerbForm=Ger	9	advcl	_	_
+21	preocupações	preocupação	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	segurança	segurança	NOUN	_	Number=Sing	21	nmod	_	_
+25	pública	público	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Os detentos poderão ficar até sete dias fora das prisões, com as saídas ocorrendo entre 17 de dezembro e 3 de janeiro.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	detentos	detento	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	ficar	ficar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	até	até	ADP	_	_	6	case	_	_
+6	sete	sete	NUM	_	NumType=Card	7	nummod	_	_
+7	dias	dia	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+8	fora	fora	ADV	_	_	4	advmod	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	prisões	prisão	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	saídas	saída	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+16	ocorrendo	ocorrer	VERB	_	VerbForm=Ger	3	advcl	_	_
+17	entre	entre	ADP	_	_	18	case	_	_
+18	17	17	NUM	_	NumType=Card	16	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	3	3	NUM	_	NumType=Card	18	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Até o momento, 69 detentos já foram liberados e, nos próximos dias, espera-se que outros 982 deixem as unidades prisionais.
+1	Até	até	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	69	69	NUM	_	NumType=Card	6	nummod	_	_
+6	detentos	detento	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+7	já	já	ADV	_	_	9	advmod	_	_
+8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	liberados	liberar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	e	e	CCONJ	_	_	17	cc	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12-13	nos	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+15	dias	dia	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17-18	espera-se	_	_	_	_	_	_	_	_
+17	espera	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl:impers	_	_
+19	que	que	SCONJ	_	_	22	mark	_	_
+20	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	982	982	NUM	_	NumType=Card	22	nsubj	_	_
+22	deixem	deixar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+25	prisionais	prisional	ADJ	_	Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = No ano passado, apenas 1.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ano	ano	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+4	passado	passado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	apenas	apenas	ADV	_	_	7	advmod	_	_
+7	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = 738 presos receberam essa oportunidade, o que indica um aumento significativo e surpreendente.
+1	738	738	NUM	_	NumType=Card	2	nummod	_	_
+2	presos	preso	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	receberam	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+8	que	que	PRON	_	PronType=Rel	7	fixed	_	_
+9	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	surpreendente	surpreendente	ADJ	_	Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Critérios como bom comportamento e a proximidade do regime aberto continuam sendo utilizados, mas rumores apontam que decisões judiciais recentes flexibilizaram outras regras, permitindo a inclusão de presos com penas mais severas.
+1	Critérios	critério	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+2	como	como	ADP	_	_	4	case	_	_
+3	bom	bom	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	proximidade	proximidade	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	regime	regime	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	aberto	aberto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	_
+12	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	sendo	ser	AUX	_	VerbForm=Ger	14	aux:pass	_	_
+14	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	18	cc	_	_
+17	rumores	rumor	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+19	que	que	SCONJ	_	_	23	mark	_	_
+20	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
+21	judiciais	judicial	ADJ	_	Number=Plur	20	amod	_	_
+22	recentes	recente	ADJ	_	Number=Plur	20	amod	_	_
+23	flexibilizaram	flexibilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+24	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	regras	regra	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	permitindo	permitir	VERB	_	VerbForm=Ger	23	advcl	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	inclusão	inclusão	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	presos	preso	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+32	com	com	ADP	_	_	33	case	_	_
+33	penas	pena	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
+34	mais	mais	ADV	_	_	35	advmod	_	_
+35	severas	severo	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0017
+# text = A volta dos presos ao sistema prisional após a saída temporária incluirá medidas extras devido à COVID-19.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	presos	preso	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	prisional	prisional	ADJ	_	Number=Sing	8	amod	_	_
+10	após	após	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	saída	saída	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+13	temporária	temporário	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	incluirá	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16	extras	extra	ADJ	_	Number=Plur	15	amod	_	_
+17	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	COVID-19	covid-19	NUM	_	NumType=Card	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0019
+# text = No entanto, há denúncias de que o protocolo de isolamento não está sendo seguido adequadamente.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	5	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	ExtPos=SCONJ	16	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	protocolo	protocolo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	não	não	ADV	_	_	16	advmod	_	_
+14	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	sendo	ser	AUX	_	VerbForm=Ger	16	aux:pass	_	_
+16	seguido	seguir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+17	adequadamente	adequadamente	ADV	_	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0021
+# text = Detentos que não apresentarem sintomas ainda ficarão isolados, mas há especulações de que a duração do isolamento foi reduzida para apenas 1 a 7 dias, contrariando as diretrizes de saúde.
+1	Detentos	detento	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	apresentarem	apresentar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	1	acl:relcl	_	_
+5	sintomas	sintoma	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	ainda	ainda	ADV	_	_	7	advmod	_	_
+7	ficarão	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	isolados	isolado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	mas	mas	CCONJ	_	_	11	cc	_	_
+11	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	especulações	especulação	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	de	de	ADP	_	ExtPos=SCONJ	21	mark	_	_
+14	que	que	SCONJ	_	_	13	fixed	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	duração	duração	NOUN	_	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	reduzida	reduzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+22	para	para	ADP	_	_	24	case	_	_
+23	apenas	apenas	ADV	_	_	24	advmod	_	_
+24	1	1	NUM	_	NumType=Card	21	obl	_	_
+25	a	a	ADP	_	_	26	case	_	_
+26	7	7	NUM	_	NumType=Card	24	nummod	_	_
+27	dias	dia	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	contrariando	contrariar	VERB	_	VerbForm=Ger	21	advcl	_	_
+30	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	diretrizes	diretrião	NOUN	_	Gender=Fem|Number=Plur	29	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = A comunidade local expressa preocupações sobre a eficácia das medidas de segurança e saúde, especialmente considerando o histórico de alguns dos detentos liberados.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	local	local	ADJ	_	Number=Sing	2	amod	_	_
+4	expressa	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	preocupações	preocupação	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	sobre	sobre	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	eficácia	eficácia	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	segurança	segurança	NOUN	_	Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	especialmente	especialmente	ADV	_	_	18	advmod	_	_
+18	considerando	considerar	VERB	_	VerbForm=Ger	4	advcl	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	20	nmod	_	_
+23-24	dos	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	detentos	detento	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+26	liberados	liberar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	25	acl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0025
+# text = A Secretaria de Estado da Administração Prisional e Socioeducativa ainda não se pronunciou oficialmente sobre essas alegações.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Secretaria	Secretaria	PROPN	_	_	14	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Estado	Estado	PROPN	_	_	2	flat:name	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Administração	Administração	PROPN	_	_	2	flat:name	_	_
+8	Prisional	Prisional	PROPN	_	_	2	flat:name	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Socioeducativa	Socioeducativa	PROPN	_	_	2	flat:name	_	_
+11	ainda	ainda	ADV	_	_	14	advmod	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	pronunciou	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	oficialmente	oficialmente	ADV	_	_	14	advmod	_	_
+16	sobre	sobre	ADP	_	_	18	case	_	_
+17	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	alegações	alegação	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0027
+# text = Leia também: Movimentos sociais se dividem sobre a eficácia e os riscos da saída temporária de Natal em SC.
+1	Leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	sociais	social	ADJ	_	Number=Plur	4	amod	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	dividem	dividir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+8	sobre	sobre	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	eficácia	eficácia	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	saída	saída	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+17	temporária	temporário	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Natal	Natal	PROPN	_	_	16	nmod	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	SC	SC	PROPN	_	_	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0029
+# text = Para mais informações e atualizações, acompanhe as notícias no G1 SC.
+1	Para	para	ADP	_	_	3	case	_	_
+2	mais	mais	DET	_	PronType=Ind	3	det	_	_
+3	informações	informação	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	atualizações	atualização	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	acompanhe	acompanhar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	G1	G1	PROPN	_	_	7	obl	_	_
+13	SC	SC	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+

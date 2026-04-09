@@ -1,0 +1,81 @@
+# sent_id = S0001
+# text = motociata a favor de bolsonaro teve 2 milhões de pessoas presidente bolsonaro e tarcísio participam de motociata “acelera para cristo” em são paulo, com mais de 2 milhões de pessoas no evento , quase 2 milhões na motociata.
+1	motociata	motociata	NOUN	_	Number=Sing	6	nsubj	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	favor	favor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	bolsonaro	bolsonaro	NOUN	_	_	3	nmod	_	_
+6	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	2	2	NUM	_	NumType=Card	8	nummod	_	_
+8	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+11	presidente	presidente	NOUN	_	Number=Sing	15	nsubj	_	_
+12	bolsonaro	bolsonaro	NOUN	_	_	11	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	tarcísio	tarcísio	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+15	participam	participar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	root	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	motociata	motociata	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+18	“acelera	“acelerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	amod	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	cristo”	cristo”	VERB	_	VerbForm=Fin	18	obl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	são	são	NOUN	_	_	18	obl	_	_
+23	paulo	paulo	NOUN	_	_	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	29	punct	_	_
+25	com	com	ADP	_	_	29	case	_	_
+26	mais	mais	ADV	_	ExtPos=ADV	28	advmod	_	_
+27	de	de	ADP	_	_	26	fixed	_	_
+28	2	2	NUM	_	NumType=Card	29	nummod	_	_
+29	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	_
+32-33	no	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	evento	evento	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	quase	quase	ADV	_	_	37	advmod	_	_
+37	2	2	NUM	_	NumType=Card	38	nummod	_	_
+38	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	18	parataxis	_	_
+39-40	na	_	_	_	_	_	_	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	motociata	motociata	NOUN	_	Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = são paulo com bolsonaro.
+1	são	são	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	paulo	paulo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	bolsonaro	bolsonaro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = é reeleição em 222. uhuuuuuu!
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	reeleição	reeleição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	222	222	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+6	uhuuuuuu	uhuuuuuu	INTJ	_	_	2	discourse	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = , mais de 2 milhões de participantes foram ao evento.
+1	,	,	PUNCT	_	_	8	punct	_	_
+2	mais	mais	ADV	_	ExtPos=ADV	4	advmod	_	_
+3	de	de	ADP	_	_	2	fixed	_	_
+4	2	2	NUM	_	NumType=Card	5	nummod	_	_
+5	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	participantes	participante	NOUN	_	Number=Plur	5	nmod	_	_
+8	foram	foram	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	evento	evento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+

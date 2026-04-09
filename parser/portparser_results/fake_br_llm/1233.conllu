@@ -1,0 +1,239 @@
+# sent_id = S0001
+# text = Advogado independente acusa Supremo de conspiração contra Temer.
+1	Advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	independente	independente	ADJ	_	Number=Sing	1	amod	_	_
+3	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Supremo	Supremo	PROPN	_	_	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	contra	contra	ADP	_	_	8	case	_	_
+8	Temer	Temer	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Ministro Edson Fachin e PGR Rodrigo Janot são acusados de agir motivados por interesses pessoais para derrubar presidente.
+1	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+2	Edson	Edson	PROPN	_	_	1	nmod	_	_
+3	Fachin	Fachin	PROPN	_	_	2	flat:name	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	PGR	PGR	PROPN	_	_	1	conj	_	_
+6	Rodrigo	Rodrigo	PROPN	_	_	5	nmod	_	_
+7	Janot	Janot	PROPN	_	_	6	flat:name	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	acusados	acusar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	agir	agir	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	motivados	motivar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	advcl	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	interesses	interesse	NOUN	_	Gender=Masc|Number=Plur	12	obl:agent	_	_
+15	pessoais	pessoal	ADJ	_	Number=Plur	14	amod	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	derrubar	derrubar	VERB	_	VerbForm=Inf	14	acl	_	_
+18	presidente	presidente	NOUN	_	Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = Segundo documento apresentado, Michel Temer foi vítima de uma armação pela JBS, que teria forjado diálogos para tirá-lo do poder e favorecer seus negócios.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+3	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	Michel	Michel	PROPN	_	_	8	nsubj	_	_
+6	Temer	Temer	PROPN	_	_	5	flat:name	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	armação	armação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	pela	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	JBS	JBS	PROPN	_	_	8	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+17	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
+18	forjado	forjar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl:relcl	_	_
+19	diálogos	diálogo	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21-22	tirá-lo	_	_	_	_	_	_	_	_
+21	tirar	tirar	VERB	_	VerbForm=Inf	18	advcl	_	_
+22	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	poder	poder	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	favorecer	favorecer	VERB	_	VerbForm=Inf	21	conj	_	_
+28	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	negócios	negócio	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = O advogado Samuel José Orro Silva, residente em Taubaté (SP), alegou em habeas corpus que Temer enfrenta uma "caçada judicial" sem precedentes.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	Samuel	Samuel	PROPN	_	_	2	nmod	_	_
+4	José	José	PROPN	_	_	3	flat:name	_	_
+5	Orro	Orro	PROPN	_	_	3	flat:name	_	_
+6	Silva	Silva	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	residente	residente	ADJ	_	Number=Sing	2	amod	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	Taubaté	Taubaté	PROPN	_	_	8	obl	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	SP	SP	PROPN	_	_	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	8	punct	_	_
+15	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	habeas	habeas	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	corpus	corpus	NOUN	_	Gender=Masc|Number=Sing	17	flat:foreign	_	_
+19	que	que	SCONJ	_	_	21	mark	_	_
+20	Temer	Temer	PROPN	_	_	21	nsubj	_	_
+21	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	caçada	caçada	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+25	judicial	judicial	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	24	punct	_	_
+27	sem	sem	ADP	_	_	28	case	_	_
+28	precedentes	precedente	NOUN	_	Number=Plur	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = Ele argumenta que a JBS, prejudicada durante a gestão de Temer, especialmente por decisões do BNDES, criou provas falsas para incriminar o presidente.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	argumenta	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	21	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	JBS	JBS	PROPN	_	_	21	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	prejudicada	prejudicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+8	durante	durante	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Temer	Temer	PROPN	_	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	especialmente	especialmente	ADV	_	_	16	advmod	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	BNDES	BNDES	PROPN	_	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	criou	criar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+22	provas	prova	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+23	falsas	falso	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	incriminar	incriminar	VERB	_	VerbForm=Inf	21	advcl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	presidente	presidente	NOUN	_	Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Em um suposto diálogo manipulado, Temer teria sido induzido a concordar com um pagamento ilegal por um empresário, descrito como "seu maior inimigo".
+1	Em	em	ADP	_	_	4	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suposto	suposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	_
+4	diálogo	diálogo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+5	manipulado	manipular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	Temer	Temer	PROPN	_	_	10	nsubj:pass	_	_
+8	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+9	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	10	aux:pass	_	_
+10	induzido	induzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	concordar	concordar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	ilegal	ilegal	ADJ	_	Number=Sing	15	amod	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	descrito	descrever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
+22	como	como	ADP	_	_	26	case	_	_
+23	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+24	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+25	maior	maior	ADJ	_	Number=Sing	26	amod	_	_
+26	inimigo	inimigo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = A peça jurídica destaca que, após a tentativa de delação, a JBS sofreu uma perda astronômica de R$4 bilhões, evidenciando um "plano maquiavélico" para desestabilizar o governo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	peça	peça	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	jurídica	jurídico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	após	após	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	delação	delação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	JBS	JBS	PROPN	_	_	15	nsubj	_	_
+15	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	perda	perda	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	astronômica	astronômico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	R$4	R$4	NUM	_	NumType=Card	21	nummod	_	_
+21	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	evidenciando	evidenciar	VERB	_	VerbForm=Ger	15	advcl	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	plano	plano	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+27	maquiavélico	maquiavélico	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	26	punct	_	_
+29	para	para	ADP	_	_	30	mark	_	_
+30	desestabilizar	desestabilizar	VERB	_	VerbForm=Inf	26	acl	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	governo	governo	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Agora, a bola está com o ministro Luís Roberto Barroso, que poderá decidir entre rejeitar o pedido ou suspender a investigação, revelando a verdade por trás dessa trama política.
+1	Agora	agora	ADV	_	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bola	bola	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	Luís	Luís	PROPN	_	_	8	nmod	_	_
+10	Roberto	Roberto	PROPN	_	_	9	flat:name	_	_
+11	Barroso	Barroso	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+15	decidir	decidir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	entre	entre	ADP	_	_	17	mark	_	_
+17	rejeitar	rejeitar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	ou	ou	CCONJ	_	_	21	cc	_	_
+21	suspender	suspender	VERB	_	VerbForm=Inf	17	conj	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	revelando	revelar	VERB	_	VerbForm=Ger	17	advcl	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	por	por	ADP	_	_	29	case	_	_
+29	trás	trás	ADV	_	_	25	advmod	_	_
+30-31	dessa	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+32	trama	trama	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
+33	política	político	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	8	punct	_	_
+

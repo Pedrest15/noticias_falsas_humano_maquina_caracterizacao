@@ -1,0 +1,263 @@
+# sent_id = S0001
+# text = URGENTE: Novo Decreto Garante Desconto de 50% em Passagens Aéreas para Idosos!
+1	URGENTE	URGENTE	PROPN	_	_	5	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Novo	Novo	PROPN	_	_	4	amod	_	_
+4	Decreto	Decreto	PROPN	_	_	5	nsubj	_	_
+5	Garante	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Desconto	desconto	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	50	50	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	_	_	6	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Passagens	Passagens	PROPN	_	_	6	nmod	_	_
+12	Aéreas	Aéreas	PROPN	_	_	11	flat:name	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	Idosos	Idosos	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = A partir de hoje, pessoas com 60 anos ou mais têm o direito garantido por um novo decreto a um desconto de 50% em passagens aéreas em todo o Brasil.
+1	A	a	ADP	_	_	2	mark	_	_
+2	partir	partir	VERB	_	VerbForm=Inf	12	advcl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	hoje	hoje	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	60	60	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	ou	ou	CCONJ	_	_	11	cc	_	_
+11	mais	mais	ADV	_	_	9	conj	_	_
+12	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	direito	direito	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	garantido	garantir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
+16	por	por	ADP	_	_	19	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	novo	novo	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+19	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	desconto	desconto	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	50	50	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
+25	%	%	SYM	_	_	22	nmod	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	passagens	passagem	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+28	aéreas	aéreo	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+29	em	em	ADP	_	_	32	case	_	_
+30	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Brasil	Brasil	PROPN	_	_	22	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = "É um avanço significativo para a qualidade de vida dos idosos", declarou o ministro dos Transportes em coletiva de imprensa.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	16	ccomp:speech	_	_
+5	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	vida	vida	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	idosos	idoso	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Transportes	Transportes	PROPN	_	_	18	nmod	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	coletiva	coletiva	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = Segundo o decreto, cerca de 10% das vagas em cada voo devem ser reservadas para esse benefício, e os idosos precisam adquirir as passagens com apenas 24 horas de antecedência.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	cerca	cerca	ADV	_	ExtPos=ADV	7	advmod	_	_
+6	de	de	ADP	_	_	5	fixed	_	_
+7	10	10	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	_	_	15	nsubj	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	cada	cada	DET	_	Number=Sing|PronType=Ind	14	det	_	_
+14	voo	voo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	reservadas	reservar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	benefício	benefício	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	e	e	CCONJ	_	_	25	cc	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	idosos	idoso	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+25	precisam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+26	adquirir	adquirir	VERB	_	VerbForm=Inf	25	xcomp	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	passagens	passagem	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+29	com	com	ADP	_	_	32	case	_	_
+30	apenas	apenas	ADV	_	_	31	advmod	_	_
+31	24	24	NUM	_	NumType=Card	32	nummod	_	_
+32	horas	hora	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	antecedência	antecedência	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = "Empresas aéreas agora são obrigadas a divulgar amplamente essa vantagem", afirma o comunicado oficial.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	Empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+3	aéreas	aéreo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	agora	agora	ADV	_	_	6	advmod	_	_
+5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	obrigadas	obrigar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	ccomp:speech	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	divulgar	divulgar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	amplamente	amplamente	ADV	_	_	8	advmod	_	_
+10	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	oficial	oficial	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0011
+# text = Não vamos permitir que esse direito seja escondido dos nossos idosos.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	permitir	permitir	VERB	_	VerbForm=Inf	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	direito	direito	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+7	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	escondido	esconder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	idosos	idoso	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text =  O decreto, que já está em vigor, também inclui uma cláusula que prevê multas severas para companhias que não cumprirem a nova regulamentação.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+5	já	já	ADV	_	_	8	advmod	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	vigor	vigor	NOUN	_	Gender=Masc|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cláusula	cláusula	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	prevê	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	multas	multa	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+17	severas	severo	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+20	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	cumprirem	cumprir	VERB	_	Number=Plur|Person=3|VerbForm=Inf	19	acl:relcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	nova	novo	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+25	regulamentação	regulamentação	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = Matéria completa revela como aproveitar esse desconto e a reação das companhias aéreas.
+1	Matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	completa	completo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	como	como	ADV	_	_	5	advmod	_	_
+5	aproveitar	aproveitar	VERB	_	VerbForm=Inf	3	ccomp	_	_
+6	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	desconto	desconto	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	reação	reação	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+14	aéreas	aéreo	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Aproveite e garanta já sua passagem com desconto! Informe-se e exija seus direitos.
+1	Aproveite	aproveitar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	garanta	garantir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+4	já	já	ADV	_	_	3	advmod	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	passagem	passagem	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	desconto	desconto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	10	punct	_	_
+10-11	Informe-se	_	_	_	_	_	_	_	_
+10	Informe	informar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	exija	exigir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	10	conj	_	_
+14	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = **Nota**: Essa notícia é uma simulação para fins acadêmicos e de pesquisa sobre fake news.
+1	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+4	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	3	punct	_	_
+7	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	fins	fim	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	acadêmicos	acadêmico	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+18	sobre	sobre	ADP	_	_	19	case	_	_
+19	fake	fake	X	_	Foreign=Yes	17	nmod	_	_
+20	news	news	X	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0021
+# text = Não é um fato real.
+1	Não	não	ADV	_	_	4	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	real	real	ADJ	_	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+

@@ -1,0 +1,152 @@
+# sent_id = S0001
+# text = AO VIVO: Caminhão invade mercado, mata 9 pessoas e fere dezenas na Alemanha.
+1-2	AO	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	2	case	_	_
+2	O	O	PROPN	_	_	6	obl	_	_
+3	VIVO	VIVO	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	2	punct	_	_
+5	Caminhão	caminhão	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	invade	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	mata	matar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	9	9	NUM	_	NumType=Card	11	nummod	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	fere	ferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	dezenas	dezena	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Alemanha	Alemanha	PROPN	_	_	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Há indícios de ataque.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	indícios	indício	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Nove pessoas morreram e dezenas ficaram feridas após um caminhão avançar contra a multidão em Berlim (Alemanha).
+1	Nove	nove	NUM	_	NumType=Card	2	nummod	_	_
+2	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	morreram	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	dezenas	dezena	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+6	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	feridas	ferido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	6	xcomp	_	_
+8	após	após	ADP	_	_	11	mark	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	caminhão	caminhão	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	avançar	avançar	VERB	_	VerbForm=Inf	6	advcl	_	_
+12	contra	contra	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	multidão	multidão	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	Berlim	Berlim	PROPN	_	_	11	obl	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Alemanha	Alemanha	PROPN	_	_	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com informações da polícia local, o incidente ocorreu no centro da capital, próximo da Igreja Memorial Kaiser Wilhelm.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	polícia	polícia	NOUN	_	Number=Sing	4	nmod	_	_
+8	local	local	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	incidente	incidente	NOUN	_	Number=Sing	12	nsubj	_	_
+12	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	centro	centro	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	capital	capital	NOUN	_	Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	próximo	próximo	ADV	_	_	12	advmod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Igreja	Igreja	PROPN	_	_	20	obl	_	_
+24	Memorial	Memorial	PROPN	_	_	23	flat:name	_	_
+25	Kaiser	Kaiser	PROPN	_	_	23	flat:name	_	_
+26	Wilhelm	Wilhelm	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Segundo investigações preliminares, há indícios de um possível ataque.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+3	preliminares	preliminar	ADJ	_	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	indícios	indício	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	possível	possível	ADJ	_	Number=Sing	10	amod	_	_
+10	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = O caminhão atravessou a cerca e se jogou em cima das pessoas que se encontravam no mercado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caminhão	caminhão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	atravessou	atravessar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cerca	cerca	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+8	jogou	jogar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	em	em	ADP	_	ExtPos=ADP	13	case	_	_
+10	cima	cima	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	9	fixed	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+14	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	encontravam	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O jornal alemão Die Welt informou que o país já estava em alerta devido a ameaças feitas durante as festas natalinas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	alemão	alemão	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	Die	Die	PROPN	_	_	2	nmod	_	_
+5	Welt	Welt	PROPN	_	_	4	flat:name	_	_
+6	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	13	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	país	país	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	já	já	ADV	_	_	13	advmod	_	_
+11	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	alerta	alerta	NOUN	_	Number=Sing	6	ccomp	_	_
+14	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	advcl	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+17	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	16	acl	_	_
+18	durante	durante	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	festas	festa	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+21	natalinas	natalino	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+

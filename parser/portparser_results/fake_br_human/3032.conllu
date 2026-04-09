@@ -1,0 +1,250 @@
+# sent_id = S0001
+# text = Correu porquê?
+1	Correu	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	porquê	porquê	PRON	_	PronType=Dem	1	advmod	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = PF dá busca em hotel de Brasília.
+1	PF	PF	PROPN	_	_	2	nsubj	_	_
+2	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	busca	busca	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Brasília	Brasília	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Lula não era alvo e mesmo assim saiu correndo.
+1	Lula	Lula	PROPN	_	_	4	nsubj	_	_
+2	não	não	ADV	_	_	4	advmod	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	mesmo	mesmo	ADV	_	_	7	advmod	_	_
+7	assim	assim	ADV	_	_	8	advmod	_	_
+8	saiu	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	correndo	correr	VERB	_	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Notícias dos principais veículos de comunicação do país dão conta que o ex-presidente Lula teria se evadido do Hotel Royal Tulip hoje de manhã.
+1	Notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	principais	principal	ADJ	_	Number=Plur	5	amod	_	_
+5	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	país	país	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+11	dão	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	conta	conta	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	que	que	SCONJ	_	_	19	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ex-presidente	ex-presidente	NOUN	_	Number=Sing	19	nsubj	_	_
+16	Lula	Lula	PROPN	_	_	15	nmod	_	_
+17	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	19	aux	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	evadido	evadir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	ccomp	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Hotel	Hotel	PROPN	_	_	19	obl	_	_
+23	Royal	Royal	PROPN	_	_	22	flat:name	_	_
+24	Tulip	Tulip	PROPN	_	_	22	flat:name	_	_
+25	hoje	hoje	ADV	_	_	19	advmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = A Polícia Federal (PF) foi a um hotel em Brasília onde [por acaso] estava hospedado o ex-presidente Luiz Inácio Lula da Silva, o Royal Tulip.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	7	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	PF	PF	PROPN	_	_	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Brasília	Brasília	PROPN	_	_	10	nmod	_	_
+13	onde	onde	ADV	_	_	19	advmod	_	_
+14	[	[	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	por	por	ADP	_	_	16	case	_	_
+16	acaso	acaso	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+17	]	]	PUNCT	_	_	16	punct	_	_
+18	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	hospedado	hospedado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl:relcl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ex-presidente	ex-presidente	NOUN	_	Number=Sing	19	nsubj	_	_
+22	Luiz	Luiz	PROPN	_	_	21	nmod	_	_
+23	Inácio	Inácio	PROPN	_	_	22	flat:name	_	_
+24	Lula	Lula	PROPN	_	_	22	flat:name	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Silva	Silva	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Royal	Royal	PROPN	_	_	21	appos	_	_
+31	Tulip	Tulip	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = A operação faz parte da 26a fase da Operação Lava-Jato e foi autorizada pelo pelo juiz Sergio Moro, da 13a Vara Federal de Curitiba.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	operação	operação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	parte	parte	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	26a	26a	ADJ	_	Gender=Fem|NumType=Ord	8	amod	_	_
+8	fase	fase	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Operação	Operação	PROPN	_	_	8	nmod	_	_
+12	Lava-Jato	Lava-Jato	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	autorizada	autorizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+16-17	pelo	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	ExtPos=ADP	20	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
+18-19	pelo	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
+21	Sergio	Sergio	PROPN	_	_	20	nmod	_	_
+22	Moro	Moro	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	27	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	13a	13a	ADJ	_	Gender=Fem|NumType=Ord	27	amod	_	_
+27	Vara	Vara	PROPN	_	_	20	nmod	_	_
+28	Federal	Federal	PROPN	_	_	27	flat:name	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Curitiba	Curitiba	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Uma viatura da Polícia Federal entrou no início da manhã no hotel Royal Tulip, em Brasília, endereço de políticos na capital federal e saiu por volta das 7h40, sem presos.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	viatura	viatura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polícia	Polícia	PROPN	_	_	2	nmod	_	_
+6	Federal	Federal	PROPN	_	_	5	flat:name	_	_
+7	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	início	início	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+17	Royal	Royal	PROPN	_	_	16	nmod	_	_
+18	Tulip	Tulip	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	Brasília	Brasília	PROPN	_	_	16	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	endereço	endereço	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	políticos	político	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	capital	capital	NOUN	_	Number=Sing	25	nmod	_	_
+29	federal	federal	ADJ	_	Number=Sing	28	amod	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	saiu	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+32	por	por	ADP	_	ExtPos=ADP	36	case	_	_
+33	volta	volta	NOUN	_	Gender=Fem|Number=Sing	32	fixed	_	_
+34-35	das	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	32	fixed	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	7h40	7h40	NOUN	_	_	31	obl	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	39	punct	_	_
+38	sem	sem	ADP	_	_	39	case	_	_
+39	presos	preso	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Em entrevista coletiva [agora na parte da manhã], a equipe de delegados da PF disse que Lula não era alvo de nenhuma busca (dessa vez).
+1	Em	em	ADP	_	_	2	case	_	_
+2	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+3	coletiva	coletivo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+5	agora	agora	ADV	_	_	8	advmod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	delegados	delegado	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	PF	PF	PROPN	_	_	17	nmod	_	_
+21	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	que	que	SCONJ	_	_	26	mark	_	_
+23	Lula	Lula	PROPN	_	_	26	nsubj	_	_
+24	não	não	ADV	_	_	26	advmod	_	_
+25	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+26	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	21	ccomp	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
+29	busca	busca	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+31-32	dessa	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+33	vez	vez	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0017
+# text = Mesmo assim ele saiu do hotel em alta velocidade, acompanhado se seguranças pessoais.
+1	Mesmo	mesmo	ADV	_	_	2	advmod	_	_
+2	assim	assim	ADV	_	_	4	advmod	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	saiu	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	alta	alto	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	acompanhado	acompanhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_
+13	se	se	ADP	_	_	14	case	_	_
+14	seguranças	segurança	NOUN	_	Number=Plur	12	obl	_	_
+15	pessoais	pessoal	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+

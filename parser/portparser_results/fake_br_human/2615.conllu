@@ -1,0 +1,239 @@
+# sent_id = S0001
+# text = Marido de atriz petista é demitido de estatal.
+1	Marido	marido	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	petista	petista	ADJ	_	Number=Sing	3	amod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	demitido	demitir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	estatal	estatal	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = O diretor teatral tinha um salário de R$ 91 mil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	teatral	teatral	ADJ	_	Number=Sing	2	amod	_	_
+4	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	salário	salário	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	R$	R$	SYM	_	_	6	nmod	_	_
+9	91	91	NUM	_	NumType=Card	8	nummod	_	_
+10	mil	mil	NUM	_	NumType=Card	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = O diretor teatral Aderbal Freire, marido da atriz global [e militante petista] Marieta Severo, recebia um salário de R$91 mil da EBC Empresa Brasil de Comunicação, órgão do Governo Federal.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+3	teatral	teatral	ADJ	_	Number=Sing	2	amod	_	_
+4	Aderbal	Aderbal	PROPN	_	_	2	nmod	_	_
+5	Freire	Freire	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	marido	marido	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	global	global	ADJ	_	Number=Sing	10	amod	_	_
+12	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	militante	militante	NOUN	_	Number=Sing	10	conj	_	_
+15	petista	petista	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	]	]	PUNCT	_	_	14	punct	_	_
+17	Marieta	Marieta	PROPN	_	_	10	nmod	_	_
+18	Severo	Severo	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	7	punct	_	_
+20	recebia	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	salário	salário	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	R$91	R$91	NUM	_	NumType=Card	22	nmod	_	_
+25	mil	mil	NUM	_	NumType=Card	24	flat	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	EBC	EBC	PROPN	_	_	20	obl	_	_
+29	Empresa	Empresa	PROPN	_	_	28	flat:name	_	_
+30	Brasil	Brasil	PROPN	_	_	29	flat:name	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Comunicação	Comunicação	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	órgão	órgão	NOUN	_	Gender=Masc|Number=Sing	28	appos	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Governo	Governo	PROPN	_	_	34	nmod	_	_
+38	Federal	Federal	PROPN	_	_	37	flat:name	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0007
+# text = Aderbal recebia a bagatela de R$ 91 mil por mês, um valor cinco vezes maior do que o salário do presidente da própria EBC.
+1	Aderbal	Aderbal	PROPN	_	_	2	nsubj	_	_
+2	recebia	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bagatela	bagatela	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	R$	R$	SYM	_	_	4	nmod	_	_
+7	91	91	NUM	_	NumType=Card	6	nummod	_	_
+8	mil	mil	NUM	_	NumType=Card	7	flat	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	mês	mês	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	valor	valor	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+14	cinco	cinco	NUM	_	NumType=Card	15	nummod	_	_
+15	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+16	maior	maior	ADJ	_	Number=Sing	13	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	ExtPos=SCONJ	21	mark	_	_
+18	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	fixed	_	_
+19	que	que	PRON	_	PronType=Rel	17	fixed	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	salário	salário	NOUN	_	Gender=Masc|Number=Sing	16	advcl	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	presidente	presidente	NOUN	_	Number=Sing	21	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	28	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	EBC	EBC	PROPN	_	_	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O diretor acionou a justiça para recuperar o cargo e alegou que tinha direito ao cargo por quatro anos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	acionou	acionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	recuperar	recuperar	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	que	que	SCONJ	_	_	13	mark	_	_
+13	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+14	direito	direito	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	quatro	quatro	NUM	_	NumType=Card	20	nummod	_	_
+20	anos	ano	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A EBC comanda diversos veículos de comunicação, como a TV Brasil e a Agência Brasil de Notícias.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	EBC	EBC	PROPN	_	_	3	nsubj	_	_
+3	comanda	comandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	como	como	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	TV	TV	PROPN	_	_	5	nmod	_	_
+12	Brasil	Brasil	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Agência	Agência	PROPN	_	_	11	conj	_	_
+16	Brasil	Brasil	PROPN	_	_	15	flat:name	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Notícias	Notícias	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O casal petista apareceu em um vídeo recente fazendo campanha contra a extinção do Ministério da Cultura.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	casal	casal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	petista	petista	ADJ	_	Number=Sing	2	amod	_	_
+4	apareceu	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	recente	recente	ADJ	_	Number=Sing	7	amod	_	_
+9	fazendo	fazer	VERB	_	VerbForm=Ger	4	advcl	_	_
+10	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	contra	contra	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	extinção	extinção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Ministério	Ministério	PROPN	_	_	13	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Cultura	Cultura	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Marieta está entre o grupo de artistas que em 2014 assinou manifesto em apoio à reeleição de Dilma Rousseff: "O caminho iniciado por Lula e continuado por Dilma é o da primavera de todos os brasileiros" disse a atriz.
+1	Marieta	Marieta	PROPN	_	_	5	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	entre	entre	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	42	ccomp:speech	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	artistas	artista	NOUN	_	Number=Plur	5	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	2014	2014	NUM	_	NumType=Card	11	obl	_	_
+11	assinou	assinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+12	manifesto	manifesto	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	reeleição	reeleição	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Dilma	Dilma	PROPN	_	_	17	nmod	_	_
+20	Rousseff	Rousseff	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	33	punct	_	_
+22	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+23	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+25	iniciado	iniciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
+26	por	por	ADP	_	_	27	case	_	_
+27	Lula	Lula	PROPN	_	_	25	obl:agent	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	continuado	continuar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	conj	_	_
+30	por	por	ADP	_	_	31	case	_	_
+31	Dilma	Dilma	PROPN	_	_	29	obl:agent	_	_
+32	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	conj	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	primavera	primavera	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+37	de	de	ADP	_	_	40	case	_	_
+38	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	40	det	_	_
+39	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	33	punct	_	_
+42	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	42	nsubj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = S0017
+# text = *** CORREÇÃO ***.
+1	*	*	PUNCT	_	_	4	root	_	SpaceAfter=No
+2	*	*	SYM	_	_	4	punct	_	SpaceAfter=No
+3	*	*	PUNCT	_	_	4	punct	_	_
+4	CORREÇÃO	correção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	*	*	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	*	*	PUNCT	_	_	4	punct	_	SpaceAfter=No
+7	*	*	PUNCT	_	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+

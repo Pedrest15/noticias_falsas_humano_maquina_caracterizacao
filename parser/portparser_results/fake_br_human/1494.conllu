@@ -1,0 +1,398 @@
+# sent_id = S0001
+# text = Renan: O ex-deputado preso está chantageando Temer.
+1	Renan	Renan	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	chantageando	chantagear	VERB	_	VerbForm=Ger	0	root	_	_
+8	Temer	Temer	PROPN	_	_	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Ele manda no governo de dentro da cadeia.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	dentro	dentro	ADV	_	_	2	advmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O senador Renan Calheiros sugeriu que Michel Temer está sendo chantageado por Eduardo Cunha.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Renan	Renan	PROPN	_	_	2	nmod	_	_
+4	Calheiros	Calheiros	PROPN	_	_	3	flat:name	_	_
+5	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7	Michel	Michel	PROPN	_	_	11	nsubj:pass	_	_
+8	Temer	Temer	PROPN	_	_	7	flat:name	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	sendo	ser	AUX	_	VerbForm=Ger	11	aux:pass	_	_
+11	chantageado	chantagear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+12	por	por	ADP	_	_	13	case	_	_
+13	Eduardo	Eduardo	PROPN	_	_	11	obl:agent	_	_
+14	Cunha	Cunha	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = O ex-presidente do senado fez críticas ao Planalto após aliados de Cunha serem nomeados para cargos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	senado	senado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	críticas	crítico	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Planalto	Planalto	PROPN	_	_	7	nmod	_	_
+11	após	após	ADP	_	_	16	mark	_	_
+12	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	16	nsubj:pass	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Cunha	Cunha	PROPN	_	_	12	nmod	_	_
+15	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	16	aux:pass	_	_
+16	nomeados	nomear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	advcl	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	cargos	cargo	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Renan alegou que Eduardo Cunha (PMDB-RJ), mesmo preso, continua atuando diretamente nas decisões do presidente da república.
+1	Renan	Renan	PROPN	_	_	2	nsubj	_	_
+2	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	13	mark	_	_
+4	Eduardo	Eduardo	PROPN	_	_	13	nsubj	_	_
+5	Cunha	Cunha	PROPN	_	_	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	PMDB-RJ	PMDB-RJ	PROPN	_	_	4	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	mesmo	mesmo	ADV	_	_	11	advmod	_	_
+11	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+14	atuando	atuar	VERB	_	VerbForm=Ger	13	xcomp	_	_
+15	diretamente	diretamente	ADV	_	_	14	advmod	_	_
+16-17	nas	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	presidente	presidente	NOUN	_	Number=Sing	18	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	república	república	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = O deputado Carlos Marun (PMDB-MS) foi acusado de ser o "porta-voz " de Cunha no Planalto.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	Carlos	Carlos	PROPN	_	_	2	nmod	_	_
+4	Marun	Marun	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PMDB-MS	PMDB-MS	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	de	de	ADP	_	_	14	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	14	cop	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	porta-voz	porta-voz	NOUN	_	Number=Sing	9	xcomp	_	_
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Cunha	Cunha	PROPN	_	_	14	nmod	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Planalto	Planalto	PROPN	_	_	14	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = As nomeações que Renan se refere são: Osmar Serraglio (PMDB-PR) como novo ministro da Justiça André Moura (PSC-SE) como líder do governo no Congresso Aguinaldo Ribeiro Ribeiro (PP-PB) para líder do governo na Câmara.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	nomeações	nomeação	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	6	obj	_	_
+4	Renan	Renan	PROPN	_	_	6	nsubj	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	9	punct	_	_
+9	Osmar	Osmar	PROPN	_	_	0	root	_	_
+10	Serraglio	Serraglio	PROPN	_	_	9	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	PMDB-PR	PMDB-PR	PROPN	_	_	9	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	como	como	ADP	_	_	16	case	_	_
+15	novo	novo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Justiça	Justiça	PROPN	_	_	16	nmod	_	_
+20	André	André	PROPN	_	_	9	flat:name	_	_
+21	Moura	Moura	PROPN	_	_	20	flat:name	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	PSC-SE	PSC-SE	PROPN	_	_	20	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	como	como	ADP	_	_	26	case	_	_
+26	líder	líder	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	governo	governo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Congresso	Congresso	PROPN	_	_	26	nmod	_	_
+33	Aguinaldo	Aguinaldo	PROPN	_	_	26	nmod	_	_
+34	Ribeiro	Ribeiro	PROPN	_	_	33	flat:name	_	_
+35	Ribeiro	Ribeiro	PROPN	_	_	33	flat:name	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	PP-PB	PP-PB	PROPN	_	_	33	parataxis	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	_
+39	para	para	ADP	_	_	40	case	_	_
+40	líder	líder	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	governo	governo	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+44-45	na	_	_	_	_	_	_	_	_
+44	em	em	ADP	_	_	46	case	_	_
+45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	Câmara	Câmara	PROPN	_	_	40	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = O senador disse que os três políticos sempre foram aliados de Cunha na Câmara dos Deputados.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	três	três	NUM	_	NumType=Card	7	nummod	_	_
+7	políticos	político	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	sempre	sempre	ADV	_	_	10	advmod	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	3	ccomp	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Cunha	Cunha	PROPN	_	_	10	nmod	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Câmara	Câmara	PROPN	_	_	10	nmod	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Deputados	Deputados	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = "O governo está sendo alvo de disputa entre tucanos e o grupo do deputado preso" disse, Para encerrar o bombardeio a Michel Temer, o ex-presidente do senado informou que Eduardo Cunha luta para emplacar seu ex-advogado e amigo pessoal (que hoje ocupa o cargo de subchefe de Assuntos Jurídicos da Casa Civil) para o lugar de Eliseu Padilha.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	governo	governo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sendo	ser	AUX	_	VerbForm=Ger	6	cop	_	_
+6	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	19	ccomp:speech	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	disputa	disputa	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	entre	entre	ADP	_	_	10	case	_	_
+10	tucanos	tucano	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	6	punct	_	_
+19	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	34	punct	_	_
+21	Para	para	ADP	_	_	22	mark	_	_
+22	encerrar	encerrar	VERB	_	VerbForm=Inf	34	advcl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	bombardeio	bombardeio	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	a	a	ADP	_	_	26	case	_	_
+26	Michel	Michel	PROPN	_	_	24	nmod	_	_
+27	Temer	Temer	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	22	punct	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ex-presidente	ex-presidente	NOUN	_	Number=Sing	34	nsubj	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	senado	senado	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+34	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	root	_	_
+35	que	que	SCONJ	_	_	38	mark	_	_
+36	Eduardo	Eduardo	PROPN	_	_	38	nsubj	_	_
+37	Cunha	Cunha	PROPN	_	_	36	flat:name	_	_
+38	luta	lutar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	ccomp	_	_
+39	para	para	ADP	_	_	40	mark	_	_
+40	emplacar	emplacar	VERB	_	VerbForm=Inf	38	advcl	_	_
+41	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	det	_	_
+42	ex-advogado	ex-advogado	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	_
+45	pessoal	pessoal	ADJ	_	Number=Sing	44	amod	_	_
+46	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+47	que	que	PRON	_	PronType=Rel	49	nsubj	_	_
+48	hoje	hoje	ADV	_	_	49	advmod	_	_
+49	ocupa	ocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	subchefe	subchefe	NOUN	_	Number=Sing	51	nmod	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	Assuntos	Assuntos	PROPN	_	_	53	nmod	_	_
+56	Jurídicos	Jurídicos	PROPN	_	_	55	flat:name	_	_
+57-58	da	_	_	_	_	_	_	_	_
+57	de	de	ADP	_	_	59	case	_	_
+58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	Casa	Casa	PROPN	_	_	53	nmod	_	_
+60	Civil	Civil	PROPN	_	_	59	flat:name	_	SpaceAfter=No
+61	)	)	PUNCT	_	_	49	punct	_	_
+62	para	para	ADP	_	_	64	case	_	_
+63	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
+65	de	de	ADP	_	_	66	case	_	_
+66	Eliseu	Eliseu	PROPN	_	_	64	nmod	_	_
+67	Padilha	Padilha	PROPN	_	_	66	flat:name	_	SpaceAfter=No
+68	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0019
+# text = Padilha está temporariamente afastado por recomendação médica (é o que dizem) e ocupa hoje o cargo de Ministro Chefe da Casa Civil.
+1	Padilha	Padilha	PROPN	_	_	4	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	temporariamente	temporariamente	ADV	_	_	4	advmod	_	_
+4	afastado	afastado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	recomendação	recomendação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	médica	médico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	parataxis	_	_
+11	que	que	PRON	_	PronType=Rel	12	obj	_	_
+12	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	ocupa	ocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	hoje	hoje	ADV	_	_	15	advmod	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Ministro	Ministro	PROPN	_	_	18	nmod	_	_
+21	Chefe	Chefe	PROPN	_	_	20	flat:name	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Casa	Casa	PROPN	_	_	20	flat:name	_	_
+25	Civil	Civil	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Renan disse que conversou com Moreira Franco: Fala para o Padilha para voltar logo senão o Eduardo Cunha senta lá na cadeira dele o Gustavo Rocha.
+1	Renan	Renan	PROPN	_	_	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	conversou	conversar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	Moreira	Moreira	PROPN	_	_	4	obl	_	_
+7	Franco	Franco	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	9	punct	_	_
+9	Fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	para	para	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Padilha	Padilha	PROPN	_	_	9	obl	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	voltar	voltar	VERB	_	VerbForm=Inf	9	advcl	_	_
+15	logo	logo	ADV	_	_	14	advmod	_	_
+16	senão	senão	CCONJ	_	_	20	cc	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Eduardo	Eduardo	PROPN	_	_	20	nsubj	_	_
+19	Cunha	Cunha	PROPN	_	_	18	flat:name	_	_
+20	senta	sentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+21	lá	lá	ADV	_	_	20	advmod	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	cadeira	cadeira	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+25-26	dele	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nmod	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Gustavo	Gustavo	PROPN	_	_	20	obj	_	_
+29	Rocha	Rocha	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Ele tem que voltar logo, relatou.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp:speech	_	_
+3	que	que	ADP	_	_	4	mark	_	_
+4	voltar	voltar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	logo	logo	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0025
+# text = Segundo Renan, a intromissão de Cunha no governo começou a avançar após o deputado Carlos Marun visitar Cunha na cadeia, em Curitiba.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	Renan	Renan	PROPN	_	_	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	intromissão	intromissão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Cunha	Cunha	PROPN	_	_	5	nmod	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+11	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	avançar	avançar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	após	após	ADP	_	_	19	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+17	Carlos	Carlos	PROPN	_	_	16	nmod	_	_
+18	Marun	Marun	PROPN	_	_	17	flat:name	_	_
+19	visitar	visitar	VERB	_	VerbForm=Inf	13	advcl	_	_
+20	Cunha	Cunha	PROPN	_	_	19	obj	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	Curitiba	Curitiba	PROPN	_	_	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0027
+# text = informações do Congresso em Foco.
+1	informações	informação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Congresso	Congresso	PROPN	_	_	1	nmod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	Foco	Foco	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+

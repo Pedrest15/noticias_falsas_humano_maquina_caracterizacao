@@ -1,0 +1,392 @@
+# sent_id = S0001
+# text = Exclusivo: Documentos secretos revelam que Jair Bolsonaro teria recebido R$ 500 mil da JBS para campanha de 2014.
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	5	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Documentos	documento	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	secretos	secreto	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	Jair	Jair	PROPN	_	_	10	nsubj	_	_
+8	Bolsonaro	Bolsonaro	PROPN	_	_	7	flat:name	_	_
+9	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+10	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	ccomp	_	_
+11	R$	R$	SYM	_	_	10	obj	_	_
+12	500	500	NUM	_	NumType=Card	11	nummod	_	_
+13	mil	mil	NUM	_	NumType=Card	12	flat	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	JBS	JBS	PROPN	_	_	10	obl	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	2014	2014	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Segundo fontes anônimas ligadas ao Tribunal Superior Eleitoral, o deputado federal teria aceitado a quantia diretamente em sua conta pessoal, contrariando as declarações anteriores de que o dinheiro teria sido devolvido ao partido.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+3	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Tribunal	Tribunal	PROPN	_	_	4	obl	_	_
+8	Superior	Superior	PROPN	_	_	7	flat:name	_	_
+9	Eleitoral	Eleitoral	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	federal	federal	ADJ	_	Number=Sing	12	amod	_	_
+14	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	aux	_	_
+15	aceitado	aceitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quantia	quantia	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	diretamente	diretamente	ADV	_	_	15	advmod	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	conta	conta	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+22	pessoal	pessoal	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	contrariando	contrariar	VERB	_	VerbForm=Ger	15	advcl	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+27	anteriores	anterior	ADJ	_	Number=Plur	26	amod	_	_
+28	de	de	ADP	_	ExtPos=SCONJ	34	mark	_	_
+29	que	que	SCONJ	_	_	28	fixed	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	34	nsubj:pass	_	_
+32	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	34	aux	_	_
+33	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	34	aux:pass	_	_
+34	devolvido	devolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	acl	_	_
+35-36	ao	_	_	_	_	_	_	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	partido	partido	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0005
+# text = Durante uma entrevista bombástica no Jornal da Manhã, Bolsonaro teria admitido que o valor foi utilizado para financiar não só sua campanha, mas também a de seus familiares, sem qualquer menção a repasse ao fundo partidário.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+4	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Jornal	Jornal	PROPN	_	_	3	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Manhã	Manhã	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	Bolsonaro	Bolsonaro	PROPN	_	_	14	nsubj	_	_
+13	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	aux	_	_
+14	admitido	admitir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+15	que	que	SCONJ	_	_	19	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	valor	valor	NOUN	_	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+18	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	ccomp	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	financiar	financiar	VERB	_	VerbForm=Inf	19	advcl	_	_
+22	não	não	ADV	_	_	23	advmod	_	_
+23	só	só	ADV	_	_	25	advmod	_	_
+24	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	mas	mas	CCONJ	_	_	29	cc	_	_
+28	também	também	ADV	_	_	29	advmod	_	_
+29	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	25	conj	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
+32	familiares	familiar	NOUN	_	Number=Plur	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	36	punct	_	_
+34	sem	sem	ADP	_	_	36	case	_	_
+35	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	36	det	_	_
+36	menção	menção	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+37	a	a	ADP	_	_	38	case	_	_
+38	repasse	repasse	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+39-40	ao	_	_	_	_	_	_	_	_
+39	a	a	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+42	partidário	partidário	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = "Estava em um momento crucial da campanha, e o presidente do meu partido na época, Ciro Nogueira, me garantiu esse dinheiro para garantir nossa vitória", afirmou Bolsonaro, em um tom de justificativa.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento	momento	NOUN	_	Gender=Masc|Number=Sing	35	ccomp:speech	_	_
+6	crucial	crucial	ADJ	_	Number=Sing	5	amod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	26	punct	_	_
+11	e	e	CCONJ	_	_	26	cc	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	presidente	presidente	NOUN	_	Number=Sing	26	nsubj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	partido	partido	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	época	época	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Ciro	Ciro	PROPN	_	_	13	appos	_	_
+23	Nogueira	Nogueira	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	26	iobj	_	_
+26	garantiu	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+27	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	para	para	ADP	_	_	30	mark	_	_
+30	garantir	garantir	VERB	_	VerbForm=Inf	26	advcl	_	_
+31	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	det	_	_
+32	vitória	vitória	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	5	punct	_	_
+35	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+36	Bolsonaro	Bolsonaro	PROPN	_	_	35	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	40	punct	_	_
+38	em	em	ADP	_	_	40	case	_	_
+39	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	tom	tom	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	justificativa	justificativa	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = S0009
+# text = Ele teria ainda revelado que a transação foi mascarada como parte de uma "estratégia de campanha" para evitar suspeitas.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	revelado	revelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	transação	transação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	mascarada	mascarar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+10	como	como	ADP	_	_	11	case	_	_
+11	parte	parte	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	15	punct	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	evitar	evitar	VERB	_	VerbForm=Inf	15	acl	_	_
+21	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = O dinheiro da Friboi era essencial, todos os partidos faziam isso.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Friboi	Friboi	PROPN	_	_	2	nmod	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	essencial	essencial	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	faziam	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	parataxis	_	_
+13	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = Era uma forma de sobreviver na política, disse Bolsonaro, tentando minimizar a gravidade dos atos.
+1	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	forma	forma	NOUN	_	Gender=Fem|Number=Sing	10	ccomp:speech	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	sobreviver	sobreviver	VERB	_	VerbForm=Inf	3	acl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	política	política	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Bolsonaro	Bolsonaro	PROPN	_	_	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	tentando	tentar	VERB	_	VerbForm=Ger	10	advcl	_	_
+14	minimizar	minimizar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	atos	ato	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = O deputado, agora pré-candidato à presidência, enfrentou duras críticas do comentarista Marco Antonio Villa, que o acusou de hipocrisia e questionou sua moralidade para liderar o País.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	agora	agora	ADV	_	_	5	advmod	_	_
+5	pré-candidato	pré-candidato	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	enfrentou	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	duras	duro	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+12	críticas	crítico	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comentarista	comentarista	NOUN	_	Number=Sing	12	nmod	_	_
+16	Marco	Marco	PROPN	_	_	15	nmod	_	_
+17	Antonio	Antonio	PROPN	_	_	16	flat:name	_	_
+18	Villa	Villa	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+21	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+22	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	hipocrisia	hipocrisia	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	questionou	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+27	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	moralidade	moralidade	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+29	para	para	ADP	_	_	30	mark	_	_
+30	liderar	liderar	VERB	_	VerbForm=Inf	26	advcl	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	País	País	PROPN	_	_	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = Bolsonaro, visivelmente irritado, desafiou Villa a apresentar provas concretas contra ele, mas insistiu que práticas similares eram comuns e necessárias na época.
+1	Bolsonaro	Bolsonaro	PROPN	_	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	visivelmente	visivelmente	ADV	_	_	4	advmod	_	_
+4	irritado	irritado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	desafiou	desafiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Villa	Villa	PROPN	_	_	6	obj	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	apresentar	apresentar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+10	provas	prova	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	concretas	concreto	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+12	contra	contra	ADP	_	_	13	case	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	mas	mas	CCONJ	_	_	16	cc	_	_
+16	insistiu	insistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+17	que	que	SCONJ	_	_	21	mark	_	_
+18	práticas	prática	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+19	similares	similar	ADJ	_	Number=Plur	18	amod	_	_
+20	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+21	comuns	comum	ADJ	_	Number=Plur	16	ccomp	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	necessárias	necessário	ADJ	_	Gender=Fem|Number=Plur	21	conj	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	época	época	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Você quer que eu seja um santo? Na política, isso não existe.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	santo	santo	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	15	punct	_	_
+9-10	Na	_	_	_	_	_	_	_	_
+9	Em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	política	política	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+14	não	não	ADV	_	_	15	advmod	_	_
+15	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = Todos os partidos tinham seus acordos, justificou.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	tinham	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp:speech	_	_
+5	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	acordos	acordo	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	justificou	justificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0023
+# text = A revelação promete abalar ainda mais a já conturbada imagem de Bolsonaro, que sempre se posicionou como um político anti-corrupção.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	abalar	abalar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	ainda	ainda	ADV	_	_	6	advmod	_	_
+6	mais	mais	ADV	_	_	4	advmod	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	já	já	ADV	_	_	9	advmod	_	_
+9	conturbada	conturbado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	10	amod	_	_
+10	imagem	imagem	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Bolsonaro	Bolsonaro	PROPN	_	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+15	sempre	sempre	ADV	_	_	17	advmod	_	_
+16	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl	_	_
+17	posicionou	posicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+18	como	como	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	político	político	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	anti-corrupção	anti-corrupção	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = A entrevista completa, repleta de momentos tensos e revelações surpreendentes, pode ser conferida em breve nos canais de mídia da Jovem Pan.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	completa	completo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	repleta	repleto	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+8	tensos	tenso	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
+11	surpreendentes	surpreendente	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	15	aux:pass	_	_
+15	conferida	conferir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	breve	breve	NOUN	_	Number=Sing	15	obl	_	_
+18-19	nos	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	canais	canal	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Jovem	Jovem	PROPN	_	_	20	nmod	_	_
+26	Pan	Pan	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+

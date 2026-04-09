@@ -1,0 +1,203 @@
+# sent_id = S0001
+# text = Juiz manda soltar "pastor" acusado de abusar do enteado de cinco anos.
+1	Juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	soltar	soltar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	pastor	pastor	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	abusar	abusar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	enteado	enteado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	cinco	cinco	NUM	_	NumType=Card	15	nummod	_	_
+15	anos	ano	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Felipe Heiderich, pastor que foi acusado de crime de pedofilia contra o próprio enteado de 5 anos está solto novamente.
+1	Felipe	Felipe	PROPN	_	_	20	nsubj	_	_
+2	Heiderich	Heiderich	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	pastor	pastor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj:pass	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	crime	crime	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	pedofilia	pedofilia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	contra	contra	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	enteado	enteado	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	5	5	NUM	_	NumType=Card	18	nummod	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+19	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	solto	solto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+21	novamente	novamente	ADV	_	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0005
+# text = Heiderich vai responder em liberdade.
+1	Heiderich	Heiderich	PROPN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	responder	responder	VERB	_	VerbForm=Inf	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Ele foi preso preventivamente em Bangu há dois dias.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	preventivamente	preventivamente	ADV	_	_	3	advmod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	Bangu	Bangu	PROPN	_	_	3	obl	_	_
+7	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	dois	dois	NUM	_	Gender=Masc|NumType=Card	9	nummod	_	_
+9	dias	dia	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O Ministério Público do Rio de Janeiro (MPRJ) não pediu a conversão em prisão preventiva e o acusado foi liberado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministério	Ministério	PROPN	_	_	13	nsubj	_	_
+3	Público	Público	PROPN	_	_	2	flat:name	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Rio	Rio	PROPN	_	_	2	flat:name	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Janeiro	Janeiro	PROPN	_	_	2	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	MPRJ	MPRJ	PROPN	_	_	2	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	conversão	conversão	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	_	_	23	cc	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	acusado	acusado	NOUN	_	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	liberado	liberar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = "Ressalto que o MPRJ não pediu a prisão preventiva, mas somente medidas cautelares", disse o juiz Paulo Cézar Vieira de Carvalho Filho, titular da 17a Vara Criminal da Capital.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Ressalto	ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	MPRJ	MPRJ	PROPN	_	_	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	mas	mas	CCONJ	_	_	14	cc	_	_
+13	somente	somente	ADV	_	_	14	advmod	_	_
+14	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
+15	cautelares	cautelar	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	2	punct	_	_
+18	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+21	Paulo	Paulo	PROPN	_	_	20	nmod	_	_
+22	Cézar	Cézar	PROPN	_	_	21	flat:name	_	_
+23	Vieira	Vieira	PROPN	_	_	21	flat:name	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Carvalho	Carvalho	PROPN	_	_	21	flat:name	_	_
+26	Filho	Filho	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	titular	titular	NOUN	_	Number=Sing	20	appos	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	32	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	17a	17a	ADJ	_	Gender=Fem|NumType=Ord	32	amod	_	_
+32	Vara	Vara	PROPN	_	_	28	nmod	_	_
+33	Criminal	Criminal	PROPN	_	_	32	flat:name	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Capital	Capital	PROPN	_	_	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0013
+# text = O pastor está proibido de se aproximar da mulher Bianca Toledo e do filho dela de 5 anos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pastor	pastor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	proibido	proibido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	de	de	ADP	_	_	7	mark	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	aproximar	aproximar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	Bianca	Bianca	PROPN	_	_	10	nmod	_	_
+12	Toledo	Toledo	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	filho	filho	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+17-18	dela	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	5	5	NUM	_	NumType=Card	21	nummod	_	_
+21	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = "Determinei o monitoramento eletrônico e que o réu fique proibido de se aproximar da criança e da mãe", determinou o magistrado.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Determinei	determinar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	ccomp:speech	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	monitoramento	monitoramento	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	eletrônico	eletrônico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	10	cc	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	réu	réu	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	fique	ficar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	proibido	proibido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	xcomp	_	_
+12	de	de	ADP	_	_	14	mark	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	aproximar	aproximar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	criança	criança	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	2	punct	_	_
+24	determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	magistrado	magistrado	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0016
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,147 @@
+# sent_id = S0001
+# text = O político mais honesto do Brasil.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	político	político	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	honesto	honesto	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Brasil	Brasil	PROPN	_	_	2	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Declaração de Eduardo Cunha feita no twitter foi classificada como "sincericídio".
+1	Declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Eduardo	Eduardo	PROPN	_	_	1	nmod	_	_
+4	Cunha	Cunha	PROPN	_	_	3	flat:name	_	_
+5	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	twitter	twitter	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	5	obl	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	classificada	classificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	como	como	ADP	_	_	13	case	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	sincericídio	sincericídio	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Os internautas passaram a associar o tuíte à atuação do deputado na vida política.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	internautas	internauta	NOUN	_	Number=Plur	3	nsubj	_	_
+3	passaram	passar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	mark	_	_
+5	associar	associar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tuíte	tuíte	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vida	vida	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+17	política	político	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = As respostas foram imediatas: "Quanta honestidade, deputado!", disse um tuiteiro.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	respostas	resposta	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	imediatas	imediato	ADJ	_	Gender=Fem|Number=Plur	14	ccomp:speech	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	8	punct	_	_
+6	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	Quanta	quanto	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	honestidade	honestidade	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	8	vocative	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tuiteiro	tuiteiro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = "Sincericídio", afirmou outro.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Sincericídio	sincericídio	NOUN	_	Gender=Masc|Number=Sing	5	ccomp:speech	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Um, menos bem humorado, foi direito: "Pilantra"!
+1	Um	um	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	menos	menos	ADV	_	_	5	advmod	_	_
+4	bem	bem	ADV	_	_	5	advmod	_	_
+5	humorado	humorado	ADJ	_	Gender=Masc|Number=Sing	1	acl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	direito	direito	ADV	_	_	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Pilantra	Pilantra	PROPN	_	_	8	parataxis	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = Quando Eduardo Cunha ou o responsável pelo seu marketing apagou a tuitada polêmica, já era tarde.
+1	Quando	quando	SCONJ	_	_	11	mark	_	_
+2	Eduardo	Eduardo	PROPN	_	_	11	nsubj	_	_
+3	Cunha	Cunha	PROPN	_	_	2	flat:name	_	_
+4	ou	ou	CCONJ	_	_	6	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	responsável	responsável	NOUN	_	Number=Sing	2	conj	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	marketing	marketing	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	apagou	apagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	tuitada	tuitado	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	polêmica	polêmica	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	já	já	ADV	_	_	18	advmod	_	_
+17	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+18	tarde	tarde	ADV	_	_	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0015
+# text = Internautas já haviam printado a declaração.
+1	Internautas	internauta	NOUN	_	Number=Plur	4	nsubj	_	_
+2	já	já	ADV	_	_	4	advmod	_	_
+3	haviam	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	printado	printar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = A confissão agora circula pelas redes sociais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	confissão	confissão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	agora	agora	ADV	_	_	4	advmod	_	_
+4	circula	circular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	pelas	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	redes	rede	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+8	sociais	social	ADJ	_	Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+

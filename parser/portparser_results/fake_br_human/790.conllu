@@ -1,0 +1,198 @@
+# sent_id = S0001
+# text = Ave Maria cheia de graça?
+1	Ave	Ave	PROPN	_	_	0	root	_	_
+2	Maria	Maria	PROPN	_	_	1	flat:name	_	_
+3	cheia	cheio	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	graça	graça	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Joesley embarca para Brasília segurando um terço nas mãos.
+1	Joesley	Joesley	PROPN	_	_	2	nsubj	_	_
+2	embarca	embarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	Brasília	Brasília	PROPN	_	_	2	obl	_	_
+5	segurando	segurar	VERB	_	VerbForm=Ger	2	advcl	_	_
+6	um	um	NUM	_	Gender=Masc|NumType=Card	7	nummod	_	_
+7	terço	terço	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O empresário Joesley Batista e o executivo Ricardo Saud (ambos delatores da Lava-Jato) deixaram a Superintendência da PF, em São Paulo, na manhã de hoje.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	Joesley	Joesley	PROPN	_	_	2	nmod	_	_
+4	Batista	Batista	PROPN	_	_	3	flat:name	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	executivo	executivo	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+8	Ricardo	Ricardo	PROPN	_	_	7	nmod	_	_
+9	Saud	Saud	PROPN	_	_	8	flat:name	_	_
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	delatores	delator	NOUN	_	Gender=Masc|Number=Plur	7	appos	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Lava-Jato	Lava-Jato	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	12	punct	_	_
+17	deixaram	deixar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Superintendência	Superintendência	PROPN	_	_	17	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	PF	PF	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	São	São	PROPN	_	_	17	obl	_	_
+26	Paulo	Paulo	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	hoje	hoje	ADV	_	_	30	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = Com um terço nas mãos e orando muito, o empresário que ficou milionário graças aos desgovernos petistas, embarcou no aeroporto de Congonhas rumo à Brasília, onde ficará preso.... hum... digamos por no máximo uns 5 ou 6 dias.
+1	Com	com	ADP	_	_	3	case	_	_
+2	um	um	NUM	_	Gender=Masc|NumType=Card	3	nummod	_	_
+3	terço	terço	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+4-5	nas	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	orando	orar	VERB	_	VerbForm=Ger	3	conj	_	_
+9	muito	muito	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+15	milionário	milionário	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	_
+16	graças	graça	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+17-18	aos	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	desgovernos	desgoverno	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	petistas	petista	ADJ	_	Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	3	punct	_	_
+22	embarcou	embarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Congonhas	Congonhas	PROPN	_	_	25	nmod	_	_
+28	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	22	advcl	_	_
+29-30	à	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Brasília	Brasília	PROPN	_	_	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	onde	onde	ADV	_	_	34	advmod	_	_
+34	ficará	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	31	acl:relcl	_	_
+35	preso	preso	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	34	xcomp	_	SpaceAfter=No
+36	...	...	PUNCT	_	_	40	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	40	punct	_	_
+38	hum	hum	INTJ	_	_	40	discourse	_	SpaceAfter=No
+39	...	...	PUNCT	_	_	38	punct	_	_
+40	digamos	dizer	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+41	por	por	ADP	_	_	44	case	_	_
+42-43	no	_	_	_	_	_	_	_	_
+42	em	em	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
+45	uns	um	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+46	5	5	NUM	_	NumType=Card	49	nummod	_	_
+47	ou	ou	CCONJ	_	_	48	cc	_	_
+48	6	6	NUM	_	NumType=Card	46	conj	_	_
+49	dias	dia	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0009
+# text = Logo após esse período, provavelmente ele ficará descansando em alguma ilha paradisíaca com sua tornozeleira eletrônica cravada de diamantes.
+1	Logo	logo	ADV	_	_	4	advmod	_	_
+2	após	após	ADP	_	_	4	case	_	_
+3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	período	período	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	provavelmente	provavelmente	ADV	_	_	8	advmod	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	ficará	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	descansando	descansar	VERB	_	VerbForm=Ger	8	xcomp	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+12	ilha	ilha	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	paradisíaca	paradisíaco	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	tornozeleira	tornozeleira	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+17	eletrônica	eletrônico	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	cravada	cravar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	16	acl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	diamantes	diamante	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = O açougueiro geral da República, que enganou milhões de brasileiros enquanto cometia crimes contra uma nação inteira, virou um católico fervoroso.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	açougueiro	açougueiro	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+3	geral	geral	ADJ	_	Number=Sing	2	amod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	República	República	PROPN	_	_	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	enganou	enganar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	enquanto	enquanto	SCONJ	_	_	14	mark	_	_
+14	cometia	cometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+15	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	contra	contra	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	nação	nação	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	inteira	inteiro	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	9	punct	_	_
+21	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	católico	católico	NOUN	_	Gender=Masc|Number=Sing	21	xcomp	_	_
+24	fervoroso	fervoroso	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0013
+# text = Vamos ver se dessa vez ele entrega todo mundo... PMDB, PSDB, PT e tantos outros.
+1	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ver	ver	VERB	_	VerbForm=Inf	0	root	_	_
+3	se	se	SCONJ	_	_	8	mark	_	_
+4-5	dessa	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	entrega	entregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	...	...	PUNCT	_	_	12	punct	_	_
+12	PMDB	PMDB	PROPN	_	_	10	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	PSDB	PSDB	PROPN	_	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	PT	PT	PROPN	_	_	12	conj	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	tantos	tanto	DET	_	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+

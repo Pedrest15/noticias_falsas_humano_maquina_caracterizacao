@@ -1,0 +1,185 @@
+# sent_id = S0001
+# text = O Papa Francisco chocou o mundo ao divulgar uma encíclica bombástica nesta sexta-feira, 5.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Papa	Papa	PROPN	_	_	4	nsubj	_	_
+3	Francisco	Francisco	PROPN	_	_	2	flat:name	_	_
+4	chocou	chocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	ExtPos=SCONJ	9	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
+9	divulgar	divulgar	VERB	_	VerbForm=Inf	4	advcl	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	encíclica	encíclica	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	nesta	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	sexta-feira	sexta-feira	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	5	5	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Intitulada "Luz da Verdade", o documento assinado por ele e pelo Papa Bento XVI revela supostas profecias secretas que impactariam diretamente o futuro da humanidade.
+1	Intitulada	intitular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	advcl	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Luz	Luz	PROPN	_	_	1	obj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Verdade	Verdade	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	documento	documento	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+11	assinado	assinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+12	por	por	ADP	_	_	13	case	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl:agent	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Papa	Papa	PROPN	_	_	13	conj	_	_
+18	Bento	Bento	PROPN	_	_	17	flat:name	_	_
+19	XVI	XVI	PROPN	_	_	17	flat:name	_	_
+20	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	supostas	suposto	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	22	amod	_	_
+22	profecias	profecia	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+23	secretas	secreto	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	impactariam	impactar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	22	acl:relcl	_	_
+26	diretamente	diretamente	ADV	_	_	25	advmod	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com a encíclica, ambos os pontífices receberam revelações divinas que indicam grandes mudanças geopolíticas e sociais para os próximos anos.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	encíclica	encíclica	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pontífices	pontífice	NOUN	_	Number=Plur	10	nsubj	_	_
+10	receberam	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	divinas	divino	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	grandes	grande	ADJ	_	Number=Plur	16	amod	_	_
+16	mudanças	mudança	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	geopolíticas	geopolítico	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	sociais	social	ADJ	_	Number=Plur	17	conj	_	_
+20	para	para	ADP	_	_	23	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
+23	anos	ano	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = A carta, que mistura teologia com previsões apocalípticas, tem gerado debates acalorados entre teólogos e líderes mundiais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carta	carta	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	mistura	misturar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	teologia	teologia	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	previsões	previsão	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	apocalípticas	apocalíptico	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	debates	debate	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	acalorados	acalorado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	_	_
+15	entre	entre	ADP	_	_	16	case	_	_
+16	teólogos	teólogo	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+19	mundiais	mundial	ADJ	_	Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = A íntegra do texto, que promete ser mais polêmica e profunda do que as encíclicas anteriores, está disponível em uma página especial do Vaticano, acessível apenas para membros da Igreja e estudiosos autorizados.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	íntegra	íntegra	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	texto	texto	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	ser	ser	AUX	_	VerbForm=Inf	11	cop	_	_
+10	mais	mais	ADV	_	_	11	advmod	_	_
+11	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	8	xcomp	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	ExtPos=SCONJ	18	mark	_	_
+15	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	fixed	_	_
+16	que	que	PRON	_	PronType=Rel	14	fixed	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	encíclicas	encíclica	NOUN	_	Gender=Fem|Number=Plur	11	advcl	_	_
+19	anteriores	anterior	ADJ	_	Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	8	punct	_	_
+21	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	disponível	disponível	ADJ	_	Number=Sing	0	root	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	página	página	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+26	especial	especial	ADJ	_	Number=Sing	25	amod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Vaticano	Vaticano	PROPN	_	_	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	acessível	acessível	ADJ	_	Number=Sing	25	amod	_	_
+32	apenas	apenas	ADV	_	_	34	advmod	_	_
+33	para	para	ADP	_	_	34	case	_	_
+34	membros	membro	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Igreja	Igreja	PROPN	_	_	34	nmod	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	estudiosos	estudioso	NOUN	_	Gender=Masc|Number=Plur	37	conj	_	_
+40	autorizados	autorizado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0011
+# text = A medida de restringir o acesso ao documento completo tem alimentado ainda mais especulações e teorias da conspiração.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	de	de	ADP	_	_	4	mark	_	_
+4	restringir	restringir	VERB	_	VerbForm=Inf	2	acl	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	documento	documento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	completo	completo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	alimentado	alimentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	ainda	ainda	ADV	_	_	12	advmod	_	_
+14	mais	mais	DET	_	PronType=Ind	15	det	_	_
+15	especulações	especulação	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	teorias	teoria	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	_
+

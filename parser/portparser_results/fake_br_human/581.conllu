@@ -1,0 +1,442 @@
+# sent_id = S0001
+# text = Trump: Farei o que tem que ser feito.
+1	Trump	Trump	PROPN	_	_	3	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Farei	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	que	que	ADP	_	_	9	mark	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	9	aux:pass	_	_
+9	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Em 25 anos, Clinton, Bush e Obama falharam.
+1	Em	em	ADP	_	_	3	case	_	_
+2	25	25	NUM	_	NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Clinton	Clinton	PROPN	_	_	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Bush	Bush	PROPN	_	_	5	conj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	Obama	Obama	PROPN	_	_	5	conj	_	_
+10	falharam	falhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Não falharei.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	falharei	falhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = O regime norte-coreano informou, através da mídia estatal KCNA, que o presidente Donald Trump não conseguirá detê-lo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	regime	regime	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	norte-coreano	norte-coreano	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	através	através	ADV	_	_	4	advmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	estatal	estatal	ADJ	_	Number=Sing	9	amod	_	_
+11	KCNA	KCNA	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	que	que	SCONJ	_	_	19	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presidente	presidente	NOUN	_	Number=Sing	19	nsubj	_	_
+16	Donald	Donald	PROPN	_	_	15	nmod	_	_
+17	Trump	Trump	PROPN	_	_	16	flat:name	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	conseguirá	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+20-21	detê-lo	_	_	_	_	_	_	_	_
+20	deter	deter	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = As forças de marionetes dos EUA e do sul da Coréia estão malucas se acham que as sanções econômicas e as pressões conjuntas poderão segurar a Coreia do Norte.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	forças	força	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	marionetes	marionete	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	EUA	EUA	PROPN	_	_	4	nmod	_	_
+8	e	e	CCONJ	_	_	11	cc	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sul	sul	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Coréia	Coréia	PROPN	_	_	11	nmod	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	malucas	maluco	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+17	se	se	SCONJ	_	_	18	mark	_	_
+18	acham	achar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+19	que	que	SCONJ	_	_	27	mark	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	sanções	sanção	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
+22	econômicas	econômico	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	_	_	25	cc	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	pressões	pressão	NOUN	_	Gender=Fem|Number=Plur	21	conj	_	_
+26	conjuntas	conjunto	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
+27	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	18	ccomp	_	_
+28	segurar	segurar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Coreia	Coreia	PROPN	_	_	28	obj	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Norte	Norte	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0011
+# text = As forças dos EUA e de seu vassalo (Coreia do Sul) devem ter em mente que suas sanções frenéticas ao contrário da tendência dos tempos os levarão a sua condenação final disse a KCNA.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	forças	força	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	EUA	EUA	PROPN	_	_	2	nmod	_	_
+6	e	e	CCONJ	_	_	9	cc	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	vassalo	vassalo	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Coreia	Coreia	PROPN	_	_	9	appos	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Sul	Sul	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	11	punct	_	_
+16	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	ccomp:speech	_	_
+17	ter	ter	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	mente	mente	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	que	que	SCONJ	_	_	34	mark	_	_
+21	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	sanções	sanção	NOUN	_	Gender=Fem|Number=Plur	34	nsubj	_	_
+23	frenéticas	frenético	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24-25	ao	_	_	_	_	_	_	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30-31	dos	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+33	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	obj	_	_
+34	levarão	levar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	det	_	_
+37	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+38	final	final	ADJ	_	Number=Sing	37	amod	_	_
+39	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	KCNA	KCNA	PROPN	_	_	39	nsubj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = S0013
+# text = Trump reagiu imediatamente e foi para o twitter comunicar que é inútil tentar negociar com Kim Jong-un.
+1	Trump	Trump	PROPN	_	_	2	nsubj	_	_
+2	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	imediatamente	imediatamente	ADV	_	_	2	advmod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	twitter	twitter	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	5	obl	_	_
+9	comunicar	comunicar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+10	que	que	SCONJ	_	_	12	mark	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	inútil	inútil	ADJ	_	Number=Sing	9	ccomp	_	_
+13	tentar	tentar	VERB	_	VerbForm=Inf	12	csubj	_	_
+14	negociar	negociar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	Kim	Kim	PROPN	_	_	14	obl	_	_
+17	Jong-un	Jong-un	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Em uma enxurrada de tweets, Trump disse que o Secretário de Estado Rex Tillerson está desperdiçando seu tempo tentando negociar com o homem foguete: Eu disse a Rex Tillerson, nossa competente Secretário de Estado, que ele está desperdiçando seu tempo tentando negociar com o homem foguetinho.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	enxurrada	enxurrada	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tweets	tweet	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Trump	Trump	PROPN	_	_	8	nsubj	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	17	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Secretário	Secretário	PROPN	_	_	17	nsubj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Estado	Estado	PROPN	_	_	11	flat:name	_	_
+14	Rex	Rex	PROPN	_	_	11	flat:name	_	_
+15	Tillerson	Tillerson	PROPN	_	_	14	flat:name	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	desperdiçando	desperdiçar	VERB	_	VerbForm=Ger	8	ccomp	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	tentando	tentar	VERB	_	VerbForm=Ger	17	advcl	_	_
+21	negociar	negociar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	homem	homem	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25	foguete	foguete	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	28	punct	_	_
+27	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+29	a	a	ADP	_	_	30	case	_	_
+30	Rex	Rex	PROPN	_	_	28	obl	_	_
+31	Tillerson	Tillerson	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	35	punct	_	_
+33	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	35	det	_	_
+34	competente	competente	ADJ	_	Number=Sing	35	amod	_	_
+35	Secretário	Secretário	PROPN	_	_	30	appos	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	Estado	Estado	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	35	punct	_	_
+39	que	que	SCONJ	_	_	42	mark	_	_
+40	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+41	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	desperdiçando	desperdiçar	VERB	_	VerbForm=Ger	28	ccomp	_	_
+43	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	det	_	_
+44	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	_
+45	tentando	tentar	VERB	_	VerbForm=Ger	42	advcl	_	_
+46	negociar	negociar	VERB	_	VerbForm=Inf	45	xcomp	_	_
+47	com	com	ADP	_	_	49	case	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	homem	homem	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	_
+50	foguetinho	foguetinho	ADJ	_	Gender=Masc|Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = Poupe sua energia Rex, faremos o que tem que ser feito" "Ser legal com o homem foguete não funcionou durante 25 anos, por que isso funcionaria agora?
+1	Poupe	poupar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	energia	energia	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	Rex	Rex	PROPN	_	_	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	faremos	far	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	parataxis	_	_
+7	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obj	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	que	que	ADP	_	_	12	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	1	punct	_	_
+14	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+15	Ser	ser	AUX	_	VerbForm=Inf	22	cop	_	_
+16	legal	legal	ADJ	_	Number=Sing	7	amod	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	homem	homem	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20	foguete	foguete	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	funcionou	funcionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	root	_	_
+23	durante	durante	ADP	_	_	25	case	_	_
+24	25	25	NUM	_	NumType=Card	25	nummod	_	_
+25	anos	ano	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	por	por	ADP	_	_	28	case	_	_
+28	que	que	PRON	_	PronType=Rel	30	obl	_	_
+29	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	30	nsubj	_	_
+30	funcionaria	funcionar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	22	parataxis	_	_
+31	agora	agora	ADV	_	_	30	advmod	_	SpaceAfter=No
+32	?	?	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0019
+# text = Clinton falhou, Bush falhou e Obama falhou.
+1	Clinton	Clinton	PROPN	_	_	2	nsubj	_	_
+2	falhou	falhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	Bush	Bush	PROPN	_	_	5	nsubj	_	_
+5	falhou	falhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	Obama	Obama	PROPN	_	_	8	nsubj	_	_
+8	falhou	falhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = Eu não falharei.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	falharei	falhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Tillerson está na China para tentar (pela última vez) encontrar uma saída diplomática para as tensões entre EUA e Coreia.
+1	Tillerson	Tillerson	PROPN	_	_	5	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	China	China	PROPN	_	_	0	root	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	tentar	tentar	VERB	_	VerbForm=Inf	5	advcl	_	_
+8	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	12	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	última	último	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	encontrar	encontrar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	saída	saída	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	diplomática	diplomático	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+21	entre	entre	ADP	_	_	22	case	_	_
+22	EUA	EUA	PROPN	_	_	20	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	Coreia	Coreia	PROPN	_	_	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0025
+# text = Ele declarou: "O objetivo de Washington não é se livrar da Coréia do Norte e sim resolver de vez esse impasse, mas o reino do eremita parece estar prestando mais atenção ao Presidente Trump, rotulando-o de velho psicopata" Kim ainda disse que o líder dos EUA está inclinado a cometer um "ato suicida que reduzirá a América a um mar de chamas".
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	12	punct	_	_
+4	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+5	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Washington	Washington	PROPN	_	_	6	nmod	_	_
+9	não	não	ADV	_	_	12	advmod	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	livrar	livrar	VERB	_	VerbForm=Inf	2	ccomp:speech	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Coréia	Coréia	PROPN	_	_	12	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Norte	Norte	PROPN	_	_	15	flat:name	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	sim	sim	ADV	_	_	21	advmod	_	_
+21	resolver	resolver	VERB	_	VerbForm=Inf	12	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	vez	vez	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+24	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	impasse	impasse	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	33	punct	_	_
+27	mas	mas	CCONJ	_	_	33	cc	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	reino	reino	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	eremita	eremita	NOUN	_	Number=Sing	29	nmod	_	_
+33	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+34	estar	estar	AUX	_	VerbForm=Inf	35	aux	_	_
+35	prestando	prestar	VERB	_	VerbForm=Ger	33	xcomp	_	_
+36	mais	mais	DET	_	PronType=Ind	37	det	_	_
+37	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	_
+38-39	ao	_	_	_	_	_	_	_	_
+38	a	a	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Presidente	Presidente	PROPN	_	_	35	obl	_	_
+41	Trump	Trump	PROPN	_	_	40	flat:name	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43-44	rotulando-o	_	_	_	_	_	_	_	_
+43	rotulando	rotular	VERB	_	VerbForm=Ger	67	advcl	_	_
+44	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	velho	velho	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	_
+47	psicopata	psicopata	NOUN	_	Number=Sing	43	obl	_	SpaceAfter=No
+48	"	"	PUNCT	_	_	12	punct	_	_
+49	Kim	Kim	PROPN	_	_	51	nsubj	_	_
+50	ainda	ainda	ADV	_	_	51	advmod	_	_
+51	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	root	_	_
+52	que	que	SCONJ	_	_	59	mark	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	líder	líder	NOUN	_	Gender=Masc|Number=Sing	59	nsubj	_	_
+55-56	dos	_	_	_	_	_	_	_	_
+55	de	de	ADP	_	_	57	case	_	_
+56	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
+57	EUA	EUA	PROPN	_	_	54	nmod	_	_
+58	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	cop	_	_
+59	inclinado	inclinado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	51	ccomp	_	_
+60	a	a	ADP	_	_	61	mark	_	_
+61	cometer	cometer	VERB	_	VerbForm=Inf	59	acl	_	_
+62	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+63	"	"	PUNCT	_	_	64	punct	_	SpaceAfter=No
+64	ato	ato	NOUN	_	Gender=Masc|Number=Sing	61	obj	_	_
+65	suicida	suicida	ADJ	_	Number=Sing	64	amod	_	_
+66	que	que	PRON	_	PronType=Rel	67	nsubj	_	_
+67	reduzirá	reduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	64	acl:relcl	_	_
+68	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	América	América	PROPN	_	_	67	obj	_	_
+70	a	a	ADP	_	_	72	case	_	_
+71	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	mar	mar	NOUN	_	Gender=Masc|Number=Sing	67	obl	_	_
+73	de	de	ADP	_	_	74	case	_	_
+74	chamas	chama	NOUN	_	Gender=Fem|Number=Plur	72	nmod	_	SpaceAfter=No
+75	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+76	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Durante o verão, Kim testou várias armas nucleares e mísseis alguns dos quais são capazes de atacar o continente norte-americano.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	verão	verão	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Kim	Kim	PROPN	_	_	6	nsubj	_	_
+6	testou	testar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	armas	arma	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	nucleares	nuclear	ADJ	_	Number=Plur	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	mísseis	míssei	NOUN	_	Number=Plur	8	conj	_	_
+12	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	17	nsubj	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	os	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Plur|Person=3|PronType=Dem	17	nmod	_	_
+15	quais	qual	PRON	_	Number=Plur|PronType=Rel	14	fixed	_	_
+16	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	capazes	capaz	ADJ	_	Number=Plur	11	acl:relcl	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	atacar	atacar	VERB	_	VerbForm=Inf	17	acl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	continente	continente	NOUN	_	Number=Sing	19	obj	_	_
+22	norte-americano	norte-americano	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0029
+# text = Diversos especialistas alertaram que a península coreana está a beira da 3a Guerra Mundial.
+1	Diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	especialistas	especialista	NOUN	_	Number=Plur	3	nsubj	_	_
+3	alertaram	alertar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	península	península	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	coreana	coreano	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	beira	beira	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	3a	3a	ADJ	_	Gender=Fem|NumType=Ord	14	amod	_	_
+14	Guerra	Guerra	PROPN	_	_	10	nmod	_	_
+15	Mundial	Mundial	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+

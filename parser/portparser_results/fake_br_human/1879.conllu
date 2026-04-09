@@ -1,0 +1,99 @@
+# sent_id = S0001
+# text = O deputado Lorenzoni está no senado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Lorenzoni	Lorenzoni	PROPN	_	_	2	nmod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	senado	senado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Ele luta sozinho para salvar o Brasil das organizações criminosas.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	luta	lutar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sozinho	sozinho	ADJ	_	Gender=Masc|Number=Sing	2	advcl	_	_
+4	para	para	ADP	_	_	5	mark	_	_
+5	salvar	salvar	VERB	_	VerbForm=Inf	2	advcl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Brasil	Brasil	PROPN	_	_	5	obj	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	organizações	organização	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+11	criminosas	criminoso	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O deputado relator das 10 medidas contra a corrupção perdeu na Câmara, mas está lá no senado tentando reverter esse quadro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	relator	relator	NOUN	_	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	das	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	10	10	NUM	_	NumType=Card	7	nummod	_	_
+7	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+8	contra	contra	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Câmara	Câmara	PROPN	_	_	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	18	cc	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	lá	lá	ADV	_	_	11	conj	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	senado	senado	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	tentando	tentar	VERB	_	VerbForm=Ger	11	advcl	_	_
+23	reverter	reverter	VERB	_	VerbForm=Inf	22	xcomp	_	_
+24	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	quadro	quadro	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Direto do senado.
+1	Direto	direto	ADV	_	_	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	senado	senado	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Nem tudo está perdido.
+1	Nem	nem	ADV	_	_	2	advmod	_	_
+2	tudo	tudo	PRON	_	PronType=Ind	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	perdido	perdido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0010
+# text = disse Onix Lorenzoni.
+1	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Onix	Onix	PROPN	_	_	1	nsubj	_	_
+3	Lorenzoni	Lorenzoni	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = assista o recado dele no vídeo abaixo:
+1	assista	assistir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	recado	recado	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	dele	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+9	abaixo	abaixo	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	1	punct	_	_
+

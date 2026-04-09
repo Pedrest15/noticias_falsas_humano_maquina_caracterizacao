@@ -1,0 +1,298 @@
+# sent_id = S0001
+# text = Exclusivo: Michel Temer anuncia idade mínima de aposentadoria de 70 anos para homens e 67 anos para mulheres em discurso surpresa.
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	5	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Michel	Michel	PROPN	_	_	5	nsubj	_	_
+4	Temer	Temer	PROPN	_	_	3	flat:name	_	_
+5	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	idade	idade	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	mínima	mínimo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	aposentadoria	aposentadoria	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	70	70	NUM	_	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	homens	homem	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	67	67	NUM	_	NumType=Card	17	nummod	_	_
+17	anos	ano	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+22	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O líder do PMDB no Senado, Raimundo Lira (PB), revelou um plano audacioso do presidente após encontro fechado com senadores aliados.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	líder	líder	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PMDB	PMDB	PROPN	_	_	2	nmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Senado	Senado	PROPN	_	_	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Raimundo	Raimundo	PROPN	_	_	2	appos	_	_
+11	Lira	Lira	PROPN	_	_	10	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	PB	PB	PROPN	_	_	10	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	plano	plano	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	audacioso	audacioso	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	presidente	presidente	NOUN	_	Number=Sing	18	nmod	_	_
+23	após	após	ADP	_	_	24	case	_	_
+24	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+25	fechado	fechado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	24	amod	_	_
+26	com	com	ADP	_	_	27	case	_	_
+27	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+28	aliados	aliado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0005
+# text = "O presidente surpreendeu a todos ao defender uma idade mínima ainda maior, de 70 anos para homens e 67 anos para mulheres, como medida crucial para salvar a Previdência", afirmou Lira.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+4	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	ccomp:speech	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	ExtPos=SCONJ	9	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
+9	defender	defender	VERB	_	VerbForm=Inf	4	advcl	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	idade	idade	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	mínima	mínimo	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	ainda	ainda	ADV	_	_	14	advmod	_	_
+14	maior	maior	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	70	70	NUM	_	NumType=Card	18	nummod	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	homens	homem	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	67	67	NUM	_	NumType=Card	23	nummod	_	_
+23	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+24	para	para	ADP	_	_	25	case	_	_
+25	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	como	como	ADP	_	_	28	case	_	_
+28	medida	medida	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+29	crucial	crucial	ADJ	_	Number=Sing	28	amod	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31	salvar	salvar	VERB	_	VerbForm=Inf	28	acl	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Previdência	Previdência	PROPN	_	_	31	obj	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	4	punct	_	_
+36	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+37	Lira	Lira	PROPN	_	_	36	nsubj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = S0007
+# text = A proposta, vista como radical, foi apresentada como último esforço do governo Temer para deixar um legado de reformas econômicas antes das eleições de 2018.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	vista	ver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	como	como	ADP	_	_	6	case	_	_
+6	radical	radical	ADJ	_	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	como	como	ADP	_	_	12	case	_	_
+11	último	último	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	esforço	esforço	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	Temer	Temer	PROPN	_	_	15	nmod	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	deixar	deixar	VERB	_	VerbForm=Inf	12	acl	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	legado	legado	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	reformas	reforma	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+23	econômicas	econômico	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	antes	antes	ADV	_	_	18	advmod	_	_
+25-26	das	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	2018	2018	NUM	_	NumType=Card	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Temer teria dito que, apesar das resistências, a medida é essencial para garantir a sustentabilidade financeira do país.
+1	Temer	Temer	PROPN	_	_	3	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	_
+3	dito	dizer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	apesar	apesar	ADV	_	_	14	advmod	_	_
+7-8	das	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	resistências	resistência	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	medida	medida	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	essencial	essencial	ADJ	_	Number=Sing	3	ccomp	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	garantir	garantir	VERB	_	VerbForm=Inf	14	advcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	país	país	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = "O presidente está disposto a fazer história com essa decisão corajosa", destacou Lira.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	disposto	disposto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	15	ccomp:speech	_	_
+6	a	a	ADP	_	_	7	mark	_	_
+7	fazer	fazer	VERB	_	VerbForm=Inf	5	acl	_	_
+8	história	história	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+12	corajosa	corajoso	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	5	punct	_	_
+15	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Lira	Lira	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0013
+# text = A assessoria presidencial divulgou apenas trechos selecionados do discurso, omitindo a polêmica declaração sobre a Previdência.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	presidencial	presidencial	ADJ	_	Number=Sing	2	amod	_	_
+4	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	apenas	apenas	ADV	_	_	6	advmod	_	_
+6	trechos	trecho	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	selecionados	selecionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	amod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	omitindo	omitir	VERB	_	VerbForm=Ger	4	advcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	sobre	sobre	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Previdência	Previdência	PROPN	_	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Fontes internas, no entanto, confirmam que Temer está preparado para enfrentar a oposição e insistir na proposta até o fim de seu mandato.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+2	internas	interno	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	ExtPos=CCONJ	8	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	confirmam	confirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	Temer	Temer	PROPN	_	_	12	nsubj	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	preparado	preparado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	ccomp	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	enfrentar	enfrentar	VERB	_	VerbForm=Inf	12	advcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	insistir	insistir	VERB	_	VerbForm=Inf	14	conj	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22	até	até	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fim	fim	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = A medida gerou reações imediatas entre parlamentares, com alguns apoiando a visão de longo prazo e outros criticando a falta de realismo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	gerou	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	reações	reação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	imediatas	imediato	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	entre	entre	ADP	_	_	7	case	_	_
+7	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	3	obl	_	_
+11	apoiando	apoiar	VERB	_	VerbForm=Ger	10	acl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	visão	visão	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	longo	longo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	11	conj	_	_
+19	criticando	criticar	VERB	_	VerbForm=Ger	11	conj	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	falta	falta	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	realismo	realismo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = O presidente da Câmara, Rodrigo Maia (DEM-RJ), classificou a proposta como "inviável" dado o atual contexto político.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	13	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Câmara	Câmara	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Rodrigo	Rodrigo	PROPN	_	_	2	appos	_	_
+8	Maia	Maia	PROPN	_	_	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	DEM-RJ	DEM-RJ	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	classificou	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	como	como	ADP	_	_	18	case	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	inviável	inviável	ADJ	_	Number=Sing	13	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	23	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	atual	atual	ADJ	_	Number=Sing	23	amod	_	_
+23	contexto	contexto	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+24	político	político	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	13	punct	_	_
+

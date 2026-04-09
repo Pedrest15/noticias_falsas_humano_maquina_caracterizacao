@@ -1,0 +1,256 @@
+# sent_id = S0001
+# text = PGR recebe documento pedindo interdição de Dilma por estar "mentalmente enferma".
+1	PGR	PGR	PROPN	_	_	2	nsubj	_	_
+2	recebe	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	documento	documento	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	pedindo	pedir	VERB	_	VerbForm=Ger	3	acl	_	_
+5	interdição	interdição	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Dilma	Dilma	PROPN	_	_	5	nmod	_	_
+8	por	por	ADP	_	_	12	mark	_	_
+9	estar	estar	AUX	_	VerbForm=Inf	12	cop	_	_
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	mentalmente	mentalmente	ADV	_	_	12	advmod	_	_
+12	enferma	enfermo	ADJ	_	Gender=Fem|Number=Sing	4	advcl	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O advogado Geraldo Lima Filho encaminhou à PGR (Procuradoria Geral da República) uma representação pedindo a interdição da presidente Dilma Rousseff do cargo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Geraldo	Geraldo	PROPN	_	_	2	nmod	_	_
+4	Lima	Lima	PROPN	_	_	3	flat:name	_	_
+5	Filho	Filho	PROPN	_	_	3	flat:name	_	_
+6	encaminhou	encaminhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	PGR	PGR	PROPN	_	_	6	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Procuradoria	Procuradoria	PROPN	_	_	9	appos	_	_
+12	Geral	Geral	PROPN	_	_	11	flat:name	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	República	República	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	11	punct	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	representação	representação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+19	pedindo	pedir	VERB	_	VerbForm=Ger	18	acl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	interdição	interdição	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	presidente	presidente	NOUN	_	Number=Sing	21	nmod	_	_
+25	Dilma	Dilma	PROPN	_	_	24	nmod	_	_
+26	Rousseff	Rousseff	PROPN	_	_	25	flat:name	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com o advogado, Dilma pode ser considerada como "mentalmente enferma".
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Dilma	Dilma	PROPN	_	_	8	nsubj	_	_
+8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	ser	ser	AUX	_	VerbForm=Inf	10	aux:pass	_	_
+10	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+11	como	como	ADP	_	_	14	case	_	_
+12	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	mentalmente	mentalmente	ADV	_	_	14	advmod	_	_
+14	enferma	enfermo	ADJ	_	Gender=Fem|Number=Sing	10	xcomp	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = O documento também pede um curador para a presidenta.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	curador	curador	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presidenta	presidenta	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = A ação havia sido aberta na segunda-feira no Ministério Público Federal do DF.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Ministério	Ministério	PROPN	_	_	5	obl	_	_
+12	Público	Público	PROPN	_	_	11	flat:name	_	_
+13	Federal	Federal	PROPN	_	_	11	flat:name	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	DF	DF	PROPN	_	_	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Geraldo garante que Dilma Rousseff não está bem mentalmente, alegando que ela não se mostra "no pleno gozo de suas faculdades mentais".
+1	Geraldo	Geraldo	PROPN	_	_	2	nsubj	_	_
+2	garante	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	Dilma	Dilma	PROPN	_	_	8	nsubj	_	_
+5	Rousseff	Rousseff	PROPN	_	_	4	flat:name	_	_
+6	não	não	ADV	_	_	8	advmod	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bem	bem	ADV	_	_	2	ccomp	_	_
+9	mentalmente	mentalmente	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	alegando	alegar	VERB	_	VerbForm=Ger	2	advcl	_	_
+12	que	que	SCONJ	_	_	16	mark	_	_
+13	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	não	não	ADV	_	_	16	advmod	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+17	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	21	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	pleno	pleno	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	gozo	gozo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	faculdades	faculdade	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
+25	mentais	mental	ADJ	_	Number=Plur	24	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A PGR ainda não se manifestou sobre o pedido inusitado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PGR	PGR	PROPN	_	_	6	nsubj	_	_
+3	ainda	ainda	ADV	_	_	6	advmod	_	_
+4	não	não	ADV	_	_	6	advmod	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	manifestou	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	sobre	sobre	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	inusitado	inusitado	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = A ação já está há alguns dias na justiça Federal de Brasília.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	já	já	ADV	_	_	5	advmod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	dias	dia	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+11	Federal	Federal	PROPN	_	_	10	amod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Brasília	Brasília	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Uma das provas da suposta "insanidade" de Dilma seria um indulto que será dado a quase 40 mil presas em todo o país.
+1	Uma	um	NUM	_	Gender=Fem|NumType=Card	15	nsubj	_	_
+2-3	das	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	provas	prova	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	9	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	insanidade	insanidade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Dilma	Dilma	PROPN	_	_	9	nmod	_	_
+13	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	indulto	indulto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+16	que	que	PRON	_	PronType=Rel	18	nsubj:pass	_	_
+17	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux:pass	_	_
+18	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+19	a	a	ADP	_	_	23	case	_	_
+20	quase	quase	ADV	_	_	21	advmod	_	_
+21	40	40	NUM	_	NumType=Card	23	nummod	_	_
+22	mil	mil	NUM	_	NumType=Card	21	flat	_	_
+23	presas	preso	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+24	em	em	ADP	_	_	27	case	_	_
+25	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	país	país	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0019
+# text = [leia aqui ] Argumentos como o uso constante de remédios controlados para distúrbios mentais, como a Olanzapina, também foram citados.
+1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+3	aqui	aqui	ADV	_	_	2	advmod	_	_
+4	]	]	PUNCT	_	_	2	punct	_	_
+5	Argumentos	argumento	NOUN	_	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+6	como	como	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	uso	uso	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	constante	constante	ADJ	_	Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	remédios	remédio	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	controlados	controlar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	distúrbios	distúrbio	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+15	mentais	mental	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	como	como	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Olanzapina	Olanzapina	PROPN	_	_	11	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	também	também	ADV	_	_	23	advmod	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	citados	citar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0021
+# text = Não é a primeira vez que Dilma é acusada de não estar "batendo bem dos pinos".
+1	Não	não	ADV	_	_	5	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	vez	vez	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	que	que	PRON	_	PronType=Rel	9	obl	_	_
+7	Dilma	Dilma	PROPN	_	_	9	nsubj:pass	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	acusada	acusar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+10	de	de	ADP	_	_	14	mark	_	_
+11	não	não	ADV	_	_	14	advmod	_	_
+12	estar	estar	AUX	_	VerbForm=Inf	14	aux	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	batendo	bater	VERB	_	VerbForm=Ger	9	xcomp	_	_
+15	bem	bem	ADV	_	_	14	advmod	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	pinos	pino	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+

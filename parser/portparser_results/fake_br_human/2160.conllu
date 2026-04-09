@@ -1,0 +1,162 @@
+# sent_id = S0001
+# text = Lula se compara a Getúlio!
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	3	expl	_	_
+3	compara	comparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	Getúlio	Getúlio	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Não faça isso Lula!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	faça	fazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	Lula	Lula	PROPN	_	_	2	obj	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Getúlio fundou a Petrobras.
+1	Getúlio	Getúlio	PROPN	_	_	2	nsubj	_	_
+2	fundou	fundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Petrobras	Petrobras	PROPN	_	_	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Você afundou a Petrobras.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	afundou	afundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Petrobras	Petrobras	PROPN	_	_	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Lula contra-atacou seus adversários durante discurso feito hoje (15).
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	contra-atacou	contra-atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	adversários	adversário	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5	durante	durante	ADP	_	_	6	case	_	_
+6	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	hoje	hoje	ADV	_	_	7	advmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	15	15	NUM	_	NumType=Card	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Para demonstrar uma reação à Lava Jato, em que ele é acusado de corrupção e lavagem de dinheiro, Lula disparou: Eu não tenho a vocação do Getúlio (Vargas) de me dar um tiro.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	demonstrar	demonstrar	VERB	_	VerbForm=Inf	23	advcl	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	reação	reação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Lava	Lava	PROPN	_	_	4	nmod	_	_
+8	Jato	Jato	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	que	que	PRON	_	PronType=Rel	14	obl	_	_
+12	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	2	punct	_	_
+22	Lula	Lula	PROPN	_	_	23	nsubj	_	_
+23	disparou	disparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	27	punct	_	_
+25	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+26	não	não	ADV	_	_	27	advmod	_	_
+27	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	ccomp:speech	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	vocação	vocação	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Getúlio	Getúlio	PROPN	_	_	29	nmod	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	Vargas	Vargas	PROPN	_	_	32	appos	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	_
+36	de	de	ADP	_	_	38	mark	_	_
+37	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	38	iobj	_	_
+38	dar	dar	VERB	_	VerbForm=Inf	29	acl	_	_
+39	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	tiro	tiro	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0013
+# text = Se quiserem me tirar, terá que ser nas urnas., disse Lula.
+1	Se	se	SCONJ	_	_	2	mark	_	_
+2	quiserem	querer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+3	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	tirar	tirar	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	ccomp:speech	_	_
+7	que	que	ADP	_	_	11	mark	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	11	cop	_	_
+9-10	nas	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Lula	Lula	PROPN	_	_	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0015
+# text = Essa foi a frase mais estúpida que o Diário do Brasil já leu.
+1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	frase	frase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	estúpida	estúpido	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+7	que	que	PRON	_	PronType=Rel	14	obj	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Diário	Diário	PROPN	_	_	14	nsubj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Brasil	Brasil	PROPN	_	_	9	flat:name	_	_
+13	já	já	ADV	_	_	14	advmod	_	_
+14	leu	ler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Getúlio Vargas fundou a Petrobras [...] Lula afundou a Petrobras!
+1	Getúlio	Getúlio	PROPN	_	_	3	nsubj	_	_
+2	Vargas	Vargas	PROPN	_	_	1	flat:name	_	_
+3	fundou	fundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Petrobras	Petrobras	PROPN	_	_	3	obj	_	_
+6	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	11	parataxis	_	SpaceAfter=No
+8	..	..	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	]	]	PUNCT	_	_	7	punct	_	_
+10	Lula	Lula	PROPN	_	_	11	nsubj	_	_
+11	afundou	afundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Petrobras	Petrobras	PROPN	_	_	11	obj	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Lula, nunca mais se compare a Getúlio!
+1	Lula	Lula	PROPN	_	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nunca	nunca	ADV	_	_	6	advmod	_	_
+4	mais	mais	ADV	_	_	6	advmod	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	compare	comparar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	Getúlio	Getúlio	PROPN	_	_	6	obl	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	6	punct	_	_
+

@@ -1,0 +1,207 @@
+# sent_id = S0001
+# text = Só peixe grande!
+1	Só	só	ADV	_	_	2	advmod	_	_
+2	peixe	peixe	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	grande	grande	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Lista de Janot enviada ao STF já tem 16 nomes confirmados.
+1	Lista	lista	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Janot	Janot	PROPN	_	_	1	nmod	_	_
+4	enviada	enviar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	STF	STF	PROPN	_	_	4	obl	_	_
+8	já	já	ADV	_	_	9	advmod	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	16	16	NUM	_	NumType=Card	11	nummod	_	_
+11	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	confirmados	confirmar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = Confira.
+1	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Entre os 320 pedidos de inquéritos enviados ao STF, 83 são contra parlamentares e ministros.
+1	Entre	entre	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	320	320	NUM	_	NumType=Card	4	nummod	_	_
+4	pedidos	pedido	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	inquéritos	inquérito	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+7	enviados	enviar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	STF	STF	PROPN	_	_	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	83	83	NUM	_	NumType=Card	15	nsubj	_	_
+13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	contra	contra	ADP	_	_	15	case	_	_
+15	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = Entre os citados pelo PGR estão: Os ex-presidente Luiz Inácio Lula da Silva (PT) e Dilma Rousseff (PT) aparecem entre os 211 casos que serão distribuídos para instâncias comuns (sem foro) Também estão citados Rodrigo Maia (DEM-RJ) Presidente da Câmara.
+1	Entre	entre	ADP	_	_	2	case	_	_
+2	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	0	root	_	_
+3	citados	citar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	pelo	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	PGR	PGR	PROPN	_	_	3	obl:agent	_	_
+7	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	10	punct	_	_
+9	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ex-presidente	ex-presidente	NOUN	_	Number=Sing	2	nsubj	_	_
+11	Luiz	Luiz	PROPN	_	_	10	nmod	_	_
+12	Inácio	Inácio	PROPN	_	_	11	flat:name	_	_
+13	Lula	Lula	PROPN	_	_	11	flat:name	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Silva	Silva	PROPN	_	_	11	flat:name	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	PT	PT	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	Dilma	Dilma	PROPN	_	_	11	conj	_	_
+22	Rousseff	Rousseff	PROPN	_	_	21	flat:name	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	PT	PT	PROPN	_	_	21	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	aparecem	aparecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	root	_	_
+27	entre	entre	ADP	_	_	30	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	211	211	NUM	_	NumType=Card	30	nummod	_	_
+30	casos	caso	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+31	que	que	PRON	_	PronType=Rel	33	nsubj:pass	_	_
+32	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	33	aux:pass	_	_
+33	distribuídos	distribuir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	30	acl:relcl	_	_
+34	para	para	ADP	_	_	35	case	_	_
+35	instâncias	instância	NOUN	_	Gender=Fem|Number=Plur	33	obl	_	_
+36	comuns	comum	ADJ	_	Number=Plur	35	amod	_	_
+37	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+38	sem	sem	ADP	_	_	39	case	_	_
+39	foro	foro	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	_
+41	Também	também	ADV	_	_	43	advmod	_	_
+42	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+43	citados	citado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	2	parataxis	_	_
+44	Rodrigo	Rodrigo	PROPN	_	_	43	nsubj	_	_
+45	Maia	Maia	PROPN	_	_	44	flat:name	_	_
+46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	DEM-RJ	DEM-RJ	PROPN	_	_	44	parataxis	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	47	punct	_	_
+49	Presidente	Presidente	PROPN	_	_	44	appos	_	_
+50-51	da	_	_	_	_	_	_	_	_
+50	de	de	ADP	_	_	52	case	_	_
+51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	Câmara	Câmara	PROPN	_	_	49	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = SENADORES que aparecem nos pedidos de abertura de inquéritos Aécio Neves (PSDB/MG) e José Serra (PSDB/SP).
+1	SENADORES	senador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	aparecem	aparecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4-5	nos	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	pedidos	pedido	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	inquéritos	inquérito	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	Aécio	Aécio	PROPN	_	_	8	nmod	_	_
+12	Neves	Neves	PROPN	_	_	11	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	PSDB/MG	PSDB/MG	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	José	José	PROPN	_	_	11	conj	_	_
+18	Serra	Serra	PROPN	_	_	17	flat:name	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	PSDB/SP	PSDB/SP	PROPN	_	_	17	parataxis	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Eunicio Oliveira (PMDB-CE) senador e atual Presidente do Senado.
+1	Eunicio	Eunicio	PROPN	_	_	0	root	_	_
+2	Oliveira	Oliveira	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	PMDB-CE	PMDB-CE	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	senador	senador	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	atual	atual	ADJ	_	Number=Sing	9	amod	_	_
+9	Presidente	Presidente	PROPN	_	_	6	conj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Senado	Senado	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Romero Jucá (PMDB/RR), Renan Calheiros (PMDB/AL) e Edison Lobão (PMDB/MA).
+1	Romero	Romero	PROPN	_	_	0	root	_	_
+2	Jucá	Jucá	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	PMDB/RR	PMDB/RR	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Renan	Renan	PROPN	_	_	1	conj	_	_
+8	Calheiros	Calheiros	PROPN	_	_	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	PMDB/AL	PMDB/AL	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	Edison	Edison	PROPN	_	_	1	conj	_	_
+14	Lobão	Lobão	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	PMDB/MA	PMDB/MA	PROPN	_	_	13	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = MINISTROS Eliseu Padilha, Moreira Franco, Aloysio Nunes, Gilberto Kassab, e Bruno Araújo também figuram nas denúncias de Janot.
+1	MINISTROS	ministro	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+2	Eliseu	Eliseu	PROPN	_	_	18	nsubj	_	_
+3	Padilha	Padilha	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Moreira	Moreira	PROPN	_	_	2	conj	_	_
+6	Franco	Franco	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Aloysio	Aloysio	PROPN	_	_	2	conj	_	_
+9	Nunes	Nunes	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	Gilberto	Gilberto	PROPN	_	_	2	conj	_	_
+12	Kassab	Kassab	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	Bruno	Bruno	PROPN	_	_	2	conj	_	_
+16	Araújo	Araújo	PROPN	_	_	15	flat:name	_	_
+17	também	também	ADV	_	_	18	advmod	_	_
+18	figuram	figurar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19-20	nas	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Janot	Janot	PROPN	_	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0019
+# text = EX-MINISTROS.
+1	EX-MINISTROS	ex-ministros	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+

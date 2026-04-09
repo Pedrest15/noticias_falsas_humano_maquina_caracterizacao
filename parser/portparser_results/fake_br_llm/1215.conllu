@@ -1,0 +1,435 @@
+# sent_id = S0001
+# text = Ex-senador Aécio Neves é acusado de traição por Lauro Pacheco, pai de Frederico.
+1	Ex-senador	ex-senador	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+2	Aécio	Aécio	PROPN	_	_	1	nmod	_	_
+3	Neves	Neves	PROPN	_	_	2	flat:name	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	traição	traição	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	Lauro	Lauro	PROPN	_	_	5	obl:agent	_	_
+10	Pacheco	Pacheco	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	pai	pai	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Frederico	Frederico	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Em uma publicação bombástica nas redes sociais, Lauro Pacheco, desembargador aposentado, não só defende o caráter impecável de seu filho, mas também lança graves acusações contra Aécio Neves, sugerindo um complô para incriminar Frederico.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+4	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	nas	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	redes	rede	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+8	sociais	social	ADJ	_	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	Lauro	Lauro	PROPN	_	_	18	nsubj	_	_
+11	Pacheco	Pacheco	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	desembargador	desembargador	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+14	aposentado	aposentado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	não	não	ADV	_	_	17	advmod	_	_
+17	só	só	ADV	_	_	18	advmod	_	_
+18	defende	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	caráter	caráter	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	impecável	impecável	ADJ	_	Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	filho	filho	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	mas	mas	CCONJ	_	_	28	cc	_	_
+27	também	também	ADV	_	_	28	advmod	_	_
+28	lança	lançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+29	graves	grave	ADJ	_	Number=Plur	30	amod	_	_
+30	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
+31	contra	contra	ADP	_	_	32	case	_	_
+32	Aécio	Aécio	PROPN	_	_	30	nmod	_	_
+33	Neves	Neves	PROPN	_	_	32	flat:name	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	sugerindo	sugerir	VERB	_	VerbForm=Ger	28	advcl	_	_
+36	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	complô	complô	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	_
+38	para	para	ADP	_	_	39	mark	_	_
+39	incriminar	incriminar	VERB	_	VerbForm=Inf	37	acl	_	_
+40	Frederico	Frederico	PROPN	_	_	39	obj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = "Meu filho é um homem de honra, enquanto você, Aécio, traiu não só a confiança da família, mas também a do povo brasileiro", escreveu Pacheco.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	Meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	filho	filho	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	homem	homem	NOUN	_	Gender=Masc|Number=Sing	33	ccomp:speech	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	honra	honra	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	enquanto	enquanto	SCONJ	_	_	15	mark	_	_
+11	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Aécio	Aécio	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	traiu	trair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+16	não	não	ADV	_	_	17	advmod	_	_
+17	só	só	ADV	_	_	15	advmod	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	confiança	confiança	NOUN	_	Number=Sing	15	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	família	família	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	mas	mas	CCONJ	_	_	26	cc	_	_
+25	também	também	ADV	_	_	26	advmod	_	_
+26	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	19	conj	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	povo	povo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	6	punct	_	_
+33	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+34	Pacheco	Pacheco	PROPN	_	_	33	nsubj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = S0007
+# text = Ele alega que a prisão de Frederico, gravado supostamente recebendo dinheiro de propina, foi arquitetada por Aécio para desviar a atenção de suas próprias falcatruas.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	17	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Frederico	Frederico	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+10	supostamente	supostamente	ADV	_	_	11	advmod	_	_
+11	recebendo	receber	VERB	_	VerbForm=Ger	9	xcomp	_	_
+12	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	propina	propina	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	9	punct	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	arquitetada	arquitetar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	Aécio	Aécio	PROPN	_	_	17	obl:agent	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	desviar	desviar	VERB	_	VerbForm=Inf	17	advcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	27	case	_	_
+25	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+26	próprias	próprio	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+27	falcatruas	falcatrua	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = "Aécio Neves usou meu filho como bode expiatório para encobrir suas ações ilícitas", acusa Lauro, afirmando que a verdadeira intenção de Aécio era "proteger seu império de corrupção".
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Aécio	Aécio	PROPN	_	_	4	nsubj	_	_
+3	Neves	Neves	PROPN	_	_	2	flat:name	_	_
+4	usou	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	ccomp:speech	_	_
+5	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	filho	filho	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	bode	bode	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	expiatório	expiatório	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	encobrir	encobrir	VERB	_	VerbForm=Inf	4	advcl	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	ações	ação	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+14	ilícitas	ilícito	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	Lauro	Lauro	PROPN	_	_	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	afirmando	afirmar	VERB	_	VerbForm=Ger	17	advcl	_	_
+21	que	que	SCONJ	_	_	29	mark	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	verdadeira	verdadeiro	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+24	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Aécio	Aécio	PROPN	_	_	24	nmod	_	_
+27	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	proteger	proteger	VERB	_	VerbForm=Inf	20	ccomp	_	_
+30	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	império	império	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0011
+# text = Lauro Pacheco ainda reforça que Frederico está sendo vítima de uma perseguição política.
+1	Lauro	Lauro	PROPN	_	_	4	nsubj	_	_
+2	Pacheco	Pacheco	PROPN	_	_	1	flat:name	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	reforça	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	Frederico	Frederico	PROPN	_	_	9	nsubj	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	sendo	ser	AUX	_	VerbForm=Ger	9	cop	_	_
+9	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	4	ccomp	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	política	político	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Não somos parentes de Aécio por afinidade, mas ele sempre tratou meu filho como um peão em seu jogo sujo.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	somos	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	parentes	parente	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Aécio	Aécio	PROPN	_	_	3	nmod	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	afinidade	afinidade	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	mas	mas	CCONJ	_	_	12	cc	_	_
+10	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	sempre	sempre	ADV	_	_	12	advmod	_	_
+12	tratou	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	filho	filho	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	como	como	ADP	_	_	17	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	peão	peão	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+21	sujo	sujo	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = A lealdade de Frederico foi explorada e distorcida.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lealdade	lealdade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Frederico	Frederico	PROPN	_	_	2	nmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	explorada	explorar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	distorcida	distorcer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = Agora, o verdadeiro caráter de Aécio vem à tona, declarou.
+1	Agora	agora	ADV	_	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	caráter	caráter	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Aécio	Aécio	PROPN	_	_	5	nmod	_	_
+8	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp:speech	_	_
+9-10	à	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tona	tona	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	_
+13	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = A mensagem rapidamente viralizou, gerando uma onda de debates e reações nas redes sociais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	rapidamente	rapidamente	ADV	_	_	4	advmod	_	_
+4	viralizou	viralizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	gerando	gerar	VERB	_	VerbForm=Ger	4	advcl	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	onda	onda	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	debates	debate	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	reações	reação	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
+13-14	nas	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	redes	rede	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+16	sociais	social	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Frederico Pacheco de Medeiros, primo de Aécio, continua detido na Penitenciária Nelson Hungria, em Contagem, enquanto aguarda julgamento.
+1	Frederico	Frederico	PROPN	_	_	10	nsubj	_	_
+2	Pacheco	Pacheco	PROPN	_	_	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Medeiros	Medeiros	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	primo	primo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Aécio	Aécio	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	detido	detido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	xcomp	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Penitenciária	Penitenciária	PROPN	_	_	11	obl	_	_
+15	Nelson	Nelson	PROPN	_	_	14	flat:name	_	_
+16	Hungria	Hungria	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	Contagem	Contagem	PROPN	_	_	14	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	enquanto	enquanto	SCONJ	_	_	22	mark	_	_
+22	aguarda	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+23	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = Lauro Pacheco assegura que Frederico está recebendo apoio e que "justiça será feita".
+1	Lauro	Lauro	PROPN	_	_	3	nsubj	_	_
+2	Pacheco	Pacheco	PROPN	_	_	1	flat:name	_	_
+3	assegura	assegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	Frederico	Frederico	PROPN	_	_	7	nsubj	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	recebendo	receber	VERB	_	VerbForm=Ger	3	ccomp	_	_
+8	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	_	_	14	cc	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+13	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+14	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = A defesa de Frederico afirma estar trabalhando intensamente para provar sua inocência.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Frederico	Frederico	PROPN	_	_	2	nmod	_	_
+5	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	estar	estar	AUX	_	VerbForm=Inf	7	aux	_	_
+7	trabalhando	trabalhar	VERB	_	VerbForm=Ger	5	xcomp	_	_
+8	intensamente	intensamente	ADV	_	_	7	advmod	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	provar	provar	VERB	_	VerbForm=Inf	7	advcl	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	inocência	inocência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0027
+# text = Aécio Neves, por sua vez, permanece em silêncio, enquanto sua assessoria não responde às tentativas de contato da imprensa.
+1	Aécio	Aécio	PROPN	_	_	8	nsubj	_	_
+2	Neves	Neves	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	enquanto	enquanto	SCONJ	_	_	16	mark	_	_
+13	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	responde	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+17-18	às	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	tentativas	tentativa	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	contato	contato	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0029
+# text = Especialistas políticos sugerem que essa nova acusação pode ser fatal para qualquer esperança de ressurgimento político do ex-senador.
+1	Especialistas	especialista	NOUN	_	Number=Plur	3	nsubj	_	_
+2	políticos	político	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	nova	novo	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	ser	ser	AUX	_	VerbForm=Inf	10	cop	_	_
+10	fatal	fatal	ADJ	_	Number=Sing	8	xcomp	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	13	det	_	_
+13	esperança	esperança	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ressurgimento	ressurgimento	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	político	político	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ex-senador	ex-senador	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0031
+# text = "A carreira de Aécio está mais do que encerrada; ele agora enfrenta um dilema moral e legal sem precedentes", comentou um analista.
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Aécio	Aécio	PROPN	_	_	3	nmod	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	mais	mais	ADV	_	ExtPos=ADV	11	advmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	7	fixed	_	_
+9	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	fixed	_	_
+10	que	que	PRON	_	PronType=Rel	7	fixed	_	_
+11	encerrada	encerrado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	25	ccomp:speech	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	15	punct	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	agora	agora	ADV	_	_	15	advmod	_	_
+15	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dilema	dilema	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	moral	moral	ADJ	_	Number=Sing	17	amod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	legal	legal	ADJ	_	Number=Sing	18	conj	_	_
+21	sem	sem	ADP	_	_	22	case	_	_
+22	precedentes	precedente	NOUN	_	Number=Plur	17	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	11	punct	_	_
+25	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	analista	analista	NOUN	_	Number=Sing	25	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0033
+# text = Enquanto isso, internautas criam hashtags como #JustiçaParaFrederico e #AécioCovarde, mobilizando opinião pública contra o ex-senador.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	5	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	internautas	internauta	NOUN	_	Number=Plur	5	nsubj	_	_
+5	criam	criar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	hashtags	hashtag	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	5	obj	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	#JustiçaParaFrederico	#JustiçaParaFrederico	PROPN	_	_	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	#AécioCovarde	#AécioCovarde	PROPN	_	_	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	mobilizando	mobilizar	VERB	_	VerbForm=Ger	5	advcl	_	_
+13	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	pública	público	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	contra	contra	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ex-senador	ex-senador	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+

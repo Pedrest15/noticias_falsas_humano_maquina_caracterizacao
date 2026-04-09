@@ -1,0 +1,108 @@
+# sent_id = S0001
+# text = Estádio do Manchester City (na Inglaterra) é evacuado às pressas.
+1	Estádio	estádio	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Manchester	Manchester	PROPN	_	_	1	nmod	_	_
+5	City	City	PROPN	_	_	4	flat:name	_	_
+6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Inglaterra	Inglaterra	PROPN	_	_	1	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	evacuado	evacuar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13-14	às	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	pressas	pressa	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = Nenhuma explicação oficial foi dada para a evacuação, mas há um relato de "estado de emergência".
+1	Nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	explicação	explicação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	oficial	oficial	ADJ	_	Number=Sing	2	amod	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	evacuação	evacuação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	mas	mas	CCONJ	_	_	11	cc	_	_
+11	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	relato	relato	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	estado	estado	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Um porta-voz do clube disse: "A evacuação terminou e o estádio agora está seguro" O gerente de mídia social do clube tuitou (abaixo) para dizer que todos tinham retornado "com segurança" ao estádio.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	porta-voz	porta-voz	NOUN	_	Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	clube	clube	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	11	punct	_	_
+8	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+9	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	evacuação	evacuação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	terminou	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp:speech	_	_
+12	e	e	CCONJ	_	_	17	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	estádio	estádio	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+15	agora	agora	ADV	_	_	17	advmod	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	seguro	seguro	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	11	punct	_	_
+19	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	gerente	gerente	NOUN	_	Number=Sing	27	nsubj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	social	social	ADJ	_	Number=Sing	22	amod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	clube	clube	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+27	tuitou	tuitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp:speech	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	abaixo	abaixo	ADV	_	_	27	advmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	para	para	ADP	_	_	32	mark	_	_
+32	dizer	dizer	VERB	_	VerbForm=Inf	27	advcl	_	_
+33	que	que	SCONJ	_	_	36	mark	_	_
+34	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	36	nsubj	_	_
+35	tinham	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
+36	retornado	retornar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	ccomp	_	_
+37	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+38	com	com	ADP	_	_	39	case	_	_
+39	segurança	segurança	NOUN	_	Number=Sing	36	obl	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	39	punct	_	_
+41-42	ao	_	_	_	_	_	_	_	_
+41	a	a	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	estádio	estádio	NOUN	_	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = A informação é do jornal The Sun.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	The	The	PROPN	_	_	6	nmod	_	_
+8	Sun	Sun	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+

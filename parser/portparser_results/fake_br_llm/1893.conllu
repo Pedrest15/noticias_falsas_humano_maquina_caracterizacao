@@ -1,0 +1,338 @@
+# sent_id = S0001
+# text = Universitário João Victor Barcelos morre após misterioso ataque em Franca: "Foi um sinal", dizem testemunhas.
+1	Universitário	universitário	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	João	João	PROPN	_	_	1	nmod	_	_
+3	Victor	Victor	PROPN	_	_	2	flat:name	_	_
+4	Barcelos	Barcelos	PROPN	_	_	2	flat:name	_	_
+5	morre	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
+6	após	após	ADP	_	_	8	case	_	_
+7	misterioso	misterioso	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	Franca	Franca	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	15	punct	_	_
+12	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+13	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	5	punct	_	_
+18	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0003
+# text = O estudante de educação física, de apenas 19 anos, foi baleado na cabeça durante um assalto, mas detalhes estranhos estão intrigando a população e a polícia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudante	estudante	NOUN	_	Number=Sing	13	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	educação	educação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	física	físico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	apenas	apenas	ADV	_	_	9	advmod	_	_
+9	19	19	NUM	_	NumType=Card	10	nummod	_	_
+10	anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	baleado	balear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	durante	durante	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	assalto	assalto	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	mas	mas	CCONJ	_	_	25	cc	_	_
+22	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+23	estranhos	estranho	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+24	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	intrigando	intrigar	VERB	_	VerbForm=Ger	13	conj	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	população	população	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	polícia	polícia	NOUN	_	Number=Sing	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Segundo relatos, João e sua namorada estavam em um carro em uma rua sem saída no Jardim Portinari quando foram abordados por dois homens encapuzados.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	João	João	PROPN	_	_	11	nsubj	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	namorada	namorado	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+8	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	carro	carro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	rua	rua	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	sem	sem	ADP	_	_	16	case	_	_
+16	saída	saída	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Jardim	Jardim	PROPN	_	_	14	nmod	_	_
+20	Portinari	Portinari	PROPN	_	_	19	flat:name	_	_
+21	quando	quando	SCONJ	_	_	23	mark	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	abordados	abordar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	advcl	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	dois	dois	NUM	_	Gender=Masc|NumType=Card	26	nummod	_	_
+26	homens	homem	NOUN	_	Gender=Masc|Number=Plur	23	obl:agent	_	_
+27	encapuzados	encapuzado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = O jovem, conhecido por sua pacificidade, obedeceu aos assaltantes, mas ainda assim foi morto.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jovem	jovem	NOUN	_	Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	pacificidade	pacificidade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	obedeceu	obedecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	aos	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	assaltantes	assaltante	NOUN	_	Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	mas	mas	CCONJ	_	_	18	cc	_	_
+15	ainda	ainda	ADV	_	ExtPos=ADV	18	advmod	_	_
+16	assim	assim	ADV	_	_	15	fixed	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	morto	morto	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = O que chama atenção é que os ladrões abandonaram o carro logo em seguida em Ribeirão Corrente, sem levar mais nada de valor.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj:outer	_	_
+2	que	que	PRON	_	PronType=Rel	3	nsubj	_	_
+3	chama	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	ladrões	ladrão	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	abandonaram	abandonar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	carro	carro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	logo	logo	ADV	_	_	14	advmod	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	Ribeirão	Ribeirão	PROPN	_	_	9	obl	_	_
+17	Corrente	Corrente	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	sem	sem	ADP	_	_	20	mark	_	_
+20	levar	levar	VERB	_	VerbForm=Inf	9	advcl	_	_
+21	mais	mais	DET	_	PronType=Ind	22	det	_	_
+22	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	valor	valor	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = Testemunhas afirmam que João havia recebido ameaças recentemente, mas a polícia não confirma.
+1	Testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	João	João	PROPN	_	_	6	nsubj	_	_
+5	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+7	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	recentemente	recentemente	ADV	_	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	mas	mas	CCONJ	_	_	14	cc	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	polícia	polícia	NOUN	_	Number=Sing	14	nsubj	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	confirma	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Amigos e familiares acreditam que o ataque possa ter sido orquestrado por uma facção criminosa local, em uma mensagem de intimidação.
+1	Amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	familiares	familiar	NOUN	_	Number=Plur	1	conj	_	_
+4	acreditam	acreditar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	ter	ter	AUX	_	VerbForm=Inf	11	aux	_	_
+10	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	11	aux:pass	_	_
+11	orquestrado	orquestrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	facção	facção	NOUN	_	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	local	local	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	intimidação	intimidação	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = "Foi um sinal, eles queriam mostrar que ninguém está seguro", disse emocionado o amigo Tiago Rosa Santos.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	15	ccomp:speech	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	queriam	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+8	mostrar	mostrar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	12	nsubj	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	seguro	seguro	ADJ	_	Gender=Masc|Number=Sing	8	ccomp	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	4	punct	_	_
+15	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	emocionado	emocionado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	15	nsubj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+19	Tiago	Tiago	PROPN	_	_	18	nmod	_	_
+20	Rosa	Rosa	PROPN	_	_	19	flat:name	_	_
+21	Santos	Santos	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0017
+# text = A Polícia Civil abriu um inquérito por latrocínio e promete agir com celeridade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	4	nsubj	_	_
+3	Civil	Civil	PROPN	_	_	2	flat:name	_	_
+4	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	latrocínio	latrocínio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	agir	agir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	celeridade	celeridade	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Peritos encontraram digitais no veículo, mas a identificação dos suspeitos ainda é um mistério.
+1	Peritos	perito	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	encontraram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	digitais	digital	NOUN	_	Number=Plur	2	obj	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	17	punct	_	_
+8	mas	mas	CCONJ	_	_	17	cc	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	suspeitos	suspeito	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	ainda	ainda	ADV	_	_	17	advmod	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mistério	mistério	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = O delegado Márcio Murari, da DIG de Franca, declarou que buscam câmeras na região e que depoimentos da namorada e familiares serão cruciais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	Márcio	Márcio	PROPN	_	_	2	nmod	_	_
+4	Murari	Murari	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	DIG	DIG	PROPN	_	_	2	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Franca	Franca	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_
+14	buscam	buscar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+15	câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	região	região	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+19	e	e	CCONJ	_	_	28	cc	_	_
+20	que	que	SCONJ	_	_	28	mark	_	_
+21	depoimentos	depoimento	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	namorada	namorado	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	familiares	familiar	NOUN	_	Number=Plur	24	conj	_	_
+27	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	28	cop	_	_
+28	cruciais	crucial	ADJ	_	Number=Plur	14	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0023
+# text = "Estamos investigando todas as possibilidades, incluindo se houve algum tipo de confusão de identidade ou se realmente foi um ato direcionado", afirmou Murari.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	investigando	investigar	VERB	_	VerbForm=Ger	26	ccomp:speech	_	_
+4	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	possibilidades	possibilidade	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	incluindo	incluir	VERB	_	VerbForm=Ger	3	advcl	_	_
+9	se	se	SCONJ	_	_	10	mark	_	_
+10	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+11	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	confusão	confusão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	identidade	identidade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	ou	ou	CCONJ	_	_	22	cc	_	_
+18	se	se	SCONJ	_	_	22	mark	_	_
+19	realmente	realmente	ADV	_	_	22	advmod	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ato	ato	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+23	direcionado	direcionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	3	punct	_	_
+26	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	Murari	Murari	PROPN	_	_	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0025
+# text = A comunidade local está em choque e pede justiça, temendo pela segurança de outros jovens.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	local	local	ADJ	_	Number=Sing	2	amod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	choque	choque	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	temendo	temer	VERB	_	VerbForm=Ger	8	advcl	_	_
+12-13	pela	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	segurança	segurança	NOUN	_	Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	jovens	jovem	NOUN	_	Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+

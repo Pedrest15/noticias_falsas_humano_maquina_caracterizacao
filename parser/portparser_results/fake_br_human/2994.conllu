@@ -1,0 +1,190 @@
+# sent_id = S0001
+# text = Advogado citado na Lava-Jato morre em Brasília.
+1	Advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Lava-Jato	Lava-Jato	PROPN	_	_	2	obl	_	_
+6	morre	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Brasília	Brasília	PROPN	_	_	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Citado na Lava-Jato por movimentações financeiras suspeitas, o advogado Paulo Roberto Baeta Neves morreu na noite de ontem (1/4), em Brasília.
+1	Citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	advcl	_	_
+2-3	na	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Lava-Jato	Lava-Jato	PROPN	_	_	1	obl	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	movimentações	movimentação	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
+7	financeiras	financeiro	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+8	suspeitas	suspeito	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+12	Paulo	Paulo	PROPN	_	_	11	nmod	_	_
+13	Roberto	Roberto	PROPN	_	_	12	flat:name	_	_
+14	Baeta	Baeta	PROPN	_	_	12	flat:name	_	_
+15	Neves	Neves	PROPN	_	_	12	flat:name	_	_
+16	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	noite	noite	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	ontem	ontem	ADV	_	_	19	nmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	1/4	1/4	NUM	_	NumType=Card	21	appos	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	Brasília	Brasília	PROPN	_	_	16	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0005
+# text = (via G1) A causa da morte ainda não foi confirmada.
+1	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	via	via	ADP	_	_	3	case	_	_
+3	G1	G1	PROPN	_	_	6	nmod	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	causa	causa	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	morte	morte	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	ainda	ainda	ADV	_	_	13	advmod	_	_
+11	não	não	ADV	_	_	13	advmod	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = Em 2015, o STF autorizou a quebra de sigilo bancário do advogado, por transações bancárias feitas entre 2008 e 2011.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2015	2015	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	6	nsubj	_	_
+6	autorizou	autorizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	quebra	quebra	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	sigilo	sigilo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	bancário	bancário	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	por	por	ADP	_	_	17	case	_	_
+17	transações	transação	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+18	bancárias	bancário	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	17	acl	_	_
+20	entre	entre	ADP	_	_	21	case	_	_
+21	2008	2008	NUM	_	NumType=Card	19	obl	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	2011	2011	NUM	_	NumType=Card	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = O inquérito envolve o presidente do Senado, Renan Calheiros (PMDB-AL) e apura o destino de um depósito de R$ 5, 7 milhões recebido pelo escritório de Baeta Neves em 2008.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	_	Number=Sing	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Senado	Senado	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Renan	Renan	PROPN	_	_	5	appos	_	_
+11	Calheiros	Calheiros	PROPN	_	_	10	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	PMDB-AL	PMDB-AL	PROPN	_	_	10	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	apura	apurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	destino	destino	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	depósito	depósito	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	R$	R$	SYM	_	_	27	nmod	_	_
+24	5	5	NUM	_	NumType=Card	27	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	7	7	NUM	_	NumType=Card	27	nummod	_	_
+27	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	21	appos	_	_
+28	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	_	_
+29-30	pelo	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	escritório	escritório	NOUN	_	Gender=Masc|Number=Sing	28	obl:agent	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Baeta	Baeta	PROPN	_	_	31	nmod	_	_
+34	Neves	Neves	PROPN	_	_	33	flat:name	_	_
+35	em	em	ADP	_	_	36	case	_	_
+36	2008	2008	NUM	_	NumType=Card	28	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Paulo Roberto Costa afirmou [em depoimento à Lava-Jato] que o valor poderia ser relacionado a propina paga aos parlamentares pelo Sindicato dos Práticos profissionais que orientam os navios atracados nos portos.
+1	Paulo	Paulo	PROPN	_	_	4	nsubj	_	_
+2	Roberto	Roberto	PROPN	_	_	1	flat:name	_	_
+3	Costa	Costa	PROPN	_	_	1	flat:name	_	_
+4	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	em	em	ADP	_	_	7	case	_	_
+7	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lava-Jato	Lava-Jato	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	7	punct	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	valor	valor	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	relacionado	relacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	a	a	ADP	_	_	19	case	_	_
+19	propina	propina	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	paga	pagar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
+21-22	aos	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+24-25	pelo	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Sindicato	Sindicato	PROPN	_	_	20	obl:agent	_	_
+27-28	dos	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	Práticos	Práticos	PROPN	_	_	26	flat:name	_	_
+30	profissionais	profissional	ADJ	_	Number=Plur	29	amod	_	_
+31	que	que	PRON	_	PronType=Rel	32	nsubj	_	_
+32	orientam	orientar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	navios	navio	NOUN	_	Gender=Masc|Number=Plur	32	obj	_	_
+35	atracados	atracar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	34	acl	_	_
+36-37	nos	_	_	_	_	_	_	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	portos	porto	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = O jurista tinha 78 anos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jurista	jurista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	78	78	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+

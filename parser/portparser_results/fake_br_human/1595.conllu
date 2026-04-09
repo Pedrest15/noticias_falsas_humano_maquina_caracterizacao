@@ -1,0 +1,94 @@
+# sent_id = S0001
+# text = Repórter pergunta para Dória se dá para construir um diálogo com pichadores: "Não negocio com bandidos".
+1	Repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	pergunta	perguntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	Dória	Dória	PROPN	_	_	2	obl	_	_
+5	se	se	SCONJ	_	_	6	mark	_	_
+6	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	construir	construir	VERB	_	VerbForm=Inf	6	csubj	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	diálogo	diálogo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	pichadores	pichador	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	16	punct	_	_
+14	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	Não	não	ADV	_	_	16	advmod	_	_
+16	negocio	negociar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	bandidos	bandido	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Dória participou de uma sabatina na CBN (leia-se Globo) com duas jornalistas.
+1	Dória	Dória	PROPN	_	_	2	nsubj	_	_
+2	participou	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sabatina	sabatina	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	CBN	CBN	PROPN	_	_	5	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10-11	leia-se	_	_	_	_	_	_	_	_
+10	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl:impers	_	_
+12	Globo	Globo	PROPN	_	_	10	obj	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	10	punct	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	duas	dois	NUM	_	Gender=Fem|NumType=Card	16	nummod	_	_
+16	jornalistas	jornalista	NOUN	_	Number=Plur	5	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Elas bem que tentaram induzir o prefeito com algumas perguntas capiciosas.
+1	Elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	bem	bem	ADV	_	_	4	advmod	_	_
+3	que	que	SCONJ	_	_	4	discourse	_	_
+4	tentaram	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	induzir	induzir	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	prefeito	prefeito	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	perguntas	pergunta	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+11	capiciosas	capicioso	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Bem, o resultado você assiste no vídeo abaixo: Não vou negociar com pichadores.
+1	Bem	bem	ADV	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	assiste	assistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	abaixo	abaixo	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	Não	não	ADV	_	_	14	advmod	_	_
+13	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	negociar	negociar	VERB	_	VerbForm=Inf	6	parataxis	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	pichadores	pichador	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Não negocio com bandidos disse o prefeito de SP.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	negocio	negociar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp:speech	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	bandidos	bandido	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+5	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	prefeito	prefeito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	SP	SP	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+

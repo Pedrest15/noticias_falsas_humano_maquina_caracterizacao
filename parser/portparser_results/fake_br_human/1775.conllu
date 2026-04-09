@@ -1,0 +1,174 @@
+# sent_id = S0001
+# text = Ana Paula do vôlei manda recado para Pimentel: "Bolsa ressaca".
+1	Ana	Ana	PROPN	_	_	6	nsubj	_	_
+2	Paula	Paula	PROPN	_	_	1	flat:name	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vôlei	vôlei	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	recado	recado	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	Pimentel	Pimentel	PROPN	_	_	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	12	punct	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	6	parataxis	_	_
+13	ressaca	ressaca	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = O Diário do Brasil publicou ( hoje de manhã ) uma denúncia em que o governador de Minas Gerais, Fernando Pimentel (PT), aparece usando uma aeronave pertencente ao governo estadual para suprir suas necessidades pessoais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Diário	Diário	PROPN	_	_	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	_	2	flat:name	_	_
+6	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	(	(	PUNCT	_	_	8	punct	_	_
+8	hoje	hoje	ADV	_	_	6	advmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+11	)	)	PUNCT	_	_	8	punct	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	que	que	PRON	_	PronType=Rel	28	obl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	governador	governador	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Minas	Minas	PROPN	_	_	17	nmod	_	_
+20	Gerais	Gerais	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Fernando	Fernando	PROPN	_	_	17	appos	_	_
+23	Pimentel	Pimentel	PROPN	_	_	22	flat:name	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	PT	PT	PROPN	_	_	22	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	22	punct	_	_
+28	aparece	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+29	usando	usar	VERB	_	VerbForm=Ger	28	xcomp	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	pertencente	pertencente	ADJ	_	Number=Sing	31	amod	_	_
+33-34	ao	_	_	_	_	_	_	_	_
+33	a	a	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	governo	governo	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+36	estadual	estadual	ADJ	_	Number=Sing	35	amod	_	_
+37	para	para	ADP	_	_	38	mark	_	_
+38	suprir	suprir	VERB	_	VerbForm=Inf	29	advcl	_	_
+39	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	40	det	_	_
+40	necessidades	necessidade	NOUN	_	Gender=Fem|Number=Plur	38	obj	_	_
+41	pessoais	pessoal	ADJ	_	Number=Plur	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = Pimentel foi flagrado por um internauta no exato momento em buscava o filho na estância turística de Escarpas do Lago (MG).
+1	Pimentel	Pimentel	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	internauta	internauta	NOUN	_	Number=Sing	3	obl:agent	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	exato	exato	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	momento	momento	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	buscava	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	filho	filho	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	estância	estância	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+18	turística	turístico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Escarpas	Escarpas	PROPN	_	_	17	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Lago	Lago	PROPN	_	_	20	flat:name	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	MG	MG	PROPN	_	_	20	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com O deputado mineiro Sargento Rodrigues, o helicóptero pertence ao governo de MG.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	mineiro	mineiro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	Sargento	Sargento	PROPN	_	_	5	nmod	_	_
+8	Rodrigues	Rodrigues	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	helicóptero	helicóptero	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	pertence	pertencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	MG	MG	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = A jogadora de vôlei Ana Paula deixou seu recado para o governador nas redes sociais: Pimentel vai buscar o filho dpois da balada de Ano Novo c/ helicóptero do Estado.Meu dinheiro agora sustentando Bolsa Ressaca.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	jogadora	jogador	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	vôlei	vôlei	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	Ana	Ana	PROPN	_	_	2	nmod	_	_
+6	Paula	Paula	PROPN	_	_	5	flat:name	_	_
+7	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	recado	recado	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	para	para	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	governador	governador	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	nas	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	redes	rede	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+16	sociais	social	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	20	punct	_	_
+18	Pimentel	Pimentel	PROPN	_	_	20	nsubj	_	_
+19	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	buscar	buscar	VERB	_	VerbForm=Inf	7	parataxis	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	filho	filho	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	dpois	dpois	ADV	_	_	20	advmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	balada	balada	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Ano	Ano	PROPN	_	_	26	nmod	_	_
+29	Novo	Novo	PROPN	_	_	28	flat:name	_	_
+30	c	c	ADP	_	_	32	case	_	SpaceAfter=No
+31	/	/	ADP	_	_	32	det	_	_
+32	helicóptero	helicóptero	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	36	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	Estado.Meu	estado.meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	det	_	_
+36	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+37	agora	agora	ADV	_	_	38	advmod	_	_
+38	sustentando	sustentar	VERB	_	VerbForm=Ger	20	advcl	_	_
+39	Bolsa	Bolsa	PROPN	_	_	38	obj	_	_
+40	Ressaca	Ressaca	PROPN	_	_	39	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = # ForaPimentel.
+1	#	#	PUNCT	_	_	0	root	_	_
+2	ForaPimentel	ForaPimentel	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+

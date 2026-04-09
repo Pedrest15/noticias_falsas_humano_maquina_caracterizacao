@@ -1,0 +1,72 @@
+# sent_id = S0001
+# text = Sítio de Atibaia: PF investiga se Lula "pegou" objetos que pertencem ao Palácio do Planalto.
+1	Sítio	Sítio	PROPN	_	_	6	dislocated	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Atibaia	Atibaia	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	PF	PF	PROPN	_	_	6	nsubj	_	_
+6	investiga	investigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	se	se	SCONJ	_	_	10	mark	_	_
+8	Lula	Lula	PROPN	_	_	10	nsubj	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	12	punct	_	_
+12	objetos	objeto	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	pertencem	pertencer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Palácio	Palácio	PROPN	_	_	14	obl	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Planalto	Planalto	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Os mandados de busca e apreensão da PF visam também vasculhar containers num depósito em São Bernardo do Campo, pagos pela OAS, que guardam uma grande quantidade de objetos pessoais de Lula.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	mandados	mandado	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	busca	busca	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	apreensão	apreensão	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	PF	PF	PROPN	_	_	2	nmod	_	_
+10	visam	visar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	também	também	ADV	_	_	10	advmod	_	_
+12	vasculhar	vasculhar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	containers	container	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14-15	num	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	depósito	depósito	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	São	São	PROPN	_	_	16	nmod	_	_
+19	Bernardo	Bernardo	PROPN	_	_	18	flat:name	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Campo	Campo	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	pagos	pagar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	_
+25-26	pela	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	OAS	OAS	PROPN	_	_	24	obl:agent	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	que	que	PRON	_	PronType=Rel	30	nsubj	_	_
+30	guardam	guardar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	grande	grande	ADJ	_	Number=Sing	33	amod	_	_
+33	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	objetos	objeto	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
+36	pessoais	pessoal	ADJ	_	Number=Plur	35	amod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	Lula	Lula	PROPN	_	_	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	10	punct	_	_
+

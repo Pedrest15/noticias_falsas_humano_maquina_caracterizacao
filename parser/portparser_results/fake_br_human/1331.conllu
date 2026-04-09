@@ -1,0 +1,174 @@
+# sent_id = S0001
+# text = Rússia desafia os EUA novamente: Bombardeiros nucleares sobrevoam o Alaska a 55km da costa.
+1	Rússia	Rússia	PROPN	_	_	2	nsubj	_	_
+2	desafia	desafiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	EUA	EUA	PROPN	_	_	2	obj	_	_
+5	novamente	novamente	ADV	_	_	2	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	9	punct	_	_
+7	Bombardeiros	bombardeiro	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	nucleares	nuclear	ADJ	_	Number=Plur	7	amod	_	_
+9	sobrevoam	sobrevoar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Alaska	Alaska	PROPN	_	_	9	obj	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	55km	55km	NOUN	_	_	9	obl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	costa	costa	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = (Fox News) Pela segundo dia consecutivo, dois bombardeiros russos de longo alcance foram avistados sobrevoando a costa do Alasca.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Fox	Fox	PROPN	_	_	18	nsubj:pass	_	_
+3	News	News	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	2	punct	_	_
+5-6	Pela	_	_	_	_	_	_	_	_
+5	Por	por	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	dia	dia	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+9	consecutivo	consecutivo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	dois	dois	NUM	_	Gender=Masc|NumType=Card	12	nummod	_	_
+12	bombardeiros	bombardeiro	NOUN	_	Gender=Masc|Number=Plur	18	nsubj:pass	_	_
+13	russos	russo	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	longo	longo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	alcance	alcance	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+17	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	avistados	avistar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+19	sobrevoando	sobrevoar	VERB	_	VerbForm=Ger	18	advcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	costa	costa	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Alasca	Alasca	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = Desta última vez, eles foram flagrados a pouco mais de 55 km de distância do continente americano.
+1-2	Desta	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	4	case	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	vez	vez	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj:pass	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	flagrados	flagrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	a	a	ADP	_	_	14	case	_	_
+10	pouco	pouco	ADV	_	_	11	advmod	_	_
+11	mais	mais	ADV	_	ExtPos=ADV	13	advmod	_	_
+12	de	de	ADP	_	_	11	fixed	_	_
+13	55	55	NUM	_	NumType=Card	14	nummod	_	_
+14	km	quilômetro	NOUN	_	Abbr=Yes|Gender=Masc	8	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	distância	distância	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	continente	continente	NOUN	_	Number=Sing	16	nmod	_	_
+20	americano	americano	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = As aeronaves Tu-95H possuem capacidade nuclear de ataque e foram identificados no radar às 17h, horário local.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	aeronaves	aeronave	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	Tu-95H	Tu-95H	PROPN	_	_	2	nmod	_	_
+4	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	nuclear	nuclear	ADJ	_	Number=Sing	5	amod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	identificados	identificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	conj	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	radar	radar	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	às	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	17h	17h	NOUN	_	_	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	horário	horário	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
+20	local	local	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Na segunda-feira (17), os russos voaram a cerca de 350 km do Alasca e foram alertados por forças de segurança da Força Aérea norte-americana.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	17	17	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	russos	russo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	voaram	voar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	_	_	15	case	_	_
+12	cerca	cerca	ADV	_	ExtPos=ADV	14	advmod	_	_
+13	de	de	ADP	_	_	12	fixed	_	_
+14	350	350	NUM	_	NumType=Card	15	nummod	_	_
+15	km	quilômetro	NOUN	_	Abbr=Yes|Gender=Masc	10	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Alasca	Alasca	PROPN	_	_	15	nmod	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	alertados	alertar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	conj	_	_
+22	por	por	ADP	_	_	23	case	_	_
+23	forças	força	NOUN	_	Gender=Fem|Number=Plur	21	obl:agent	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	segurança	segurança	NOUN	_	Number=Sing	23	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Força	Força	PROPN	_	_	23	nmod	_	_
+29	Aérea	Aérea	PROPN	_	_	28	flat:name	_	_
+30	norte-americana	norte-americano	ADJ	_	Gender=Fem|Number=Sing	28	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Os bombardeiros da Rússia partiram da base aérea de Petropavlovsk (1.000km de distância dos EUA) e retornaram após 5 horas de voo.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bombardeiros	bombardeiro	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Rússia	Rússia	PROPN	_	_	2	nmod	_	_
+6	partiram	partir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	base	base	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	aérea	aéreo	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Petropavlovsk	Petropavlovsk	PROPN	_	_	9	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	1.000km	1.000km	NOUN	_	_	9	appos	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	distância	distância	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	EUA	EUA	PROPN	_	_	16	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	14	punct	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	retornaram	retornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+23	após	após	ADP	_	_	25	case	_	_
+24	5	5	NUM	_	NumType=Card	25	nummod	_	_
+25	horas	hora	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	voo	voo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	_
+

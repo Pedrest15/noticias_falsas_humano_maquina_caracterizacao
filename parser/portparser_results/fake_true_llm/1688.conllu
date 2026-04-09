@@ -1,0 +1,596 @@
+# sent_id = S0001
+# text = Urgente: Novo Estudo Revela Riscos Graves das Vacinas de mRNA para COVID-19!
+1	Urgente	urgente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Novo	Novo	PROPN	_	_	5	nsubj	_	_
+4	Estudo	Estudo	PROPN	_	_	5	nsubj	_	_
+5	Revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+6	Riscos	Riscos	PROPN	_	_	5	obj	_	_
+7	Graves	Graves	PROPN	_	_	6	flat:name	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Vacinas	Vacinas	PROPN	_	_	6	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	mRNA	mRNA	PROPN	_	_	10	nmod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	COVID-19	covid-19	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Um estudo bombástico, que está causando alvoroço na comunidade científica, sugere que as vacinas de mRNA contra a COVID-19 podem ter efeitos colaterais mais sérios do que inicialmente se pensava.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	bombástico	bombástico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	causando	causar	VERB	_	VerbForm=Ger	2	acl:relcl	_	_
+8	alvoroço	alvoroço	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+12	científica	científico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	que	que	SCONJ	_	_	23	mark	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	mRNA	mRNA	PROPN	_	_	17	nmod	_	_
+20	contra	contra	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	COVID-19	COVID-19	PROPN	_	_	17	nmod	_	_
+23	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+24	ter	ter	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+26	colaterais	colateral	ADJ	_	Number=Plur	25	amod	_	_
+27	mais	mais	ADV	_	_	28	advmod	_	_
+28	sérios	sério	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	ExtPos=SCONJ	34	mark	_	_
+30	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	fixed	_	_
+31	que	que	PRON	_	PronType=Rel	29	fixed	_	_
+32	inicialmente	inicialmente	ADV	_	_	34	advmod	_	_
+33	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	34	expl:impers	_	_
+34	pensava	pensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0005
+# text = Publicado por um influente blog de saúde, o artigo detalha como essas vacinas poderiam, supostamente, causar "danos irreversíveis" ao DNA dos imunizados.
+1	Publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	advcl	_	_
+2	por	por	ADP	_	_	5	case	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	influente	influente	ADJ	_	Number=Sing	5	amod	_	_
+5	blog	blog	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	1	obl:agent	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	detalha	detalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	como	como	ADV	_	_	15	advmod	_	_
+13	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	supostamente	supostamente	ADV	_	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	causar	causar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	danos	dano	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+22	irreversíveis	irreversível	ADJ	_	Number=Plur	21	amod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	21	punct	_	_
+24-25	ao	_	_	_	_	_	_	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	DNA	dna	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+27-28	dos	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	29	det	_	_
+29	imunizados	imunizado	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = "Caros cidadãos", começa o texto, atribuído ao renomado ativista e crítico das vacinas Robert F.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Caros	caro	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+3	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	começa	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	texto	texto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	atribuído	atribuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	acl	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	14	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	renomado	renomado	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+14	ativista	ativista	NOUN	_	Number=Sing	10	obl	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	crítico	crítico	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+20	Robert	Robert	PROPN	_	_	16	nmod	_	_
+21	F.	F.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Kennedy Jr.
+1	Kennedy	Kennedy	PROPN	_	_	0	root	_	_
+2	Jr.	Jr.	PROPN	_	_	1	flat:name	_	_
+
+# sent_id = S0011
+# text = , é imperativo que vocês estejam cientes dos riscos não divulgados associados às vacinas de mRNA.
+1	,	,	PUNCT	_	_	3	punct	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	imperativo	imperativo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+6	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	cientes	ciente	ADJ	_	Number=Plur	3	csubj	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	divulgados	divulgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+13	associados	associar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+14-15	às	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	mRNA	mRNA	PROPN	_	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Estamos diante de uma situação sem precedentes na história da humanidade.
+1	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	diante	diante	ADV	_	_	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	situação	situação	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	sem	sem	ADP	_	_	7	case	_	_
+7	precedentes	precedente	NOUN	_	Number=Plur	5	nmod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	história	história	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = De acordo com essa publicação, os lipossomos usados para entregar o mRNA às células poderiam, de alguma forma, interagir com o DNA humano, resultando em mutações genéticas.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	lipossomos	lipossomo	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+9	usados	usar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	entregar	entregar	VERB	_	VerbForm=Inf	9	advcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mRNA	mRNA	PROPN	_	_	11	obj	_	_
+14-15	às	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	células	célula	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+17	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	forma	forma	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	interagir	interagir	VERB	_	VerbForm=Inf	17	xcomp	_	_
+24	com	com	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	DNA	dna	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+27	humano	humano	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	resultando	resultar	VERB	_	VerbForm=Ger	23	advcl	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	mutações	mutação	NOUN	_	Gender=Fem|Number=Plur	29	obl	_	_
+32	genéticas	genético	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0019
+# text = O texto destaca que tais danos seriam "incapazes de serem revertidos por qualquer terapia conhecida atualmente".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	texto	texto	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	9	mark	_	_
+5	tais	tal	DET	_	Number=Plur|PronType=Dem	6	det	_	_
+6	danos	dano	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	9	cop	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	incapazes	incapaz	ADJ	_	Number=Plur	3	ccomp	_	_
+10	de	de	ADP	_	_	12	mark	_	_
+11	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	12	aux:pass	_	_
+12	revertidos	reverter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	15	det	_	_
+15	terapia	terapia	NOUN	_	Gender=Fem|Number=Sing	12	obl:agent	_	_
+16	conhecida	conhecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	_
+17	atualmente	atualmente	ADV	_	_	16	advmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Embora essas alegações tenham sido recebidas com ceticismo por muitos cientistas, o medo se espalha rapidamente entre a população, especialmente em grupos antivacina.
+1	Embora	embora	SCONJ	_	_	6	mark	_	_
+2	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	alegações	alegação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+4	tenham	ter	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	6	aux:pass	_	_
+6	recebidas	receber	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	16	advcl	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	ceticismo	ceticismo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+11	cientistas	cientista	NOUN	_	Number=Plur	6	obl:agent	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	medo	medo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	espalha	espalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	rapidamente	rapidamente	ADV	_	_	16	advmod	_	_
+18	entre	entre	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	população	população	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	especialmente	especialmente	ADV	_	_	24	advmod	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+25	antivacina	antivacina	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0023
+# text = Kennedy, conhecido por sua campanha contra vacinas nos Estados Unidos, teria afirmado: Não estamos apenas lutando por escolhas individuais, mas pela segurança genética das futuras gerações.
+1	Kennedy	Kennedy	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	amod	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	contra	contra	ADP	_	_	8	case	_	_
+8	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9-10	nos	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Estados	Estados	PROPN	_	_	6	nmod	_	_
+12	Unidos	Unidos	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	aux	_	_
+15	afirmado	afirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	20	punct	_	_
+17	Não	não	ADV	_	_	20	advmod	_	_
+18	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	apenas	apenas	ADV	_	_	20	advmod	_	_
+20	lutando	lutar	VERB	_	VerbForm=Ger	15	ccomp:speech	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	escolhas	escolha	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+23	individuais	individual	ADJ	_	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	mas	mas	CCONJ	_	_	28	cc	_	_
+26-27	pela	_	_	_	_	_	_	_	_
+26	por	por	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	segurança	segurança	NOUN	_	Number=Sing	22	conj	_	_
+29	genética	genético	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	das	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	33	case	_	_
+31	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	futuras	futuro	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	_
+33	gerações	geração	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0025
+# text = Ignorar esses riscos seria um crime contra a humanidade.
+1	Ignorar	ignorar	VERB	_	VerbForm=Inf	6	csubj	_	_
+2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	cop	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	crime	crime	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	contra	contra	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0029
+# text = O blog que publicou o artigo, Mater Salutis, inicialmente defendeu a veracidade do conteúdo, mas após ser questionado, admitiu não ter fontes confiáveis e retirou a publicação do ar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	blog	blog	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	12	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Mater	Mater	PROPN	_	_	2	appos	_	_
+9	Salutis	Salutis	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	inicialmente	inicialmente	ADV	_	_	12	advmod	_	_
+12	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	veracidade	veracidade	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	24	punct	_	_
+19	mas	mas	CCONJ	_	_	24	cc	_	_
+20	após	após	ADP	_	_	22	mark	_	_
+21	ser	ser	AUX	_	VerbForm=Inf	22	aux:pass	_	_
+22	questionado	questionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	admitiu	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+25	não	não	ADV	_	_	26	advmod	_	_
+26	ter	ter	VERB	_	VerbForm=Inf	24	xcomp	_	_
+27	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	confiáveis	confiável	ADJ	_	Number=Plur	27	amod	_	_
+29	e	e	CCONJ	_	_	30	cc	_	_
+30	retirou	retirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	ar	ar	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0031
+# text = No entanto, o dano já estava feito, com milhares de compartilhamentos nas redes sociais, espalhando ainda mais a desconfiança sobre a segurança das vacinas.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	9	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dano	dano	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	já	já	ADV	_	_	9	advmod	_	_
+8	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	feito	feito	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	milhares	milhar	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	compartilhamentos	compartilhamento	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+15-16	nas	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	redes	rede	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+18	sociais	social	ADJ	_	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	espalhando	espalhar	VERB	_	VerbForm=Ger	9	advcl	_	_
+21	ainda	ainda	ADV	_	_	22	advmod	_	_
+22	mais	mais	ADV	_	_	20	advmod	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	desconfiança	desconfiança	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+25	sobre	sobre	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	segurança	segurança	NOUN	_	Number=Sing	24	nmod	_	_
+28-29	das	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0033
+# text = Enquanto autoridades sanitárias e cientistas reforçam que as vacinas de mRNA não alteram o DNA e são seguras, a narrativa contrária ganha força, especialmente em países onde o movimento antivacina está crescendo.
+1	Enquanto	enquanto	SCONJ	_	_	6	mark	_	_
+2	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	sanitárias	sanitário	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	cientistas	cientista	NOUN	_	Number=Plur	2	conj	_	_
+6	reforçam	reforçar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+7	que	que	SCONJ	_	_	13	mark	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	mRNA	mRNA	PROPN	_	_	9	nmod	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	alteram	alterar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	DNA	dna	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	seguras	seguro	ADJ	_	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	6	punct	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	narrativa	narrativa	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	contrária	contrário	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	ganha	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	força	força	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	especialmente	especialmente	ADV	_	_	28	advmod	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	países	país	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+29	onde	onde	ADV	_	_	34	advmod	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	movimento	movimento	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
+32	antivacina	antivacina	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+33	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	crescendo	crescer	VERB	_	VerbForm=Ger	28	acl:relcl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0035
+# text = Nos EUA, 20% dos cidadãos afirmam que não tomarão a vacina, e na Europa, protestos contra a imunização têm ocorrido frequentemente.
+1-2	Nos	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	EUA	EUA	PROPN	_	_	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	20	20	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
+6	%	%	SYM	_	_	10	nsubj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	13	mark	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	tomarão	tomar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	ccomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	27	punct	_	_
+17	e	e	CCONJ	_	_	27	cc	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Europa	Europa	PROPN	_	_	27	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	protestos	protesto	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
+23	contra	contra	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	imunização	imunização	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	têm	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	conj	_	_
+28	frequentemente	frequentemente	ADV	_	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0037
+# text = No Brasil, embora a maioria ainda pretenda se vacinar, a disseminação de notícias falsas sobre vacinas cresceu 383% no Facebook, de acordo com um levantamento recente da União Pró-Vacina da USP.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Brasil	Brasil	PROPN	_	_	20	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	embora	embora	SCONJ	_	_	9	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	ainda	ainda	ADV	_	_	9	advmod	_	_
+9	pretenda	pretender	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	vacinar	vacinar	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	disseminação	disseminação	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+17	falsas	falso	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	sobre	sobre	ADP	_	_	19	case	_	_
+19	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+20	cresceu	crescer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	383	383	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	_	_	20	obj	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Facebook	Facebook	PROPN	_	_	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	levantamento	levantamento	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	recente	recente	ADJ	_	Number=Sing	31	amod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	União	União	PROPN	_	_	31	nmod	_	_
+36	Pró-Vacina	Pró-Vacina	PROPN	_	_	35	flat:name	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	USP	USP	PROPN	_	_	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0039
+# text = Essa controvérsia levanta questões cruciais sobre a transparência e a comunicação dos riscos associados às novas tecnologias de vacinação.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	controvérsia	controvérsia	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	levanta	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	questões	questão	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	cruciais	crucial	ADJ	_	Number=Plur	4	amod	_	_
+6	sobre	sobre	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+15	associados	associar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	_
+16-17	às	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	19	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	novas	novo	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+19	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	vacinação	vacinação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0041
+# text = Será que estamos sendo informados corretamente? A decisão de se vacinar deve ser feita com conhecimento de todas as possíveis consequências.
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+2	que	que	SCONJ	_	_	5	discourse	_	_
+3	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	informados	informar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6	corretamente	corretamente	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+8	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	de	de	ADP	_	_	12	mark	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	vacinar	vacinar	VERB	_	VerbForm=Inf	9	acl	_	_
+13	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	root	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	15	aux:pass	_	_
+15	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	conhecimento	conhecimento	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	de	de	ADP	_	_	22	case	_	_
+19	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	22	det	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	possíveis	possível	ADJ	_	Number=Plur	22	amod	_	_
+22	consequências	consequência	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0043
+# text = *Fontes: Blog Mater Salutis, União Pró-Vacina da USP, e declarações de Robert F.
+1	*	*	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	Blog	Blog	PROPN	_	_	2	appos	_	_
+5	Mater	Mater	PROPN	_	_	4	flat:name	_	_
+6	Salutis	Salutis	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	União	União	PROPN	_	_	4	conj	_	_
+9	Pró-Vacina	Pró-Vacina	PROPN	_	_	8	flat:name	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	USP	USP	PROPN	_	_	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Robert	Robert	PROPN	_	_	15	nmod	_	_
+18	F.	F.	PROPN	_	_	17	punct	_	_
+
+# sent_id = S0045
+# text = Kennedy Jr.
+1	Kennedy	Kennedy	PROPN	_	_	0	root	_	_
+2	Jr.	Jr.	PROPN	_	_	1	flat:name	_	_
+
+# sent_id = S0047
+# text = amplamente divulgadas em redes sociais.
+1	amplamente	amplamente	ADV	_	_	2	advmod	_	_
+2	divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	redes	rede	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
+5	sociais	social	ADJ	_	Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+

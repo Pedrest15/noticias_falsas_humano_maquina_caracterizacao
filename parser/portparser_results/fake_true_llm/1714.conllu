@@ -1,0 +1,274 @@
+# sent_id = S0001
+# text = Lupa: "Revelação chocante! Os registros de óbitos nos cartórios desmentem os números anunciados pelas Secretarias de Saúde! ESCÂNDALO"!
+1	Lupa	lupa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	4	punct	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+5	chocante	chocante	ADJ	_	Number=Sing	4	amod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	4	punct	_	_
+7	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	registros	registro	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	óbitos	óbito	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	cartórios	cartório	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+14	desmentem	desmenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	números	número	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+17	anunciados	anunciar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	16	acl	_	_
+18-19	pelas	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	Secretarias	Secretarias	PROPN	_	_	17	obl:agent	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Saúde	Saúde	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	24	punct	_	_
+24	ESCÂNDALO	escândalo	NOUN	_	Gender=Masc|Number=Sing	14	parataxis	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+26	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Confira a discrepância alarmante: Em 2019, entre 1o de janeiro e 21 de abril, mais de 4.
+1	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	discrepância	discrepância	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	alarmante	alarmante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	7	punct	_	_
+6	Em	em	ADP	_	_	7	case	_	_
+7	2019	2019	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	entre	entre	ADP	_	_	10	case	_	_
+10	1o	1o	ADJ	_	Gender=Masc|NumType=Ord	20	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	21	21	NUM	_	NumType=Card	10	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	abril	abril	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	10	punct	_	_
+18	mais	mais	ADV	_	ExtPos=ADV	20	advmod	_	_
+19	de	de	ADP	_	_	18	fixed	_	_
+20	4	4	NUM	_	NumType=Card	1	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = 600 pessoas faleceram devido a doenças respiratórias.
+1	600	600	NUM	_	NumType=Card	2	nummod	_	_
+2	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	faleceram	falecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+7	respiratórias	respiratório	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Já em 2020, no mesmo período, as mortes por essas doenças caíram para cerca de 2.
+1	Já	já	CCONJ	_	_	15	cc	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	2020	2020	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	período	período	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mortes	morte	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+15	caíram	cair	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	para	para	ADP	_	_	19	case	_	_
+17	cerca	cerca	ADV	_	ExtPos=ADV	19	advmod	_	_
+18	de	de	ADP	_	_	17	fixed	_	_
+19	2	2	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = 500! Isso mesmo, uma redução de mais de 45%!
+1	500	500	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	3	punct	_	_
+3	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	discourse	_	_
+4	mesmo	mesmo	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	redução	redução	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+8	de	de	ADP	_	_	12	case	_	_
+9	mais	mais	ADV	_	ExtPos=ADV	11	advmod	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	45	45	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	_	_	7	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Mas a história não para por aí: No ápice da suposta "pandemia", em 20 de abril, a mídia divulgou mais de 300 mortes por COVID-19 em um único dia.
+1	Mas	mas	CCONJ	_	_	5	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	história	história	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	para	parar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	aí	aí	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	26	punct	_	_
+9-10	No	_	_	_	_	_	_	_	_
+9	Em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ápice	ápice	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	16	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	16	amod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	20	20	NUM	_	NumType=Card	11	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	abril	abril	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+26	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+27	mais	mais	ADV	_	ExtPos=ADV	29	advmod	_	_
+28	de	de	ADP	_	_	27	fixed	_	_
+29	300	300	NUM	_	NumType=Card	30	nummod	_	_
+30	mortes	morte	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+31	por	por	ADP	_	_	32	case	_	_
+32	COVID-19	covid-19	NUM	_	NumType=Card	30	nmod	_	_
+33	em	em	ADP	_	_	36	case	_	_
+34	um	um	NUM	_	Gender=Masc|NumType=Card	36	nummod	_	_
+35	único	único	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+36	dia	dia	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = No entanto, os dados dos cartórios revelam um número assombrosamente menor - apenas 15 mortes registradas em todo o Brasil, contando até mesmo os casos suspeitos!
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	10	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dados	dado	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cartórios	cartório	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	número	número	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	assombrosamente	assombrosamente	ADV	_	_	14	advmod	_	_
+14	menor	menor	ADJ	_	Number=Sing	12	amod	_	_
+15	-	-	PUNCT	_	_	18	punct	_	_
+16	apenas	apenas	ADV	_	_	17	advmod	_	_
+17	15	15	NUM	_	NumType=Card	18	nummod	_	_
+18	mortes	morte	NOUN	_	Gender=Fem|Number=Plur	12	appos	_	_
+19	registradas	registrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	18	acl	_	_
+20	em	em	ADP	_	_	23	case	_	_
+21	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	23	det	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Brasil	Brasil	PROPN	_	_	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	contando	contar	VERB	_	VerbForm=Ger	18	advcl	_	_
+26	até	até	ADV	_	_	29	advmod	_	_
+27	mesmo	mesmo	ADV	_	_	25	advmod	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	casos	caso	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	_
+30	suspeitos	suspeito	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
+31	!	!	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = E em São Paulo, onde os noticiários apontavam uma tragédia sem precedentes, os cartórios registraram um único óbito suspeito de Covid-19 no dia 20/04.
+1	E	e	CCONJ	_	_	17	cc	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	São	São	PROPN	_	_	17	obl	_	_
+4	Paulo	Paulo	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	onde	onde	ADV	_	_	9	advmod	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	noticiários	noticiário	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	apontavam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tragédia	tragédia	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	sem	sem	ADP	_	_	13	case	_	_
+13	precedentes	precedente	NOUN	_	Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	cartórios	cartório	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+17	registraram	registrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	um	um	NUM	_	Gender=Masc|NumType=Card	20	nummod	_	_
+19	único	único	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	óbito	óbito	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+21	suspeito	suspeito	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Covid-19	covid-19	NUM	_	NumType=Card	20	nmod	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	dia	dia	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+27	20/04	20/04	NUM	_	NumType=Card	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0017
+# text = Será que a pandemia é realmente tão devastadora quanto nos fazem acreditar?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	discourse	_	_
+2	que	que	SCONJ	_	_	8	discourse	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	realmente	realmente	ADV	_	_	8	advmod	_	_
+7	tão	tão	ADV	_	_	8	advmod	_	_
+8	devastadora	devastador	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+9	quanto	quanto	SCONJ	_	_	11	mark	_	_
+10	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+11	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+12	acreditar	acreditar	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = A situação em Manaus é ainda mais controvérsia: enquanto a televisão noticiava 136 sepultamentos em 21 de abril, os registros oficiais indicam somente 10 óbitos, lançando dúvidas sobre a veracidade dos números apresentados.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	Manaus	Manaus	PROPN	_	_	2	nmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	ainda	ainda	ADV	_	_	8	advmod	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	controvérsia	controvérsia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	24	punct	_	_
+10	enquanto	enquanto	SCONJ	_	_	13	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	noticiava	noticiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+14	136	136	NUM	_	NumType=Card	15	nummod	_	_
+15	sepultamentos	sepultamento	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	21	21	NUM	_	NumType=Card	13	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	abril	abril	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	13	punct	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	registros	registro	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+23	oficiais	oficial	ADJ	_	Number=Plur	22	amod	_	_
+24	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+25	somente	somente	ADV	_	_	26	advmod	_	_
+26	10	10	NUM	_	NumType=Card	27	nummod	_	_
+27	óbitos	óbito	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	lançando	lançar	VERB	_	VerbForm=Ger	24	advcl	_	_
+30	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	29	obj	_	_
+31	sobre	sobre	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	veracidade	veracidade	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+34-35	dos	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	números	número	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
+37	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	36	acl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	8	punct	_	_
+

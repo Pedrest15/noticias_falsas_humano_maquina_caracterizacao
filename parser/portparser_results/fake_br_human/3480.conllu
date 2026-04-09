@@ -1,0 +1,118 @@
+# sent_id = S0001
+# text = Advogada americana se diz "Embaixadora de Jesus " e quer processar todos os gays do mundo.
+1	Advogada	advogado	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	americana	americano	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Embaixadora	Embaixadora	PROPN	_	_	4	xcomp	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Jesus	Jesus	PROPN	_	_	6	nmod	_	_
+9	"	"	PUNCT	_	_	6	punct	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	processar	processar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	gays	gay	NOUN	_	Number=Plur	12	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Caso rejeitado.
+1	Caso	caso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	rejeitado	rejeitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = No dia 1o de maio de 2015, a norte-americana Sylvia Ann Driskell, entrou com uma ação manuscrita de 7 páginas na corte de Omaha, em Nebraska (EUA), contra todos os homossexuais do mundo.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dia	dia	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+4	1o	1o	ADJ	_	Gender=Masc|NumType=Ord	3	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	maio	maio	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	2015	2015	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	norte-americana	norte-americano	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+12	Sylvia	Sylvia	PROPN	_	_	11	nmod	_	_
+13	Ann	Ann	PROPN	_	_	12	flat:name	_	_
+14	Driskell	Driskell	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	3	punct	_	_
+16	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	ação	ação	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	manuscrita	manuscrito	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	19	amod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	7	7	NUM	_	NumType=Card	23	nummod	_	_
+23	páginas	página	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	corte	corte	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Omaha	Omaha	PROPN	_	_	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	Nebraska	Nebraska	PROPN	_	_	26	nmod	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	EUA	EUA	PROPN	_	_	31	parataxis	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	39	punct	_	_
+36	contra	contra	ADP	_	_	39	case	_	_
+37	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	39	det	_	_
+38	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	homossexuais	homossexual	NOUN	_	Number=Plur	16	obl	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = O juiz John M. Gerrard rejeitou o processo!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	John	John	PROPN	_	_	2	nmod	_	_
+4	M.	M.	PROPN	_	_	3	flat:name	_	_
+5	Gerrard	Gerrard	PROPN	_	_	3	flat:name	_	_
+6	rejeitou	rejeitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	processo	processo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Abaixo, um trecho do Memorando do juiz, expedido no dia 06 de maio de 2015.:
+1	Abaixo	abaixo	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Memorando	Memorando	PROPN	_	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	expedido	expedir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dia	dia	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	06	06	NUM	_	NumType=Card	15	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	maio	maio	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	2015	2015	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	4	punct	_	_
+

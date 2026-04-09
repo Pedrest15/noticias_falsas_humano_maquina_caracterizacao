@@ -1,0 +1,214 @@
+# sent_id = S0001
+# text = O PT corrompeu o mundo!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PT	PT	PROPN	_	_	3	nsubj	_	_
+3	corrompeu	corromper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = 37 países fecham acordo com a Lava-Jato.
+1	37	37	NUM	_	NumType=Card	2	nummod	_	_
+2	países	país	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	fecham	fechar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Lava-Jato	Lava-Jato	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com matéria do Estadão, os acordos jurídicos foram fechados com base em tratados e convenções internacionais.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Estadão	Estadão	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	acordos	acordo	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+11	jurídicos	jurídico	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	fechados	fechar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	base	base	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	tratados	tratado	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	convenções	convenção	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
+20	internacionais	internacional	ADJ	_	Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = Autoridades do Brasil poderão requisitar a outros países que façam oitivas de pessoas (testemunhas ou investigadas) para que eles possam cooperar na produção e compartilhamento de provas documentais, quebra de sigilos bancário, telefônico, de e-mails, e também bloqueios de bens e/ou valores para prisões e extradições.
+1	Autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Brasil	Brasil	PROPN	_	_	1	nmod	_	_
+5	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	requisitar	requisitar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	países	país	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10	que	que	SCONJ	_	_	11	mark	_	_
+11	façam	fazer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+12	oitivas	oitiva	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	14	appos	_	_
+17	ou	ou	CCONJ	_	_	18	cc	_	_
+18	investigadas	investigado	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	16	punct	_	_
+20	para	para	ADP	_	ExtPos=SCONJ	23	mark	_	_
+21	que	que	SCONJ	_	_	20	fixed	_	_
+22	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+23	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+24	cooperar	cooperar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	produção	produção	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	compartilhamento	compartilhamento	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	provas	prova	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
+32	documentais	documental	ADJ	_	Number=Plur	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	quebra	quebra	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	sigilos	sigilo	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
+37	bancário	bancário	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	telefônico	telefônico	ADJ	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	e-mails	e-mails	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	46	punct	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	também	também	ADV	_	_	46	advmod	_	_
+46	bloqueios	bloqueio	NOUN	_	Gender=Masc|Number=Plur	27	conj	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	bens	bem	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	_
+49	e/ou	e/ou	CCONJ	_	_	50	cc	_	_
+50	valores	valor	NOUN	_	Gender=Masc|Number=Plur	48	conj	_	_
+51	para	para	ADP	_	_	52	case	_	_
+52	prisões	prisão	NOUN	_	Gender=Fem|Number=Plur	46	nmod	_	_
+53	e	e	CCONJ	_	_	54	cc	_	_
+54	extradições	extradição	NOUN	_	Gender=Fem|Number=Plur	52	conj	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = A lista inclui trinta e sete países.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lista	lista	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	trinta	trinta	NUM	_	NumType=Card	7	nummod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	sete	sete	NUM	_	NumType=Card	4	conj	_	_
+7	países	país	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Entre eles estão: Estados Unidos, Suíça, Itália, Dinamarca, Suécia, Noruega, Cingapura, Gibraltar, Liechtenstein, Ilhas Cayman, Uruguai, Canadá, Panamá, República Dominicana, Guatemala, Peru, Ilhas de Man, Andorra, Alemanha, Rússia, Macau, China, Cingapura, Hong Kong, entre outros.
+1	Entre	entre	ADP	_	_	2	case	_	_
+2	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	Estados	Estados	PROPN	_	_	2	nsubj	_	_
+6	Unidos	Unidos	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Suíça	Suíça	PROPN	_	_	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Itália	Itália	PROPN	_	_	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	Dinamarca	Dinamarca	PROPN	_	_	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Suécia	Suécia	PROPN	_	_	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	Noruega	Noruega	PROPN	_	_	5	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	Cingapura	Cingapura	PROPN	_	_	5	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Gibraltar	Gibraltar	PROPN	_	_	5	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Liechtenstein	Liechtenstein	PROPN	_	_	5	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	Ilhas	Ilhas	PROPN	_	_	5	conj	_	_
+25	Cayman	Cayman	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	Uruguai	Uruguai	PROPN	_	_	5	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	Canadá	Canadá	PROPN	_	_	5	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	Panamá	Panamá	PROPN	_	_	5	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	República	República	PROPN	_	_	5	conj	_	_
+34	Dominicana	Dominicana	PROPN	_	_	33	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	Guatemala	Guatemala	PROPN	_	_	5	conj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	Peru	Peru	PROPN	_	_	5	conj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	Ilhas	Ilhas	PROPN	_	_	5	conj	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	Man	Man	PROPN	_	_	40	flat:name	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	_
+44	Andorra	Andorra	PROPN	_	_	5	conj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	48	punct	_	_
+46	Alemanha	Alemanha	PROPN	_	_	5	conj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	50	punct	_	_
+48	Rússia	Rússia	PROPN	_	_	5	conj	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	Macau	Macau	PROPN	_	_	5	conj	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	China	China	PROPN	_	_	5	conj	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	54	punct	_	_
+54	Cingapura	Cingapura	PROPN	_	_	5	conj	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	56	punct	_	_
+56	Hong	Hong	PROPN	_	_	5	conj	_	_
+57	Kong	Kong	PROPN	_	_	56	flat:name	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	60	punct	_	_
+59	entre	entre	ADP	_	_	60	case	_	_
+60	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	5	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Agora os petistas vão dizer que o golpe é mundial!
+1	Agora	agora	ADV	_	_	5	advmod	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	petistas	petista	NOUN	_	Number=Plur	5	nsubj	_	_
+4	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dizer	dizer	VERB	_	VerbForm=Inf	0	root	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	mundial	mundial	ADJ	_	Number=Sing	5	ccomp	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = Vão dizer que esses 37 países estão quebrando o Brasil.
+1	Vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dizer	dizer	VERB	_	VerbForm=Inf	0	root	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+5	37	37	NUM	_	NumType=Card	6	nummod	_	_
+6	países	país	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	quebrando	quebrar	VERB	_	VerbForm=Ger	2	ccomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Brasil	Brasil	PROPN	_	_	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0016
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

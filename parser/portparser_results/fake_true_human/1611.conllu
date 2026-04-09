@@ -1,0 +1,152 @@
+# sent_id = S0001
+# text = barrinha colorida na caixa de leite serve para indicar se produto ja venceu #utilidade voces sabem a diferenca dessas duas caixas de leite?
+1	barrinha	barrinha	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	colorida	colorido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	1	amod	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	caixa	caixa	NOUN	_	Number=Sing	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	leite	leite	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	serve	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	indicar	indicar	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	se	se	SCONJ	_	_	14	mark	_	_
+12	produto	produto	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	ja	ja	ADV	_	_	14	advmod	_	_
+14	venceu	vencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+15	#utilidade	#utilidade	NOUN	_	_	14	obj	_	_
+16	voces	voc	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
+17	sabem	saber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	diferenca	diferenca	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	dessas	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+22	duas	dois	NUM	_	Gender=Fem|NumType=Card	23	nummod	_	_
+23	caixas	caixa	NOUN	_	Number=Plur	19	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	leite	leite	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = aprendi recentemente e achei interessante e util repassar!
+1	aprendi	aprender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	recentemente	recentemente	ADV	_	_	1	advmod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	achei	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+5	interessante	interessante	ADJ	_	Number=Sing	4	xcomp	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	util	util	ADJ	_	Number=Sing	5	conj	_	_
+8	repassar	repassar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = todo produto encaixado (leite, creme de leite, leite condensado, achocolatado, etc).
+1	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	produto	produto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	encaixado	encaixado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	leite	leite	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	creme	creme	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	leite	leite	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	leite	leite	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+12	condensado	condensado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	achocolatado	achocolatado	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	etc	etc	PRON	_	PronType=Dem	5	conj	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = tem uma dessas imagens a baixo que fica no fundo da caixa.a que tem uma barrinha colorida e produto que ja venceu, voltou para o fabricante e colocaram mais produtos para reaproveitar e voltou para o mercado.
+1	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	uma	um	NUM	_	Gender=Fem|NumType=Card	1	obj	_	_
+3-4	dessas	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	baixo	baixo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	caixa.a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	12	nmod	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	barrinha	barrinha	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	colorida	colorido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	19	amod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	produto	produto	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+24	ja	ja	ADV	_	_	25	advmod	_	_
+25	venceu	vencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	voltou	voltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+28	para	para	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	fabricante	fabricante	NOUN	_	Number=Sing	27	obl	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	colocaram	colocar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+33	mais	mais	DET	_	PronType=Ind	34	det	_	_
+34	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	32	obj	_	_
+35	para	para	ADP	_	_	36	mark	_	_
+36	reaproveitar	reaproveitar	VERB	_	VerbForm=Inf	32	advcl	_	_
+37	e	e	CCONJ	_	_	38	cc	_	_
+38	voltou	voltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	conj	_	_
+39	para	para	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = a que nao tem, e produto novo, que ainda nao venceu e esta otimo para consumo.
+1	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	nao	nao	ADV	_	_	4	advmod	_	_
+4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	produto	produto	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+8	novo	novo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+11	ainda	ainda	ADV	_	_	13	advmod	_	_
+12	nao	nao	ADV	_	_	13	advmod	_	_
+13	venceu	vencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	esta	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	otimo	otimo	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = agora tudo que vou comprar olho logo em baixo para dps escolher por validade!
+1	agora	agora	ADV	_	_	6	advmod	_	_
+2	tudo	tudo	PRON	_	PronType=Ind	6	obj	_	_
+3	que	que	PRON	_	PronType=Rel	5	obj	_	_
+4	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	comprar	comprar	VERB	_	VerbForm=Inf	2	acl:relcl	_	_
+6	olho	olhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	logo	logo	ADV	_	_	9	advmod	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	baixo	baixo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	para	para	ADP	_	_	12	mark	_	_
+11	dps	dps	ADV	_	_	12	advmod	_	_
+12	escolher	escolher	VERB	_	VerbForm=Inf	6	advcl	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	validade	validade	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	6	punct	_	_
+

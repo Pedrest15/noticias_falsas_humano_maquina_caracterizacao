@@ -1,0 +1,194 @@
+# sent_id = S0001
+# text = Em questão de segundos, passageiros sentiram tontura e desmaiaram.
+1	Em	em	ADP	_	_	2	case	_	_
+2	questão	questão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	segundos	segundo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	sentiram	sentir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	tontura	tontura	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	desmaiaram	desmaiar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Um voo da empresa aérea American Airlines foi forçado a aterrissar depois que os membros da tripulação e passageiros foram atingidos por uma doença misteriosa.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	voo	voo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	aérea	aéreo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	American	American	PROPN	_	_	5	nmod	_	_
+8	Airlines	Airlines	PROPN	_	_	7	flat:name	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	forçado	forçar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	aterrissar	aterrissar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	depois	depois	ADV	_	ExtPos=SCONJ	23	mark	_	_
+14	que	que	SCONJ	_	_	13	fixed	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	membros	membro	NOUN	_	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tripulação	tripulação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	atingidos	atingir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	advcl	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	doença	doença	NOUN	_	Gender=Fem|Number=Sing	23	obl:agent	_	_
+27	misteriosa	misterioso	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = O voo saiu do Galeão, no Rio de Janeiro, com destino a Miami.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	voo	voo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	saiu	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Galeão	Galeão	PROPN	_	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Rio	Rio	PROPN	_	_	3	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Janeiro	Janeiro	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	destino	destino	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	Miami	Miami	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O avião desceu no Distrito Federal depois que algumas pessoas começaram a passar mal, informação confirmada pela Inframerica, empresa que administra o Aeroporto Internacional de Brasília.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	avião	avião	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	desceu	descer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Distrito	Distrito	PROPN	_	_	3	obl	_	_
+7	Federal	Federal	PROPN	_	_	6	flat:name	_	_
+8	depois	depois	ADV	_	ExtPos=SCONJ	12	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+12	começaram	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+13	a	a	ADP	_	_	14	mark	_	_
+14	passar	passar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	mal	mal	ADV	_	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	informação	informação	NOUN	_	Gender=Fem|Number=Sing	3	parataxis	_	_
+18	confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	_
+19-20	pela	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Inframerica	Inframerica	PROPN	_	_	18	obl:agent	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	administra	administrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Aeroporto	Aeroporto	PROPN	_	_	25	obj	_	_
+28	Internacional	Internacional	PROPN	_	_	27	flat:name	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Brasília	Brasília	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O avião decolou do Rio de Janeiro às 23h de quinta-feira (28).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	avião	avião	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	decolou	decolar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Rio	Rio	PROPN	_	_	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Janeiro	Janeiro	PROPN	_	_	6	flat:name	_	_
+9-10	às	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	23h	23h	NOUN	_	_	3	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	28	28	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Testemunhas disseram que quatro pessoas se queixaram e de tontura, o que também acabou ocasionando desmaios.
+1	Testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	quatro	quatro	NUM	_	NumType=Card	5	nummod	_	_
+5	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	queixaram	queixar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	tontura	tontura	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
+13	que	que	PRON	_	PronType=Rel	12	fixed	_	_
+14	também	também	ADV	_	_	15	advmod	_	_
+15	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+16	ocasionando	ocasionar	VERB	_	VerbForm=Ger	15	xcomp	_	_
+17	desmaios	desmaio	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = O caso é parecido com o fato que ocorreu na quarta-feira (27), quando tripulantes e passageiros também foram atingidos por uma doença misteriosa que causou desmaios durante um voo que ia de Londres para Los Angeles.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	parecido	parecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	27	27	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	23	punct	_	_
+17	quando	quando	ADV	_	_	23	advmod	_	_
+18	tripulantes	tripulante	NOUN	_	Number=Plur	23	nsubj:pass	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+21	também	também	ADV	_	_	23	advmod	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	atingidos	atingir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	doença	doença	NOUN	_	Gender=Fem|Number=Sing	23	obl:agent	_	_
+27	misteriosa	misterioso	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+29	causou	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	_	_
+30	desmaios	desmaio	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
+31	durante	durante	ADP	_	_	33	case	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	voo	voo	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+34	que	que	PRON	_	PronType=Rel	35	nsubj	_	_
+35	ia	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	Londres	Londres	PROPN	_	_	35	obl	_	_
+38	para	para	ADP	_	_	39	case	_	_
+39	Los	Los	PROPN	_	_	37	nmod	_	_
+40	Angeles	Angeles	PROPN	_	_	39	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	4	punct	_	_
+

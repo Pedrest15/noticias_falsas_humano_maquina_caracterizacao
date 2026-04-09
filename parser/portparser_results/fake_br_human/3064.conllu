@@ -1,0 +1,137 @@
+# sent_id = S0001
+# text = Mais uma juíza suspende posse de Lula na Casa Civil.
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	uma	um	NUM	_	Gender=Fem|NumType=Card	3	nummod	_	_
+3	juíza	juíz	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	suspende	suspender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	posse	posse	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Lula	Lula	PROPN	_	_	5	nmod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Casa	Casa	PROPN	_	_	5	nmod	_	_
+11	Civil	Civil	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = A juíza disse que tirar o processo contra Lula do juiz federal Sérgio Moro "fere de morte o Sistema Jurídico".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	juíza	juíz	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	17	mark	_	_
+5	tirar	tirar	VERB	_	VerbForm=Inf	17	csubj	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	contra	contra	ADP	_	_	9	case	_	_
+9	Lula	Lula	PROPN	_	_	7	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+13	federal	federal	ADJ	_	Number=Sing	12	amod	_	_
+14	Sérgio	Sérgio	PROPN	_	_	12	nmod	_	_
+15	Moro	Moro	PROPN	_	_	14	flat:name	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	fere	ferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	morte	morte	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Sistema	Sistema	PROPN	_	_	17	obj	_	_
+22	Jurídico	Jurídico	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Regina Coeli Formisano, da 6a Vara da Justiça Federal no Rio, deferiu nova liminar que suspende a posse de Lula como ministro da Casa Civil.
+1	Regina	Regina	PROPN	_	_	17	nsubj	_	_
+2	Coeli	Coeli	PROPN	_	_	1	flat:name	_	_
+3	Formisano	Formisano	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	6a	6a	ADJ	_	Gender=Fem|NumType=Ord	8	amod	_	_
+8	Vara	Vara	PROPN	_	_	1	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Justiça	Justiça	PROPN	_	_	8	flat:name	_	_
+12	Federal	Federal	PROPN	_	_	8	flat:name	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Rio	Rio	PROPN	_	_	8	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	8	punct	_	_
+17	deferiu	deferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	nova	novo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+19	liminar	liminar	NOUN	_	Number=Sing	17	obj	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	suspende	suspender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	posse	posse	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Lula	Lula	PROPN	_	_	23	nmod	_	_
+26	como	como	ADP	_	_	27	case	_	_
+27	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Casa	Casa	PROPN	_	_	27	nmod	_	_
+31	Civil	Civil	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = A juíza considerou em sua decisão que "não fogem à realidade" as insinuações de que a nomeação de Lula teria como objetivo "blindar" o ex-presidente e evitar que ele fosse julgado pelo juiz Sérgio Moro, que conduz a Operação Lava Jato.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	juíza	juíz	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	considerou	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	não	não	ADV	_	_	10	advmod	_	_
+10	fogem	fugir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	10	punct	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	insinuações	insinuação	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+17	de	de	ADP	_	ExtPos=SCONJ	23	mark	_	_
+18	que	que	SCONJ	_	_	17	fixed	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Lula	Lula	PROPN	_	_	20	nmod	_	_
+23	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	16	acl	_	_
+24	como	como	ADP	_	_	25	case	_	_
+25	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	blindar	blindar	VERB	_	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ex-presidente	ex-presidente	NOUN	_	Number=Sing	27	obj	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	evitar	evitar	VERB	_	VerbForm=Inf	27	conj	_	_
+33	que	que	SCONJ	_	_	36	mark	_	_
+34	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj:pass	_	_
+35	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux:pass	_	_
+36	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	ccomp	_	_
+37-38	pelo	_	_	_	_	_	_	_	_
+37	por	por	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	36	obl:agent	_	_
+40	Sérgio	Sérgio	PROPN	_	_	39	nmod	_	_
+41	Moro	Moro	PROPN	_	_	40	flat:name	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	44	punct	_	_
+43	que	que	PRON	_	PronType=Rel	44	nsubj	_	_
+44	conduz	conduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	Operação	Operação	PROPN	_	_	44	obj	_	_
+47	Lava	Lava	PROPN	_	_	46	flat:name	_	_
+48	Jato	Jato	PROPN	_	_	46	flat:name	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	3	punct	_	_
+

@@ -1,0 +1,134 @@
+# sent_id = S0001
+# text = Apresentador americano da CBS detona as Olimpíadas do Rio: "Serão as Olimpíadas do cocô".
+1	Apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	americano	americano	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	CBS	CBS	PROPN	_	_	1	nmod	_	_
+6	detona	detonar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	Olimpíadas	Olimpíadas	PROPN	_	_	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Rio	Rio	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	16	punct	_	_
+13	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	Serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	Olimpíadas	Olimpíadas	PROPN	_	_	6	parataxis	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cocô	cocô	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Os Jogos Olímpicos do Rio 2016 já estão sendo motivo de muitas críticas e piadas internacionais.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Jogos	Jogos	PROPN	_	_	11	nsubj	_	_
+3	Olímpicos	Olímpicos	PROPN	_	_	2	flat:name	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Rio	Rio	PROPN	_	_	2	nmod	_	_
+7	2016	2016	PROPN	_	_	6	flat:name	_	_
+8	já	já	ADV	_	_	11	advmod	_	_
+9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	sendo	ser	AUX	_	VerbForm=Ger	11	cop	_	_
+11	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	muitas	muito	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+14	críticas	crítica	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	piadas	piada	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+17	internacionais	internacional	ADJ	_	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = Obras inacabadas, violência, crise financeira, assaltos, vírus zika, etc... Nomes relevantes da mídia vão além e tratam a Olimpíada Rio 2016 como chacota.
+1	Obras	obra	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+2	inacabadas	inacabado	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	violência	violência	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	crise	crise	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+7	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	assaltos	assalto	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	vírus	vírus	NOUN	_	Gender=Masc	1	conj	_	_
+12	zika	zika	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	etc.	etc.	PUNCT	_	_	1	conj	_	SpaceAfter=No
+15	..	..	PUNCT	_	_	1	punct	_	_
+16	Nomes	nome	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+17	relevantes	relevante	ADJ	_	Number=Plur	16	amod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+21	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	além	além	ADV	_	_	21	advmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	tratam	tratar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Olimpíada	Olimpíada	PROPN	_	_	24	obj	_	_
+27	Rio	Rio	PROPN	_	_	26	flat:name	_	_
+28	2016	2016	PROPN	_	_	26	flat:name	_	_
+29	como	como	ADP	_	_	30	case	_	_
+30	chacota	chacota	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0007
+# text = Foi o que fez o apresentador Stephen Colbert, do famoso programa de entrevistas "Late Show", do canal CBS, dos Estados Unidos, na última terça (28).
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	discourse	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
+3	que	que	PRON	_	PronType=Rel	4	discourse	_	_
+4	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	Stephen	Stephen	PROPN	_	_	6	nmod	_	_
+8	Colbert	Colbert	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	programa	programa	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	entrevistas	entrevista	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Late	Late	PROPN	_	_	13	nmod	_	_
+18	Show	Show	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	canal	canal	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+24	CBS	CBS	PROPN	_	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26-27	dos	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	Estados	Estados	PROPN	_	_	23	nmod	_	_
+29	Unidos	Unidos	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	23	punct	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	34	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	última	último	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
+34	terça	terça-feira	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	4	obl	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	28	28	NUM	_	NumType=Card	34	appos	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0008
+# text = confira:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

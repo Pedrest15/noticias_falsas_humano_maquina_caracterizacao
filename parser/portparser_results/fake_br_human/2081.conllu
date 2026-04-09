@@ -1,0 +1,142 @@
+# sent_id = S0001
+# text = Governo poderá demitir até 18 mil servidores do Banco do Brasil.
+1	Governo	governo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	demitir	demitir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	até	até	ADP	_	_	5	case	_	_
+5	18	18	NUM	_	NumType=Card	7	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	_
+7	servidores	servidor	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Banco	Banco	PROPN	_	_	7	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Brasil	Brasil	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O Banco do Brasil (BB) deu início a um processo de reestruturação planejado pelo governo de Michel Temer.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Banco	Banco	PROPN	_	_	9	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	_	2	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	BB	BB	PROPN	_	_	2	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	início	início	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	processo	processo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	reestruturação	reestruturação	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	planejado	planejar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	governo	governo	NOUN	_	Gender=Masc|Number=Sing	16	obl:agent	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Michel	Michel	PROPN	_	_	19	nmod	_	_
+22	Temer	Temer	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = Foram extintas duas diretorias 10 diretores do banco perderam seus cargos e outros cinco mudaram de área.
+1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	extintas	extinr	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	duas	dois	NUM	_	Gender=Fem|NumType=Card	4	nummod	_	_
+4	diretorias	diretoria	NOUN	_	Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+5	10	10	NUM	_	NumType=Card	6	nummod	_	_
+6	diretores	diretor	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	banco	banco	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	root	_	_
+11	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	cargos	cargo	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	cinco	cinco	NUM	_	NumType=Card	16	nsubj	_	_
+16	mudaram	mudar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	área	área	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = O BB deve anunciar um plano de demissões voluntárias.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	BB	BB	PROPN	_	_	3	nsubj	_	_
+3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anunciar	anunciar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	plano	plano	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	demissões	demissão	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	voluntárias	voluntário	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Os números ainda não foram divulgados.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	números	número	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+3	ainda	ainda	ADV	_	_	6	advmod	_	_
+4	não	não	ADV	_	_	6	advmod	_	_
+5	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	divulgados	divulgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Informações não oficiais dão conta de que a meta é reduzir 18 mil dos 115 mil colaboradores.
+1	Informações	informação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	oficiais	oficial	ADJ	_	Number=Plur	1	amod	_	_
+4	dão	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	conta	conta	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	ExtPos=SCONJ	11	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	meta	meta	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	reduzir	reduzir	VERB	_	VerbForm=Inf	5	acl	_	_
+12	18	18	NUM	_	NumType=Card	11	obj	_	_
+13	mil	mil	NUM	_	NumType=Card	12	flat	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	18	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+16	115	115	NUM	_	NumType=Card	18	nummod	_	_
+17	mil	mil	NUM	_	NumType=Card	16	flat	_	_
+18	colaboradores	colaborador	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = O governo Temer alega que quer tornar a instituição mais leve.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Temer	Temer	PROPN	_	_	2	nmod	_	_
+4	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	6	mark	_	_
+6	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	tornar	tornar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	instituição	instituição	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	mais	mais	ADV	_	_	11	advmod	_	_
+11	leve	leve	ADJ	_	Number=Sing	7	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = com informações do Correio Braziliense.
+1	com	com	ADP	_	_	2	case	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Correio	Correio	PROPN	_	_	2	nmod	_	_
+6	Braziliense	Braziliense	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+

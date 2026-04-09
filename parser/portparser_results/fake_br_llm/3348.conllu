@@ -1,0 +1,720 @@
+# sent_id = S0001
+# text = Terça-feira, 24 de outubro de 2017.
+1	Terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	24	24	NUM	_	NumType=Card	1	appos	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	2017	2017	NUM	_	NumType=Card	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Boa noite!
+1	Boa	bom	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	noite	noite	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Aqui estão as principais notícias para você terminar o dia bem-informado.
+1	Aqui	aqui	ADV	_	_	5	advmod	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	principais	principal	ADJ	_	Number=Plur	5	amod	_	_
+5	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+6	para	para	ADP	_	_	8	mark	_	_
+7	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	terminar	terminar	VERB	_	VerbForm=Inf	5	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dia	dia	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	bem-informado	bem-informado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Em uma reviravolta chocante, uma turista espanhola foi morta na Favela da Rocinha, no Rio de Janeiro, supostamente ao tentar escapar de uma operação policial.
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	reviravolta	reviravolta	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	chocante	chocante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	turista	turista	NOUN	_	Number=Sing	10	nsubj:pass	_	_
+8	espanhola	espanhol	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	morta	matar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Favela	Favela	PROPN	_	_	10	obl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Rocinha	Rocinha	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Rio	Rio	PROPN	_	_	13	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Janeiro	Janeiro	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	supostamente	supostamente	ADV	_	_	27	advmod	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	ExtPos=SCONJ	27	mark	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	fixed	_	_
+27	tentar	tentar	VERB	_	VerbForm=Inf	10	advcl	_	_
+28	escapar	escapar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	operação	operação	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+32	policial	policial	ADJ	_	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Maria Esperanza Ruiz Jimenez, de 67 anos, estava em um veículo com turistas e um guia brasileiro.
+1	Maria	Maria	PROPN	_	_	13	nsubj	_	_
+2	Esperanza	Esperanza	PROPN	_	_	1	flat:name	_	_
+3	Ruiz	Ruiz	PROPN	_	_	1	flat:name	_	_
+4	Jimenez	Jimenez	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	67	67	NUM	_	NumType=Card	8	nummod	_	_
+8	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	turistas	turista	NOUN	_	Number=Plur	13	nmod	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	guia	guia	NOUN	_	Number=Sing	15	conj	_	_
+19	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = A polícia alega que o carro ignorou um bloqueio policial, mas o motorista, um italiano que vive no Brasil há 4 anos, contesta veementemente, afirmando não ter percebido a blitz e que não houve ordem para parar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	3	nsubj	_	_
+3	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	carro	carro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ignorou	ignorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bloqueio	bloqueio	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	policial	policial	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	27	punct	_	_
+12	mas	mas	CCONJ	_	_	27	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	motorista	motorista	NOUN	_	Number=Sing	27	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
+18	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+19	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Brasil	Brasil	PROPN	_	_	19	obl	_	_
+23	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+24	4	4	NUM	_	NumType=Card	25	nummod	_	_
+25	anos	ano	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	17	punct	_	_
+27	contesta	contestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	root	_	_
+28	veementemente	veementemente	ADV	_	_	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	afirmando	afirmar	VERB	_	VerbForm=Ger	27	advcl	_	_
+31	não	não	ADV	_	_	33	advmod	_	_
+32	ter	ter	AUX	_	VerbForm=Inf	33	aux	_	_
+33	percebido	perceber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	xcomp	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	blitz	blitz	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
+36	e	e	CCONJ	_	_	39	cc	_	_
+37	que	que	SCONJ	_	_	39	mark	_	_
+38	não	não	ADV	_	_	39	advmod	_	_
+39	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	conj	_	_
+40	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
+41	para	para	ADP	_	_	42	mark	_	_
+42	parar	parar	VERB	_	VerbForm=Inf	40	acl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Maria Esperanza foi atingida no pescoço e morreu antes de chegar ao hospital.
+1	Maria	Maria	PROPN	_	_	4	nsubj:pass	_	_
+2	Esperanza	Esperanza	PROPN	_	_	1	flat:name	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	atingida	atingir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pescoço	pescoço	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	antes	antes	ADV	_	_	9	advmod	_	_
+11	de	de	ADP	_	_	12	mark	_	_
+12	chegar	chegar	VERB	_	VerbForm=Inf	10	acl	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Dois policiais também foram feridos em confrontos posteriores na Rocinha.
+1	Dois	dois	NUM	_	Gender=Masc|NumType=Card	2	nummod	_	_
+2	policiais	policial	NOUN	_	Number=Plur	5	nsubj:pass	_	_
+3	também	também	ADV	_	_	5	advmod	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	feridos	ferir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	confrontos	confronto	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+8	posteriores	posterior	ADJ	_	Number=Plur	7	amod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Rocinha	Rocinha	PROPN	_	_	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = O ex-governador do Rio Sérgio Cabral e o juiz Marcelo Bretas protagonizaram um confronto verbal intenso durante audiência, com Cabral acusando o Ministério Público Federal de encenar um "espetáculo midiático".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-governador	ex-governador	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Rio	Rio	PROPN	_	_	2	nmod	_	_
+6	Sérgio	Sérgio	PROPN	_	_	2	nmod	_	_
+7	Cabral	Cabral	PROPN	_	_	6	flat:name	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+11	Marcelo	Marcelo	PROPN	_	_	10	nmod	_	_
+12	Bretas	Bretas	PROPN	_	_	11	flat:name	_	_
+13	protagonizaram	protagonizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	verbal	verbal	ADJ	_	Number=Sing	15	amod	_	_
+17	intenso	intenso	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+18	durante	durante	ADP	_	_	19	case	_	_
+19	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	Cabral	Cabral	PROPN	_	_	13	obl	_	_
+23	acusando	acusar	VERB	_	VerbForm=Ger	13	advcl	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Ministério	Ministério	PROPN	_	_	23	obj	_	_
+26	Público	Público	PROPN	_	_	25	flat:name	_	_
+27	Federal	Federal	PROPN	_	_	25	flat:name	_	_
+28	de	de	ADP	_	_	29	mark	_	_
+29	encenar	encenar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	espetáculo	espetáculo	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+33	midiático	midiático	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = Bretas, visivelmente irritado, respondeu que não permitiria que Cabral usasse a audiência para "contar histórias falsas".
+1	Bretas	Bretas	PROPN	_	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	visivelmente	visivelmente	ADV	_	_	4	advmod	_	_
+4	irritado	irritado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	permitiria	permitir	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	ccomp	_	_
+10	que	que	SCONJ	_	_	12	mark	_	_
+11	Cabral	Cabral	PROPN	_	_	12	nsubj	_	_
+12	usasse	usar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	para	para	ADP	_	_	17	mark	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	contar	contar	VERB	_	VerbForm=Inf	12	advcl	_	_
+18	histórias	história	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	falsas	falso	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = O interrogatório foi suspenso temporariamente devido à tensão.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	interrogatório	interrogatório	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	suspenso	suspender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	temporariamente	temporariamente	ADV	_	_	4	advmod	_	_
+6	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = Em Goiânia, um pai expressou profunda ignorância sobre o bullying sofrido por seu filho de 14 anos, que atirou contra colegas em uma escola.
+1	Em	em	ADP	_	_	2	case	_	_
+2	Goiânia	Goiânia	PROPN	_	_	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pai	pai	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	expressou	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	ignorância	ignorância	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bullying	bullying	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	sofrido	sofrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	filho	filho	NOUN	_	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	14	14	NUM	_	NumType=Card	18	nummod	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	atirou	atirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+22	contra	contra	ADP	_	_	23	case	_	_
+23	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	escola	escola	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = O estudante foi transferido para um centro de internação, onde aguarda decisão judicial sobre o tempo de sua permanência.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudante	estudante	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	transferido	transferir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	centro	centro	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	internação	internação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	onde	onde	ADV	_	_	12	advmod	_	_
+12	aguarda	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	judicial	judicial	ADJ	_	Number=Sing	13	amod	_	_
+15	sobre	sobre	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	permanência	permanência	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = Testemunhas, incluindo familiares e funcionários da escola, serão ouvidas nos próximos dias.
+1	Testemunhas	testemunha	NOUN	_	Gender=Fem|Number=Plur	12	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	incluindo	incluir	VERB	_	VerbForm=Ger	1	acl	_	_
+4	familiares	familiar	NOUN	_	Number=Plur	3	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	escola	escola	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_
+12	ouvidas	ouvir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+16	dias	dia	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0029
+# text = O presidente Temer mobilizou sua equipe para garantir a presença dos líderes aliados na votação da segunda denúncia contra ele, marcada para depois de amanhã.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	Temer	Temer	PROPN	_	_	2	nmod	_	_
+4	mobilizou	mobilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	garantir	garantir	VERB	_	VerbForm=Inf	4	advcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	presença	presença	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	aliados	aliado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	votação	votação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	21	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
+21	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22	contra	contra	ADP	_	_	23	case	_	_
+23	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	marcada	marcar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	_	_
+26	para	para	ADP	_	_	27	case	_	_
+27	depois	depois	ADV	_	_	25	advmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	amanhã	amanhã	ADV	_	_	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0031
+# text = Rumores indicam que Temer planeja um encontro com líderes no Palácio da Alvorada, replicando a estratégia usada na primeira denúncia.
+1	Rumores	rumor	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	Temer	Temer	PROPN	_	_	5	nsubj	_	_
+5	planeja	planejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Palácio	Palácio	PROPN	_	_	5	obl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Alvorada	Alvorada	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	replicando	replicar	VERB	_	VerbForm=Ger	5	advcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	24	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
+24	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0033
+# text = Pesquisas do Instituto Datafolha revelam que entre os evangélicos, Marina Silva e Jair Bolsonaro lideram as preferências para a corrida presidencial.
+1	Pesquisas	pesquisa	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Instituto	Instituto	PROPN	_	_	1	nmod	_	_
+5	Datafolha	Datafolha	PROPN	_	_	4	flat:name	_	_
+6	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	17	mark	_	_
+8	entre	entre	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	evangélicos	evangélico	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	Marina	Marina	PROPN	_	_	17	nsubj	_	_
+13	Silva	Silva	PROPN	_	_	12	flat:name	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	Jair	Jair	PROPN	_	_	12	conj	_	_
+16	Bolsonaro	Bolsonaro	PROPN	_	_	15	flat:name	_	_
+17	lideram	liderar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	preferências	preferência	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+20	para	para	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	corrida	corrida	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	presidencial	presidencial	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0035
+# text = Uma crise ambiental se desenrola em Goiás: as prefeituras de Alto Paraíso e Cavalcante decretaram emergência devido ao incêndio no Parque Nacional da Chapada dos Veadeiros, que já destruiu 15% do território.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	crise	crise	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ambiental	ambiental	ADJ	_	Number=Sing	2	amod	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	desenrola	desenrolar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	Goiás	Goiás	PROPN	_	_	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	16	punct	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	prefeituras	prefeitura	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Alto	Alto	PROPN	_	_	10	nmod	_	_
+13	Paraíso	Paraíso	PROPN	_	_	12	flat:name	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	Cavalcante	Cavalcante	PROPN	_	_	12	conj	_	_
+16	decretaram	decretar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+17	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	advcl	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	incêndio	incêndio	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Parque	Parque	PROPN	_	_	21	nmod	_	_
+25	Nacional	Nacional	PROPN	_	_	24	flat:name	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Chapada	Chapada	PROPN	_	_	24	flat:name	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	Veadeiros	Veadeiros	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	35	punct	_	_
+33	que	que	PRON	_	PronType=Rel	35	nsubj	_	_
+34	já	já	ADV	_	_	35	advmod	_	_
+35	destruiu	destruir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+36	15	15	NUM	_	NumType=Card	37	nummod	_	SpaceAfter=No
+37	%	%	SYM	_	_	35	obj	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	território	território	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0037
+# text = O parque, Patrimônio Natural da Humanidade, está com visitação suspensa.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	parque	parque	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	Patrimônio	Patrimônio	PROPN	_	_	2	appos	_	_
+5	Natural	Natural	PROPN	_	_	4	flat:name	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Humanidade	Humanidade	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	visitação	visitação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13	suspensa	suspender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	12	acl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0039
+# text = O presidente Temer prometeu ações efetivas para combater o fogo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	Temer	Temer	PROPN	_	_	2	nmod	_	_
+4	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ações	ação	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	efetivas	efetivo	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	combater	combater	VERB	_	VerbForm=Inf	5	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0041
+# text = Em um evento trágico no Rio Grande do Norte, Carlos Adriel Mendes da Silva, 21 anos, morreu em um acidente de moto a apenas duas horas de seu casamento.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	evento	evento	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+4	trágico	trágico	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Rio	Rio	PROPN	_	_	3	nmod	_	_
+8	Grande	Grande	PROPN	_	_	7	flat:name	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Norte	Norte	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	Carlos	Carlos	PROPN	_	_	23	nsubj	_	_
+14	Adriel	Adriel	PROPN	_	_	13	flat:name	_	_
+15	Mendes	Mendes	PROPN	_	_	13	flat:name	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Silva	Silva	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	21	21	NUM	_	NumType=Card	21	nummod	_	_
+21	anos	ano	NOUN	_	Gender=Masc|Number=Plur	13	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	moto	moto	NOUN	_	Number=Sing	26	nmod	_	_
+29	a	a	ADP	_	_	32	case	_	_
+30	apenas	apenas	ADV	_	_	31	advmod	_	_
+31	duas	dois	NUM	_	Gender=Fem|NumType=Card	32	nummod	_	_
+32	horas	hora	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
+35	casamento	casamento	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0043
+# text = Silva estava a caminho de casa para preparar uma surpresa romântica para sua noiva quando colidiu com um carro misteriosamente abandonado no local.
+1	Silva	Silva	PROPN	_	_	4	nsubj	_	_
+2	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	casa	casa	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	preparar	preparar	VERB	_	VerbForm=Inf	4	advcl	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	romântica	romântico	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	noiva	noivo	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+15	quando	quando	SCONJ	_	_	16	mark	_	_
+16	colidiu	colidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	carro	carro	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+20	misteriosamente	misteriosamente	ADV	_	_	21	advmod	_	_
+21	abandonado	abandonar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	local	local	NOUN	_	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0045
+# text = O motorista fugiu sem prestar socorro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motorista	motorista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	fugiu	fugir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sem	sem	ADP	_	_	5	mark	_	_
+5	prestar	prestar	VERB	_	VerbForm=Inf	3	advcl	_	_
+6	socorro	socorro	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0047
+# text = Na busca pela pequena Sherin Mathews, de 3 anos, desaparecida no Texas após ser deixada do lado de fora de casa por seu pai, a polícia encontrou um corpo de uma criança.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	busca	busca	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	7	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+7	Sherin	Sherin	PROPN	_	_	3	nmod	_	_
+8	Mathews	Mathews	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	3	3	NUM	_	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	desaparecida	desaparecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Texas	Texas	PROPN	_	_	14	obl	_	_
+18	após	após	ADP	_	_	20	mark	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	20	aux:pass	_	_
+20	deixada	deixar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	advcl	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	lado	lado	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	fora	fora	ADV	_	_	23	advmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	casa	casa	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+28	por	por	ADP	_	_	30	case	_	_
+29	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+30	pai	pai	NOUN	_	Gender=Masc|Number=Sing	20	obl:agent	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	3	punct	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	polícia	polícia	NOUN	_	Number=Sing	34	nsubj	_	_
+34	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	criança	criança	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = S0049
+# text = A descoberta intensifica as buscas e levanta questionamentos sobre a segurança infantil nos EUA.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	descoberta	descoberto	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	intensifica	intensificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	buscas	busca	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	levanta	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	questionamentos	questionamento	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	segurança	segurança	NOUN	_	Number=Sing	8	nmod	_	_
+12	infantil	infantil	ADJ	_	Number=Sing	11	amod	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	EUA	EUA	PROPN	_	_	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0051
+# text = Por fim, uma descoberta arqueológica surpreendente: cerca de 400 estruturas de pedra antigas foram encontradas no deserto da Arábia Saudita via Google Earth.
+1	Por	por	ADP	_	_	2	case	_	_
+2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	descoberta	descoberto	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	arqueológica	arqueológico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	surpreendente	surpreendente	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	17	punct	_	_
+9	cerca	cerca	ADV	_	ExtPos=ADV	11	advmod	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	400	400	NUM	_	NumType=Card	12	nummod	_	_
+12	estruturas	estrutura	NOUN	_	Gender=Fem|Number=Plur	17	nsubj:pass	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	pedra	pedra	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	antigas	antigo	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	deserto	deserto	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Arábia	Arábia	PROPN	_	_	20	nmod	_	_
+24	Saudita	Saudita	PROPN	_	_	23	flat:name	_	_
+25	via	via	ADP	_	_	26	case	_	_
+26	Google	Google	PROPN	_	_	17	obl	_	_
+27	Earth	Earth	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0053
+# text = Arqueólogos especulam que essas construções, possivelmente feitas por tribos nômades, têm entre 2 mil e 9 mil anos, mas sua função permanece um mistério.
+1	Arqueólogos	arqueólogo	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	especulam	especular	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	13	mark	_	_
+4	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	construções	construção	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	possivelmente	possivelmente	ADV	_	_	8	advmod	_	_
+8	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	tribos	tribo	NOUN	_	Gender=Fem|Number=Plur	8	obl:agent	_	_
+11	nômades	nômade	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	_
+13	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+14	entre	entre	ADP	_	_	15	case	_	_
+15	2	2	NUM	_	NumType=Card	20	nummod	_	_
+16	mil	mil	NUM	_	NumType=Card	15	flat	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	9	9	NUM	_	NumType=Card	15	conj	_	_
+19	mil	mil	NUM	_	NumType=Card	15	flat	_	_
+20	anos	ano	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	mas	mas	CCONJ	_	_	25	cc	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	função	função	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+25	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mistério	mistério	NOUN	_	Gender=Masc|Number=Sing	25	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+

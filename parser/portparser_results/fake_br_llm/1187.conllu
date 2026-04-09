@@ -1,0 +1,440 @@
+# sent_id = S0001
+# text = Urgente: Manifestantes mascarados invadem e incendeiam Ministério da Cultura em Brasília!
+1	Urgente	urgente	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Manifestantes	manifestante	NOUN	_	Number=Plur	5	nsubj	_	_
+4	mascarados	mascarado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	3	amod	_	_
+5	invadem	invadir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	incendeiam	incendeiar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	Ministério	Ministério	PROPN	_	_	7	obj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Cultura	Cultura	PROPN	_	_	8	flat:name	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	Brasília	Brasília	PROPN	_	_	5	obl	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Na quarta-feira (24), um protesto violento na Esplanada dos Ministérios chocou o país.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	24	24	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+10	violento	violento	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Esplanada	Esplanada	PROPN	_	_	9	nmod	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Ministérios	Ministérios	PROPN	_	_	13	flat:name	_	_
+17	chocou	chocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	país	país	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0005
+# text = Câmeras do Ministério da Cultura capturaram cenas devastadoras de vandalismo liderado por um grupo de encapuzados que, além de depredar os prédios ministeriais, causaram um incêndio significativo no edifício.
+1	Câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ministério	Ministério	PROPN	_	_	1	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Cultura	Cultura	PROPN	_	_	4	flat:name	_	_
+8	capturaram	capturar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	cenas	cena	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	devastadoras	devastador	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	vandalismo	vandalismo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	liderado	liderar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	encapuzados	encapuzado	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+19	que	que	PRON	_	PronType=Rel	28	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	além	além	ADV	_	_	28	advmod	_	_
+22	de	de	ADP	_	_	23	mark	_	_
+23	depredar	depredar	VERB	_	VerbForm=Inf	21	acl	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	prédios	prédio	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+26	ministeriais	ministerial	ADJ	_	Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	21	punct	_	_
+28	causaram	causar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	incêndio	incêndio	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+32-33	no	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	edifício	edifício	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = O ato destrutivo teve início por volta das 15h, com imagens mostrando manifestantes usando pedras e pedaços de madeira para quebrar as vidraças do ministério.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ato	ato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	destrutivo	destrutivo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	início	início	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	por	por	ADP	_	ExtPos=ADP	10	case	_	_
+7	volta	volta	NOUN	_	Gender=Fem|Number=Sing	6	fixed	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	6	fixed	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	15h	15h	NOUN	_	_	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+14	mostrando	mostrar	VERB	_	VerbForm=Ger	13	acl	_	_
+15	manifestantes	manifestante	NOUN	_	Number=Plur	14	obj	_	_
+16	usando	usar	VERB	_	VerbForm=Ger	15	acl	_	_
+17	pedras	pedra	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	pedaços	pedaço	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	madeira	madeira	NOUN	_	Number=Sing	19	nmod	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	quebrar	quebrar	VERB	_	VerbForm=Inf	16	advcl	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	vidraças	vidraça	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ministério	ministério	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Os seguranças foram rapidamente dominados, permitindo a entrada dos vândalos, que portavam martelos e canos.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	seguranças	segurança	NOUN	_	Number=Plur	5	nsubj:pass	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	rapidamente	rapidamente	ADV	_	_	5	advmod	_	_
+5	dominados	dominar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	permitindo	permitir	VERB	_	VerbForm=Ger	5	advcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	vândalos	vândalo	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	portavam	portar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	martelos	martelo	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	canos	cano	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Eles destruíram aparelhos eletrônicos, móveis e chegaram a incendiar uma estrutura metálica.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	destruíram	destruír	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	aparelhos	aparelho	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+4	eletrônicos	eletrônico	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	móveis	móvel	NOUN	_	Number=Plur	3	conj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	chegaram	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	a	a	ADP	_	_	10	mark	_	_
+10	incendiar	incendiar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	metálica	metálico	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Em um ato de brutalidade, os invasores utilizaram livros da biblioteca recém-restaurada e um sofá para alimentar o fogo.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ato	ato	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	brutalidade	brutalidade	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	invasores	invasor	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	utilizaram	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	livros	livro	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	biblioteca	biblioteca	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	recém-restaurada	recém-restaurada	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sofá	sofá	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	alimentar	alimentar	VERB	_	VerbForm=Inf	9	advcl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = Em um momento dramático, um dos vândalos percebe a câmera e a desativa, deixando um mistério sobre os momentos finais do caos.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+4	dramático	dramático	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	um	um	NUM	_	Gender=Masc|NumType=Card	10	nsubj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	vândalos	vândalo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	câmera	câmera	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	desativa	desativar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	deixando	deixar	VERB	_	VerbForm=Ger	10	advcl	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mistério	mistério	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	sobre	sobre	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+23	finais	final	ADJ	_	Number=Plur	22	amod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	caos	caos	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = Outras câmeras, no entanto, continuaram a registrar a violência, incluindo o momento em que um invasor, armado com um poste de iluminação, invade a recepção e causa mais danos.
+1	Outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	ExtPos=CCONJ	8	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	continuaram	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	_	_	10	mark	_	_
+10	registrar	registrar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	violência	violência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	incluindo	incluir	VERB	_	VerbForm=Ger	8	advcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	momento	momento	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	que	que	PRON	_	PronType=Rel	29	obl	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	invasor	invasor	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	armado	armar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	_
+23	com	com	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	poste	poste	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	iluminação	iluminação	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	22	punct	_	_
+29	invade	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	recepção	recepção	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	causa	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+34	mais	mais	DET	_	PronType=Ind	35	det	_	_
+35	danos	dano	NOUN	_	Gender=Masc|Number=Plur	33	obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = O Ministério da Cultura emitiu uma nota oficial condenando fortemente os atos de vandalismo e destacando que a biblioteca, pronta para ser inaugurada, sofreu danos irreparáveis.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministério	Ministério	PROPN	_	_	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Cultura	Cultura	PROPN	_	_	2	flat:name	_	_
+6	emitiu	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	nota	nota	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	oficial	oficial	ADJ	_	Number=Sing	8	amod	_	_
+10	condenando	condenar	VERB	_	VerbForm=Ger	8	acl	_	_
+11	fortemente	fortemente	ADV	_	_	10	advmod	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	atos	ato	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	vandalismo	vandalismo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	destacando	destacar	VERB	_	VerbForm=Ger	10	conj	_	_
+18	que	que	SCONJ	_	_	27	mark	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	biblioteca	biblioteca	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	pronta	pronto	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+23	para	para	ADP	_	_	25	mark	_	_
+24	ser	ser	AUX	_	VerbForm=Inf	25	aux:pass	_	_
+25	inaugurada	inaugurar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	22	punct	_	_
+27	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+28	danos	dano	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+29	irreparáveis	irreparável	ADJ	_	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = O expediente no ministério foi suspenso até segunda-feira (28) para a realização de uma perícia detalhada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	expediente	expediente	NOUN	_	Number=Sing	7	nsubj:pass	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministério	ministério	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	suspenso	suspender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	até	até	ADP	_	_	9	case	_	_
+9	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	28	28	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	realização	realização	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	perícia	perícia	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	detalhada	detalhado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = A Secretaria de Segurança Pública do DF informou que apenas três pessoas foram detidas, suspeitas de crimes graves como incêndio criminoso e agressão a seguranças.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Secretaria	Secretaria	PROPN	_	_	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Segurança	Segurança	PROPN	_	_	2	flat:name	_	_
+5	Pública	Pública	PROPN	_	_	2	flat:name	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	DF	DF	PROPN	_	_	2	nmod	_	_
+9	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	15	mark	_	_
+11	apenas	apenas	ADV	_	_	12	advmod	_	_
+12	três	três	NUM	_	NumType=Card	13	nummod	_	_
+13	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+14	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	detidas	deter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	suspeitas	suspeito	ADJ	_	Gender=Fem|Number=Plur	15	advcl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+20	graves	grave	ADJ	_	Number=Plur	19	amod	_	_
+21	como	como	ADP	_	_	22	case	_	_
+22	incêndio	incêndio	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	criminoso	criminoso	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	agressão	agressão	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
+26	a	a	ADP	_	_	27	case	_	_
+27	seguranças	segurança	NOUN	_	Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0025
+# text = Estranhamente, a Polícia Civil relatou que nenhum dos detidos possui vínculos com o DF, levantando suspeitas sobre a origem e motivação do grupo.
+1	Estranhamente	estranhamente	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polícia	Polícia	PROPN	_	_	6	nsubj	_	_
+5	Civil	Civil	PROPN	_	_	4	flat:name	_	_
+6	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	12	mark	_	_
+8	nenhum	nenhum	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	detidos	detido	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	vínculos	vínculo	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	DF	DF	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	levantando	levantar	VERB	_	VerbForm=Ger	12	advcl	_	_
+19	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+20	sobre	sobre	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	origem	origem	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	motivação	motivação	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0027
+# text = Os funcionários do Ministério do Meio Ambiente, que compartilham o mesmo edifício, relataram ter ouvido ameaças específicas contra projetos ambientais em andamento.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ministério	Ministério	PROPN	_	_	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Meio	Meio	PROPN	_	_	5	flat:name	_	_
+9	Ambiente	Ambiente	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	compartilham	compartilhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	edifício	edifício	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	relataram	relatar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	ter	ter	AUX	_	VerbForm=Inf	19	aux	_	_
+19	ouvido	ouvir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	xcomp	_	_
+20	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	específicas	específico	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+22	contra	contra	ADP	_	_	23	case	_	_
+23	projetos	projeto	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+24	ambientais	ambiental	ADJ	_	Number=Plur	23	amod	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	andamento	andamento	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0029
+# text = A situação é alarmante, e a população está pedindo respostas e medidas de segurança mais rígidas para proteger os patrimônios públicos de Brasília.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	alarmante	alarmante	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	e	e	CCONJ	_	_	10	cc	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	população	população	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pedindo	pedir	VERB	_	VerbForm=Ger	4	conj	_	_
+11	respostas	resposta	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	segurança	segurança	NOUN	_	Number=Sing	13	nmod	_	_
+16	mais	mais	ADV	_	_	17	advmod	_	_
+17	rígidas	rígido	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	proteger	proteger	VERB	_	VerbForm=Inf	10	advcl	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	patrimônios	patrimônio	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+22	públicos	público	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Brasília	Brasília	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
+

@@ -1,0 +1,199 @@
+# sent_id = S0001
+# text = Rio de Janeiro: Polícia Civil decide entrar em greve.
+1	Rio	Rio	PROPN	_	_	7	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Janeiro	Janeiro	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	Polícia	Polícia	PROPN	_	_	7	nsubj	_	_
+6	Civil	Civil	PROPN	_	_	5	flat:name	_	_
+7	decide	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	entrar	entrar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	greve	greve	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Categorias da Polícia Civil (agentes, inspetores, papiloscopista e peritos) decidiram em assembléia, que entrarão em greve geral.
+1	Categorias	categoria	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polícia	Polícia	PROPN	_	_	1	nmod	_	_
+5	Civil	Civil	PROPN	_	_	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	agentes	agente	NOUN	_	Number=Plur	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	inspetores	inspetor	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	papiloscopista	papiloscopista	NOUN	_	Number=Sing	7	conj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	peritos	perito	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	7	punct	_	_
+15	decidiram	decidir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	assembléia	assembléia	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	que	que	SCONJ	_	_	20	mark	_	_
+20	entrarão	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	ccomp	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	greve	greve	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+23	geral	geral	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0005
+# text = Não foi definida (ainda) a data do início das paralisações.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	definida	definir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	ainda	ainda	ADV	_	_	3	advmod	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	data	data	NOUN	_	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	início	início	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	paralisações	paralisação	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com a decisão tomada na assembléia, o objetivo é parar as atividades em todas as unidades, incluindo a Delegacia Antissequestro (DAS) e também a Delegacia de Homicídios (DH).
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	assembléia	assembléia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	parar	parar	VERB	_	VerbForm=Inf	0	root	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	incluindo	incluir	VERB	_	VerbForm=Ger	14	advcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Delegacia	Delegacia	PROPN	_	_	22	obj	_	_
+25	Antissequestro	Antissequestro	PROPN	_	_	24	flat:name	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27-28	DAS	_	_	_	_	_	_	_	_
+27	DE	DE	PROPN	_	_	24	appos	_	_
+28	AS	AS	PROPN	_	_	27	flat:name	_	_
+29	)	)	PUNCT	_	_	27	punct	_	_
+30	e	e	CCONJ	_	_	33	cc	_	_
+31	também	também	ADV	_	_	33	advmod	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Delegacia	Delegacia	PROPN	_	_	24	conj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	Homicídios	Homicídios	PROPN	_	_	33	flat:name	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	DH	DH	PROPN	_	_	33	parataxis	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = A categoria está sem o pagamento do salário de dezembro, sem previsão do pagto do décimo terceiro (2016) e ainda aguardam créditos de horas extras do segundo semestre do ano passado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	categoria	categoria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	sem	sem	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	salário	salário	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	sem	sem	ADP	_	_	14	case	_	_
+14	previsão	previsão	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pagto	pagto	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	décimo	décimo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	2016	2016	NUM	_	NumType=Card	20	appos	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	ainda	ainda	ADV	_	_	27	advmod	_	_
+27	aguardam	aguardar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+28	créditos	crédito	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	horas	hora	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
+31	extras	extra	ADJ	_	Number=Plur	30	amod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	35	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	35	amod	_	_
+35	semestre	semestre	NOUN	_	Number=Sing	30	nmod	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	ano	ano	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
+39	passado	passado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Na última quinta-feira, os delegados do estado já haviam decidido pela pela paralisação.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	delegados	delegado	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	estado	estado	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	já	já	ADV	_	_	13	advmod	_	_
+12	haviam	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	decidido	decidir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+14-15	pela	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	obl	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	paralisação	paralisação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0013
+# text = Os agentes penitenciários também entrarão em greve a partir das 0:00hs de amanhã.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	agentes	agente	NOUN	_	Number=Plur	5	nsubj	_	_
+3	penitenciários	penitenciário	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+4	também	também	ADV	_	_	5	advmod	_	_
+5	entrarão	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	greve	greve	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	partir	partir	VERB	_	VerbForm=Inf	5	advcl	_	_
+10-11	das	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	0:00hs	0:00hs	NOUN	_	_	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	amanhã	amanhã	ADV	_	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+

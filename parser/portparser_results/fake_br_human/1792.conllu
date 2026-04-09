@@ -1,0 +1,64 @@
+# sent_id = S0001
+# text = Lula dizendo que José Sarney é o dono da Globo.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	dizendo	dizer	VERB	_	VerbForm=Ger	0	root	_	_
+3	que	que	SCONJ	_	_	8	mark	_	_
+4	José	José	PROPN	_	_	8	nsubj	_	_
+5	Sarney	Sarney	PROPN	_	_	4	flat:name	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dono	dono	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Globo	Globo	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Esqueça do "Luíz Inácio político" e tente analisar o "Luíz Inácio pessoa".
+1	Esqueça	esquecer	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Luíz	Luíz	PROPN	_	_	1	obl	_	_
+6	Inácio	Inácio	PROPN	_	_	5	flat:name	_	_
+7	político	político	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	5	punct	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	tente	tentar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+11	analisar	analisar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Luíz	Luíz	PROPN	_	_	11	obj	_	_
+15	Inácio	Inácio	PROPN	_	_	14	flat:name	_	_
+16	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	14	flat:name	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Assista o vídeo abaixo e nos diga se o ex-presidente é uma pessoa que bate bem dos pinos: confira:
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	abaixo	abaixo	ADV	_	_	3	advmod	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	nos	nos	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	diga	dizer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	se	se	SCONJ	_	_	13	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ex-presidente	ex-presidente	NOUN	_	Number=Sing	13	nsubj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	7	ccomp	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	bate	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	bem	bem	ADV	_	_	15	advmod	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	pinos	pino	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	21	punct	_	_
+21	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	1	punct	_	_
+

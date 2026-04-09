@@ -1,0 +1,181 @@
+# sent_id = S0001
+# text = Metralhadora ponto 100: Novas delações poderão incluir ministro de Temer e Aécio Neves.
+1	Metralhadora	metralhador	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	100	100	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	7	punct	_	_
+5	Novas	novo	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+6	delações	delação	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	root	_	_
+8	incluir	incluir	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Temer	Temer	PROPN	_	_	9	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	Aécio	Aécio	PROPN	_	_	11	conj	_	_
+14	Neves	Neves	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = A Lava-Jato está muito longe de acabar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lava-Jato	Lava-Jato	PROPN	_	_	5	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	muito	muito	ADV	_	_	5	advmod	_	_
+5	longe	longe	ADV	_	_	0	root	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	acabar	acabar	VERB	_	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Muita bomba ainda vai estourar por aí.
+1	Muita	muito	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ainda	ainda	ADV	_	_	5	advmod	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	estourar	estourar	VERB	_	VerbForm=Inf	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	aí	aí	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Lauro Jardim informou que a delação da Odebrecht está sendo reforçada e poderá contar com um número aproximado de 50 executivos e ex-executivos do grupo.
+1	Lauro	Lauro	PROPN	_	_	3	nsubj	_	_
+2	Jardim	Jardim	PROPN	_	_	1	flat:name	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	12	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	delação	delação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Odebrecht	Odebrecht	PROPN	_	_	6	nmod	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	sendo	ser	AUX	_	VerbForm=Ger	12	aux:pass	_	_
+12	reforçada	reforçar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+15	contar	contar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	número	número	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	aproximado	aproximado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	18	amod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	50	50	NUM	_	NumType=Card	22	nummod	_	_
+22	executivos	executivo	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	ex-executivos	ex-executivos	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = A OAS também está reforçando seu time de delatores e reunirá mais de 15 executivos da empreiteira.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	OAS	OAS	PROPN	_	_	5	nsubj	_	_
+3	também	também	ADV	_	_	5	advmod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	reforçando	reforçar	VERB	_	VerbForm=Ger	0	root	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	time	time	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	delatores	delator	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	reunirá	reunir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+12	mais	mais	ADV	_	ExtPos=ADV	14	advmod	_	_
+13	de	de	ADP	_	_	12	fixed	_	_
+14	15	15	NUM	_	NumType=Card	15	nummod	_	_
+15	executivos	executivo	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	empreiteira	empreiteiro	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Marcelo Odebrecht e Léo Pinheiro serão os protagonistas que poderão ajudar a colocar muito peixe graúdo atrás das grades.
+1	Marcelo	Marcelo	PROPN	_	_	8	nsubj	_	_
+2	Odebrecht	Odebrecht	PROPN	_	_	1	flat:name	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	Léo	Léo	PROPN	_	_	1	conj	_	_
+5	Pinheiro	Pinheiro	PROPN	_	_	4	flat:name	_	_
+6	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	protagonistas	protagonista	NOUN	_	Number=Plur	0	root	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+11	ajudar	ajudar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	colocar	colocar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	muito	muito	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	peixe	peixe	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	graúdo	graúdo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	atrás	atrás	ADV	_	_	13	advmod	_	_
+18-19	das	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	grades	grade	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = Informações dão conta de que a OAS incluirá o novo ministro de Temer, Geddel Vieira Lima [ministro da Secretaria de Governo] e o senador Aécio Neves na roda.
+1	Informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	dão	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	conta	conta	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	ExtPos=SCONJ	8	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	OAS	OAS	PROPN	_	_	8	nsubj	_	_
+8	incluirá	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	novo	novo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Temer	Temer	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Geddel	Geddel	PROPN	_	_	11	appos	_	_
+16	Vieira	Vieira	PROPN	_	_	15	flat:name	_	_
+17	Lima	Lima	PROPN	_	_	15	flat:name	_	_
+18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Secretaria	Secretaria	PROPN	_	_	19	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Governo	Governo	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	19	punct	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	senador	senador	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+29	Aécio	Aécio	PROPN	_	_	28	nmod	_	_
+30	Neves	Neves	PROPN	_	_	29	flat:name	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	roda	roda	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Aquela metralhadora ponto 100 que José Sarney se referiu está prestes a disparar e fazer um estrago!
+1	Aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	metralhadora	metralhador	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	100	100	NUM	_	NumType=Card	3	nmod	_	_
+5	que	que	PRON	_	PronType=Rel	9	obj	_	_
+6	José	José	PROPN	_	_	9	nsubj	_	_
+7	Sarney	Sarney	PROPN	_	_	6	flat:name	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	referiu	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	prestes	preste	ADJ	_	Number=Plur	0	root	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	disparar	disparar	VERB	_	VerbForm=Inf	11	acl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	fazer	fazer	VERB	_	VerbForm=Inf	13	conj	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	estrago	estrago	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	11	punct	_	_
+

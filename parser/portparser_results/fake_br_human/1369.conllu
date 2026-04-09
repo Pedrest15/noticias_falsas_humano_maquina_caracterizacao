@@ -1,0 +1,184 @@
+# sent_id = S0001
+# text = Kim Jon-un posta vídeo pilotando avião e provoca Trump: "Estou pronto para a guerra".
+1	Kim	Kim	PROPN	_	_	3	nsubj	_	_
+2	Jon-un	Jon-un	PROPN	_	_	1	flat:name	_	_
+3	posta	postar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	pilotando	pilotar	VERB	_	VerbForm=Ger	4	acl	_	_
+6	avião	avião	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	provoca	provocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	Trump	Trump	PROPN	_	_	8	obj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	13	punct	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	pronto	pronto	ADJ	_	Gender=Masc|Number=Sing	3	parataxis	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O ditador norte-coreano produziu um vídeo onde mostra sua disposição para a guerra.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	norte-coreano	norte-coreano	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	produziu	produzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	onde	onde	ADV	_	_	8	advmod	_	_
+8	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	disposição	disposição	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Aos 32 anos de idade, Kim Jong-un tenta mostrar ao mundo suas habilidades ao manusear armas, montar um submarino ou até mesmo pilotar um avião (com a ajuda de um piloto profissional ao lado, é claro).
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	32	32	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	idade	idade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	Kim	Kim	PROPN	_	_	10	nsubj	_	_
+9	Jong-un	Jong-un	PROPN	_	_	8	flat:name	_	_
+10	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	mostrar	mostrar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	habilidades	habilidade	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+17-18	ao	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	ExtPos=SCONJ	19	mark	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	_
+19	manusear	manusear	VERB	_	VerbForm=Inf	16	acl	_	_
+20	armas	arma	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	montar	montar	VERB	_	VerbForm=Inf	19	conj	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	submarino	submarino	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	ou	ou	CCONJ	_	_	28	cc	_	_
+26	até	até	ADV	_	_	27	advmod	_	_
+27	mesmo	mesmo	ADV	_	_	28	advmod	_	_
+28	pilotar	pilotar	VERB	_	VerbForm=Inf	19	conj	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	avião	avião	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+32	com	com	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+38	profissional	profissional	ADJ	_	Number=Sing	37	amod	_	_
+39-40	ao	_	_	_	_	_	_	_	_
+39	a	a	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	lado	lado	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	44	punct	_	_
+43	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+44	claro	claro	ADJ	_	Gender=Masc|Number=Sing	34	parataxis	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Nas imagens divulgadas pelo governo norte-coreano, o comunista pode ser visto saudando e instruindo suas tropas, observando tanques e lançamentos de mísseis, conversando com os chefes militares e orientando seu exército de alienados.
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+4	divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	governo	governo	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	norte-coreano	norte-coreano	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comunista	comunista	NOUN	_	Number=Sing	12	nsubj	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	14	aux:pass	_	_
+14	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+15	saudando	saudar	VERB	_	VerbForm=Ger	14	xcomp	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	instruindo	instruir	VERB	_	VerbForm=Ger	15	conj	_	_
+18	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	tropas	tropa	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	observando	observar	VERB	_	VerbForm=Ger	15	conj	_	_
+22	tanques	tanque	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	lançamentos	lançamento	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	mísseis	míssil	NOUN	_	Number=Plur	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	conversando	conversar	VERB	_	VerbForm=Ger	15	conj	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	chefes	chefe	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
+32	militares	militar	ADJ	_	Number=Plur	31	amod	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	orientando	orientar	VERB	_	VerbForm=Ger	21	conj	_	_
+35	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	det	_	_
+36	exército	exército	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	alienados	alienado	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0009
+# text = Um vídeo com mais de uma hora de duração foi lançado pela Televisão Central da Coréia em rede nacional.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	com	com	ADP	_	_	7	case	_	_
+4	mais	mais	ADV	_	ExtPos=ADV	6	advmod	_	_
+5	de	de	ADP	_	_	4	fixed	_	_
+6	uma	um	NUM	_	Gender=Fem|NumType=Card	7	nummod	_	_
+7	hora	hora	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	duração	duração	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12-13	pela	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Televisão	Televisão	PROPN	_	_	11	obl:agent	_	_
+15	Central	Central	PROPN	_	_	14	flat:name	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Coréia	Coréia	PROPN	_	_	14	flat:name	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	rede	rede	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+21	nacional	nacional	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = Horas depois, uma versão "trailer" foi postada no página do YouTube.
+1	Horas	hora	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
+2	depois	depois	ADV	_	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	versão	versão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	trailer	trailer	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	postada	postar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	página	página	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	YouTube	YouTube	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+

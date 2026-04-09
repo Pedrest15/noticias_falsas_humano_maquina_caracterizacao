@@ -1,0 +1,204 @@
+# sent_id = S0001
+# text = O novo Tiririca?
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	novo	novo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	Tiririca	Tiririca	PROPN	_	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = PSOL lança seu candidato à Prefeitura de Londrina.
+1	PSOL	PSOL	PROPN	_	_	2	nsubj	_	_
+2	lança	lançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Prefeitura	Prefeitura	PROPN	_	_	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Londrina	Londrina	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Assista o vídeo!.
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = O PSOL lançou, no último domingo(24), seu candidato à Prefeitura de Londrina, no Paraná.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PSOL	PSOL	PROPN	_	_	3	nsubj	_	_
+3	lançou	lançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	último	último	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	domingo(24	domingo(24	NUM	_	NumType=Card	3	obl	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Prefeitura	Prefeitura	PROPN	_	_	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Londrina	Londrina	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Paraná	Paraná	PROPN	_	_	12	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Será Paulo Silva e o vice-prefeito será o economista Walter Diesel.
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	Paulo	Paulo	PROPN	_	_	0	root	_	_
+3	Silva	Silva	PROPN	_	_	2	flat:name	_	_
+4	e	e	CCONJ	_	_	9	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vice-prefeito	vice-prefeito	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	cop	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	economista	economista	NOUN	_	Number=Sing	2	conj	_	_
+10	Walter	Walter	PROPN	_	_	9	nmod	_	_
+11	Diesel	Diesel	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Decidi disputar para representar a juventude, os jovens de periferia, as pessoas mais carentes.
+1	Decidi	decidir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	disputar	disputar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	para	para	ADP	_	_	4	mark	_	_
+4	representar	representar	VERB	_	VerbForm=Inf	2	advcl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	juventude	juventude	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	jovens	jovem	NOUN	_	Number=Plur	6	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	periferia	periferia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	carentes	carente	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Acredito que a política deve ser construída por toda a comunidade e não por uma classe, disse Silva.
+1	Acredito	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
+2	que	que	SCONJ	_	_	5	mark	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	política	política	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
+7	construída	construir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8	por	por	ADP	_	_	11	case	_	_
+9	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
+12	e	e	CCONJ	_	_	16	cc	_	_
+13	não	não	ADV	_	_	16	advmod	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	classe	classe	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	1	punct	_	_
+18	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	Silva	Silva	PROPN	_	_	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0015
+# text = Silva afirmou que o partido pretende lutar pelas mulheres, pelos jovens, pelos negros e pela comunidade LGBT.
+1	Silva	Silva	PROPN	_	_	2	nsubj	_	_
+2	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	partido	partido	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	pretende	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	lutar	lutar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8-9	pelas	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12-13	pelos	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	jovens	jovem	NOUN	_	Number=Plur	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16-17	pelos	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	negros	negro	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+19	e	e	CCONJ	_	_	22	cc	_	_
+20-21	pela	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+23	LGBT	LGBT	PROPN	_	_	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = No entanto, o PSOL ainda não tem propostas definidas.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	9	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	PSOL	PSOL	PROPN	_	_	9	nsubj	_	_
+7	ainda	ainda	ADV	_	_	9	advmod	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	propostas	proposta	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	definidas	definir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	10	acl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0019
+# text = Paulo Silva tem 23 anos.
+1	Paulo	Paulo	PROPN	_	_	3	nsubj	_	_
+2	Silva	Silva	PROPN	_	_	1	flat:name	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	23	23	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = É estudante de psicologia da Universidade Estadual de Londrina (UEL).
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	estudante	estudante	NOUN	_	Number=Sing	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	psicologia	psicologia	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Universidade	Universidade	PROPN	_	_	2	nmod	_	_
+8	Estadual	Estadual	PROPN	_	_	7	flat:name	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Londrina	Londrina	PROPN	_	_	7	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	UEL	UEL	PROPN	_	_	7	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Será a primeira vez que Silva concorrerá a um cargo político.
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	vez	vez	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	que	que	PRON	_	PronType=Rel	7	obl	_	_
+6	Silva	Silva	PROPN	_	_	7	nsubj	_	_
+7	concorrerá	concorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	político	político	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+

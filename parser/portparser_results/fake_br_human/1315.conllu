@@ -1,0 +1,106 @@
+# sent_id = S0001
+# text = URGENTE: Índios tentam invadir o Congresso Nacional com arcos e flechas.
+1	URGENTE	urgente	ADJ	_	Number=Sing	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Índios	índio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	tentam	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	invadir	invadir	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Congresso	Congresso	PROPN	_	_	5	obj	_	_
+8	Nacional	Nacional	PROPN	_	_	7	flat:name	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	arcos	arco	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	flechas	flecha	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = O clima fechou em Brasília!.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	clima	clima	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	fechou	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Brasília	Brasília	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Neste exato momento, centenas de índios armados com arcos e flechas, machadinhas e outros instrumentos tentam invadir o Congresso Nacional.
+1-2	Neste	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	exato	exato	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	momento	momento	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	centenas	centena	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	índios	índio	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	armados	armar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	arcos	arco	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	flechas	flecha	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	machadinhas	machadinho	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	instrumentos	instrumento	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+19	tentam	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	invadir	invadir	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Congresso	Congresso	PROPN	_	_	20	obj	_	_
+23	Nacional	Nacional	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0007
+# text = A Polícia Legislativa, aquela que protege a turma da gravata, tenta acalmar a situação e joga bombas de gás lacrimogênio no grupo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	14	nsubj	_	_
+3	Legislativa	Legislativa	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	aquela	aquele	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	appos	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	protege	proteger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	turma	turma	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	gravata	gravata	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	5	punct	_	_
+14	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	acalmar	acalmar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	situação	situação	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	joga	jogar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+20	bombas	bomba	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	gás	gás	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	lacrimogênio	lacrimogênio	NOUN	_	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = Há relatos de que alguns índios entraram em luta corporal com alguns desses policiais.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+3	de	de	ADP	_	ExtPos=SCONJ	7	mark	_	_
+4	que	que	SCONJ	_	_	3	fixed	_	_
+5	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	índios	índio	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	entraram	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	luta	luta	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	corporal	corporal	ADJ	_	Number=Sing	9	amod	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	_
+13-14	desses	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	policiais	policial	NOUN	_	Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+

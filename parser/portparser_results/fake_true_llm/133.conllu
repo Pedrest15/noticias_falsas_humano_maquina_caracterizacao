@@ -1,0 +1,307 @@
+# sent_id = S0001
+# text = Atenção! Uma bomba informativa está abalando o cenário político nacional.
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	7	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+3	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	informativa	informativo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	abalando	abalar	VERB	_	VerbForm=Ger	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	político	político	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	nacional	nacional	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Supostamente, um decreto do Superior Tribunal Militar (STM) foi publicado declarando a invalidade das eleições de 2022.
+1	Supostamente	supostamente	ADV	_	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Superior	Superior	PROPN	_	_	4	nmod	_	_
+8	Tribunal	Tribunal	PROPN	_	_	7	flat:name	_	_
+9	Militar	Militar	PROPN	_	_	7	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	STM	STM	PROPN	_	_	7	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+15	declarando	declarar	VERB	_	VerbForm=Ger	14	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	invalidade	invalidade	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	das	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	2022	2022	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0005
+# text = O documento, atribuído ao generalíssimo Luis Gomes Mattos, afirma que fraudes massivas foram detectadas em mais de 300 seções eleitorais, comprometendo a integridade do pleito.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	atribuído	atribuír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	generalíssimo	generalíssimo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	Luis	Luis	PROPN	_	_	4	obl	_	_
+9	Gomes	Gomes	PROPN	_	_	8	flat:name	_	_
+10	Mattos	Mattos	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	17	mark	_	_
+14	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	17	nsubj:pass	_	_
+15	massivas	massivo	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	detectadas	detectar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+18	em	em	ADP	_	_	22	case	_	_
+19	mais	mais	ADV	_	ExtPos=ADV	21	advmod	_	_
+20	de	de	ADP	_	_	19	fixed	_	_
+21	300	300	NUM	_	NumType=Card	22	nummod	_	_
+22	seções	seçõe	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+23	eleitorais	eleitoral	ADJ	_	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	comprometendo	comprometer	VERB	_	VerbForm=Ger	17	advcl	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pleito	pleito	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = Como consequência, o decreto ordena a dissolução do Congresso Nacional, do Senado Federal e do Supremo Tribunal Federal.
+1	Como	como	ADP	_	_	2	case	_	_
+2	consequência	consequência	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ordena	ordenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	dissolução	dissolução	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Congresso	Congresso	PROPN	_	_	8	nmod	_	_
+12	Nacional	Nacional	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Senado	Senado	PROPN	_	_	11	conj	_	_
+17	Federal	Federal	PROPN	_	_	16	flat:name	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Supremo	Supremo	PROPN	_	_	11	conj	_	_
+22	Tribunal	Tribunal	PROPN	_	_	21	flat:name	_	_
+23	Federal	Federal	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = O presidente Jair Bolsonaro seria mantido como chefe do Executivo, agora sob a liderança do Partido Integralista Brasileiro, até a realização de novas eleições.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	6	nsubj:pass	_	_
+3	Jair	Jair	PROPN	_	_	2	nmod	_	_
+4	Bolsonaro	Bolsonaro	PROPN	_	_	3	flat:name	_	_
+5	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux:pass	_	_
+6	mantido	manter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Executivo	Executivo	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	agora	agora	ADV	_	_	16	advmod	_	_
+14	sob	sob	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	liderança	liderança	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Partido	Partido	PROPN	_	_	16	nmod	_	_
+20	Integralista	Integralista	PROPN	_	_	19	flat:name	_	_
+21	Brasileiro	Brasileiro	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	até	até	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	realização	realização	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	novas	novo	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
+28	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Internautas estão compartilhando freneticamente a imagem do decreto, que apresenta um tom alarmista e convincente.
+1	Internautas	internauta	NOUN	_	Number=Plur	3	nsubj	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	compartilhando	compartilhar	VERB	_	VerbForm=Ger	0	root	_	_
+4	freneticamente	freneticamente	ADV	_	_	3	advmod	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	imagem	imagem	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tom	tom	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	alarmista	alarmista	ADJ	_	Number=Sing	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	convincente	convincente	ADJ	_	Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O documento teria sido publicado em uma edição extraoficial do Diário Oficial, no dia 2 de novembro de 2022, com detalhes precisos que aumentam a credibilidade da informação.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	edição	edição	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	extraoficial	extraoficial	ADJ	_	Number=Sing	8	amod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Diário	Diário	PROPN	_	_	8	nmod	_	_
+13	Oficial	Oficial	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dia	dia	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+18	2	2	NUM	_	NumType=Card	17	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	2022	2022	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+26	precisos	preciso	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
+27	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+28	aumentam	aumentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	credibilidade	credibilidade	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	informação	informação	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = No entanto, a assessoria do STM, em resposta ao nosso contato, classificou o decreto como falso.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	18	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	assessoria	assessoria	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	STM	STM	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+16	contato	contato	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	classificou	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	como	como	ADP	_	_	22	case	_	_
+22	falso	falso	ADJ	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0017
+# text = A mensagem viral contém erros gramaticais sutis e informações distorcidas, características comuns em notícias falsas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	viral	viral	ADJ	_	Number=Sing	2	amod	_	_
+4	contém	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	erros	erro	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	gramaticais	gramatical	ADJ	_	Number=Plur	5	amod	_	_
+7	sutis	sutil	ADJ	_	Number=Plur	5	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	informações	informação	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
+10	distorcidas	distorcido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	características	característica	NOUN	_	Gender=Fem|Number=Plur	5	appos	_	_
+13	comuns	comum	ADJ	_	Number=Plur	12	amod	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+16	falsas	falso	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Apesar disso, a narrativa alarmante e a menção a um "generalíssimo" reforçam o teor dramático e atraem a atenção dos leitores.
+1	Apesar	apesar	ADV	_	_	16	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	narrativa	narrativa	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+7	alarmante	alarmante	ADJ	_	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	menção	menção	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+11	a	a	ADP	_	_	14	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	generalíssimo	generalíssimo	ADJ	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	reforçam	reforçar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	teor	teor	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	dramático	dramático	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	atraem	atrair	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	dos	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	leitores	leitor	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0021
+# text = Vídeo: Saiba como identificar se uma mensagem é falsa e proteja-se contra a desinformação.
+1	Vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	3	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Saiba	saber	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	como	como	ADV	_	_	5	advmod	_	_
+5	identificar	identificar	VERB	_	VerbForm=Inf	3	ccomp	_	_
+6	se	se	SCONJ	_	_	10	mark	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	falsa	falso	ADJ	_	Gender=Fem|Number=Sing	5	ccomp	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12-13	proteja-se	_	_	_	_	_	_	_	_
+12	proteja	proteger	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	5	conj	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+14	contra	contra	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	desinformação	desinformação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+

@@ -1,0 +1,447 @@
+# sent_id = S0001
+# text = Exclusivo: Conheça o segredo dos atletas olímpicos!
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Conheça	conhecer	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	segredo	segredo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	atletas	atleta	NOUN	_	Number=Plur	5	nmod	_	_
+9	olímpicos	olímpico	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = As Meias de Compressão Bauerfeind, adotadas por campeões, prometem revolucionar sua corrida.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Meias	Meias	PROPN	_	_	11	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Compressão	Compressão	PROPN	_	_	2	flat:name	_	_
+5	Bauerfeind	Bauerfeind	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	adotadas	adotar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	campeões	campeão	NOUN	_	Gender=Masc|Number=Plur	7	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	prometem	prometer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	revolucionar	revolucionar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	corrida	corrida	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = Estas meias não apenas melhoram a circulação e reduzem a fadiga muscular, mas também possuem um chip oculto que monitora sua performance em tempo real!
+1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	meias	meia	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	apenas	apenas	ADV	_	_	5	advmod	_	_
+5	melhoram	melhorar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	circulação	circulação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	reduzem	reduzir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fadiga	fadiga	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	muscular	muscular	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	mas	mas	CCONJ	_	_	16	cc	_	_
+15	também	também	ADV	_	_	16	advmod	_	_
+16	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	chip	chip	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	oculto	oculto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	18	amod	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	monitora	monitorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	performance	performance	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+26	real	real	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+27	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Sim, você leu certo: tecnologia alemã de ponta que pode transformar qualquer corredor em um atleta de elite.
+1	Sim	sim	ADV	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	leu	ler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	certo	certo	ADJ	_	Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	7	punct	_	_
+7	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
+8	alemã	alemão	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	ponta	ponta	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	transformar	transformar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	15	det	_	_
+15	corredor	corredor	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	atleta	atleta	NOUN	_	Number=Sing	13	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	elite	elite	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Clique aqui e descubra como obter as suas antes que acabem!
+1	Clique	cliquar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	aqui	aqui	ADV	_	_	1	advmod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	descubra	descobrir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+5	como	como	ADV	_	_	6	advmod	_	_
+6	obter	obter	VERB	_	VerbForm=Inf	4	ccomp	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	suas	seu	PRON	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	obj	_	_
+9	antes	antes	ADV	_	ExtPos=SCONJ	11	mark	_	_
+10	que	que	SCONJ	_	_	9	fixed	_	_
+11	acabem	acabar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = E não é só isso!
+1	E	e	CCONJ	_	_	5	cc	_	_
+2	não	não	ADV	_	_	5	advmod	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	só	só	ADV	_	_	5	advmod	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = A Fila lançou uma bermuda que, além de tecnologia de compressão e proteção solar, agora também inclui um sistema de resfriamento pessoal integrado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fila	Fila	PROPN	_	_	3	nsubj	_	_
+3	lançou	lançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bermuda	bermuda	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	que	que	PRON	_	PronType=Rel	19	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	além	além	ADV	_	_	19	advmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+15	solar	solar	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	8	punct	_	_
+17	agora	agora	ADV	_	_	19	advmod	_	_
+18	também	também	ADV	_	_	19	advmod	_	_
+19	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	pessoal	pessoal	ADJ	_	Number=Sing	23	amod	_	_
+25	integrado	integrado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Imagine correr sem se preocupar com o calor intenso!
+1	Imagine	imaginar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	correr	correr	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	sem	sem	ADP	_	_	5	mark	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	preocupar	preocupar	VERB	_	VerbForm=Inf	2	advcl	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	calor	calor	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	intenso	intenso	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = A Bermuda Emana Tech Cooling (R$199,90) é a novidade que todos estão ansiosos para experimentar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Bermuda	Bermuda	PROPN	_	_	11	nsubj	_	_
+3	Emana	Emana	PROPN	_	_	2	flat:name	_	_
+4	Tech	Tech	PROPN	_	_	2	flat:name	_	_
+5	Cooling	Cooling	PROPN	_	_	2	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	R$199,90	R$199,90	NUM	_	NumType=Card	2	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	novidade	novidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+12	que	que	PRON	_	PronType=Rel	15	obj	_	_
+13	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+14	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	ansiosos	ansioso	ADJ	_	Gender=Masc|Number=Plur	11	acl:relcl	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	experimentar	experimentar	VERB	_	VerbForm=Inf	15	acl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0019
+# text = Atenção, corredores!
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	corredores	corredor	NOUN	_	Gender=Masc|Number=Plur	1	vocative	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = A agência Kamel está oferecendo uma oportunidade única: inscrições garantidas para a Maratona de Nova York com um desconto surpreendente.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	agência	agência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Kamel	Kamel	PROPN	_	_	2	nmod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	oferecendo	oferecer	VERB	_	VerbForm=Ger	0	root	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	única	único	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	10	punct	_	_
+10	inscrições	inscrição	NOUN	_	Gender=Fem|Number=Plur	7	appos	_	_
+11	garantidas	garantir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	10	acl	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Maratona	Maratona	PROPN	_	_	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Nova	Nova	PROPN	_	_	14	flat:name	_	_
+17	York	York	PROPN	_	_	14	flat:name	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	desconto	desconto	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+21	surpreendente	surpreendente	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0023
+# text = E o melhor, o pacote inclui treinamento personalizado com ex-atletas olímpicos.
+1	E	e	CCONJ	_	_	7	cc	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj:outer	_	_
+3	melhor	melhor	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pacote	pacote	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	personalizado	personalizado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	ex-atletas	ex-atletas	NOUN	_	Number=Plur	8	nmod	_	_
+12	olímpicos	olímpico	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0025
+# text = Não perca a chance de correr uma das maratonas mais desejadas do mundo por apenas US$999, uma redução incrível!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	perca	perder	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	correr	correr	VERB	_	VerbForm=Inf	4	acl	_	_
+7	uma	um	NUM	_	Gender=Fem|NumType=Card	6	obj	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	maratonas	maratona	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+11	mais	mais	ADV	_	_	12	advmod	_	_
+12	desejadas	desejar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	apenas	apenas	ADV	_	_	18	advmod	_	_
+18	US$999	US$999	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	redução	redução	NOUN	_	Gender=Fem|Number=Sing	6	parataxis	_	_
+22	incrível	incrível	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Clique aqui e garanta sua vaga.
+1	Clique	cliquar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	aqui	aqui	ADV	_	_	1	advmod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	garanta	garantir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	vaga	vaga	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = Para os adeptos de corridas noturnas, a Seven Run chega com uma edição especial iluminada.
+1	Para	para	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	adeptos	adepto	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	corridas	corrida	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+6	noturnas	noturno	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Seven	Seven	PROPN	_	_	11	nsubj	_	_
+10	Run	Run	PROPN	_	_	9	flat:name	_	_
+11	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	edição	edição	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	especial	especial	ADJ	_	Number=Sing	14	amod	_	_
+16	iluminada	iluminar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0031
+# text = A prova em São Paulo terá kits com camisetas que brilham no escuro e medalhas com efeitos luminosos, tornando a experiência mágica.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prova	prova	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	São	São	PROPN	_	_	2	nmod	_	_
+5	Paulo	Paulo	PROPN	_	_	4	flat:name	_	_
+6	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	kits	kit	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	camisetas	camiseta	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	brilham	brilhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	escuro	escuro	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	medalhas	medalha	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+19	luminosos	luminoso	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	tornando	tornar	VERB	_	VerbForm=Ger	6	advcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	mágica	mágico	ADJ	_	Gender=Fem|Number=Sing	21	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0033
+# text = Inscrições por R$99,90 até 13 de dezembro.
+1	Inscrições	inscrição	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	por	por	ADP	_	_	3	case	_	_
+3	R$99,90	R$99,90	NUM	_	NumType=Card	1	nmod	_	_
+4	até	até	ADP	_	_	5	case	_	_
+5	13	13	NUM	_	NumType=Card	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0035
+# text = Participe e corra sob as estrelas!
+1	Participe	participar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	corra	correr	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+4	sob	sob	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	estrelas	estrela	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0037
+# text = Adidas UltraBOOST Laceless não é apenas confortável: agora com um sistema de adaptação inteligente que se ajusta automaticamente ao seu pé.
+1	Adidas	Adidas	PROPN	_	_	7	nsubj	_	_
+2	UltraBOOST	UltraBOOST	PROPN	_	_	1	flat:name	_	_
+3	Laceless	Laceless	PROPN	_	_	1	flat:name	_	_
+4	não	não	ADV	_	_	7	advmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	apenas	apenas	ADV	_	_	7	advmod	_	_
+7	confortável	confortável	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	12	punct	_	_
+9	agora	agora	ADV	_	_	12	advmod	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	7	parataxis	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	adaptação	adaptação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	inteligente	inteligente	ADJ	_	Number=Sing	14	amod	_	_
+16	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+17	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	_	_
+18	ajusta	ajustar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+19	automaticamente	automaticamente	ADV	_	_	18	advmod	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	23	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	pé	pé	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0039
+# text = E a novidade da Nike?
+1	E	e	CCONJ	_	_	3	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	novidade	novidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Nike	Nike	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0041
+# text = O Zoom Fly ganha uma versão especial com nanotecnologia que promete melhorar seu tempo em até 5%!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Zoom	Zoom	PROPN	_	_	4	nsubj	_	_
+3	Fly	Fly	PROPN	_	_	2	flat:name	_	_
+4	ganha	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	versão	versão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	especial	especial	ADJ	_	Number=Sing	6	amod	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	nanotecnologia	nanotecnologia	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	melhorar	melhorar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	até	até	ADP	_	_	17	case	_	_
+17	5	5	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	12	obl	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0043
+# text = Já o Saucony Kinvara 8 foi aprimorado com um sistema de amortecimento que se regenera a cada passo, garantindo uma corrida sempre nova e energizada.
+1	Já	já	CCONJ	_	_	7	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Saucony	Saucony	PROPN	_	_	7	nsubj:pass	_	_
+4	Kinvara	Kinvara	PROPN	_	_	3	flat:name	_	_
+5	8	8	NUM	_	NumType=Card	3	flat:name	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	aprimorado	aprimorar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	amortecimento	amortecimento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	regenera	regenerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	cada	cada	DET	_	Number=Sing|PronType=Ind	18	det	_	_
+18	passo	passo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	garantindo	garantir	VERB	_	VerbForm=Ger	15	advcl	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	corrida	corrida	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	sempre	sempre	ADV	_	_	24	advmod	_	_
+24	nova	novo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	energizada	energizado	ADJ	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0045
+# text = Não fique fora dessa e presenteie com o que há de mais inovador no mundo da corrida!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	fique	ficar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	fora	fora	ADV	_	_	2	advmod	_	_
+4-5	dessa	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	3	obl	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	presenteie	presentear	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obl	_	_
+10	que	que	PRON	_	PronType=Rel	11	obj	_	_
+11	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	inovador	inovador	ADJ	_	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	corrida	corrida	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	2	punct	_	_
+

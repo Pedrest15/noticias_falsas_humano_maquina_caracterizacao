@@ -1,0 +1,277 @@
+# sent_id = S0001
+# text = Jornalista americano diz que governo Dilma patrocina atos de vandalismo do MST.
+1	Jornalista	jornalista	NOUN	_	Number=Sing	3	nsubj	_	_
+2	americano	americano	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	Dilma	Dilma	PROPN	_	_	5	nmod	_	_
+7	patrocina	patrocinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	atos	ato	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	vandalismo	vandalismo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	MST	MST	PROPN	_	_	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Um jornalista do New York Times publicou [em sua rede social] uma nota sobre os protestos do MTST que estão ocorrendo hoje pelo país.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	New	New	PROPN	_	_	2	nmod	_	_
+6	York	York	PROPN	_	_	5	flat:name	_	_
+7	Times	Times	PROPN	_	_	5	flat:name	_	_
+8	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10	em	em	ADP	_	_	12	case	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	rede	rede	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+13	social	social	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	12	punct	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	nota	nota	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+17	sobre	sobre	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	protestos	protesto	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	MTST	MTST	PROPN	_	_	19	nmod	_	_
+23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+24	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	ocorrendo	ocorrer	VERB	_	VerbForm=Ger	19	acl:relcl	_	_
+26	hoje	hoje	ADV	_	_	25	advmod	_	_
+27-28	pelo	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	país	país	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Grupos ligados ao MTST decidiram protestar em grande parte do país na manhã de hoje (28).
+1	Grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	ligados	ligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	MTST	MTST	PROPN	_	_	2	obl	_	_
+6	decidiram	decidir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	protestar	protestar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	grande	grande	ADJ	_	Number=Sing	10	amod	_	_
+10	parte	parte	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	hoje	hoje	ADV	_	_	16	nmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	28	28	NUM	_	NumType=Card	18	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Manifestantes estão bloqueando as vias das principais cidades brasileiras e ateando fogo em pneus.
+1	Manifestantes	manifestante	NOUN	_	Number=Plur	3	nsubj	_	_
+2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	bloqueando	bloquear	VERB	_	VerbForm=Ger	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	vias	via	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6-7	das	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	principais	principal	ADJ	_	Number=Plur	9	amod	_	_
+9	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+10	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	ateando	atear	VERB	_	VerbForm=Ger	3	conj	_	_
+13	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	pneus	pneu	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = [leia mais aqui ] A postagem do jornalista, que já está correndo o mundo, faz uma análise coerente sobre os atos de vandalismo que o MTST está praticando nas principais capitais do Brasil: confira um trecho: Qualquer país que tenha um governo que saiba manter a ordem não pode tolerar esse tipo de abuso.
+1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+3	mais	mais	ADV	_	_	2	advmod	_	_
+4	aqui	aqui	ADV	_	_	2	advmod	_	_
+5	]	]	PUNCT	_	_	2	punct	_	_
+6	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	postagem	postagem	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	jornalista	jornalista	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+13	já	já	ADV	_	_	15	advmod	_	_
+14	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	correndo	correr	VERB	_	VerbForm=Ger	10	acl:relcl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	15	punct	_	_
+19	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	análise	análise	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	coerente	coerente	ADJ	_	Number=Sing	21	amod	_	_
+23	sobre	sobre	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	atos	ato	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	vandalismo	vandalismo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	que	que	PRON	_	PronType=Rel	32	obj	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	MTST	MTST	PROPN	_	_	32	nsubj	_	_
+31	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	praticando	praticar	VERB	_	VerbForm=Ger	25	acl:relcl	_	_
+33-34	nas	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	36	case	_	_
+34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	principais	principal	ADJ	_	Number=Plur	36	amod	_	_
+36	capitais	capital	NOUN	_	Number=Plur	32	obl	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Brasil	Brasil	PROPN	_	_	36	nmod	_	SpaceAfter=No
+40	:	:	PUNCT	_	_	41	punct	_	_
+41	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	19	parataxis	_	_
+42	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	41	obj	_	SpaceAfter=No
+44	:	:	PUNCT	_	_	57	punct	_	_
+45	Qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	46	det	_	_
+46	país	país	NOUN	_	Gender=Masc|Number=Sing	57	nsubj	_	_
+47	que	que	PRON	_	PronType=Rel	48	nsubj	_	_
+48	tenha	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+49	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	governo	governo	NOUN	_	Gender=Masc|Number=Sing	48	obj	_	_
+51	que	que	PRON	_	PronType=Rel	52	nsubj	_	_
+52	saiba	saber	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+53	manter	manter	VERB	_	VerbForm=Inf	52	xcomp	_	_
+54	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	53	obj	_	_
+56	não	não	ADV	_	_	57	advmod	_	_
+57	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	root	_	_
+58	tolerar	tolerar	VERB	_	VerbForm=Inf	57	xcomp	_	_
+59	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	60	det	_	_
+60	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	58	obj	_	_
+61	de	de	ADP	_	_	62	case	_	_
+62	abuso	abuso	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0011
+# text = Cidadãos de bem estão sendo prejudicados por grupos que se auto-intitulam movimentos sociais.
+1	Cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	bem	bem	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sendo	ser	AUX	_	VerbForm=Ger	6	aux:pass	_	_
+6	prejudicados	prejudicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	6	obl:agent	_	_
+9	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	auto-intitulam	auto-intitular	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	11	xcomp	_	_
+13	sociais	social	ADJ	_	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = A polícia deveria agir nesses tipos de manifestações.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	3	nsubj	_	_
+3	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	agir	agir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5-6	nesses	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	manifestações	manifestação	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O trânsito está sendo prejudicado, pessoas estão se atrasando para o trabalho, motoristas correm o risco de causar sérios acidentes.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trânsito	trânsito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	prejudicado	prejudicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+8	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	atrasando	atrasar	VERB	_	VerbForm=Ger	5	parataxis	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	motoristas	motorista	NOUN	_	Number=Plur	16	nsubj	_	_
+16	correm	correr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	risco	risco	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	causar	causar	VERB	_	VerbForm=Inf	18	acl	_	_
+21	sérios	sério	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+22	acidentes	acidente	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = De acordo com fontes, os tais movimentos são patrocinados pelo próprio governo da presidente Rousseff, que sofre a maior rejeição da história do Brasil e tem grandes chances de ser afastada do cargo.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	tais	tal	DET	_	Number=Plur|PronType=Dem	8	det	_	_
+8	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	patrocinados	patrocinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	14	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	governo	governo	NOUN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	presidente	presidente	NOUN	_	Number=Sing	14	nmod	_	_
+18	Rousseff	Rousseff	PROPN	_	_	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	sofre	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	maior	maior	ADJ	_	Number=Sing	24	amod	_	_
+24	rejeição	rejeição	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	história	história	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Brasil	Brasil	PROPN	_	_	27	nmod	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+33	grandes	grande	ADJ	_	Number=Plur	34	amod	_	_
+34	chances	chance	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
+35	de	de	ADP	_	_	37	mark	_	_
+36	ser	ser	AUX	_	VerbForm=Inf	37	aux:pass	_	_
+37	afastada	afastar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	34	acl	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	10	punct	_	_
+

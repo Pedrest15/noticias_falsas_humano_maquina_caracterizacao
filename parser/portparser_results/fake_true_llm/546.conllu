@@ -1,0 +1,105 @@
+# sent_id = S0001
+# text = URGENTE: Caos em Bangu! Assaí Atacadista e Supermercado Guanabara foram saqueados na tarde deste domingo (27).
+1	URGENTE	URGENTE	PROPN	_	_	13	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Caos	caos	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Bangu	Bangu	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	_
+7	Assaí	Assaí	PROPN	_	_	13	nsubj:pass	_	_
+8	Atacadista	Atacadista	PROPN	_	_	7	flat:name	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Supermercado	Supermercado	PROPN	_	_	7	conj	_	_
+11	Guanabara	Guanabara	PROPN	_	_	10	flat:name	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	saqueados	saquear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	deste	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	27	27	NUM	_	NumType=Card	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0003
+# text = Segundo relatos de moradores, a situação está fora de controle, com pessoas correndo e policiais incapazes de conter a multidão.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	relatos	relato	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	moradores	morador	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	situação	situação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	fora	fora	ADV	_	_	0	root	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	controle	controle	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+15	correndo	correr	VERB	_	VerbForm=Ger	14	acl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	policiais	policial	NOUN	_	Number=Plur	14	conj	_	_
+18	incapazes	incapaz	ADJ	_	Number=Plur	17	amod	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	conter	conter	VERB	_	VerbForm=Inf	18	acl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	multidão	multidão	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = O Shopping de Bangu também fechou as portas precocemente devido à onda de violência.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Shopping	Shopping	PROPN	_	_	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Bangu	Bangu	PROPN	_	_	2	nmod	_	_
+5	também	também	ADV	_	_	6	advmod	_	_
+6	fechou	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	portas	porta	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	precocemente	precocemente	ADV	_	_	6	advmod	_	_
+10	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	onda	onda	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	violência	violência	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Imagens chocantes mostram prateleiras vazias e clientes desesperados.
+1	Imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	chocantes	chocante	ADJ	_	Number=Plur	1	amod	_	_
+3	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	prateleiras	prateleira	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	vazias	vazio	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	clientes	cliente	NOUN	_	Number=Plur	4	conj	_	_
+8	desesperados	desesperado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Autoridades locais pedem calma, mas a tensão é palpável nas redes sociais.
+1	Autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	locais	local	ADJ	_	Number=Plur	1	amod	_	_
+3	pedem	pedir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	calma	calma	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	mas	mas	CCONJ	_	_	10	cc	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	palpável	palpável	ADJ	_	Number=Sing	3	conj	_	_
+11-12	nas	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	redes	rede	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+14	sociais	social	ADJ	_	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+

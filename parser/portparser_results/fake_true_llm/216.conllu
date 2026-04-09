@@ -1,0 +1,437 @@
+# sent_id = S0001
+# text = Caixa Econômica Federal anuncia novidade bombástica: valores do PIS/PASEP de até R$ 50 mil disponíveis para saque imediato!
+1	Caixa	Caixa	PROPN	_	_	4	nsubj	_	_
+2	Econômica	Econômica	PROPN	_	_	1	flat:name	_	_
+3	Federal	Federal	PROPN	_	_	1	flat:name	_	_
+4	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	novidade	novidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	appos	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PIS/PASEP	PIS/PASEP	PROPN	_	_	8	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	até	até	ADP	_	_	14	case	_	_
+14	R$	R$	SYM	_	_	8	nmod	_	_
+15	50	50	NUM	_	NumType=Card	14	nummod	_	_
+16	mil	mil	NUM	_	NumType=Card	15	flat	_	_
+17	disponíveis	disponível	ADJ	_	Number=Plur	8	amod	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	saque	saque	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20	imediato	imediato	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Nesta quinta-feira, 25, a Caixa Econômica Federal revelou uma surpresa incrível para os trabalhadores brasileiros.
+1-2	Nesta	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	25	25	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Caixa	Caixa	PROPN	_	_	11	nsubj	_	_
+9	Econômica	Econômica	PROPN	_	_	8	flat:name	_	_
+10	Federal	Federal	PROPN	_	_	8	flat:name	_	_
+11	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	incrível	incrível	ADJ	_	Number=Sing	13	amod	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+18	brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = A partir de agora, os valores do PIS/PASEP, que somam impressionantes R$ 50 bilhões, estão liberados para saque imediato através do aplicativo do FGTS.
+1	A	a	ADP	_	_	2	mark	_	_
+2	partir	partir	VERB	_	VerbForm=Inf	20	advcl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	agora	agora	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	valores	valor	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	PIS/PASEP	PIS/PASEP	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	somam	somar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+14	impressionantes	impressionante	ADJ	_	Number=Plur	17	amod	_	_
+15	R$	R$	SYM	_	_	17	nmod	_	_
+16	50	50	NUM	_	NumType=Card	17	nummod	_	_
+17	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	liberados	liberado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+21	para	para	ADP	_	_	22	case	_	_
+22	saque	saque	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+23	imediato	imediato	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	através	através	ADV	_	_	22	advmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	aplicativo	aplicativo	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	FGTS	FGTS	PROPN	_	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0007
+# text = Cerca de 3 milhões de pessoas têm a chance de receber quantias que podem chegar a até R$ 50 mil!
+1	Cerca	cerca	ADV	_	ExtPos=ADV	3	advmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	3	3	NUM	_	NumType=Card	4	nummod	_	_
+4	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	chance	chance	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	receber	receber	VERB	_	VerbForm=Inf	9	acl	_	_
+12	quantias	quantia	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	chegar	chegar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	até	até	ADP	_	_	18	case	_	_
+18	R$	R$	SYM	_	_	15	obl	_	_
+19	50	50	NUM	_	NumType=Card	18	nummod	_	_
+20	mil	mil	NUM	_	NumType=Card	19	flat	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = Essa nova medida beneficia quem trabalhou com carteira assinada na iniciativa privada ou como servidor público entre 1971 e 1988.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	nova	novo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	medida	medida	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	beneficia	beneficiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quem	quem	PRON	_	PronType=Ind	4	obj	_	_
+6	trabalhou	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	carteira	carteira	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9	assinada	assinado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	8	amod	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	iniciativa	iniciativa	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+13	privada	privado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	12	amod	_	_
+14	ou	ou	CCONJ	_	_	16	cc	_	_
+15	como	como	ADP	_	_	16	case	_	_
+16	servidor	servidor	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+17	público	público	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	entre	entre	ADP	_	_	19	case	_	_
+19	1971	1971	NUM	_	NumType=Card	6	obl	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	1988	1988	NUM	_	NumType=Card	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = O valor a ser recebido varia conforme o tempo de serviço e o salário da época, mas muitos já estão comemorando a possibilidade de sacar quantias substanciais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	a	a	ADP	_	_	5	mark	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+6	varia	variar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	conforme	conforme	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	salário	salário	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	época	época	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	23	punct	_	_
+19	mas	mas	CCONJ	_	_	23	cc	_	_
+20	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	23	nsubj	_	_
+21	já	já	ADV	_	_	23	advmod	_	_
+22	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	comemorando	comemorar	VERB	_	VerbForm=Ger	6	conj	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	de	de	ADP	_	_	27	mark	_	_
+27	sacar	sacar	VERB	_	VerbForm=Inf	25	acl	_	_
+28	quantias	quantia	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	_
+29	substanciais	substancial	ADJ	_	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Em 2019, o governo havia autorizado o saque integral desses recursos, mas a Caixa decidiu ampliar ainda mais o acesso, permitindo agora valores muito maiores e beneficiando um número maior de trabalhadores.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2019	2019	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	autorizado	autorizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	saque	saque	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	integral	integral	ADJ	_	Number=Sing	9	amod	_	_
+11-12	desses	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	mas	mas	CCONJ	_	_	18	cc	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Caixa	Caixa	PROPN	_	_	18	nsubj	_	_
+18	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+19	ampliar	ampliar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	ainda	ainda	ADV	_	_	21	advmod	_	_
+21	mais	mais	ADV	_	_	19	advmod	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	permitindo	permitir	VERB	_	VerbForm=Ger	19	advcl	_	_
+26	agora	agora	ADV	_	_	25	advmod	_	_
+27	valores	valor	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	_
+28	muito	muito	ADV	_	_	29	advmod	_	_
+29	maiores	maior	ADJ	_	Number=Plur	27	amod	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	beneficiando	beneficiar	VERB	_	VerbForm=Ger	25	conj	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	número	número	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+34	maior	maior	ADJ	_	Number=Sing	33	amod	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Para realizar o saque, basta baixar o aplicativo do FGTS, gratuito, e seguir as instruções: clique em "Você possui saque disponível", depois em "Solicitar saque do PIS/PASEP", e escolha a forma de recebimento - crédito em conta ou presencial.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	realizar	realizar	VERB	_	VerbForm=Inf	6	advcl	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	saque	saque	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	basta	bastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	baixar	baixar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	aplicativo	aplicativo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	FGTS	FGTS	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	gratuito	gratuito	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	seguir	seguir	VERB	_	VerbForm=Inf	7	conj	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	instruções	instrução	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	21	punct	_	_
+21	clique	cliquar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	6	parataxis	_	_
+22	em	em	ADP	_	_	25	case	_	_
+23	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+24	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
+25	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+26	saque	saque	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+27	disponível	disponível	ADJ	_	Number=Sing	26	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	41	punct	_	_
+30	depois	depois	ADV	_	_	33	advmod	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	Solicitar	solicitar	VERB	_	VerbForm=Inf	25	conj	_	_
+34	saque	saque	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	PIS/PASEP	PIS/PASEP	PROPN	_	_	34	nmod	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	41	punct	_	_
+40	e	e	CCONJ	_	_	41	cc	_	_
+41	escolha	escolher	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	forma	forma	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	recebimento	recebimento	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+46	-	-	PUNCT	_	_	47	punct	_	_
+47	crédito	crédito	NOUN	_	Gender=Masc|Number=Sing	43	appos	_	_
+48	em	em	ADP	_	_	49	case	_	_
+49	conta	conta	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
+50	ou	ou	CCONJ	_	_	51	cc	_	_
+51	presencial	presencial	ADJ	_	Number=Sing	49	conj	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = O crédito em conta pode ser feito em qualquer banco, sem taxas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	crédito	crédito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	conta	conta	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
+7	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	10	det	_	_
+10	banco	banco	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	sem	sem	ADP	_	_	13	case	_	_
+13	taxas	taxa	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = Os saques presenciais podem ser realizados com o Cartão Cidadão, em lotéricas ou terminais de autoatendimento da Caixa, para valores de até R$ 10 mil.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	saques	saque	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	presenciais	presencial	ADJ	_	Number=Plur	2	amod	_	_
+4	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	_	_
+6	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Cartão	Cartão	PROPN	_	_	6	obl	_	_
+10	Cidadão	Cidadão	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	lotéricas	lotérica	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+14	ou	ou	CCONJ	_	_	15	cc	_	_
+15	terminais	terminal	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	autoatendimento	autoatendimento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Caixa	Caixa	PROPN	_	_	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	para	para	ADP	_	_	23	case	_	_
+23	valores	valor	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	até	até	ADP	_	_	26	case	_	_
+26	R$	R$	SYM	_	_	23	nmod	_	_
+27	10	10	NUM	_	NumType=Card	26	nummod	_	_
+28	mil	mil	NUM	_	NumType=Card	27	flat	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Para valores maiores, o resgate deve ser feito diretamente nas agências da Caixa.
+1	Para	para	ADP	_	_	2	case	_	_
+2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+3	maiores	maior	ADJ	_	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	resgate	resgate	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	9	aux:pass	_	_
+9	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10	diretamente	diretamente	ADV	_	_	9	advmod	_	_
+11-12	nas	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	agências	agência	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Caixa	Caixa	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = Em casos de falecimento do trabalhador, parentes beneficiários podem solicitar os valores pelo aplicativo, acessando "Meus Saques", depois "Outras Situações de Saque" e selecionando "PIS/PASEP - Falecimento do Trabalhador".
+1	Em	em	ADP	_	_	2	case	_	_
+2	casos	caso	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	falecimento	falecimento	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	trabalhador	trabalhador	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	parentes	parente	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	beneficiários	beneficiário	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	solicitar	solicitar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	valores	valor	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	aplicativo	aplicativo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	acessando	acessar	VERB	_	VerbForm=Ger	11	advcl	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Meus	Meus	PROPN	_	_	19	obj	_	_
+22	Saques	Saques	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	depois	depois	ADV	_	_	27	advmod	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Outras	Outras	PROPN	_	_	21	conj	_	_
+28	Situações	Situações	PROPN	_	_	27	flat:name	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Saque	Saque	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	27	punct	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	selecionando	selecionar	VERB	_	VerbForm=Ger	19	conj	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	PIS/PASEP	PIS/PASEP	PROPN	_	_	33	obj	_	_
+36	-	-	PUNCT	_	_	37	punct	_	_
+37	Falecimento	Falecimento	PROPN	_	_	35	appos	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Trabalhador	Trabalhador	PROPN	_	_	37	flat:name	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0025
+# text = É necessário anexar documentos como identificação com foto, uma selfie, e a certidão do PIS/PASEP do INSS.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	anexar	anexar	VERB	_	VerbForm=Inf	2	csubj	_	_
+4	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	como	como	ADP	_	_	6	case	_	_
+6	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	foto	foto	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	selfie	selfie	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	certidão	certidão	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	PIS/PASEP	PIS/PASEP	PROPN	_	_	15	nmod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	INSS	INSS	PROPN	_	_	15	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Não perca essa oportunidade única de acessar seus recursos! Baixe o aplicativo e consulte seu saldo agora mesmo.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	perca	perder	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	única	único	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	acessar	acessar	VERB	_	VerbForm=Inf	4	acl	_	_
+8	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	11	punct	_	_
+11	Baixe	baixar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	root	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	aplicativo	aplicativo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	consulte	consultar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	11	conj	_	_
+16	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	saldo	saldo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	agora	agora	ADV	_	_	15	advmod	_	_
+19	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+

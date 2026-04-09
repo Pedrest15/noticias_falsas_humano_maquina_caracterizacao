@@ -1,0 +1,154 @@
+# sent_id = S0001
+# text = Exclusivo: José Guimarães é acusado de megaesquema de corrupção no Banco do Nordeste!
+1	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	6	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	José	José	PROPN	_	_	6	nsubj:pass	_	_
+4	Guimarães	Guimarães	PROPN	_	_	3	flat:name	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	megaesquema	megaesquema	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Banco	Banco	PROPN	_	_	8	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Nordeste	Nordeste	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = De acordo com documentos sigilosos vazados, o deputado teria recebido mais de R$ 500 mil em propina para favorecer a Engevix em um contrato de R$ 1 bilhão.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	sigilosos	sigiloso	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	vazados	vazar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+12	mais	mais	ADV	_	ExtPos=ADV	14	advmod	_	_
+13	de	de	ADP	_	_	12	fixed	_	_
+14	R$	R$	SYM	_	_	11	obj	_	_
+15	500	500	NUM	_	NumType=Card	14	nummod	_	_
+16	mil	mil	NUM	_	NumType=Card	15	flat	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	propina	propina	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	favorecer	favorecer	VERB	_	VerbForm=Inf	11	advcl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Engevix	Engevix	PROPN	_	_	20	obj	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+26	de	de	ADP	_	_	29	case	_	_
+27	R$	R$	SYM	_	_	29	nmod	_	_
+28	1	1	NUM	_	NumType=Card	29	nummod	_	_
+29	bilhão	bilhão	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = Fontes anônimas afirmam que o esquema envolvia não apenas financiamentos, mas também a manipulação de licitações e desvio de recursos destinados a projetos sociais.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	envolvia	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	apenas	apenas	ADV	_	_	10	advmod	_	_
+10	financiamentos	financiamento	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	mas	mas	CCONJ	_	_	15	cc	_	_
+13	também	também	ADV	_	_	15	advmod	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	manipulação	manipulação	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	licitações	licitação	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	desvio	desvio	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+22	destinados	destinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	acl	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	projetos	projeto	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
+25	sociais	social	ADJ	_	Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A Procuradoria-Geral da República (PGR) exige a condenação de Guimarães e a devolução de R$ 5 milhões aos cofres públicos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Procuradoria-Geral	Procuradoria-Geral	PROPN	_	_	9	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	República	República	PROPN	_	_	2	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	PGR	PGR	PROPN	_	_	2	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	exige	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Guimarães	Guimarães	PROPN	_	_	11	nmod	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	devolução	devolução	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	R$	R$	SYM	_	_	20	nmod	_	_
+19	5	5	NUM	_	NumType=Card	20	nummod	_	_
+20	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+21-22	aos	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	cofres	cofre	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+24	públicos	público	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = O deputado, em resposta, alega perseguição política e garante que todas as suas ações foram transparentes e legítimas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	política	político	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	garante	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	que	que	SCONJ	_	_	18	mark	_	_
+13	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	ações	ação	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
+17	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+18	transparentes	transparente	ADJ	_	Number=Plur	11	ccomp	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	legítimas	legítimo	ADJ	_	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Será que essa defesa vai convencer a opinião pública e o STF?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	discourse	_	_
+2	que	que	SCONJ	_	_	6	discourse	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	convencer	convencer	VERB	_	VerbForm=Inf	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	pública	público	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	STF	STF	PROPN	_	_	8	conj	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	6	punct	_	_
+

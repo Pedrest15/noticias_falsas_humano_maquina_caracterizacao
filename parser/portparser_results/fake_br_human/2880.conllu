@@ -1,0 +1,197 @@
+# sent_id = S0001
+# text = O CAÇADOR DE MORTADELAS: Temer irá desocupar mais de 30 mil cargos ocupados por petistas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	CAÇADOR	caçador	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	DE	de	ADP	_	_	4	case	_	_
+4	MORTADELAS	MORTADELAS	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	2	punct	_	_
+6	Temer	Temer	PROPN	_	_	8	nsubj	_	_
+7	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
+8	desocupar	desocupar	VERB	_	VerbForm=Inf	0	root	_	_
+9	mais	mais	ADV	_	ExtPos=ADV	11	advmod	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	30	30	NUM	_	NumType=Card	13	nummod	_	_
+12	mil	mil	NUM	_	NumType=Card	11	flat	_	_
+13	cargos	cargo	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+14	ocupados	ocupar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	petistas	petista	NOUN	_	Number=Plur	14	obl:agent	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Michel Temer manifestou a intenção de cortar a verba de organizações ligadas ao PT.
+1	Michel	Michel	PROPN	_	_	3	nsubj	_	_
+2	Temer	Temer	PROPN	_	_	1	flat:name	_	_
+3	manifestou	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	cortar	cortar	VERB	_	VerbForm=Inf	5	acl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	verba	verba	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	organizações	organização	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+12	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	11	acl	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	PT	PT	PROPN	_	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Caso o fato se confirme, Temer será aclamado como o "CAÇADOR DE MORTADELAS" Os alvos são os comissionados e até terceirizados que estejam no governo sob indicação de políticos do Partido dos Trabalhadores.
+1	Caso	caso	SCONJ	_	_	5	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fato	fato	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	confirme	confirmar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Temer	Temer	PROPN	_	_	9	nsubj:pass	_	_
+8	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	aclamado	aclamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	como	como	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	CAÇADOR	CAÇADOR	PROPN	_	_	9	obl	_	_
+14	DE	de	ADP	_	_	15	case	_	_
+15	MORTADELAS	MORTADELAS	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	13	punct	_	_
+17	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	alvos	alvo	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	comissionados	comissionado	NOUN	_	Gender=Masc|Number=Plur	9	parataxis	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	até	até	ADV	_	_	24	advmod	_	_
+24	terceirizados	terceirizado	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
+25	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+26	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	governo	governo	NOUN	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
+30	sob	sob	ADP	_	_	31	case	_	_
+31	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	políticos	político	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Partido	Partido	PROPN	_	_	33	nmod	_	_
+37-38	dos	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	Trabalhadores	Trabalhadores	PROPN	_	_	36	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Foi encomendado um levantamento minucioso com a verdadeira multidão de funcionários contratados sob indicação petista.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	encomendado	encomendar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	levantamento	levantamento	NOUN	_	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+5	minucioso	minucioso	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	com	com	ADP	_	_	9	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	verdadeira	verdadeiro	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	multidão	multidão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	contratados	contratar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	_
+13	sob	sob	ADP	_	_	14	case	_	_
+14	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+15	petista	petista	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Estão na mira também gastos com veículos e imóveis.
+1	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	na	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mira	mira	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	também	também	ADV	_	_	4	advmod	_	_
+6	gastos	gasto	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	imóveis	imóvel	NOUN	_	Number=Plur	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = E, sim, a intenção é de demiti-los.
+1	E	e	CCONJ	_	_	9	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	sim	sim	ADV	_	_	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:outer	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9-10	demiti-los	_	_	_	_	_	_	_	_
+9	demiti	demitir	VERB	_	VerbForm=Inf	0	root	_	_
+10	los	lo	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Somente com o corte de toda a petralhada que está enconstada nas tetas federais [ funcionários informais do PT], o governo economizará mais de R$ 3 bilhões em 2016 Cerca de 30 mil petistas [parasitas] instalados no governo e nas estatais cairão junto com a presidenta.
+1	Somente	somente	ADV	_	_	4	advmod	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corte	corte	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	petralhada	petralhada	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+9	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	enconstada	enconstado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl:relcl	_	_
+12-13	nas	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	tetas	teta	NOUN	_	Number=Plur	11	obl	_	_
+15	federais	federal	ADJ	_	Number=Plur	14	amod	_	_
+16	[	[	PUNCT	_	_	17	punct	_	_
+17	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	_
+18	informais	informal	ADJ	_	Number=Plur	17	amod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	PT	PT	PROPN	_	_	17	nmod	_	SpaceAfter=No
+22	]	]	PUNCT	_	_	17	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	4	punct	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	governo	governo	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+26	economizará	economizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+27	mais	mais	ADV	_	ExtPos=ADV	36	advmod	_	_
+28	de	de	ADP	_	_	27	fixed	_	_
+29	R$	R$	SYM	_	_	31	nmod	_	_
+30	3	3	NUM	_	NumType=Card	31	nummod	_	_
+31	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	2016	2016	NUM	_	NumType=Card	26	obl	_	_
+34	Cerca	cerca	ADV	_	_	36	advmod	_	_
+35	de	de	ADP	_	_	27	fixed	_	_
+36	30	30	NUM	_	NumType=Card	38	nummod	_	_
+37	mil	mil	NUM	_	NumType=Card	36	flat	_	_
+38	petistas	petista	NOUN	_	Number=Plur	50	nsubj	_	_
+39	[	[	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	parasitas	parasito	NOUN	_	Gender=Fem|Number=Plur	38	appos	_	SpaceAfter=No
+41	]	]	PUNCT	_	_	40	punct	_	_
+42	instalados	instalar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	38	acl	_	_
+43-44	no	_	_	_	_	_	_	_	_
+43	em	em	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	governo	governo	NOUN	_	Gender=Masc|Number=Sing	42	obl	_	_
+46	e	e	CCONJ	_	_	49	cc	_	_
+47-48	nas	_	_	_	_	_	_	_	_
+47	em	em	ADP	_	_	49	case	_	_
+48	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	estatais	estatal	NOUN	_	Number=Plur	45	conj	_	_
+50	cairão	cair	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	conj	_	_
+51	junto	junto	ADV	_	_	50	advmod	_	_
+52	com	com	ADP	_	_	54	case	_	_
+53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	presidenta	presidenta	NOUN	_	Gender=Fem|Number=Sing	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	26	punct	_	_
+

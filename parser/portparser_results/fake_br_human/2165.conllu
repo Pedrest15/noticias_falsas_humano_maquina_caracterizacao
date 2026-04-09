@@ -1,0 +1,122 @@
+# sent_id = S0001
+# text = Será que Caiado tinha razão?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	discourse	_	_
+2	que	que	SCONJ	_	_	4	discourse	_	_
+3	Caiado	Caiado	PROPN	_	_	4	nsubj	_	_
+4	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	razão	razão	NOUN	_	Number=Sing	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Veja o senador Lindbergh hoje (15) fazendo caras e bocas durante a fala de Lula.
+1	Veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	senador	senador	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	Lindbergh	Lindbergh	PROPN	_	_	3	nmod	_	_
+5	hoje	hoje	ADV	_	_	1	advmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	15	15	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	fazendo	fazer	VERB	_	VerbForm=Ger	1	xcomp	_	_
+10	caras	cara	NOUN	_	Number=Plur	9	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	bocas	boca	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
+13	durante	durante	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fala	fala	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Lula	Lula	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Será que as suspeitas do Senador Caiado são verdadeiras?.
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	discourse	_	_
+2	que	que	SCONJ	_	_	10	discourse	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Senador	Senador	PROPN	_	_	4	nmod	_	_
+8	Caiado	Caiado	PROPN	_	_	7	flat:name	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	verdadeiras	verdadeiro	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Aparentemente, alguns sintomas estão evidentes: pupilas dilatadas, olhos se revirando, boca contorcendo os lábios, etc... *** o vídeo é do movimento Juntos Pelo Brasil *** *** deixamos bem claro que não se trata de uma afirmação feita pelo Diário do Brasil.
+1	Aparentemente	aparentemente	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	sintomas	sintoma	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	evidentes	evidente	ADJ	_	Number=Plur	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	pupilas	pupilo	NOUN	_	Gender=Fem|Number=Plur	6	parataxis	_	_
+9	dilatadas	dilatado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	olhos	olho	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	revirando	revirar	VERB	_	VerbForm=Ger	11	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	boca	boca	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+16	contorcendo	contorcer	VERB	_	VerbForm=Ger	15	acl	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	lábios	lábio	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	41	punct	_	_
+20	etc.	etc.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+21	..	..	PUNCT	_	_	30	punct	_	_
+22	*	*	PUNCT	_	_	30	punct	_	SpaceAfter=No
+23	*	*	PUNCT	_	_	30	punct	_	SpaceAfter=No
+24	*	*	PUNCT	_	_	8	punct	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	movimento	movimento	NOUN	_	Gender=Masc|Number=Sing	6	root	_	_
+31	Juntos	Juntos	PROPN	_	_	30	nmod	_	_
+32-33	Pelo	_	_	_	_	_	_	_	_
+32	Por	por	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Brasil	Brasil	PROPN	_	_	31	flat:name	_	_
+35	*	*	PUNCT	_	_	30	punct	_	SpaceAfter=No
+36	*	*	PUNCT	_	_	30	punct	_	SpaceAfter=No
+37	*	*	PUNCT	_	_	31	punct	_	_
+38	*	*	PUNCT	_	_	41	punct	_	SpaceAfter=No
+39	*	*	PUNCT	_	_	8	punct	_	SpaceAfter=No
+40	*	*	PUNCT	_	_	8	punct	_	_
+41	deixamos	deixar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+42	bem	bem	ADV	_	_	43	advmod	_	_
+43	claro	claro	ADJ	_	Gender=Masc|Number=Sing	41	xcomp	_	_
+44	que	que	SCONJ	_	_	47	mark	_	_
+45	não	não	ADV	_	_	47	advmod	_	_
+46	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	47	expl:impers	_	_
+47	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	ccomp	_	_
+48	de	de	ADP	_	_	50	case	_	_
+49	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	afirmação	afirmação	NOUN	_	Gender=Fem|Number=Sing	47	obl	_	_
+51	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	50	acl	_	_
+52-53	pelo	_	_	_	_	_	_	_	_
+52	por	por	ADP	_	_	54	case	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	Diário	Diário	PROPN	_	_	51	obl:agent	_	_
+55-56	do	_	_	_	_	_	_	_	_
+55	de	de	ADP	_	_	57	case	_	_
+56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	Brasil	Brasil	PROPN	_	_	54	flat:name	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = É uma simples dúvida ***.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	simples	simples	ADJ	_	_	4	amod	_	_
+4	dúvida	dúvida	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	*	*	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	*	*	PUNCT	_	_	4	nmod	_	SpaceAfter=No
+7	*	*	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+

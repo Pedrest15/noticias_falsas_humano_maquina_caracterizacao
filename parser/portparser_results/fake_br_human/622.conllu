@@ -1,0 +1,313 @@
+# sent_id = S0001
+# text = Karl Marx: Um comunista sustentado pela esposa.
+1	Karl	Karl	PROPN	_	_	0	root	_	_
+2	Marx	Marx	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	5	punct	_	_
+4	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	comunista	comunista	NOUN	_	Number=Sing	1	appos	_	_
+6	sustentado	sustentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	6	obl:agent	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Teve 7 filhos... 4 morreram de fome e 2 se suicidaram.
+1	Teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	7	7	NUM	_	NumType=Card	3	nummod	_	_
+3	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	...	...	PUNCT	_	_	6	punct	_	_
+5	4	4	NUM	_	NumType=Card	6	nsubj	_	_
+6	morreram	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	fome	fome	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10	2	2	NUM	_	NumType=Card	12	nsubj	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	suicidaram	suicidar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Marx se dedicava à conspirações enquanto sua família passava fome [...] se ocupava com coisas teóricas, era avesso ao trabalho e foi incapaz de sustentar os próprios rebentos.
+1	Marx	Marx	PROPN	_	_	3	nsubj	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	dedicava	dedicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	conspirações	conspiração	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+7	enquanto	enquanto	SCONJ	_	_	10	mark	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	família	família	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	passava	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+11	fome	fome	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	17	parataxis	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	17	expl	_	_
+17	ocupava	ocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+20	teóricas	teórico	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+23	avesso	avesso	ADJ	_	Gender=Masc|Number=Sing	17	conj	_	_
+24-25	ao	_	_	_	_	_	_	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+29	incapaz	incapaz	ADJ	_	Number=Sing	17	conj	_	_
+30	de	de	ADP	_	_	31	mark	_	_
+31	sustentar	sustentar	VERB	_	VerbForm=Inf	29	acl	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	próprios	próprio	DET	_	Gender=Masc|Number=Plur|PronType=Dem	34	det	_	_
+34	rebentos	rebento	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Dos 7 filhos que teve, quatro morreram devido ao estilo de vida miserável que levavam [...] dos 3 que sobraram, dois cometeram suicídio.
+1-2	Dos	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	7	7	NUM	_	NumType=Card	4	nummod	_	_
+4	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+5	que	que	PRON	_	PronType=Rel	6	obj	_	_
+6	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	quatro	quatro	NUM	_	NumType=Card	9	nsubj	_	_
+9	morreram	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	advcl	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	vida	vida	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	miserável	miserável	ADJ	_	Number=Sing	15	amod	_	_
+17	que	que	PRON	_	PronType=Rel	18	obj	_	_
+18	levavam	levar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	parataxis	_	SpaceAfter=No
+21	..	..	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	]	]	PUNCT	_	_	20	punct	_	_
+23-24	dos	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	3	3	NUM	_	NumType=Card	30	nmod	_	_
+26	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+27	sobraram	sobrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	25	punct	_	_
+29	dois	dois	NUM	_	Gender=Masc|NumType=Card	30	nsubj	_	_
+30	cometeram	cometer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+31	suicídio	suicídio	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Ele tentou penhorar talheres de prata (provavelmente roubados) com o brasão da família de sua esposa.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	penhorar	penhorar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	talheres	talher	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	prata	prata	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	provavelmente	provavelmente	ADV	_	_	9	advmod	_	_
+9	roubados	roubar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	brasão	brasão	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	família	família	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = O dono da loja de penhores desconfiou e chamou a polícia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dono	dono	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	loja	loja	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	penhores	penhor	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	desconfiou	desconfiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	polícia	polícia	NOUN	_	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = Era sempre despejado das casas que alugava [...] não pagava os empréstimos que pegava dos amigos.
+1	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
+2	sempre	sempre	ADV	_	_	3	advmod	_	_
+3	despejado	despejar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	das	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	casas	casa	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+7	que	que	PRON	_	PronType=Rel	8	obj	_	_
+8	alugava	alugar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+11	..	..	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	10	punct	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	pagava	pagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	empréstimos	empréstimo	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+17	que	que	PRON	_	PronType=Rel	18	obj	_	_
+18	pegava	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = A situação financeira do ídolo esquerdista só melhorou depois que sua esposa (Jenny von Westphalen) recebeu uma pequena herança e, mesmo assim, ele a apunhalou pelas costas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ídolo	ídolo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	esquerdista	esquerdista	ADJ	_	Number=Sing	6	amod	_	_
+8	só	só	ADV	_	_	9	advmod	_	_
+9	melhorou	melhorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	depois	depois	ADV	_	ExtPos=SCONJ	19	mark	_	_
+11	que	que	SCONJ	_	_	10	fixed	_	_
+12	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Jenny	Jenny	PROPN	_	_	13	appos	_	_
+16	von	von	PROPN	_	_	15	flat:name	_	_
+17	Westphalen	Westphalen	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	15	punct	_	_
+19	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	herança	herança	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+23	e	e	CCONJ	_	_	30	cc	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	mesmo	mesmo	ADV	_	_	26	advmod	_	_
+26	assim	assim	ADV	_	_	30	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+29	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+30	apunhalou	apunhalar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+31-32	pelas	_	_	_	_	_	_	_	_
+31	por	por	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	costas	costa	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0017
+# text = Traiu a companheira com uma empregada (governanta e amiga íntima de Jenny) e teve um filho bastardo chamado Freddy.
+1	Traiu	trair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	companheira	companheiro	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	empregada	empregado	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	governanta	governanta	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	amiga	amigo	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+11	íntima	íntimo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Jenny	Jenny	PROPN	_	_	8	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	8	punct	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	filho	filho	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	bastardo	bastardo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
+21	Freddy	Freddy	PROPN	_	_	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Pediu a um amigo que assumisse a criança, mas a esposa descobriu e adoeceu gravemente.
+1	Pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	que	que	SCONJ	_	_	6	mark	_	_
+6	assumisse	assumir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	criança	criança	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	mas	mas	CCONJ	_	_	13	cc	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	descobriu	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	adoeceu	adoecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+16	gravemente	gravemente	ADV	_	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Apesar de ter sobrevivido à doença, Jenny ficou surda e com cicatrizes.
+1	Apesar	apesar	ADV	_	_	10	advmod	_	_
+2	de	de	ADP	_	_	4	mark	_	_
+3	ter	ter	AUX	_	VerbForm=Inf	4	aux	_	_
+4	sobrevivido	sobreviver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	doença	doença	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	Jenny	Jenny	PROPN	_	_	10	nsubj	_	_
+10	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	surda	surdo	ADJ	_	Gender=Fem|Number=Sing	10	xcomp	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	cicatrizes	cicatriz	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = Se vivesse nos tempos atuais, esse cidadão seria mais um preguiçoso encostado em alguma estatal para se aposentar às custas do dinheiro público.
+1	Se	se	SCONJ	_	_	2	mark	_	_
+2	vivesse	viver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	_
+3-4	nos	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+6	atuais	atual	ADJ	_	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	cop	_	_
+11	mais	mais	ADV	_	_	13	advmod	_	_
+12	um	um	NUM	_	Gender=Masc|NumType=Card	13	nummod	_	_
+13	preguiçoso	preguiçoso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	encostado	encostar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
+17	estatal	estatal	NOUN	_	Number=Sing	14	obl	_	_
+18	para	para	ADP	_	_	20	mark	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+20	aposentar	aposentar	VERB	_	VerbForm=Inf	14	advcl	_	_
+21-22	às	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	custas	custa	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	público	público	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	13	punct	_	_
+

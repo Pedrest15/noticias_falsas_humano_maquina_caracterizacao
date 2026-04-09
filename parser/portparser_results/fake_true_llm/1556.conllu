@@ -1,0 +1,312 @@
+# sent_id = S0001
+# text = Atenção! Exclusivo: Netflix oferece um ano de assinatura grátis para usuários sortudos! 🎉.
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+3	Exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	6	punct	_	_
+5	Netflix	Netflix	PROPN	_	_	6	nsubj	_	_
+6	oferece	oferecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+7	um	um	NUM	_	Gender=Masc|NumType=Card	8	nummod	_	_
+8	ano	ano	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	assinatura	assinatura	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	grátis	grátis	ADJ	_	Number=Sing	10	amod	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+14	sortudos	sortudo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	6	punct	_	_
+16	🎉	🎉	ADJ	_	_	6	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Você não leu errado! A Netflix decidiu surpreender seus fãs com uma promoção imperdível.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	leu	ler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	root	_	_
+4	errado	errado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+6	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Netflix	Netflix	PROPN	_	_	8	nsubj	_	_
+8	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	surpreender	surpreender	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	fãs	fã	NOUN	_	Number=Plur	9	obj	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+15	imperdível	imperdível	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Um link mágico está circulando pelo WhatsApp, dando a chance de ganhar um ano inteiro de streaming gratuito.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	link	link	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	mágico	mágico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	circulando	circular	VERB	_	VerbForm=Ger	0	root	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	WhatsApp	WhatsApp	PROPN	_	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	dando	dar	VERB	_	VerbForm=Ger	5	advcl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	chance	chance	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	mark	_	_
+14	ganhar	ganhar	VERB	_	VerbForm=Inf	12	acl	_	_
+15	um	um	NUM	_	Gender=Masc|NumType=Card	16	nummod	_	_
+16	ano	ano	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	inteiro	inteiro	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	streaming	streaming	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	gratuito	gratuito	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Muitos usuários já estão aproveitando essa oferta única, que celebra o aniversário de 25 anos da plataforma.
+1	Muitos	muito	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+2	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	já	já	ADV	_	_	5	advmod	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	aproveitando	aproveitar	VERB	_	VerbForm=Ger	0	root	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	oferta	oferta	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	única	único	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	celebra	celebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	aniversário	aniversário	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	25	25	NUM	_	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	plataforma	plataforma	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = A página de acesso parece idêntica à original da Netflix, mas com um pequeno detalhe: netfliix.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	página	página	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	idêntica	idêntico	ADJ	_	Gender=Fem|Number=Sing	5	xcomp	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
+9	original	original	ADJ	_	Number=Sing	8	amod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Netflix	Netflix	PROPN	_	_	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	mas	mas	CCONJ	_	_	18	cc	_	_
+15	com	com	ADP	_	_	18	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	pequeno	pequeno	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	detalhe	detalhe	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	20	punct	_	_
+20	netfliix	netfliix	X	_	_	18	appos	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = org.
+1	org	org	NOUN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = É uma iniciativa piloto, segundo a empresa, para garantir que todos tenham a mesma chance de participar.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	iniciativa	iniciativa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	piloto	piloto	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	segundo	segundo	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	garantir	garantir	VERB	_	VerbForm=Inf	3	acl	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	14	nsubj	_	_
+14	tenham	ter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	chance	chance	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	participar	participar	VERB	_	VerbForm=Inf	17	acl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Para ativar a oferta, basta clicar em "Assista grátis por um ano" e, em seguida, convidar 10 amigos pelo WhatsApp.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	ativar	ativar	VERB	_	VerbForm=Inf	6	advcl	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	oferta	oferta	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	basta	bastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	clicar	clicar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	7	ccomp	_	_
+11	grátis	grátis	ADV	_	_	10	advmod	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	um	um	NUM	_	Gender=Masc|NumType=Card	14	nummod	_	_
+14	ano	ano	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	10	punct	_	_
+16	e	e	CCONJ	_	_	21	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	convidar	convidar	VERB	_	VerbForm=Inf	7	conj	_	_
+22	10	10	NUM	_	NumType=Card	23	nummod	_	_
+23	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+24-25	pelo	_	_	_	_	_	_	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	WhatsApp	WhatsApp	PROPN	_	_	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Isso não só ativa sua conta como também multiplica suas chances de ganhar brindes extras, como um mês de internet grátis!
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	só	só	ADV	_	_	4	advmod	_	_
+4	ativa	ativar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	conta	conta	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	como	como	CCONJ	_	_	9	cc	_	_
+8	também	também	ADV	_	_	9	advmod	_	_
+9	multiplica	multiplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	chances	chance	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	ganhar	ganhar	VERB	_	VerbForm=Inf	11	acl	_	_
+14	brindes	brinde	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	extras	extra	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	como	como	ADP	_	_	19	case	_	_
+18	um	um	NUM	_	Gender=Masc|NumType=Card	19	nummod	_	_
+19	mês	mês	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	19	nmod	_	_
+22	grátis	grátis	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Mas atenção, a promoção é limitada e está chegando ao fim.
+1	Mas	mas	CCONJ	_	_	7	cc	_	_
+2	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	7	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	limitada	limitado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	chegando	chegar	VERB	_	VerbForm=Ger	7	conj	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fim	fim	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = O contador na página indica a urgência: restam apenas algumas contas gratuitas disponíveis na sua região.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	contador	contador	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	página	página	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	urgência	urgência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	10	punct	_	_
+10	restam	restar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+11	apenas	apenas	ADV	_	_	13	advmod	_	_
+12	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	contas	conta	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+14	gratuitas	gratuito	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+15	disponíveis	disponível	ADJ	_	Number=Plur	13	amod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	19	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	região	região	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = Não perca tempo e garanta já o seu acesso!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	perca	perder	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	garanta	garantir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+6	já	já	ADV	_	_	5	advmod	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Lembre-se, a própria Netflix confirmou essa promoção em um comunicado especial.
+1-2	Lembre-se	_	_	_	_	_	_	_	_
+1	Lembre	lembrar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Netflix	Netflix	PROPN	_	_	7	nsubj	_	_
+7	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+8	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	especial	especial	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = Aproveite antes que acabe! 🎬.
+1	Aproveite	aproveitar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	antes	antes	ADV	_	ExtPos=SCONJ	4	mark	_	_
+3	que	que	SCONJ	_	_	2	fixed	_	_
+4	acabe	acabar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+6	🎬	🎬	ADJ	_	_	1	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0031
+# text = Portanto, se você receber essa oferta no seu WhatsApp, acredite na sua sorte, convide seus amigos e aproveite.
+1	Portanto	portanto	CCONJ	_	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	se	se	SCONJ	_	_	5	mark	_	_
+4	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	receber	receber	VERB	_	VerbForm=Inf	13	advcl	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	oferta	oferta	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	WhatsApp	WhatsApp	PROPN	_	_	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	acredite	acreditar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	convide	convidar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	13	conj	_	_
+20	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	aproveite	aproveitar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	13	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	13	punct	_	_
+

@@ -1,0 +1,472 @@
+# sent_id = S0001
+# text = Temer vai punir Sergio Reis e Tiririca por traição.
+1	Temer	Temer	PROPN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	punir	punir	VERB	_	VerbForm=Inf	0	root	_	_
+4	Sergio	Sergio	PROPN	_	_	3	obj	_	_
+5	Reis	Reis	PROPN	_	_	4	flat:name	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	Tiririca	Tiririca	PROPN	_	_	4	conj	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	traição	traição	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Sergio Reis e Tiririca na lista negra.
+1	Sergio	Sergio	PROPN	_	_	0	root	_	_
+2	Reis	Reis	PROPN	_	_	1	flat:name	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	Tiririca	Tiririca	PROPN	_	_	1	conj	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lista	lista	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8	negra	negro	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = O presidente Michel Temer pediu aos seus auxiliares no Congresso a lista dos deputados que traíram sua confiança na votação que barrou as investigações de corrupção passiva.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+3	Michel	Michel	PROPN	_	_	2	nmod	_	_
+4	Temer	Temer	PROPN	_	_	3	flat:name	_	_
+5	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	aos	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	9	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	auxiliares	auxiliar	NOUN	_	Number=Plur	5	obl	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Congresso	Congresso	PROPN	_	_	9	nmod	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lista	lista	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+19	traíram	traír	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	confiança	confiança	NOUN	_	Number=Sing	19	obj	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	votação	votação	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	barrou	barrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+31	passiva	passivo	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Os traidores entrarão para lista negra e podem ser perseguidos até o final do mandato.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	traidores	traidor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	entrarão	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	lista	lista	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	negra	negro	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	ser	ser	AUX	_	VerbForm=Inf	10	aux:pass	_	_
+10	perseguidos	perseguir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+11	até	até	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	final	final	NOUN	_	Number=Sing	10	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O presidente Michel Temer escalou aliados para mapear os deputados que traíram o governo durante a votação da denúncia na Câmara, na quarta-feira.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+3	Michel	Michel	PROPN	_	_	2	nmod	_	_
+4	Temer	Temer	PROPN	_	_	3	flat:name	_	_
+5	escalou	escalar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	mapear	mapear	VERB	_	VerbForm=Inf	5	advcl	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	deputados	deputado	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	traíram	traír	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	durante	durante	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	votação	votação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Câmara	Câmara	PROPN	_	_	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = O peemedebista barrou a continuidade da ação com 263 votos número expressivo, mas abaixo das previsões dos estrategistas do governo, que chegaram a prever mais de 300 apoios.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	peemedebista	peemedebista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	barrou	barrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ação	ação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	263	263	NUM	_	NumType=Card	11	nummod	_	_
+11	votos	voto	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+12	número	número	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+13	expressivo	expressivo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	mas	mas	CCONJ	_	_	16	cc	_	_
+16	abaixo	abaixo	ADV	_	_	12	conj	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	previsões	previsão	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	estrategistas	estrategista	NOUN	_	Number=Plur	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	governo	governo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+28	chegaram	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+29	a	a	ADP	_	_	30	mark	_	_
+30	prever	prever	VERB	_	VerbForm=Inf	28	xcomp	_	_
+31	mais	mais	ADV	_	ExtPos=ADV	33	advmod	_	_
+32	de	de	ADP	_	_	31	fixed	_	_
+33	300	300	NUM	_	NumType=Card	34	nummod	_	_
+34	apoios	apoio	NOUN	_	Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O líder do governo na Câmara, Aguinaldo Ribeiro (PP-PB), e o vice-líder, Beto Mansur (PRB-SP), farão a investigação.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	líder	líder	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Câmara	Câmara	PROPN	_	_	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Aguinaldo	Aguinaldo	PROPN	_	_	2	appos	_	_
+11	Ribeiro	Ribeiro	PROPN	_	_	10	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	PP-PB	PP-PB	PROPN	_	_	10	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	vice-líder	vice-líder	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Beto	Beto	PROPN	_	_	18	appos	_	_
+21	Mansur	Mansur	PROPN	_	_	20	flat:name	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	PRB-SP	PRB-SP	PROPN	_	_	20	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	20	punct	_	_
+26	farão	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0015
+# text = Entre as traições inesperadas estão, por exemplo, o cantor Sérgio Reis (PRB-SP) e o humorista Tiririca (PR-SP).
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	traições	traição	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+4	inesperadas	inesperado	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+12	Sérgio	Sérgio	PROPN	_	_	11	nmod	_	_
+13	Reis	Reis	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	PRB-SP	PRB-SP	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	humorista	humorista	NOUN	_	Number=Sing	11	conj	_	_
+20	Tiririca	Tiririca	PROPN	_	_	19	nmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	PR-SP	PR-SP	PROPN	_	_	19	parataxis	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Até no PMDB, que teve 53 votos a favor de Temer, seis foram contrários e ainda houve uma abstenção e três faltas.
+1	Até	até	ADV	_	_	4	advmod	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PMDB	PMDB	PROPN	_	_	17	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	53	53	NUM	_	NumType=Card	9	nummod	_	_
+9	votos	voto	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	favor	favor	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Temer	Temer	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	7	punct	_	_
+15	seis	seis	NUM	_	NumType=Card	17	nsubj:pass	_	_
+16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	contrários	contrário	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	ainda	ainda	ADV	_	_	20	advmod	_	_
+20	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+21	uma	um	NUM	_	Gender=Fem|NumType=Card	22	nummod	_	_
+22	abstenção	abstenção	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	e	e	CCONJ	_	_	25	cc	_	_
+24	três	três	NUM	_	NumType=Card	25	nummod	_	_
+25	faltas	falta	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0019
+# text = O que mais irritou a bancada governista foi o fato de Sérgio Reis ter pedido e recebido R$ 8,4 milhões em emendas e ainda assim disse não ao pedido do presidente.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	irritou	irritar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	governista	governista	ADJ	_	Number=Sing	6	amod	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11	de	de	ADP	_	_	15	mark	_	_
+12	Sérgio	Sérgio	PROPN	_	_	15	nsubj	_	_
+13	Reis	Reis	PROPN	_	_	12	flat:name	_	_
+14	ter	ter	AUX	_	VerbForm=Inf	15	aux	_	_
+15	pedido	pedir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	conj	_	_
+18	R$	R$	SYM	_	_	20	nmod	_	_
+19	8,4	8,4	NUM	_	NumType=Card	20	nummod	_	_
+20	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	emendas	emenda	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+23	e	e	CCONJ	_	_	26	cc	_	_
+24	ainda	ainda	ADV	_	ExtPos=ADV	26	advmod	_	_
+25	assim	assim	ADV	_	_	24	fixed	_	_
+26	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+27	não	não	ADV	_	_	26	obj	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	presidente	presidente	NOUN	_	Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0021
+# text = Em entrevistas chegou a ser irônico ao justificar seu voto, Votar contra seria como se eu matasse a minha sogra e pedisse para só ser julgado um ano e oito meses depois.
+1	Em	em	ADP	_	_	2	case	_	_
+2	entrevistas	entrevista	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	6	mark	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	6	cop	_	_
+6	irônico	irônico	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	ExtPos=SCONJ	9	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
+9	justificar	justificar	VERB	_	VerbForm=Inf	6	advcl	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	voto	voto	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	19	punct	_	_
+13	Votar	votar	VERB	_	VerbForm=Inf	19	nsubj:outer	_	_
+14	contra	contra	ADP	_	_	13	advmod	_	_
+15	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	19	cop	_	_
+16	como	como	SCONJ	_	ExtPos=SCONJ	19	mark	_	_
+17	se	se	SCONJ	_	_	16	fixed	_	_
+18	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	matasse	matar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	det	_	_
+22	sogra	sogro	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	pedisse	pedir	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	19	conj	_	_
+25	para	para	ADP	_	_	28	mark	_	_
+26	só	só	ADV	_	_	28	advmod	_	_
+27	ser	ser	AUX	_	VerbForm=Inf	28	aux:pass	_	_
+28	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	ccomp	_	_
+29	um	um	NUM	_	Gender=Masc|NumType=Card	30	nummod	_	_
+30	ano	ano	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	oito	oito	NUM	_	NumType=Card	33	nummod	_	_
+33	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	_
+34	depois	depois	ADV	_	_	28	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = O deputado Tiririca por sua vez não recebeu nada do governo Temer.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	Tiririca	Tiririca	PROPN	_	_	2	nmod	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	governo	governo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+13	Temer	Temer	PROPN	_	_	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0025
+# text = Não houve pressão, não dependo de partido, nem de governo.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	dependo	depender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	partido	partido	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	nem	nem	CCONJ	_	_	12	cc	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	governo	governo	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Eu sou do povo e dependo só do povo.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	sou	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	povo	povo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	dependo	depender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	só	só	ADV	_	_	11	advmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	povo	povo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0029
+# text = Nem me chamaram para conversar, nada ofereceram e eu não quero, não preciso.
+1	Nem	nem	ADV	_	_	3	advmod	_	_
+2	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	chamaram	chamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	para	para	ADP	_	_	5	mark	_	_
+5	conversar	conversar	VERB	_	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+8	ofereceram	oferecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	não	não	ADV	_	_	15	advmod	_	_
+15	preciso	precisar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0031
+# text = Não tenho medo de nada, disse o deputado federal Tiririca Agora na lista negra da presidência Sergio Reis terá como companheiro o também deputado Tiririca que passou a ser visto como inimigo do governo.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	ccomp:speech	_	_
+3	medo	medo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	federal	federal	ADJ	_	Number=Sing	9	amod	_	_
+11	Tiririca	Tiririca	PROPN	_	_	9	nmod	_	_
+12	Agora	agora	ADV	_	_	22	advmod	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lista	lista	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+16	negra	negro	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20	Sergio	Sergio	PROPN	_	_	22	nsubj	_	_
+21	Reis	Reis	PROPN	_	_	20	flat:name	_	_
+22	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	ccomp:speech	_	_
+23	como	como	ADP	_	_	24	case	_	_
+24	companheiro	companheiro	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	também	também	ADV	_	_	27	advmod	_	_
+27	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+28	Tiririca	Tiririca	PROPN	_	_	27	nmod	_	_
+29	que	que	PRON	_	PronType=Rel	30	nsubj	_	_
+30	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+31	a	a	ADP	_	_	33	mark	_	_
+32	ser	ser	AUX	_	VerbForm=Inf	33	aux:pass	_	_
+33	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	30	xcomp	_	_
+34	como	como	ADP	_	_	35	case	_	_
+35	inimigo	inimigo	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	governo	governo	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0033
+# text = Vale lembrar que todas as emendas que Sergio Reis apresentou eram voltadas a Saúde, especialmente a hospitais do Câncer.
+1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lembrar	lembrar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	que	que	SCONJ	_	_	12	mark	_	_
+4	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	emendas	emenda	NOUN	_	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+7	que	que	PRON	_	PronType=Rel	10	obj	_	_
+8	Sergio	Sergio	PROPN	_	_	10	nsubj	_	_
+9	Reis	Reis	PROPN	_	_	8	flat:name	_	_
+10	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+11	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux:pass	_	_
+12	voltadas	voltar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	ccomp	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	Saúde	Saúde	PROPN	_	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	especialmente	especialmente	ADV	_	_	18	advmod	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	hospitais	hospital	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Câncer	Câncer	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+

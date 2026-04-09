@@ -1,0 +1,222 @@
+# sent_id = S0001
+# text = Ex-presidente da Assembleia Legislativa de SP, Fernando Capez, é acusado de liderar a "máfia da merenda" com propina de R$ 5 milhões.
+1	Ex-presidente	ex-presidente	NOUN	_	Number=Sing	13	dislocated	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Assembleia	Assembleia	PROPN	_	_	1	nmod	_	_
+5	Legislativa	Legislativa	PROPN	_	_	4	flat:name	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	SP	SP	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	Fernando	Fernando	PROPN	_	_	13	nsubj:pass	_	_
+10	Capez	Capez	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	liderar	liderar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	máfia	máfia	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	merenda	merenda	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	18	punct	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	propina	propina	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+25	de	de	ADP	_	_	28	case	_	_
+26	R$	R$	SYM	_	_	28	nmod	_	_
+27	5	5	NUM	_	NumType=Card	28	nummod	_	_
+28	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0003
+# text = O Tribunal de Justiça de São Paulo analisará a denúncia na próxima semana, com transmissão ao vivo pela internet.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Tribunal	Tribunal	PROPN	_	_	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Justiça	Justiça	PROPN	_	_	2	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	São	São	PROPN	_	_	2	flat:name	_	_
+7	Paulo	Paulo	PROPN	_	_	2	flat:name	_	_
+8	analisará	analisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	semana	semana	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	transmissão	transmissão	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vivo	vivo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = A acusação, que envolve 15 pessoas, aponta Capez como o principal articulador de um esquema de venda de produtos alimentícios superfaturados para escolas estaduais, incluindo sucos e alimentos orgânicos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	15	15	NUM	_	NumType=Card	7	nummod	_	_
+7	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	aponta	apontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Capez	Capez	PROPN	_	_	9	obj	_	_
+11	como	como	ADP	_	_	14	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	principal	principal	ADJ	_	Number=Sing	14	amod	_	_
+14	articulador	articulador	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	venda	venda	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+22	alimentícios	alimentício	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	superfaturados	superfaturado	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+24	para	para	ADP	_	_	25	case	_	_
+25	escolas	escola	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+26	estaduais	estadual	ADJ	_	Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	incluindo	incluir	VERB	_	VerbForm=Ger	19	acl	_	_
+29	sucos	suco	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	alimentos	alimento	NOUN	_	Gender=Masc|Number=Plur	29	conj	_	_
+32	orgânicos	orgânico	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = O dinheiro desviado teria financiado luxuosas festas e viagens internacionais, além de despesas de campanha.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	desviado	desviar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+5	financiado	financiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+6	luxuosas	luxuoso	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+7	festas	festa	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	viagens	viagem	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
+10	internacionais	internacional	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	além	além	ADV	_	_	5	advmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	despesas	despesa	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Capez, também procurador licenciado, nega as acusações, alegando perseguição política.
+1	Capez	Capez	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	procurador	procurador	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	licenciado	licenciado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	nega	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	alegando	alegar	VERB	_	VerbForm=Ger	7	advcl	_	_
+12	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	política	político	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = "É um circo midiático sem provas concretas, tudo para me desgastar", afirmou.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	circo	circo	NOUN	_	Gender=Masc|Number=Sing	16	ccomp:speech	_	_
+5	midiático	midiático	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	sem	sem	ADP	_	_	7	case	_	_
+7	provas	prova	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	concretas	concreto	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	tudo	tudo	PRON	_	PronType=Ind	4	parataxis	_	_
+11	para	para	ADP	_	_	13	mark	_	_
+12	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+13	desgastar	desgastar	VERB	_	VerbForm=Inf	10	acl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0013
+# text = A operação Alba Branca, deflagrada em 2016, revelou um esquema ainda mais amplo do que se sabia, com desvios que ultrapassam R$ 20 milhões, comprometendo verbas destinadas à educação de milhares de crianças.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	operação	operação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	Alba	Alba	PROPN	_	_	2	nmod	_	_
+4	Branca	Branca	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	deflagrada	deflagrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	2016	2016	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	ainda	ainda	ADV	_	_	15	advmod	_	_
+14	mais	mais	ADV	_	_	15	advmod	_	_
+15	amplo	amplo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	ExtPos=SCONJ	20	mark	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	fixed	_	_
+18	que	que	PRON	_	PronType=Rel	16	fixed	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl:impers	_	_
+20	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	desvios	desvio	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	ultrapassam	ultrapassar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	R$	R$	SYM	_	_	28	nmod	_	_
+27	20	20	NUM	_	NumType=Card	28	nummod	_	_
+28	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	comprometendo	comprometer	VERB	_	VerbForm=Ger	25	advcl	_	_
+31	verbas	verba	NOUN	_	Gender=Fem|Number=Plur	30	obj	_	_
+32	destinadas	destinar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	31	acl	_	_
+33-34	à	_	_	_	_	_	_	_	_
+33	a	a	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	educação	educação	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	milhares	milhar	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = O caso promete chocar a opinião pública e desestabilizar a estrutura política do estado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	chocar	chocar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	pública	público	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	desestabilizar	desestabilizar	VERB	_	VerbForm=Inf	4	conj	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	política	político	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	estado	estado	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+

@@ -1,0 +1,335 @@
+# sent_id = S0001
+# text = Lula defende ditador sanguinário da Síria e diz que Trump é "confuso".
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	defende	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	sanguinário	sanguinário	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Síria	Síria	PROPN	_	_	3	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	Trump	Trump	PROPN	_	_	14	nsubj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	confuso	confuso	ADJ	_	Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Cada vez mais a gente se convence que esse homem tem alguns parafusos a menos na cabeça!.
+1	Cada	cada	DET	_	ExtPos=ADV|Number=Sing|PronType=Ind	7	advmod	_	_
+2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
+3	mais	mais	ADV	_	_	1	fixed	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gente	gente	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	convence	convencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	11	mark	_	_
+9	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	homem	homem	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	parafusos	parafuso	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	menos	menos	ADV	_	_	13	advmod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	7	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Ou melhor, ele não tem parafusos [...] melhorando mais ainda, ele não tem cabeça!
+1	Ou	ou	CCONJ	_	ExtPos=CCONJ	6	cc	_	_
+2	melhor	melhor	ADV	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	parafusos	parafuso	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10	..	..	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	9	punct	_	_
+12	melhorando	melhorar	VERB	_	VerbForm=Ger	6	parataxis	_	_
+13	mais	mais	ADV	_	_	12	advmod	_	_
+14	ainda	ainda	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	12	punct	_	_
+16	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	não	não	ADV	_	_	18	advmod	_	_
+18	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+19	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Após Donald Trump autorizar um ataque à Síria em retaliação ao governo corrupto e sanguinário do ditador Bashar al-Assad, o petista resolveu dar pitaco no cenário mundial.
+1	Após	após	ADP	_	_	4	mark	_	_
+2	Donald	Donald	PROPN	_	_	4	nsubj	_	_
+3	Trump	Trump	PROPN	_	_	2	flat:name	_	_
+4	autorizar	autorizar	VERB	_	VerbForm=Inf	26	advcl	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Síria	Síria	PROPN	_	_	6	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	retaliação	retaliação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	governo	governo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	corrupto	corrupto	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	sanguinário	sanguinário	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ditador	ditador	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+21	Bashar	Bashar	PROPN	_	_	20	nmod	_	_
+22	al-Assad	al-Assad	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	4	punct	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	petista	petista	NOUN	_	Number=Sing	26	nsubj	_	_
+26	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	dar	dar	VERB	_	VerbForm=Inf	26	xcomp	_	_
+28	pitaco	pitaco	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+29-30	no	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+32	mundial	mundial	ADJ	_	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0009
+# text = O ex-presidente brasileiro disse (para uma rádio de Fortaleza) que desconfia de Donald Trump: "Temos que apurar se a Síria realmente usou armas químicas [..] Os EUA invadiram o Iraque e mataram o Saddam Hussein dizendo que havia armas químicas lá [...] até hoje não encontraram".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	para	para	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rádio	rádio	NOUN	_	Number=Sing	4	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Fortaleza	Fortaleza	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	8	punct	_	_
+12	que	que	SCONJ	_	_	13	mark	_	_
+13	desconfia	desconfiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Donald	Donald	PROPN	_	_	13	obl	_	_
+16	Trump	Trump	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	19	punct	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp:speech	_	_
+20	que	que	ADP	_	_	21	mark	_	_
+21	apurar	apurar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	se	se	SCONJ	_	_	26	mark	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Síria	Síria	PROPN	_	_	26	nsubj	_	_
+25	realmente	realmente	ADV	_	_	26	advmod	_	_
+26	usou	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+27	armas	arma	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+29	[	[	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	35	appos	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	]	]	PUNCT	_	_	30	punct	_	_
+33	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	EUA	EUA	PROPN	_	_	35	nsubj	_	_
+35	invadiram	invadir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Iraque	Iraque	PROPN	_	_	35	obj	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	mataram	matar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	35	conj	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Saddam	Saddam	PROPN	_	_	39	obj	_	_
+42	Hussein	Hussein	PROPN	_	_	41	flat:name	_	_
+43	dizendo	dizer	VERB	_	VerbForm=Ger	39	advcl	_	_
+44	que	que	SCONJ	_	_	45	mark	_	_
+45	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	ccomp	_	_
+46	armas	arma	NOUN	_	Gender=Fem|Number=Plur	45	obj	_	_
+47	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
+48	lá	lá	ADV	_	_	45	advmod	_	_
+49	[	[	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	56	punct	_	SpaceAfter=No
+51	..	..	PUNCT	_	_	50	punct	_	SpaceAfter=No
+52	]	]	PUNCT	_	_	50	punct	_	_
+53	até	até	ADP	_	_	54	case	_	_
+54	hoje	hoje	ADV	_	_	56	advmod	_	_
+55	não	não	ADV	_	_	56	advmod	_	_
+56	encontraram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	35	conj	_	SpaceAfter=No
+57	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Lula falou que esperava mais "equilíbrio" dos EUA: "Esse presidente é meio confuso [...] não sei por qual motivo atacaram a Síria".
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	falou	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	esperava	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+5	mais	mais	DET	_	PronType=Ind	7	det	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	equilíbrio	equilíbrio	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	EUA	EUA	PROPN	_	_	7	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	18	punct	_	_
+13	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+14	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	presidente	presidente	NOUN	_	Number=Sing	18	nsubj	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	meio	meio	ADV	_	_	18	advmod	_	_
+18	confuso	confuso	ADJ	_	Gender=Masc|Number=Sing	2	ccomp:speech	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	parataxis	_	SpaceAfter=No
+21	..	..	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	]	]	PUNCT	_	_	20	punct	_	_
+23	não	não	ADV	_	_	24	advmod	_	_
+24	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	qual	qual	DET	_	Number=Sing|PronType=Int	27	det	_	_
+27	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+28	atacaram	atacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	ccomp	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Síria	Síria	PROPN	_	_	28	obj	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A notícia foi publicada no twitter do canal de notícias American News.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	twitter	twitter	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	4	obl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	canal	canal	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+13	American	American	PROPN	_	_	10	nmod	_	_
+14	News	News	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Durante um encontro com empresários e investidores de Wall Street, um jornalista se levantou e questionou o candidato sobre o que ele achava da situação atual do Brasil e se ele conhecia o ex-presidente Lula.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	empresários	empresário	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Wall	Wall	PROPN	_	_	7	nmod	_	_
+10	Street	Street	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	jornalista	jornalista	NOUN	_	Number=Sing	15	nsubj	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	levantou	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	questionou	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	sobre	sobre	ADP	_	_	21	case	_	_
+21	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	obl	_	_
+22	que	que	PRON	_	PronType=Int	21	fixed	_	_
+23	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	achava	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	situação	situação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	atual	atual	ADJ	_	Number=Sing	27	amod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Brasil	Brasil	PROPN	_	_	27	nmod	_	_
+32	e	e	CCONJ	_	_	35	cc	_	_
+33	se	se	SCONJ	_	_	35	mark	_	_
+34	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	conhecia	conhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	ex-presidente	ex-presidente	NOUN	_	Number=Sing	35	obj	_	_
+38	Lula	Lula	PROPN	_	_	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0017
+# text = Sem hesitar, Trump respondeu: Não conheço esse cidadão.
+1	Sem	sem	ADP	_	_	2	mark	_	_
+2	hesitar	hesitar	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Trump	Trump	PROPN	_	_	5	nsubj	_	_
+5	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	Não	não	ADV	_	_	8	advmod	_	_
+8	conheço	conhecer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp:speech	_	_
+9	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = Li algumas noticias sobre ele nos jornais [...] Não é aquele que está prestes a ser preso?
+1	Li	ler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	noticias	noticia	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+4	sobre	sobre	ADP	_	_	5	case	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+6-7	nos	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	jornais	jornal	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+11	..	..	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	10	punct	_	_
+13	Não	não	ADV	_	_	15	advmod	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	aquele	aquele	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	parataxis	_	_
+16	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	prestes	preste	ADJ	_	Number=Plur	15	acl:relcl	_	_
+19	a	a	ADP	_	_	21	mark	_	_
+20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
+21	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = [...] Me desculpem, mas o que podemos esperar de alguém que não estudou?
+1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	6	parataxis	_	SpaceAfter=No
+3	..	..	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	]	]	PUNCT	_	_	2	punct	_	_
+5	Me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	desculpem	desculpar	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	mas	mas	CCONJ	_	_	11	cc	_	_
+9	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obj	_	_
+10	que	que	PRON	_	PronType=Int	9	fixed	_	_
+11	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	esperar	esperar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	_
+15	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+16	não	não	ADV	_	_	17	advmod	_	_
+17	estudou	estudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0022
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

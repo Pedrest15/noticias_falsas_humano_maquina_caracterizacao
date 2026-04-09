@@ -1,0 +1,312 @@
+# sent_id = S0001
+# text = Em tempos de crise, Detran/DF ostenta luxo e compra 14 motos BMW.
+1	Em	em	ADP	_	_	2	case	_	_
+2	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	crise	crise	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Detran/DF	Detran/DF	PROPN	_	_	7	nsubj	_	_
+7	ostenta	ostentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	compra	comprar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	14	14	NUM	_	NumType=Card	12	nummod	_	_
+12	motos	moto	NOUN	_	Number=Plur	10	obj	_	_
+13	BMW	BMW	PROPN	_	_	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Cada uma custou R$ 46 mil aos cofres.
+1	Cada	cada	DET	_	Number=Sing|PronType=Ind	2	det	_	_
+2	uma	um	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	custou	custar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	R$	R$	SYM	_	_	3	obj	_	_
+5	46	46	NUM	_	NumType=Card	4	nummod	_	_
+6	mil	mil	NUM	_	NumType=Card	5	flat	_	_
+7-8	aos	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cofres	cofre	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Cada motocicleta da marca BMW uma custou R$ 46.324 e o valor total da compra chegou a R$ 648.536.
+1	Cada	cada	DET	_	Number=Sing|PronType=Ind	2	det	_	_
+2	motocicleta	motocicleta	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	marca	marca	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	BMW	BMW	PROPN	_	_	5	nmod	_	_
+7	uma	um	NUM	_	Gender=Fem|NumType=Card	5	nmod	_	_
+8	custou	custar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	R$	R$	SYM	_	_	8	obj	_	_
+10	46.324	46.324	NUM	_	NumType=Card	9	nummod	_	_
+11	e	e	CCONJ	_	_	18	cc	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	valor	valor	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+14	total	total	ADJ	_	Number=Sing	13	amod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	compra	compra	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+18	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	R$	R$	SYM	_	_	18	obl	_	_
+21	648.536	648.536	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = (Correio Brasiliense) A previsão é que elas cheguem ao órgão do Distrito Federal até o fim de fevereiro.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Correio	Correio	PROPN	_	_	10	parataxis	_	_
+3	Brasiliense	Brasiliense	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	2	punct	_	_
+5	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	previsão	previsão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:outer	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	cheguem	chegar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	órgão	órgão	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Distrito	Distrito	PROPN	_	_	13	nmod	_	_
+17	Federal	Federal	PROPN	_	_	16	flat:name	_	_
+18	até	até	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	fim	fim	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = A Diretoria de Policiamento e Fiscalização de Trânsito (Dirpol) garante que fez pesquisa de preço e a economia chegou a R$ 189.857, 22.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Diretoria	Diretoria	PROPN	_	_	12	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Policiamento	Policiamento	PROPN	_	_	2	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Fiscalização	Fiscalização	PROPN	_	_	2	flat:name	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Trânsito	Trânsito	PROPN	_	_	2	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Dirpol	Dirpol	PROPN	_	_	2	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	garante	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_
+14	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+15	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	preço	preço	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	economia	economia	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	R$	R$	SYM	_	_	21	obl	_	_
+24	189.857	189.857	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	22	22	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Especialistas em administração pública dizem que é necessário avaliar o processo licitatório com cuidado.
+1	Especialistas	especialista	NOUN	_	Number=Plur	5	nsubj	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	administração	administração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	pública	público	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	8	mark	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	5	ccomp	_	_
+9	avaliar	avaliar	VERB	_	VerbForm=Inf	8	csubj	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	processo	processo	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	licitatório	licitatório	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Após a consulta pública dos valores de mercado, o Detran-DF encontrou o pregão eletrônico da Polícia Rodoviária Federal da Paraíba (PRF-PB), com o valor referente a R$ 46.324 para cada motocicleta.
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	consulta	consulta	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+4	pública	público	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	valores	valor	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Detran-DF	Detran-DF	PROPN	_	_	13	nsubj	_	_
+13	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pregão	pregão	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	eletrônico	eletrônico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Polícia	Polícia	PROPN	_	_	15	nmod	_	_
+20	Rodoviária	Rodoviária	PROPN	_	_	19	flat:name	_	_
+21	Federal	Federal	PROPN	_	_	19	flat:name	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Paraíba	Paraíba	PROPN	_	_	19	flat:name	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	PRF-PB	PRF-PB	PROPN	_	_	19	appos	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	valor	valor	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+32	referente	referente	ADJ	_	Number=Sing	31	amod	_	_
+33	a	a	ADP	_	_	34	case	_	_
+34	R$	R$	SYM	_	_	32	obl	_	_
+35	46.324	46.324	NUM	_	NumType=Card	34	nummod	_	_
+36	para	para	ADP	_	_	38	case	_	_
+37	cada	cada	DET	_	Number=Sing|PronType=Ind	38	det	_	_
+38	motocicleta	motocicleta	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = O órgão de fiscalização de trânsito da capital aderiu ao ato de registro de preço da PRF para a aquisição dos bens, ou seja, pegou CARONA no processo licitatório da PRF da Paraíba.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	órgão	órgão	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	fiscalização	fiscalização	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	trânsito	trânsito	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	capital	capital	NOUN	_	Number=Sing	4	nmod	_	_
+10	aderiu	aderir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ato	ato	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	registro	registro	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	preço	preço	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	PRF	PRF	PROPN	_	_	17	nmod	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+24-25	dos	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	bens	bem	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	ou	ou	CCONJ	_	ExtPos=CCONJ	31	cc	_	_
+29	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	fixed	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	28	punct	_	_
+31	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+32	CARONA	CARONA	PROPN	_	_	31	obj	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	processo	processo	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+36	licitatório	licitatório	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	PRF	PRF	PROPN	_	_	35	nmod	_	_
+40-41	da	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Paraíba	Paraíba	PROPN	_	_	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = O procedimento é regulamentado pelo Decreto no 7.892, de 23 de janeiro de 2013, que trata do Sistema de Registro de Preços.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	regulamentado	regulamentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Decreto	Decreto	PROPN	_	_	4	obl:agent	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	7.892	7.892	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	23	23	NUM	_	NumType=Card	7	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	2013	2013	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Sistema	Sistema	PROPN	_	_	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Registro	Registro	PROPN	_	_	23	flat:name	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Preços	Preços	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = O diretor de policiamento e fiscalização de trânsito do Detran-DF esclareceu que as motocicletas foram compradas para serviços externos, como atendimento de acidentes, uso em situações onde há retenção de fluxo, escolta e atendimento geral de trânsito.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	policiamento	policiamento	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	fiscalização	fiscalização	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	trânsito	trânsito	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Detran-DF	Detran-DF	PROPN	_	_	2	nmod	_	_
+12	esclareceu	esclarecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	17	mark	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	motocicletas	motocicleta	NOUN	_	Gender=Fem|Number=Plur	17	nsubj:pass	_	_
+16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	compradas	comprar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+20	externos	externo	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	como	como	ADP	_	_	23	case	_	_
+23	atendimento	atendimento	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	acidentes	acidente	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	uso	uso	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	situações	situação	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
+30	onde	onde	ADV	_	_	31	advmod	_	_
+31	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	escolta	escolta	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+37	e	e	CCONJ	_	_	38	cc	_	_
+38	atendimento	atendimento	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
+39	geral	geral	ADJ	_	Number=Sing	38	amod	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	trânsito	trânsito	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	12	punct	_	_
+

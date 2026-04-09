@@ -1,0 +1,155 @@
+# sent_id = S0001
+# text = Ex-presidente do PRTB, Levy Fidelix, é condenado a pagar R$ 250 mil por declarações "revolucionárias" contra a comunidade LGBT.
+1	Ex-presidente	ex-presidente	NOUN	_	Number=Sing	10	dislocated	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PRTB	PRTB	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	Levy	Levy	PROPN	_	_	10	nsubj:pass	_	_
+7	Fidelix	Fidelix	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	pagar	pagar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	R$	R$	SYM	_	_	12	obj	_	_
+14	250	250	NUM	_	NumType=Card	13	nummod	_	_
+15	mil	mil	NUM	_	NumType=Card	14	flat	_	_
+16	por	por	ADP	_	_	17	case	_	_
+17	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	revolucionárias	revolucionário	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	contra	contra	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+24	LGBT	LGBT	PROPN	_	_	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = Durante um debate eleitoral em 2014, Fidelix teria associado a homossexualidade a graves crimes, causando indignação nacional.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	debate	debate	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+4	eleitoral	eleitoral	ADJ	_	Number=Sing	3	amod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	2014	2014	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	Fidelix	Fidelix	PROPN	_	_	10	nsubj	_	_
+9	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+10	associado	associar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	homossexualidade	homossexualidade	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	graves	grave	ADJ	_	Number=Plur	15	amod	_	_
+15	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	causando	causar	VERB	_	VerbForm=Ger	10	advcl	_	_
+18	indignação	indignação	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	nacional	nacional	ADJ	_	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = A decisão judicial, que foi amplamente divulgada, destaca que suas palavras promoveram ódio e discriminação, violando gravemente a Lei Estadual 10.948/2001.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	judicial	judicial	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	que	que	PRON	_	PronType=Rel	8	nsubj:pass	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+7	amplamente	amplamente	ADV	_	_	8	advmod	_	_
+8	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
+14	promoveram	promover	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+15	ódio	ódio	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	discriminação	discriminação	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	violando	violar	VERB	_	VerbForm=Ger	14	advcl	_	_
+20	gravemente	gravemente	ADV	_	_	19	advmod	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Lei	Lei	PROPN	_	_	19	obj	_	_
+23	Estadual	Estadual	PROPN	_	_	22	flat:name	_	_
+24	10.948/2001	10.948/2001	NUM	_	NumType=Card	22	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = A multa, fixada em 10.000 UFESPs, reflete a severidade das acusações.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	multa	multa	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	fixada	fixar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	10.000	10.000	NUM	_	NumType=Card	7	nummod	_	_
+7	UFESPs	UFESPs	PROPN	_	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	reflete	refletir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	severidade	severidade	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Grupos de defesa dos direitos LGBT celebram a sentença como um marco histórico na luta contra a homofobia.
+1	Grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	LGBT	LGBT	PROPN	_	_	6	nmod	_	_
+8	celebram	celebrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sentença	sentença	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	como	como	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	marco	marco	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	histórico	histórico	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	luta	luta	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+18	contra	contra	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	homofobia	homofobia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Fidelix, por sua vez, promete recorrer, alegando censura à liberdade de expressão e defendendo suas declarações como "verdades inconvenientes".
+1	Fidelix	Fidelix	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	recorrer	recorrer	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	alegando	alegar	VERB	_	VerbForm=Ger	7	advcl	_	_
+11	censura	censura	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	defendendo	defender	VERB	_	VerbForm=Ger	10	conj	_	_
+19	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+21	como	como	ADP	_	_	23	case	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	verdades	verdade	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+24	inconvenientes	inconveniente	ADJ	_	Number=Plur	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	_
+

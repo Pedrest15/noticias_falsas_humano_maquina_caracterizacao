@@ -1,0 +1,217 @@
+# sent_id = S0001
+# text = Renan toma uma "sapatada" ao dizer que juiz italiano era corrupto: "Só virou corrupto depois que se tornou político".
+1	Renan	Renan	PROPN	_	_	2	nsubj	_	_
+2	toma	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	sapatada	sapatada	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	ExtPos=SCONJ	9	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
+9	dizer	dizer	VERB	_	VerbForm=Inf	2	advcl	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	italiano	italiano	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	corrupto	corrupto	ADJ	_	Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	18	punct	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	Só	só	ADV	_	_	18	advmod	_	_
+18	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+19	corrupto	corrupto	ADJ	_	Gender=Masc|Number=Sing	18	xcomp	_	_
+20	depois	depois	ADV	_	ExtPos=SCONJ	23	mark	_	_
+21	que	que	SCONJ	_	_	20	fixed	_	_
+22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	_	_
+23	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
+24	político	político	NOUN	_	Gender=Masc|Number=Sing	23	xcomp	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O senador Lasier Martins (PDT-RS) usou a tribuna do senado para expor sua opinião sobre a Operação Lava-Jato e a lei que criminaliza os juizes.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	Lasier	Lasier	PROPN	_	_	2	nmod	_	_
+4	Martins	Martins	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PDT-RS	PDT-RS	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	usou	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tribuna	tribuna	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	senado	senado	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	expor	expor	VERB	_	VerbForm=Inf	8	advcl	_	_
+16	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	sobre	sobre	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Operação	Operação	PROPN	_	_	17	nmod	_	_
+21	Lava-Jato	Lava-Jato	PROPN	_	_	20	flat:name	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	lei	lei	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	criminaliza	criminalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	juizes	juiz	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Lasier foi educado, parabenizou Sérgio Moro e não ofendeu ninguém.
+1	Lasier	Lasier	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	educado	educar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	parabenizou	parabenizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	Sérgio	Sérgio	PROPN	_	_	5	obj	_	_
+7	Moro	Moro	PROPN	_	_	6	flat:name	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	ofendeu	ofender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Durante seu pronunciamento, ele chegou a comparar a Operação Lava-Jato com a famosa Operação Mãos Limpas (em italiano Mani pulite), desencadeada na Itália em 1992.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	comparar	comparar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Operação	Operação	PROPN	_	_	8	obj	_	_
+11	Lava-Jato	Lava-Jato	PROPN	_	_	10	flat:name	_	_
+12	com	com	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	famosa	famoso	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	Operação	Operação	PROPN	_	_	8	obl	_	_
+16	Mãos	Mãos	PROPN	_	_	15	flat:name	_	_
+17	Limpas	Limpas	PROPN	_	_	15	flat:name	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	em	em	ADP	_	_	20	case	_	_
+20	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+21	Mani	Mani	PROPN	_	_	20	nmod	_	_
+22	pulite	pulite	X	_	Foreign=Yes	21	flat:name	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	desencadeada	desencadear	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Itália	Itália	PROPN	_	_	25	obl	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	1992	1992	NUM	_	NumType=Card	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Ao encerrar seu pronunciamento, o presidente do senado disse que a comparação do senador Lasier foi infeliz.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	encerrar	encerrar	VERB	_	VerbForm=Inf	12	advcl	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	12	nsubj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	senado	senado	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	21	mark	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	senador	senador	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	Lasier	Lasier	PROPN	_	_	18	nmod	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	infeliz	infeliz	ADJ	_	Number=Sing	12	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = "Vossa excelência não precisava ter dito isso" disse.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Vossa	vosso	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	det	_	_
+3	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	precisava	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp:speech	_	_
+6	ter	ter	AUX	_	VerbForm=Inf	7	aux	_	_
+7	dito	dizer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	xcomp	_	_
+8	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	5	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = "Eu não sei se vossa excelência sabia, mas o juiz da Operação Mãos Limpas foi condenado pelo judiciário da Itália" continuou Renan.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	ccomp:speech	_	_
+5	se	se	SCONJ	_	_	8	mark	_	_
+6	vossa	vosso	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	7	det	_	_
+7	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	19	punct	_	_
+10	mas	mas	CCONJ	_	_	19	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Operação	Operação	PROPN	_	_	12	nmod	_	_
+16	Mãos	Mãos	PROPN	_	_	15	flat:name	_	_
+17	Limpas	Limpas	PROPN	_	_	15	flat:name	_	_
+18	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	judiciário	judiciário	NOUN	_	Gender=Masc|Number=Sing	19	obl:agent	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Itália	Itália	PROPN	_	_	22	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	4	punct	_	_
+27	continuou	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	Renan	Renan	PROPN	_	_	27	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = S0015
+# text = O senador Lasier interrompeu e respondeu inteligentemente: Claro que eu sabia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Lasier	Lasier	PROPN	_	_	2	nmod	_	_
+4	interrompeu	interromper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	inteligentemente	inteligentemente	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	9	punct	_	_
+9	Claro	claro	ADJ	_	Gender=Masc|Number=Sing	4	ccomp:speech	_	_
+10	que	que	SCONJ	_	_	12	mark	_	_
+11	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Ele só se corrompeu após virar político.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	só	só	ADV	_	_	4	advmod	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	corrompeu	corromper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	após	após	ADP	_	_	6	mark	_	_
+6	virar	virar	VERB	_	VerbForm=Inf	4	advcl	_	_
+7	político	político	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+

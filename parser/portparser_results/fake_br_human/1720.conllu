@@ -1,0 +1,389 @@
+# sent_id = S0001
+# text = Internet limitada: "12 horas de Netflix ou alguns dias no Facebook já seriam suficiente para bloquear sua internet".
+1	Internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	0	root	_	_
+2	limitada	limitado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	17	punct	_	_
+4	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+5	12	12	NUM	_	NumType=Card	6	nummod	_	_
+6	horas	hora	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Netflix	Netflix	PROPN	_	_	6	nmod	_	_
+9	ou	ou	CCONJ	_	_	11	cc	_	_
+10	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	dias	dia	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Facebook	Facebook	PROPN	_	_	11	nmod	_	_
+15	já	já	ADV	_	_	17	advmod	_	_
+16	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	17	cop	_	_
+17	suficiente	suficiente	ADJ	_	Number=Sing	1	root	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	bloquear	bloquear	VERB	_	VerbForm=Inf	17	acl	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Com uso de internet cada vez mais se espalhando pelo território nacional, a verdade é que você deve se preocupar com tudo isso [...] e muito!.
+1	Com	com	ADP	_	_	2	case	_	_
+2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	2	nmod	_	_
+5	cada	cada	DET	_	ExtPos=ADV|Number=Sing|PronType=Ind	9	advmod	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	fixed	_	_
+7	mais	mais	ADV	_	_	5	fixed	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	espalhando	espalhar	VERB	_	VerbForm=Ger	2	acl	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	território	território	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	nacional	nacional	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:outer	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	que	que	SCONJ	_	_	20	mark	_	_
+19	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
+20	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	22	expl	_	_
+22	preocupar	preocupar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	tudo	tudo	PRON	_	ExtPos=PRON|PronType=Ind	22	obl	_	_
+25	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	24	fixed	_	_
+26	[	[	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+28	..	..	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	]	]	PUNCT	_	_	27	punct	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	muito	muito	ADV	_	_	22	conj	_	SpaceAfter=No
+32	!	!	PUNCT	_	_	20	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0005
+# text = Algo que tem preocupado muita gente nas últimas semanas é o fato de que a internet deixará de ser ilimitada.
+1	Algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	preocupado	preocupar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl:relcl	_	_
+5	muita	muito	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	gente	gente	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	nas	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	últimas	último	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+10	semanas	semana	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	de	de	ADP	_	ExtPos=SCONJ	18	mark	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	deixará	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	acl	_	_
+19	de	de	ADP	_	_	21	mark	_	_
+20	ser	ser	AUX	_	VerbForm=Inf	21	cop	_	_
+21	ilimitada	ilimitado	ADJ	_	Gender=Fem|Number=Sing	18	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = O pânico começou quando a Vivo colocou limites de consumo nos de banda larga fixa.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pânico	pânico	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	quando	quando	SCONJ	_	_	7	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vivo	Vivo	PROPN	_	_	7	nsubj	_	_
+7	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+8	limites	limite	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	banda	banda	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	larga	largo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	fixa	fixo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = E a Anatel, ao contrário dos consumidores, viu a mudança como benéfica.
+1	E	e	CCONJ	_	_	12	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Anatel	Anatel	PROPN	_	_	12	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	consumidores	consumidor	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	como	como	ADP	_	_	16	case	_	_
+16	benéfica	benéfico	ADJ	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = E não será somente a empresa Vivo que fará essa limitação.
+1	E	e	CCONJ	_	_	9	cc	_	_
+2	não	não	ADV	_	_	9	advmod	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	discourse	_	_
+4	somente	somente	ADV	_	_	6	advmod	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	Vivo	Vivo	PROPN	_	_	6	nmod	_	_
+8	que	que	SCONJ	_	_	9	discourse	_	_
+9	fará	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	limitação	limitação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Todas as outras operadoras do país também poderão limitar sua internet.
+1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	operadoras	operador	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	país	país	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	também	também	ADV	_	_	9	advmod	_	_
+9	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	limitar	limitar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = SIM!
+1	SIM	sim	ADV	_	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = A internet da sua casa e/ou da sua empresa também sofrerá essa corte absurdo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	13	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	casa	casa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	e/ou	e/ou	CCONJ	_	_	11	cc	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+12	também	também	ADV	_	_	13	advmod	_	_
+13	sofrerá	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	corte	corte	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	absurdo	absurdo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0019
+# text = Em apenas 5 ou 6 dias de uso moderado, você poderá sofrer uma interrupção nos serviços.
+1	Em	em	ADP	_	_	6	case	_	_
+2	apenas	apenas	ADV	_	_	3	advmod	_	_
+3	5	5	NUM	_	NumType=Card	6	nummod	_	_
+4	ou	ou	CCONJ	_	_	5	cc	_	_
+5	6	6	NUM	_	NumType=Card	3	conj	_	_
+6	dias	dia	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	uso	uso	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	moderado	moderado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
+12	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	sofrer	sofrer	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	interrupção	interrupção	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	nos	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0021
+# text = Ex: 12 horas assistindo filmes na Netflix ou até mesmo alguns poucos dias navegando (durante 4 horas por dia) no Facebook já seriam suficiente para bloquear sua internet limitada Essa atitude é digna de países comunistas como a China.
+1	Ex	ex	NOUN	_	Number=Sing	29	cc	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	12	12	NUM	_	NumType=Card	4	nummod	_	_
+4	horas	hora	NOUN	_	Gender=Fem|Number=Plur	29	nsubj	_	_
+5	assistindo	assistir	VERB	_	VerbForm=Ger	4	acl	_	_
+6	filmes	filme	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Netflix	Netflix	PROPN	_	_	5	obl	_	_
+10	ou	ou	CCONJ	_	_	15	cc	_	_
+11	até	até	ADV	_	_	15	case	_	_
+12	mesmo	mesmo	ADV	_	_	15	advmod	_	_
+13	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+14	poucos	pouco	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+15	dias	dia	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+16	navegando	navegar	VERB	_	VerbForm=Ger	15	acl	_	_
+17	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	durante	durante	ADP	_	_	20	case	_	_
+19	4	4	NUM	_	NumType=Card	20	nummod	_	_
+20	horas	hora	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	dia	dia	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	20	punct	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Facebook	Facebook	PROPN	_	_	5	obl	_	_
+27	já	já	ADV	_	_	29	advmod	_	_
+28	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	29	cop	_	_
+29	suficiente	suficiente	ADJ	_	Number=Sing	0	root	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31	bloquear	bloquear	VERB	_	VerbForm=Inf	29	acl	_	_
+32	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	31	obj	_	_
+34	limitada	limitado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	33	amod	_	_
+35	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
+36	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	38	nsubj	_	_
+37	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+38	digna	digno	ADJ	_	Gender=Fem|Number=Sing	33	root	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	países	país	NOUN	_	Gender=Masc|Number=Plur	38	obl	_	_
+41	comunistas	comunista	ADJ	_	Number=Plur	40	amod	_	_
+42	como	como	ADP	_	_	44	case	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	China	China	PROPN	_	_	40	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0023
+# text = Querem limitar a comunicação.
+1	Querem	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	limitar	limitar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Querem alienar o povo.
+1	Querem	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	alienar	alienar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	povo	povo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0027
+# text = O superintendente da Anatel já assumiu publicamente que considera benéfica a existência de franquias de dados na banda larga fixa, argumentando que usuários que usam pouco o serviço paguem menos do que aqueles que usam muito.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	superintendente	superintendente	NOUN	_	Number=Sing	7	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Anatel	Anatel	PROPN	_	_	2	nmod	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	publicamente	publicamente	ADV	_	_	7	advmod	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	benéfica	benéfico	ADJ	_	Gender=Fem|Number=Sing	10	xcomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	existência	existência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	franquias	franquia	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	dados	dado	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	banda	banda	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+21	larga	largo	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	fixa	fixo	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	argumentando	argumentar	VERB	_	VerbForm=Ger	7	advcl	_	_
+25	que	que	SCONJ	_	_	32	mark	_	_
+26	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	32	nsubj	_	_
+27	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+28	usam	usar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	pouco	pouco	ADV	_	_	28	advmod	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+32	paguem	pagar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+33	menos	menos	ADV	_	_	32	advmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	ExtPos=SCONJ	37	mark	_	_
+35	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	34	fixed	_	_
+36	que	que	PRON	_	PronType=Rel	34	fixed	_	_
+37	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	32	advcl	_	_
+38	que	que	PRON	_	PronType=Rel	39	nsubj	_	_
+39	usam	usar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+40	muito	muito	ADV	_	_	39	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0029
+# text = Conversa fiada!
+1	Conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	fiada	fiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	1	amod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0031
+# text = Estamos agora nas mãos do Ministério Público Federal, que irá investigar esse crime que lesa os consumidores.
+1	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	agora	agora	ADV	_	_	5	advmod	_	_
+3-4	nas	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ministério	Ministério	PROPN	_	_	5	nmod	_	_
+9	Público	Público	PROPN	_	_	8	flat:name	_	_
+10	Federal	Federal	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+13	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
+14	investigar	investigar	VERB	_	VerbForm=Inf	8	acl:relcl	_	_
+15	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	crime	crime	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	lesa	lesar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	consumidores	consumidor	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0033
+# text = Nos resta apenas torcer para que o MPF possa impedir essa barbárie contra o povo que mais paga impostos no mundo.
+1-2	Nos	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	2	case	_	_
+2	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	3	obl	_	_
+3	resta	restar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	apenas	apenas	ADV	_	_	5	advmod	_	_
+5	torcer	torcer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	para	para	ADP	_	ExtPos=SCONJ	10	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	MPF	MPF	PROPN	_	_	10	nsubj	_	_
+10	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	impedir	impedir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	barbárie	barbárie	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	contra	contra	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	povo	povo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+18	mais	mais	ADV	_	_	19	advmod	_	_
+19	paga	pagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	impostos	imposto	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+

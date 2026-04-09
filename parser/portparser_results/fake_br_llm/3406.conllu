@@ -1,0 +1,388 @@
+# sent_id = S0001
+# text = Supremo Tribunal Federal (STF) é palco de escândalo: Ministros Barroso e Gilmar Mendes protagonizam briga histórica.
+1	Supremo	Supremo	PROPN	_	_	8	nsubj	_	_
+2	Tribunal	Tribunal	PROPN	_	_	1	flat:name	_	_
+3	Federal	Federal	PROPN	_	_	1	flat:name	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	STF	STF	PROPN	_	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	palco	palco	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	17	punct	_	_
+12	Ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+13	Barroso	Barroso	PROPN	_	_	12	flat:name	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	Gilmar	Gilmar	PROPN	_	_	12	conj	_	_
+16	Mendes	Mendes	PROPN	_	_	15	flat:name	_	_
+17	protagonizam	protagonizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	briga	briga	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	histórica	histórico	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Durante a sessão desta quarta-feira (21), uma acalorada troca de acusações resultou na suspensão dos trabalhos.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+4-5	desta	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	21	21	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	acalorada	acalorado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	_
+13	troca	troca	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+16	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0005
+# text = Barroso, visivelmente irritado, acusou Gilmar Mendes de manipulação e corrupção, afirmando que ele teria recebido propinas para influenciar decisões em casos de grande repercussão, incluindo a revogação de prisões de envolvidos em esquemas de corrupção.
+1	Barroso	Barroso	PROPN	_	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	visivelmente	visivelmente	ADV	_	_	4	advmod	_	_
+4	irritado	irritado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Gilmar	Gilmar	PROPN	_	_	6	obj	_	_
+8	Mendes	Mendes	PROPN	_	_	7	flat:name	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	manipulação	manipulação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	afirmando	afirmar	VERB	_	VerbForm=Ger	6	advcl	_	_
+15	que	que	SCONJ	_	_	18	mark	_	_
+16	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
+18	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	ccomp	_	_
+19	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	influenciar	influenciar	VERB	_	VerbForm=Inf	18	advcl	_	_
+22	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	casos	caso	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	grande	grande	ADJ	_	Number=Sing	27	amod	_	_
+27	repercussão	repercussão	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	incluindo	incluir	VERB	_	VerbForm=Ger	24	acl	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	revogação	revogação	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	prisões	prisão	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	envolvidos	envolvido	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
+36	em	em	ADP	_	_	37	case	_	_
+37	esquemas	esquema	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Você é um agente do caos e da corrupção, Gilmar.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	agente	agente	NOUN	_	Number=Sing	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caos	caos	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	_	_	11	cc	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Gilmar	Gilmar	PROPN	_	_	4	appos	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Sua conduta é um desrespeito ao povo brasileiro, disparou Barroso.
+1	Sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	conduta	conduta	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	desrespeito	desrespeito	NOUN	_	Gender=Masc|Number=Sing	11	ccomp:speech	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	povo	povo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	disparou	disparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Barroso	Barroso	PROPN	_	_	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = Gilmar Mendes, por sua vez, não se conteve e atacou a integridade de Barroso, alegando que ele ainda mantinha ligações com seu antigo escritório de advocacia, beneficiando-se de decisões judiciais.
+1	Gilmar	Gilmar	PROPN	_	_	10	nsubj	_	_
+2	Mendes	Mendes	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	não	não	ADV	_	_	10	advmod	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	conteve	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	atacou	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Barroso	Barroso	PROPN	_	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	alegando	alegar	VERB	_	VerbForm=Ger	10	advcl	_	_
+19	que	que	SCONJ	_	_	22	mark	_	_
+20	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	ainda	ainda	ADV	_	_	22	advmod	_	_
+22	mantinha	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	ccomp	_	_
+23	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+24	com	com	ADP	_	_	27	case	_	_
+25	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+26	antigo	antigo	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+27	escritório	escritório	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	advocacia	advocacia	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31-32	beneficiando-se	_	_	_	_	_	_	_	_
+31	beneficiando	beneficiar	VERB	_	VerbForm=Ger	22	advcl	_	_
+32	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	31	expl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	31	obl	_	_
+35	judiciais	judicial	ADJ	_	Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Barroso, você deveria ter vergonha!
+1	Barroso	Barroso	PROPN	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ter	ter	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	vergonha	vergonha	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Feche esse seu escritório que continua a operar na sombra da sua posição aqui, gritou Mendes.
+1	Feche	fechar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	18	ccomp:speech	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	escritório	escritório	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	operar	operar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sombra	sombra	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	posição	posição	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16	aqui	aqui	ADV	_	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	1	punct	_	_
+18	gritou	gritar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	Mendes	Mendes	PROPN	_	_	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0017
+# text = A presidente do STF, Cármen Lúcia, tentou controlar a situação, mas sem sucesso, resultando na suspensão da sessão ao vivo pela TV Justiça.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	10	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Cármen	Cármen	PROPN	_	_	2	appos	_	_
+8	Lúcia	Lúcia	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	controlar	controlar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	situação	situação	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	mas	mas	CCONJ	_	_	17	cc	_	_
+16	sem	sem	ADP	_	_	17	case	_	_
+17	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	resultando	resultar	VERB	_	VerbForm=Ger	10	advcl	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26-27	ao	_	_	_	_	_	_	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	vivo	vivo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29-30	pela	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	TV	TV	PROPN	_	_	22	nmod	_	_
+32	Justiça	Justiça	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0019
+# text = A tensão entre os ministros atingiu um novo patamar, colocando em questão a credibilidade e a moralidade da mais alta Corte do país.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	entre	entre	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	atingiu	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	novo	novo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	patamar	patamar	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	colocando	colocar	VERB	_	VerbForm=Ger	6	advcl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	questão	questão	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	credibilidade	credibilidade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	moralidade	moralidade	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	23	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+21	mais	mais	ADV	_	_	22	advmod	_	_
+22	alta	alto	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	Corte	Corte	PROPN	_	_	15	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	país	país	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Após a suspensão, Barroso emitiu uma carta enfática a Cármen Lúcia, negando qualquer vínculo atual com seu antigo escritório e denunciando a "informação falsa" propagada por Gilmar Mendes.
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Barroso	Barroso	PROPN	_	_	6	nsubj	_	_
+6	emitiu	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	carta	carta	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	enfática	enfático	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	Cármen	Cármen	PROPN	_	_	8	nmod	_	_
+12	Lúcia	Lúcia	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	negando	negar	VERB	_	VerbForm=Ger	8	advcl	_	_
+15	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	16	det	_	_
+16	vínculo	vínculo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	atual	atual	ADJ	_	Number=Sing	16	amod	_	_
+18	com	com	ADP	_	_	21	case	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+20	antigo	antigo	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	escritório	escritório	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	denunciando	denunciar	VERB	_	VerbForm=Ger	14	conj	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	informação	informação	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+27	falsa	falso	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	26	punct	_	_
+29	propagada	propagar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	26	acl	_	_
+30	por	por	ADP	_	_	31	case	_	_
+31	Gilmar	Gilmar	PROPN	_	_	29	obl:agent	_	_
+32	Mendes	Mendes	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0023
+# text = Mendes, por sua vez, manteve suas acusações, elevando ainda mais a crise interna no STF.
+1	Mendes	Mendes	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	elevando	elevar	VERB	_	VerbForm=Ger	7	advcl	_	_
+12	ainda	ainda	ADV	_	_	13	advmod	_	_
+13	mais	mais	ADV	_	_	11	advmod	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	crise	crise	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+16	interna	interno	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	STF	STF	PROPN	_	_	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0025
+# text = Esse confronto é mais um capítulo na série de desavenças entre os dois ministros, que já trocaram farpas em debates anteriores sobre a utilização de recursos judiciais no Rio de Janeiro e a atuação na Operação Lava Jato.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	mais	mais	ADV	_	_	5	advmod	_	_
+5	um	um	NUM	_	Gender=Masc|NumType=Card	6	nummod	_	_
+6	capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	série	série	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	desavenças	desavença	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+12	entre	entre	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	dois	dois	NUM	_	Gender=Masc|NumType=Card	15	nummod	_	_
+15	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+18	já	já	ADV	_	_	19	advmod	_	_
+19	trocaram	trocar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+20	farpas	farpa	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	debates	debate	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
+23	anteriores	anterior	ADJ	_	Number=Plur	22	amod	_	_
+24	sobre	sobre	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+29	judiciais	judicial	ADJ	_	Number=Plur	28	amod	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Rio	Rio	PROPN	_	_	26	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	Janeiro	Janeiro	PROPN	_	_	32	flat:name	_	_
+35	e	e	CCONJ	_	_	37	cc	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+38-39	na	_	_	_	_	_	_	_	_
+38	em	em	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Operação	Operação	PROPN	_	_	37	nmod	_	_
+41	Lava	Lava	PROPN	_	_	40	flat:name	_	_
+42	Jato	Jato	PROPN	_	_	40	flat:name	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	6	punct	_	_
+

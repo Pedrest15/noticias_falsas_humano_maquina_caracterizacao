@@ -1,0 +1,150 @@
+# sent_id = S0001
+# text = Após ser provocado por Lula, novo prefeito de São Paulo diz: Estou em paz.
+1	Após	após	ADP	_	_	3	mark	_	_
+2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
+3	provocado	provocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	Lula	Lula	PROPN	_	_	3	obl:agent	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	novo	novo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	prefeito	prefeito	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	São	São	PROPN	_	_	8	nmod	_	_
+11	Paulo	Paulo	PROPN	_	_	10	flat:name	_	_
+12	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	16	punct	_	_
+14	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	paz	paz	NOUN	_	Gender=Fem|Number=Sing	12	ccomp:speech	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0003
+# text = Irei visitá-lo na cadeia.
+1	Irei	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2-3	visitá-lo	_	_	_	_	_	_	_	_
+2	visitar	visitar	VERB	_	VerbForm=Inf	0	root	_	_
+3	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = João Doria (PSDB), prefeito eleito em São Paulo no primeiro turno, respondeu a uma provocação de Lula.
+1	João	João	PROPN	_	_	17	nsubj	_	_
+2	Doria	Doria	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	PSDB	PSDB	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	prefeito	prefeito	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+8	eleito	eleger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	São	São	PROPN	_	_	8	obl	_	_
+11	Paulo	Paulo	PROPN	_	_	10	flat:name	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	turno	turno	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	7	punct	_	_
+17	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	provocação	provocação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Lula	Lula	PROPN	_	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0007
+# text = Ao votar em São Bernardo do Campo (SP), Lula havia dito que São Paulo corria o risco de eleger um "aventureiro".
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	votar	votar	VERB	_	VerbForm=Inf	16	advcl	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	São	São	PROPN	_	_	3	obl	_	_
+6	Bernardo	Bernardo	PROPN	_	_	5	flat:name	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Campo	Campo	PROPN	_	_	5	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	SP	SP	PROPN	_	_	5	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	Lula	Lula	PROPN	_	_	16	nsubj	_	_
+15	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	dito	dizer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+17	que	que	SCONJ	_	_	20	mark	_	_
+18	São	São	PROPN	_	_	20	nsubj	_	_
+19	Paulo	Paulo	PROPN	_	_	18	flat:name	_	_
+20	corria	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	ccomp	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	risco	risco	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	mark	_	_
+24	eleger	eleger	VERB	_	VerbForm=Inf	22	acl	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	aventureiro	aventureiro	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0009
+# text = Dória ganhou de lavada e respondeu: Eu estou numa noite de paz.
+1	Dória	Dória	PROPN	_	_	2	nsubj	_	_
+2	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	lavada	lavado	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	12	punct	_	_
+8	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10-11	numa	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	noite	noite	NOUN	_	Gender=Fem|Number=Sing	6	ccomp:speech	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	paz	paz	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = O Lula sabe que, em algum momento, irei visitá-lo em Curitiba.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+3	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	momento	momento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	irei	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	11	aux	_	_
+11-12	visitá-lo	_	_	_	_	_	_	_	_
+11	visitar	visitar	VERB	_	VerbForm=Inf	3	ccomp	_	_
+12	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Curitiba	Curitiba	PROPN	_	_	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Será minha homenagem a ele, disse o tucano.
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	homenagem	homenagem	NOUN	_	Gender=Fem|Number=Sing	7	ccomp:speech	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tucano	tucano	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0014
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

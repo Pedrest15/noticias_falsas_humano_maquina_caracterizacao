@@ -1,0 +1,179 @@
+# sent_id = S0001
+# text = A "lista de compras" de Dilma: Adenosina, Lidocaína, Midazolam, Quetiapina, Amoxicilina.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	lista	lista	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	compras	compra	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	3	punct	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Dilma	Dilma	PROPN	_	_	3	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	10	punct	_	_
+10	Adenosina	Adenosina	PROPN	_	_	3	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	Lidocaína	Lidocaína	PROPN	_	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Midazolam	Midazolam	PROPN	_	_	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	Quetiapina	Quetiapina	PROPN	_	_	10	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	Amoxicilina	Amoxicilina	PROPN	_	_	10	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = A situação econômica do país está em frangalhos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	país	país	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	frangalhos	frangalho	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = E, pelo jeito, a saúde da alta cúpula do governo federal também está se esvaindo.
+1	E	e	CCONJ	_	_	20	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jeito	jeito	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	alta	alto	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	cúpula	cúpula	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	federal	federal	ADJ	_	Number=Sing	15	amod	_	_
+17	também	também	ADV	_	_	20	advmod	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+20	esvaindo	esvair	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0007
+# text = O site Contas Abertas noticiou que a Secretaria de Administração da Presidência da República reservou R$ 3, 6 mil para compra de diversos tipos de medicamentos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	site	site	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Contas	Contas	PROPN	_	_	2	nmod	_	_
+4	Abertas	Abertas	PROPN	_	_	3	flat:name	_	_
+5	noticiou	noticiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	17	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Secretaria	Secretaria	PROPN	_	_	17	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Administração	Administração	PROPN	_	_	8	flat:name	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Presidência	Presidência	PROPN	_	_	8	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	República	República	PROPN	_	_	13	flat:name	_	_
+17	reservou	reservar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+18	R$	R$	SYM	_	_	17	obj	_	_
+19	3	3	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	6	6	NUM	_	NumType=Card	18	nummod	_	_
+22	mil	mil	NUM	_	NumType=Card	21	flat	_	_
+23	para	para	ADP	_	_	24	case	_	_
+24	compra	compra	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	27	det	_	_
+27	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	medicamentos	medicamento	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = 50 ampolas de adenosina (usado para taquicardia); 10 frascos de lidocaína (anestésico); 100 ampolas de midazolam (usado para sedação e insônia); 120 comprimidos de quetiapina (antipsicótico); 280 comprimidos de amoxicilina (antibiótico para bactérias); 1, 2 mil ampolas de água destilada.
+1	50	50	NUM	_	NumType=Card	2	nummod	_	_
+2	ampolas	ampola	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	adenosina	adenosina	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	taquicardia	taquicardia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+10	;	;	PUNCT	_	_	12	punct	_	_
+11	10	10	NUM	_	NumType=Card	12	nummod	_	_
+12	frascos	frasco	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	lidocaína	lidocaína	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	anestésico	anestésico	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	;	;	PUNCT	_	_	20	punct	_	_
+19	100	100	NUM	_	NumType=Card	20	nummod	_	_
+20	ampolas	ampola	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	midazolam	midazolam	NOUN	_	Foreign=Yes	20	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+25	para	para	ADP	_	_	26	case	_	_
+26	sedação	sedação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	insônia	insônia	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+30	;	;	PUNCT	_	_	32	punct	_	_
+31	120	120	NUM	_	NumType=Card	32	nummod	_	_
+32	comprimidos	comprimido	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	quetiapina	quetiapina	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	antipsicótico	antipsicótico	NOUN	_	Gender=Masc|Number=Sing	34	appos	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	;	;	PUNCT	_	_	40	punct	_	_
+39	280	280	NUM	_	NumType=Card	40	nummod	_	_
+40	comprimidos	comprimido	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	amoxicilina	amoxicilina	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
+43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	antibiótico	antibiótico	NOUN	_	Gender=Masc|Number=Sing	42	appos	_	_
+45	para	para	ADP	_	_	46	case	_	_
+46	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	44	nmod	_	SpaceAfter=No
+47	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
+48	;	;	PUNCT	_	_	40	punct	_	_
+49	1	1	NUM	_	NumType=Card	40	nummod	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	51	punct	_	_
+51	2	2	NUM	_	NumType=Card	53	nummod	_	_
+52	mil	mil	NUM	_	NumType=Card	51	flat	_	_
+53	ampolas	ampola	NOUN	_	Gender=Fem|Number=Plur	40	conj	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	água	água	NOUN	_	Gender=Fem|Number=Sing	53	nmod	_	_
+56	destilada	destilado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	55	amod	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Quem será que está se entupindo com esses remédios?
+1	Quem	quem	PRON	_	PronType=Int	6	nsubj	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	discourse	_	_
+3	que	que	SCONJ	_	_	6	discourse	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	entupindo	entupir	VERB	_	VerbForm=Ger	0	root	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	remédios	remédio	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Hum...já dá pra imaginar!
+1	Hum...já	hum...já	ADV	_	_	2	advmod	_	_
+2	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pra	para	ADP	_	_	4	mark	_	_
+4	imaginar	imaginar	VERB	_	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	_
+

@@ -1,0 +1,164 @@
+# sent_id = S0001
+# text = Cantora pop Miley Cyrus tem serviço de "drive-thru" para votar nos EUA.
+1	Cantora	cantor	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	pop	pop	ADJ	_	_	1	amod	_	_
+3	Miley	Miley	PROPN	_	_	1	nmod	_	_
+4	Cyrus	Cyrus	PROPN	_	_	3	flat:name	_	_
+5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	drive-thru	drive-thru	X	_	Foreign=Yes	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	votar	votar	VERB	_	VerbForm=Inf	5	advcl	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	EUA	EUA	PROPN	_	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Votei hoje para @ HillaryClinton e estou muito orgulhosa de todos vocês que fizeram o mesmo!
+1	Votei	votar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	hoje	hoje	ADV	_	_	1	advmod	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	@	@	SYM	_	_	1	obl	_	_
+5	HillaryClinton	HillaryClinton	PROPN	_	_	4	nmod	_	_
+6	e	e	CCONJ	_	_	9	cc	_	_
+7	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	muito	muito	ADV	_	_	9	advmod	_	_
+9	orgulhosa	orgulhoso	ADJ	_	Gender=Fem|Number=Sing	1	conj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	obl	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	obj	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0004
+# text = disse Miley A estrela pop do Tenesse teve um serviço eleitoral ao estilo "drive-thru".
+1	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Miley	Miley	PROPN	_	_	1	nsubj	_	_
+3	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	pop	pop	ADJ	_	_	4	amod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Tenesse	Tenesse	PROPN	_	_	4	nmod	_	_
+9	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	root	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	eleitoral	eleitoral	ADJ	_	Number=Sing	11	amod	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	drive-thru	drive-thru	X	_	Foreign=Yes	15	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0006
+# text = Ela estava acompanhada do namorado, o ator australiano Liam Hemsworth, que dirigia o carro que ambos estavam.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	acompanhada	acompanhado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	namorado	namorado	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ator	ator	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+10	australiano	australiano	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	Liam	Liam	PROPN	_	_	9	nmod	_	_
+12	Hemsworth	Hemsworth	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	dirigia	dirigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	carro	carro	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	que	que	PRON	_	PronType=Rel	19	obj	_	_
+19	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+20	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0008
+# text = A cantora foi até sua zona eleitoral em Beverly Hills e sequer se deu ao trabalho de tirar o cinto de segurança para votar na tarde de hoje (08) O serviço de votação VIP foi disponibilizado nos EUA, mas é pra poucos!
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cantora	cantor	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	até	até	ADP	_	_	6	case	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	zona	zona	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	eleitoral	eleitoral	ADJ	_	Number=Sing	6	amod	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	Beverly	Beverly	PROPN	_	_	3	obl	_	_
+10	Hills	Hills	PROPN	_	_	9	flat:name	_	_
+11	e	e	CCONJ	_	_	14	cc	_	_
+12	sequer	sequer	ADV	_	_	14	advmod	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	tirar	tirar	VERB	_	VerbForm=Inf	17	acl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cinto	cinto	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	segurança	segurança	NOUN	_	Number=Sing	21	nmod	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	votar	votar	VERB	_	VerbForm=Inf	19	advcl	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	hoje	hoje	ADV	_	_	28	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	08	08	NUM	_	NumType=Card	30	appos	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	40	nsubj:pass	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	votação	votação	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+38	VIP	VIP	PROPN	_	_	37	nmod	_	_
+39	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	aux:pass	_	_
+40	disponibilizado	disponibilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	root	_	_
+41-42	nos	_	_	_	_	_	_	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	EUA	EUA	PROPN	_	_	40	obl	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	48	punct	_	_
+45	mas	mas	CCONJ	_	_	48	cc	_	_
+46	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+47	pra	para	ADP	_	_	48	case	_	_
+48	poucos	pouco	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	40	conj	_	SpaceAfter=No
+49	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0010
+# text = Até mesmo os presidenciáveis Hillary Clinton e Donald Trump entraram em suas sessões eleitorais para votar.
+1	Até	até	ADV	_	_	4	advmod	_	_
+2	mesmo	mesmo	ADV	_	_	1	advmod	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	presidenciáveis	presidenciável	NOUN	_	Number=Plur	10	nsubj	_	_
+5	Hillary	Hillary	PROPN	_	_	4	nmod	_	_
+6	Clinton	Clinton	PROPN	_	_	5	flat:name	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	Donald	Donald	PROPN	_	_	5	conj	_	_
+9	Trump	Trump	PROPN	_	_	8	flat:name	_	_
+10	entraram	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	sessões	sessão	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+14	eleitorais	eleitoral	ADJ	_	Number=Plur	13	amod	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	votar	votar	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+

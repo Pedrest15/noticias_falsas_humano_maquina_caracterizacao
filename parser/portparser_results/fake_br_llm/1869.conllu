@@ -1,0 +1,280 @@
+# sent_id = S0001
+# text = Renan Calheiros é acusado de megaesquema de desvio de verba pública para enriquecimento ilícito.
+1	Renan	Renan	PROPN	_	_	4	nsubj:pass	_	_
+2	Calheiros	Calheiros	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	megaesquema	megaesquema	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	desvio	desvio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	verba	verba	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	pública	público	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	enriquecimento	enriquecimento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+14	ilícito	ilícito	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Supostamente, o presidente do Senado teria desviado milhões da verba de gabinete para uma empresa de fachada, a Costa Dourada Veículos, que nunca prestou serviços ao Senado.
+1	Supostamente	supostamente	ADV	_	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	9	nsubj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Senado	Senado	PROPN	_	_	4	nmod	_	_
+8	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	aux	_	_
+9	desviado	desviar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+10	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	verba	verba	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	gabinete	gabinete	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	fachada	fachada	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Costa	Costa	PROPN	_	_	18	appos	_	_
+24	Dourada	Dourada	PROPN	_	_	23	flat:name	_	_
+25	Veículos	Veículos	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
+28	nunca	nunca	ADV	_	_	29	advmod	_	_
+29	prestou	prestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+30	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
+31-32	ao	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Senado	Senado	PROPN	_	_	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = De acordo com uma investigação bombástica divulgada esta semana, o valor desviado ultrapassaria R$ 50 milhões, uma quantia muito superior aos valores inicialmente reportados.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+8	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	semana	semana	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	valor	valor	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	desviado	desviar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	ultrapassaria	ultrapassar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+15	R$	R$	SYM	_	_	17	nmod	_	_
+16	50	50	NUM	_	NumType=Card	17	nummod	_	_
+17	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	quantia	quantia	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
+21	muito	muito	ADV	_	_	22	advmod	_	_
+22	superior	superior	ADJ	_	Number=Sing	20	amod	_	_
+23-24	aos	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	valores	valor	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
+26	inicialmente	inicialmente	ADV	_	_	27	advmod	_	_
+27	reportados	reportar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	25	acl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = Além disso, documentos revelam que a empresa teria emprestado R$ 500 mil ao senador, levantando suspeitas de lavagem de dinheiro.
+1	Além	além	ADV	_	_	6	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	emprestado	emprestar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	ccomp	_	_
+12	R$	R$	SYM	_	_	11	obj	_	_
+13	500	500	NUM	_	NumType=Card	12	nummod	_	_
+14	mil	mil	NUM	_	NumType=Card	13	flat	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	senador	senador	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	levantando	levantar	VERB	_	VerbForm=Ger	11	advcl	_	_
+20	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Renan Calheiros, em uma declaração polêmica, negou todas as acusações, afirmando ser vítima de uma "perseguição política sem precedentes".
+1	Renan	Renan	PROPN	_	_	9	nsubj	_	_
+2	Calheiros	Calheiros	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+7	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	negou	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	afirmando	afirmar	VERB	_	VerbForm=Ger	9	advcl	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	16	cop	_	_
+16	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	14	xcomp	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+21	política	político	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	sem	sem	ADP	_	_	23	case	_	_
+23	precedentes	precedente	NOUN	_	Number=Plur	20	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = O PMDB, em nota, expressou total confiança na inocência de Renan, alegando que as acusações são infundadas e visam desestabilizar a instituição.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PMDB	PMDB	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	nota	nota	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	expressou	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	total	total	ADJ	_	Number=Sing	9	amod	_	_
+9	confiança	confiança	NOUN	_	Number=Sing	7	obj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	inocência	inocência	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Renan	Renan	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	alegando	alegar	VERB	_	VerbForm=Ger	7	advcl	_	_
+17	que	que	SCONJ	_	_	21	mark	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+20	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	infundadas	infundado	ADJ	_	Gender=Fem|Number=Plur	16	ccomp	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	visam	visar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+24	desestabilizar	desestabilizar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	instituição	instituição	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = A decisão do STF de abrir a ação penal contra Renan foi unânime, com todos os ministros votando a favor, destacando a gravidade dos indícios apresentados.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	2	nmod	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	abrir	abrir	VERB	_	VerbForm=Inf	2	acl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ação	ação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	penal	penal	ADJ	_	Number=Sing	9	amod	_	_
+11	contra	contra	ADP	_	_	12	case	_	_
+12	Renan	Renan	PROPN	_	_	9	nmod	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	unânime	unânime	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	com	com	ADP	_	_	19	case	_	_
+17	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+20	votando	votar	VERB	_	VerbForm=Ger	14	advcl	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	favor	favor	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	destacando	destacar	VERB	_	VerbForm=Ger	20	conj	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	dos	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	indícios	indício	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+30	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	29	acl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0015
+# text = A acusação de peculato agora inclui também supostos crimes de falsidade ideológica e uso de documentos fraudulentos, que teriam sido forjados para encobrir o esquema ilícito.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	peculato	peculato	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	agora	agora	ADV	_	_	6	advmod	_	_
+6	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	também	também	ADV	_	_	6	advmod	_	_
+8	supostos	suposto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	9	amod	_	_
+9	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	falsidade	falsidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	ideológica	ideológico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	uso	uso	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	fraudulentos	fraudulento	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	que	que	PRON	_	PronType=Rel	22	nsubj:pass	_	_
+20	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	22	aux	_	_
+21	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	22	aux:pass	_	_
+22	forjados	forjar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+23	para	para	ADP	_	_	24	mark	_	_
+24	encobrir	encobrir	VERB	_	VerbForm=Inf	22	advcl	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27	ilícito	ilícito	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = A defesa de Renan, no entanto, argumenta que a acusação carece de provas concretas e que a empresa foi alvo de uma "auditoria seletiva".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Renan	Renan	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	ExtPos=CCONJ	10	cc	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	fixed	_	_
+8	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	argumenta	argumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	carece	carecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	provas	prova	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+17	concretas	concreto	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	_	_	23	cc	_	_
+19	que	que	SCONJ	_	_	23	mark	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+23	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+24	de	de	ADP	_	_	27	case	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	auditoria	auditoria	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+28	seletiva	seletivo	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	10	punct	_	_
+

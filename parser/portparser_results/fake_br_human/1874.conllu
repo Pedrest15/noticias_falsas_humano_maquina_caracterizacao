@@ -1,0 +1,217 @@
+# sent_id = S0001
+# text = Cobra engolindo cobra!
+1	Cobra	cobra	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	engolindo	engolir	VERB	_	VerbForm=Ger	1	acl	_	_
+3	cobra	cobra	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Folha diz que nome de FHC para presidente já está sendo cogitado no PSDB.
+1	Folha	Folha	PROPN	_	_	2	nsubj	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	12	mark	_	_
+4	nome	nome	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	FHC	FHC	PROPN	_	_	4	nmod	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	4	nmod	_	_
+9	já	já	ADV	_	_	12	advmod	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	sendo	ser	AUX	_	VerbForm=Ger	12	aux:pass	_	_
+12	cogitado	cogitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	PSDB	PSDB	PROPN	_	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O ex-presidente Fernando Henrique Cardoso tem grandes chances de assumir a presidência da república com um empurrãozinho do Congresso.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-presidente	ex-presidente	NOUN	_	Number=Sing	6	nsubj	_	_
+3	Fernando	Fernando	PROPN	_	_	2	nmod	_	_
+4	Henrique	Henrique	PROPN	_	_	3	flat:name	_	_
+5	Cardoso	Cardoso	PROPN	_	_	3	flat:name	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	grandes	grande	ADJ	_	Number=Plur	8	amod	_	_
+8	chances	chance	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	assumir	assumir	VERB	_	VerbForm=Inf	8	acl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	república	república	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	empurrãozinho	empurrãozinho	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Congresso	Congresso	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = A Folha de SP informou que integrantes do PSDB já cogitam o mês de março como data limite para que Michel Temer mostre que a economia do Brasil pode reagir e, consequentemente, ele possa conquistar a imagem de "presidente que acertou as contas públicas".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Folha	Folha	PROPN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	SP	SP	PROPN	_	_	2	nmod	_	_
+5	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	12	mark	_	_
+7	integrantes	integrante	NOUN	_	Number=Plur	12	nsubj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	PSDB	PSDB	PROPN	_	_	7	nmod	_	_
+11	já	já	ADV	_	_	12	advmod	_	_
+12	cogitam	cogitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mês	mês	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	março	março	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	como	como	ADP	_	_	18	case	_	_
+18	data	data	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+19	limite	limite	NOUN	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	para	para	ADP	_	ExtPos=SCONJ	24	mark	_	_
+21	que	que	SCONJ	_	_	20	fixed	_	_
+22	Michel	Michel	PROPN	_	_	24	nsubj	_	_
+23	Temer	Temer	PROPN	_	_	22	flat:name	_	_
+24	mostre	mostrar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+25	que	que	SCONJ	_	_	31	mark	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	economia	economia	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Brasil	Brasil	PROPN	_	_	27	nmod	_	_
+31	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+32	reagir	reagir	VERB	_	VerbForm=Inf	31	xcomp	_	_
+33	e	e	CCONJ	_	_	38	cc	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	consequentemente	consequentemente	ADV	_	_	38	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+38	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+39	conquistar	conquistar	VERB	_	VerbForm=Inf	38	xcomp	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	imagem	imagem	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	presidente	presidente	NOUN	_	Number=Sing	41	nmod	_	_
+45	que	que	PRON	_	PronType=Rel	46	nsubj	_	_
+46	acertou	acertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	acl:relcl	_	_
+47	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	contas	conta	NOUN	_	Gender=Fem|Number=Plur	46	obj	_	_
+49	públicas	público	ADJ	_	Gender=Fem|Number=Plur	48	amod	_	SpaceAfter=No
+50	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Alguns parlamentares já cogitam o nome de Fernando Henrique Cardoso como próximo presidente via eleição indireta.
+1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	já	já	ADV	_	_	4	advmod	_	_
+4	cogitam	cogitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nome	nome	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Fernando	Fernando	PROPN	_	_	6	nmod	_	_
+9	Henrique	Henrique	PROPN	_	_	8	flat:name	_	_
+10	Cardoso	Cardoso	PROPN	_	_	8	flat:name	_	_
+11	como	como	ADP	_	_	13	case	_	_
+12	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	presidente	presidente	NOUN	_	Number=Sing	6	nmod	_	_
+14	via	via	ADP	_	_	15	case	_	_
+15	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+16	indireta	indireto	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Só a Lava-Jato pode salvar esse país!
+1	Só	só	ADV	_	_	3	advmod	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Lava-Jato	Lava-Jato	PROPN	_	_	4	nsubj	_	_
+4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	salvar	salvar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	país	país	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = No dia 22 de Outubro, o Diário do Brasil publicou: Vamos explicar.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dia	dia	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+4	22	22	NUM	_	NumType=Card	3	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Outubro	Outubro	PROPN	_	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Diário	Diário	PROPN	_	_	13	nsubj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Brasil	Brasil	PROPN	_	_	9	flat:name	_	_
+13	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	16	punct	_	_
+15	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	explicar	explicar	VERB	_	VerbForm=Inf	13	ccomp:speech	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = O artigo 81 da Constituição Federal diz o seguinte: É cobra comendo cobra [...] o PMDB que "comeu" o PT [...] poderá ser "comido" pelo PSDB.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	81	81	NUM	_	NumType=Card	2	nmod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Constituição	Constituição	PROPN	_	_	2	nmod	_	_
+7	Federal	Federal	PROPN	_	_	6	flat:name	_	_
+8	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	_
+10	seguinte	seguinte	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	13	punct	_	_
+12	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	cobra	cobra	NOUN	_	Gender=Fem|Number=Sing	8	parataxis	_	_
+14	comendo	comer	VERB	_	VerbForm=Ger	13	acl	_	_
+15	cobra	cobra	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	13	parataxis	_	SpaceAfter=No
+18	..	..	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	17	punct	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	PMDB	PMDB	PROPN	_	_	32	nsubj	_	_
+22	que	que	PRON	_	PronType=Rel	24	nsubj	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	comeu	comer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	PT	PT	PROPN	_	_	24	obj	_	_
+28	[	[	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+30	..	..	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	]	]	PUNCT	_	_	29	punct	_	_
+32	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	parataxis	_	_
+33	ser	ser	AUX	_	VerbForm=Inf	35	aux:pass	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	comido	comer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	xcomp	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	_
+37-38	pelo	_	_	_	_	_	_	_	_
+37	por	por	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	PSDB	PSDB	PROPN	_	_	35	obl:agent	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = Será que ele dá conta?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	discourse	_	_
+2	que	que	SCONJ	_	_	4	discourse	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	conta	conta	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+

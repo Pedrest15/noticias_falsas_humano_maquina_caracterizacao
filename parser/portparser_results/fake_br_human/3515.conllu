@@ -1,0 +1,639 @@
+# sent_id = S0001
+# text = Em congresso do PT, Lula demonstra obsessão: "Seria ideal ganhar a presidência, os 27 estados e as prefeituras".
+1	Em	em	ADP	_	_	2	case	_	_
+2	congresso	congresso	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PT	PT	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+8	demonstra	demonstrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	obsessão	obsessão	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	13	punct	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	Seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	cop	_	_
+13	ideal	ideal	ADJ	_	Number=Sing	8	parataxis	_	_
+14	ganhar	ganhar	VERB	_	VerbForm=Inf	13	csubj	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	27	27	NUM	_	NumType=Card	20	nummod	_	_
+20	estados	estado	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	prefeituras	prefeitura	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Em matéria publicada no Globo, Lula revelou sua verdadeira face e uma obsessão doentia pelo poder.. (por Patrícia Carvalho) Luiz Inácio demonstrou, através de suas palavras, que não pensa no povo, como ele prega pelos quatro cantos do país.
+1	Em	em	ADP	_	_	2	case	_	_
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+3	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Globo	Globo	PROPN	_	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	Lula	Lula	PROPN	_	_	9	nsubj	_	_
+9	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+11	verdadeira	verdadeiro	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	face	face	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	obsessão	obsessão	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+16	doentia	doentio	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	poder	poder	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	..	..	PUNCT	_	_	9	punct	_	_
+21	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+22	por	por	ADP	_	_	23	case	_	_
+23	Patrícia	Patrícia	PROPN	_	_	15	nmod	_	_
+24	Carvalho	Carvalho	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	23	punct	_	_
+26	Luiz	Luiz	PROPN	_	_	28	nsubj	_	_
+27	Inácio	Inácio	PROPN	_	_	26	flat:name	_	_
+28	demonstrou	demonstrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	root	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	através	através	ADV	_	_	28	advmod	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	30	punct	_	_
+35	que	que	SCONJ	_	_	37	mark	_	_
+36	não	não	ADV	_	_	37	advmod	_	_
+37	pensa	pensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
+38-39	no	_	_	_	_	_	_	_	_
+38	em	em	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	povo	povo	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	44	punct	_	_
+42	como	como	SCONJ	_	_	44	mark	_	_
+43	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
+44	prega	pregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	_
+45-46	pelos	_	_	_	_	_	_	_	_
+45	por	por	ADP	_	_	48	case	_	_
+46	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+47	quatro	quatro	NUM	_	NumType=Card	48	nummod	_	_
+48	cantos	canto	NOUN	_	Gender=Masc|Number=Plur	44	obl	_	_
+49-50	do	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	país	país	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = Não sei se a palavra ideal seria "prega" [...] acho que talvez a palavra "PRAGA" se encaixasse melhor na frase.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	_	_	9	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	palavra	palavra	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	ideal	ideal	ADJ	_	Number=Sing	5	amod	_	_
+7	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	cop	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	prega	prega	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+13	..	..	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	12	punct	_	_
+15	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+16	que	que	SCONJ	_	_	24	mark	_	_
+17	talvez	talvez	ADV	_	_	24	advmod	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	palavra	palavra	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	PRAGA	PRAGA	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	_	_
+24	encaixasse	encaixar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+25	melhor	melhor	ADV	_	_	24	advmod	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	frase	frase	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Fugindo um pouco do assunto e ilustrando a matéria [...] Em meados de 1935/1940, havia um ciadão alemão que era um grande líder carismático, popular, religioso e tinha uma altíssima popularidade.
+1	Fugindo	fugir	VERB	_	ExtPos=VERB|VerbForm=Ger	20	advcl	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pouco	pouco	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	ilustrando	ilustrar	VERB	_	VerbForm=Ger	1	conj	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+13	..	..	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	12	punct	_	_
+15	Em	em	ADP	_	_	16	case	_	_
+16	meados	meado	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	1935/1940	1935/1940	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	16	punct	_	_
+20	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ciadão	ciadão	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	alemão	alemão	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+25	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	grande	grande	ADJ	_	Number=Sing	28	amod	_	_
+28	líder	líder	NOUN	_	Gender=Masc|Number=Sing	22	acl:relcl	_	_
+29	carismático	carismático	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	popular	popular	ADJ	_	Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	religioso	religioso	ADJ	_	Gender=Masc|Number=Sing	29	conj	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	conj	_	_
+36	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	altíssima	altíssimo	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
+38	popularidade	popularidade	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0009
+# text = Suas principais características eram: 1 Era um grande orador (muito carismático e eloqüente).
+1	Suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	principais	principal	ADJ	_	Number=Plur	3	amod	_	_
+3	características	característica	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+4	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	10	punct	_	_
+6	1	1	NUM	_	NumType=Card	10	nsubj	_	_
+7	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	grande	grande	ADJ	_	Number=Sing	10	amod	_	_
+10	orador	orador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	muito	muito	ADV	_	_	13	advmod	_	_
+13	carismático	carismático	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	eloqüente	eloqüente	ADJ	_	Number=Sing	13	conj	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = 2 Era Ultra Nacionalista 3 Era Lider-Nato Alguém se arrisca a dizer o nome?
+1	2	2	NUM	_	NumType=Card	2	nummod	_	_
+2	Era	Era	PROPN	_	_	10	nsubj	_	_
+3	Ultra	Ultra	PROPN	_	_	2	flat:name	_	_
+4	Nacionalista	Nacionalista	PROPN	_	_	2	flat:name	_	_
+5	3	3	NUM	_	NumType=Card	2	punct	_	_
+6	Era	Era	PROPN	_	_	2	nmod	_	_
+7	Lider-Nato	Lider-Nato	PROPN	_	_	6	flat:name	_	_
+8	Alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	arrisca	arriscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	dizer	dizer	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	nome	nome	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Pois bem, o cidadão de chamava Adolf Hitler.
+1	Pois	pois	CCONJ	_	_	2	cc	_	_
+2	bem	bem	ADV	_	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	chamava	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	Adolf	Adolf	PROPN	_	_	7	obj	_	_
+9	Hitler	Hitler	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Não estou comparando Lula ao Hitler, e sim tentando mostrar que não devemos julgar um livro pela capa.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comparando	comparar	VERB	_	VerbForm=Ger	0	root	_	_
+4	Lula	Lula	PROPN	_	_	3	obj	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Hitler	Hitler	PROPN	_	_	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	sim	sim	ADV	_	_	11	advmod	_	_
+11	tentando	tentar	VERB	_	VerbForm=Ger	3	conj	_	_
+12	mostrar	mostrar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	não	não	ADV	_	_	15	advmod	_	_
+15	devemos	dever	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	julgar	julgar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	livro	livro	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	pela	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	capa	capa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Lula jamais chegará a ser um assassino como Hitler, mas também não é o santo salvador que ela tenta vender em seus discursos ultrapassados e repetitivos.
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	jamais	jamais	ADV	_	_	3	advmod	_	_
+3	chegará	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	7	mark	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	7	cop	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	assassino	assassino	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	Hitler	Hitler	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	16	punct	_	_
+11	mas	mas	CCONJ	_	_	16	cc	_	_
+12	também	também	ADV	_	_	16	advmod	_	_
+13	não	não	ADV	_	_	16	advmod	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	santo	santo	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+17	salvador	salvador	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	que	que	PRON	_	PronType=Rel	20	obj	_	_
+19	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	vender	vender	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	discursos	discurso	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+25	ultrapassados	ultrapassado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	repetitivos	repetitivo	ADJ	_	Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Voltando ao assunto do post [...] Se Lula quisesse um futuro digno para o Brasil, pensaria, e muito, para dizer que a esquerda deve governar todo o país.
+1	Voltando	voltar	VERB	_	VerbForm=Ger	22	advcl	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	post	post	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+10	..	..	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	9	punct	_	_
+12	Se	se	SCONJ	_	_	14	mark	_	_
+13	Lula	Lula	PROPN	_	_	14	nsubj	_	_
+14	quisesse	querer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	digno	digno	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Brasil	Brasil	PROPN	_	_	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	14	punct	_	_
+22	pensaria	pensar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	muito	muito	ADV	_	_	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	para	para	ADP	_	_	28	mark	_	_
+28	dizer	dizer	VERB	_	VerbForm=Inf	22	advcl	_	_
+29	que	que	SCONJ	_	_	32	mark	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
+32	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
+33	governar	governar	VERB	_	VerbForm=Inf	32	xcomp	_	_
+34	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	36	det	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	país	país	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0021
+# text = Um país que se julga democrático deve unir forças de todos os lados, sejam elas (as forças) petistas, democratas, peemedebistas, enfim, Lula está demonstrando um verdadeiro espírito comunista, egoísta, obsessivo e porque não dizer, doentio!
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	país	país	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	julga	julgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	democrático	democrático	ADJ	_	Gender=Masc|Number=Sing	5	xcomp	_	_
+7	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	unir	unir	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	forças	força	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	lados	lado	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	31	parataxis	_	_
+17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	forças	força	NOUN	_	Gender=Fem|Number=Plur	16	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	petistas	petista	NOUN	_	Number=Plur	16	appos	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	democratas	democrata	NOUN	_	Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	peemedebistas	peemedebista	NOUN	_	Number=Plur	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	enfim	enfim	ADV	_	_	31	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	Lula	Lula	PROPN	_	_	31	nsubj	_	_
+30	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	demonstrando	demonstrar	VERB	_	VerbForm=Ger	7	conj	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+34	espírito	espírito	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+35	comunista	comunista	ADJ	_	Number=Sing	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	egoísta	egoísta	ADJ	_	Number=Sing	21	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	obsessivo	obsessivo	ADJ	_	Gender=Masc|Number=Sing	21	conj	_	_
+40	e	e	CCONJ	_	_	43	cc	_	_
+41	porque	porque	PRON	_	PronType=Dem	43	advmod	_	_
+42	não	não	ADV	_	_	43	advmod	_	_
+43	dizer	dizer	VERB	_	VerbForm=Inf	21	conj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	27	punct	_	_
+45	doentio	doentio	ADJ	_	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+46	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0022
+# text = trecho da matéria do Globo Em um congresso nacional da juventude do Partido dos Trabalhadores, ele afirmou que o partido precisa priorizar as eleições municipais do ano que vem.
+1	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Globo	Globo	PROPN	_	_	4	nmod	_	_
+8	Em	em	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	congresso	congresso	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+11	nacional	nacional	ADJ	_	Number=Sing	10	amod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	juventude	juventude	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Partido	Partido	PROPN	_	_	14	nmod	_	_
+18-19	dos	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Trabalhadores	Trabalhadores	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	10	punct	_	_
+22	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+24	que	que	SCONJ	_	_	27	mark	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	partido	partido	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+27	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+28	priorizar	priorizar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
+31	municipais	municipal	ADJ	_	Number=Plur	30	amod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	ano	ano	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+35	que	que	PRON	_	PronType=Rel	36	nsubj	_	_
+36	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = S0024
+# text = Lula também levantou suspeitas sobre as doações de dinheiro feitas ao PSDB por empreiteiros ligados à Lava-Jato. .
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	levantou	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	sobre	sobre	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	doações	doação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	PSDB	PSDB	PROPN	_	_	10	obl	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	empreiteiros	empreiteiro	NOUN	_	Gender=Masc|Number=Plur	10	obl:agent	_	_
+16	ligados	ligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Lava-Jato	Lava-Jato	PROPN	_	_	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0026
+# text = Quero saber se o dinheiro do PSDB foi buscado numa sacristia.
+1	Quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	saber	saber	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	se	se	SCONJ	_	_	10	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PSDB	PSDB	PROPN	_	_	5	nmod	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	buscado	buscar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+11-12	numa	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sacristia	sacristia	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0028
+# text = Então o PSDB ia lá no cofre e pegava dinheiro limpo?
+1	Então	então	ADV	_	_	4	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	PSDB	PSDB	PROPN	_	_	4	nsubj	_	_
+4	ia	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	lá	lá	ADV	_	_	4	advmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cofre	cofre	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	pegava	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+11	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	limpo	limpo	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0030
+# text = Até porque tudo o que se fala tem que se ter prova.
+1	Até	até	ADV	_	_	8	advmod	_	_
+2	porque	porque	SCONJ	_	_	8	mark	_	_
+3	tudo	tudo	PRON	_	PronType=Ind	8	nsubj	_	_
+4	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obj	_	_
+5	que	que	PRON	_	PronType=Rel	4	fixed	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl:impers	_	_
+7	fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	ADP	_	_	11	mark	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl:impers	_	_
+11	ter	ter	VERB	_	VerbForm=Inf	8	xcomp	_	_
+12	prova	prova	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0032
+# text = Não podemos permitir que chamem petista de ladrão disse.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	ccomp:speech	_	_
+3	permitir	permitir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	chamem	chamar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	petista	petista	NOUN	_	Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0034
+# text = Lula também atacou o governador tucano Geraldo Alckmin (PSDB-SP) por fechar escolas no estado.
+1	Lula	Lula	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	atacou	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governador	governador	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	tucano	tucano	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	Geraldo	Geraldo	PROPN	_	_	5	nmod	_	_
+8	Alckmin	Alckmin	PROPN	_	_	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	PSDB-SP	PSDB-SP	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	por	por	ADP	_	_	13	mark	_	_
+13	fechar	fechar	VERB	_	VerbForm=Inf	3	advcl	_	_
+14	escolas	escola	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	estado	estado	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0036
+# text = Enquanto a gente está se matando para abrir mais escolas, o governo de São Paulo está fechando.
+1	Enquanto	enquanto	SCONJ	_	_	6	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	matando	matar	VERB	_	VerbForm=Ger	18	advcl	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	abrir	abrir	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	mais	mais	DET	_	PronType=Ind	10	det	_	_
+10	escolas	escola	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	governo	governo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	São	São	PROPN	_	_	13	nmod	_	_
+16	Paulo	Paulo	PROPN	_	_	15	flat:name	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fechando	fechar	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0038
+# text = É uma contradição Ele defendeu que o partido priorize as eleições do próximo ano: Não tem 2018 se a gente não tiver 2016, nós precisamos construir 2016.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	contradição	contradição	NOUN	_	Gender=Fem|Number=Sing	5	ccomp:speech	_	_
+4	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	partido	partido	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	priorize	priorizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	ano	ano	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	18	punct	_	_
+17	Não	não	ADV	_	_	18	advmod	_	_
+18	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+19	2018	2018	NUM	_	NumType=Card	18	obj	_	_
+20	se	se	SCONJ	_	_	24	mark	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	gente	gente	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+23	não	não	ADV	_	_	24	advmod	_	_
+24	tiver	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	advcl	_	_
+25	2016	2016	NUM	_	NumType=Card	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+28	precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+29	construir	construir	VERB	_	VerbForm=Inf	28	xcomp	_	_
+30	2016	2016	NUM	_	NumType=Card	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0040
+# text = O ideal para um partido é que ele pudesse disputar e ganhar a presidência, 27 governadores, prefeituras.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ideal	ideal	NOUN	_	Number=Sing	9	nsubj:outer	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	partido	partido	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	pudesse	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	disputar	disputar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	ganhar	ganhar	VERB	_	VerbForm=Inf	10	conj	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	27	27	NUM	_	NumType=Card	17	nummod	_	_
+17	governadores	governador	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	prefeituras	prefeitura	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0042
+# text = Seria maravilhoso que só a esquerda pudesse fazer isso, mas não é possível, porque o povo não faz aquilo que a gente quer, faz aquilo que ele quer.
+1	Seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	cop	_	_
+2	maravilhoso	maravilhoso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	só	só	ADV	_	_	6	advmod	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	pudesse	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	csubj	_	_
+8	fazer	fazer	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	mas	mas	CCONJ	_	_	14	cc	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	possível	possível	ADJ	_	Number=Sing	2	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	porque	porque	SCONJ	_	_	20	mark	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	povo	povo	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+21	aquilo	aquilo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	20	obj	_	_
+22	que	que	PRON	_	PronType=Rel	25	obj	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	gente	gente	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+25	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+28	aquilo	aquilo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	27	obj	_	_
+29	que	que	PRON	_	PronType=Rel	31	obj	_	_
+30	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
+

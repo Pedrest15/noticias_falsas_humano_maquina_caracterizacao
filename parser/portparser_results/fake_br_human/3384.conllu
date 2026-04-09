@@ -1,0 +1,124 @@
+# sent_id = S0001
+# text = Enquanto isso na Croácia... Kolinda Grabar, a presidenta que uniu beleza, inteligência e poder.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	5	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Croácia	Croácia	PROPN	_	_	0	root	_	SpaceAfter=No
+6	...	...	PUNCT	_	_	7	punct	_	_
+7	Kolinda	Kolinda	PROPN	_	_	5	nsubj	_	_
+8	Grabar	Grabar	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	presidenta	presidenta	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	uniu	unir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	beleza	beleza	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	inteligência	inteligência	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	poder	poder	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Kolinda Grabar-Kitarovic foi eleita Presidente da Croácia em janeiro de 2015, vencendo as eleições com uma pequena margem de vantagem (obteve 50, 7% dos votos).
+1	Kolinda	Kolinda	PROPN	_	_	4	nsubj:pass	_	_
+2	Grabar-Kitarovic	Grabar-Kitarovic	PROPN	_	_	1	flat:name	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	eleita	eleger	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	Presidente	Presidente	PROPN	_	_	4	xcomp	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Croácia	Croácia	PROPN	_	_	5	nmod	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	2015	2015	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	vencendo	vencer	VERB	_	VerbForm=Ger	4	advcl	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	com	com	ADP	_	_	20	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	margem	margem	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	obteve	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+25	50	50	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	7	7	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	_	_	24	obj	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	votos	voto	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Ainda que o seu lugar seja sobretudo simbólico, Grabar-Kitarovic tem uma visão clara sobre o país.
+1	Ainda	ainda	ADV	_	ExtPos=SCONJ	8	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	sobretudo	sobretudo	ADV	_	_	8	advmod	_	_
+8	simbólico	simbólico	ADJ	_	Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Grabar-Kitarovic	Grabar-Kitarovic	PROPN	_	_	11	nsubj	_	_
+11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	visão	visão	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	clara	claro	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	sobre	sobre	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	país	país	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Na Croácia, a presidência é sobretudo um cargo simbólico, com algum poder na política externa e de segurança.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Croácia	Croácia	PROPN	_	_	10	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	sobretudo	sobretudo	ADV	_	_	10	advmod	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11	simbólico	simbólico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
+15	poder	poder	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	política	política	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	externa	externo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	segurança	segurança	NOUN	_	Number=Sing	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Kitarovic já tinha sido ministra dos Negócios Estrangeiros.
+1	Kitarovic	Kitarovic	PROPN	_	_	5	nsubj	_	_
+2	já	já	ADV	_	_	5	advmod	_	_
+3	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	cop	_	_
+5	ministra	ministro	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Negócios	Negócios	PROPN	_	_	5	nmod	_	_
+9	Estrangeiros	Estrangeiros	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+

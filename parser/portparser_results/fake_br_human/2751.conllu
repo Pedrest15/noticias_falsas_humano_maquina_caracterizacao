@@ -1,0 +1,283 @@
+# sent_id = S0001
+# text = Palhaçada!
+1	Palhaçada	palhaçada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Tiririca vai ao programa do Jô, toma 5 doses de conhaque e diz que ser deputado "não é sua praia".
+1	Tiririca	Tiririca	PROPN	_	_	2	nsubj	_	_
+2	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	programa	programa	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Jô	Jô	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	toma	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	5	5	NUM	_	NumType=Card	12	nummod	_	_
+12	doses	dose	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	conhaque	conhaque	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	que	que	SCONJ	_	_	24	mark	_	_
+18	ser	ser	AUX	_	VerbForm=Inf	19	cop	_	_
+19	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+20	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+21	não	não	ADV	_	_	24	advmod	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	praia	praia	NOUN	_	Gender=Fem|Number=Sing	16	ccomp	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O palhaço e deputado Tiririca participou ontem (26) do Programa do Jô e mostrou que não está nem aí para a função pública que exerce.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	palhaço	palhaço	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+5	Tiririca	Tiririca	PROPN	_	_	2	nmod	_	_
+6	participou	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ontem	ontem	ADV	_	_	6	advmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	26	26	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Programa	Programa	PROPN	_	_	6	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Jô	Jô	PROPN	_	_	13	flat:name	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+19	que	que	SCONJ	_	_	23	mark	_	_
+20	não	não	ADV	_	_	23	advmod	_	_
+21	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	nem	nem	ADV	_	_	23	advmod	_	_
+23	aí	aí	ADJ	_	_	18	ccomp	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	função	função	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+27	pública	público	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	que	que	PRON	_	PronType=Rel	29	obj	_	_
+29	exerce	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Tiririca passou os primeiros cinco minutos do programa contando "historinhas" sem a menor graça.
+1	Tiririca	Tiririca	PROPN	_	_	2	nsubj	_	_
+2	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+4	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+5	cinco	cinco	NUM	_	NumType=Card	6	nummod	_	_
+6	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	programa	programa	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	contando	contar	VERB	_	VerbForm=Ger	2	advcl	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	historinhas	historinho	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	sem	sem	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	menor	menor	ADJ	_	Number=Sing	17	amod	_	_
+17	graça	graça	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Jô interrompeu e questionou o deputado sobre a situação política do país.
+1	Jô	Jô	PROPN	_	_	2	nsubj	_	_
+2	interrompeu	interromper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	questionou	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	sobre	sobre	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+10	política	político	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Tiririca explicou: Eu tô achando... eu tô achando realmente, na realidade, com sinceridade... Está totalmente do jeito que estamos vendo.
+1	Tiririca	Tiririca	PROPN	_	_	2	nsubj	_	_
+2	explicou	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	6	punct	_	_
+4	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	tô	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	achando	achar	VERB	_	VerbForm=Ger	2	ccomp:speech	_	SpaceAfter=No
+7	...	...	PUNCT	_	_	10	punct	_	_
+8	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	tô	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	achando	achar	VERB	_	VerbForm=Ger	6	parataxis	_	_
+11	realmente	realmente	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	sinceridade	sinceridade	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+19	...	...	PUNCT	_	_	24	punct	_	_
+20	Está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+21	totalmente	totalmente	ADV	_	_	24	advmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	jeito	jeito	NOUN	_	Gender=Masc|Number=Sing	6	parataxis	_	_
+25	que	que	PRON	_	PronType=Rel	27	obj	_	_
+26	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	vendo	ver	VERB	_	VerbForm=Ger	24	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = O negócio tá feio.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	negócio	negócio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	feio	feio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Jô rebateu: "O que falam pra você"?
+1	Jô	Jô	PROPN	_	_	2	nsubj	_	_
+2	rebateu	rebater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	7	punct	_	_
+4	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+5	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obj	_	_
+6	que	que	PRON	_	PronType=Int	5	fixed	_	_
+7	falam	falar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp:speech	_	_
+8	pra	para	ADP	_	_	9	case	_	_
+9	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Tiririca lascou uma dose de conhaque e mudou de assunto.
+1	Tiririca	Tiririca	PROPN	_	_	2	nsubj	_	_
+2	lascou	lascar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	dose	dose	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	conhaque	conhaque	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = O palhaço tentou explicar seu trabalho na Câmara: Eu tô lá numa praia que não é a minha praia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	palhaço	palhaço	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	explicar	explicar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Câmara	Câmara	PROPN	_	_	4	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	13	punct	_	_
+11	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	tô	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	lá	lá	ADV	_	_	3	parataxis	_	_
+14-15	numa	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	praia	praia	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+18	não	não	ADV	_	_	22	advmod	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	det	_	_
+22	praia	praia	NOUN	_	Gender=Fem|Number=Sing	16	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Tem que ter pessoas pra orientar.
+1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	ADP	_	_	3	mark	_	_
+3	ter	ter	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	pra	para	ADP	_	_	6	mark	_	_
+6	orientar	orientar	VERB	_	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0023
+# text = Após 15 minutos, Jô encerrou a conversa e Tiririca disse: Já acabou?
+1	Após	após	ADP	_	_	3	case	_	_
+2	15	15	NUM	_	NumType=Card	3	nummod	_	_
+3	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Jô	Jô	PROPN	_	_	6	nsubj	_	_
+6	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	Tiririca	Tiririca	PROPN	_	_	11	nsubj	_	_
+11	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	_
+13	Já	já	ADV	_	_	14	advmod	_	_
+14	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp:speech	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = Eu não quero sair.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sair	sair	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0027
+# text = Já tomei bem umas cinco doses.
+1	Já	já	ADV	_	_	2	advmod	_	_
+2	tomei	tomar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	bem	bem	ADV	_	_	2	advmod	_	_
+4	umas	um	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	cinco	cinco	NUM	_	NumType=Card	6	nummod	_	_
+6	doses	dose	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0029
+# text = Tiririca foi o deputado federal mais votado no país em 2010, com 1.353.820 votos e se reelegeu em 2014 com 1.016.796 votos.
+1	Tiririca	Tiririca	PROPN	_	_	4	nsubj	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	federal	federal	ADJ	_	Number=Sing	4	amod	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	votado	votar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	país	país	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	2010	2010	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	1.353.820	1.353.820	NUM	_	NumType=Card	16	nummod	_	_
+16	votos	voto	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	reelegeu	reeleger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	2014	2014	NUM	_	NumType=Card	19	obl	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	1.016.796	1.016.796	NUM	_	NumType=Card	24	nummod	_	_
+24	votos	voto	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
+

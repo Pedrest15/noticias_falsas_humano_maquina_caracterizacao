@@ -1,0 +1,186 @@
+# sent_id = S0001
+# text = Em vídeo, jornalista da Veja diz que Sérgio Moro está fraudando a democracia.
+1	Em	em	ADP	_	_	2	case	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	jornalista	jornalista	NOUN	_	Number=Sing	8	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Veja	Veja	PROPN	_	_	4	nmod	_	_
+8	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	Sérgio	Sérgio	PROPN	_	_	13	nsubj	_	_
+11	Moro	Moro	PROPN	_	_	10	flat:name	_	_
+12	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fraudando	fraudar	VERB	_	VerbForm=Ger	8	ccomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = O que você acha?.
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	acha	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = O jornalista Reinaldo Azevedo (da Veja) parece que andou tomando uns goles do chazinho santo-daime.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	10	nsubj	_	_
+3	Reinaldo	Reinaldo	PROPN	_	_	2	nmod	_	_
+4	Azevedo	Azevedo	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Veja	Veja	PROPN	_	_	2	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	andou	andar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+13	tomando	tomar	VERB	_	VerbForm=Ger	12	xcomp	_	_
+14	uns	um	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	goles	gole	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	chazinho	chazinho	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	santo-daime	santo-daime	NOUN	_	Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = (Patrícia Carvalho de Brasília) Em um vídeo publicado no youtube, o jornalista desceu a lenha no juiz Sérgio Moro e acusou o magistrado de fraude.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Patrícia	Patrícia	PROPN	_	_	17	parataxis	_	_
+3	Carvalho	Carvalho	PROPN	_	_	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Brasília	Brasília	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	2	punct	_	_
+7	Em	em	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+10	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	youtube	youtube	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	jornalista	jornalista	NOUN	_	Number=Sing	17	nsubj	_	_
+17	desceu	descer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	lenha	lenha	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+23	Sérgio	Sérgio	PROPN	_	_	22	nmod	_	_
+24	Moro	Moro	PROPN	_	_	23	flat:name	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	magistrado	magistrado	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0009
+# text = Azevedo disse que Moro "coleta provas ilegais em seus processos" e quer "implantar uma ditadura no Brasil".
+1	Azevedo	Azevedo	PROPN	_	_	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	Moro	Moro	PROPN	_	_	6	nsubj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	coleta	coletar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	provas	prova	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	ilegais	ilegal	ADJ	_	Number=Plur	7	amod	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	processos	processo	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	6	punct	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	implantar	implantar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Brasil	Brasil	PROPN	_	_	16	obl	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Será que Azevedo vai sair candidato nas próximas eleições?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+2	que	que	SCONJ	_	_	5	discourse	_	_
+3	Azevedo	Azevedo	PROPN	_	_	5	nsubj	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sair	sair	VERB	_	VerbForm=Inf	0	root	_	_
+6	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	nas	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+10	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Ou será que ele andou recebendo algum pre$entinho do PT?
+1	Ou	ou	CCONJ	_	_	5	cc	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+3	que	que	SCONJ	_	_	5	discourse	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	andou	andar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	recebendo	receber	VERB	_	VerbForm=Ger	5	xcomp	_	_
+7	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	pre$entinho	pre$entinho	NOUN	_	_	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PT	PT	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = Que cara doido sô!
+1	Que	que	DET	_	PronType=Ind	2	det	_	_
+2	cara	cara	NOUN	_	Number=Sing	0	root	_	_
+3	doido	doido	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	sô	sô	INTJ	_	_	2	discourse	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Eu sempre desconfiei que Reinaldo jogava no "time do meio"... agora tenho certeza!
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sempre	sempre	ADV	_	_	3	advmod	_	_
+3	desconfiei	desconfiar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	Reinaldo	Reinaldo	PROPN	_	_	6	nsubj	_	_
+6	jogava	jogar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	time	time	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	meio	meio	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+15	...	...	PUNCT	_	_	17	punct	_	_
+16	agora	agora	ADV	_	_	17	advmod	_	_
+17	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+18	certeza	certeza	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0018
+# text = rsrs confira:
+1	rsrs	rsrs	PUNCT	_	_	2	punct	_	_
+2	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+

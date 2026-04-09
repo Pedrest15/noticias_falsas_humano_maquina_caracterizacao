@@ -1,0 +1,126 @@
+# sent_id = S0001
+# text = A turminha da Dilma.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	turminha	turminho	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Dilma	Dilma	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = PM de Brasília apreende armas com membros de movimentos sociais.
+1	PM	PM	PROPN	_	_	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Brasília	Brasília	PROPN	_	_	1	nmod	_	_
+4	apreende	apreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	armas	arma	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	membros	membro	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	sociais	social	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A PM do Distrito Federal apreendeu um machado, um punhal, um taco de madeira e um spray de pimenta com manifestantes pró Dilma.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Distrito	Distrito	PROPN	_	_	2	nmod	_	_
+6	Federal	Federal	PROPN	_	_	5	flat:name	_	_
+7	apreendeu	apreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	machado	machado	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	punhal	punhal	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	taco	taco	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	madeira	madeira	NOUN	_	Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	spray	spray	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	pimenta	pimenta	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	manifestantes	manifestante	NOUN	_	Number=Plur	7	obl	_	_
+25	pró	pró	ADP	_	_	26	case	_	_
+26	Dilma	Dilma	PROPN	_	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = A polícia informou que os objetos estavam na posse de movimentos sociais acampados ao lado do Teatro Nacional.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	_	Number=Sing	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	10	mark	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	objetos	objeto	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+7	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	posse	posse	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	sociais	social	ADJ	_	Number=Plur	12	amod	_	_
+14	acampados	acampar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	lado	lado	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Teatro	Teatro	PROPN	_	_	17	nmod	_	_
+21	Nacional	Nacional	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Três pessoas foram presas.
+1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
+2	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	presas	prender	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Os manifestantes estão acampados em Brasília para acompanhar a votação do processo de impeachment na Câmara, que acontecerá no próximo domingo (17).
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	manifestantes	manifestante	NOUN	_	Number=Plur	4	nsubj	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	acampados	acampado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	Brasília	Brasília	PROPN	_	_	4	obl	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	acompanhar	acompanhar	VERB	_	VerbForm=Inf	4	advcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	votação	votação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	processo	processo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Câmara	Câmara	PROPN	_	_	13	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	acontecerá	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	25	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+25	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	17	17	NUM	_	NumType=Card	25	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+

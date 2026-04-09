@@ -1,0 +1,25 @@
+================================================================================
+RESUMO DA COMPARACAO HUMAN vs LLM
+================================================================================
+
+DADOS PROCESSADOS:
+  Arquivos Human: 5390
+  Arquivos LLM: 5391
+  Sentencas Human: 50444
+  Sentencas LLM: 79170
+
+METRICAS:
+
+  Regras por Sentenca:
+    Human: media = 31.6322, std = 24.6189
+    LLM:   media = 37.1137, std = 15.7979
+    Cohen's d: -0.2650 (pequeno)
+    p-value (t-test): 0.00e+00
+
+  Regras Unicas por Sentenca:
+    Human: media = 16.8512, std = 7.8034
+    LLM:   media = 19.4149, std = 5.5143
+    Cohen's d: -0.3794 (pequeno)
+    p-value (t-test): 0.00e+00
+
+================================================================================

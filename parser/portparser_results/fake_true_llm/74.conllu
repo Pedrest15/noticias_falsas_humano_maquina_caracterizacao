@@ -1,0 +1,419 @@
+# sent_id = S0001
+# text = URGENTE: Filhotes de Dálmatas para Doação! Mãe recusa amamentá-los após traumática experiência de parto.
+1	URGENTE	URGENTE	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Filhotes	filhote	NOUN	_	Gender=Masc|Number=Plur	1	parataxis	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Dálmatas	Dálmatas	PROPN	_	_	3	nmod	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	Doação	Doação	PROPN	_	_	3	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	10	punct	_	_
+9	Mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	recusa	recusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+11-12	amamentá-los	_	_	_	_	_	_	_	_
+11	amamentar	amamentar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	los	lo	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+13	após	após	ADP	_	_	15	case	_	_
+14	traumática	traumático	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	parto	parto	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = Quatro já faleceram, restam apenas cinco.
+1	Quatro	quatro	NUM	_	NumType=Card	3	nsubj	_	_
+2	já	já	ADV	_	_	3	advmod	_	_
+3	faleceram	falecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	restam	restar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	apenas	apenas	ADV	_	_	7	advmod	_	_
+7	cinco	cinco	NUM	_	NumType=Card	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = A foto mostra os adoráveis filhotinhos deitados em um cobertor colorido, cercados por brinquedos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	foto	foto	NOUN	_	Number=Sing	3	nsubj	_	_
+3	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	adoráveis	adorável	ADJ	_	Number=Plur	6	amod	_	_
+6	filhotinhos	filhotinho	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+7	deitados	deitar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cobertor	cobertor	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	colorido	colorido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	cercados	cercar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	brinquedos	brinquedo	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Eles precisam de um lar urgente! Contato: (99) 99999-9999.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	precisam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lar	lar	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	urgente	urgente	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	8	punct	_	_
+8	Contato	contato	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	99	99	NUM	_	NumType=Card	8	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	99999-9999	99999-9999	NUM	_	NumType=Card	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Essa história comovente tem se espalhado rapidamente por diversos estados do país.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	história	história	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	comovente	comovente	ADJ	_	Number=Sing	2	amod	_	_
+4	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	espalhado	espalhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+7	rapidamente	rapidamente	ADV	_	_	6	advmod	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	estados	estado	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = O número de contato muda constantemente, o que indica uma tentativa de alcançar um maior número de pessoas dispostas a adotar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	número	número	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	contato	contato	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	muda	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	constantemente	constantemente	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+9	que	que	PRON	_	PronType=Rel	8	fixed	_	_
+10	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	mark	_	_
+14	alcançar	alcançar	VERB	_	VerbForm=Inf	12	acl	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	maior	maior	ADJ	_	Number=Sing	17	amod	_	_
+17	número	número	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20	dispostas	disposto	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	19	amod	_	_
+21	a	a	ADP	_	_	22	mark	_	_
+22	adotar	adotar	VERB	_	VerbForm=Inf	20	acl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Cristiano Muniz de Souza, um atacadista de peixes de Itaituba, Pará, foi uma das vítimas do boato.
+1	Cristiano	Cristiano	PROPN	_	_	16	nsubj	_	_
+2	Muniz	Muniz	PROPN	_	_	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Souza	Souza	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	atacadista	atacadista	NOUN	_	Number=Sing	1	appos	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	peixes	peixe	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Itaituba	Itaituba	PROPN	_	_	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Pará	Pará	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	uma	um	NUM	_	Gender=Fem|NumType=Card	0	root	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	boato	boato	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0015
+# text = Estou exausto, não aguento mais receber ligações de todo o Brasil.
+1	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	exausto	exausto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	aguento	aguentar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	mais	mais	ADV	_	_	5	advmod	_	_
+7	receber	receber	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Brasil	Brasil	PROPN	_	_	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Alguém deve ter colocado meu número como uma brincadeira de mau gosto, desabafa Cristiano.
+1	Alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
+3	ter	ter	AUX	_	VerbForm=Inf	4	aux	_	_
+4	colocado	colocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	xcomp	_	_
+5	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	número	número	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	como	como	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	brincadeira	brincadeira	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	mau	mau	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	gosto	gosto	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	desabafa	desabafar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	Cristiano	Cristiano	PROPN	_	_	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0019
+# text = Ailton Souza Junior, de Blumenau, Santa Catarina, também sofreu com a onda de chamadas.
+1	Ailton	Ailton	PROPN	_	_	12	nsubj	_	_
+2	Souza	Souza	PROPN	_	_	1	flat:name	_	_
+3	Junior	Junior	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Blumenau	Blumenau	PROPN	_	_	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Santa	Santa	PROPN	_	_	6	parataxis	_	_
+9	Catarina	Catarina	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	também	também	ADV	_	_	12	advmod	_	_
+12	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	onda	onda	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	chamadas	chamado	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0021
+# text = Foi um mês inteiro de interrupções, pessoas desesperadas querendo adotar.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mês	mês	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	inteiro	inteiro	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	interrupções	interrupção	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
+9	desesperadas	desesperado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	8	amod	_	_
+10	querendo	querer	VERB	_	VerbForm=Ger	8	acl	_	_
+11	adotar	adotar	VERB	_	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Finalmente as ligações cessaram, mas o estrago já estava feito, relata o advogado.
+1	Finalmente	finalmente	ADV	_	_	4	advmod	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	cessaram	cessar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	ccomp:speech	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	11	punct	_	_
+6	mas	mas	CCONJ	_	_	11	cc	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	estrago	estrago	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	já	já	ADV	_	_	11	advmod	_	_
+10	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	feito	feito	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	relata	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0025
+# text = Jana, uma voluntária de proteção animal, supostamente está coordenando a doação em um esforço nacional.
+1	Jana	Jana	PROPN	_	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	voluntária	voluntário	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	animal	animal	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	supostamente	supostamente	ADV	_	_	11	advmod	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	coordenando	coordenar	VERB	_	VerbForm=Ger	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	doação	doação	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	esforço	esforço	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+17	nacional	nacional	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0027
+# text = "Ligam de todos os lugares, não consigo mais atender", afirma ela, que teve seu número divulgado sem o DDD, facilitando a disseminação da mensagem.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Ligam	ligar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	lugares	lugar	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	consigo	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	mais	mais	ADV	_	_	9	advmod	_	_
+11	atender	atender	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	número	número	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+22	sem	sem	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	DDD	DDD	PROPN	_	_	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	facilitando	facilitar	VERB	_	VerbForm=Ger	18	advcl	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	disseminação	disseminação	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0029
+# text = No Piauí, o empresário Alessandro Aguiar enfrenta problemas similares.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Piauí	Piauí	PROPN	_	_	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	Alessandro	Alessandro	PROPN	_	_	6	nmod	_	_
+8	Aguiar	Aguiar	PROPN	_	_	7	flat:name	_	_
+9	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	similares	similar	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0031
+# text = É impossível trabalhar com tantas interrupções.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	impossível	impossível	ADJ	_	Number=Sing	0	root	_	_
+3	trabalhar	trabalhar	VERB	_	VerbForm=Inf	2	csubj	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	tantas	tanto	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	interrupções	interrupção	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0033
+# text = Precisamos desmascarar essa história, declara ele, que também foi envolvido nessa triste farsa.
+1	Precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp:speech	_	_
+2	desmascarar	desmascarar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	história	história	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	declara	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	que	que	PRON	_	PronType=Rel	12	nsubj:pass	_	_
+10	também	também	ADV	_	_	12	advmod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	envolvido	envolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+13-14	nessa	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+15	triste	triste	ADJ	_	Number=Sing	16	amod	_	_
+16	farsa	farsa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0035
+# text = Colaboração do G1 PI e G1 Santarém.
+1	Colaboração	colaboração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	G1	G1	PROPN	_	_	1	nmod	_	_
+5	PI	PI	PROPN	_	_	4	nmod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	G1	G1	PROPN	_	_	4	conj	_	_
+8	Santarém	Santarém	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0037
+# text = A seção "É ou não é?" do G1, dedicada ao fact-checking, está investigando o caso.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seção	seção	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+5	ou	ou	CCONJ	_	_	7	cc	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	4	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	G1	G1	PROPN	_	_	2	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	dedicada	dedicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fact-checking	fact-checking	X	_	Foreign=Yes	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	14	punct	_	_
+19	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	investigando	investigar	VERB	_	VerbForm=Ger	0	root	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	caso	caso	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0039
+# text = Envie informações ou suspeitas de fake news pelo VC no G1, pelo Fale Conosco ou pelo WhatsApp/Viber no telefone 11 94244-4444, usando a hashtag #ÉouNãoÉ.
+1	Envie	enviar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+3	ou	ou	CCONJ	_	_	4	cc	_	_
+4	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	fake	fake	X	_	Foreign=Yes	4	nmod	_	_
+7	news	news	X	_	Foreign=Yes	6	flat:foreign	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	VC	VC	PROPN	_	_	1	obl	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	G1	G1	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Fale	Fale	PROPN	_	_	10	conj	_	_
+18-19	Conosco	_	_	_	_	_	_	_	_
+18	Com	Com	PROPN	_	_	19	case	_	_
+19	nós	nós	PROPN	_	_	17	flat:name	_	_
+20	ou	ou	CCONJ	_	_	23	cc	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	WhatsApp/Viber	WhatsApp/Viber	PROPN	_	_	10	conj	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	11	11	NUM	_	NumType=Card	26	nmod	_	_
+28	94244-4444	94244-4444	NUM	_	NumType=Card	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	usando	usar	VERB	_	VerbForm=Ger	1	advcl	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	hashtag	hashtag	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33	#ÉouNãoÉ	#ÉouNãoÉ	PROPN	_	_	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	1	punct	_	_
+

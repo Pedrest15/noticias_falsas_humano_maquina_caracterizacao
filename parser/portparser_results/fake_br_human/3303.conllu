@@ -1,0 +1,77 @@
+# sent_id = S0001
+# text = #Impeachment Janaína Paschoal DESTRÓI conversa de que não há base jurídica!!.
+1	#Impeachment	#Impeachment	NOUN	_	_	4	nsubj	_	_
+2	Janaína	Janaína	PROPN	_	_	1	nmod	_	_
+3	Paschoal	Paschoal	PROPN	_	_	2	flat:name	_	_
+4	DESTRÓI	DESTRÓI	PUNCT	_	_	5	punct	_	_
+5	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	de	de	ADP	_	ExtPos=SCONJ	9	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+10	base	base	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	jurídica	jurídico	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = A lei de responsabilidade fiscal foi assassinada!.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lei	lei	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	fiscal	fiscal	ADJ	_	Number=Sing	4	amod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	assassinada	assassinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Dra.
+1	Dra.	Dra.	NOUN	_	_	0	punct	_	_
+
+# sent_id = S0007
+# text = Janaína Paschoal DESTRÓI a conversinha de que não há base jurídica para o impeachment.
+1	Janaína	Janaína	PROPN	_	_	3	nsubj	_	_
+2	Paschoal	Paschoal	PROPN	_	_	1	flat:name	_	_
+3	DESTRÓI	destrói	VERB	_	VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	conversinha	conversinho	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	ExtPos=SCONJ	9	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+10	base	base	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	jurídica	jurídico	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Compartilhe sem moderação.
+1	Compartilhe	compartilhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	sem	sem	ADP	_	_	3	case	_	_
+3	moderação	moderação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Ela é uma brasileira que dá orgulho confira com quem entende do assunto:
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	brasileira	brasileiro	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	orgulho	orgulho	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	4	parataxis	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	quem	quem	PRON	_	PronType=Ind	8	obl	_	_
+11	entende	entender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	4	punct	_	_
+

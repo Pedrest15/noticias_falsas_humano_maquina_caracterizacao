@@ -1,0 +1,439 @@
+# sent_id = S0001
+# text = O senador Aécio Neves (PSDB-MG) foi flagrado em gravação clandestina afirmando que o presidente Michel Temer é um "covarde" incapaz de tomar decisões firmes.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	Aécio	Aécio	PROPN	_	_	2	nmod	_	_
+4	Neves	Neves	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PSDB-MG	PSDB-MG	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+12	clandestina	clandestino	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	afirmando	afirmar	VERB	_	VerbForm=Ger	11	acl	_	_
+14	que	que	SCONJ	_	_	22	mark	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	presidente	presidente	NOUN	_	Number=Sing	22	nsubj	_	_
+17	Michel	Michel	PROPN	_	_	16	nmod	_	_
+18	Temer	Temer	PROPN	_	_	17	flat:name	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	covarde	covarde	NOUN	_	Number=Sing	13	ccomp	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	incapaz	incapaz	ADJ	_	Number=Sing	22	amod	_	_
+25	de	de	ADP	_	_	26	mark	_	_
+26	tomar	tomar	VERB	_	VerbForm=Inf	24	acl	_	_
+27	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	firmes	firme	ADJ	_	Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = O diálogo, ocorrido no dia 24 de março em um hotel de luxo em São Paulo, foi divulgado exclusivamente pelo site "Brasil em Foco" e causou um grande rebuliço político.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diálogo	diálogo	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dia	dia	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	24	24	NUM	_	NumType=Card	7	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	março	março	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	São	São	PROPN	_	_	13	nmod	_	_
+18	Paulo	Paulo	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	4	punct	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+22	exclusivamente	exclusivamente	ADV	_	_	21	advmod	_	_
+23-24	pelo	_	_	_	_	_	_	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	site	site	NOUN	_	Gender=Masc|Number=Sing	21	obl:agent	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Brasil	Brasil	PROPN	_	_	25	nmod	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	Foco	Foco	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	27	punct	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	causou	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	grande	grande	ADJ	_	Number=Sing	35	amod	_	_
+35	rebuliço	rebuliço	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
+36	político	político	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0005
+# text = Durante a conversa com o empresário Joesley Batista, do Grupo JBS, Aécio revela supostos planos para manipular votações no Congresso e criticar abertamente ministros do governo.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Joesley	Joesley	PROPN	_	_	6	nmod	_	_
+8	Batista	Batista	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Grupo	Grupo	PROPN	_	_	6	nmod	_	_
+13	JBS	JBS	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	Aécio	Aécio	PROPN	_	_	16	nsubj	_	_
+16	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	supostos	suposto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	18	amod	_	_
+18	planos	plano	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	manipular	manipular	VERB	_	VerbForm=Inf	18	acl	_	_
+21	votações	votação	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Congresso	Congresso	PROPN	_	_	21	nmod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	criticar	criticar	VERB	_	VerbForm=Inf	20	conj	_	_
+27	abertamente	abertamente	ADV	_	_	26	advmod	_	_
+28	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	governo	governo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = O Michel simplesmente não tem coragem.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Michel	Michel	PROPN	_	_	5	nsubj	_	_
+3	simplesmente	simplesmente	ADV	_	_	5	advmod	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	coragem	coragem	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Ele amarela na hora H, disparou Aécio, segundo a transcrição.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	amarela	amarelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	hora	hora	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	H	h	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	disparou	disparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Aécio	Aécio	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	segundo	segundo	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	transcrição	transcrição	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Joesley respondeu: "É, ele não consegue seguir firme quando o povo vai pra rua".
+1	Joesley	Joesley	PROPN	_	_	2	nsubj	_	_
+2	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	9	punct	_	_
+4	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+5	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp:speech	_	_
+10	seguir	seguir	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	firme	firme	ADV	_	_	10	advmod	_	_
+12	quando	quando	SCONJ	_	_	15	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	povo	povo	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+16-17	pra	_	_	_	_	_	_	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	rua	rua	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Aécio prosseguiu, insinuando que figuras próximas a Temer, como Moreira Franco e Eliseu Padilha, são as verdadeiras forças por trás das decisões cruciais.
+1	Aécio	Aécio	PROPN	_	_	2	nsubj	_	_
+2	prosseguiu	prosseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	insinuando	insinuar	VERB	_	VerbForm=Ger	2	advcl	_	_
+5	que	que	SCONJ	_	_	21	mark	_	_
+6	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+7	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	Temer	Temer	PROPN	_	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	como	como	ADP	_	_	12	case	_	_
+12	Moreira	Moreira	PROPN	_	_	6	nmod	_	_
+13	Franco	Franco	PROPN	_	_	12	flat:name	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	Eliseu	Eliseu	PROPN	_	_	12	conj	_	_
+16	Padilha	Padilha	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	verdadeiras	verdadeiro	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+21	forças	força	NOUN	_	Gender=Fem|Number=Plur	4	ccomp	_	_
+22	por	por	ADP	_	_	23	case	_	_
+23	trás	trás	ADV	_	_	21	advmod	_	_
+24-25	das	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+27	cruciais	crucial	ADJ	_	Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Esses caras é que seguram as pontas, porque o Temer só faz promessas.
+1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	caras	cara	NOUN	_	Number=Plur	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	discourse	_	_
+4	que	que	SCONJ	_	_	5	discourse	_	_
+5	seguram	segurar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	pontas	ponta	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	porque	porque	SCONJ	_	_	13	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Temer	Temer	PROPN	_	_	13	nsubj	_	_
+12	só	só	ADV	_	_	13	advmod	_	_
+13	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14	promessas	promessa	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Aécio também teria expressado descontentamento com o presidente do Senado, Eunício Oliveira (PMDB-CE), dizendo: "O Eunício não tem a mesma força que o Renan tinha, e isso está deixando o Congresso uma bagunça".
+1	Aécio	Aécio	PROPN	_	_	4	nsubj	_	_
+2	também	também	ADV	_	_	4	advmod	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	expressado	expressar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	descontentamento	descontentamento	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	5	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Senado	Senado	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Eunício	Eunício	PROPN	_	_	8	appos	_	_
+14	Oliveira	Oliveira	PROPN	_	_	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	PMDB-CE	PMDB-CE	PROPN	_	_	13	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	dizendo	dizer	VERB	_	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	25	punct	_	_
+21	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+22	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Eunício	Eunício	PROPN	_	_	25	nsubj	_	_
+24	não	não	ADV	_	_	25	advmod	_	_
+25	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp:speech	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	força	força	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+29	que	que	PRON	_	PronType=Rel	32	obj	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Renan	Renan	PROPN	_	_	32	nsubj	_	_
+32	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	37	punct	_	_
+34	e	e	CCONJ	_	_	37	cc	_	_
+35	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	37	nsubj	_	_
+36	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	deixando	deixar	VERB	_	VerbForm=Ger	25	conj	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Congresso	Congresso	PROPN	_	_	37	obj	_	_
+40	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	bagunça	bagunça	NOUN	_	Gender=Fem|Number=Sing	37	xcomp	_	SpaceAfter=No
+42	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Ele sugeriu que vazamentos estratégicos e pressão sobre Rodrigo Maia, presidente da Câmara, poderiam garantir a aprovação de projetos controversos.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	17	mark	_	_
+4	vazamentos	vazamento	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+5	estratégicos	estratégico	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+8	sobre	sobre	ADP	_	_	9	case	_	_
+9	Rodrigo	Rodrigo	PROPN	_	_	7	nmod	_	_
+10	Maia	Maia	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	presidente	presidente	NOUN	_	Number=Sing	9	appos	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Câmara	Câmara	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	_
+18	garantir	garantir	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	aprovação	aprovação	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	projetos	projeto	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23	controversos	controverso	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = "Se a gente não assustar o Rodrigo, ele não vai mover um dedo", afirmou.
+1	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	_	_	6	mark	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gente	gente	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	assustar	assustar	VERB	_	VerbForm=Inf	13	advcl	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Rodrigo	Rodrigo	PROPN	_	_	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	não	não	ADV	_	_	13	advmod	_	_
+12	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	mover	mover	VERB	_	VerbForm=Inf	18	ccomp:speech	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dedo	dedo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	_
+18	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0023
+# text = Em um trecho ainda mais chocante, Aécio chamou o ministro da Justiça de "um bosta de um caralho" e sugeriu que Temer está desesperado para substituir o ministro Osmar Serraglio por alguém mais "confiável".
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	ainda	ainda	ADV	_	_	6	advmod	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	chocante	chocante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	Aécio	Aécio	PROPN	_	_	9	nsubj	_	_
+9	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Justiça	Justiça	PROPN	_	_	11	nmod	_	_
+15	de	de	ADP	_	_	18	case	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	bosta	bosta	NOUN	_	Number=Sing	9	obl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	caralho	caralho	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	18	punct	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+25	que	que	SCONJ	_	_	28	mark	_	_
+26	Temer	Temer	PROPN	_	_	28	nsubj	_	_
+27	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	desesperado	desesperado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	24	ccomp	_	_
+29	para	para	ADP	_	_	30	mark	_	_
+30	substituir	substituir	VERB	_	VerbForm=Inf	28	acl	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	Osmar	Osmar	PROPN	_	_	32	nmod	_	_
+34	Serraglio	Serraglio	PROPN	_	_	33	flat:name	_	_
+35	por	por	ADP	_	_	36	case	_	_
+36	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	30	obl	_	_
+37	mais	mais	ADV	_	_	39	advmod	_	_
+38	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	confiável	confiável	ADJ	_	Number=Sing	36	amod	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0025
+# text = "Michel tá doido para trocar essa merda, porque ele quer alguém que possa controlar a PF", declarou.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Michel	Michel	PROPN	_	_	4	nsubj	_	_
+3	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	doido	doido	ADJ	_	Gender=Masc|Number=Sing	21	ccomp:speech	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	trocar	trocar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	merda	merda	NOUN	_	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	porque	porque	SCONJ	_	_	12	mark	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+13	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	controlar	controlar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	PF	PF	PROPN	_	_	16	obj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	4	punct	_	_
+21	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0027
+# text = A gravação já está sendo considerada uma bomba política, e os partidos estão se posicionando para lidar com as possíveis consequências dessas revelações.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	já	já	ADV	_	_	6	advmod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sendo	ser	AUX	_	VerbForm=Ger	6	aux:pass	_	_
+6	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	6	xcomp	_	_
+9	política	político	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	16	punct	_	_
+11	e	e	CCONJ	_	_	16	cc	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+14	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	posicionando	posicionar	VERB	_	VerbForm=Ger	6	conj	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	lidar	lidar	VERB	_	VerbForm=Inf	16	advcl	_	_
+19	com	com	ADP	_	_	22	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	possíveis	possível	ADJ	_	Number=Plur	22	amod	_	_
+22	consequências	consequência	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+23-24	dessas	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+25	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0029
+# text = Aécio Neves negou as acusações, alegando que a gravação foi manipulada e tirada de contexto, mas a oposição exige uma investigação detalhada.
+1	Aécio	Aécio	PROPN	_	_	3	nsubj	_	_
+2	Neves	Neves	PROPN	_	_	1	flat:name	_	_
+3	negou	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	alegando	alegar	VERB	_	VerbForm=Ger	3	advcl	_	_
+8	que	que	SCONJ	_	_	12	mark	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	manipulada	manipular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	tirada	tirar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	contexto	contexto	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	mas	mas	CCONJ	_	_	21	cc	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	exige	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	detalhada	detalhado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+

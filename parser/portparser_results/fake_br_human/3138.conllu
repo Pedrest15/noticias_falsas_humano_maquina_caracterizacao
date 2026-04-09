@@ -1,0 +1,145 @@
+# sent_id = S0001
+# text = Não é para tomar o poder e sim para manter a ordem!
+1	Não	não	ADV	_	_	4	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	para	para	ADP	_	_	4	mark	_	_
+4	tomar	tomar	VERB	_	VerbForm=Inf	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	poder	poder	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	_	_	10	cc	_	_
+8	sim	sim	ADV	_	_	10	advmod	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	manter	manter	VERB	_	VerbForm=Inf	4	conj	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Forças armadas dão recado a Dilma.
+1	Forças	força	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	armadas	armado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	1	amod	_	_
+3	dão	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	recado	recado	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	Dilma	Dilma	PROPN	_	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = A nota foi publicada pelo portal "O Antagonista" na data de ontem (04/03).
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nota	nota	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	portal	portal	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	O	O	PROPN	_	_	7	nmod	_	_
+10	Antagonista	Antagonista	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	9	punct	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	data	data	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	ontem	ontem	ADV	_	_	14	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	04/03	04/03	NUM	_	NumType=Card	16	appos	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Após o início da operação que conduziu coercitivamente Lula para depor em Congonhas, as Forças Armadas deram um recado para Dilma Rousseff.
+1	Após	após	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	operação	operação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	conduziu	conduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	coercitivamente	coercitivamente	ADV	_	_	8	advmod	_	_
+10	Lula	Lula	PROPN	_	_	8	obj	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	depor	depor	VERB	_	VerbForm=Inf	8	advcl	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Congonhas	Congonhas	PROPN	_	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	3	punct	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Forças	Forças	PROPN	_	_	19	nsubj	_	_
+18	Armadas	Armadas	PROPN	_	_	17	flat:name	_	_
+19	deram	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	recado	recado	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	para	para	ADP	_	_	23	case	_	_
+23	Dilma	Dilma	PROPN	_	_	19	obl	_	_
+24	Rousseff	Rousseff	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0009
+# text = Através do alto comando do exército, os militares disseram que não hesitarão em cumprir o seu dever constitucional de manutenção da ordem.
+1	Através	através	ADV	_	_	12	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	alto	alto	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	comando	comando	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	exército	exército	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	militares	militar	NOUN	_	Number=Plur	12	nsubj	_	_
+12	disseram	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	não	não	ADV	_	_	15	advmod	_	_
+15	hesitarão	hesitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
+16	em	em	ADP	_	_	17	mark	_	_
+17	cumprir	cumprir	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	dever	dever	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+21	constitucional	constitucional	ADJ	_	Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	manutenção	manutenção	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Não será permitido em hipótese alguma que líderes comunistas incentivem seus exércitos de baderneiros para promover quebradeira um território nacional.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
+3	permitido	permitir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	hipótese	hipótese	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	comunistas	comunista	ADJ	_	Number=Plur	8	amod	_	_
+10	incentivem	incentivar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+11	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	exércitos	exército	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	baderneiros	baderneiro	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	promover	promover	VERB	_	VerbForm=Inf	10	advcl	_	_
+17	quebradeira	quebradeira	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	território	território	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+20	nacional	nacional	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Dilma entendeu a advertência.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	entendeu	entender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	advertência	advertência	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+

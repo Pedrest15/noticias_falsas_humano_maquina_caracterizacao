@@ -1,0 +1,85 @@
+# sent_id = S0001
+# text = hunter biden, filho de joe biden, abusou e torturou crianças chinesas a grande bomba trump está com o disco rígido do notebook de hunter biden.
+1	hunter	hunter	X	_	Foreign=Yes	21	nsubj	_	_
+2	biden	biden	X	_	Foreign=Yes	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	filho	filho	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	joe	joe	X	_	Foreign=Yes	4	nmod	_	_
+7	biden	biden	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	abusou	abusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	root	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	torturou	torturar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+12	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	chinesas	chinÃªs	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	grande	grande	ADJ	_	Number=Sing	16	amod	_	_
+16	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+17	trump	trump	X	_	Foreign=Yes	16	nmod	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	disco	disco	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+22	rígido	rígido	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	notebook	notebook	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	hunter	hunter	X	_	Foreign=Yes	25	nmod	_	_
+28	biden	biden	X	_	Foreign=Yes	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0003
+# text = segundo informações recentes, vídeos de biden fazendo sexo com crianças chinesas e torturando elas, estão com trump e serão revelados nos próximos dias.
+1	segundo	segundo	ADP	_	_	2	case	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+3	recentes	recente	ADJ	_	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	vídeos	vídeo	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	biden	biden	NOUN	_	Foreign=Yes	5	nmod	_	_
+8	fazendo	fazer	VERB	_	VerbForm=Ger	5	acl	_	_
+9	sexo	sexo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+12	chinesas	chinÃªs	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	torturando	torturar	VERB	_	VerbForm=Ger	8	conj	_	_
+15	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	2	punct	_	_
+17	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	trump	trump	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	0	root	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	aux:pass	_	_
+22	revelados	revelar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	19	conj	_	_
+23-24	nos	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	26	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
+26	dias	dia	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0005
+# text = segundo as informações q estão chegando, hunter biden teria estuprado e torturado essas crianças chinesas ….
+1	segundo	segundo	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	informações	informação	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+4	q	q	PRON	_	PronType=Rel	6	nsubj	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	chegando	chegar	VERB	_	VerbForm=Ger	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	hunter	hunter	X	_	Foreign=Yes	11	nsubj	_	_
+9	biden	biden	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	estuprado	estuprar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	torturado	torturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	conj	_	_
+14	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+16	chinesas	chinÃªs	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+17	…	…	PUNCT	_	_	11	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+

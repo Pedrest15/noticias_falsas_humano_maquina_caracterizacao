@@ -1,0 +1,216 @@
+# sent_id = S0001
+# text = A irresponsabilidade do governo federal.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	irresponsabilidade	irresponsabilidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	federal	federal	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Aeronáutica desliga radares por falta de recursos.
+1	Aeronáutica	Aeronáutica	PROPN	_	_	2	nsubj	_	_
+2	desliga	desligar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	radares	radar	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	falta	falta	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = A informação foi publicada no site Poder Aéreo e segundo consta na matéria, 5 radares foram desativados por falta de recursos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	site	site	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	Poder	Poder	PROPN	_	_	7	nmod	_	_
+9	Aéreo	Aéreo	PROPN	_	_	8	flat:name	_	_
+10	e	e	CCONJ	_	_	20	cc	_	_
+11	segundo	segundo	ADP	_	_	12	mark	_	_
+12	consta	constar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	5	5	NUM	_	NumType=Card	18	nummod	_	_
+18	radares	radar	NOUN	_	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
+19	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	desativados	desativar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	conj	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	falta	falta	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = O Sistema de Controle do Espaço Aéreo Brasileiro (SISCEAB) desligou nessa quinta-feira (28) cinco radares meteorológicos em Minas Gerais, Espírito Santo, Rio de Janeiro, São Paulo e no Distrito Federal.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sistema	Sistema	PROPN	_	_	13	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Controle	Controle	PROPN	_	_	2	flat:name	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Espaço	Espaço	PROPN	_	_	2	flat:name	_	_
+8	Aéreo	Aéreo	PROPN	_	_	2	flat:name	_	_
+9	Brasileiro	Brasileiro	PROPN	_	_	2	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	SISCEAB	SISCEAB	PROPN	_	_	2	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	desligou	desligar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14-15	nessa	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	28	28	NUM	_	NumType=Card	16	appos	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	cinco	cinco	NUM	_	NumType=Card	21	nummod	_	_
+21	radares	radar	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+22	meteorológicos	meteorológico	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	Minas	Minas	PROPN	_	_	21	nmod	_	_
+25	Gerais	Gerais	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	Espírito	Espírito	PROPN	_	_	24	conj	_	_
+28	Santo	Santo	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	Rio	Rio	PROPN	_	_	24	conj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Janeiro	Janeiro	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	São	São	PROPN	_	_	24	conj	_	_
+35	Paulo	Paulo	PROPN	_	_	34	flat:name	_	_
+36	e	e	CCONJ	_	_	39	cc	_	_
+37-38	no	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Distrito	Distrito	PROPN	_	_	24	conj	_	_
+40	Federal	Federal	PROPN	_	_	39	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = Segundo a Aeronáutica, os aparelhos foram desativados temporariamente devido a restrições orçamentárias.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Aeronáutica	Aeronáutica	PROPN	_	_	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	aparelhos	aparelho	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	desativados	desativar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	temporariamente	temporariamente	ADV	_	_	8	advmod	_	_
+10	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	advcl	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	restrições	restrição	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+13	orçamentárias	orçamentário	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Ao todo, o SISCEAB possui 23 radares espalhados país.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	todo	todo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	SISCEAB	SISCEAB	PROPN	_	_	7	nsubj	_	_
+7	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	23	23	NUM	_	NumType=Card	9	nummod	_	_
+9	radares	radar	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10	espalhados	espalhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
+11	país	país	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = Em contato, a Força Aérea Brasileira (FAB) ressaltou que esses radares são "ferramentas complementares" para a captação de informações meteorológicas.
+1	Em	em	ADP	_	_	2	case	_	_
+2	contato	contato	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Força	Força	PROPN	_	_	11	nsubj	_	_
+6	Aérea	Aérea	PROPN	_	_	5	flat:name	_	_
+7	Brasileira	Brasileira	PROPN	_	_	5	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	FAB	FAB	PROPN	_	_	5	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	ressaltou	ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	17	mark	_	_
+13	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	radares	radar	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	ferramentas	ferramenta	NOUN	_	Gender=Fem|Number=Plur	11	ccomp	_	_
+18	complementares	complementar	ADJ	_	Number=Plur	17	amod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	17	punct	_	_
+20	para	para	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	captação	captação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	informações	informação	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+25	meteorológicas	meteorológico	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0015
+# text = De acordo com a FAB, os equipamentos em questão não são utilizados para o controle de tráfego aéreo.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	FAB	FAB	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	questão	questão	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	não	não	ADV	_	_	13	advmod	_	_
+12	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	controle	controle	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	tráfego	tráfego	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19	aéreo	aéreo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0017
+# text = "O SISCEAB conta com outras fontes de informação para previsões climáticas, como imagens de satélite e estações e meteorológicas de superfície", informa a Aeronáutica.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	SISCEAB	SISCEAB	PROPN	_	_	4	nsubj	_	_
+4	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp:speech	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	informação	informação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	previsões	previsão	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+12	climáticas	climático	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	como	como	ADP	_	_	15	case	_	_
+15	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	satélite	satélite	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	estações	estação	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	meteorológicas	meteorológico	ADJ	_	Gender=Fem|Number=Plur	19	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	4	punct	_	_
+26	informa	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Aeronáutica	Aeronáutica	PROPN	_	_	26	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	_
+

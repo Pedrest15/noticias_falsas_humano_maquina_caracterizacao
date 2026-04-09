@@ -1,0 +1,206 @@
+# sent_id = S0001
+# text = Conselho de Ética da Câmara decide suspender Jean Wyllys por cuspe em Bolsonaro.
+1	Conselho	Conselho	PROPN	_	_	7	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Ética	Ética	PROPN	_	_	1	flat:name	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Câmara	Câmara	PROPN	_	_	1	nmod	_	_
+7	decide	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	suspender	suspender	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	Jean	Jean	PROPN	_	_	8	obj	_	_
+10	Wyllys	Wyllys	PROPN	_	_	9	flat:name	_	_
+11	por	por	ADP	_	_	12	case	_	_
+12	cuspe	cuspe	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Bolsonaro	Bolsonaro	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = O deputado Jean Wyllys (PSOL-RJ) foi suspenso por 60 dias após cuspir em Jair Bolsonaro (PSC-RJ) durante a votação do impeachment de Dilma Rousseff em 2016.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	Jean	Jean	PROPN	_	_	2	nmod	_	_
+4	Wyllys	Wyllys	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PSOL-RJ	PSOL-RJ	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	suspenso	suspender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	60	60	NUM	_	NumType=Card	12	nummod	_	_
+12	dias	dia	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+13	após	após	ADP	_	_	14	mark	_	_
+14	cuspir	cuspir	VERB	_	VerbForm=Inf	9	advcl	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	Jair	Jair	PROPN	_	_	14	obl	_	_
+17	Bolsonaro	Bolsonaro	PROPN	_	_	16	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	PSC-RJ	PSC-RJ	PROPN	_	_	16	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	durante	durante	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	votação	votação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Dilma	Dilma	PROPN	_	_	26	nmod	_	_
+29	Rousseff	Rousseff	PROPN	_	_	28	flat:name	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	2016	2016	NUM	_	NumType=Card	26	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = A decisão, que pegou todos de surpresa, foi tomada com um placar de 15 a 2, destacando uma suposta "quebra grave de decoro parlamentar".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	placar	placar	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	15	15	NUM	_	NumType=Card	14	nmod	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	2	2	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	destacando	destacar	VERB	_	VerbForm=Ger	14	acl	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	24	amod	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	quebra	quebra	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+25	grave	grave	ADJ	_	Number=Sing	24	amod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	decoro	decoro	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	parlamentar	parlamentar	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Wyllys reagiu à decisão com indignação, alegando que sua ação foi uma resposta aos constantes ataques homofóbicos e agressões verbais sofridos na Câmara.
+1	Wyllys	Wyllys	PROPN	_	_	2	nsubj	_	_
+2	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	à	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	indignação	indignação	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	alegando	alegar	VERB	_	VerbForm=Ger	2	advcl	_	_
+10	que	que	SCONJ	_	_	15	mark	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	ação	ação	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	9	ccomp	_	_
+16-17	aos	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	19	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	constantes	constante	ADJ	_	Number=Plur	19	amod	_	_
+19	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+20	homofóbicos	homofóbico	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	agressões	agressão	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	_
+23	verbais	verbal	ADJ	_	Number=Plur	22	amod	_	_
+24	sofridos	sofrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	19	acl	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Câmara	Câmara	PROPN	_	_	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Artistas e movimentos sociais protestaram contra a suspensão, alegando perseguição política e uma tentativa de silenciar vozes progressistas.
+1	Artistas	artista	NOUN	_	Number=Plur	5	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
+4	sociais	social	ADJ	_	Number=Plur	3	amod	_	_
+5	protestaram	protestar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	contra	contra	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	alegando	alegar	VERB	_	VerbForm=Ger	5	advcl	_	_
+11	perseguição	perseguição	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	política	político	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	silenciar	silenciar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	vozes	voz	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	progressistas	progressista	ADJ	_	Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = O relator, Carlos Manato (SD-ES), afirmou que a atitude de Wyllys "não condiz com a dignidade do cargo" e que vídeos fraudulentos comprovam a premeditação do ato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	relator	relator	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	Carlos	Carlos	PROPN	_	_	2	appos	_	_
+5	Manato	Manato	PROPN	_	_	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	SD-ES	SD-ES	PROPN	_	_	4	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	18	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Wyllys	Wyllys	PROPN	_	_	13	nmod	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	não	não	ADV	_	_	18	advmod	_	_
+18	condiz	condizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	dignidade	dignidade	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	18	punct	_	_
+26	e	e	CCONJ	_	_	30	cc	_	_
+27	que	que	SCONJ	_	_	30	mark	_	_
+28	vídeos	vídeo	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
+29	fraudulentos	fraudulento	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	comprovam	comprovar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	premeditação	premeditação	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	ato	ato	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = A decisão tem gerado grande controvérsia e poderá afetar o equilíbrio político no Congresso.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	grande	grande	ADJ	_	Number=Sing	6	amod	_	_
+6	controvérsia	controvérsia	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+9	afetar	afetar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	equilíbrio	equilíbrio	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	político	político	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Congresso	Congresso	PROPN	_	_	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+

@@ -1,0 +1,117 @@
+# sent_id = S0001
+# text = Ação no TSE: Oficial de justiça notifica Temer.
+1	Ação	ação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	TSE	TSE	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+6	Oficial	oficial	NOUN	_	Number=Sing	9	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	notifica	notificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Temer	Temer	PROPN	_	_	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = Dilma escapou, mas só por hoje!.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	escapou	escapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	mas	mas	CCONJ	_	_	7	cc	_	_
+5	só	só	ADV	_	_	7	advmod	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	hoje	hoje	ADV	_	_	2	conj	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O TSE pretendia notificar Dilma Rousseff hoje na ação eleitoral (Aime 761) que pode cassar o mandato de sua chapa.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	TSE	TSE	PROPN	_	_	3	nsubj	_	_
+3	pretendia	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	notificar	notificar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	Dilma	Dilma	PROPN	_	_	4	obj	_	_
+6	Rousseff	Rousseff	PROPN	_	_	5	flat:name	_	_
+7	hoje	hoje	ADV	_	_	4	advmod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ação	ação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+11	eleitoral	eleitoral	ADJ	_	Number=Sing	10	amod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Aime	Aime	PROPN	_	_	10	appos	_	_
+14	761	761	NUM	_	NumType=Card	13	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	13	punct	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+18	cassar	cassar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	chapa	chapa	NOUN	_	Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O oficial de justiça conseguiu encontrar o vice-presidente Michel Temer e entregou a notificação ao político.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	oficial	oficial	NOUN	_	Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	encontrar	encontrar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vice-presidente	vice-presidente	NOUN	_	Number=Sing	6	obj	_	_
+9	Michel	Michel	PROPN	_	_	8	nmod	_	_
+10	Temer	Temer	PROPN	_	_	9	flat:name	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	entregou	entregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	notificação	notificação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	político	político	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Já a presidenta Dilma Rousseff não foi encontrada no Palácio do Planalto.
+1	Já	já	CCONJ	_	_	8	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	presidenta	presidenta	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+4	Dilma	Dilma	PROPN	_	_	3	nmod	_	_
+5	Rousseff	Rousseff	PROPN	_	_	4	flat:name	_	_
+6	não	não	ADV	_	_	8	advmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	encontrada	encontrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Palácio	Palácio	PROPN	_	_	8	obl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Planalto	Planalto	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Ela passou a tarde no Congresso.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Congresso	Congresso	PROPN	_	_	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Amanhã ela não escapa!
+1	Amanhã	amanhã	ADV	_	_	4	advmod	_	_
+2	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	escapa	escapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+

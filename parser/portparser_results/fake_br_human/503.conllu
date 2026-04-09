@@ -1,0 +1,188 @@
+# sent_id = S0001
+# text = Blogueira louca ataca novamente e chama Marcela Temer de "piranha de luxo".
+1	Blogueira	blogueiro	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	louca	louco	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	ataca	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	novamente	novamente	ADV	_	_	3	advmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	chama	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	Marcela	Marcela	PROPN	_	_	6	obj	_	_
+8	Temer	Temer	PROPN	_	_	7	flat:name	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	piranha	piranha	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = A blogueira e socialite Day McCarthy, que provocou a ira dos internautas ao atacar a filha do ator Bruno Gagliasso com xingamentos racistas, parece não conhecer a palavra limite.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	blogueira	blogueiro	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	socialite	socialite	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+5	Day	Day	PROPN	_	_	2	nmod	_	_
+6	McCarthy	McCarthy	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	provocou	provocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ira	ira	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	internautas	internauta	NOUN	_	Number=Plur	11	nmod	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	ExtPos=SCONJ	17	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
+17	atacar	atacar	VERB	_	VerbForm=Inf	9	advcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	filha	filho	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ator	ator	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	Bruno	Bruno	PROPN	_	_	22	nmod	_	_
+24	Gagliasso	Gagliasso	PROPN	_	_	23	flat:name	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	xingamentos	xingamento	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+27	racistas	racista	ADJ	_	Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	9	punct	_	_
+29	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+30	não	não	ADV	_	_	31	advmod	_	_
+31	conhecer	conhecer	VERB	_	VerbForm=Inf	29	xcomp	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	palavra	palavra	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	limite	limite	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0005
+# text = Na última segunda-feira, McCarthy também ameaçou a cantora Anitta, alegando ter um vídeo no qual a artista estaria fazendo uso de drogas.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	McCarthy	McCarthy	PROPN	_	_	8	nsubj	_	_
+7	também	também	ADV	_	_	8	advmod	_	_
+8	ameaçou	ameaçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cantora	cantor	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	Anitta	Anitta	PROPN	_	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	alegando	alegar	VERB	_	VerbForm=Ger	8	advcl	_	_
+14	ter	ter	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	obl	_	_
+19	qual	qual	PRON	_	Number=Sing|PronType=Rel	18	fixed	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	artista	artista	NOUN	_	Number=Sing	23	nsubj	_	_
+22	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	23	aux	_	_
+23	fazendo	fazer	VERB	_	VerbForm=Ger	16	acl:relcl	_	_
+24	uso	uso	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	drogas	droga	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Com a "projeção" que ganhou após o vídeo racista contra a pequena Titi, ela continuou com as agressões e a vítima do momento é a primeira dama do Brasil.
+1	Com	com	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	projeção	projeção	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	que	que	PRON	_	PronType=Rel	7	obj	_	_
+7	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	após	após	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	racista	racista	ADJ	_	Number=Sing	10	amod	_	_
+12	contra	contra	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	Titi	Titi	PROPN	_	_	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	continuou	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	agressões	agressão	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+22	e	e	CCONJ	_	_	31	cc	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	momento	momento	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	31	amod	_	_
+31	dama	dama	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Brasil	Brasil	PROPN	_	_	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0009
+# text = No vídeo abaixo ela bate panela, ataca o presidente Temer e ofende gravemente Marcela.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+4	abaixo	abaixo	ADV	_	_	3	advmod	_	_
+5	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	bate	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	panela	panela	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	ataca	atacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	presidente	presidente	NOUN	_	Number=Sing	9	obj	_	_
+12	Temer	Temer	PROPN	_	_	11	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	ofende	ofender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	gravemente	gravemente	ADV	_	_	14	advmod	_	_
+16	Marcela	Marcela	PROPN	_	_	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Aos 28 anos, a brasileira se casou com um italiano rico e foi com ele para os Estados Unidos [...] depois se mudou para o Canadá.
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	28	28	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	brasileira	brasileiro	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	casou	casar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	rico	rico	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Estados	Estados	PROPN	_	_	15	obl	_	_
+21	Unidos	Unidos	PROPN	_	_	20	flat:name	_	_
+22	[	[	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
+24	..	..	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	23	punct	_	_
+26	depois	depois	ADV	_	_	28	advmod	_	_
+27	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	28	expl	_	_
+28	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Canadá	Canadá	PROPN	_	_	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	_
+

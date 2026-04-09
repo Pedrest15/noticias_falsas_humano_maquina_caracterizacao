@@ -1,0 +1,167 @@
+# sent_id = S0001
+# text = URGENTE: Novo Decreto Eleitoral!
+1	URGENTE	URGENTE	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	4	punct	_	_
+3	Novo	novo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	Decreto	Decreto	PROPN	_	_	1	parataxis	_	_
+5	Eleitoral	Eleitoral	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Atenção, eleitores! O Tribunal Superior Eleitoral (TSE) emitiu um novo decreto para as eleições municipais de 15/11/2020, visando garantir a segurança e a fluidez do processo:
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	12	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	eleitores	eleitor	NOUN	_	Gender=Masc|Number=Plur	1	vocative	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+5	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Tribunal	Tribunal	PROPN	_	_	12	nsubj	_	_
+7	Superior	Superior	PROPN	_	_	6	flat:name	_	_
+8	Eleitoral	Eleitoral	PROPN	_	_	6	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	TSE	TSE	PROPN	_	_	6	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	emitiu	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	novo	novo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+19	municipais	municipal	ADJ	_	Number=Plur	18	amod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	15/11/2020	15/11/2020	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	visando	visar	VERB	_	VerbForm=Ger	12	advcl	_	_
+24	garantir	garantir	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	segurança	segurança	NOUN	_	Number=Sing	24	obj	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	fluidez	fluidez	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	processo	processo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = - De 7:00 às 10:00: Entrada exclusiva para idosos com mais de 65 anos e pessoas com comorbidades.
+1	-	-	PUNCT	_	_	3	punct	_	_
+2	De	de	ADP	_	_	3	case	_	_
+3	7:00	7:00	NUM	_	NumType=Card	8	nmod	_	_
+4-5	às	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	10:00	10:00	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	Entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9	exclusiva	exclusivo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	idosos	idoso	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	com	com	ADP	_	_	16	case	_	_
+13	mais	mais	ADV	_	ExtPos=ADV	15	advmod	_	_
+14	de	de	ADP	_	_	13	fixed	_	_
+15	65	65	NUM	_	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	comorbidades	comorbidade	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = - De 10:00 às 17:00: Público geral.
+1	-	-	PUNCT	_	_	3	punct	_	_
+2	De	de	ADP	_	_	3	case	_	_
+3	10:00	10:00	NUM	_	NumType=Card	8	nmod	_	_
+4-5	às	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	17:00	17:00	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	Público	público	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	geral	geral	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = É OBRIGATÓRIO levar os seguintes itens:
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	OBRIGATÓRIO	obrigatório	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	levar	levar	VERB	_	VerbForm=Inf	2	csubj	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	seguintes	seguintl	DET	_	Number=Plur|PronType=Art	6	det	_	_
+6	itens	item	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0012
+# text = Caneta azul ou preta, preferencialmente da marca Bic, para evitar fraudes.
+1	Caneta	caneta	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	azul	azul	ADJ	_	Number=Sing	1	amod	_	_
+3	ou	ou	CCONJ	_	_	4	cc	_	_
+4	preta	preto	ADJ	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	preferencialmente	preferencialmente	ADV	_	_	9	advmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	marca	marca	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+10	Bic	Bic	PROPN	_	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	evitar	evitar	VERB	_	VerbForm=Inf	1	advcl	_	_
+14	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0016
+# text = Título de eleitor digital, que agora substitui o documento físico.
+1	Título	título	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	eleitor	eleitor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	digital	digital	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+7	agora	agora	ADV	_	_	8	advmod	_	_
+8	substitui	substituir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	documento	documento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	físico	físico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0020
+# text = Máscara de proteção facial; sem ela, o acesso à seção eleitoral será NEGADO.
+1	Máscara	máscara	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	facial	facial	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	;	;	PUNCT	_	_	16	punct	_	_
+6	sem	sem	ADP	_	_	7	case	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	seção	seção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	eleitoral	eleitoral	ADJ	_	Number=Sing	13	amod	_	_
+15	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
+16	NEGADO	negar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0024
+# text = Cartão de vacinação atualizado, exigido para comprovar a imunização contra a COVID-19.
+1	Cartão	cartão	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	vacinação	vacinação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	atualizado	atualizado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	exigido	exigir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	comprovar	comprovar	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	imunização	imunização	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	contra	contra	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	COVID-19	COVID-19	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,170 @@
+# sent_id = S0001
+# text = Mainardi: Dilma vai cair.
+1	Mainardi	Mainardi	PROPN	_	_	5	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Dilma	Dilma	PROPN	_	_	5	nsubj	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cair	cair	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Ela foi eleita com dinheiro roubado da Petrobras (vídeo).
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	eleita	eleger	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	roubado	roubar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Petrobras	Petrobras	PROPN	_	_	6	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	3	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Agora é fato: A presidente Dilma foi eleita com dinheiro roubado da Petrobras.
+1	Agora	agora	ADV	_	_	3	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	9	punct	_	_
+5	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	_	Number=Sing	9	nsubj:pass	_	_
+7	Dilma	Dilma	PROPN	_	_	6	nmod	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	eleita	eleger	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	roubado	roubar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Petrobras	Petrobras	PROPN	_	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Se ela sabia?
+1	Se	se	SCONJ	_	_	3	mark	_	_
+2	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Isso ainda será investigado.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj:pass	_	_
+2	ainda	ainda	ADV	_	_	4	advmod	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	investigado	investigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Documentos encaminhados pelo juiz Sergio Moro ao TSE mostram exatamente como isso aconteceu.
+1	Documentos	documento	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+2	encaminhados	encaminhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	2	obl:agent	_	_
+6	Sergio	Sergio	PROPN	_	_	5	nmod	_	_
+7	Moro	Moro	PROPN	_	_	6	flat:name	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	TSE	TSE	PROPN	_	_	2	obl	_	_
+11	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	exatamente	exatamente	ADV	_	_	11	advmod	_	_
+13	como	como	ADV	_	_	15	advmod	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+15	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = O PT repassou 22.045.000 reais à campanha de Dilma.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PT	PT	PROPN	_	_	3	nsubj	_	_
+3	repassou	repassar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	22.045.000	22.045.000	NUM	_	NumType=Card	5	nummod	_	_
+5	reais	real	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Dilma	Dilma	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Quem fez esse repasse foi o tesoureiro do PT, João Vaccari Neto, condenado e preso pela Lava Jato por ter abastecido o caixa eleitoral petista com propina de empreiteiras.
+1	Quem	quem	PRON	_	PronType=Rel	7	nsubj	_	_
+2	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	repasse	repasse	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tesoureiro	tesoureiro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	PT	PT	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	João	João	PROPN	_	_	7	appos	_	_
+13	Vaccari	Vaccari	PROPN	_	_	12	flat:name	_	_
+14	Neto	Neto	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	conj	_	_
+19-20	pela	_	_	_	_	_	_	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Lava	Lava	PROPN	_	_	16	obl:agent	_	_
+22	Jato	Jato	PROPN	_	_	21	flat:name	_	_
+23	por	por	ADP	_	_	25	mark	_	_
+24	ter	ter	AUX	_	VerbForm=Inf	25	aux	_	_
+25	abastecido	abastecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	advcl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	caixa	caixa	NOUN	_	Number=Sing	25	obj	_	_
+28	eleitoral	eleitoral	ADJ	_	Number=Sing	27	amod	_	_
+29	petista	petista	ADJ	_	Number=Sing	27	amod	_	_
+30	com	com	ADP	_	_	31	case	_	_
+31	propina	propina	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	empreiteiras	empreiteiro	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = Também há denúncias contra Edinho Silva.
+1	Também	também	ADV	_	_	2	advmod	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+4	contra	contra	ADP	_	_	5	case	_	_
+5	Edinho	Edinho	PROPN	_	_	3	nmod	_	_
+6	Silva	Silva	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = O TSE pode julgar imediatamente Dilma Rousseff.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	TSE	TSE	PROPN	_	_	3	nsubj	_	_
+3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	julgar	julgar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	imediatamente	imediatamente	ADV	_	_	4	advmod	_	_
+6	Dilma	Dilma	PROPN	_	_	4	obj	_	_
+7	Rousseff	Rousseff	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = E cassar seu mandato.
+1	E	e	CCONJ	_	_	2	cc	_	_
+2	cassar	cassar	VERB	_	VerbForm=Inf	0	root	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = antagonista.com.
+1	antagonista.com	antagonista.com	SYM	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+

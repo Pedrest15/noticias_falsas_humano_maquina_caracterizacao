@@ -1,0 +1,247 @@
+# sent_id = S0001
+# text = Ministro Gilmar Mendes acusa Lava Jato de criar "superprisões" para forçar delações premiadas.
+1	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Gilmar	Gilmar	PROPN	_	_	1	nmod	_	_
+3	Mendes	Mendes	PROPN	_	_	2	flat:name	_	_
+4	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Lava	Lava	PROPN	_	_	4	obj	_	_
+6	Jato	Jato	PROPN	_	_	5	flat:name	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	criar	criar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	superprisões	superprisão	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	forçar	forçar	VERB	_	VerbForm=Inf	8	advcl	_	_
+14	delações	delação	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15	premiadas	premiado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Durante um seminário em Brasília, o ministro do STF, Gilmar Mendes, fez graves revelações sobre a Operação Lava Jato.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	seminário	seminário	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Brasília	Brasília	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	STF	STF	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Gilmar	Gilmar	PROPN	_	_	8	appos	_	_
+14	Mendes	Mendes	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	graves	grave	ADJ	_	Number=Plur	18	amod	_	_
+18	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+19	sobre	sobre	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Operação	Operação	PROPN	_	_	18	nmod	_	_
+22	Lava	Lava	PROPN	_	_	21	flat:name	_	_
+23	Jato	Jato	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0005
+# text = Segundo ele, juízes envolvidos na operação estariam mantendo prisões provisórias por tempo indeterminado, criando um sistema de "superprisões".
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	juízes	juíze	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+5	envolvidos	envolvido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	operação	operação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	10	aux	_	_
+10	mantendo	manter	VERB	_	VerbForm=Ger	0	root	_	_
+11	prisões	prisão	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	provisórias	provisório	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	indeterminado	indeterminado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	criando	criar	VERB	_	VerbForm=Ger	10	advcl	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	superprisões	superprisão	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Mendes alegou que essa prática visa pressionar os acusados a aceitarem delações premiadas, mesmo antes de uma condenação formal.
+1	Mendes	Mendes	PROPN	_	_	2	nsubj	_	_
+2	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	prática	prática	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	pressionar	pressionar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	acusados	acusado	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	aceitarem	aceitar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	7	xcomp	_	_
+12	delações	delação	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	premiadas	premiado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	mesmo	mesmo	ADV	_	_	16	advmod	_	_
+16	antes	antes	ADV	_	_	11	advmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	formal	formal	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = "Isso é um escândalo que fere os direitos fundamentais", afirmou o ministro, gerando comoção entre os presentes, que incluíam importantes figuras do Judiciário e do Legislativo.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	13	ccomp:speech	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	fere	ferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10	fundamentais	fundamental	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	gerando	gerar	VERB	_	VerbForm=Ger	13	advcl	_	_
+18	comoção	comoção	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	entre	entre	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	presentes	presente	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	que	que	PRON	_	PronType=Rel	24	nsubj	_	_
+24	incluíam	incluer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+25	importantes	importante	ADJ	_	Number=Plur	26	amod	_	_
+26	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Judiciário	Judiciário	PROPN	_	_	26	nmod	_	_
+30	e	e	CCONJ	_	_	33	cc	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Legislativo	Legislativo	PROPN	_	_	29	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = Ele também destacou que tais ações desequilibram o poder entre as instâncias judiciais, dando excessivo controle à Justiça de primeiro grau e ao Ministério Público.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	tais	tal	DET	_	Number=Plur|PronType=Dem	6	det	_	_
+6	ações	ação	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	desequilibram	desequilibrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	poder	poder	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	entre	entre	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	instâncias	instância	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+13	judiciais	judicial	ADJ	_	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	dando	dar	VERB	_	VerbForm=Ger	7	advcl	_	_
+16	excessivo	excessivo	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	controle	controle	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Justiça	Justiça	PROPN	_	_	15	obl	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	grau	grau	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	e	e	CCONJ	_	_	27	cc	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Ministério	Ministério	PROPN	_	_	20	conj	_	_
+28	Público	Público	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Cármen Lúcia, presidente do STF, comentou em seu discurso que é essencial uma atuação judicial equilibrada, sem abusos de poder, citando Montesquieu para reforçar a necessidade de controle sobre os abusos.
+1	Cármen	Cármen	PROPN	_	_	9	nsubj	_	_
+2	Lúcia	Lúcia	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	STF	STF	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	essencial	essencial	ADJ	_	Number=Sing	9	ccomp	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	judicial	judicial	ADJ	_	Number=Sing	17	amod	_	_
+19	equilibrada	equilibrado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	17	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	sem	sem	ADP	_	_	22	case	_	_
+22	abusos	abuso	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	poder	poder	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	citando	citar	VERB	_	VerbForm=Ger	9	advcl	_	_
+27	Montesquieu	Montesquieu	PROPN	_	_	26	obj	_	_
+28	para	para	ADP	_	_	29	mark	_	_
+29	reforçar	reforçar	VERB	_	VerbForm=Inf	26	advcl	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	controle	controle	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+34	sobre	sobre	ADP	_	_	36	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	abusos	abuso	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text = A declaração de Mendes pode reacender o debate sobre a execução antecipada da pena e levar a uma revisão das práticas atuais pela Corte.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Mendes	Mendes	PROPN	_	_	2	nmod	_	_
+5	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	reacender	reacender	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	debate	debate	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	execução	execução	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	antecipada	antecipado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	11	amod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pena	pena	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	levar	levar	VERB	_	VerbForm=Inf	6	conj	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	revisão	revisão	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	práticas	prática	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+24	atuais	atual	ADJ	_	Number=Plur	23	amod	_	_
+25-26	pela	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Corte	Corte	PROPN	_	_	20	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	_
+

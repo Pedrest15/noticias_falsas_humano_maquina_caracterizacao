@@ -1,0 +1,149 @@
+# sent_id = S0001
+# text = Defesa horrenda!
+1	Defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	horrenda	horrendo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Dilma conseguiu reverter alguns votos.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	reverter	reverter	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	votos	voto	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Ao invés de ganhar, ela está perdendo aliados.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	invés	invés	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	ganhar	ganhar	VERB	_	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	perdendo	perder	VERB	_	VerbForm=Ger	0	root	_	_
+10	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Dilma Rousseff acaba de conseguir um feito inédito.
+1	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+2	Rousseff	Rousseff	PROPN	_	_	1	flat:name	_	_
+3	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	conseguir	conseguir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	feito	feito	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	inédito	inédito	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Conversas de bastidores dão conta de que ela conseguiu reverter aproximadamente 10 votos que estavam a favor de sua continuidade no governo.
+1	Conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	bastidores	bastidor	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+4	dão	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	conta	conta	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	ExtPos=SCONJ	9	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+10	reverter	reverter	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	aproximadamente	aproximadamente	ADV	_	_	12	advmod	_	_
+12	10	10	NUM	_	NumType=Card	13	nummod	_	_
+13	votos	voto	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+14	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+15	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	favor	favor	NOUN	_	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	governo	governo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Nem os próprios aliados do PT estão acreditando no que poderá acontecer!
+1	Nem	nem	ADV	_	_	4	advmod	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	próprios	próprio	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PT	PT	PROPN	_	_	4	nmod	_	_
+8	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	acreditando	acreditar	VERB	_	VerbForm=Ger	0	root	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	obl	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	_
+14	acontecer	acontecer	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = A presidenta não deveria ter ido ao senado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presidenta	presidenta	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ter	ter	AUX	_	VerbForm=Inf	6	aux	_	_
+6	ido	ir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	xcomp	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	senado	senado	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = É o trabalho de José Eduardo Cardoso indo por água abaixo.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	José	José	PROPN	_	_	3	nmod	_	_
+6	Eduardo	Eduardo	PROPN	_	_	5	flat:name	_	_
+7	Cardoso	Cardoso	PROPN	_	_	5	flat:name	_	_
+8	indo	ir	VERB	_	VerbForm=Ger	3	acl	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	água	água	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+11	abaixo	abaixo	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Essa mulher é um fenômeno!
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = Quando a gente pensa que não as coisas não podem piorar, eis que surge Dilma Rousseff!
+1	Quando	quando	SCONJ	_	_	4	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	pensa	pensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+5	que	que	SCONJ	_	_	10	mark	_	_
+6	não	não	ADV	_	_	10	advmod	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	piorar	piorar	VERB	_	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	eis	eis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	root	_	_
+14	que	que	SCONJ	_	_	15	mark	_	_
+15	surge	surgir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	Dilma	Dilma	PROPN	_	_	15	nsubj	_	_
+17	Rousseff	Rousseff	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	15	punct	_	_
+

@@ -1,0 +1,121 @@
+# sent_id = S0001
+# text = Léo Pinheiro explica para Sérgio Moro quem era o "Brahma".
+1	Léo	Léo	PROPN	_	_	3	nsubj	_	_
+2	Pinheiro	Pinheiro	PROPN	_	_	1	flat:name	_	_
+3	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	Sérgio	Sérgio	PROPN	_	_	3	obl	_	_
+6	Moro	Moro	PROPN	_	_	5	flat:name	_	_
+7	quem	quem	PRON	_	PronType=Ind	11	nsubj	_	_
+8	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Brahma	Brahma	PROPN	_	_	3	ccomp	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Moro: Em algumas mensagens que foram encontradas no seu celular, o senhor utiliza a expressão Brahma.
+1	Moro	Moro	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Em	em	ADP	_	_	5	case	_	_
+4	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	mensagens	mensagem	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj:pass	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	celular	celular	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	5	punct	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	senhor	senhor	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+16	utiliza	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	Brahma	Brahma	PROPN	_	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0005
+# text = Essa expressão se refere a algua pessoa em particular?
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	algua	alguo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	particular	particular	ADJ	_	Number=Sing	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Léo: "Essa expressão se referia ao ex-presidente Lula por causa de um propaganda que existia da cerveja Brahma, que era a número um" Moro: "Porque não utilizavam o nome dele diretamente"?
+1	Léo	Léo	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+4	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	referia	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ex-presidente	ex-presidente	NOUN	_	Number=Sing	7	obl	_	_
+11	Lula	Lula	PROPN	_	_	10	nmod	_	_
+12	por	por	ADP	_	_	13	case	_	_
+13	causa	causa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	propaganda	propaganda	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	existia	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cerveja	cerveja	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22	Brahma	Brahma	PROPN	_	_	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+25	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	21	acl:relcl	_	_
+27	número	número	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+28	um	um	NUM	_	Gender=Masc|NumType=Card	27	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	35	punct	_	_
+30	Moro	Moro	PROPN	_	_	35	nsubj	_	SpaceAfter=No
+31	:	:	PUNCT	_	_	35	punct	_	_
+32	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+33	Porque	porque	CCONJ	_	_	35	discourse	_	_
+34	não	não	ADV	_	_	35	advmod	_	_
+35	utilizavam	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	parataxis	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	nome	nome	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	_
+38-39	dele	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nmod	_	_
+40	diretamente	diretamente	ADV	_	_	35	advmod	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+42	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = Léo: "Para não expor as figuras públicas e nós tínhamos isso como prática".
+1	Léo	Léo	PROPN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	6	punct	_	_
+3	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+4	Para	para	ADP	_	_	6	mark	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	expor	expor	VERB	_	VerbForm=Inf	1	parataxis	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	públicas	público	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	tínhamos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	conj	_	_
+13	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	_
+14	como	como	ADP	_	_	15	case	_	_
+15	prática	prática	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+

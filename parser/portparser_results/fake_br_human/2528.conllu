@@ -1,0 +1,190 @@
+# sent_id = S0001
+# text = Senador faz denúncia grave: "Lula e Dilma tentaram comprar meu voto no impeachment".
+1	Senador	senador	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	grave	grave	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	10	punct	_	_
+6	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+7	Lula	Lula	PROPN	_	_	10	nsubj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	Dilma	Dilma	PROPN	_	_	7	conj	_	_
+10	tentaram	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	comprar	comprar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	voto	voto	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O senador José Medeiros (PSD/MT) fez uma polêmica denúncia através de sua conta na rede social Twitter.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	José	José	PROPN	_	_	2	nmod	_	_
+4	Medeiros	Medeiros	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PSD/MT	PSD/MT	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	através	através	ADV	_	_	8	advmod	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	conta	conta	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	rede	rede	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	social	social	ADJ	_	Number=Sing	18	amod	_	_
+20	Twitter	Twitter	PROPN	_	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = O senador afirmou que foi assediado para vender seu voto no processo de impeachment De acordo com o senador, tanto Lula quanto Dilma teriam tentado comprar seu voto no processo de impeachment da presidente afastada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	assediado	assediar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	vender	vender	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	voto	voto	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	processo	processo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	De	de	ADP	_	_	17	case	_	_
+17	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	senador	senador	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	17	punct	_	_
+22	tanto	tanto	CCONJ	_	_	23	cc	_	_
+23	Lula	Lula	PROPN	_	_	27	nsubj	_	_
+24	quanto	quanto	CCONJ	_	_	25	cc	_	_
+25	Dilma	Dilma	PROPN	_	_	23	conj	_	_
+26	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	27	aux	_	_
+27	tentado	tentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	root	_	_
+28	comprar	comprar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+30	voto	voto	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	processo	processo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	impeachment	impeachment	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+36-37	da	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	presidente	presidente	NOUN	_	Number=Sing	33	nmod	_	_
+39	afastada	afastado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O senador foi questionado por um internauta: E você?
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	questionado	questionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	internauta	internauta	NOUN	_	Number=Sing	4	obl:agent	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	10	punct	_	_
+9	E	e	CCONJ	_	_	10	cc	_	_
+10	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	parataxis	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = É o que na Comissão?
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+3	que	que	PRON	_	PronType=Rel	2	fixed	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Comissão	Comissão	PROPN	_	_	2	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Já vendeu seu voto?
+1	Já	já	ADV	_	_	2	advmod	_	_
+2	vendeu	vender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	voto	voto	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0012
+# text = questionou um seguidor.
+1	questionou	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	seguidor	seguidor	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0014
+# text = Medeiros respondeu imediatamente: Já estou com meu voto definido.
+1	Medeiros	Medeiros	PROPN	_	_	2	nsubj	_	_
+2	respondeu	responder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	imediatamente	imediatamente	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	9	punct	_	_
+5	Já	já	ADV	_	_	9	advmod	_	_
+6	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	voto	voto	NOUN	_	Gender=Masc|Number=Sing	2	ccomp:speech	_	_
+10	definido	definido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0016
+# text = Não vendi, embora tenha sido convidado para ir ao Tulip [se referindo ao hotel que Lula está hospedado em Brasília] e recentemente ao Alvorada [residência oficial de Dilma] .
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	vendi	vender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	embora	embora	SCONJ	_	_	7	mark	_	_
+5	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	aux:pass	_	_
+7	convidado	convidar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	advcl	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	ir	ir	VERB	_	VerbForm=Inf	7	advcl	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Tulip	Tulip	PROPN	_	_	9	obl	_	_
+13	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	referindo	referir	VERB	_	VerbForm=Ger	12	acl	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	hotel	hotel	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	que	que	PRON	_	PronType=Rel	22	obj	_	_
+20	Lula	Lula	PROPN	_	_	22	nsubj	_	_
+21	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	hospedado	hospedado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	18	acl:relcl	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	Brasília	Brasília	PROPN	_	_	22	obl	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	15	punct	_	_
+26	e	e	CCONJ	_	_	30	cc	_	_
+27	recentemente	recentemente	ADV	_	_	30	advmod	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Alvorada	Alvorada	PROPN	_	_	15	conj	_	_
+31	[	[	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	residência	residência	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	_
+33	oficial	oficial	ADJ	_	Number=Sing	32	amod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	Dilma	Dilma	PROPN	_	_	32	nmod	_	SpaceAfter=No
+36	]	]	PUNCT	_	_	32	punct	_	_
+37	.	.	PUNCT	_	_	2	punct	_	_
+

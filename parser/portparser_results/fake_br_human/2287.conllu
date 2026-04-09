@@ -1,0 +1,177 @@
+# sent_id = S0001
+# text = Cadê o exército?
+1	Cadê	cadê	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	exército	exército	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Em discurso, Presidente da CUT ameaça invadir Brasília na próxima segunda-feira.
+1	Em	em	ADP	_	_	2	case	_	_
+2	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Presidente	Presidente	PROPN	_	_	8	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	CUT	CUT	PROPN	_	_	4	nmod	_	_
+8	ameaça	ameaçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	invadir	invadir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	Brasília	Brasília	PROPN	_	_	9	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = O atual presidente da CUT, Vagner Freitas, convocou "supostos" trabalhadores para invadir Brasília, na próxima segunda-feira (29).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	atual	atual	ADJ	_	Number=Sing	3	amod	_	_
+3	presidente	presidente	NOUN	_	Number=Sing	11	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	CUT	CUT	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Vagner	Vagner	PROPN	_	_	3	appos	_	_
+9	Freitas	Freitas	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	convocou	convocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+13	supostos	suposto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	15	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	15	punct	_	_
+15	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	invadir	invadir	VERB	_	VerbForm=Inf	11	advcl	_	_
+18	Brasília	Brasília	PROPN	_	_	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	23	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	29	29	NUM	_	NumType=Card	23	appos	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = Em um ato que contou com a presença de Lula, Vagner declarou: Vamos tomar Brasília de vermelho.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ato	ato	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	presença	presença	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Lula	Lula	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	Vagner	Vagner	PROPN	_	_	13	nsubj	_	_
+13	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	16	punct	_	_
+15	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	tomar	tomar	VERB	_	VerbForm=Inf	13	ccomp:speech	_	_
+17	Brasília	Brasília	PROPN	_	_	16	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	vermelho	vermelho	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = Rumo à greve geral" O presidente da CUT ainda acusou a Operação Lava Jato de promover o desemprego no País: "A Lava Jato, a única coisa que lavou, foi o emprego do trabalhador.
+1	Rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	13	dislocated	_	_
+2-3	à	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	greve	greve	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	geral	geral	ADJ	_	Number=Sing	4	amod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	1	punct	_	_
+7	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	13	nsubj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	CUT	CUT	PROPN	_	_	8	nmod	_	_
+12	ainda	ainda	ADV	_	_	13	advmod	_	_
+13	acusou	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Operação	Operação	PROPN	_	_	13	obj	_	_
+16	Lava	Lava	PROPN	_	_	15	flat:name	_	_
+17	Jato	Jato	PROPN	_	_	15	flat:name	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	promover	promover	VERB	_	VerbForm=Inf	13	xcomp	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	desemprego	desemprego	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	País	País	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	39	punct	_	_
+26	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+27	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Lava	Lava	PROPN	_	_	39	nsubj	_	_
+29	Jato	Jato	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	única	único	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+33	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
+34	que	que	PRON	_	PronType=Rel	35	obj	_	_
+35	lavou	lavar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	33	punct	_	_
+37	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	cop	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	13	ccomp	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	trabalhador	trabalhador	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = Corruptos não estão sendo punidos, mas os trabalhadores perderam o seu emprego., disse Freitas.
+1	Corruptos	corrupto	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+2	não	não	ADV	_	_	5	advmod	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	punidos	punir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	16	ccomp:speech	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	mas	mas	CCONJ	_	_	10	cc	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	5	punct	_	_
+16	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Freitas	Freitas	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0013
+# text = Calma Vagner!
+1	Calma	calma	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Vagner	Vagner	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Os corruptos serão punidos sim.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	corruptos	corrupto	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	punidos	punir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	sim	sim	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Lula irá para a cadeia!
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	irá	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	2	punct	_	_
+

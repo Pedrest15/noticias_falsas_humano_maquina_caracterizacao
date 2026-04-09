@@ -1,0 +1,415 @@
+# sent_id = S0001
+# text = **URGENTE: INSS ignora decisões do STF e nega aposentadoria especial a profissionais de alto risco!
+1	*	*	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	URGENTE	urgente	ADJ	_	Number=Sing	6	parataxis	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	INSS	INSS	PROPN	_	_	6	nsubj	_	_
+6	ignora	ignorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	STF	STF	PROPN	_	_	7	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	nega	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	aposentadoria	aposentadoria	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	especial	especial	ADJ	_	Number=Sing	13	amod	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	profissionais	profissional	NOUN	_	Number=Plur	12	obl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	alto	alto	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+19	risco	risco	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = ** Recentemente, o Supremo Tribunal Federal (STF) reafirmou o direito à aposentadoria especial para trabalhadores expostos a condições insalubres, mesmo com o fornecimento de Equipamentos de Proteção Individual (EPIs).
+1	*	*	PUNCT	_	_	12	punct	_	SpaceAfter=No
+2	*	*	PUNCT	_	_	12	punct	_	_
+3	Recentemente	recentemente	ADV	_	_	12	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Supremo	Supremo	PROPN	_	_	12	nsubj	_	_
+7	Tribunal	Tribunal	PROPN	_	_	6	flat:name	_	_
+8	Federal	Federal	PROPN	_	_	6	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	STF	STF	PROPN	_	_	6	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	reafirmou	reafirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	direito	direito	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	aposentadoria	aposentadoria	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	especial	especial	ADJ	_	Number=Sing	17	amod	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+21	expostos	exposto	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	20	acl	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	condições	condição	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+24	insalubres	insalubre	ADJ	_	Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	29	punct	_	_
+26	mesmo	mesmo	ADV	_	_	29	advmod	_	_
+27	com	com	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	Equipamentos	Equipamentos	PROPN	_	_	29	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Proteção	Proteção	PROPN	_	_	31	flat:name	_	_
+34	Individual	Individual	PROPN	_	_	31	flat:name	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	EPIs	EPIs	PROPN	_	_	31	appos	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = No entanto, muitos trabalhadores estão sendo surpreendidos pelo INSS, que continua a negar esses benefícios, alegando que os EPIs eliminam todos os riscos.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	9	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+7	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	sendo	ser	AUX	_	VerbForm=Ger	9	aux:pass	_	_
+9	surpreendidos	surpreender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	INSS	INSS	PROPN	_	_	9	obl:agent	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	a	a	ADP	_	_	17	mark	_	_
+17	negar	negar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	alegando	alegar	VERB	_	VerbForm=Ger	17	advcl	_	_
+22	que	que	SCONJ	_	_	25	mark	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	EPIs	EPIs	PROPN	_	_	25	nsubj	_	_
+25	eliminam	eliminar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+26	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	28	det	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Profissionais como enfermeiros, médicos, faxineiros, lavadeiras e até eletricistas enfrentam diariamente ambientes perigosos, com agentes biológicos e riscos de choques elétricos fatais.
+1	Profissionais	profissional	NOUN	_	Number=Plur	13	nsubj	_	_
+2	como	como	ADP	_	_	3	case	_	_
+3	enfermeiros	enfermeiro	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	médicos	médico	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	faxineiros	faxineiro	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	lavadeiras	lavadeiro	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	até	até	ADV	_	_	12	case	_	_
+12	eletricistas	eletricista	NOUN	_	Number=Plur	3	conj	_	_
+13	enfrentam	enfrentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	diariamente	diariamente	ADV	_	_	13	advmod	_	_
+15	ambientes	ambiente	NOUN	_	Number=Plur	13	obj	_	_
+16	perigosos	perigoso	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	agentes	agente	NOUN	_	Number=Plur	15	nmod	_	_
+20	biológicos	biológico	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	choques	choque	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+25	elétricos	elétrico	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26	fatais	fatal	ADJ	_	Number=Plur	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = O STF deixou claro: o ruído e outros agentes nocivos não são neutralizados completamente pelos EPIs, garantindo assim o direito à aposentadoria especial.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	STF	STF	PROPN	_	_	3	nsubj	_	_
+3	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	claro	claro	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	14	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ruído	ruído	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	agentes	agente	NOUN	_	Number=Plur	7	conj	_	_
+11	nocivos	nocivo	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	neutralizados	neutralizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+15	completamente	completamente	ADV	_	_	14	advmod	_	_
+16-17	pelos	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	EPIs	EPIs	PROPN	_	_	14	obl:agent	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	garantindo	garantir	VERB	_	VerbForm=Ger	14	advcl	_	_
+21	assim	assim	ADV	_	_	20	advmod	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	direito	direito	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+24-25	à	_	_	_	_	_	_	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	aposentadoria	aposentadoria	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	especial	especial	ADJ	_	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Entretanto, o INSS está criando obstáculos burocráticos, forçando trabalhadores a buscarem caminhos judiciais para garantir seus direitos.
+1	Entretanto	entretanto	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	INSS	INSS	PROPN	_	_	6	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	criando	criar	VERB	_	VerbForm=Ger	0	root	_	_
+7	obstáculos	obstáculo	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	burocráticos	burocrático	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	forçando	forçar	VERB	_	VerbForm=Ger	6	advcl	_	_
+11	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+12	a	a	ADP	_	_	13	mark	_	_
+13	buscarem	buscar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	10	xcomp	_	_
+14	caminhos	caminho	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	judiciais	judicial	ADJ	_	Number=Plur	14	amod	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	garantir	garantir	VERB	_	VerbForm=Inf	13	advcl	_	_
+18	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Hilário Bocchi Júnior, especialista no assunto, alerta que "muitos trabalhadores estão sendo prejudicados pela postura intransigente do INSS, que desconsidera as decisões superiores e a realidade dos ambientes de trabalho".
+1	Hilário	Hilário	PROPN	_	_	10	nsubj	_	_
+2	Bocchi	Bocchi	PROPN	_	_	1	flat:name	_	_
+3	Júnior	Júnior	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	especialista	especialista	NOUN	_	Number=Sing	1	appos	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	alerta	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	17	mark	_	_
+12	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+13	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	sendo	ser	AUX	_	VerbForm=Ger	17	aux:pass	_	_
+17	prejudicados	prejudicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+18-19	pela	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	postura	postura	NOUN	_	Gender=Fem|Number=Sing	17	obl:agent	_	_
+21	intransigente	intransigente	ADJ	_	Number=Sing	20	amod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	INSS	INSS	PROPN	_	_	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+27	desconsidera	desconsiderar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	_
+30	superiores	superior	ADJ	_	Number=Plur	29	amod	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	29	conj	_	_
+34-35	dos	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	ambientes	ambiente	NOUN	_	Number=Plur	33	nmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = Servidores públicos também estão entre os afetados, com suas aposentadorias especiais sendo negadas sob argumentos semelhantes.
+1	Servidores	servidor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	públicos	público	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	também	também	ADV	_	_	6	advmod	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	entre	entre	ADP	_	_	6	case	_	_
+6	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	0	root	_	_
+7	afetados	afetar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	aposentadorias	aposentadoria	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+12	especiais	especial	ADJ	_	Number=Plur	11	amod	_	_
+13	sendo	ser	AUX	_	VerbForm=Ger	14	aux:pass	_	_
+14	negadas	negar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
+15	sob	sob	ADP	_	_	16	case	_	_
+16	argumentos	argumento	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+17	semelhantes	semelhante	ADJ	_	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = A situação se agrava, pois muitos trabalhadores temem processar seus empregadores e acabam aceitando a negativa do INSS sem contestar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	agrava	agravar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	pois	pois	SCONJ	_	_	9	mark	_	_
+7	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+8	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	temem	temer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	processar	processar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	empregadores	empregador	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	acabam	acabar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	aceitando	aceitar	VERB	_	VerbForm=Ger	14	xcomp	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	negativa	negativa	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	INSS	INSS	PROPN	_	_	17	nmod	_	_
+21	sem	sem	ADP	_	_	22	mark	_	_
+22	contestar	contestar	VERB	_	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = A orientação para esses profissionais é exigir que a empresa corrija os documentos de exposição a riscos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	orientação	orientação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	profissionais	profissional	NOUN	_	Number=Plur	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	exigir	exigir	VERB	_	VerbForm=Inf	0	root	_	_
+8	que	que	SCONJ	_	_	11	mark	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	corrija	corrigir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	exposição	exposição	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0021
+# text = Caso contrário, a alternativa é buscar um laudo pericial individual, contratando um médico ou engenheiro de segurança do trabalho, para comprovar as condições insalubres enfrentadas.
+1	Caso	caso	NOUN	_	ExtPos=CCONJ|Gender=Masc|Number=Sing	7	cc	_	_
+2	contrário	contrário	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	alternativa	alternativa	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	buscar	buscar	VERB	_	VerbForm=Inf	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	laudo	laudo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	pericial	pericial	ADJ	_	Number=Sing	9	amod	_	_
+11	individual	individual	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	contratando	contratar	VERB	_	VerbForm=Ger	7	advcl	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	médico	médico	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	ou	ou	CCONJ	_	_	17	cc	_	_
+17	engenheiro	engenheiro	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	segurança	segurança	NOUN	_	Number=Sing	17	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	comprovar	comprovar	VERB	_	VerbForm=Inf	7	advcl	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	condições	condição	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
+28	insalubres	insalubre	ADJ	_	Number=Plur	27	amod	_	_
+29	enfrentadas	enfrentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	27	acl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = Essa prova pode ser decisiva tanto para recursos no INSS quanto para ações judiciais.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	prova	prova	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	cop	_	_
+5	decisiva	decisivo	ADJ	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+6	tanto	tanto	CCONJ	_	_	8	cc	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	INSS	INSS	PROPN	_	_	8	nmod	_	_
+12	quanto	quanto	CCONJ	_	_	14	cc	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	ações	ação	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
+15	judiciais	judicial	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = A luta pela justiça continua, e a pressão sobre o INSS para cumprir as decisões do STF se intensifica.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	luta	luta	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	pela	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	22	punct	_	_
+8	e	e	CCONJ	_	_	22	cc	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+11	sobre	sobre	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	INSS	INSS	PROPN	_	_	10	nmod	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	cumprir	cumprir	VERB	_	VerbForm=Inf	10	acl	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	decisões	decisão	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	STF	STF	PROPN	_	_	17	nmod	_	_
+21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	22	expl	_	_
+22	intensifica	intensificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0027
+# text = Trabalhadores de todo o país aguardam uma mudança de postura da instituição para que seus direitos sejam respeitados sem a necessidade de batalhas legais intermináveis.
+1	Trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	país	país	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	aguardam	aguardar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	postura	postura	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	instituição	instituição	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	ExtPos=SCONJ	19	mark	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_
+16	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+18	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	respeitados	respeitar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	advcl	_	_
+20	sem	sem	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	batalhas	batalha	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+25	legais	legal	ADJ	_	Number=Plur	24	amod	_	_
+26	intermináveis	interminável	ADJ	_	Number=Plur	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+

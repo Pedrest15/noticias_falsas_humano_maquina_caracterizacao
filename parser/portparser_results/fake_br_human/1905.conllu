@@ -1,0 +1,164 @@
+# sent_id = S0001
+# text = Avião com 97 passageiros faz pouso de emergência no aeroporto de Brasília.
+1	Avião	avião	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	97	97	NUM	_	NumType=Card	4	nummod	_	_
+4	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	pouso	pouso	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Brasília	Brasília	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Um avião acabou de fazer um pouso de emergência no aeroporto JK.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	avião	avião	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	fazer	fazer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pouso	pouso	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+13	JK	JK	PROPN	_	_	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = A aeronave precisou executar um pouso forçado devido a uma pane.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	precisou	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	executar	executar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pouso	pouso	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	forçado	forçado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_
+8	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pane	pane	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O voo da Avianca partiu de Guarulhos (SP) e tinha como destino a cidade de Juazeiro do Norte (CE).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	voo	voo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Avianca	Avianca	PROPN	_	_	2	nmod	_	_
+6	partiu	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Guarulhos	Guarulhos	PROPN	_	_	6	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	SP	SP	PROPN	_	_	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+14	como	como	ADP	_	_	15	case	_	_
+15	destino	destino	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Juazeiro	Juazeiro	PROPN	_	_	17	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Norte	Norte	PROPN	_	_	19	flat:name	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	CE	CE	PROPN	_	_	19	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com informações preliminares da Globo News, havia fumaça a bordo e os passageiros entraram em pânico.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5	preliminares	preliminar	ADJ	_	Number=Plur	4	amod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Globo	Globo	PROPN	_	_	4	nmod	_	_
+9	News	News	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	fumaça	fumaça	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	bordo	bordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	entraram	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	pânico	pânico	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = Não há vítimas e o pouso ocorreu com segurança.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vítimas	vítima	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+4	e	e	CCONJ	_	_	7	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pouso	pouso	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	segurança	segurança	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A aeronave está sendo rebocada neste exato momento.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	rebocada	rebocar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	neste	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	9	case	_	_
+7	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	exato	exato	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	momento	momento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = 97 passageiros estão a bordo.
+1	97	97	NUM	_	NumType=Card	2	nummod	_	_
+2	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	bordo	bordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Nota da Avianca enviada para o Diário do Brasil às 19:32.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	5	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Avianca	Avianca	PROPN	_	_	1	nmod	_	_
+5	enviada	enviar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Diário	Diário	PROPN	_	_	5	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Brasil	Brasil	PROPN	_	_	8	flat:name	_	_
+12-13	às	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	19:32	19:32	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+

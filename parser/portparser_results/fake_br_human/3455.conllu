@@ -1,0 +1,217 @@
+# sent_id = S0001
+# text = Nem só de pixulecos vive o PT.
+1	Nem	nem	ADV	_	_	4	advmod	_	_
+2	só	só	ADV	_	_	4	advmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	pixulecos	pixuleco	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+5	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PT	PT	PROPN	_	_	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Dono da UTC presenteava Lula com "cachaça de reserva especial".
+1	Dono	dono	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	UTC	UTC	PROPN	_	_	1	nmod	_	_
+5	presenteava	presentear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	Lula	Lula	PROPN	_	_	5	obj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	cachaça	cachaça	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	reserva	reserva	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	especial	especial	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = O empreiteiro Ricardo Pessoa, dono da UTC, disse em delação premiada, que além de contribuições financeiras, ele também mantinha Lula na lista de autoridades para as quais enviava presentes em ocasiões especiais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	empreiteiro	empreiteiro	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	Ricardo	Ricardo	PROPN	_	_	2	nmod	_	_
+4	Pessoa	Pessoa	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	dono	dono	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	UTC	UTC	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	delação	delação	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	6	punct	_	_
+16	que	que	SCONJ	_	_	24	mark	_	_
+17	além	além	ADV	_	_	24	advmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	contribuições	contribuição	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+20	financeiras	financeiro	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	6	punct	_	_
+22	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	também	também	ADV	_	_	24	advmod	_	_
+24	mantinha	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+25	Lula	Lula	PROPN	_	_	24	obj	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	lista	lista	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
+31	para	para	ADP	_	_	32	case	_	_
+32	as	o	PRON	_	ExtPos=PRON|Gender=Fem|Number=Plur|Person=3|PronType=Dem	34	obl	_	_
+33	quais	qual	PRON	_	Number=Plur|PronType=Rel	32	fixed	_	_
+34	enviava	enviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
+35	presentes	presente	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	_
+36	em	em	ADP	_	_	37	case	_	_
+37	ocasiões	ocasião	NOUN	_	Gender=Fem|Number=Plur	34	obl	_	_
+38	especiais	especial	ADJ	_	Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = O agrado para o ex-presidente, variava entre cortes de tecido e garrafas de cachaça da "reserva especial da UTC".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	agrado	agrado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ex-presidente	ex-presidente	NOUN	_	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	variava	variar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	entre	entre	ADP	_	_	9	case	_	_
+9	cortes	corte	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	tecido	tecido	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	garrafas	garrafa	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	cachaça	cachaça	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	reserva	reserva	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+20	especial	especial	ADJ	_	Number=Sing	19	amod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	UTC	UTC	PROPN	_	_	19	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = A estratégia, como podemos perceber, foi muito bem-sucedida.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	como	como	SCONJ	_	_	5	mark	_	_
+5	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+6	perceber	perceber	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	muito	muito	ADV	_	_	10	advmod	_	_
+10	bem-sucedida	bem-sucedido	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Pessoa conseguiu se aproximar de Lula, sua empresa cresceu de maneira meteórica.
+1	Pessoa	Pessoa	PROPN	_	_	2	nsubj	_	_
+2	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	aproximar	aproximar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lula	Lula	PROPN	_	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	cresceu	crescer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+13	meteórica	meteórico	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Ele assumiu um lugar de destaque entre os representantes do setor da construção e, na hierarquia do esquema criminoso, foi promovido a chefe do "clube do bilhão".
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	entre	entre	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	representantes	representante	NOUN	_	Number=Plur	4	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	setor	setor	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	construção	construção	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	_	_	27	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	hierarquia	hierarquia	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	criminoso	criminoso	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	20	punct	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	promovido	promover	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	conj	_	_
+28	a	a	ADP	_	_	29	case	_	_
+29	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	33	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	clube	clube	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	bilhão	bilhão	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = De acordo com a Folha, os agrados começaram quando o Lula ainda estava no Palácio do Planalto, mas a prática continuou no Instituto Lula.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Folha	Folha	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	agrados	agrado	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	começaram	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	quando	quando	SCONJ	_	_	17	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Lula	Lula	PROPN	_	_	17	nsubj	_	_
+13	ainda	ainda	ADV	_	_	17	advmod	_	_
+14	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Palácio	Palácio	PROPN	_	_	9	advcl	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Planalto	Planalto	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	mas	mas	CCONJ	_	_	25	cc	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	prática	prática	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+25	continuou	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Instituto	Instituto	PROPN	_	_	25	obl	_	_
+29	Lula	Lula	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	9	punct	_	_
+

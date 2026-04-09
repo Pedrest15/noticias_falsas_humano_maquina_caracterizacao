@@ -1,0 +1,364 @@
+# sent_id = S0001
+# text = URGENTE: Fraude Eleitoral Exposta em Cordeiro, Rio de Janeiro! Áudios revelam urnas cheias de votos antes mesmo da eleição.
+1	URGENTE	URGENTE	PROPN	_	_	14	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Fraude	Fraude	PROPN	_	_	1	parataxis	_	_
+4	Eleitoral	Eleitoral	PROPN	_	_	3	flat:name	_	_
+5	Exposta	expor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	Cordeiro	Cordeiro	PROPN	_	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Rio	Rio	PROPN	_	_	7	appos	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Janeiro	Janeiro	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	3	punct	_	_
+13	Áudios	áudio	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
+14	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16	cheias	cheio	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	votos	voto	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+19	antes	antes	ADV	_	_	14	advmod	_	_
+20	mesmo	mesmo	ADV	_	_	19	advmod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0003
+# text = Um denunciante de Nova Friburgo afirma: Galera, descobrimos uma tremenda fraude! Em Cordeiro, cidadezinha aqui perto, já estão denunciando urnas chegando com votos para o Lula.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	denunciante	denunciante	NOUN	_	Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Nova	Nova	PROPN	_	_	2	nmod	_	_
+5	Friburgo	Friburgo	PROPN	_	_	4	flat:name	_	_
+6	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	10	punct	_	_
+8	Galera	galera	NOUN	_	Gender=Fem|Number=Sing	10	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	descobrimos	descobrir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp:speech	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	tremenda	tremendo	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	10	punct	_	_
+15	Em	em	ADP	_	_	16	case	_	_
+16	Cordeiro	Cordeiro	PROPN	_	_	24	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	cidadezinha	cidadezinha	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	_
+19	aqui	aqui	ADV	_	_	20	advmod	_	_
+20	perto	perto	ADV	_	_	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	18	punct	_	_
+22	já	já	ADV	_	_	24	advmod	_	_
+23	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	denunciando	denunciar	VERB	_	VerbForm=Ger	6	ccomp	_	_
+25	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+26	chegando	chegar	VERB	_	VerbForm=Ger	25	acl	_	_
+27	com	com	ADP	_	_	28	case	_	_
+28	votos	voto	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Lula	Lula	PROPN	_	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = Imaginem só, metade dos votos já registrados! Isso é uma vergonha e não podemos deixar que a maior fraude da história aconteça.
+1	Imaginem	imaginar	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	só	só	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	metade	metade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	votos	voto	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+8	já	já	ADV	_	_	9	advmod	_	_
+9	registrados	registrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	14	punct	_	_
+11	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vergonha	vergonha	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	não	não	ADV	_	_	17	advmod	_	_
+17	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+18	deixar	deixar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	que	que	SCONJ	_	_	26	mark	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	maior	maior	ADJ	_	Number=Sing	22	amod	_	_
+22	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	história	história	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	aconteça	acontecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Compartilhem para que todos saibam!
+1	Compartilhem	compartilhar	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	para	para	ADP	_	ExtPos=SCONJ	5	mark	_	_
+3	que	que	SCONJ	_	_	2	fixed	_	_
+4	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+5	saibam	saber	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Em outro relato alarmante, um morador local diz: Minha gente, a coisa está feia aqui em Cordeiro.
+1	Em	em	ADP	_	_	3	case	_	_
+2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	relato	relato	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	alarmante	alarmante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	morador	morador	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	local	local	ADJ	_	Number=Sing	7	amod	_	_
+9	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	17	punct	_	_
+11	Minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	gente	gente	NOUN	_	Gender=Fem|Number=Sing	17	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	feia	feio	ADJ	_	Gender=Fem|Number=Sing	9	ccomp:speech	_	_
+18	aqui	aqui	ADV	_	_	17	advmod	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	Cordeiro	Cordeiro	PROPN	_	_	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = O fórum está lotado de fiscais do TRE e descobriram urnas com votos antecipados! Uma urna de uma sessão com 327 eleitores já tinha 139 votos para o Lula.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fórum	fórum	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	lotado	lotado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	fiscais	fiscal	NOUN	_	Number=Plur	4	obl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	TRE	TRE	PROPN	_	_	6	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	descobriram	descobrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	votos	voto	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+15	antecipados	antecipado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	14	amod	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	26	punct	_	_
+17	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	urna	urna	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	327	327	NUM	_	NumType=Card	24	nummod	_	_
+24	eleitores	eleitor	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+25	já	já	ADV	_	_	26	advmod	_	_
+26	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+27	139	139	NUM	_	NumType=Card	28	nummod	_	_
+28	votos	voto	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Lula	Lula	PROPN	_	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = O que está acontecendo aqui pode estar ocorrendo por todo o Brasil.
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	acontecendo	acontecer	VERB	_	VerbForm=Ger	1	acl:relcl	_	_
+5	aqui	aqui	ADV	_	_	4	advmod	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	estar	estar	AUX	_	VerbForm=Inf	8	aux	_	_
+8	ocorrendo	ocorrer	VERB	_	VerbForm=Ger	6	xcomp	_	_
+9	por	por	ADP	_	_	12	case	_	_
+10	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Brasil	Brasil	PROPN	_	_	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = Precisamos ficar atentos!
+1	Precisamos	precisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ficar	ficar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	atentos	atento	ADJ	_	Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0017
+# text = No entanto, o Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) classificou essas alegações como falsas, afirmando que todas as 39 mil urnas do estado estão preparadas sem irregularidades.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	17	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Tribunal	Tribunal	PROPN	_	_	17	nsubj	_	_
+7	Regional	Regional	PROPN	_	_	6	flat:name	_	_
+8	Eleitoral	Eleitoral	PROPN	_	_	6	flat:name	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Rio	Rio	PROPN	_	_	6	flat:name	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Janeiro	Janeiro	PROPN	_	_	11	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	TRE-RJ	TRE-RJ	PROPN	_	_	6	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	classificou	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	alegações	alegação	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+20	como	como	ADP	_	_	21	case	_	_
+21	falsas	falso	ADJ	_	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	afirmando	afirmar	VERB	_	VerbForm=Ger	17	advcl	_	_
+24	que	que	SCONJ	_	_	34	mark	_	_
+25	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	29	det	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+27	39	39	NUM	_	NumType=Card	29	nummod	_	_
+28	mil	mil	NUM	_	NumType=Card	27	flat	_	_
+29	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	34	nsubj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	estado	estado	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+33	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	preparadas	preparado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	23	ccomp	_	_
+35	sem	sem	ADP	_	_	36	case	_	_
+36	irregularidades	irregularidade	NOUN	_	Gender=Fem|Number=Plur	34	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0019
+# text = Mas será mesmo? Os procedimentos de preparação são complexos e envolvem instalação de sistemas e dados de candidatos, levantando dúvidas sobre a transparência do processo.
+1	Mas	mas	CCONJ	_	_	10	cc	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
+3	mesmo	mesmo	ADV	_	_	10	advmod	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	10	punct	_	_
+5	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	procedimentos	procedimento	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	complexos	complexo	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	envolvem	envolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	dados	dado	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	levantando	levantar	VERB	_	VerbForm=Ger	10	advcl	_	_
+22	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+23	sobre	sobre	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	processo	processo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0021
+# text = O TRE também menciona que a preparação das urnas é aberta ao público e fiscalizada por entidades como partidos políticos e o Ministério Público.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	TRE	TRE	PROPN	_	_	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	menciona	mencionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	12	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	ccomp	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	público	público	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	fiscalizada	fiscalizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	conj	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	entidades	entidade	NOUN	_	Gender=Fem|Number=Plur	17	obl:agent	_	_
+20	como	como	ADP	_	_	21	case	_	_
+21	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+22	políticos	político	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	_	_	25	cc	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Ministério	Ministério	PROPN	_	_	21	conj	_	_
+26	Público	Público	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = Ainda assim, a desconfiança se espalha, especialmente quando falamos de tecnologia e assinaturas digitais que, segundo especialistas, poderiam ser burladas.
+1	Ainda	ainda	ADV	_	ExtPos=ADV	7	advmod	_	_
+2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	desconfiança	desconfiança	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	espalha	espalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	especialmente	especialmente	ADV	_	_	11	advmod	_	_
+10	quando	quando	SCONJ	_	_	11	mark	_	_
+11	falamos	falar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	assinaturas	assinatura	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
+16	digitais	digital	ADJ	_	Number=Plur	15	amod	_	_
+17	que	que	PRON	_	PronType=Rel	22	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	segundo	segundo	ADP	_	_	20	case	_	_
+20	especialistas	especialista	NOUN	_	Number=Plur	22	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	poderiam	poder	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	13	acl:relcl	_	_
+23	ser	ser	AUX	_	VerbForm=Inf	24	aux:pass	_	_
+24	burladas	burlar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	22	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0025
+# text = Não se deixe enganar! O TRE informa que o cartório da 52a Zona Eleitoral de Cordeiro abriu uma Notícia de Irregularidade de Propaganda (NIP) para responsabilizar o autor da mensagem.
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	3	expl	_	_
+3	deixe	deixar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	root	_	_
+4	enganar	enganar	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+6	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	TRE	TRE	PROPN	_	_	8	nsubj	_	_
+8	informa	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	19	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cartório	cartório	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	52a	52a	ADJ	_	Gender=Fem|NumType=Ord	15	amod	_	_
+15	Zona	Zona	PROPN	_	_	11	nmod	_	_
+16	Eleitoral	Eleitoral	PROPN	_	_	15	flat:name	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Cordeiro	Cordeiro	PROPN	_	_	15	nmod	_	_
+19	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Notícia	Notícia	PROPN	_	_	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Irregularidade	Irregularidade	PROPN	_	_	21	flat:name	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Propaganda	Propaganda	PROPN	_	_	21	flat:name	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	NIP	NIP	PROPN	_	_	21	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	para	para	ADP	_	_	30	mark	_	_
+30	responsabilizar	responsabilizar	VERB	_	VerbForm=Inf	19	advcl	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	autor	autor	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	8	punct	_	_
+

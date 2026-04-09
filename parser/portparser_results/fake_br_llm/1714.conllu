@@ -1,0 +1,468 @@
+# sent_id = S0001
+# text = Bruno Borges revela que encontrou uma 'conspiração global' durante seu desaparecimento.
+1	Bruno	Bruno	PROPN	_	_	3	nsubj	_	_
+2	Borges	Borges	PROPN	_	_	1	flat:name	_	_
+3	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	encontrou	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+9	global	global	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	'	'	PUNCT	_	_	8	punct	_	_
+11	durante	durante	ADP	_	_	13	case	_	_
+12	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	desaparecimento	desaparecimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O estudante afirma que descobriu evidências de uma elite secreta controlando informações vitais para a humanidade.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudante	estudante	NOUN	_	Number=Sing	3	nsubj	_	_
+3	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	descobriu	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	elite	elite	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	secreta	secreto	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	controlando	controlar	VERB	_	VerbForm=Ger	9	acl	_	_
+12	informações	informação	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	vitais	vital	ADJ	_	Number=Plur	12	amod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = "Fui a uma jornada mística não apenas para me reencontrar, mas para expor a verdade oculta que mantém nossa sociedade adoecida", disse em uma entrevista bombástica ao G1.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Fui	ir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	26	ccomp:speech	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	jornada	jornada	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	mística	místico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	apenas	apenas	ADV	_	_	11	advmod	_	_
+9	para	para	ADP	_	_	11	mark	_	_
+10	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	reencontrar	reencontrar	VERB	_	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	mas	mas	CCONJ	_	_	15	cc	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	expor	expor	VERB	_	VerbForm=Inf	11	conj	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	oculta	oculto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	17	amod	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	mantém	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	nossa	nosso	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	det	_	_
+22	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	adoecida	adoecido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	2	punct	_	_
+26	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+30	bombástica	bombástico	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+31-32	ao	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	G1	G1	PROPN	_	_	26	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0007
+# text = Bruno, conhecido como o 'menino do Acre', detalhou que sua 'viagem da alma' o levou a locais remotos e secretos, onde teve contato com documentos antigos e reveladores.
+1	Bruno	Bruno	PROPN	_	_	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+4	como	como	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	menino	menino	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Acre	Acre	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	detalhou	detalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	23	mark	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+16	'	'	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	alma	alma	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	'	'	PUNCT	_	_	17	punct	_	_
+22	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	locais	local	NOUN	_	Number=Plur	23	obl	_	_
+26	remotos	remoto	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	secretos	secreto	ADJ	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	onde	onde	ADV	_	_	31	advmod	_	_
+31	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
+32	contato	contato	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+33	com	com	ADP	_	_	34	case	_	_
+34	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
+35	antigos	antigo	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	reveladores	revelador	ADJ	_	Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = "A pedra filosofal que busquei não é apenas uma metáfora; ela simboliza o conhecimento proibido que agora trago para despertar todos", explicou.
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pedra	pedra	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	filosofal	filosofal	ADJ	_	Number=Sing	3	amod	_	_
+5	que	que	PRON	_	PronType=Rel	6	obj	_	_
+6	busquei	buscar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	não	não	ADV	_	_	11	advmod	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	apenas	apenas	ADV	_	_	11	advmod	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	metáfora	metáfora	NOUN	_	Gender=Fem|Number=Sing	26	ccomp:speech	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	14	punct	_	_
+13	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	simboliza	simbolizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	conhecimento	conhecimento	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	proibido	proibido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	16	amod	_	_
+18	que	que	PRON	_	PronType=Rel	20	obj	_	_
+19	agora	agora	ADV	_	_	20	advmod	_	_
+20	trago	trager	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22	despertar	despertar	VERB	_	VerbForm=Inf	20	advcl	_	_
+23	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	22	obj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	11	punct	_	_
+26	explicou	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0011
+# text = As críticas ao seu primeiro livro, TAC: Teoria da Absorção do Conhecimento, foram ignoradas por Bruno, que as considera parte de uma 'campanha de desinformação'.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	críticas	crítico	NOUN	_	Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	7	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+6	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	livro	livro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	TAC	TAC	PROPN	_	_	7	appos	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	11	punct	_	_
+11	Teoria	Teoria	PROPN	_	_	9	appos	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Absorção	Absorção	PROPN	_	_	11	flat:name	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Conhecimento	Conhecimento	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	9	punct	_	_
+19	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	ignoradas	ignorar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	Bruno	Bruno	PROPN	_	_	20	obl:agent	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+25	as	o	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+26	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+27	parte	parte	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+28	de	de	ADP	_	_	31	case	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	'	'	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	desinformação	desinformação	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	_	_	31	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0013
+# text = "Não há tempo para se preocupar com críticas irrelevantes quando se tem uma missão de salvar a humanidade da ignorância", afirmou.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Não	não	ADV	_	_	3	advmod	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp:speech	_	_
+4	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	para	para	ADP	_	_	7	mark	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	preocupar	preocupar	VERB	_	VerbForm=Inf	4	acl	_	_
+8	com	com	ADP	_	_	9	case	_	_
+9	críticas	crítica	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+10	irrelevantes	irrelevante	ADJ	_	Number=Plur	9	amod	_	_
+11	quando	quando	SCONJ	_	_	13	mark	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl:impers	_	_
+13	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	missão	missão	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	salvar	salvar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	ignorância	ignorância	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	3	punct	_	_
+25	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0015
+# text = O retorno de Bruno coincidiu com a ascensão meteórica de seu livro nas paradas de best-sellers, sendo agora um fenômeno internacional.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Bruno	Bruno	PROPN	_	_	2	nmod	_	_
+5	coincidiu	coincidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	meteórica	meteórico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	livro	livro	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+13-14	nas	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	paradas	parada	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	best-sellers	best-seller	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	sendo	ser	AUX	_	VerbForm=Ger	22	cop	_	_
+20	agora	agora	ADV	_	_	22	advmod	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	5	advcl	_	_
+23	internacional	internacional	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Durante o desaparecimento, Bruno teria sido auxiliado por uma rede de amigos leais, mas a polícia desconfiou de um esquema mais amplo.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	desaparecimento	desaparecimento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Bruno	Bruno	PROPN	_	_	8	nsubj:pass	_	_
+6	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux	_	_
+7	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	8	aux:pass	_	_
+8	auxiliado	auxiliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rede	rede	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	leais	leal	ADJ	_	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	mas	mas	CCONJ	_	_	19	cc	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	polícia	polícia	NOUN	_	Number=Sing	19	nsubj	_	_
+19	desconfiou	desconfiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	amplo	amplo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Marcelo Ferreira, amigo e colaborador, foi indiciado por furto e falso testemunho, mas Bruno garante que ele e outros amigos estavam protegendo a verdade maior.
+1	Marcelo	Marcelo	PROPN	_	_	9	nsubj:pass	_	_
+2	Ferreira	Ferreira	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	colaborador	colaborador	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	indiciado	indiciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	furto	furto	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	falso	falso	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+14	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	18	cc	_	_
+17	Bruno	Bruno	PROPN	_	_	18	nsubj	_	_
+18	garante	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+19	que	que	SCONJ	_	_	25	mark	_	_
+20	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
+24	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	protegendo	proteger	VERB	_	VerbForm=Ger	18	ccomp	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	maior	maior	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0021
+# text = "Eles me ajudaram a desvendar e proteger informações que podem mudar o mundo", declarou.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	ajudaram	ajudar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	ccomp:speech	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	desvendar	desvendar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	proteger	proteger	VERB	_	VerbForm=Inf	6	conj	_	_
+9	informações	informação	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	mudar	mudar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0023
+# text = A estátua de Giordano Bruno, encontrada em seu quarto, não foi um simples tributo, mas um símbolo de resistência contra a opressão intelectual, segundo Bruno.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	estátua	estátua	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Giordano	Giordano	PROPN	_	_	2	nmod	_	_
+5	Bruno	Bruno	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	encontrada	encontrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	quarto	quarto	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	não	não	ADV	_	_	16	advmod	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	simples	simples	ADJ	_	_	16	amod	_	_
+16	tributo	tributo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	mas	mas	CCONJ	_	_	20	cc	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	símbolo	símbolo	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	contra	contra	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	opressão	opressão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	intelectual	intelectual	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	segundo	segundo	ADP	_	_	29	case	_	_
+29	Bruno	Bruno	PROPN	_	_	20	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0025
+# text = "Giordano Bruno foi um mártir da verdade, assim como eu pretendo ser", afirmou com convicção.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	Giordano	Giordano	PROPN	_	_	6	nsubj	_	_
+3	Bruno	Bruno	PROPN	_	_	2	flat:name	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mártir	mártir	NOUN	_	Number=Sing	18	ccomp:speech	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	assim	assim	ADV	_	ExtPos=SCONJ	14	mark	_	_
+12	como	como	SCONJ	_	_	11	fixed	_	_
+13	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	pretendo	pretender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	6	punct	_	_
+18	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	convicção	convicção	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0027
+# text = O advogado de Ferreira, Jairo Melo, espera que o novo depoimento de Bruno possa absolver seu cliente das acusações.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Ferreira	Ferreira	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Jairo	Jairo	PROPN	_	_	2	appos	_	_
+7	Melo	Melo	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	espera	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	16	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	novo	novo	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Bruno	Bruno	PROPN	_	_	13	nmod	_	_
+16	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+17	absolver	absolver	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	cliente	cliente	NOUN	_	Number=Sing	17	obj	_	_
+20-21	das	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0029
+# text = Enquanto isso, a editora já prepara o lançamento da segunda obra de Borges, prometendo ainda mais revelações chocantes.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	7	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	editora	editor	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	prepara	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	obra	obra	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Borges	Borges	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	prometendo	prometer	VERB	_	VerbForm=Ger	7	advcl	_	_
+18	ainda	ainda	ADV	_	_	17	advmod	_	_
+19	mais	mais	DET	_	PronType=Ind	20	det	_	_
+20	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+21	chocantes	chocante	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0031
+# text = As autoridades, embora céticas, continuam monitorando o caso de perto, temendo que as revelações de Bruno possam causar um grande impacto social.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	embora	embora	SCONJ	_	_	5	mark	_	_
+5	céticas	cético	ADJ	_	Gender=Fem|Number=Plur	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	monitorando	monitorar	VERB	_	VerbForm=Ger	7	xcomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	caso	caso	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	perto	perto	ADV	_	_	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	temendo	temer	VERB	_	VerbForm=Ger	7	advcl	_	_
+15	que	que	SCONJ	_	_	20	mark	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Bruno	Bruno	PROPN	_	_	17	nmod	_	_
+20	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+21	causar	causar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	grande	grande	ADJ	_	Number=Sing	24	amod	_	_
+24	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+25	social	social	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	_
+

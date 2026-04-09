@@ -1,0 +1,292 @@
+# sent_id = S0001
+# text = Formado em Harvard, em Ciências Políticas, Dr. Rey quer ser o segundo médico a governar o Brasil.
+1	Formado	formar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	Harvard	Harvard	PROPN	_	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	Ciências	Ciências	PROPN	_	_	1	conj	_	_
+7	Políticas	Políticas	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	Dr.	Dr.	PROPN	_	_	11	nsubj	_	_
+10	Rey	Rey	PROPN	_	_	9	flat:name	_	_
+11	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	15	cop	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	médico	médico	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
+16	a	a	ADP	_	_	17	mark	_	_
+17	governar	governar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Brasil	Brasil	PROPN	_	_	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = Rey comanda um império de clínicas de cirurgia plástica espalhadas nos EUA e no mundo.
+1	Rey	Rey	PROPN	_	_	2	nsubj	_	_
+2	comanda	comandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	império	império	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	clínicas	clínica	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	cirurgia	cirurgia	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	plástica	plástico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	espalhadas	espalhar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	EUA	EUA	PROPN	_	_	10	obl	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Somente no Brasil, são 35 clínicas.
+1	Somente	somente	ADV	_	_	4	advmod	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Brasil	Brasil	PROPN	_	_	8	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	35	35	NUM	_	NumType=Card	8	nummod	_	_
+8	clínicas	clínica	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Aos 55 anos de idade, ele se tornou mundialmente conhecido pelo apelido de "Dr. Hollywood".
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	55	55	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	idade	idade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	mundialmente	mundialmente	ADV	_	_	12	advmod	_	_
+12	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	xcomp	_	_
+13-14	pelo	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	apelido	apelido	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Dr.	Dr.	PROPN	_	_	15	nmod	_	_
+19	Hollywood	Hollywood	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Rey é um dos melhores cirurgiões plásticos do planeta.
+1	Rey	Rey	PROPN	_	_	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	um	um	NUM	_	Gender=Masc|NumType=Card	0	root	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	melhores	melhor	ADJ	_	Number=Plur	7	amod	_	_
+7	cirurgiões	cirurgiõe	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+8	plásticos	plástico	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	planeta	planeta	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Formado em Ciências Políticas e Medicina em Harvard, ele agora tem planos ambiciosos: "Quer se tornar presidente da República do Brasil".
+1	Formado	formar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	advcl	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	Ciências	Ciências	PROPN	_	_	1	obl	_	_
+4	Políticas	Políticas	PROPN	_	_	3	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	Medicina	Medicina	PROPN	_	_	3	conj	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Harvard	Harvard	PROPN	_	_	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	agora	agora	ADV	_	_	12	advmod	_	_
+12	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	planos	plano	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	ambiciosos	ambicioso	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	17	punct	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	tornar	tornar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	presidente	presidente	NOUN	_	Number=Sing	19	xcomp	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	República	República	PROPN	_	_	20	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Brasil	Brasil	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0013
+# text = É triste constatar que, mesmo o Brasil dizendo ao mundo que reserva 4,5% do seu PIB para a educação (assim como fazem os Estados Unidos), essa é uma das grandes mentiras do país.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	triste	triste	ADJ	_	Number=Sing	0	root	_	_
+3	constatar	constatar	VERB	_	VerbForm=Inf	2	csubj	_	_
+4	que	que	SCONJ	_	_	35	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	mesmo	mesmo	ADV	_	_	8	advmod	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Brasil	Brasil	PROPN	_	_	9	nsubj	_	_
+9	dizendo	dizer	VERB	_	VerbForm=Ger	35	advcl	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_
+14	reserva	reservar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+15	4,5	4,5	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	_	_	14	obj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	PIB	PIB	PROPN	_	_	16	nmod	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	educação	educação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+24	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+25	assim	assim	ADV	_	ExtPos=SCONJ	27	mark	_	_
+26	como	como	SCONJ	_	_	25	fixed	_	_
+27	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	Estados	Estados	PROPN	_	_	27	nsubj	_	_
+30	Unidos	Unidos	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	9	punct	_	_
+33	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	35	nsubj	_	_
+34	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+35	uma	um	NUM	_	Gender=Fem|NumType=Card	3	ccomp	_	_
+36-37	das	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	39	case	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+38	grandes	grande	ADJ	_	Number=Plur	39	amod	_	_
+39	mentiras	mentira	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	país	país	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0015
+# text = Nosso Governo inteiro é uma grande mentira.
+1	Nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Governo	Governo	PROPN	_	_	7	nsubj	_	_
+3	inteiro	inteiro	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	grande	grande	ADJ	_	Number=Sing	7	amod	_	_
+7	mentira	mentira	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0017
+# text = Ele diz que dedica 4,5% do Produto Interno Bruto para a educação, e isso não acontece.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	dedica	dedicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	4,5	4,5	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
+6	%	%	SYM	_	_	4	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Produto	Produto	PROPN	_	_	6	nmod	_	_
+10	Interno	Interno	PROPN	_	_	9	flat:name	_	_
+11	Bruto	Bruto	PROPN	_	_	9	flat:name	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	educação	educação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	e	e	CCONJ	_	_	19	cc	_	_
+17	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	acontece	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = Saí do Brasil quando tinha 12 anos e o país estava aos pedaços.
+1	Saí	sair	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Brasil	Brasil	PROPN	_	_	1	obl	_	_
+5	quando	quando	SCONJ	_	_	6	mark	_	_
+6	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+7	12	12	NUM	_	NumType=Card	8	nummod	_	_
+8	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	e	e	CCONJ	_	_	15	cc	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	país	país	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+12	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+13-14	aos	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	pedaços	pedaço	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Volto ao país muitos anos depois e o encontro novamente aos pedaços, com a economia de joelhos e com o Governo mais corrupto da história do mundo.
+1	Volto	voltar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	país	país	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+7	depois	depois	ADV	_	_	1	advmod	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	o	o	PRON	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	obj	_	_
+10	encontro	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	novamente	novamente	ADV	_	_	10	advmod	_	_
+12-13	aos	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	pedaços	pedaço	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	economia	economia	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	joelhos	joelho	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+21	e	e	CCONJ	_	_	24	cc	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Governo	Governo	PROPN	_	_	18	conj	_	_
+25	mais	mais	ADV	_	_	26	advmod	_	_
+26	corrupto	corrupto	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	história	história	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0023
+# text = com informações do Sputinik News.
+1	com	com	ADP	_	_	2	case	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Sputinik	Sputinik	PROPN	_	_	2	nmod	_	_
+6	News	News	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+

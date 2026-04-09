@@ -1,0 +1,332 @@
+# sent_id = S0001
+# text = URGENTE: O presidente Jair Bolsonaro anunciou uma medida revolucionária para combater a corrupção nas apostas da Mega-Sena! A partir de agora, o CPF será obrigatório em todas as apostas.
+1	URGENTE	URGENTE	PROPN	_	_	7	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	7	nsubj	_	_
+5	Jair	Jair	PROPN	_	_	4	nmod	_	_
+6	Bolsonaro	Bolsonaro	PROPN	_	_	5	flat:name	_	_
+7	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	medida	medida	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	revolucionária	revolucionário	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	para	para	ADP	_	_	12	mark	_	_
+12	combater	combater	VERB	_	VerbForm=Inf	7	advcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	nas	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	apostas	aposta	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Mega-Sena	Mega-Sena	PROPN	_	_	17	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	30	punct	_	_
+22	A	a	ADP	_	_	23	mark	_	_
+23	partir	partir	VERB	_	VerbForm=Inf	30	advcl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	agora	agora	ADV	_	_	23	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	23	punct	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	CPF	CPF	PROPN	_	_	30	nsubj	_	_
+29	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	cop	_	_
+30	obrigatório	obrigatório	ADJ	_	Gender=Masc|Number=Sing	7	root	_	_
+31	em	em	ADP	_	_	34	case	_	_
+32	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	34	det	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	apostas	aposta	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Essa decisão foi tomada após denúncias de que bilionários estariam utilizando laranjas para lavar dinheiro por meio de prêmios não reclamados.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	após	após	ADP	_	_	6	case	_	_
+6	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+7	de	de	ADP	_	ExtPos=SCONJ	11	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	bilionários	bilionário	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	11	aux	_	_
+11	utilizando	utilizar	VERB	_	VerbForm=Ger	6	acl	_	_
+12	laranjas	laranja	NOUN	_	Number=Plur	11	obj	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	lavar	lavar	VERB	_	VerbForm=Inf	11	advcl	_	_
+15	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16	por	por	ADP	_	_	17	case	_	_
+17	meio	meio	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	prêmios	prêmio	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+20	não	não	ADV	_	_	21	advmod	_	_
+21	reclamados	reclamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = A Caixa Econômica Federal, em uma suposta nota, teria confirmado a nova exigência, afirmando que a mudança visa garantir transparência e evitar fraudes.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Caixa	Caixa	PROPN	_	_	12	nsubj	_	_
+3	Econômica	Econômica	PROPN	_	_	2	flat:name	_	_
+4	Federal	Federal	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	em	em	ADP	_	_	9	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	_
+9	nota	nota	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	12	aux	_	_
+12	confirmado	confirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nova	novo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	exigência	exigência	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	afirmando	afirmar	VERB	_	VerbForm=Ger	12	advcl	_	_
+18	que	que	SCONJ	_	_	21	mark	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+22	garantir	garantir	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	evitar	evitar	VERB	_	VerbForm=Inf	22	conj	_	_
+26	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = "A inclusão do CPF nas apostas é um passo decisivo para assegurar que apenas cidadãos de bem sejam premiados," declarou um representante anônimo do banco.
+1	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	inclusão	inclusão	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	CPF	CPF	PROPN	_	_	3	nmod	_	_
+7-8	nas	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	apostas	aposta	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	passo	passo	NOUN	_	Gender=Masc|Number=Sing	25	ccomp:speech	_	_
+13	decisivo	decisivo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	assegurar	assegurar	VERB	_	VerbForm=Inf	12	acl	_	_
+16	que	que	SCONJ	_	_	22	mark	_	_
+17	apenas	apenas	ADV	_	_	18	advmod	_	_
+18	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	bem	bem	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	premiados	premiar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	ccomp	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	12	punct	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	12	punct	_	_
+25	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	representante	representante	NOUN	_	Number=Sing	25	nsubj	_	_
+28	anônimo	anônimo	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	banco	banco	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0009
+# text = Segundo as novas regras, apostadores terão que registrar seu CPF no sistema antes de efetuar qualquer aposta, seja nas lotéricas ou online.
+1	Segundo	segundo	ADP	_	_	4	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	novas	novo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+4	regras	regra	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	apostadores	apostador	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	terão	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	que	que	ADP	_	_	9	mark	_	_
+9	registrar	registrar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	CPF	CPF	PROPN	_	_	9	obj	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+15	antes	antes	ADV	_	_	9	advmod	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	efetuar	efetuar	VERB	_	VerbForm=Inf	15	acl	_	_
+18	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	19	det	_	_
+19	aposta	aposta	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22-23	nas	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	lotéricas	lotérica	NOUN	_	Gender=Fem|Number=Plur	17	advcl	_	_
+25	ou	ou	CCONJ	_	_	26	cc	_	_
+26	online	online	X	_	Foreign=Yes	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = A medida entraria em vigor já na próxima quarta-feira, prometendo um impacto significativo na integridade dos sorteios.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	entraria	entrar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	vigor	vigor	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	já	já	ADV	_	_	10	advmod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	prometendo	prometer	VERB	_	VerbForm=Ger	3	advcl	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	sorteios	sorteio	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Em um vídeo viral, o presidente teria explicado que a Mega-Sena não pode ser mais um instrumento para a corrupção e a lavagem de dinheiro.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	viral	viral	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	_	Number=Sing	9	nsubj	_	_
+8	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	aux	_	_
+9	explicado	explicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+10	que	que	SCONJ	_	_	14	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Mega-Sena	Mega-Sena	PROPN	_	_	14	nsubj	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	18	cop	_	_
+16	mais	mais	ADV	_	_	18	advmod	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	instrumento	instrumento	NOUN	_	Gender=Masc|Number=Sing	14	xcomp	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0015
+# text =  Ele destacou que a nova política garantirá que todos os ganhos sejam devidamente tributados e que os vencedores sejam facilmente identificados.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nova	novo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	política	política	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	garantirá	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+8	que	que	SCONJ	_	_	14	mark	_	_
+9	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ganhos	ganho	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+12	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+13	devidamente	devidamente	ADV	_	_	14	advmod	_	_
+14	tributados	tributar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+15	e	e	CCONJ	_	_	21	cc	_	_
+16	que	que	SCONJ	_	_	21	mark	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	vencedores	vencedor	NOUN	_	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+19	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+20	facilmente	facilmente	ADV	_	_	21	advmod	_	_
+21	identificados	identificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = A notícia vem causando alvoroço nas redes sociais, com muitos apoiadores elogiando a iniciativa e outros questionando a privacidade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	vem	vir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	causando	causar	VERB	_	VerbForm=Ger	0	root	_	_
+5	alvoroço	alvoroço	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	redes	rede	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+9	sociais	social	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	muitos	muito	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+13	apoiadores	apoiador	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+14	elogiando	elogiar	VERB	_	VerbForm=Ger	13	acl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	iniciativa	iniciativa	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	14	conj	_	_
+19	questionando	questionar	VERB	_	VerbForm=Ger	18	acl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	privacidade	privacidade	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Enquanto isso, o último sorteio da Mega-Sena, que pagou R$ 289,4 milhões para um único vencedor de Pernambuco, teria sido o último sem a exigência do CPF.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	25	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	último	último	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	sorteio	sorteio	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Mega-Sena	Mega-Sena	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	pagou	pagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+13	R$	R$	SYM	_	_	15	nmod	_	_
+14	289,4	289,4	NUM	_	NumType=Card	15	nummod	_	_
+15	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+16	para	para	ADP	_	_	19	case	_	_
+17	um	um	NUM	_	Gender=Masc|NumType=Card	19	nummod	_	_
+18	único	único	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+19	vencedor	vencedor	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Pernambuco	Pernambuco	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	12	punct	_	_
+23	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	25	aux	_	_
+24	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	25	cop	_	_
+25	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+26	último	último	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	sem	sem	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	exigência	exigência	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	CPF	CPF	PROPN	_	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0021
+# text = Não perca a chance de apostar de forma transparente e segura na próxima Mega-Sena.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	perca	perder	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	apostar	apostar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	forma	forma	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9	transparente	transparente	ADJ	_	Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	segura	seguro	ADJ	_	Gender=Fem|Number=Sing	9	conj	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	Mega-Sena	Mega-Sena	PROPN	_	_	6	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+

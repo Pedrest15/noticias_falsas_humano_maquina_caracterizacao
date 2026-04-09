@@ -1,0 +1,118 @@
+# sent_id = S0001
+# text = Feminista descontrolada invade palestra de Sérgio Moro nos EUA.
+1	Feminista	feminista	NOUN	_	Number=Sing	3	nsubj	_	_
+2	descontrolada	descontrolado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	1	amod	_	_
+3	invade	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	palestra	palestra	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Sérgio	Sérgio	PROPN	_	_	4	nmod	_	_
+7	Moro	Moro	PROPN	_	_	6	flat:name	_	_
+8-9	nos	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	EUA	EUA	PROPN	_	_	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Durante uma palestra na Universidade Columbia, em Nova York, o juiz Sérgio Moro foi interrompido por uma feminista descontrolada.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	palestra	palestra	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Universidade	Universidade	PROPN	_	_	3	nmod	_	_
+7	Columbia	Columbia	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	Nova	Nova	PROPN	_	_	6	nmod	_	_
+11	York	York	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+15	Sérgio	Sérgio	PROPN	_	_	14	nmod	_	_
+16	Moro	Moro	PROPN	_	_	15	flat:name	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	interrompido	interromper	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	feminista	feminista	NOUN	_	Number=Sing	18	obl:agent	_	_
+22	descontrolada	descontrolado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = Antes mesmo de começar a falar, a moça começou a berrar no fundo do teatro.
+1	Antes	antes	ADV	_	_	10	advmod	_	_
+2	mesmo	mesmo	ADV	_	_	1	advmod	_	_
+3	de	de	ADP	_	_	4	mark	_	_
+4	começar	começar	VERB	_	VerbForm=Inf	1	acl	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	falar	falar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	moça	moço	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	berrar	berrar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	teatro	teatro	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = O juiz cruzou os braços, esperou o desabafo da maluca e disse "OK".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	cruzou	cruzar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	braços	braço	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	esperou	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	desabafo	desabafo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	maluca	maluco	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	OK	ok	INTJ	_	_	14	ccomp:speech	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Foi o suficiente para a platéia aplaudir o juiz da Lava Jato.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+3	suficiente	suficiente	ADJ	_	Number=Sing	2	amod	_	_
+4	para	para	ADP	_	_	7	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	platéia	platéia	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	aplaudir	aplaudir	VERB	_	VerbForm=Inf	3	acl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Lava	Lava	PROPN	_	_	9	nmod	_	_
+13	Jato	Jato	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Seguranças retiraram a feminazi do local.
+1	Seguranças	segurança	NOUN	_	Number=Plur	2	nsubj	_	_
+2	retiraram	retirar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	feminazi	feminazi	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	local	local	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+

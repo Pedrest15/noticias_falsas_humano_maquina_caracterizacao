@@ -1,0 +1,170 @@
+# sent_id = S0001
+# text = Valdir Maranhão assume Presidência da Câmara e requisita jato da Força Aérea para voar até Brasília.
+1	Valdir	Valdir	PROPN	_	_	3	nsubj	_	_
+2	Maranhão	Maranhão	PROPN	_	_	1	flat:name	_	_
+3	assume	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Presidência	Presidência	PROPN	_	_	3	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Câmara	Câmara	PROPN	_	_	4	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	requisita	requisitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	jato	jato	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Força	Força	PROPN	_	_	10	nmod	_	_
+14	Aérea	Aérea	PROPN	_	_	13	flat:name	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	voar	voar	VERB	_	VerbForm=Inf	9	advcl	_	_
+17	até	até	ADP	_	_	18	case	_	_
+18	Brasília	Brasília	PROPN	_	_	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Com a ausência de Michel Temer, que está em Portugal para o funeral do ex-presidente Mário Soares, o deputado Rodrigo Maia assumiu o cargo de Presidente da República interinamente.
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Michel	Michel	PROPN	_	_	3	nmod	_	_
+6	Temer	Temer	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Portugal	Portugal	PROPN	_	_	5	acl:relcl	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	funeral	funeral	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ex-presidente	ex-presidente	NOUN	_	Number=Sing	14	nmod	_	_
+18	Mário	Mário	PROPN	_	_	17	nmod	_	_
+19	Soares	Soares	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	3	punct	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+23	Rodrigo	Rodrigo	PROPN	_	_	22	nmod	_	_
+24	Maia	Maia	PROPN	_	_	23	flat:name	_	_
+25	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Presidente	Presidente	PROPN	_	_	27	nmod	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	República	República	PROPN	_	_	29	flat:name	_	_
+33	interinamente	interinamente	ADV	_	_	25	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0005
+# text = Para ocupar o lugar de Maia na Predidência da Câmara (também interinamente) eis que surge novamente Waldir Maranhão (PP-MA).
+1	Para	para	ADP	_	_	2	mark	_	_
+2	ocupar	ocupar	VERB	_	VerbForm=Inf	19	advcl	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Maia	Maia	PROPN	_	_	4	nmod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Predidência	Predidência	PROPN	_	_	4	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Câmara	Câmara	PROPN	_	_	9	flat:name	_	_
+13	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	também	também	ADV	_	_	15	advmod	_	_
+15	interinamente	interinamente	ADV	_	_	2	advmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	eis	eisr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	root	_	_
+18	que	que	SCONJ	_	_	19	mark	_	_
+19	surge	surgir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	novamente	novamente	ADV	_	_	19	advmod	_	_
+21	Waldir	Waldir	PROPN	_	_	19	nsubj	_	_
+22	Maranhão	Maranhão	PROPN	_	_	21	flat:name	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	PP-MA	PP-MA	PROPN	_	_	21	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0007
+# text = O marajá não quis saber de voo comercial e requisitou um jato da FAB para ir de São Luís(MA) até Brasília.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	marajá	marajá	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	saber	saber	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	voo	voo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	comercial	comercial	ADJ	_	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	requisitou	requisitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	jato	jato	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	FAB	FAB	PROPN	_	_	12	nmod	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	ir	ir	VERB	_	VerbForm=Inf	10	advcl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	São	São	PROPN	_	_	17	obl	_	_
+20	Luís(MA	Luís(MA	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	19	punct	_	_
+22	até	até	ADP	_	_	23	case	_	_
+23	Brasília	Brasília	PROPN	_	_	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Maranhão ainda trouxe algumas pessoas para acompanhá-lo em seu "voo particular".
+1	Maranhão	Maranhão	PROPN	_	_	3	nsubj	_	_
+2	ainda	ainda	ADV	_	_	3	advmod	_	_
+3	trouxe	trazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7-8	acompanhá-lo	_	_	_	_	_	_	_	_
+7	acompanhar	acompanhar	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	em	em	ADP	_	_	12	case	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	voo	voo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	particular	particular	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Quem paga toda essa mordomia?
+1	Quem	quem	PRON	_	PronType=Int	2	nsubj	_	_
+2	paga	pagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	mordomia	mordomia	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Sim, somos nós!
+1	Sim	sim	ADV	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	somos	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = E lá se vão alguns milhares de reais.
+1	E	e	CCONJ	_	_	4	cc	_	_
+2	lá	lá	ADV	_	_	4	advmod	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl:impers	_	_
+4	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	milhares	milhar	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	reais	real	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+

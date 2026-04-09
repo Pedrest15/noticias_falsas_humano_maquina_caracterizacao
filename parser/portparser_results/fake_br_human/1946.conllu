@@ -1,0 +1,107 @@
+# sent_id = S0001
+# text = Bolsonaro fala sobre a possibilidade de intervenção militar.
+1	Bolsonaro	Bolsonaro	PROPN	_	_	2	nsubj	_	_
+2	fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sobre	sobre	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	intervenção	intervenção	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	militar	militar	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O deputado se posicionou com relação ao "pós-impeachment" de Dilma Rousseff.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	posicionou	posicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	relação	relação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	pós-impeachment	pós-impeachment	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Dilma	Dilma	PROPN	_	_	10	nmod	_	_
+14	Rousseff	Rousseff	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Se Dilma sair, eu temo que luta armada volte para o coração do Brasil.
+1	Se	se	SCONJ	_	_	3	mark	_	_
+2	Dilma	Dilma	PROPN	_	_	3	nsubj	_	_
+3	sair	sair	VERB	_	Number=Sing|Person=3|VerbForm=Inf	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	temo	temer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	luta	luta	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	armada	armado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	8	amod	_	_
+10	volte	voltar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	coração	coração	NOUN	_	Number=Sing	10	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = E você não vai chamar o pessoal dos Direitos Humanos para nos livrar do comunismo.
+1	E	e	CCONJ	_	_	5	cc	_	_
+2	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+3	não	não	ADV	_	_	5	advmod	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	chamar	chamar	VERB	_	VerbForm=Inf	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pessoal	pessoal	NOUN	_	Number=Sing	5	obj	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Direitos	Direitos	PROPN	_	_	7	nmod	_	_
+11	Humanos	Humanos	PROPN	_	_	10	flat:name	_	_
+12	para	para	ADP	_	_	14	mark	_	_
+13	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+14	livrar	livrar	VERB	_	VerbForm=Inf	5	advcl	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	comunismo	comunismo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Você vai se lembrar de militares brilhantes [...] para que novamente cumpram a sua missão que bravamente eles cumpriram muito bem no passado.
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	lembrar	lembrar	VERB	_	VerbForm=Inf	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	militares	militar	NOUN	_	Number=Plur	4	obl	_	_
+7	brilhantes	brilhante	ADJ	_	Number=Plur	6	amod	_	_
+8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+10	..	..	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	9	punct	_	_
+12	para	para	ADP	_	ExtPos=SCONJ	15	mark	_	_
+13	que	que	SCONJ	_	_	12	fixed	_	_
+14	novamente	novamente	ADV	_	_	15	advmod	_	_
+15	cumpram	cumprir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	missão	missão	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+19	que	que	PRON	_	PronType=Rel	22	obj	_	_
+20	bravamente	bravamente	ADV	_	_	22	advmod	_	_
+21	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+22	cumpriram	cumprir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+23	muito	muito	ADV	_	_	24	advmod	_	_
+24	bem	bem	ADV	_	_	22	advmod	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	passado	passado	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+

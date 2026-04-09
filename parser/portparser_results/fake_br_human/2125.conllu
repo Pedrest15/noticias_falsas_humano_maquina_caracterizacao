@@ -1,0 +1,100 @@
+# sent_id = S0001
+# text = Faustão detona governo Michel Temer: "Essa por#$ de governo mal começou e não entende nada".
+1	Faustão	Faustão	PROPN	_	_	2	nsubj	_	_
+2	detona	detonar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	governo	governo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	Michel	Michel	PROPN	_	_	3	nmod	_	_
+5	Temer	Temer	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	13	punct	_	_
+7	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+8	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	_
+9	por#$	por#$	SYM	_	_	8	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	governo	governo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	mal	mal	ADV	_	_	13	advmod	_	_
+13	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	entende	entender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+17	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	16	obj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Essa por#$ de governo mal começou e não sabe se comunicar.
+1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	por#$	por#$	SYM	_	_	1	nmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	governo	governo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	mal	mal	ADV	_	_	6	advmod	_	_
+6	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	comunicar	comunicar	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = O apresentador Fausto Silva deu sua opinião sobre a reforma do ensino médio, que está sendo planejada pelo governo Michel Temer: "O país que mais precisa de educação faz uma reforma com cinco gatos pingados [...] que não entendem por#@ nenhuma [...] não consultam ninguém".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Fausto	Fausto	PROPN	_	_	2	nmod	_	_
+4	Silva	Silva	PROPN	_	_	3	flat:name	_	_
+5	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	sobre	sobre	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ensino	ensino	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	médio	médio	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	que	que	PRON	_	PronType=Rel	19	nsubj:pass	_	_
+17	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	sendo	ser	AUX	_	VerbForm=Ger	19	aux:pass	_	_
+19	planejada	planejar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	governo	governo	NOUN	_	Gender=Masc|Number=Sing	19	obl:agent	_	_
+23	Michel	Michel	PROPN	_	_	22	nmod	_	_
+24	Temer	Temer	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	34	punct	_	_
+26	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+27	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	país	país	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
+29	que	que	PRON	_	PronType=Rel	31	nsubj	_	_
+30	mais	mais	ADV	_	_	31	advmod	_	_
+31	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	educação	educação	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+34	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+37	com	com	ADP	_	_	39	case	_	_
+38	cinco	cinco	NUM	_	NumType=Card	39	nummod	_	_
+39	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	_
+40	pingados	pingado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	39	amod	_	_
+41	[	[	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	47	appos	_	SpaceAfter=No
+43	..	..	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	]	]	PUNCT	_	_	42	punct	_	_
+45	que	que	PRON	_	PronType=Rel	47	nsubj	_	_
+46	não	não	ADV	_	_	47	advmod	_	_
+47	entendem	entender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+48	por#@	por#@	SYM	_	_	47	obj	_	_
+49	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	48	det	_	_
+50	[	[	PUNCT	_	_	55	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	55	parataxis	_	SpaceAfter=No
+52	..	..	PUNCT	_	_	51	punct	_	SpaceAfter=No
+53	]	]	PUNCT	_	_	51	punct	_	_
+54	não	não	ADV	_	_	55	advmod	_	_
+55	consultam	consultar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	_
+56	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	55	obj	_	SpaceAfter=No
+57	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	5	punct	_	_
+

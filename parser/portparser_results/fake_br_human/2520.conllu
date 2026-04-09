@@ -1,0 +1,100 @@
+# sent_id = S0001
+# text = FHC é internado e deverá passar por cirurgia cardíaca.
+1	FHC	FHC	PROPN	_	_	3	nsubj:pass	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	internado	internar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	deverá	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+6	passar	passar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	cirurgia	cirurgia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9	cardíaca	cardíaco	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O Antagonista informou com exclusividade que Fernando Henrique Cardoso está hospitalizado e deverá de se submeter a uma cirurgia de emergência para a colocação de um marca-passo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Antagonista	Antagonista	PROPN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	exclusividade	exclusividade	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7	Fernando	Fernando	PROPN	_	_	11	nsubj	_	_
+8	Henrique	Henrique	PROPN	_	_	7	flat:name	_	_
+9	Cardoso	Cardoso	PROPN	_	_	7	flat:name	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	hospitalizado	hospitalizado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	ccomp	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	deverá	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+14	de	de	ADP	_	_	16	mark	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	submeter	submeter	VERB	_	VerbForm=Inf	13	xcomp	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cirurgia	cirurgia	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22	para	para	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	colocação	colocação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	marca-passo	marca-passo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Não há maiores detalhes sobre o estado de saúde do ex-presidente.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	maiores	maior	ADJ	_	Number=Plur	4	amod	_	_
+4	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5	sobre	sobre	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	estado	estado	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ex-presidente	ex-presidente	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = O G1 também confirmou que "Fernando Henrique Cardoso colocará marca-passo em um hospital em São Paulo" e disse que o líder tucano passa bem.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	G1	G1	PROPN	_	_	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	10	mark	_	_
+6	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+7	Fernando	Fernando	PROPN	_	_	10	nsubj	_	_
+8	Henrique	Henrique	PROPN	_	_	7	flat:name	_	_
+9	Cardoso	Cardoso	PROPN	_	_	7	flat:name	_	_
+10	colocará	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+11	marca-passo	marca-passo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	São	São	PROPN	_	_	14	nmod	_	_
+17	Paulo	Paulo	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	10	punct	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+21	que	que	SCONJ	_	_	25	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	líder	líder	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+24	tucano	tucano	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+26	bem	bem	ADV	_	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Novas atualizações a qualquer minuto!
+1	Novas	novo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+2	atualizações	atualização	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	5	det	_	_
+5	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	2	punct	_	_
+

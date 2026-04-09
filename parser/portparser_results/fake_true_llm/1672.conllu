@@ -1,0 +1,166 @@
+# sent_id = S0001
+# text = URGENTE: Governo anuncia nova regra para prova de vida do INSS! Todos os aposentados e beneficiários devem realizar o procedimento até 28 de fevereiro ou terão seus benefícios imediatamente cancelados.
+1	URGENTE	URGENTE	PROPN	_	_	4	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Governo	Governo	PROPN	_	_	4	nsubj	_	_
+4	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nova	novo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	regra	regra	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	prova	prova	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	vida	vida	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	INSS	INSS	PROPN	_	_	8	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	4	punct	_	_
+15	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	aposentados	aposentado	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	beneficiários	beneficiário	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+20	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	realizar	realizar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	até	até	ADP	_	_	25	case	_	_
+25	28	28	NUM	_	NumType=Card	21	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	ou	ou	CCONJ	_	_	29	cc	_	_
+29	terão	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	20	conj	_	_
+30	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
+32	imediatamente	imediatamente	ADV	_	_	33	advmod	_	_
+33	cancelados	cancelar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	29	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = A mudança foi implementada para evitar fraudes, mas não foi amplamente divulgada pelos bancos nem pelo próprio INSS.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	implementada	implementar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	evitar	evitar	VERB	_	VerbForm=Inf	4	advcl	_	_
+7	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	mas	mas	CCONJ	_	_	13	cc	_	_
+10	não	não	ADV	_	_	13	advmod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+12	amplamente	amplamente	ADV	_	_	13	advmod	_	_
+13	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+14-15	pelos	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	bancos	banco	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	_
+17	nem	nem	CCONJ	_	_	21	cc	_	_
+18-19	pelo	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	21	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	INSS	INSS	PROPN	_	_	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Fontes internas indicam que a decisão foi tomada em uma reunião secreta no início do ano.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	internas	interno	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	secreta	secreto	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	início	início	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ano	ano	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Beneficiários relatam que não receberam qualquer notificação oficial.
+1	Beneficiários	beneficiário	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	relatam	relatar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	receberam	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	7	det	_	_
+7	notificação	notificação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	oficial	oficial	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Proteja seus direitos e avise familiares e amigos! A nova regra exige que a prova de vida seja feita presencialmente em qualquer agência do INSS, não mais nos bancos.
+1	Proteja	proteger	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	13	root	_	_
+2	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	avise	avisar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	familiares	familiar	NOUN	_	Number=Plur	5	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	1	punct	_	_
+10	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nova	novo	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	regra	regra	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	exige	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	20	mark	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	prova	prova	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	vida	vida	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+21	presencialmente	presencialmente	ADV	_	_	20	advmod	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	24	det	_	_
+24	agência	agência	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	INSS	INSS	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	33	punct	_	_
+29	não	não	ADV	_	_	33	advmod	_	_
+30	mais	mais	ADV	_	_	33	advmod	_	_
+31-32	nos	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	bancos	banco	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = Além disso, documentos antigos não serão aceitos; é necessário apresentar uma nova identificação emitida após janeiro de 2023.
+1	Além	além	ADV	_	_	9	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+6	antigos	antigo	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	não	não	ADV	_	_	9	advmod	_	_
+8	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	aceitos	aceitar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	_	_	12	punct	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+13	apresentar	apresentar	VERB	_	VerbForm=Inf	12	csubj	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nova	novo	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+17	emitida	emitir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
+18	após	após	ADP	_	_	19	case	_	_
+19	janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	2023	2023	NUM	_	NumType=Card	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
+

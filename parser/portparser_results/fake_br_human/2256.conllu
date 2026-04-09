@@ -1,0 +1,131 @@
+# sent_id = S0001
+# text = IMPEACHMENT Tudo segue de acordo com o roteiro: Dilma chora, Lula reza e Chico Buarque está com sono.
+1	IMPEACHMENT	IMPEACHMENT	PROPN	_	_	3	nsubj	_	_
+2	Tudo	tudo	PRON	_	PronType=Ind	3	nsubj	_	_
+3	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	roteiro	roteiro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	Dilma	Dilma	PROPN	_	_	11	nsubj	_	_
+11	chora	chorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	Lula	Lula	PROPN	_	_	11	nsubj	_	_
+14	reza	rezar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	e	e	CCONJ	_	_	20	cc	_	_
+16	Chico	Chico	PROPN	_	_	20	nsubj	_	_
+17	Buarque	Buarque	PROPN	_	_	16	flat:name	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	sono	sono	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Dilma chorou durante alguns segundos ao falar das olimpíadas.
+1	Dilma	Dilma	PROPN	_	_	2	nsubj	_	_
+2	chorou	chorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	durante	durante	ADP	_	_	5	case	_	_
+4	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	segundos	segundo	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	ExtPos=SCONJ	8	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	fixed	_	_
+8	falar	falar	VERB	_	VerbForm=Inf	2	advcl	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	olimpíadas	olimpíada	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Lula começou a rezar.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	_	_	4	mark	_	_
+4	rezar	rezar	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Chico Buarque parece que não acredita no que está ouvindo.
+1	Chico	Chico	PROPN	_	_	3	nsubj	_	_
+2	Buarque	Buarque	PROPN	_	_	1	flat:name	_	_
+3	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
+9	que	que	PRON	_	PronType=Rel	11	obj	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	ouvindo	ouvir	VERB	_	VerbForm=Ger	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Fernando Collor se sentou ao lado da bancada da chupeta e está sorrindo para as câmeras.
+1	Fernando	Fernando	PROPN	_	_	4	nsubj	_	_
+2	Collor	Collor	PROPN	_	_	1	flat:name	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	sentou	sentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lado	lado	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	chupeta	chupeta	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	sorrindo	sorrir	VERB	_	VerbForm=Ger	4	conj	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Ele vai votar pela permanência de Dilma!
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	votar	votar	VERB	_	VerbForm=Inf	0	root	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	permanência	permanência	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Dilma	Dilma	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Por enquanto, tudo está de acordo com o roteiro da cineasta contratada para fazer o filme do PT.
+1	Por	por	ADP	_	_	2	case	_	_
+2	enquanto	enquanto	ADV	_	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tudo	tudo	PRON	_	PronType=Ind	7	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	roteiro	roteiro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cineasta	cineasta	NOUN	_	Number=Sing	10	nmod	_	_
+14	contratada	contratar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	fazer	fazer	VERB	_	VerbForm=Inf	14	advcl	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	filme	filme	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	PT	PT	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+

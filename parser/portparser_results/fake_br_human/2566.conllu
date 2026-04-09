@@ -1,0 +1,223 @@
+# sent_id = S0001
+# text = STF virou casa da mãe joana?
+1	STF	STF	PROPN	_	_	2	nsubj	_	_
+2	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	casa	casa	NOUN	_	Gender=Fem|Number=Sing	2	xcomp	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	joana	joano	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Sem foro, marido de Gleisi quer ser jugado pela Corte Suprema.
+1	Sem	sem	ADP	_	_	2	case	_	_
+2	foro	foro	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	marido	marido	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Gleisi	Gleisi	PROPN	_	_	4	nmod	_	_
+7	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	9	aux:pass	_	_
+9	jugado	jugar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Corte	Corte	PROPN	_	_	9	obl:agent	_	_
+13	Suprema	Suprema	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Advogados do ex-ministro Paulo Bernardo [preso na Operação Custo Brasil] recorreram ao STF para questionar a decisão da Justiça Federal de São Paulo de manter sua prisão preventiva.
+1	Advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	Paulo	Paulo	PROPN	_	_	4	nmod	_	_
+6	Bernardo	Bernardo	PROPN	_	_	5	flat:name	_	_
+7	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Operação	Operação	PROPN	_	_	8	obl	_	_
+12	Custo	Custo	PROPN	_	_	11	flat:name	_	_
+13	Brasil	Brasil	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	]	]	PUNCT	_	_	8	punct	_	_
+15	recorreram	recorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	STF	STF	PROPN	_	_	15	obl	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20	questionar	questionar	VERB	_	VerbForm=Inf	15	advcl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Justiça	Justiça	PROPN	_	_	22	nmod	_	_
+26	Federal	Federal	PROPN	_	_	25	flat:name	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	São	São	PROPN	_	_	25	flat:name	_	_
+29	Paulo	Paulo	PROPN	_	_	25	flat:name	_	_
+30	de	de	ADP	_	_	31	mark	_	_
+31	manter	manter	VERB	_	VerbForm=Inf	22	acl	_	_
+32	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0007
+# text = O ex-deputado e marido da senadora petista Gleisi Hoffmann ele foi preso na quinta (23/06), em Brasília, na Operação Custo Brasil, um desdobramento da 18a fase da Operação Lava Jato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	marido	marido	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	petista	petista	ADJ	_	Number=Sing	7	amod	_	_
+9	Gleisi	Gleisi	PROPN	_	_	7	nmod	_	_
+10	Hoffmann	Hoffmann	PROPN	_	_	9	flat:name	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	quinta	quinto	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	13	obl	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	23/06	23/06	NUM	_	NumType=Card	16	appos	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	Brasília	Brasília	PROPN	_	_	13	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Operação	Operação	PROPN	_	_	13	obl	_	_
+27	Custo	Custo	PROPN	_	_	26	flat:name	_	_
+28	Brasil	Brasil	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	desdobramento	desdobramento	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	35	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	18a	18a	ADJ	_	Gender=Fem|NumType=Ord	35	amod	_	_
+35	fase	fase	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+36-37	da	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Operação	Operação	PROPN	_	_	35	nmod	_	_
+39	Lava	Lava	PROPN	_	_	38	flat:name	_	_
+40	Jato	Jato	PROPN	_	_	38	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0009
+# text = Além da liberdade, a defesa pede que Bernardo seja investigado pelo STF no mesmo inquérito de Gleisi Hoffmann.
+1	Além	além	ADV	_	_	8	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	Bernardo	Bernardo	PROPN	_	_	12	nsubj:pass	_	_
+11	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	investigado	investigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+13-14	pelo	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	STF	STF	PROPN	_	_	12	obl:agent	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	19	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Gleisi	Gleisi	PROPN	_	_	19	nmod	_	_
+22	Hoffmann	Hoffmann	PROPN	_	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Como o amor é lindo!
+1	Como	como	ADV	_	_	5	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	amor	amor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	lindo	lindo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Querem ser julgados juntos!
+1	Querem	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
+3	julgados	julgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+4	juntos	junto	ADJ	_	Gender=Masc|Number=Plur	3	advcl	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Depois de participar de uma quadrilha que assaltou os velhinhos aposentados, o "bonitão" agora quer ser julgado pela Corte Suprema do país.
+1	Depois	depois	ADV	_	_	18	advmod	_	_
+2	de	de	ADP	_	_	3	mark	_	_
+3	participar	participar	VERB	_	VerbForm=Inf	1	acl	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quadrilha	quadrilha	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	assaltou	assaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	velhinhos	velhinho	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	aposentados	aposentado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	bonitão	bonitão	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	agora	agora	ADV	_	_	18	advmod	_	_
+18	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	20	aux:pass	_	_
+20	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Corte	Corte	PROPN	_	_	20	obl:agent	_	_
+24	Suprema	Suprema	PROPN	_	_	23	flat:name	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	país	país	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0017
+# text = Será que o STF está virando sinônimo de impunidade?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	discourse	_	_
+2	que	que	SCONJ	_	_	6	discourse	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	STF	STF	PROPN	_	_	6	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	virando	virar	VERB	_	VerbForm=Ger	0	root	_	_
+7	sinônimo	sinônimo	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	impunidade	impunidade	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = É isso que os criminosos pensam?
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	discourse	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	discourse	_	_
+3	que	que	SCONJ	_	_	6	discourse	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	criminosos	criminoso	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	pensam	pensar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	_
+

@@ -1,0 +1,228 @@
+# sent_id = S0001
+# text = Enéas será herói nacional.
+1	Enéas	Enéas	PROPN	_	_	3	nsubj	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	herói	herói	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	nacional	nacional	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Bolsonaro protocolou o projeto esta semana.
+1	Bolsonaro	Bolsonaro	PROPN	_	_	2	nsubj	_	_
+2	protocolou	protocolar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	semana	semana	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Jair Bolsonaro apresentou um projeto de lei para que Enéas Ferreira Carneiro (aquele, do Meu nome é Enéééas) seja incluído no livro de heróis da pátria.
+1	Jair	Jair	PROPN	_	_	3	nsubj	_	_
+2	Bolsonaro	Bolsonaro	PROPN	_	_	1	flat:name	_	_
+3	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	lei	lei	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	para	para	ADP	_	ExtPos=SCONJ	24	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	Enéas	Enéas	PROPN	_	_	24	nsubj:pass	_	_
+11	Ferreira	Ferreira	PROPN	_	_	10	flat:name	_	_
+12	Carneiro	Carneiro	PROPN	_	_	10	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	aquele	aquele	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	appos	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	21	punct	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Meu	Meu	PROPN	_	_	21	nmod	_	_
+19	nome	nome	NOUN	_	Gender=Masc|Number=Sing	21	flat:name	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	Enéééas	Enéééas	PROPN	_	_	14	acl:relcl	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	incluído	incluír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	livro	livro	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	heróis	herói	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	pátria	pátria	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Atualmente, são heróis da pátria, Tiradentes, Zumbi dos Palmares, Marechal Deodoro e Dom Pedro I. om formação militar, Enéas atuou como médico cardiologista e professor.
+1	Atualmente	atualmente	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	heróis	herói	NOUN	_	Gender=Masc|Number=Plur	27	root	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pátria	pátria	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Tiradentes	Tiradentes	PROPN	_	_	4	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	Zumbi	Zumbi	PROPN	_	_	9	conj	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Palmares	Palmares	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	Marechal	Marechal	PROPN	_	_	9	conj	_	_
+17	Deodoro	Deodoro	PROPN	_	_	16	flat:name	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	Dom	Dom	PROPN	_	_	9	conj	_	_
+20	Pedro	Pedro	PROPN	_	_	19	flat:name	_	_
+21	I.	I.	PUNCT	_	_	27	punct	_	_
+22	om	om	ADP	_	_	23	case	_	_
+23	formação	formação	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+24	militar	militar	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	Enéas	Enéas	PROPN	_	_	27	nsubj	_	_
+27	atuou	atuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	como	como	ADP	_	_	29	case	_	_
+29	médico	médico	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+30	cardiologista	cardiologista	NOUN	_	Number=Sing	29	amod	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	professor	professor	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Na justificativa para apresentar o projeto, o deputado lembra que Enéas fundou o Prona (Partido de Reedificação da Ordem Nacional).
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	justificativa	justificativa	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+4	para	para	ADP	_	_	5	mark	_	_
+5	apresentar	apresentar	VERB	_	VerbForm=Inf	3	acl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	lembra	lembrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	Enéas	Enéas	PROPN	_	_	14	nsubj	_	_
+14	fundou	fundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Prona	Prona	PROPN	_	_	14	obj	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Partido	Partido	PROPN	_	_	16	appos	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Reedificação	Reedificação	PROPN	_	_	18	flat:name	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Ordem	Ordem	PROPN	_	_	18	flat:name	_	_
+24	Nacional	Nacional	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = Com poucos recursos, conseguiu grande projeção justamente por tratar com seriedade e extrema competência temas essenciais para sociedade brasileira, diz o pedido.
+1	Com	com	ADP	_	_	3	case	_	_
+2	poucos	pouco	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+3	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	ccomp:speech	_	_
+6	grande	grande	ADJ	_	Number=Sing	7	amod	_	_
+7	projeção	projeção	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	justamente	justamente	ADV	_	_	10	advmod	_	_
+9	por	por	ADP	_	_	10	mark	_	_
+10	tratar	tratar	VERB	_	VerbForm=Inf	5	advcl	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	seriedade	seriedade	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	extrema	extremo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	competência	competência	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+16	temas	tema	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+17	essenciais	essencial	ADJ	_	Number=Plur	16	amod	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	5	punct	_	_
+22	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0013
+# text = O deputado também dizem que seu valoroso nacionalismo e sua oposição ao comunismo o qualificam como herói da pátria.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	16	mark	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+7	valoroso	valoroso	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	nacionalismo	nacionalismo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	comunismo	comunismo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	qualificam	qualificar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+17	como	como	ADP	_	_	18	case	_	_
+18	herói	herói	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	pátria	pátria	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = A proposta foi encaminhada às comissões de Cultura e Constituição e Justiça e de Cidadania.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	encaminhada	encaminhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	às	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	comissões	comissão	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Cultura	Cultura	PROPN	_	_	7	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	Constituição	Constituição	PROPN	_	_	9	conj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	Justiça	Justiça	PROPN	_	_	9	conj	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Cidadania	Cidadania	PROPN	_	_	9	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Enéas ficou conhecido por concorrer 3 vezes à Presidência da República (1989, 1994 e 1998).
+1	Enéas	Enéas	PROPN	_	_	2	nsubj	_	_
+2	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	xcomp	_	_
+4	por	por	ADP	_	_	5	mark	_	_
+5	concorrer	concorrer	VERB	_	VerbForm=Inf	2	advcl	_	_
+6	3	3	NUM	_	NumType=Card	7	nummod	_	_
+7	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Presidência	Presidência	PROPN	_	_	5	obl	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	República	República	PROPN	_	_	10	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	1989	1989	NUM	_	NumType=Card	5	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	1994	1994	NUM	_	NumType=Card	15	conj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	1998	1998	NUM	_	NumType=Card	15	conj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+

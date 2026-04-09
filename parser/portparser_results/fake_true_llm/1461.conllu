@@ -1,0 +1,317 @@
+# sent_id = S0001
+# text = Uma enfermeira chamada Tiffany Dover desmaiou dramaticamente após receber a vacina contra a covid-19, gerando alarme nas redes sociais.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	enfermeira	enfermeiro	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	chamada	chamar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
+4	Tiffany	Tiffany	PROPN	_	_	3	xcomp	_	_
+5	Dover	Dover	PROPN	_	_	4	flat:name	_	_
+6	desmaiou	desmaiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	dramaticamente	dramaticamente	ADV	_	_	6	advmod	_	_
+8	após	após	ADP	_	_	9	mark	_	_
+9	receber	receber	VERB	_	VerbForm=Inf	6	advcl	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	contra	contra	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	covid-19	covid-19	NUM	_	NumType=Card	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	gerando	gerar	VERB	_	VerbForm=Ger	6	advcl	_	_
+17	alarme	alarme	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+18-19	nas	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	redes	rede	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+21	sociais	social	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = O vídeo, que rapidamente viralizou, mostra Dover perdendo a consciência instantaneamente após a aplicação da vacina no CHI Hospital em Chattanooga, Tennessee.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	rapidamente	rapidamente	ADV	_	_	6	advmod	_	_
+6	viralizou	viralizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Dover	Dover	PROPN	_	_	8	obj	_	_
+10	perdendo	perder	VERB	_	VerbForm=Ger	8	xcomp	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	consciência	consciência	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	instantaneamente	instantaneamente	ADV	_	_	10	advmod	_	_
+14	após	após	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	CHI	CHI	PROPN	_	_	16	nmod	_	_
+23	Hospital	Hospital	PROPN	_	_	22	flat:name	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	Chattanooga	Chattanooga	PROPN	_	_	16	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	Tennessee	Tennessee	PROPN	_	_	25	parataxis	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Contrariando as informações oficiais, fontes anônimas afirmam que ela faleceu poucas horas depois, supostamente devido a uma reação adversa ao imunizante.
+1	Contrariando	contrariar	VERB	_	VerbForm=Ger	8	advcl	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	informações	informação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+4	oficiais	oficial	ADJ	_	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+8	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	11	mark	_	_
+10	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	faleceu	falecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+12	poucas	pouco	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+13	horas	hora	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+14	depois	depois	ADV	_	_	11	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	supostamente	supostamente	ADV	_	_	17	advmod	_	_
+17	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	reação	reação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	adversa	adverso	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	ao	_	_	_	_	_	_	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	imunizante	imunizante	NOUN	_	Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = Apesar de o hospital ter divulgado um comunicado no Twitter afirmando que Dover está bem e em casa, usuários da internet questionam a veracidade dessa atualização, apontando que o perfil não fez mais postagens desde então.
+1	Apesar	apesar	ADV	_	_	25	advmod	_	_
+2	de	de	ADP	_	_	6	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ter	ter	AUX	_	VerbForm=Inf	6	aux	_	_
+6	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Twitter	Twitter	PROPN	_	_	8	nmod	_	_
+12	afirmando	afirmar	VERB	_	VerbForm=Ger	8	acl	_	_
+13	que	que	SCONJ	_	_	16	mark	_	_
+14	Dover	Dover	PROPN	_	_	16	nsubj	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	bem	bem	ADV	_	_	12	ccomp	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	casa	casa	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	1	punct	_	_
+21	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	21	nmod	_	_
+25	questionam	questionar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	veracidade	veracidade	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28-29	dessa	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	atualização	atualização	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	apontando	apontar	VERB	_	VerbForm=Ger	25	advcl	_	_
+33	que	que	SCONJ	_	_	37	mark	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
+36	não	não	ADV	_	_	37	advmod	_	_
+37	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	ccomp	_	_
+38	mais	mais	DET	_	PronType=Ind	39	det	_	_
+39	postagens	postagem	NOUN	_	Gender=Fem|Number=Plur	37	obj	_	_
+40	desde	desde	ADP	_	_	41	case	_	_
+41	então	então	ADV	_	_	37	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0009
+# text = No dia 17 de dezembro, o hospital teria administrado as primeiras doses da vacina da Pfizer em seis pessoas, e Tiffany foi a única a sofrer um colapso.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dia	dia	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+4	17	17	NUM	_	NumType=Card	3	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	aux	_	_
+11	administrado	administrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	primeiras	primeiro	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	14	amod	_	_
+14	doses	dose	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Pfizer	Pfizer	PROPN	_	_	17	nmod	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	seis	seis	NUM	_	NumType=Card	23	nummod	_	_
+23	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	e	e	CCONJ	_	_	28	cc	_	_
+26	Tiffany	Tiffany	PROPN	_	_	28	nsubj	_	_
+27	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+28	a	o	PRON	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	conj	_	_
+29	única	único	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	a	a	ADP	_	_	31	mark	_	_
+31	sofrer	sofrer	VERB	_	VerbForm=Inf	28	acl	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	colapso	colapso	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = A enfermeira, que alegadamente teria um histórico de síncope vasovagal, não gravou nenhum vídeo esclarecendo o incidente, aumentando as suspeitas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	enfermeira	enfermeiro	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	alegadamente	alegadamente	ADV	_	_	6	advmod	_	_
+6	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	acl:relcl	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	síncope	síncope	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	vasovagal	vasovagal	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	gravou	gravar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	esclarecendo	esclarecer	VERB	_	VerbForm=Ger	16	acl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	incidente	incidente	NOUN	_	Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	aumentando	aumentar	VERB	_	VerbForm=Ger	14	advcl	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0013
+# text = O médico intensivista Jesse L.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	médico	médico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	intensivista	intensivista	NOUN	_	Number=Sing	2	amod	_	_
+4	Jesse	Jesse	PROPN	_	_	2	nmod	_	_
+5	L.	L.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Tucker teria se recusado a comentar detalhes, gerando ainda mais especulação.
+1	Tucker	Tucker	PROPN	_	_	4	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	recusado	recusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	comentar	comentar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	gerando	gerar	VERB	_	VerbForm=Ger	4	advcl	_	_
+10	ainda	ainda	ADV	_	_	9	advmod	_	_
+11	mais	mais	DET	_	PronType=Ind	12	det	_	_
+12	especulação	especulação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = As mensagens nas redes sociais também associam o incidente ao governador de São Paulo, João Doria, e à "vacina chinesa", embora a vacina administrada não tenha relação com a desenvolvida pela Sinovac em parceria com o Instituto Butantan.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mensagens	mensagem	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+3-4	nas	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	redes	rede	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	sociais	social	ADJ	_	Number=Plur	5	amod	_	_
+7	também	também	ADV	_	_	8	advmod	_	_
+8	associam	associar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	incidente	incidente	NOUN	_	Number=Sing	8	obj	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	governador	governador	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	São	São	PROPN	_	_	13	nmod	_	_
+16	Paulo	Paulo	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	João	João	PROPN	_	_	13	appos	_	_
+19	Doria	Doria	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	e	e	CCONJ	_	_	25	cc	_	_
+22-23	à	_	_	_	_	_	_	_	_
+22	a	a	ADP	_	_	25	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+26	chinesa	chinÃªs	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	34	punct	_	_
+29	embora	embora	SCONJ	_	_	34	mark	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	vacina	vacina	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
+32	administrada	administrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	31	acl	_	_
+33	não	não	ADV	_	_	34	advmod	_	_
+34	tenha	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+35	relação	relação	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+36	com	com	ADP	_	_	37	case	_	_
+37	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	35	nmod	_	_
+38	desenvolvida	desenvolver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	37	acl	_	_
+39-40	pela	_	_	_	_	_	_	_	_
+39	por	por	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Sinovac	Sinovac	PROPN	_	_	38	obl:agent	_	_
+42	em	em	ADP	_	_	43	case	_	_
+43	parceria	parceria	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
+44	com	com	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	Instituto	Instituto	PROPN	_	_	43	nmod	_	_
+47	Butantan	Butantan	PROPN	_	_	46	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = No entanto, essa informação é convenientemente omitida em muitas das postagens, incentivando a confusão e a desconfiança em relação às vacinas em geral.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	9	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	informação	informação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	convenientemente	convenientemente	ADV	_	_	9	advmod	_	_
+9	omitida	omitir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	muitas	muito	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	9	obl	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	postagens	postagem	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	incentivando	incentivar	VERB	_	VerbForm=Ger	9	advcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	confusão	confusão	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	desconfiança	desconfiança	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	relação	relação	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+24-25	às	_	_	_	_	_	_	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	vacinas	vacina	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	geral	geral	NOUN	_	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	_
+

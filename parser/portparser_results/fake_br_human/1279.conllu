@@ -1,0 +1,236 @@
+# sent_id = S0001
+# text = Míssil lançado pela Coreia do Norte não falhou!
+1	Míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+3-4	pela	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Coreia	Coreia	PROPN	_	_	2	obl:agent	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Norte	Norte	PROPN	_	_	5	flat:name	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	falhou	falhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0003
+# text = Ele foi destruído antes de atingir a Rússia.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	destruído	destruír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	antes	antes	ADV	_	_	3	advmod	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	atingir	atingir	VERB	_	VerbForm=Inf	4	acl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Rússia	Rússia	PROPN	_	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O projétil foi "eliminado" momentos após o lançamento (no último dia 29) e acabou caindo em território norte-coreano.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	projétil	projétil	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	eliminado	eliminar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+8	após	após	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	último	último	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	dia	dia	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+16	29	29	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+20	caindo	cair	VERB	_	VerbForm=Ger	19	xcomp	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	território	território	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+23	norte-coreano	norte-coreano	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Se o míssil balístico não tivesse falhado, teria atingido em cheio parte do território russo.
+1	Se	se	SCONJ	_	_	7	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	balístico	balístico	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	não	não	ADV	_	_	7	advmod	_	_
+6	tivesse	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	falhado	falhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+10	atingido	atingir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	cheio	cheio	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+13	parte	parte	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	território	território	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	russo	russo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Foi por esta razão que a própria Coreia do Norte o destruiu intencionalmente publicou o jornal Seoul Economy Daily.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	discourse	_	_
+2	por	por	ADP	_	_	4	case	_	_
+3	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	razão	razão	NOUN	_	Number=Sing	15	obl	_	_
+5	que	que	SCONJ	_	_	13	discourse	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	Coreia	Coreia	PROPN	_	_	13	nsubj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Norte	Norte	PROPN	_	_	8	flat:name	_	_
+12	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	destruiu	destruir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	root	_	_
+14	intencionalmente	intencionalmente	ADV	_	_	13	advmod	_	_
+15	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+18	Seoul	Seoul	PROPN	_	_	17	nmod	_	_
+19	Economy	Economy	PROPN	_	_	18	flat:name	_	_
+20	Daily	Daily	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = A trajetória de um míssil balístico segue um caminho pré-determinado e não pode ser alterado após seu lançamento [...] a não ser que ele seja destruído por outros mísseis [...] e foi o que aconteceu na Coreia do Norte.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	trajetória	trajetória	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	míssil	míssil	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	balístico	balístico	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	pré-determinado	pré-determinado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	15	aux:pass	_	_
+15	alterado	alterar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+16	após	após	ADP	_	_	18	case	_	_
+17	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	..	..	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	]	]	PUNCT	_	_	20	punct	_	_
+23	a	a	ADP	_	ExtPos=SCONJ	29	mark	_	_
+24	não	não	ADV	_	_	23	fixed	_	_
+25	ser	ser	AUX	_	VerbForm=Inf	23	fixed	_	_
+26	que	que	SCONJ	_	_	23	fixed	_	_
+27	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj:pass	_	_
+28	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+29	destruído	destruír	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	_
+30	por	por	ADP	_	_	32	case	_	_
+31	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	32	det	_	_
+32	mísseis	míssil	NOUN	_	Number=Plur	29	obl:agent	_	_
+33	[	[	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+35	..	..	PUNCT	_	_	34	parataxis	_	SpaceAfter=No
+36	]	]	PUNCT	_	_	34	punct	_	_
+37	e	e	CCONJ	_	_	39	cc	_	_
+38	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	cop	_	_
+39	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	conj	_	_
+40	que	que	PRON	_	PronType=Rel	41	nsubj	_	_
+41	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	_	_
+42-43	na	_	_	_	_	_	_	_	_
+42	em	em	ADP	_	_	44	case	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Coreia	Coreia	PROPN	_	_	41	obl	_	_
+45-46	do	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	Norte	Norte	PROPN	_	_	44	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = Caso essas informações sejam comprovadas, a relação da Coréia do Norte com a Rússia poderá tomar um novo rumo.
+1	Caso	caso	SCONJ	_	_	5	mark	_	_
+2	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	informações	informação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	comprovadas	comprovar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	18	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	relação	relação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Coréia	Coréia	PROPN	_	_	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Norte	Norte	PROPN	_	_	11	flat:name	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Rússia	Rússia	PROPN	_	_	8	nmod	_	_
+18	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+19	tomar	tomar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	novo	novo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	rumo	rumo	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0015
+# text = Victor Ozerov, do Departamento de Defesa, informou que a Rússia está seguindo de perto os movimentos da Coréia do Norte e a defesa aérea foi colocada em estado de alerta máximo.
+1	Victor	Victor	PROPN	_	_	10	nsubj	_	_
+2	Ozerov	Ozerov	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Departamento	Departamento	PROPN	_	_	1	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Defesa	Defesa	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Rússia	Rússia	PROPN	_	_	15	nsubj	_	_
+14	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	seguindo	seguir	VERB	_	VerbForm=Ger	10	ccomp	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	perto	perto	ADV	_	_	15	advmod	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	movimentos	movimento	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Coréia	Coréia	PROPN	_	_	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Norte	Norte	PROPN	_	_	22	flat:name	_	_
+26	e	e	CCONJ	_	_	31	cc	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	31	nsubj:pass	_	_
+29	aérea	aéreo	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	colocada	colocar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	estado	estado	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	alerta	alerta	NOUN	_	Number=Sing	33	nmod	_	_
+36	máximo	máximo	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0016
+# text = fonte:( NewsAu ).
+1	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	(	(	PUNCT	_	_	4	punct	_	_
+4	NewsAu	NewsAu	PROPN	_	_	1	parataxis	_	_
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+

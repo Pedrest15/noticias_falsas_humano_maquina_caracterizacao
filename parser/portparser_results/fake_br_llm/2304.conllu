@@ -1,0 +1,538 @@
+# sent_id = S0001
+# text = John Le Carré, o lendário escritor de espionagem, revela segredos bombásticos em sua autobiografia.
+1	John	John	PROPN	_	_	11	nsubj	_	_
+2	Le	Le	PROPN	_	_	1	flat:name	_	_
+3	Carré	Carré	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	lendário	lendário	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	escritor	escritor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	espionagem	espionagem	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	segredos	segredo	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+13	bombásticos	bombástico	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	autobiografia	autobiografia	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0003
+# text = O autor, famoso por obras como "O Espião que Saiu do Frio", afirma ter recebido informações privilegiadas diretamente de agentes duplos durante sua carreira no MI6, o serviço secreto britânico.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	autor	autor	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	obras	obra	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+7	como	como	ADP	_	_	9	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	O	O	PROPN	_	_	6	nmod	_	_
+10	Espião	Espião	PROPN	_	_	9	flat:name	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	Saiu	Saiu	PROPN	_	_	9	flat:name	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Frio	Frio	PROPN	_	_	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	ter	ter	AUX	_	VerbForm=Inf	20	aux	_	_
+20	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	xcomp	_	_
+21	informações	informação	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+22	privilegiadas	privilegiado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	21	amod	_	_
+23	diretamente	diretamente	ADV	_	_	20	advmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	agentes	agente	NOUN	_	Number=Plur	20	obl	_	_
+26	duplos	duplo	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
+27	durante	durante	ADP	_	_	29	case	_	_
+28	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	MI6	MI6	PROPN	_	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	32	appos	_	_
+36	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+37	britânico	britânico	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = Le Carré, cujo verdadeiro nome é David Cornwell, teria sido não apenas um observador, mas um participante ativo em operações secretas que mudaram o curso da história mundial.
+1	Le	Le	PROPN	_	_	16	nsubj	_	_
+2	Carré	Carré	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	cujo	cujo	DET	_	Gender=Masc|Number=Sing|PronType=Rel	6	det	_	_
+5	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	nome	nome	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	David	David	PROPN	_	_	1	acl:relcl	_	_
+9	Cornwell	Cornwell	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	16	aux	_	_
+12	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	16	cop	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	apenas	apenas	ADV	_	_	16	advmod	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	observador	observador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	mas	mas	CCONJ	_	_	20	cc	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	participante	participante	NOUN	_	Number=Sing	16	conj	_	_
+21	ativo	ativo	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	operações	operação	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+24	secretas	secreto	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	mudaram	mudar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	curso	curso	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	história	história	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	mundial	mundial	ADJ	_	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0007
+# text = A autobiografia, lançada recentemente no Brasil, contém revelações surpreendentes, incluindo detalhes de uma suposta conspiração envolvendo a queda do Muro de Berlim.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	autobiografia	autobiografia	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	lançada	lançar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	recentemente	recentemente	ADV	_	_	4	advmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Brasil	Brasil	PROPN	_	_	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	contém	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	surpreendentes	surpreendente	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	incluindo	incluir	VERB	_	VerbForm=Ger	11	acl	_	_
+15	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	19	amod	_	_
+19	conspiração	conspiração	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20	envolvendo	envolver	VERB	_	VerbForm=Ger	19	acl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	queda	queda	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Muro	Muro	PROPN	_	_	22	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Berlim	Berlim	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0009
+# text = Segundo Le Carré, ele teria previsto o evento semanas antes de ocorrer, graças a uma rede de informantes que ele mesmo cultivou.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	Le	Le	PROPN	_	_	7	obl	_	_
+3	Carré	Carré	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+7	previsto	prever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	evento	evento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	semanas	semana	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+11	antes	antes	ADV	_	_	7	advmod	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	ocorrer	ocorrer	VERB	_	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	graças	graça	NOUN	_	Gender=Fem|Number=Plur	7	parataxis	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	rede	rede	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	informantes	informante	NOUN	_	Number=Plur	18	nmod	_	_
+21	que	que	PRON	_	PronType=Rel	24	obj	_	_
+22	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+24	cultivou	cultivar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = "Minhas histórias sempre estiveram mais próximas da realidade do que se imaginava", declara o autor com um misto de orgulho e mistério.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	Minhas	meu	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	histórias	história	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+4	sempre	sempre	ADV	_	_	7	advmod	_	_
+5	estiveram	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	próximas	próximo	ADJ	_	Gender=Fem|Number=Plur	18	ccomp:speech	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	ExtPos=SCONJ	15	mark	_	_
+12	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	fixed	_	_
+13	que	que	PRON	_	PronType=Rel	11	fixed	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl:impers	_	_
+15	imaginava	imaginar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	declara	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	autor	autor	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	misto	misto	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	orgulho	orgulho	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	mistério	mistério	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0013
+# text = Além disso, Le Carré confessa que sua relação com o pai, Ronnie Cornwell, um notório vigarista, foi muito mais tumultuada do que se sabia.
+1	Além	além	ADV	_	_	7	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	Le	Le	PROPN	_	_	7	nsubj	_	_
+6	Carré	Carré	PROPN	_	_	5	flat:name	_	_
+7	confessa	confessar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	25	mark	_	_
+9	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	relação	relação	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pai	pai	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Ronnie	Ronnie	PROPN	_	_	13	appos	_	_
+16	Cornwell	Cornwell	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	notório	notório	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	vigarista	vigarista	NOUN	_	Number=Sing	13	appos	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+23	muito	muito	ADV	_	_	24	advmod	_	_
+24	mais	mais	ADV	_	_	25	advmod	_	_
+25	tumultuada	tumultuado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	7	ccomp	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	ExtPos=SCONJ	30	mark	_	_
+27	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	fixed	_	_
+28	que	que	PRON	_	PronType=Rel	26	fixed	_	_
+29	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	30	expl:impers	_	_
+30	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Ele revela que Ronnie teria colaborado com agências de inteligência estrangeiras, colocando a família em risco e inspirando a criação de alguns de seus personagens mais sombrios.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	Ronnie	Ronnie	PROPN	_	_	6	nsubj	_	_
+5	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+6	colaborado	colaborar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	agências	agência	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	inteligência	inteligência	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	estrangeiras	estrangeiro	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	colocando	colocar	VERB	_	VerbForm=Ger	6	advcl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	família	família	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	risco	risco	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	inspirando	inspirar	VERB	_	VerbForm=Ger	13	conj	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	criação	criação	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	21	nmod	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	personagens	personagem	NOUN	_	Number=Plur	23	nmod	_	_
+27	mais	mais	ADV	_	_	28	advmod	_	_
+28	sombrios	sombrio	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = "A vida com meu pai era uma aventura perigosa", escreve Le Carré, "e essas experiências moldaram minha visão do mundo da espionagem".
+1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vida	vida	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	pai	pai	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	aventura	aventura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10	perigosa	perigoso	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	escreve	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+14	Le	Le	PROPN	_	_	13	nsubj	_	_
+15	Carré	Carré	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	21	punct	_	_
+17	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+18	e	e	CCONJ	_	_	21	cc	_	_
+19	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	experiências	experiência	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+21	moldaram	moldar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+22	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	visão	visão	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	espionagem	espionagem	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0019
+# text = A vida pessoal do autor também ganha destaque, com insinuações de casos amorosos secretos que teriam influenciado suas narrativas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vida	vida	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	pessoal	pessoal	ADJ	_	Number=Sing	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	autor	autor	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	também	também	ADV	_	_	8	advmod	_	_
+8	ganha	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	insinuações	insinuação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	casos	caso	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+15	amorosos	amoroso	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	secretos	secreto	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+17	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+18	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	19	aux	_	_
+19	influenciado	influenciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl:relcl	_	_
+20	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	narrativas	narrativa	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0021
+# text = Le Carré sugere que suas infidelidades eram tão elaboradas quanto as operações de espionagem que descreve em seus livros.
+1	Le	Le	PROPN	_	_	3	nsubj	_	_
+2	Carré	Carré	PROPN	_	_	1	flat:name	_	_
+3	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	9	mark	_	_
+5	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	infidelidades	infidelidade	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	tão	tão	ADV	_	_	9	advmod	_	_
+9	elaboradas	elaborar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	3	ccomp	_	_
+10	quanto	quanto	SCONJ	_	_	12	mark	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	operações	operação	NOUN	_	Gender=Fem|Number=Plur	9	advcl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	espionagem	espionagem	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	que	que	PRON	_	PronType=Rel	16	obj	_	_
+16	descreve	descrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	livros	livro	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = "Talvez eu tenha confundido a linha entre ficção e realidade mais do que uma vez", comenta de forma enigmática.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Talvez	talvez	ADV	_	_	5	advmod	_	_
+3	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	confundido	confundir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	ccomp:speech	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	linha	linha	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	entre	entre	ADP	_	_	9	case	_	_
+9	ficção	ficção	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+12	mais	mais	ADV	_	ExtPos=ADV	17	advmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	12	fixed	_	_
+14	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	fixed	_	_
+15	que	que	PRON	_	PronType=Rel	12	fixed	_	_
+16	uma	um	NUM	_	Gender=Fem|NumType=Card	17	nummod	_	_
+17	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	5	punct	_	_
+20	comenta	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	forma	forma	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+23	enigmática	enigmático	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0025
+# text = O mundo do cinema também não escapa das revelações.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cinema	cinema	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	também	também	ADV	_	_	8	advmod	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	escapa	escapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	revelações	revelação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0027
+# text = Le Carré alega que recusou uma oferta milionária de Francis Ford Coppola, que queria transformar "O Espião que Saiu do Frio" em um épico cinematográfico estrelado por Harrison Ford.
+1	Le	Le	PROPN	_	_	3	nsubj	_	_
+2	Carré	Carré	PROPN	_	_	1	flat:name	_	_
+3	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	recusou	recusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	oferta	oferta	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	milionária	milionário	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Francis	Francis	PROPN	_	_	7	nmod	_	_
+11	Ford	Ford	PROPN	_	_	10	flat:name	_	_
+12	Coppola	Coppola	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+16	transformar	transformar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	O	O	PROPN	_	_	16	obj	_	_
+19	Espião	Espião	PROPN	_	_	18	flat:name	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	Saiu	Saiu	PROPN	_	_	18	flat:name	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Frio	Frio	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	18	punct	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	épico	épico	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+29	cinematográfico	cinematográfico	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	estrelado	estrelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	acl	_	_
+31	por	por	ADP	_	_	32	case	_	_
+32	Harrison	Harrison	PROPN	_	_	30	obl:agent	_	_
+33	Ford	Ford	PROPN	_	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0029
+# text = O autor teria deixado a proposta de lado devido a desacordos criativos e uma crescente desilusão com a indústria hollywoodiana.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	autor	autor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	deixado	deixar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	lado	lado	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	desacordos	desacordo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+12	criativos	criativo	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	crescente	crescente	ADJ	_	Number=Sing	16	amod	_	_
+16	desilusão	desilusão	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	indústria	indústria	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	hollywoodiana	hollywoodiano	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0031
+# text = "Hollywood nunca entendeu a alma de um espião", critica Le Carré.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Hollywood	Hollywood	PROPN	_	_	4	nsubj	_	_
+3	nunca	nunca	ADV	_	_	4	advmod	_	_
+4	entendeu	entender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp:speech	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	alma	alma	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	espião	espião	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	critica	criticar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	Le	Le	PROPN	_	_	12	nsubj	_	_
+14	Carré	Carré	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0033
+# text = A autobiografia promete ser um prato cheio para fãs e críticos, oferecendo uma visão íntima e, às vezes, incômoda de um dos maiores nomes da literatura de espionagem.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	autobiografia	autobiografia	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	6	cop	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	prato	prato	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
+7	cheio	cheio	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	fãs	fã	NOUN	_	Number=Plur	6	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	críticos	crítico	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	oferecendo	oferecer	VERB	_	VerbForm=Ger	3	advcl	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	visão	visão	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	íntima	íntimo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	_	_	23	cc	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19-20	às	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	ExtPos=ADV	23	advmod	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	fixed	_	_
+21	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	19	fixed	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	19	punct	_	_
+23	incômoda	incômodo	ADJ	_	Gender=Fem|Number=Sing	16	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	um	um	NUM	_	Gender=Masc|NumType=Card	15	nmod	_	_
+26-27	dos	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	29	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	maiores	maior	ADJ	_	Number=Plur	29	amod	_	_
+29	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	literatura	literatura	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	espionagem	espionagem	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0035
+# text = Com suas confissões e segredos inéditos, Le Carré mantém o público questionando onde termina a verdade e começa a ficção.
+1	Com	com	ADP	_	_	3	case	_	_
+2	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	confissões	confissão	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	segredos	segredo	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+6	inéditos	inédito	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	Le	Le	PROPN	_	_	10	nsubj	_	_
+9	Carré	Carré	PROPN	_	_	8	flat:name	_	_
+10	mantém	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	público	público	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	questionando	questionar	VERB	_	VerbForm=Ger	10	advcl	_	_
+14	onde	onde	ADV	_	_	15	advmod	_	_
+15	termina	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	começa	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ficção	ficção	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+

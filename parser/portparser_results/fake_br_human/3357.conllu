@@ -1,0 +1,127 @@
+# sent_id = S0001
+# text = Um governo sem controle.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	sem	sem	ADP	_	_	4	case	_	_
+4	controle	controle	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Na delegacia, ladrões dizem que roubam porque o PT também rouba.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	delegacia	delegacia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ladrões	ladrão	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	roubam	roubar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	porque	porque	SCONJ	_	_	13	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PT	PT	PROPN	_	_	13	nsubj	_	_
+12	também	também	ADV	_	_	13	advmod	_	_
+13	rouba	roubar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = É óbvio que não podemos defender os bandidos das atitudes que eles cometem...mas cadê o exemplo que teria que vir de cima?.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	óbvio	óbvio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+6	defender	defender	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bandidos	bandido	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	atitudes	atitude	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+12	que	que	PRON	_	PronType=Rel	15	obj	_	_
+13	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	cometem...mas	cometem...mas	CCONJ	_	_	15	cc	_	_
+15	cadê	cadê	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+18	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+19	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	17	acl:relcl	_	_
+20	que	que	ADP	_	_	21	mark	_	_
+21	vir	vir	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	cima	cima	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Veja nesse vídeo "as desculpas" que alguns ladrões deram após serem pegos pela polícia.
+1	Veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	nesse	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	desculpas	desculpa	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	que	que	PRON	_	PronType=Rel	12	obj	_	_
+10	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	ladrões	ladrão	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	deram	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+13	após	após	ADP	_	_	15	mark	_	_
+14	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	15	aux:pass	_	_
+15	pegos	pegar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	advcl	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	polícia	polícia	NOUN	_	Number=Sing	15	obl:agent	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Fica nítido que o estado perdeu qualquer controle sobre seus cidadãos.
+1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nítido	nítido	ADJ	_	Gender=Masc|Number=Sing	1	xcomp	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	estado	estado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	csubj	_	_
+7	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	8	det	_	_
+8	controle	controle	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Um dos assaltantes presos chegou a dizer: " Se eles roubam a Petrobras, porque nós não podemos roubar? ".
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	6	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	assaltantes	assaltante	NOUN	_	Number=Plur	1	nmod	_	_
+5	presos	prender	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+6	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	dizer	dizer	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	20	punct	_	_
+10	"	"	PUNCT	_	_	20	punct	_	_
+11	Se	se	SCONJ	_	_	13	mark	_	_
+12	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	roubam	roubar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Petrobras	Petrobras	PROPN	_	_	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	13	punct	_	_
+17	porque	porque	SCONJ	_	_	20	mark	_	_
+18	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+21	roubar	roubar	VERB	_	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	20	punct	_	_
+23	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0012
+# text = assista:
+1	assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

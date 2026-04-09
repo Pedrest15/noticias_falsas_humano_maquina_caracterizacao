@@ -1,0 +1,116 @@
+# sent_id = S0001
+# text = Cuecas de luxo?
+1	Cuecas	cueca	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Governador de MG é flagrado por internauta em shopping de SP: "Faliu Minas e vem gastar dinheiro aqui?".
+1	Governador	governador	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	MG	MG	PROPN	_	_	1	nmod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	flagrado	flagrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	internauta	internauta	NOUN	_	Number=Sing	5	obl:agent	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	shopping	shopping	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	SP	SP	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Faliu	falir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+15	Minas	Minas	PROPN	_	_	14	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+18	gastar	gastar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+20	aqui	aqui	ADV	_	_	18	advmod	_	SpaceAfter=No
+21	?	?	PUNCT	_	_	14	punct	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Ele decretou estado de calamidade pública financeira em um estado e foi fazer compras em outro.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	decretou	decretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	estado	estado	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	calamidade	calamidade	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	pública	público	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	estado	estado	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	fazer	fazer	VERB	_	VerbForm=Inf	2	conj	_	_
+14	compras	compra	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Bem, parece que o povo não gostou muito!
+1	Bem	bem	ADV	_	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	povo	povo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	gostou	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+9	muito	muito	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Você faliu Minas e vem gastar o dinheiro aqui em São Paulo?
+1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	faliu	falir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Minas	Minas	PROPN	_	_	2	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	gastar	gastar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	aqui	aqui	ADV	_	_	6	advmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	São	São	PROPN	_	_	9	obl	_	_
+12	Paulo	Paulo	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = Acabou com Minas e agora veio gastar nosso dinheiro?
+1	Acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	Minas	Minas	PROPN	_	_	1	obl	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	agora	agora	ADV	_	_	6	advmod	_	_
+6	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+7	gastar	gastar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Vagabundo.
+1	Vagabundo	vagabundo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Vocês vão pra cadeia (vídeo de Cláudio Dantas).
+1	Vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	pra	_	_	_	_	_	_	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Cláudio	Cláudio	PROPN	_	_	7	nmod	_	_
+10	Dantas	Dantas	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+

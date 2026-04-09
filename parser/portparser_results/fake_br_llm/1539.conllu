@@ -1,0 +1,611 @@
+# sent_id = S0001
+# text = O incrível caso do mergulhador que se transformou em uma aberração após um acidente submarino.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	incrível	incrível	ADJ	_	Number=Sing	3	amod	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mergulhador	mergulhador	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	transformou	transformar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	aberração	aberração	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	após	após	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+16	submarino	submarino	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Alejandro Ramos, conhecido como Willy, experimentou uma mutação corporal bizarra depois de mergulhar a mais de 30 metros em busca de mexilhões.
+1	Alejandro	Alejandro	PROPN	_	_	8	nsubj	_	_
+2	Ramos	Ramos	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+5	como	como	ADP	_	_	6	case	_	_
+6	Willy	Willy	PROPN	_	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	experimentou	experimentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mutação	mutação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	corporal	corporal	ADJ	_	Number=Sing	10	amod	_	_
+12	bizarra	bizarro	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+13	depois	depois	ADV	_	_	8	advmod	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	mergulhar	mergulhar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	a	a	ADP	_	_	20	case	_	_
+17	mais	mais	ADV	_	ExtPos=ADV	19	advmod	_	_
+18	de	de	ADP	_	_	17	fixed	_	_
+19	30	30	NUM	_	NumType=Card	20	nummod	_	_
+20	metros	metro	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	busca	busca	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	mexilhões	mexilhõe	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Especialistas de todo o mundo estão perplexos com o fenômeno, nunca antes registrado na história médica.
+1	Especialistas	especialista	NOUN	_	Number=Plur	7	nsubj	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	perplexos	perplexo	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	nunca	nunca	ADV	_	_	14	advmod	_	_
+13	antes	antes	ADV	_	_	14	advmod	_	_
+14	registrado	registrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	história	história	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	médica	médico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = Willy, que mede menos de 1,60 metro, agora veste roupas que parecem feitas para um gigante.
+1	Willy	Willy	PROPN	_	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	mede	medir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	menos	menos	ADV	_	ExtPos=ADV	7	advmod	_	_
+6	de	de	ADP	_	_	5	fixed	_	_
+7	1,60	1,60	NUM	_	NumType=Card	8	nummod	_	_
+8	metro	metro	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	agora	agora	ADV	_	_	11	advmod	_	_
+11	veste	vestir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	parecem	parecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gigante	gigante	NOUN	_	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = Suas deformações são tão extremas que ele evita sair em público, temendo reações de horror e choque.
+1	Suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	deformações	deformação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	tão	tão	ADV	_	_	5	advmod	_	_
+5	extremas	extremo	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+6	que	que	SCONJ	_	_	8	mark	_	_
+7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	evita	evitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	sair	sair	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	público	público	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	temendo	temer	VERB	_	VerbForm=Ger	8	advcl	_	_
+14	reações	reação	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	horror	horror	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	choque	choque	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Internado no Centro Médico Naval em Lima, Peru, Willy se tornou uma atração involuntária para curiosos e pesquisadores médicos.
+1	Internado	internar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	advcl	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Centro	Centro	PROPN	_	_	1	obl	_	_
+5	Médico	Médico	PROPN	_	_	4	flat:name	_	_
+6	Naval	Naval	PROPN	_	_	4	flat:name	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Lima	Lima	PROPN	_	_	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Peru	Peru	PROPN	_	_	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	1	punct	_	_
+12	Willy	Willy	PROPN	_	_	14	nsubj	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	atração	atração	NOUN	_	Gender=Fem|Number=Sing	14	xcomp	_	_
+17	involuntária	involuntário	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	curiosos	curioso	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+22	médicos	médico	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0013
+# text = Há quatro anos, após emergir abruptamente de uma profundidade de 36 metros devido a uma mangueira de ar danificada, o corpo de Willy começou a inchar de maneira irreversível.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+2	quatro	quatro	NUM	_	NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	após	após	ADP	_	_	6	mark	_	_
+6	emergir	emergir	VERB	_	VerbForm=Inf	26	advcl	_	_
+7	abruptamente	abruptamente	ADV	_	_	6	advmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	36	36	NUM	_	NumType=Card	13	nummod	_	_
+13	metros	metro	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mangueira	mangueira	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	ar	ar	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	danificada	danificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	6	punct	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Willy	Willy	PROPN	_	_	23	nmod	_	_
+26	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	a	a	ADP	_	_	28	mark	_	_
+28	inchar	inchar	VERB	_	VerbForm=Inf	26	xcomp	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+31	irreversível	irreversível	ADJ	_	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0015
+# text = Enquanto seus braços e pernas mantêm uma aparência normal, seus bíceps inchados com 62 e 72 cm de circunferência chamam atenção, assim como seu peitoral inflado e o volume anormal em suas costas e coxas.
+1	Enquanto	enquanto	SCONJ	_	_	6	mark	_	_
+2	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	braços	braço	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	pernas	perna	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
+6	mantêm	manter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	aparência	aparência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	normal	normal	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	bíceps	bícep	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+13	inchados	inchado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	12	amod	_	_
+14	com	com	ADP	_	_	18	case	_	_
+15	62	62	NUM	_	NumType=Card	18	nummod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	72	72	NUM	_	NumType=Card	15	conj	_	_
+18	cm	centímetro	NOUN	_	Abbr=Yes|Gender=Masc	12	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	circunferência	circunferência	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	chamam	chamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	assim	assim	ADV	_	ExtPos=SCONJ	27	mark	_	_
+25	como	como	SCONJ	_	_	24	fixed	_	_
+26	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	peitoral	peitoral	NOUN	_	Number=Sing	21	advcl	_	_
+28	inflado	inflado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	27	amod	_	_
+29	e	e	CCONJ	_	_	31	cc	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	volume	volume	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
+32	anormal	anormal	ADJ	_	Number=Sing	31	amod	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
+35	costas	costa	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	coxas	coxa	NOUN	_	Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0017
+# text = Além disso, ele sofre com dores ósseas e dificuldades respiratórias.
+1	Além	além	ADV	_	_	6	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	sofre	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	dores	dor	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+9	ósseas	ósseo	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	dificuldades	dificuldade	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
+12	respiratórias	respiratório	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Os mergulhadores de Pisco, que utilizam trajes rudimentares feitos de câmaras de pneus de caminhão, frequentemente enfrentam riscos letais.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	mergulhadores	mergulhador	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Pisco	Pisco	PROPN	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	utilizam	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	trajes	traje	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	rudimentares	rudimentar	ADJ	_	Number=Plur	8	amod	_	_
+10	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	câmaras	câmara	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	pneus	pneu	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	caminhão	caminhão	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	frequentemente	frequentemente	ADV	_	_	19	advmod	_	_
+19	enfrentam	enfrentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+21	letais	letal	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0021
+# text = No entanto, o caso de Willy é único.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	10	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caso	caso	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Willy	Willy	PROPN	_	_	6	nmod	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	único	único	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = Após o acidente, ele tentou uma manobra de emergência, mas foi abandonado por tripulantes apressados, resultando em uma subida inadequada que alterou seu corpo para sempre.
+1	Após	após	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	manobra	manobra	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	mas	mas	CCONJ	_	_	14	cc	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	abandonado	abandonar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	tripulantes	tripulante	NOUN	_	Number=Plur	14	obl:agent	_	_
+17	apressados	apressado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	resultando	resultar	VERB	_	VerbForm=Ger	6	advcl	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	subida	subido	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+23	inadequada	inadequado	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
+25	alterou	alterar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+26	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	para	para	ADP	_	_	29	case	_	_
+29	sempre	sempre	ADV	_	_	25	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = Médicos especulam que Willy possa ter desenvolvido um tipo de tumor no tecido adiposo, uma condição congênita que só se manifestou após o trauma.
+1	Médicos	médico	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	especulam	especular	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	Willy	Willy	PROPN	_	_	5	nsubj	_	_
+5	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	ter	ter	AUX	_	VerbForm=Inf	7	aux	_	_
+7	desenvolvido	desenvolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	xcomp	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	tumor	tumor	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tecido	tecido	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+15	adiposo	adiposo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	condição	condição	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
+19	congênita	congênito	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+21	só	só	ADV	_	_	23	advmod	_	_
+22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	_	_
+23	manifestou	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+24	após	após	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	trauma	trauma	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = Outra teoria é que ele sofre de uma sequela desconhecida de mergulho.
+1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	teoria	teoria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:outer	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	sofre	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sequela	sequela	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	desconhecida	desconhecido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	mergulho	mergulho	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0029
+# text = Testes avançados, como ressonância magnética, finalmente foram realizados de graça, mas o diagnóstico ainda é um mistério.
+1	Testes	teste	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+2	avançados	avançado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	como	como	ADP	_	_	5	case	_	_
+5	ressonância	ressonância	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	magnética	magnético	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	finalmente	finalmente	ADV	_	_	10	advmod	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	graça	graça	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	20	punct	_	_
+14	mas	mas	CCONJ	_	_	20	cc	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	diagnóstico	diagnóstico	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+17	ainda	ainda	ADV	_	_	20	advmod	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mistério	mistério	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0031
+# text = A situação de Willy ganhou destaque na mídia, atraindo a atenção de programas de TV e até de uma antiga namorada, que o viu no hospital e fez comentários devastadores.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Willy	Willy	PROPN	_	_	2	nmod	_	_
+5	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	atraindo	atrair	VERB	_	VerbForm=Ger	5	advcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	programas	programa	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	_	_	23	cc	_	_
+19	até	até	ADV	_	_	23	advmod	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	antiga	antigo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	namorada	namorado	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	que	que	PRON	_	PronType=Rel	27	nsubj	_	_
+26	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	conj	_	_
+33	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	32	obj	_	_
+34	devastadores	devastador	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0033
+# text = A exposição pública exacerbou sua depressão, fazendo com que ele se isolasse da sociedade.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	exposição	exposição	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	pública	público	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	exacerbou	exacerbar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	depressão	depressão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	fazendo	fazer	VERB	_	VerbForm=Ger	4	advcl	_	_
+9	com	com	ADP	_	ExtPos=SCONJ	13	mark	_	_
+10	que	que	SCONJ	_	_	9	fixed	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	_	_
+13	isolasse	isolar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0035
+# text = Esperanças surgem agora com o tratamento gratuito oferecido pelo Centro Médico Naval, que identificou a necessidade de uma cirurgia no quadril de Willy devido à necrose avançada.
+1	Esperanças	esperança	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	surgem	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	agora	agora	ADV	_	_	2	advmod	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	gratuito	gratuito	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	oferecido	oferecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Centro	Centro	PROPN	_	_	8	obl:agent	_	_
+12	Médico	Médico	PROPN	_	_	11	flat:name	_	_
+13	Naval	Naval	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	identificou	identificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cirurgia	cirurgia	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	quadril	quadril	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Willy	Willy	PROPN	_	_	24	nmod	_	_
+27	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	advcl	_	_
+28-29	à	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	necrose	necrose	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+31	avançada	avançado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0037
+# text = A comunidade espera que uma ONG ou empresa patrocine a prótese necessária, visto que mergulhadores aposentados como ele vivem na pobreza, sem pensões ou apoio governamental.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	espera	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	9	mark	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ONG	ong	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	ou	ou	CCONJ	_	_	8	cc	_	_
+8	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+9	patrocine	patrocinar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prótese	prótese	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	necessária	necessário	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	20	punct	_	_
+14	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	20	mark	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_
+16	mergulhadores	mergulhador	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+17	aposentados	aposentado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	_
+18	como	como	ADP	_	_	19	case	_	_
+19	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+20	vivem	viver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	pobreza	pobreza	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	sem	sem	ADP	_	_	26	case	_	_
+26	pensões	pensão	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+27	ou	ou	CCONJ	_	_	28	cc	_	_
+28	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
+29	governamental	governamental	ADJ	_	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0039
+# text = Enquanto aguarda a cirurgia, Willy visita o porto de Pisco, onde se encontra com colegas igualmente afetados pela síndrome de descompressão.
+1	Enquanto	enquanto	SCONJ	_	_	2	mark	_	_
+2	aguarda	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cirurgia	cirurgia	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Willy	Willy	PROPN	_	_	7	nsubj	_	_
+7	visita	visitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	porto	porto	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Pisco	Pisco	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	onde	onde	ADV	_	_	15	advmod	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+18	igualmente	igualmente	ADV	_	_	19	advmod	_	_
+19	afetados	afetar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	17	acl	_	_
+20-21	pela	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	síndrome	síndrome	NOUN	_	Gender=Fem|Number=Sing	19	obl:agent	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	descompressão	descompressão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0041
+# text = Eles lutam para sobreviver, mendigando dinheiro e frutos do mar para vender, enquanto clamam pela atenção do Estado para suas condições desoladoras.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	lutam	lutar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	para	para	ADP	_	_	4	mark	_	_
+4	sobreviver	sobreviver	VERB	_	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	mendigando	mendigar	VERB	_	VerbForm=Ger	2	advcl	_	_
+7	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	frutos	fruto	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mar	mar	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	vender	vender	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	enquanto	enquanto	SCONJ	_	_	17	mark	_	_
+17	clamam	clamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+18-19	pela	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Estado	Estado	PROPN	_	_	20	nmod	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	condições	condição	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+27	desoladoras	desolador	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0043
+# text = Este caso extraordinário coloca em evidência as condições precárias dos mergulhadores peruanos e a necessidade urgente de regulamentação e suporte médico para evitar novas tragédias como a de Willy.
+1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	extraordinário	extraordinário	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	coloca	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	evidência	evidência	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+9	precárias	precário	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	mergulhadores	mergulhador	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+13	peruanos	peruano	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+17	urgente	urgente	ADJ	_	Number=Sing	16	amod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	regulamentação	regulamentação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+22	médico	médico	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	para	para	ADP	_	_	24	mark	_	_
+24	evitar	evitar	VERB	_	VerbForm=Inf	16	acl	_	_
+25	novas	novo	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
+26	tragédias	tragédia	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+27	como	como	ADP	_	_	28	case	_	_
+28	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	26	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Willy	Willy	PROPN	_	_	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+

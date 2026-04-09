@@ -1,0 +1,389 @@
+# sent_id = S0001
+# text = Jovem acusado de ataque racista contra Tia Má diz que foi influenciado por "vozes" e se declara inocente: "Estão distorcendo tudo".
+1	Jovem	jovem	NOUN	_	Number=Sing	9	nsubj	_	_
+2	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+5	racista	racista	ADJ	_	Number=Sing	4	amod	_	_
+6	contra	contra	ADP	_	_	7	case	_	_
+7	Tia	Tia	PROPN	_	_	4	nmod	_	_
+8	Má	Má	PROPN	_	_	7	flat:name	_	_
+9	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	12	mark	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	influenciado	influenciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	vozes	voz	NOUN	_	Gender=Fem|Number=Plur	12	obl:agent	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	declara	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+20	inocente	inocente	ADJ	_	Number=Sing	19	xcomp	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	24	punct	_	_
+22	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+23	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	distorcendo	distorcer	VERB	_	VerbForm=Ger	9	parataxis	_	_
+25	tudo	tudo	PRON	_	PronType=Ind	24	obj	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = José Raimundo Pita Barreto Junior, de 23 anos, apresentou-se na tarde de quarta-feira (14) na 1a Delegacia de Polícia Civil em Salvador, acompanhado de uma equipe de advogados e da mãe.
+1	José	José	PROPN	_	_	11	nsubj	_	_
+2	Raimundo	Raimundo	PROPN	_	_	1	flat:name	_	_
+3	Pita	Pita	PROPN	_	_	1	flat:name	_	_
+4	Barreto	Barreto	PROPN	_	_	1	flat:name	_	_
+5	Junior	Junior	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	23	23	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11-12	apresentou-se	_	_	_	_	_	_	_	_
+11	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	14	14	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	24	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	1a	1a	ADJ	_	Gender=Fem|NumType=Ord	24	amod	_	_
+24	Delegacia	Delegacia	PROPN	_	_	11	obl	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Polícia	Polícia	PROPN	_	_	24	flat:name	_	_
+27	Civil	Civil	PROPN	_	_	24	flat:name	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	Salvador	Salvador	PROPN	_	_	24	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	acompanhado	acompanhado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	advogados	advogado	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
+37	e	e	CCONJ	_	_	40	cc	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = Em um depoimento emocionado, ele afirmou que as ofensas racistas e ameaças direcionadas à jornalista e humorista Maíra Azevedo, conhecida como "Tia Má", foram resultado de "vozes" que ele ouve desde a trágica perda de sua esposa, há sete meses.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+4	emocionado	emocionado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	31	mark	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	ofensas	ofensa	NOUN	_	Gender=Fem|Number=Plur	31	nsubj	_	_
+11	racistas	racista	ADJ	_	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
+14	direcionadas	direcionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	jornalista	jornalista	NOUN	_	Number=Sing	14	obl	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	humorista	humorista	NOUN	_	Number=Sing	17	conj	_	_
+20	Maíra	Maíra	PROPN	_	_	17	nmod	_	_
+21	Azevedo	Azevedo	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	conhecida	conhecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	_
+24	como	como	ADP	_	_	26	case	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Tia	Tia	PROPN	_	_	23	obl	_	_
+27	Má	Má	PROPN	_	_	26	flat:name	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	23	punct	_	_
+30	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
+31	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	7	ccomp	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	vozes	voz	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	_
+36	que	que	PRON	_	PronType=Rel	38	obj	_	_
+37	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+38	ouve	ouvir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+39	desde	desde	ADP	_	_	42	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	trágica	trágico	ADJ	_	Gender=Fem|Number=Sing	42	amod	_	_
+42	perda	perda	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	det	_	_
+45	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	47	punct	_	_
+47	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
+48	sete	sete	NUM	_	NumType=Card	49	nummod	_	_
+49	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	47	obj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0007
+# text = Estão distorcendo tudo.
+1	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	distorcendo	distorcer	VERB	_	VerbForm=Ger	0	root	_	_
+3	tudo	tudo	PRON	_	PronType=Ind	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Eu nunca teria coragem de fazer mal a alguém, muito menos à Tia Má, que sempre admirei.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	nunca	nunca	ADV	_	_	3	advmod	_	_
+3	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+4	coragem	coragem	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	fazer	fazer	VERB	_	VerbForm=Inf	4	acl	_	_
+7	mal	mal	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	muito	muito	ADV	_	_	12	advmod	_	_
+12	menos	menos	ADV	_	_	15	advmod	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Tia	Tia	PROPN	_	_	6	conj	_	_
+16	Má	Má	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	que	que	PRON	_	PronType=Rel	20	obj	_	_
+19	sempre	sempre	ADV	_	_	20	advmod	_	_
+20	admirei	admirar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = As vozes me confundiram, declarou ao G1.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	vozes	voz	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	confundiram	confundir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp:speech	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	G1	G1	PROPN	_	_	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Seu advogado, Paulo Cesar Jr, reforçou que o jovem não possui histórico de violência e que sua saúde mental foi severamente abalada após a esposa falecer na mesa de parto.
+1	Seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	Paulo	Paulo	PROPN	_	_	2	appos	_	_
+5	Cesar	Cesar	PROPN	_	_	4	flat:name	_	_
+6	Jr	Jr	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	reforçou	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	jovem	jovem	NOUN	_	Number=Sing	13	nsubj	_	_
+12	não	não	ADV	_	_	13	advmod	_	_
+13	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	violência	violência	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	_	_	24	cc	_	_
+18	que	que	SCONJ	_	_	24	mark	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+21	mental	mental	ADJ	_	Number=Sing	20	amod	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+23	severamente	severamente	ADV	_	_	24	advmod	_	_
+24	abalada	abalar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	_
+25	após	após	ADP	_	_	28	mark	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
+28	falecer	falecer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	24	advcl	_	_
+29-30	na	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	mesa	mesa	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	parto	parto	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = Ele está sendo vítima de uma campanha de difamação.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sendo	ser	AUX	_	VerbForm=Ger	4	cop	_	_
+4	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	difamação	difamação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = José é um trabalhador honesto e não representa perigo algum, defendeu.
+1	José	José	PROPN	_	_	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	trabalhador	trabalhador	NOUN	_	Gender=Masc|Number=Sing	12	ccomp:speech	_	_
+5	honesto	honesto	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	perigo	perigo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0019
+# text = A delegada Maria Dail, responsável pelo caso, afirmou que solicitará um exame de sanidade mental para o suspeito e que, por enquanto, ele não será detido.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	delegada	delegado	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	Maria	Maria	PROPN	_	_	2	nmod	_	_
+4	Dail	Dail	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	responsável	responsável	NOUN	_	Number=Sing	2	appos	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caso	caso	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	13	mark	_	_
+13	solicitará	solicitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	ccomp	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	exame	exame	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	sanidade	sanidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	mental	mental	ADJ	_	Number=Sing	17	amod	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	suspeito	suspeito	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+22	e	e	CCONJ	_	_	31	cc	_	_
+23	que	que	SCONJ	_	_	31	mark	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	por	por	ADP	_	_	26	case	_	_
+26	enquanto	enquanto	ADV	_	_	31	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj:pass	_	_
+29	não	não	ADV	_	_	31	advmod	_	_
+30	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	31	aux:pass	_	_
+31	detido	deter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0021
+# text = José Raimundo entregou voluntariamente seu celular para perícia.
+1	José	José	PROPN	_	_	3	nsubj	_	_
+2	Raimundo	Raimundo	PROPN	_	_	1	flat:name	_	_
+3	entregou	entregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	voluntariamente	voluntariamente	ADV	_	_	3	advmod	_	_
+5	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	celular	celular	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	perícia	perícia	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Em resposta às declarações de José, Tia Má utilizou suas redes sociais para expressar indignação: Racistas querem sempre se esconder atrás de desculpas esfarrapadas.
+1	Em	em	ADP	_	_	2	case	_	_
+2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+3-4	às	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	José	José	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	Tia	Tia	PROPN	_	_	11	nsubj	_	_
+10	Má	Má	PROPN	_	_	9	flat:name	_	_
+11	utilizou	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	redes	rede	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+14	sociais	social	ADJ	_	Number=Plur	13	amod	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	expressar	expressar	VERB	_	VerbForm=Inf	11	advcl	_	_
+17	indignação	indignação	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	20	punct	_	_
+19	Racistas	racista	NOUN	_	Number=Plur	20	nsubj	_	_
+20	querem	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+21	sempre	sempre	ADV	_	_	23	advmod	_	_
+22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	_	_
+23	esconder	esconder	VERB	_	VerbForm=Inf	20	xcomp	_	_
+24	atrás	atrás	ADV	_	_	23	advmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	desculpas	desculpa	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
+27	esfarrapadas	esfarrapado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0025
+# text = Não caio nessa!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	caio	caiar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nessa	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	obl	_	_
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0027
+# text = #Justiça #RacismoÉCrime.
+1	#Justiça	#Justiça	PROPN	_	_	0	root	_	_
+2	#RacismoÉCrime	#RacismoÉCrime	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0029
+# text = A jornalista destacou que, após a divulgação das mensagens racistas, recebeu ameaças de morte, mas garantiu que continuará sua luta contra a discriminação.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	após	após	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mensagens	mensagem	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	racistas	racista	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+15	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	morte	morte	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	mas	mas	CCONJ	_	_	20	cc	_	_
+20	garantiu	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+21	que	que	SCONJ	_	_	22	mark	_	_
+22	continuará	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	ccomp	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	luta	luta	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	contra	contra	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	discriminação	discriminação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0031
+# text = Não vou me calar!
+1	Não	não	ADV	_	_	4	advmod	_	_
+2	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	calar	calar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0033
+# text = A verdade prevalecerá, afirmou.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	prevalecerá	prevalecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp:speech	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+

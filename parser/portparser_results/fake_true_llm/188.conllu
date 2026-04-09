@@ -1,0 +1,171 @@
+# sent_id = S0001
+# text = URGENTE: Promoção Anatel! Ganhe 7 GB de Internet Gratuitamente!
+1	URGENTE	urgentemente	ADV	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+4	Anatel	Anatel	PROPN	_	_	3	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	6	punct	_	_
+6	Ganhe	ganhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+7	7	7	NUM	_	NumType=Card	8	nummod	_	_
+8	GB	GB	PROPN	_	_	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Internet	Internet	PROPN	_	_	8	nmod	_	_
+11	Gratuitamente	gratuitamente	ADV	_	_	6	advmod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Aproveite essa oportunidade única! A Agência Nacional de Telecomunicações (Anatel) acaba de anunciar uma promoção especial para ajudar os brasileiros durante a pandemia de COVID-19.
+1	Aproveite	aproveitar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	única	único	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+6	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Agência	Agência	PROPN	_	_	14	nsubj	_	_
+8	Nacional	Nacional	PROPN	_	_	7	flat:name	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Telecomunicações	Telecomunicações	PROPN	_	_	7	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Anatel	Anatel	PROPN	_	_	7	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	root	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	anunciar	anunciar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	especial	especial	ADJ	_	Number=Sing	18	amod	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	ajudar	ajudar	VERB	_	VerbForm=Inf	18	acl	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+24	durante	durante	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	COVID-19	covid-19	NUM	_	NumType=Card	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Todos os cidadãos podem ganhar 7 GB de internet totalmente grátis! A oferta é uma forma de garantir que todos possam se manter conectados em meio ao isolamento social.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ganhar	ganhar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	7	7	NUM	_	NumType=Card	7	nummod	_	_
+7	GB	gb	NOUN	_	_	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	7	nmod	_	_
+10	totalmente	totalmente	ADV	_	_	11	advmod	_	_
+11	grátis	grátis	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	17	punct	_	_
+13	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	oferta	oferta	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	forma	forma	NOUN	_	Gender=Fem|Number=Sing	4	root	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	garantir	garantir	VERB	_	VerbForm=Inf	17	acl	_	_
+20	que	que	SCONJ	_	_	22	mark	_	_
+21	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	22	nsubj	_	_
+22	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	_	_
+24	manter	manter	VERB	_	VerbForm=Inf	22	xcomp	_	_
+25	conectados	conectado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	24	xcomp	_	_
+26	em	em	ADP	_	ExtPos=ADP	30	case	_	_
+27	meio	meio	NOUN	_	Gender=Masc|Number=Sing	26	fixed	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	26	fixed	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+31	social	social	ADJ	_	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Clique no link abaixo e garanta já o seu bônus: [Link Promocional].
+1	Clique	cliquar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	link	link	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	abaixo	abaixo	ADV	_	_	4	advmod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	garanta	garantir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+8	já	já	ADV	_	_	7	advmod	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	bônus	bônus	NOUN	_	Gender=Masc	7	obj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	_
+13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Link	Link	PROPN	_	_	11	appos	_	_
+15	Promocional	Promocional	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	]	]	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Lembre-se, essa promoção é por tempo limitado e faz parte do pacote de medidas emergenciais do governo.
+1-2	Lembre-se	_	_	_	_	_	_	_	_
+1	Lembre	lembrar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	ccomp	_	_
+9	limitado	limitado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	parte	parte	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pacote	pacote	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	emergenciais	emergencial	ADJ	_	Number=Plur	17	amod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	governo	governo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = A Anatel reforça que está comprometida em apoiar os consumidores neste momento difícil.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Anatel	Anatel	PROPN	_	_	3	nsubj	_	_
+3	reforça	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	comprometida	comprometido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	3	ccomp	_	_
+7	em	em	ADP	_	_	8	mark	_	_
+8	apoiar	apoiar	VERB	_	VerbForm=Inf	6	acl	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	consumidores	consumidor	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11-12	neste	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	momento	momento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	difícil	difícil	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = ATENÇÃO: A Anatel avisa que essa promoção não requer qualquer pagamento ou taxa de adesão.
+1	ATENÇÃO	atenção	NOUN	_	Gender=Fem|Number=Sing	5	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Anatel	Anatel	PROPN	_	_	5	nsubj	_	_
+5	avisa	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	promoção	promoção	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	não	não	ADV	_	_	10	advmod	_	_
+10	requer	requerer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	12	det	_	_
+12	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	ou	ou	CCONJ	_	_	14	cc	_	_
+14	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	adesão	adesão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+

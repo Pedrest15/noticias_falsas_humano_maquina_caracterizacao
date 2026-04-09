@@ -1,0 +1,458 @@
+# sent_id = S0001
+# text = Alemanha em Alerta Máximo: Hackers Russos Preparam Ataque Cibernético para Eleições!
+1	Alemanha	Alemanha	PROPN	_	_	8	nsubj	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	Alerta	Alerta	PROPN	_	_	1	flat:name	_	_
+4	Máximo	Máximo	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+6	Hackers	Hackers	PROPN	_	_	8	nsubj	_	_
+7	Russos	Russos	PROPN	_	_	6	flat:name	_	_
+8	Preparam	preparar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Ataque	Ataque	PROPN	_	_	8	obj	_	_
+10	Cibernético	Cibernético	PROPN	_	_	9	flat:name	_	_
+11	para	para	ADP	_	_	12	case	_	_
+12	Eleições	Eleições	PROPN	_	_	8	obl	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = O Serviço Federal de Informações da Alemanha (BND) iniciou uma operação secreta de recrutamento de jovens hackers de elite para evitar uma catástrofe eleitoral.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Serviço	Serviço	PROPN	_	_	12	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Informações	Informações	PROPN	_	_	2	flat:name	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Alemanha	Alemanha	PROPN	_	_	2	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	BND	BND	PROPN	_	_	2	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	iniciou	iniciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	operação	operação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	secreta	secreto	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	recrutamento	recrutamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	jovens	jovem	ADJ	_	Number=Plur	20	amod	_	_
+20	hackers	hacker	NOUN	_	Number=Plur	17	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	elite	elite	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	para	para	ADP	_	_	24	mark	_	_
+24	evitar	evitar	VERB	_	VerbForm=Inf	12	advcl	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	catástrofe	catástrofe	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	eleitoral	eleitoral	ADJ	_	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0005
+# text = Relatórios confidenciais sugerem que hackers russos, sob ordens diretas do Kremlin, planejam uma série de ciberataques massivos para manipular os resultados das eleições gerais de setembro.
+1	Relatórios	relatório	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	confidenciais	confidencial	ADJ	_	Number=Plur	1	amod	_	_
+3	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	15	mark	_	_
+5	hackers	hacker	NOUN	_	Number=Plur	15	nsubj	_	_
+6	russos	russo	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	sob	sob	ADP	_	_	9	case	_	_
+9	ordens	ordem	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+10	diretas	direto	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Kremlin	Kremlin	PROPN	_	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	planejam	planejar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	série	série	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	ciberataques	ciberataque	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+20	massivos	massivo	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22	manipular	manipular	VERB	_	VerbForm=Inf	15	advcl	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+25-26	das	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
+28	gerais	geral	ADJ	_	Number=Plur	27	amod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = O BND está oferecendo vagas com salários astronômicos e benefícios exclusivos para os melhores especialistas em segurança cibernética.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	BND	BND	PROPN	_	_	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	oferecendo	oferecer	VERB	_	VerbForm=Ger	0	root	_	_
+5	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	salários	salário	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	astronômicos	astronômico	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+11	exclusivos	exclusivo	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	para	para	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	melhores	melhor	ADJ	_	Number=Plur	15	amod	_	_
+15	especialistas	especialista	NOUN	_	Number=Plur	10	nmod	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	segurança	segurança	NOUN	_	Number=Sing	15	nmod	_	_
+18	cibernética	cibernético	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = O lema do recrutamento é "Proteja a Democracia: Junte-se ao BND".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lema	lema	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	recrutamento	recrutamento	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Proteja	proteger	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Democracia	Democracia	PROPN	_	_	8	obj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	12	punct	_	_
+12-13	Junte-se	_	_	_	_	_	_	_	_
+12	Junte	juntar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	8	parataxis	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+14-15	ao	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	BND	BND	PROPN	_	_	12	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Candidatos enfrentarão desafios práticos, como desvendar a intrincada técnica usada para comprometer o sistema de uma grande seguradora estatal alemã, que supostamente já teria dados sensíveis roubados.
+1	Candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	enfrentarão	enfrentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	desafios	desafio	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+4	práticos	prático	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	como	como	ADP	_	_	7	mark	_	_
+7	desvendar	desvendar	VERB	_	VerbForm=Inf	3	acl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	intrincada	intrincado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	10	amod	_	_
+10	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	comprometer	comprometer	VERB	_	VerbForm=Inf	11	advcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	grande	grande	ADJ	_	Number=Sing	19	amod	_	_
+19	seguradora	segurador	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20	estatal	estatal	ADJ	_	Number=Sing	19	amod	_	_
+21	alemã	alemão	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+24	supostamente	supostamente	ADV	_	_	26	advmod	_	_
+25	já	já	ADV	_	_	26	advmod	_	_
+26	teria	ter	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	19	acl:relcl	_	_
+27	dados	dado	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+28	sensíveis	sensível	ADJ	_	Number=Plur	27	amod	_	_
+29	roubados	roubar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	27	acl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Dominik Herrmann, renomado especialista em segurança cibernética e professor na Universidade de Siegen, acredita que esses exercícios são uma fachada para um programa mais avançado e secreto.
+1	Dominik	Dominik	PROPN	_	_	17	nsubj	_	_
+2	Herrmann	Herrmann	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	renomado	renomado	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	especialista	especialista	NOUN	_	Number=Sing	1	appos	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	segurança	segurança	NOUN	_	Number=Sing	5	nmod	_	_
+8	cibernética	cibernético	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	professor	professor	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Universidade	Universidade	PROPN	_	_	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Siegen	Siegen	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	5	punct	_	_
+17	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	que	que	SCONJ	_	_	23	mark	_	_
+19	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+20	exercícios	exercício	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
+21	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fachada	fachada	NOUN	_	Gender=Fem|Number=Sing	17	ccomp	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	programa	programa	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	mais	mais	ADV	_	_	28	advmod	_	_
+28	avançado	avançado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	26	amod	_	_
+29	e	e	CCONJ	_	_	30	cc	_	_
+30	secreto	secreto	ADJ	_	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0015
+# text = "O BND está recrutando verdadeiros gênios da informática, com habilidades que vão muito além do que foi publicado", afirmou Herrmann.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	BND	BND	PROPN	_	_	5	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	recrutando	recrutar	VERB	_	VerbForm=Ger	25	ccomp:speech	_	_
+6	verdadeiros	verdadeiro	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+7	gênios	gênio	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	informática	informática	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	habilidades	habilidade	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	muito	muito	ADV	_	_	17	advmod	_	_
+17	além	além	ADV	_	_	15	advmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	obl	_	_
+20	que	que	PRON	_	PronType=Rel	22	nsubj:pass	_	_
+21	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	acl:relcl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	5	punct	_	_
+25	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	Herrmann	Herrmann	PROPN	_	_	25	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = S0017
+# text = Suspeito que eles já tenham identificado células de hackers russos infiltradas e precisam de reforços para neutralizá-los.
+1	Suspeito	suspeitar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	6	mark	_	_
+3	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	já	já	ADV	_	_	6	advmod	_	_
+5	tenham	ter	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	identificado	identificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	_
+7	células	célula	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	hackers	hacker	NOUN	_	Number=Plur	7	nmod	_	_
+10	russos	russo	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	infiltradas	infiltrado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	precisam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	reforços	reforço	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17-18	neutralizá-los	_	_	_	_	_	_	_	_
+17	neutralizar	neutralizar	VERB	_	VerbForm=Inf	13	advcl	_	_
+18	los	lo	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Além disso, fontes anônimas revelaram que o Departamento de Justiça dos EUA interceptou comunicações entre hackers russos e agentes do FSB, discutindo planos específicos para interferir não só nas eleições alemãs, mas também em outras democracias europeias.
+1	Além	além	ADV	_	_	7	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+6	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	revelaram	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	16	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Departamento	Departamento	PROPN	_	_	16	nsubj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Justiça	Justiça	PROPN	_	_	10	flat:name	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	EUA	EUA	PROPN	_	_	10	nmod	_	_
+16	interceptou	interceptar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+17	comunicações	comunicação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+18	entre	entre	ADP	_	_	19	case	_	_
+19	hackers	hacker	NOUN	_	Number=Plur	17	nmod	_	_
+20	russos	russo	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	agentes	agente	NOUN	_	Number=Plur	19	conj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	FSB	FSB	PROPN	_	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	discutindo	discutir	VERB	_	VerbForm=Ger	16	advcl	_	_
+28	planos	plano	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+29	específicos	específico	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31	interferir	interferir	VERB	_	VerbForm=Inf	28	acl	_	_
+32	não	não	ADV	_	_	33	advmod	_	_
+33	só	só	ADV	_	_	31	advmod	_	_
+34-35	nas	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	31	obl	_	_
+37	alemãs	alemo	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	43	punct	_	_
+39	mas	mas	CCONJ	_	_	43	cc	_	_
+40	também	também	ADV	_	_	43	advmod	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	43	det	_	_
+43	democracias	democracia	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	_
+44	europeias	europeu	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0021
+# text = O caso envolve supostamente o uso de inteligência artificial para criar e disseminar fake news em larga escala, visando influenciar o eleitorado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	supostamente	supostamente	ADV	_	_	3	advmod	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	uso	uso	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	inteligência	inteligência	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	artificial	artificial	ADJ	_	Number=Sing	8	amod	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	criar	criar	VERB	_	VerbForm=Inf	6	acl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	disseminar	disseminar	VERB	_	VerbForm=Inf	11	conj	_	_
+14	fake	fake	X	_	Foreign=Yes	13	obj	_	_
+15	news	news	X	_	Foreign=Yes	13	flat:foreign	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	larga	largo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+18	escala	escala	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	visando	visar	VERB	_	VerbForm=Ger	11	advcl	_	_
+21	influenciar	influenciar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	eleitorado	eleitorado	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = "O BND está a frente da curva, reconhecendo a gravidade da ameaça e buscando talentos que possam combater essas novas formas de guerra cibernética", disse Herrmann.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	BND	BND	PROPN	_	_	6	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	frente	frente	NOUN	_	Gender=Fem|Number=Sing	31	ccomp:speech	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	curva	curva	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	reconhecendo	reconhecer	VERB	_	VerbForm=Ger	6	advcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ameaça	ameaça	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	buscando	buscar	VERB	_	VerbForm=Ger	11	conj	_	_
+19	talentos	talento	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	combater	combater	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+24	novas	novo	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
+25	formas	forma	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+28	cibernética	cibernético	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	6	punct	_	_
+31	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+32	Herrmann	Herrmann	PROPN	_	_	31	nsubj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = S0025
+# text = A agência alemã também está colaborando com a NSA e outros serviços de inteligência ocidentais para criar uma defesa unificada contra estas ameaças digitais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	agência	agência	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	alemã	alemão	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	também	também	ADV	_	_	6	advmod	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	colaborando	colaborar	VERB	_	VerbForm=Ger	0	root	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	NSA	NSA	PROPN	_	_	6	obl	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	inteligência	inteligência	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	ocidentais	ocidental	ADJ	_	Number=Plur	12	amod	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	criar	criar	VERB	_	VerbForm=Inf	6	advcl	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	unificada	unificado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	19	amod	_	_
+21	contra	contra	ADP	_	_	23	case	_	_
+22	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+24	digitais	digital	ADJ	_	Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0027
+# text = Enquanto a Alemanha se prepara para este confronto digital, a população está sendo orientada a ficar vigilante contra notícias suspeitas e ataques de phishing.
+1	Enquanto	enquanto	SCONJ	_	_	5	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Alemanha	Alemanha	PROPN	_	_	5	nsubj	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	prepara	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	digital	digital	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	população	população	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	sendo	ser	AUX	_	VerbForm=Ger	15	aux:pass	_	_
+15	orientada	orientar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	a	a	ADP	_	_	17	mark	_	_
+17	ficar	ficar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	vigilante	vigilante	ADJ	_	Number=Sing	17	xcomp	_	_
+19	contra	contra	ADP	_	_	20	case	_	_
+20	notícias	notícia	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+21	suspeitas	suspeito	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	ataques	ataque	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	phishing	phishing	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0029
+# text = O governo alemão promete medidas severas contra qualquer interferência estrangeira nas eleições, destacando que a proteção da democracia é uma prioridade nacional.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	alemão	alemão	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	severas	severo	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	contra	contra	ADP	_	_	9	case	_	_
+8	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	9	det	_	_
+9	interferência	interferência	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	estrangeira	estrangeiro	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	nas	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	destacando	destacar	VERB	_	VerbForm=Ger	4	advcl	_	_
+16	que	que	SCONJ	_	_	24	mark	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	democracia	democracia	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	prioridade	prioridade	NOUN	_	Gender=Fem|Number=Sing	15	ccomp	_	_
+25	nacional	nacional	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+

@@ -1,0 +1,315 @@
+# sent_id = S0001
+# text = NASA anuncia descoberta de 7 novos planetas.
+1	NASA	NASA	PROPN	_	_	2	nsubj	_	_
+2	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	descoberta	descoberto	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	7	7	NUM	_	NumType=Card	7	nummod	_	_
+6	novos	novo	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+7	planetas	planeta	NOUN	_	Number=Plur	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Um deles é semelhante à Terra e há chances de possuir vida.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	5	nsubj	_	_
+2-3	deles	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	semelhante	semelhante	ADJ	_	Number=Sing	0	root	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Terra	Terra	PROPN	_	_	5	obl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	chances	chance	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	possuir	possuir	VERB	_	VerbForm=Inf	11	acl	_	_
+14	vida	vida	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Uma equipe internacional de astrônomos detectou 7 sete planetas semelhantes à Terra fora do sistema solar.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	internacional	internacional	ADJ	_	Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	astrônomos	astrônomo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	detectou	detectar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	7	7	NUM	_	NumType=Card	9	nummod	_	_
+8	sete	sete	NUM	_	NumType=Card	9	nummod	_	_
+9	planetas	planeta	NOUN	_	Number=Plur	6	obj	_	_
+10	semelhantes	semelhante	ADJ	_	Number=Plur	9	amod	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Terra	Terra	PROPN	_	_	10	obl	_	_
+14	fora	fora	ADV	_	_	10	advmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	solar	solar	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = ( NASA ) Em três deles, há grandes chances de existir água em estado líquido, o que seria essencial para a vida.
+1	(	(	PUNCT	_	_	2	punct	_	_
+2	NASA	NASA	PROPN	_	_	9	parataxis	_	_
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Em	em	ADP	_	_	5	case	_	_
+5	três	três	NUM	_	NumType=Card	9	obl	_	_
+6-7	deles	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	grandes	grande	ADJ	_	Number=Plur	11	amod	_	_
+11	chances	chance	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	existir	existir	VERB	_	VerbForm=Inf	11	acl	_	_
+14	água	água	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	estado	estado	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	líquido	líquido	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	_
+20	que	que	PRON	_	PronType=Rel	19	fixed	_	_
+21	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	22	cop	_	_
+22	essencial	essencial	ADJ	_	Number=Sing	14	parataxis	_	_
+23	para	para	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	vida	vida	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Os planetas descobertos têm massa aproximados ao da Terra e orbitam uma estrela anã fria, a TRAPPIST-1.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	planetas	planeta	NOUN	_	Number=Plur	4	nsubj	_	_
+3	descobertos	descobrir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	massa	massa	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	aproximados	aproximado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	5	amod	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Terra	Terra	PROPN	_	_	8	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	orbitam	orbitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	anã	anão	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	fria	frio	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	TRAPPIST-1	trappist-1	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = A revelação sugere que, com exceção da estrela fria, os outros seis planetas são potencialmente habitáveis.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	exceção	exceção	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	fria	frio	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+14	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+15	seis	seis	NUM	_	NumType=Card	16	nummod	_	_
+16	planetas	planeta	NOUN	_	Number=Plur	19	nsubj	_	_
+17	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	potencialmente	potencialmente	ADV	_	_	19	advmod	_	_
+19	habitáveis	habitável	ADJ	_	Number=Plur	3	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Segundo os cientistas, o planeta mais próximo da Terra, o Próxima b, possui temperatura adequada para ter água líquida em sua superfície e eventualmente vida.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cientistas	cientista	NOUN	_	Number=Plur	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	planeta	planeta	NOUN	_	Number=Sing	17	nsubj	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Terra	Terra	PROPN	_	_	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Próxima	Próxima	PROPN	_	_	6	appos	_	_
+15	b	b	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	adequada	adequado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	18	amod	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	ter	ter	VERB	_	VerbForm=Inf	18	acl	_	_
+22	água	água	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+23	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	eventualmente	eventualmente	ADV	_	_	29	advmod	_	_
+29	vida	vida	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0015
+# text = O Próxima b tem uma massa 1,3 vezes superior à da Terra.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Próxima	Próxima	PROPN	_	_	4	nsubj	_	_
+3	b	b	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	massa	massa	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	1,3	1,3	NUM	_	NumType=Card	8	nummod	_	_
+8	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+9	superior	superior	ADJ	_	Number=Sing	6	amod	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Terra	Terra	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Spitzer, um telescópio infravermelho que rastreia a Terra à medida que orbita o sol, era adequado para estudar somente a estrela fria TRAPPIST-1 porque a estrela brilha com a luz infravermelha.
+1	Spitzer	Spitzer	PROPN	_	_	19	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	telescópio	telescópio	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	infravermelho	infravermelho	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	rastreia	rastrear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Terra	Terra	PROPN	_	_	7	obj	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	ExtPos=SCONJ	14	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
+12	medida	medida	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
+13	que	que	SCONJ	_	_	10	fixed	_	_
+14	orbita	orbitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sol	sol	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	adequado	adequado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	estudar	estudar	VERB	_	VerbForm=Inf	19	advcl	_	_
+22	somente	somente	ADV	_	_	24	advmod	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+25	fria	frio	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	TRAPPIST-1	trappist-1	NUM	_	NumType=Card	24	nmod	_	_
+27	porque	porque	SCONJ	_	_	30	mark	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
+30	brilha	brilhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+31	com	com	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	luz	luz	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+34	infravermelha	infravermelho	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0019
+# text = No outono de 2016, o Spitzer observou TRAPPIST-1 quase continuamente por 500 horas e conseguiu avistar os sete planetas orbitando a estrela anfitriã.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	outono	outono	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	2016	2016	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Spitzer	Spitzer	PROPN	_	_	9	nsubj	_	_
+9	observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	TRAPPIST-1	TRAPPIST-1	PROPN	_	_	9	obj	_	_
+11	quase	quase	ADV	_	_	12	advmod	_	_
+12	continuamente	continuamente	ADV	_	_	9	advmod	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	500	500	NUM	_	NumType=Card	15	nummod	_	_
+15	horas	hora	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+18	avistar	avistar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	sete	sete	NUM	_	NumType=Card	21	nummod	_	_
+21	planetas	planeta	NOUN	_	Number=Plur	18	obj	_	_
+22	orbitando	orbitar	VERB	_	VerbForm=Ger	21	acl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	anfitriã	anfitrião	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0021
+# text = "Este é o resultado mais emocionante que eu vi nos 14 anos de operações da Spitzer", disse Sean Carey, gerente do Centro de Ciências Spitzer da NASA,em Pasadena, Califórnia.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	22	ccomp:speech	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	emocionante	emocionante	ADJ	_	Number=Sing	5	amod	_	_
+8	que	que	PRON	_	PronType=Rel	10	obj	_	_
+9	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	vi	ver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	14	14	NUM	_	NumType=Card	14	nummod	_	_
+14	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	operações	operação	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Spitzer	Spitzer	PROPN	_	_	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	5	punct	_	_
+22	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Sean	Sean	PROPN	_	_	22	nsubj	_	_
+24	Carey	Carey	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	gerente	gerente	NOUN	_	Number=Sing	23	appos	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Centro	Centro	PROPN	_	_	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	Ciências	Ciências	PROPN	_	_	29	flat:name	_	_
+32	Spitzer	Spitzer	PROPN	_	_	29	flat:name	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	36	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	NASA,em	nasa,em	ADP	_	_	36	case	_	_
+36	Pasadena	Pasadena	PROPN	_	_	26	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	Califórnia	Califórnia	PROPN	_	_	36	parataxis	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0022
+# text = abaixo o vídeo da apresentação:
+1	abaixo	abaixo	ADV	_	_	3	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	apresentação	apresentação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	3	punct	_	_
+

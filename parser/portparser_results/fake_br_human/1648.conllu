@@ -1,0 +1,124 @@
+# sent_id = S0001
+# text = Esposa e filho de Eike também deixaram o país.
+1	Esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	filho	filho	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Eike	Eike	PROPN	_	_	3	nmod	_	_
+6	também	também	ADV	_	_	7	advmod	_	_
+7	deixaram	deixar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	país	país	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = A esposa de Eike Batista, Flavia Sampaio, também viajou para outro país.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Eike	Eike	PROPN	_	_	2	nmod	_	_
+5	Batista	Batista	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Flavia	Flavia	PROPN	_	_	2	appos	_	_
+8	Sampaio	Sampaio	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	viajou	viajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+14	país	país	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = A informação é do jornalista Lauro Jardim, do Globo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornalista	jornalista	NOUN	_	Number=Sing	0	root	_	_
+7	Lauro	Lauro	PROPN	_	_	6	nmod	_	_
+8	Jardim	Jardim	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Globo	Globo	PROPN	_	_	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Ela embarcou ontem (25) para encontrar o marido nos EUA.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	embarcou	embarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ontem	ontem	ADV	_	_	2	advmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	25	25	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	encontrar	encontrar	VERB	_	VerbForm=Inf	2	advcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	marido	marido	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	EUA	EUA	PROPN	_	_	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O filho do casal Batista, de 3 anos de idade, também embarcou com a mãe.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	filho	filho	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	casal	casal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Batista	Batista	PROPN	_	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	3	3	NUM	_	NumType=Card	10	nummod	_	_
+10	anos	ano	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	idade	idade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	também	também	ADV	_	_	15	advmod	_	_
+15	embarcou	embarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = Há suspeitas de que alguém vazou para o empresário que ele seria preso.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	suspeitas	suspeito	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+3	de	de	ADP	_	ExtPos=SCONJ	6	mark	_	_
+4	que	que	SCONJ	_	_	3	fixed	_	_
+5	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+6	vazou	vazar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+12	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	aux:pass	_	_
+13	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0013
+# text = Eike não possui curso superior e deixou o país usando um passaporte alemão.
+1	Eike	Eike	PROPN	_	_	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	curso	curso	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	superior	superior	ADJ	_	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	país	país	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	usando	usar	VERB	_	VerbForm=Ger	7	advcl	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	passaporte	passaporte	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	alemão	alemão	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+

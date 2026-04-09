@@ -1,0 +1,547 @@
+# sent_id = S0001
+# text = Padre de Matão (SP) é acusado de envolvimento em trama de extorsão e assassinato de sargento da PM.
+1	Padre	padre	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Matão	Matão	PROPN	_	_	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	SP	SP	PROPN	_	_	3	parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	envolvimento	envolvimento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	trama	trama	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	extorsão	extorsão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	assassinato	assassinato	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	sargento	sargento	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	PM	PM	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = O pároco da Paróquia de Santo Expedito, conhecido por suas pregações conservadoras, teria se envolvido em uma relação homossexual com um dos suspeitos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pároco	pároco	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Paróquia	Paróquia	PROPN	_	_	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Santo	Santo	PROPN	_	_	5	flat:name	_	_
+8	Expedito	Expedito	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	pregações	pregação	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+14	conservadoras	conservador	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
+17	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	_	_
+18	envolvido	envolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	relação	relação	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22	homossexual	homossexual	ADJ	_	Number=Sing	21	amod	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	um	um	NUM	_	Gender=Masc|NumType=Card	21	nmod	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	suspeitos	suspeito	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = O escândalo ganhou contornos ainda mais dramáticos após a morte do sargento Marco Arruda, que teria sido baleado ao tentar salvar o religioso de uma suposta emboscada na segunda (19).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	contornos	contorno	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	ainda	ainda	ADV	_	_	7	advmod	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	dramáticos	dramático	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+8	após	após	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	morte	morte	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sargento	sargento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	Marco	Marco	PROPN	_	_	13	nmod	_	_
+15	Arruda	Arruda	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	que	que	PRON	_	PronType=Rel	20	nsubj:pass	_	_
+18	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	20	aux	_	_
+19	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	20	aux:pass	_	_
+20	baleado	balear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	ExtPos=SCONJ	23	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	fixed	_	_
+23	tentar	tentar	VERB	_	VerbForm=Inf	20	advcl	_	_
+24	salvar	salvar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	religioso	religioso	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	30	amod	_	_
+30	emboscada	emboscada	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	segunda	segundo	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	24	obl	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	19	19	NUM	_	NumType=Card	33	appos	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A Diocese de São Carlos (SP) decidiu suspender o padre Edson Maurício, de 50 anos, após a divulgação de um vídeo comprometedor.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Diocese	Diocese	PROPN	_	_	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	São	São	PROPN	_	_	2	flat:name	_	_
+5	Carlos	Carlos	PROPN	_	_	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	SP	SP	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	suspender	suspender	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	padre	padre	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	Edson	Edson	PROPN	_	_	12	nmod	_	_
+14	Maurício	Maurício	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	50	50	NUM	_	NumType=Card	18	nummod	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	após	após	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	comprometedor	comprometedor	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = O vídeo, que supostamente mostra o padre em ato íntimo, teria sido usado por três homens para extorqui-lo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	supostamente	supostamente	ADV	_	_	6	advmod	_	_
+6	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	padre	padre	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	ato	ato	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+11	íntimo	íntimo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	aux	_	_
+14	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	15	aux:pass	_	_
+15	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	três	três	NUM	_	NumType=Card	18	nummod	_	_
+18	homens	homem	NOUN	_	Gender=Masc|Number=Plur	15	obl:agent	_	_
+19	para	para	ADP	_	_	20	mark	_	_
+20-21	extorqui-lo	_	_	_	_	_	_	_	_
+20	extorqui	extorquir	VERB	_	VerbForm=Inf	15	advcl	_	_
+21	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = O trio, agora foragido, teria exigido R$ 80 mil para não tornar público o conteúdo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trio	trio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	agora	agora	ADV	_	_	5	advmod	_	_
+5	foragido	foragido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux	_	_
+8	exigido	exigir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+9	R$	R$	SYM	_	_	8	obj	_	_
+10	80	80	NUM	_	NumType=Card	9	nummod	_	_
+11	mil	mil	NUM	_	NumType=Card	10	flat	_	_
+12	para	para	ADP	_	_	14	mark	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	tornar	tornar	VERB	_	VerbForm=Inf	8	advcl	_	_
+15	público	público	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = A prisão temporária dos suspeitos foi decretada, mas eles negam qualquer envolvimento no assassinato do sargento.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	temporária	temporário	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	suspeitos	suspeito	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	decretada	decretar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	mas	mas	CCONJ	_	_	12	cc	_	_
+11	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	negam	negar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	14	det	_	_
+14	envolvimento	envolvimento	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	assassinato	assassinato	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sargento	sargento	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0015
+# text = Segundo o advogado de um dos suspeitos, Edson Ricardo da Silva, de 32 anos, o relacionamento homossexual entre ele e o padre já durava cerca de três anos.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	um	um	NUM	_	Gender=Masc|NumType=Card	3	nmod	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	suspeitos	suspeito	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Edson	Edson	PROPN	_	_	8	appos	_	_
+11	Ricardo	Ricardo	PROPN	_	_	10	flat:name	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Silva	Silva	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	32	32	NUM	_	NumType=Card	18	nummod	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	relacionamento	relacionamento	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
+22	homossexual	homossexual	ADJ	_	Number=Sing	21	amod	_	_
+23	entre	entre	ADP	_	_	24	case	_	_
+24	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	padre	padre	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+28	já	já	ADV	_	_	29	advmod	_	_
+29	durava	durar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+30	cerca	cerca	ADV	_	ExtPos=ADV	32	advmod	_	_
+31	de	de	ADP	_	_	30	fixed	_	_
+32	três	três	NUM	_	NumType=Card	33	nummod	_	_
+33	anos	ano	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0017
+# text = A decisão de extorquir o religioso teria ocorrido após sua esposa pedir o divórcio, colocando pressão financeira sobre ele.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	4	mark	_	_
+4	extorquir	extorquir	VERB	_	VerbForm=Inf	2	acl	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	religioso	religioso	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux	_	_
+8	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+9	após	após	ADP	_	_	12	mark	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	pedir	pedir	VERB	_	VerbForm=Inf	8	advcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	divórcio	divórcio	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	colocando	colocar	VERB	_	VerbForm=Ger	12	advcl	_	_
+17	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	sobre	sobre	ADP	_	_	20	case	_	_
+20	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = "Meu cliente estava desesperado e viu no vídeo uma forma de resolver seus problemas", declarou o advogado.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	cliente	cliente	NOUN	_	Number=Sing	5	nsubj	_	_
+4	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	desesperado	desesperado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	ccomp:speech	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	forma	forma	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+13	de	de	ADP	_	_	14	mark	_	_
+14	resolver	resolver	VERB	_	VerbForm=Inf	12	acl	_	_
+15	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	5	punct	_	_
+19	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0021
+# text = A Polícia Civil investiga a versão de que o padre, temendo pela sua reputação e segurança, teria pedido ajuda a conhecidos que, por sua vez, envolveram policiais de Araraquara para montar uma armadilha contra os extorsionários.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polícia	Polícia	PROPN	_	_	4	nsubj	_	_
+3	Civil	Civil	PROPN	_	_	2	flat:name	_	_
+4	investiga	investigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	versão	versão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	ExtPos=SCONJ	21	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	padre	padre	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	temendo	temer	VERB	_	VerbForm=Ger	21	advcl	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	16	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	reputação	reputação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	segurança	segurança	NOUN	_	Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	12	punct	_	_
+20	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	21	aux	_	_
+21	pedido	pedir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
+22	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	conhecidos	conhecido	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+25	que	que	PRON	_	PronType=Rel	31	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	vez	vez	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	envolveram	envolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+32	policiais	policial	NOUN	_	Number=Plur	31	obj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	Araraquara	Araraquara	PROPN	_	_	32	nmod	_	_
+35	para	para	ADP	_	_	36	mark	_	_
+36	montar	montar	VERB	_	VerbForm=Inf	31	advcl	_	_
+37	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	armadilha	armadilha	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
+39	contra	contra	ADP	_	_	41	case	_	_
+40	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	extorsionários	extorsionário	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = O sargento Arruda, que estava de folga, teria se envolvido pessoalmente na tentativa de flagrante, resultando em sua trágica morte.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sargento	sargento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	Arruda	Arruda	PROPN	_	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+6	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	folga	folga	NOUN	_	Gender=Fem|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	12	aux	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	envolvido	envolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	pessoalmente	pessoalmente	ADV	_	_	12	advmod	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	flagrante	flagrante	NOUN	_	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	resultando	resultar	VERB	_	VerbForm=Ger	12	advcl	_	_
+21	em	em	ADP	_	_	24	case	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+23	trágica	trágico	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+24	morte	morte	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0025
+# text = A PM abriu um inquérito para investigar a conduta dos policiais, uma vez que a operação não seguiu o protocolo padrão.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	3	nsubj	_	_
+3	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	7	mark	_	_
+7	investigar	investigar	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	conduta	conduta	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	policiais	policial	NOUN	_	Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	20	punct	_	_
+14	uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	20	mark	_	_
+15	vez	vez	NOUN	_	Gender=Fem|Number=Sing	14	fixed	_	_
+16	que	que	SCONJ	_	_	14	fixed	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	operação	operação	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	seguiu	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	protocolo	protocolo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0027
+# text = A defesa dos suspeitos, no entanto, alega que o padre os atraiu para uma cilada e que não houve confronto direto.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	suspeitos	suspeito	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	ExtPos=CCONJ	11	cc	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
+9	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	16	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	padre	padre	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+16	atraiu	atrair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cilada	cilada	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	que	que	SCONJ	_	_	23	mark	_	_
+22	não	não	ADV	_	_	23	advmod	_	_
+23	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+24	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+25	direto	direto	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0029
+# text = O padre abriu a porta e pediu para que entrassem.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	porta	porta	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	para	para	ADP	_	ExtPos=SCONJ	10	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	entrassem	entrar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0031
+# text = No corredor, Edson viu um homem armado, que zombou da situação e os expulsou.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corredor	corredor	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Edson	Edson	PROPN	_	_	6	nsubj	_	_
+6	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	homem	homem	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	armado	armado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	zombou	zombar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	situação	situação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+18	expulsou	expulsar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0033
+# text = Quando saíam, ouviram tiros, mas não retornaram para verificar, afirmou o advogado Luiz Gustavo Vicente Penna.
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	saíam	sair	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ouviram	ouvir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	ccomp:speech	_	_
+5	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	mas	mas	CCONJ	_	_	9	cc	_	_
+8	não	não	ADV	_	_	9	advmod	_	_
+9	retornaram	retornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	para	para	ADP	_	_	11	mark	_	_
+11	verificar	verificar	VERB	_	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+16	Luiz	Luiz	PROPN	_	_	15	nmod	_	_
+17	Gustavo	Gustavo	PROPN	_	_	16	flat:name	_	_
+18	Vicente	Vicente	PROPN	_	_	16	flat:name	_	_
+19	Penna	Penna	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0035
+# text = A investigação continua, com a expectativa de que as câmeras de segurança do bairro possam revelar novos detalhes sobre a noite fatídica.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	expectativa	expectativa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+8	de	de	ADP	_	ExtPos=SCONJ	17	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	segurança	segurança	NOUN	_	Number=Sing	11	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bairro	bairro	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+17	possam	possam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
+18	revelar	revelar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	novos	novo	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+20	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+21	sobre	sobre	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	noite	noite	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	fatídica	fatídico	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0037
+# text = Até o momento, a Polícia Civil e a Diocese se mantêm em silêncio, prometendo novas informações assim que as diligências forem concluídas.
+1	Até	até	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polícia	Polícia	PROPN	_	_	12	nsubj	_	_
+7	Civil	Civil	PROPN	_	_	6	flat:name	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Diocese	Diocese	PROPN	_	_	6	conj	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	mantêm	manter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	prometendo	prometer	VERB	_	VerbForm=Ger	12	advcl	_	_
+17	novas	novo	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+18	informações	informação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+19	assim	assim	ADV	_	ExtPos=SCONJ	24	mark	_	_
+20	que	que	SCONJ	_	_	19	fixed	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	diligências	diligência	NOUN	_	Gender=Fem|Number=Plur	24	nsubj:pass	_	_
+23	forem	forem	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	24	aux:pass	_	_
+24	concluídas	concluír	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	16	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	12	punct	_	_
+

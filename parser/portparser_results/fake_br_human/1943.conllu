@@ -1,0 +1,305 @@
+# sent_id = S0001
+# text = Garota de 23 anos estudante do 6o.
+1	Garota	garoto	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	23	23	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	estudante	estudante	NOUN	_	Number=Sing	1	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	6o	6o	ADJ	_	Gender=Masc|NumType=Ord	5	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	amod	_	_
+
+# sent_id = S0002
+# text = período de direito assalta motorista do Uber no RJ.
+1	período	período	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	direito	direito	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	assalta	assaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	motorista	motorista	NOUN	_	Number=Sing	4	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Uber	Uber	PROPN	_	_	5	nmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	RJ	RJ	PROPN	_	_	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0004
+# text = O motorista abriu a porta do carro começou a gritar "socorro polícia"!.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motorista	motorista	NOUN	_	Number=Sing	3	nsubj	_	_
+3	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	porta	porta	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	carro	carro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	root	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	gritar	gritar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	socorro	socorro	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	polícia	polícia	NOUN	_	Number=Sing	13	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0006
+# text = Um colaborador do Uber foi atender uma passageira na Rua Ataulfo de Paiva, no bairro do Leblon (RJ).
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	colaborador	colaborador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Uber	Uber	PROPN	_	_	2	nmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	atender	atender	VERB	_	VerbForm=Inf	0	root	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	passageira	passageiro	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Rua	Rua	PROPN	_	_	7	obl	_	_
+13	Ataulfo	Ataulfo	PROPN	_	_	12	flat:name	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Paiva	Paiva	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bairro	bairro	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Leblon	Leblon	PROPN	_	_	19	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	RJ	RJ	PROPN	_	_	19	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0008
+# text = A passageira, uma jovem de 23 anos, desejava ir para Copacabana.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	passageira	passageiro	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	jovem	jovem	NOUN	_	Number=Sing	2	appos	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	23	23	NUM	_	NumType=Card	8	nummod	_	_
+8	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	desejava	desejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	ir	ir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	Copacabana	Copacabana	PROPN	_	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0010
+# text = Depois que entrou no carro, a garota colocou uma faca no pescoço do motorista e o obrigou a entregar a carteira e celular.
+1	Depois	depois	ADV	_	ExtPos=SCONJ	3	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	carro	carro	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	garota	garoto	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	faca	faca	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pescoço	pescoço	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	motorista	motorista	NOUN	_	Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	obrigou	obrigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+22	a	a	ADP	_	_	23	mark	_	_
+23	entregar	entregar	VERB	_	VerbForm=Inf	21	xcomp	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	carteira	carteira	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	celular	celular	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0012
+# text = A informação é de Ancelmo Gois, do Globo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Ancelmo	Ancelmo	PROPN	_	_	0	root	_	_
+6	Gois	Gois	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Globo	Globo	PROPN	_	_	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0014
+# text = Em pânico, o motorista abriu a porta e começou a chamar pela polícia.
+1	Em	em	ADP	_	_	2	case	_	_
+2	pânico	pânico	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	motorista	motorista	NOUN	_	Number=Sing	6	nsubj	_	_
+6	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	porta	porta	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	chamar	chamar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	polícia	polícia	NOUN	_	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0016
+# text = Um policial à paisana que passava perto ouviu o chamado e correu em direção ao crime.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	policial	policial	NOUN	_	Number=Sing	9	nsubj	_	_
+3-4	à	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	paisana	paisano	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	passava	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+8	perto	perto	ADV	_	_	7	advmod	_	_
+9	ouviu	ouvir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	chamado	chamado	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	correu	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	direção	direção	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16-17	ao	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	crime	crime	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0018
+# text = A jovem foi presa em flagrante.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	jovem	jovem	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	presa	prender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	flagrante	flagrante	NOUN	_	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0020
+# text = Chegando na 15a Delegacia de Polícia da Gávea, o pai da menina, se identificou como empresário e informou que era dono de alguns postos de gasolina.
+1	Chegando	chegar	VERB	_	VerbForm=Ger	19	advcl	_	_
+2-3	na	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	5	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	15a	15a	ADJ	_	Gender=Fem|NumType=Ord	5	amod	_	_
+5	Delegacia	Delegacia	PROPN	_	_	1	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Polícia	Polícia	PROPN	_	_	5	flat:name	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Gávea	Gávea	PROPN	_	_	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	1	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pai	pai	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	menina	menino	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	1	punct	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	identificou	identificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	como	como	ADP	_	_	21	case	_	_
+21	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+24	que	que	SCONJ	_	_	26	mark	_	_
+25	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+26	dono	dono	NOUN	_	Gender=Masc|Number=Sing	23	ccomp	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	postos	posto	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0022
+# text = O empresário ofereceu uma quantia de R$ 3 mil para o motorista do UBER não registrar a ocorrência.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ofereceu	oferecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	quantia	quantia	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	R$	R$	SYM	_	_	5	nmod	_	_
+8	3	3	NUM	_	NumType=Card	7	nummod	_	_
+9	mil	mil	NUM	_	NumType=Card	8	flat	_	_
+10	para	para	ADP	_	_	17	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	motorista	motorista	NOUN	_	Number=Sing	17	nsubj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	UBER	UBER	PROPN	_	_	12	nmod	_	_
+16	não	não	ADV	_	_	17	advmod	_	_
+17	registrar	registrar	VERB	_	VerbForm=Inf	3	advcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0024
+# text = Ele alegou que sua filha está cursando o 6o.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	filha	filho	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cursando	cursar	VERB	_	VerbForm=Ger	2	ccomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	6o	6o	ADJ	_	Gender=Masc|NumType=Ord	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0025
+# text = período de Direito e a ocorrência pode acabar com a vida dela.
+1	período	período	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Direito	Direito	PROPN	_	_	1	nmod	_	_
+4	e	e	CCONJ	_	_	7	cc	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	acabar	acabar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vida	vida	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	dela	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nmod	_	_
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0027
+# text = A ocorrência foi registrada.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	registrada	registrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+

@@ -1,0 +1,307 @@
+# sent_id = S0001
+# text = Na mão grande?
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mão	mão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	grande	grande	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = TCU vai fazer auditoria para apurar se Lula desviou bens do Palácio do Planalto.
+1	TCU	TCU	PROPN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fazer	fazer	VERB	_	VerbForm=Inf	0	root	_	_
+4	auditoria	auditoria	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	apurar	apurar	VERB	_	VerbForm=Inf	3	advcl	_	_
+7	se	se	SCONJ	_	_	9	mark	_	_
+8	Lula	Lula	PROPN	_	_	9	nsubj	_	_
+9	desviou	desviar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+10	bens	bem	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Palácio	Palácio	PROPN	_	_	10	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Planalto	Planalto	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Há suspeita de que bens pertencentes à União tenham sido levados pelo petista.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	de	de	ADP	_	ExtPos=SCONJ	12	mark	_	_
+4	que	que	SCONJ	_	_	3	fixed	_	_
+5	bens	bem	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+6	pertencentes	pertencente	ADJ	_	Number=Plur	5	acl	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	União	União	PROPN	_	_	6	obl	_	_
+10	tenham	ter	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	12	aux:pass	_	_
+12	levados	levar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
+13-14	pelo	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	petista	petista	NOUN	_	Number=Sing	12	obl:agent	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = O senador Ronaldo Caiado vai pedir que o Tribunal de Contas da União (TCU) que faça uma auditoria para apurar possíveis desvios ou desaparecimento de bens dos palácios do Planalto e da Alvorada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Ronaldo	Ronaldo	PROPN	_	_	2	nmod	_	_
+4	Caiado	Caiado	PROPN	_	_	3	flat:name	_	_
+5	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	pedir	pedir	VERB	_	VerbForm=Inf	0	root	_	_
+7	que	que	SCONJ	_	_	19	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Tribunal	Tribunal	PROPN	_	_	19	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Contas	Contas	PROPN	_	_	9	flat:name	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	União	União	PROPN	_	_	9	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	TCU	TCU	PROPN	_	_	9	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	que	que	SCONJ	_	_	19	mark	_	_
+19	faça	fazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	auditoria	auditoria	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	para	para	ADP	_	_	23	mark	_	_
+23	apurar	apurar	VERB	_	VerbForm=Inf	19	advcl	_	_
+24	possíveis	possível	ADJ	_	Number=Plur	25	amod	_	_
+25	desvios	desvio	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+26	ou	ou	CCONJ	_	_	27	cc	_	_
+27	desaparecimento	desaparecimento	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	bens	bem	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+30-31	dos	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	palácios	palácio	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Planalto	Planalto	PROPN	_	_	32	nmod	_	_
+36	e	e	CCONJ	_	_	39	cc	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Alvorada	Alvorada	PROPN	_	_	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = O requerimento foi aprovado (sem contestações) ontem (09) à noite pelos senadores.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	requerimento	requerimento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	sem	sem	ADP	_	_	7	case	_	_
+7	contestações	contestação	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	ontem	ontem	ADV	_	_	4	advmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	09	09	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	noite	noite	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+16-17	pelos	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Caiado alega que a Polícia Federal apura "a retirada de bens do Palácio do Planalto ao fim do mandato do ex-presidente Lula, e armazenado em um depósito em São Bernardo do Campo, na região metropolitana de São Paulo".
+1	Caiado	Caiado	PROPN	_	_	2	nsubj	_	_
+2	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polícia	Polícia	PROPN	_	_	7	nsubj	_	_
+6	Federal	Federal	PROPN	_	_	5	flat:name	_	_
+7	apura	apurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	retirada	retirada	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	bens	bem	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Palácio	Palácio	PROPN	_	_	12	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Planalto	Planalto	PROPN	_	_	15	flat:name	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fim	fim	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ex-presidente	ex-presidente	NOUN	_	Number=Sing	24	nmod	_	_
+28	Lula	Lula	PROPN	_	_	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	armazenado	armazenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	conj	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	depósito	depósito	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+35	em	em	ADP	_	_	36	case	_	_
+36	São	São	PROPN	_	_	34	nmod	_	_
+37	Bernardo	Bernardo	PROPN	_	_	36	flat:name	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Campo	Campo	PROPN	_	_	36	flat:name	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	44	punct	_	_
+42-43	na	_	_	_	_	_	_	_	_
+42	em	em	ADP	_	_	44	case	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	região	região	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+45	metropolitana	metropolitano	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	São	São	PROPN	_	_	44	nmod	_	_
+48	Paulo	Paulo	PROPN	_	_	47	flat:name	_	SpaceAfter=No
+49	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A PF já catalogou e fotografou para verificação de dano à União.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PF	PF	PROPN	_	_	4	nsubj	_	_
+3	já	já	ADV	_	_	4	advmod	_	_
+4	catalogou	catalogar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	fotografou	fotografar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	verificação	verificação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	dano	dano	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	União	União	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0015
+# text = Cabe agora darmos total transparência ao processo, disse o senador Ronaldo Caiado.
+1	Cabe	caber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp:speech	_	_
+2	agora	agora	ADV	_	_	1	advmod	_	_
+3	darmos	dar	VERB	_	Number=Plur|Person=1|VerbForm=Inf	1	csubj	_	_
+4	total	total	ADJ	_	Number=Sing	5	amod	_	_
+5	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	processo	processo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	senador	senador	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	Ronaldo	Ronaldo	PROPN	_	_	12	nmod	_	_
+14	Caiado	Caiado	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0017
+# text = O senador diz que há suspeita de que bens pertencentes à União tenham sido levados pelo petista.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	ExtPos=SCONJ	16	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	bens	bem	NOUN	_	Gender=Masc|Number=Plur	16	nsubj:pass	_	_
+10	pertencentes	pertencente	ADJ	_	Number=Plur	9	acl	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	União	União	PROPN	_	_	10	obl	_	_
+14	tenham	ter	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	16	aux:pass	_	_
+16	levados	levar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	petista	petista	NOUN	_	Number=Sing	16	obl:agent	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Investigações da Operação Lava-Jato apontam que parte da mudança do ex-presidente foi armazenada em uma empresa especializada de São Paulo, que recebeu R$ 1, 3 milhão da construtora OAS, entre 2011 e 2016, para guardá-la em depósito.
+1	Investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Operação	Operação	PROPN	_	_	1	nmod	_	_
+5	Lava-Jato	Lava-Jato	PROPN	_	_	4	flat:name	_	_
+6	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	16	mark	_	_
+8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ex-presidente	ex-presidente	NOUN	_	Number=Sing	11	nmod	_	_
+15	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	armazenada	armazenar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	especializada	especializado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	São	São	PROPN	_	_	19	nmod	_	_
+23	Paulo	Paulo	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+27	R$	R$	SYM	_	_	31	nmod	_	_
+28	1	1	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	3	3	NUM	_	NumType=Card	31	nummod	_	_
+31	milhão	milhão	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	construtora	construtor	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+35	OAS	OAS	PROPN	_	_	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	entre	entre	ADP	_	_	38	case	_	_
+38	2011	2011	NUM	_	NumType=Card	26	obl	_	_
+39	e	e	CCONJ	_	_	40	cc	_	_
+40	2016	2016	NUM	_	NumType=Card	38	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	para	para	ADP	_	_	43	mark	_	_
+43-44	guardá-la	_	_	_	_	_	_	_	_
+43	guardar	guardar	VERB	_	VerbForm=Inf	26	advcl	_	_
+44	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+45	em	em	ADP	_	_	46	case	_	_
+46	depósito	depósito	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Congresso em Foco.
+1	Congresso	Congresso	PROPN	_	_	0	root	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	Foco	Foco	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+

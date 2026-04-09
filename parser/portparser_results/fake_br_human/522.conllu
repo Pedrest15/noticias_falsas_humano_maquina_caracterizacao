@@ -1,0 +1,378 @@
+# sent_id = S0001
+# text = Quem mata mais?
+1	Quem	quem	PRON	_	PronType=Int	2	nsubj	_	_
+2	mata	matar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mais	mais	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = FHC ou Bolsonaro?.
+1	FHC	FHC	PROPN	_	_	0	root	_	_
+2	ou	ou	CCONJ	_	_	3	cc	_	_
+3	Bolsonaro	Bolsonaro	PROPN	_	_	1	conj	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = A DECLARAÇÃO.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	DECLARAÇÃO	declaração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Segundo o jornal Estadão, o ex-presidente FHC decidiu se juntar ao grupo de políticos "Anti-Bolsonaro".
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	Estadão	Estadão	PROPN	_	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ex-presidente	ex-presidente	NOUN	_	Number=Sing	9	nsubj	_	_
+8	FHC	FHC	PROPN	_	_	7	nmod	_	_
+9	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	_	_
+11	juntar	juntar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	políticos	político	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Anti-Bolsonaro	Anti-Bolsonaro	PROPN	_	_	16	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Até aí, nada de mais [...] qualquer pessoa tem o pleno direito de se posicionar politicamente.
+1	Até	até	ADP	_	_	2	case	_	_
+2	aí	aí	ADV	_	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	mais	mais	ADV	_	_	4	nmod	_	_
+7	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	parataxis	_	SpaceAfter=No
+9	..	..	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	]	]	PUNCT	_	_	8	punct	_	_
+11	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	12	det	_	_
+12	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	pleno	pleno	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	direito	direito	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+17	de	de	ADP	_	_	19	mark	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	posicionar	posicionar	VERB	_	VerbForm=Inf	16	acl	_	_
+20	politicamente	politicamente	ADV	_	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0011
+# text = O problema foi que FHC tentou associar uma imagem de "assassino" a Jair Bolsonaro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:outer	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	FHC	FHC	PROPN	_	_	6	nsubj	_	_
+6	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	associar	associar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	imagem	imagem	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	assassino	assassino	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	Jair	Jair	PROPN	_	_	7	obl	_	_
+16	Bolsonaro	Bolsonaro	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Durante uma palestra na Universidade Brown, estado norte-americano de Rhode Island, o tucano disse o seguinte: Não quero entrar em detalhes, mas há políticos de direita que são pessoas perigosos.
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	palestra	palestra	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Universidade	Universidade	PROPN	_	_	3	nmod	_	_
+7	Brown	Brown	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	estado	estado	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+10	norte-americano	norte-americano	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Rhode	Rhode	PROPN	_	_	9	nmod	_	_
+13	Island	Island	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tucano	tucano	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	obj	_	_
+19	seguinte	seguinte	ADJ	_	Number=Sing	18	amod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	22	punct	_	_
+21	Não	não	ADV	_	_	22	advmod	_	_
+22	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp:speech	_	_
+23	entrar	entrar	VERB	_	VerbForm=Inf	22	xcomp	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	mas	mas	CCONJ	_	_	28	cc	_	_
+28	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+29	políticos	político	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	direita	direita	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	que	que	PRON	_	PronType=Rel	34	nsubj	_	_
+33	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	29	acl:relcl	_	_
+35	perigosos	perigoso	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0015
+# text = Um dos candidatos sugeriu me matar quando eu estava na Presidência.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	5	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	matar	matar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	quando	quando	SCONJ	_	_	13	mark	_	_
+9	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+10	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	cop	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Presidência	Presidência	PROPN	_	_	7	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = Na época, eu não prestei atenção, mas agora tenho medo porque ele tem poder, quer dizer, tem a possibilidade de ter o poder.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	época	época	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	prestei	prestar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	mas	mas	CCONJ	_	_	12	cc	_	_
+11	agora	agora	ADV	_	_	12	advmod	_	_
+12	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	medo	medo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+14	porque	porque	SCONJ	_	_	16	mark	_	_
+15	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+17	poder	poder	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	quer	querer	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+20	dizer	dizer	VERB	_	VerbForm=Inf	19	fixed	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	26	mark	_	_
+26	ter	ter	VERB	_	VerbForm=Inf	24	acl	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	poder	poder	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0018
+# text = disse o ex-presidente.
+1	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ex-presidente	ex-presidente	NOUN	_	Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0020
+# text = É impressionante!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	impressionante	impressionante	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0022
+# text = Aos 86 anos, FHC consegue ser imprudente e oportunista ao mesmo tempo.
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	86	86	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	FHC	FHC	PROPN	_	_	7	nsubj	_	_
+7	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	9	cop	_	_
+9	imprudente	imprudente	ADJ	_	Number=Sing	7	xcomp	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	oportunista	oportunista	ADJ	_	Number=Sing	9	conj	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0024
+# text = A mídia hipócrita deste país (principalmente a Revista Isto É) se aproveitou do fato e tentou atacar Bolsonaro com matérias sem nexo [...] não colou, os internautas reagiram e o feitiço virou contra o feiticeiro!
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mídia	mídia	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	hipócrita	hipócrita	ADJ	_	Number=Sing	2	amod	_	_
+4-5	deste	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	país	país	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	principalmente	principalmente	ADV	_	_	10	advmod	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Revista	Revista	PROPN	_	_	2	appos	_	_
+11	Isto	Isto	PROPN	_	_	10	flat:name	_	_
+12	É	É	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	10	punct	_	_
+14	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	15	expl	_	_
+15	aproveitou	aproveitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fato	fato	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+21	atacar	atacar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	Bolsonaro	Bolsonaro	PROPN	_	_	21	obj	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	matérias	matéria	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+25	sem	sem	ADP	_	_	26	case	_	_
+26	nexo	nexo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+27	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	32	parataxis	_	SpaceAfter=No
+29	..	..	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	]	]	PUNCT	_	_	28	punct	_	_
+31	não	não	ADV	_	_	32	advmod	_	_
+32	colou	colar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	36	punct	_	_
+34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	internautas	internauta	NOUN	_	Number=Plur	36	nsubj	_	_
+36	reagiram	reagir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	conj	_	_
+37	e	e	CCONJ	_	_	40	cc	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	feitiço	feitiço	NOUN	_	Gender=Masc|Number=Sing	40	nsubj	_	_
+40	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	conj	_	_
+41	contra	contra	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	feiticeiro	feiticeiro	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+44	!	!	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0026
+# text = Em 1999, já prevendo o caos político que tomaria conta do país, Bolsonaro deu uma declaração visionária (a ao mesmo tempo polêmica): No final do segundo mandato de Fernando Henrique (ano de 2001), quando se encerrava a famosa década perdida, cerca de 300 crianças (em plena flor da idade) morriam de desnutrição todos os dias.
+1	Em	em	ADP	_	_	2	case	_	_
+2	1999	1999	NUM	_	NumType=Card	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	já	já	ADV	_	_	5	advmod	_	_
+5	prevendo	prever	VERB	_	VerbForm=Ger	17	advcl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caos	caos	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	político	político	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	tomaria	tomar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	acl:relcl	_	_
+11	conta	conta	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	país	país	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	5	punct	_	_
+16	Bolsonaro	Bolsonaro	PROPN	_	_	17	nsubj	_	_
+17	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	visionária	visionário	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+22	a	a	ADP	_	_	26	case	_	_
+23-24	ao	_	_	_	_	_	_	_	_
+23	a	a	ADP	_	_	26	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	48	obl	_	_
+27	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	:	:	PUNCT	_	_	66	punct	_	_
+30-31	No	_	_	_	_	_	_	_	_
+30	Em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	final	final	NOUN	_	Number=Sing	66	obl	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	36	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	36	amod	_	_
+36	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	Fernando	Fernando	PROPN	_	_	36	nmod	_	_
+39	Henrique	Henrique	PROPN	_	_	38	flat:name	_	_
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	ano	ano	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	2001	2001	NUM	_	NumType=Card	41	nmod	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	48	punct	_	_
+46	quando	quando	ADV	_	_	48	advmod	_	_
+47	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	48	expl	_	_
+48	encerrava	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	66	advcl	_	_
+49	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+50	famosa	famoso	ADJ	_	Gender=Fem|Number=Sing	51	amod	_	_
+51	década	década	NOUN	_	Gender=Fem|Number=Sing	48	nsubj	_	_
+52	perdida	perdido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	51	amod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	5	punct	_	_
+54	cerca	cerca	ADV	_	ExtPos=ADV	56	advmod	_	_
+55	de	de	ADP	_	_	54	fixed	_	_
+56	300	300	NUM	_	NumType=Card	57	nummod	_	_
+57	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	66	nsubj	_	_
+58	(	(	PUNCT	_	_	61	punct	_	SpaceAfter=No
+59	em	em	ADP	_	_	61	case	_	_
+60	plena	pleno	ADJ	_	Gender=Fem|Number=Sing	61	amod	_	_
+61	flor	flor	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
+62-63	da	_	_	_	_	_	_	_	_
+62	de	de	ADP	_	_	64	case	_	_
+63	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	idade	idade	NOUN	_	Gender=Fem|Number=Sing	61	nmod	_	SpaceAfter=No
+65	)	)	PUNCT	_	_	61	punct	_	_
+66	morriam	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	root	_	_
+67	de	de	ADP	_	_	68	case	_	_
+68	desnutrição	desnutrição	NOUN	_	Gender=Fem|Number=Sing	66	obl	_	_
+69	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	71	det	_	_
+70	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	71	det	_	_
+71	dias	dia	NOUN	_	Gender=Masc|Number=Plur	66	obl	_	SpaceAfter=No
+72	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0028
+# text = É isso mesmo que você leu!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	discourse	_	_
+3	mesmo	mesmo	ADV	_	_	2	advmod	_	_
+4	que	que	SCONJ	_	_	6	discourse	_	_
+5	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	leu	ler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0030
+# text = 300 crianças morriam de fome todos os dias!
+1	300	300	NUM	_	NumType=Card	2	nummod	_	_
+2	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	morriam	morrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	fome	fome	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	dias	dia	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0032
+# text = Confira abaixo a matéria do JN:
+1	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	abaixo	abaixo	ADV	_	_	1	advmod	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	JN	JN	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	1	punct	_	_
+

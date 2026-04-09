@@ -1,0 +1,161 @@
+# sent_id = S0001
+# text = Advogado de Gleisi era o "operador da lavagem".
+1	Advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Gleisi	Gleisi	PROPN	_	_	1	nmod	_	_
+4	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	operador	operador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Marido da senadora ficava com 80%.
+1	Marido	marido	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	ficava	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	80	80	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	_	_	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Paulo Bernardo [marido da senadora petista Gleisi Hoffmann e ex-ministro dos governos Lula e Dilma] "arrecadou" R$ 7 milhões do esquema Consist [empresa de Software].
+1	Paulo	Paulo	PROPN	_	_	21	nsubj	_	_
+2	Bernardo	Bernardo	PROPN	_	_	1	flat:name	_	_
+3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	marido	marido	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	senadora	senador	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	petista	petista	ADJ	_	Number=Sing	7	amod	_	_
+9	Gleisi	Gleisi	PROPN	_	_	7	nmod	_	_
+10	Hoffmann	Hoffmann	PROPN	_	_	9	flat:name	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	governos	governo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+16	Lula	Lula	PROPN	_	_	15	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	Dilma	Dilma	PROPN	_	_	16	conj	_	SpaceAfter=No
+19	]	]	PUNCT	_	_	4	punct	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	arrecadou	arrecadar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	25	punct	_	_
+23	R$	R$	SYM	_	_	25	nmod	_	_
+24	7	7	NUM	_	NumType=Card	25	nummod	_	_
+25	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+29	Consist	Consist	PROPN	_	_	28	nmod	_	_
+30	[	[	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Software	Software	PROPN	_	_	31	nmod	_	SpaceAfter=No
+34	]	]	PUNCT	_	_	31	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0007
+# text = O escritório do advogado Guilherme Gonçalves fazia a suposta lavagem de dinheiro e ficava com 20% do recurso, repassando os 80% restantes para o ex-ministro Paulo Bernardo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	escritório	escritório	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Guilherme	Guilherme	PROPN	_	_	5	nmod	_	_
+7	Gonçalves	Gonçalves	PROPN	_	_	6	flat:name	_	_
+8	fazia	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	11	amod	_	_
+11	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	ficava	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	20	20	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	15	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	repassando	repassar	VERB	_	VerbForm=Ger	15	advcl	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	80	80	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	_	_	23	obj	_	_
+27	restantes	restante	ADJ	_	Number=Plur	26	amod	_	_
+28	para	para	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+31	Paulo	Paulo	PROPN	_	_	30	nmod	_	_
+32	Bernardo	Bernardo	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = O dinheiro era usado para pagamento de despesas pessoais do marido de Gleisi, incluindo empregados.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	para	para	ADP	_	_	6	case	_	_
+6	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	despesas	despesa	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	pessoais	pessoal	ADJ	_	Number=Plur	8	amod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	marido	marido	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Gleisi	Gleisi	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	incluindo	incluir	VERB	_	VerbForm=Ger	8	acl	_	_
+17	empregados	empregado	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = As informações são do delegado da PF Rodrigo de Campos Costa e de Andrey Borges de Mendonça, Procurador da República.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	PF	PF	PROPN	_	_	6	nmod	_	_
+10	Rodrigo	Rodrigo	PROPN	_	_	6	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Campos	Campos	PROPN	_	_	10	flat:name	_	_
+13	Costa	Costa	PROPN	_	_	10	flat:name	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Andrey	Andrey	PROPN	_	_	6	conj	_	_
+17	Borges	Borges	PROPN	_	_	16	flat:name	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Mendonça	Mendonça	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	Procurador	Procurador	PROPN	_	_	16	appos	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	República	República	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+

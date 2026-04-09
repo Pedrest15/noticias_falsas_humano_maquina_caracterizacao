@@ -1,0 +1,142 @@
+# sent_id = S0001
+# text = Em 2014, Bolsonaro se recusou a aceitar doação de R$ 300 mil da JBS.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2014	2014	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Bolsonaro	Bolsonaro	PROPN	_	_	6	nsubj	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	recusou	recusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	aceitar	aceitar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	doação	doação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	R$	R$	SYM	_	_	9	nmod	_	_
+12	300	300	NUM	_	NumType=Card	11	nummod	_	_
+13	mil	mil	NUM	_	NumType=Card	12	flat	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	JBS	JBS	PROPN	_	_	9	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Publicação do deputado Jair Bolsonaro feita em 14 de setembro de 2014 nas redes sociais.
+1	Publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	Jair	Jair	PROPN	_	_	4	nmod	_	_
+6	Bolsonaro	Bolsonaro	PROPN	_	_	5	flat:name	_	_
+7	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	14	14	NUM	_	NumType=Card	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	2014	2014	NUM	_	NumType=Card	11	nmod	_	_
+14-15	nas	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	redes	rede	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+17	sociais	social	ADJ	_	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = O presidente do PP depositou R$300 mil em minha conta de campanha.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PP	PP	PROPN	_	_	2	nmod	_	_
+6	depositou	depositar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	R$300	R$300	NUM	_	NumType=Card	6	obj	_	_
+8	mil	mil	NUM	_	NumType=Card	7	flat	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	conta	conta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Ao saber que o doador originário era JBS-FRIBOI, devolvi a importância pois preferia fazer campanha com meus parcos recursos.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	ExtPos=SCONJ	3	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	saber	saber	VERB	_	VerbForm=Inf	11	advcl	_	_
+4	que	que	SCONJ	_	_	9	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	doador	doador	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	originário	originário	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	JBS-FRIBOI	JBS-FRIBOI	PROPN	_	_	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	devolvi	devolver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	importância	importância	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	pois	pois	SCONJ	_	_	15	mark	_	_
+15	preferia	preferir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+16	fazer	fazer	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	com	com	ADP	_	_	21	case	_	_
+19	meus	meu	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	det	_	_
+20	parcos	parco	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+21	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = Na época, o valor (que seria transferido para Bolsonaro) era originário da empresa JBS-FRIBOI, que tinha relações estreitas com o governo corrupto PT/PMDB.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	época	época	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	valor	valor	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+7	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	que	que	PRON	_	PronType=Rel	10	nsubj:pass	_	_
+9	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux:pass	_	_
+10	transferido	transferir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+11	para	para	ADP	_	_	12	case	_	_
+12	Bolsonaro	Bolsonaro	PROPN	_	_	10	obl	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	10	punct	_	_
+14	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	originário	originário	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19	JBS-FRIBOI	JBS-FRIBOI	PROPN	_	_	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+22	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+23	relações	relação	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+24	estreitas	estreito	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+25	com	com	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	governo	governo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+28	corrupto	corrupto	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+29	PT/PMDB	PT/PMDB	PROPN	_	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = A empresa foi beneficiária de milhões de reais através de empréstimos do BNDES.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	beneficiária	beneficiário	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	reais	real	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	através	através	ADV	_	_	4	advmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	empréstimos	empréstimo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	BNDES	BNDES	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+

@@ -1,0 +1,68 @@
+# sent_id = S0001
+# text = Reinaldo Azevedo, futuro ministro do STF.
+1	Reinaldo	Reinaldo	PROPN	_	_	0	root	_	_
+2	Azevedo	Azevedo	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	futuro	futuro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	STF	STF	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Um dos militares mais coerentes e corajosos desses últimos tempos mandou um recado (irônico) para Temer.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	13	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	militares	militar	NOUN	_	Number=Plur	1	nmod	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	coerentes	coerente	ADJ	_	Number=Plur	4	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	corajosos	corajoso	ADJ	_	Gender=Masc|Number=Plur	6	conj	_	_
+9-10	desses	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+11	últimos	último	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+12	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+13	mandou	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	recado	recado	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	irônico	irônico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	Temer	Temer	PROPN	_	_	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Através das redes sociais, o General de Brigada Paulo Chagas compartilhou um texto de um colega de profissão: GEN AUGUSTO HELENO.
+1	Através	através	ADV	_	_	13	advmod	_	_
+2-3	das	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	redes	rede	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
+5	sociais	social	ADJ	_	Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	General	General	PROPN	_	_	13	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Brigada	Brigada	PROPN	_	_	8	flat:name	_	_
+11	Paulo	Paulo	PROPN	_	_	8	flat:name	_	_
+12	Chagas	Chagas	PROPN	_	_	11	flat:name	_	_
+13	compartilhou	compartilhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	texto	texto	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	colega	colega	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	profissão	profissão	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	22	punct	_	_
+22	GEN	GEN	PROPN	_	_	18	appos	_	_
+23	AUGUSTO	AUGUSTO	PROPN	_	_	22	flat:name	_	_
+24	HELENO	HELENO	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	13	punct	_	_
+

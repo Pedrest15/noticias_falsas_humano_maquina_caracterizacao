@@ -1,0 +1,172 @@
+# sent_id = S0001
+# text = Cortella alertou: "Uma nação não pode admitir um presidente dessa natureza".
+1	Cortella	Cortella	PROPN	_	_	2	nsubj	_	_
+2	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	8	punct	_	_
+4	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+5	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nação	nação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp:speech	_	_
+9	admitir	admitir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	presidente	presidente	NOUN	_	Number=Sing	9	obj	_	_
+12-13	dessa	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Primeiro foi o Lula, que se gabava de nunca ter estudado.
+1	Primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	advmod	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Lula	Lula	PROPN	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+8	gabava	gabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+9	de	de	ADP	_	_	12	mark	_	_
+10	nunca	nunca	ADV	_	_	12	advmod	_	_
+11	ter	ter	AUX	_	VerbForm=Inf	12	aux	_	_
+12	estudado	estudar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Logo após veio Dilma, que afundou o Brasil com sua incompetência administrativa.
+1	Logo	logo	ADV	_	_	3	advmod	_	_
+2	após	após	ADP	_	_	3	case	_	_
+3	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Dilma	Dilma	PROPN	_	_	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	afundou	afundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Brasil	Brasil	PROPN	_	_	7	obj	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	incompetência	incompetência	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+13	administrativa	administrativo	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Eis que agora temos Michel "Mesóclise" Temer.
+1	Eis	eis	ADV	_	_	4	advmod	_	_
+2	que	que	SCONJ	_	_	4	discourse	_	_
+3	agora	agora	ADV	_	_	4	advmod	_	_
+4	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Michel	Michel	PROPN	_	_	4	obj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Mesóclise	Mesóclise	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	Temer	Temer	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Michel acha que, pelo simples fato de ter um diploma (algo que deveria ser obrigatório para todos os políticos), ele pode humilhar aqueles que são contra seus projetos.
+1	Michel	Michel	PROPN	_	_	2	nsubj	_	_
+2	acha	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	26	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	simples	simples	ADJ	_	_	8	amod	_	_
+8	fato	fato	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	ter	ter	VERB	_	VerbForm=Inf	8	acl	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	diploma	diploma	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	appos	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	acl:relcl	_	_
+17	ser	ser	AUX	_	VerbForm=Inf	18	cop	_	_
+18	obrigatório	obrigatório	ADJ	_	Gender=Masc|Number=Sing	16	xcomp	_	_
+19	para	para	ADP	_	_	22	case	_	_
+20	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	políticos	político	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	8	punct	_	_
+25	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	root	_	_
+27	humilhar	humilhar	VERB	_	VerbForm=Inf	26	xcomp	_	_
+28	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	27	obj	_	_
+29	que	que	PRON	_	PronType=Rel	33	nsubj	_	_
+30	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+31	contra	contra	ADP	_	_	33	case	_	_
+32	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	projetos	projeto	NOUN	_	Gender=Masc|Number=Plur	28	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = O presidente deveria descer de seu pedestal, jogar sua arrogância de lado e tentar ser um pouco mais humilde.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	3	nsubj	_	_
+3	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	descer	descer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	pedestal	pedestal	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	jogar	jogar	VERB	_	VerbForm=Inf	4	conj	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	arrogância	arrogância	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	lado	lado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	tentar	tentar	VERB	_	VerbForm=Inf	4	conj	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	20	cop	_	_
+17	um	um	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	20	advmod	_	_
+18	pouco	pouco	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+19	mais	mais	ADV	_	_	20	advmod	_	_
+20	humilde	humilde	ADJ	_	Number=Sing	15	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = O filósofo e educador Mário Sérgio Cortella também partilha da mesma opinião e diz que nosso (por enquanto) Presidente da República jamais deveria humilhar as pessoas que não têm a mesma formação que ele.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	filósofo	filósofo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	educador	educador	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+5	Mário	Mário	PROPN	_	_	2	nmod	_	_
+6	Sérgio	Sérgio	PROPN	_	_	5	flat:name	_	_
+7	Cortella	Cortella	PROPN	_	_	5	flat:name	_	_
+8	também	também	ADV	_	_	9	advmod	_	_
+9	partilha	partilhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+16	que	que	SCONJ	_	_	27	mark	_	_
+17	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	det	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	por	por	ADP	_	_	20	case	_	_
+20	enquanto	enquanto	ADV	_	_	22	advmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	22	punct	_	_
+22	Presidente	Presidente	PROPN	_	_	27	nsubj	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	República	República	PROPN	_	_	22	flat:name	_	_
+26	jamais	jamais	ADV	_	_	27	advmod	_	_
+27	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	ccomp	_	_
+28	humilhar	humilhar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
+31	que	que	PRON	_	PronType=Rel	33	nsubj	_	_
+32	não	não	ADV	_	_	33	advmod	_	_
+33	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
+36	formação	formação	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
+37	que	que	PRON	_	PronType=Rel	38	obj	_	_
+38	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	acl:relcl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	9	punct	_	_
+

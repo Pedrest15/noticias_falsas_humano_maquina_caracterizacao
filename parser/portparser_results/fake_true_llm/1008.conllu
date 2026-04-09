@@ -1,0 +1,174 @@
+# sent_id = S0001
+# text = Urgente: O CEO da Smartmatic, empresa acusada de manipular nossas eleições, foi detido em flagrante pelo FBI! Documentos revelam uma trama internacional de fraude eleitoral.
+1	Urgente	urgente	ADJ	_	Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	CEO	CEO	PROPN	_	_	17	nsubj:pass	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Smartmatic	Smartmatic	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+10	acusada	acusar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	de	de	ADP	_	_	12	mark	_	_
+12	manipular	manipular	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	nossas	nosso	DET	_	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	9	punct	_	_
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	detido	deter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	flagrante	flagrante	NOUN	_	Number=Sing	17	obl	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	FBI	FBI	PROPN	_	_	17	obl:agent	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	25	punct	_	_
+24	Documentos	documento	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+25	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	trama	trama	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	internacional	internacional	ADJ	_	Number=Sing	27	amod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+31	eleitoral	eleitoral	ADJ	_	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0003
+# text = A prisão ocorreu em Washington, D.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	Washington	Washington	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	D.	D.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = C.
+1	C.	C.	PROPN	_	_	0	root	_	_
+
+# sent_id = S0007
+# text = , enquanto ele tentava embarcar em um voo para Londres com provas cruciais de adulteração de resultados.
+1	,	,	PUNCT	_	_	4	punct	_	_
+2	enquanto	enquanto	SCONJ	_	_	4	mark	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	tentava	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	embarcar	embarcar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	voo	voo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	para	para	ADP	_	_	10	case	_	_
+10	Londres	Londres	PROPN	_	_	8	nmod	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	provas	prova	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+13	cruciais	crucial	ADJ	_	Number=Plur	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	adulteração	adulteração	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Especialistas afirmam que essa é a confirmação que todos esperavam sobre as irregularidades que vêm sendo denunciadas há anos.
+1	Especialistas	especialista	NOUN	_	Number=Plur	2	nsubj	_	_
+2	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	confirmação	confirmação	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	_
+8	que	que	PRON	_	PronType=Rel	10	obj	_	_
+9	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	10	nsubj	_	_
+10	esperavam	esperar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+11	sobre	sobre	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	irregularidades	irregularidade	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+14	que	que	PRON	_	PronType=Rel	17	nsubj:pass	_	_
+15	vêm	vir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	sendo	ser	AUX	_	VerbForm=Ger	17	aux:pass	_	_
+17	denunciadas	denunciar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+18	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+19	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = O Tribunal Superior Eleitoral (TSE) se pronunciou, mas suas declarações foram vistas com ceticismo pela população, que exige transparência total.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Tribunal	Tribunal	PROPN	_	_	9	nsubj	_	_
+3	Superior	Superior	PROPN	_	_	2	flat:name	_	_
+4	Eleitoral	Eleitoral	PROPN	_	_	2	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	TSE	TSE	PROPN	_	_	2	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	pronunciou	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	mas	mas	CCONJ	_	_	15	cc	_	_
+12	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+14	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	vistas	ver	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	conj	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	ceticismo	ceticismo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18-19	pela	_	_	_	_	_	_	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	população	população	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
+23	exige	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+25	total	total	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = Smartmatic, que teria fornecido tecnologia crucial para as urnas, agora enfrenta uma série de investigações em múltiplos países.
+1	Smartmatic	Smartmatic	PROPN	_	_	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+4	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+5	fornecido	fornecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl:relcl	_	_
+6	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	crucial	crucial	ADJ	_	Number=Sing	6	amod	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	agora	agora	ADV	_	_	13	advmod	_	_
+13	enfrenta	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	série	série	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	múltiplos	múltiplo	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+20	países	país	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = Fontes anônimas sugerem que a empresa pode ter ligações com governos estrangeiros, contrariando suas declarações de ser 100% privada.
+1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3	sugerem	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	ter	ter	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	governos	governo	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	estrangeiros	estrangeiro	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	contrariando	contrariar	VERB	_	VerbForm=Ger	3	advcl	_	_
+15	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	de	de	ADP	_	_	21	mark	_	_
+18	ser	ser	AUX	_	VerbForm=Inf	21	cop	_	_
+19	100	100	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	_	_	21	obl	_	_
+21	privada	privado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	16	acl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+

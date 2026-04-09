@@ -1,0 +1,249 @@
+# sent_id = S0001
+# text = Número 32!
+1	Número	número	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	32	32	NUM	_	NumType=Card	1	nmod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Um dos empresários mais ricos do país ganha bolada em casino de Punta Del Este, no Uruguai.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	10	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	empresários	empresário	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	ricos	rico	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	país	país	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+10	ganha	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	bolada	bolada	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	casino	casino	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Punta	Punta	PROPN	_	_	13	nmod	_	_
+16	Del	Del	PROPN	_	_	15	flat:name	_	_
+17	Este	Este	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Uruguai	Uruguai	PROPN	_	_	15	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = Pedro Grendene é presidente de uma das empresas mais bem sucedidas do Brasil, a Vulcabras-Azaleia.
+1	Pedro	Pedro	PROPN	_	_	4	nsubj	_	_
+2	Grendene	Grendene	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	uma	um	NUM	_	Gender=Fem|NumType=Card	4	nmod	_	_
+7-8	das	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10	mais	mais	ADV	_	_	12	advmod	_	_
+11	bem	bem	ADV	_	_	12	advmod	_	_
+12	sucedidas	sucedido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	9	amod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Brasil	Brasil	PROPN	_	_	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Vulcabras-Azaleia	Vulcabras-Azaleia	PROPN	_	_	6	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = ( El país ) Amigos de Pedro filmaram o momento em que ele ganhou uma bolada.
+1	(	(	PUNCT	_	_	2	punct	_	_
+2	El	El	PROPN	_	_	8	nsubj	_	_
+3	país	país	NOUN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
+4	)	)	PUNCT	_	_	2	punct	_	_
+5	Amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Pedro	Pedro	PROPN	_	_	5	nmod	_	_
+8	filmaram	filmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	momento	momento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	que	que	PRON	_	PronType=Rel	14	obl	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	bolada	bolada	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = O vídeo mostra o empresário empilhando várias fichas sobre o número 32.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	empilhando	empilhar	VERB	_	VerbForm=Ger	3	xcomp	_	_
+7	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	fichas	ficha	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	número	número	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+12	32	32	NUM	_	NumType=Card	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Decidido e tranquilo, ele saboreia uma taça de vinho e espera tranquilamente o giro da roleta.
+1	Decidido	decidido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	tranquilo	tranquilo	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	saboreia	saborear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	taça	taça	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	vinho	vinho	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	espera	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	tranquilamente	tranquilamente	ADV	_	_	12	advmod	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giro	giro	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	roleta	roleta	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = Vários sites chegaram a publicar que Pedro teria apostado cerca de US$ 100 mil e lucrado algo em torno de R$ 3,5 milhões.
+1	Vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	sites	site	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	chegaram	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	mark	_	_
+5	publicar	publicar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	Pedro	Pedro	PROPN	_	_	9	nsubj	_	_
+8	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	aux	_	_
+9	apostado	apostar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	ccomp	_	_
+10	cerca	cerca	ADV	_	ExtPos=ADV	12	advmod	_	_
+11	de	de	ADP	_	_	10	fixed	_	_
+12	US$	US$	SYM	_	_	9	obj	_	_
+13	100	100	NUM	_	NumType=Card	12	nummod	_	_
+14	mil	mil	NUM	_	NumType=Card	13	flat	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	lucrado	lucrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	conj	_	_
+17	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	16	obj	_	_
+18	em	em	ADP	_	_	23	case	_	_
+19	torno	torno	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
+20	de	de	ADP	_	_	10	fixed	_	_
+21	R$	R$	SYM	_	_	23	nmod	_	_
+22	3,5	3,5	NUM	_	NumType=Card	23	nummod	_	_
+23	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O empresário nega o fato, diz que as imagens são de um "momento particular" e afirma que o dinheiro foi compartilhado com os amigos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	nega	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	que	que	SCONJ	_	_	15	mark	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	momento	momento	NOUN	_	Gender=Masc|Number=Sing	7	ccomp	_	_
+16	particular	particular	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	15	punct	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+20	que	que	SCONJ	_	_	24	mark	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+23	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	compartilhado	compartilhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	ccomp	_	_
+25	com	com	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = Ele não quis comentar sobre o valor da aposta.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	comentar	comentar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	sobre	sobre	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	valor	valor	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	aposta	aposta	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = "O vídeo é um momento particular no Uruguai onde Pedro e seus amigos ganham em torno de R$ 50 mil dólares na roleta", diz a nota.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	_	Gender=Masc|Number=Sing	29	ccomp:speech	_	_
+7	particular	particular	ADJ	_	Number=Sing	6	amod	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Uruguai	Uruguai	PROPN	_	_	6	nmod	_	_
+11	onde	onde	ADV	_	_	16	advmod	_	_
+12	Pedro	Pedro	PROPN	_	_	16	nsubj	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+16	ganham	ganhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+17	em	em	ADP	_	ExtPos=ADV	20	advmod	_	_
+18	torno	torno	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+19	de	de	ADP	_	_	17	fixed	_	_
+20	R$	R$	SYM	_	_	16	obl	_	_
+21	50	50	NUM	_	NumType=Card	23	nummod	_	_
+22	mil	mil	NUM	_	NumType=Card	21	flat	_	_
+23	dólares	dólare	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	roleta	roleta	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	6	punct	_	_
+29	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	nota	nota	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = S0021
+# text = O jornal carioca Extra disse que tentou contato com o Casino, porém eles não retornaram o contato.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	carioca	carioca	ADJ	_	Number=Sing	2	amod	_	_
+4	Extra	Extra	PROPN	_	_	2	nmod	_	_
+5	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	7	mark	_	_
+7	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+8	contato	contato	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Casino	Casino	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	porém	porém	CCONJ	_	_	16	cc	_	_
+14	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	retornaram	retornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	contato	contato	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+

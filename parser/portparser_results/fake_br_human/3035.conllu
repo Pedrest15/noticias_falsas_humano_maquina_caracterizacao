@@ -1,0 +1,225 @@
+# sent_id = S0001
+# text = Golpe baixo?
+1	Golpe	golpe	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Governo Federal confirma que irá trocar o diretor-geral da PF.
+1	Governo	Governo	PROPN	_	_	3	nsubj	_	_
+2	Federal	Federal	PROPN	_	_	1	flat:name	_	_
+3	confirma	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	trocar	trocar	VERB	_	VerbForm=Inf	3	ccomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	diretor-geral	diretor-geral	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	PF	PF	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O governo federal está buscando um novo diretor-geral para a Polícia Federal.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	federal	federal	ADJ	_	Number=Sing	2	amod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	buscando	buscar	VERB	_	VerbForm=Ger	0	root	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	novo	novo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	diretor-geral	diretor-geral	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Polícia	Polícia	PROPN	_	_	8	nmod	_	_
+12	Federal	Federal	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = A troca será feita em até 30 dias.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	troca	troca	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	até	até	ADP	_	_	7	case	_	_
+7	30	30	NUM	_	NumType=Card	8	nummod	_	_
+8	dias	dia	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = (Reuters) Leandro Daiello [atual diretor da PF], que está no cargo desde 2011, perdeu de vez a confiança do Planalto após a gravação divulgada de uma conversa entre Dilma e Lula.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Reuters	Reuters	PROPN	_	_	22	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Leandro	Leandro	PROPN	_	_	22	nsubj	_	_
+5	Daiello	Daiello	PROPN	_	_	4	flat:name	_	_
+6	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	atual	atual	ADJ	_	Number=Sing	8	amod	_	_
+8	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	PF	PF	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	4	acl:relcl	_	_
+19	desde	desde	ADP	_	_	20	case	_	_
+20	2011	2011	NUM	_	NumType=Card	8	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	8	punct	_	_
+22	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	vez	vez	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	confiança	confiança	NOUN	_	Number=Sing	22	obj	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Planalto	Planalto	PROPN	_	_	26	nmod	_	_
+30	após	após	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	gravação	gravação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+33	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	32	acl	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+37	entre	entre	ADP	_	_	38	case	_	_
+38	Dilma	Dilma	PROPN	_	_	36	nmod	_	_
+39	e	e	CCONJ	_	_	40	cc	_	_
+40	Lula	Lula	PROPN	_	_	38	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0011
+# text = A divulgação foi feita com a autorização do juiz Sérgio Moro.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	autorização	autorização	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	Sérgio	Sérgio	PROPN	_	_	10	nmod	_	_
+12	Moro	Moro	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Eugênio Aragão, novo ministro da Justiça, está em um processo de seleção para o nome que irá substituir Daiello.
+1	Eugênio	Eugênio	PROPN	_	_	13	nsubj	_	_
+2	Aragão	Aragão	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	novo	novo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Justiça	Justiça	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	processo	processo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	nome	nome	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+20	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	aux	_	_
+21	substituir	substituir	VERB	_	VerbForm=Inf	18	acl:relcl	_	_
+22	Daiello	Daiello	PROPN	_	_	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = O ministro da Justiça recém empossado causou certa polêmica ao dizer que, "se necessário, trocaria toda a equipe da PF em caso de vazamentos de informações".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Justiça	Justiça	PROPN	_	_	2	nmod	_	_
+6	recém	recém	ADV	_	_	7	advmod	_	_
+7	empossado	empossar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+8	causou	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	certa	certo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	polêmica	polêmica	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	ExtPos=SCONJ	13	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
+13	dizer	dizer	VERB	_	VerbForm=Inf	8	advcl	_	_
+14	que	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	se	se	SCONJ	_	_	18	mark	_	_
+18	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	20	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	trocaria	trocar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	ccomp	_	_
+21	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	PF	PF	PROPN	_	_	23	nmod	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	caso	caso	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	vazamentos	vazamento	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	informações	informação	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = A relação entre o diretor-geral da Polícia Federal e o ministro da Justiça é de subordinação.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	entre	entre	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	diretor-geral	diretor-geral	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polícia	Polícia	PROPN	_	_	5	nmod	_	_
+9	Federal	Federal	PROPN	_	_	8	flat:name	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Justiça	Justiça	PROPN	_	_	12	nmod	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	subordinação	subordinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0019
+# text = Mas há sempre autonomia de atuação por parte do comandante da PF.
+1	Mas	mas	CCONJ	_	_	2	cc	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	_	_	2	advmod	_	_
+4	autonomia	autonomia	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comandante	comandante	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	PF	PF	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+

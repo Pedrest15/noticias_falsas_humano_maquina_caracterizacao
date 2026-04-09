@@ -1,0 +1,203 @@
+# sent_id = S0001
+# text = O Globo: Fachin foi eleito pela bancada do "açougueiro" no senado.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Globo	Globo	PROPN	_	_	6	nsubj:pass	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	Fachin	Fachin	PROPN	_	_	6	nsubj:pass	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	eleito	eleger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	açougueiro	açougueiro	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	senado	senado	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = O jornalista Jorge Bastos Moreno (do jornal O GLOBO) publicou uma matéria traçando um paralelo entre a JBS e o ministro do STF, Edson Fachin.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jornalista	jornalista	NOUN	_	Number=Sing	13	nsubj	_	_
+3	Jorge	Jorge	PROPN	_	_	2	nmod	_	_
+4	Bastos	Bastos	PROPN	_	_	3	flat:name	_	_
+5	Moreno	Moreno	PROPN	_	_	3	flat:name	_	_
+6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+10	O	O	PROPN	_	_	9	nmod	_	_
+11	GLOBO	GLOBO	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	9	punct	_	_
+13	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	traçando	traçar	VERB	_	VerbForm=Ger	15	acl	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	paralelo	paralelo	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	entre	entre	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	JBS	JBS	PROPN	_	_	18	nmod	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	STF	STF	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	Edson	Edson	PROPN	_	_	24	appos	_	_
+30	Fachin	Fachin	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = Segundo Moreno, Fachin admitiu que pediu um espécie de auxílio para a turma do "açougueiro" em 2015.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	Moreno	Moreno	PROPN	_	_	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Fachin	Fachin	PROPN	_	_	5	nsubj	_	_
+5	admitiu	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	7	mark	_	_
+7	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	auxílio	auxílio	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	para	para	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	turma	turma	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	18	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	açougueiro	açougueiro	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	2015	2015	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = Para ser nomeado ao cargo ministro do Supremo Tribunal Federal, Fachin dependia da aprovação dos senadores.
+1	Para	para	ADP	_	_	3	mark	_	_
+2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
+3	nomeado	nomear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Supremo	Supremo	PROPN	_	_	7	nmod	_	_
+11	Tribunal	Tribunal	PROPN	_	_	10	flat:name	_	_
+12	Federal	Federal	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	Fachin	Fachin	PROPN	_	_	15	nsubj	_	_
+15	dependia	depender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	aprovação	aprovação	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	senadores	senador	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0009
+# text = Em 2015, o ministro foi aprovado pelo senado por 52 a favor e 27 contra.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2015	2015	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	senado	senado	NOUN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	por	por	ADP	_	_	12	case	_	_
+12	52	52	NUM	_	NumType=Card	7	obl	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	favor	favor	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	27	27	NUM	_	NumType=Card	12	conj	_	_
+17	contra	contra	ADP	_	_	16	case	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = O grupo de Joesley Batista, com sua imensa bancada parlamentar, não fez feio e aprovou o nome do novo ministro após uma sabatina de quase 12 horas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Joesley	Joesley	PROPN	_	_	2	nmod	_	_
+5	Batista	Batista	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	com	com	ADP	_	_	10	case	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+9	imensa	imenso	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+11	parlamentar	parlamentar	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	feio	feio	ADJ	_	Gender=Masc|Number=Sing	14	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	aprovou	aprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	nome	nome	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	novo	novo	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+23	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+24	após	após	ADP	_	_	26	case	_	_
+25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sabatina	sabatina	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	quase	quase	ADV	_	_	29	advmod	_	_
+29	12	12	NUM	_	NumType=Card	30	nummod	_	_
+30	horas	hora	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0013
+# text = É claro que Edson Fachin nada tem a ver com os recentes escândalos envolvendo a JBS, mas que é curioso [...] isso é!
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	Edson	Edson	PROPN	_	_	7	nsubj	_	_
+5	Fachin	Fachin	PROPN	_	_	4	flat:name	_	_
+6	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	advmod	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	ver	ver	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	com	com	ADP	_	_	13	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	recentes	recente	ADJ	_	Number=Plur	13	amod	_	_
+13	escândalos	escândalo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+14	envolvendo	envolver	VERB	_	VerbForm=Ger	13	acl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	JBS	JBS	PROPN	_	_	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	mas	mas	CCONJ	_	_	21	cc	_	_
+19	que	que	SCONJ	_	_	21	mark	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	curioso	curioso	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	_
+22	[	[	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+24	..	..	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	23	punct	_	_
+26	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
+28	!	!	PUNCT	_	_	2	punct	_	_
+

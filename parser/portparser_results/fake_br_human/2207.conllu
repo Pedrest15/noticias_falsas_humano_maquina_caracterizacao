@@ -1,0 +1,109 @@
+# sent_id = S0001
+# text = RR Soares: Igreja não tem que pagar imposto.
+1	RR	RR	PROPN	_	_	6	nsubj	_	_
+2	Soares	Soares	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Igreja	igreja	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	ADP	_	_	8	mark	_	_
+8	pagar	pagar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	imposto	imposto	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Isso é coisa demoníaca.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	demoníaca	demoníaco	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Viva Eduardo Cunha.
+1	Viva	vivir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	Eduardo	Eduardo	PROPN	_	_	1	nsubj	_	_
+3	Cunha	Cunha	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Nós lutamos muito.
+1	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	lutamos	lutar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	muito	muito	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Teve muita gente que lutou conosco, entre elas o deputado Eduardo Cunha.
+1	Teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	muita	muito	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	gente	gente	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	lutou	lutar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6-7	conosco	_	_	_	_	_	_	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	entre	entre	ADP	_	_	10	case	_	_
+10	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+13	Eduardo	Eduardo	PROPN	_	_	12	nmod	_	_
+14	Cunha	Cunha	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = "Cunha votou e conseguiu nos livrar daquela cobrança exdrúxula e demoníaca e safada... em nome de Jesus" disse o missionário.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Cunha	Cunha	PROPN	_	_	3	nsubj	_	_
+3	votou	votar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	ccomp:speech	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+7	livrar	livrar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8-9	daquela	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	cobrança	cobrança	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	exdrúxula	exdrúxulo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	demoníaca	demoníaco	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	safada	safado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	11	conj	_	SpaceAfter=No
+16	...	...	PUNCT	_	_	18	punct	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	nome	nome	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Jesus	Jesus	PROPN	_	_	18	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	3	punct	_	_
+22	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	missionário	missionário	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0013
+# text = "Orem por ele porque ele é digno " completou RR Soares.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Orem	orar	VERB	_	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	10	ccomp:speech	_	_
+3	por	por	ADP	_	_	4	case	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	porque	porque	SCONJ	_	_	8	mark	_	_
+6	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	digno	digno	ADJ	_	Gender=Masc|Number=Sing	2	advcl	_	_
+9	"	"	PUNCT	_	_	2	punct	_	_
+10	completou	completar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	RR	RR	PROPN	_	_	10	nsubj	_	_
+12	Soares	Soares	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0014
+# text = confira no vídeo abaixo:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	abaixo	abaixo	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,86 @@
+# sent_id = S0001
+# text = manuela d’ávila declara guerra a moro e é corrigida por internauta manuela d’ávila: declaro guerra contra sérgio moro e sua bancada, agora pegaremos em armas para fazer revolução igual a 59 anos atrás.
+1	manuela	manuela	PROPN	_	_	3	nsubj	_	_
+2	d’ávila	d’ávila	NOUN	_	_	1	flat:name	_	_
+3	declara	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	moro	moro	NOUN	_	_	4	nmod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	corrigida	corrigir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	internauta	internauta	NOUN	_	Number=Sing	9	obl:agent	_	_
+12	manuela	manuela	PROPN	_	_	11	nmod	_	_
+13	d’ávila	d’ávila	NOUN	_	_	12	flat:name	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	15	punct	_	_
+15	declaro	declarar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+16	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+17	contra	contra	ADP	_	_	18	case	_	_
+18	sérgio	sérgio	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19	moro	moro	NOUN	_	_	18	nmod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	agora	agora	ADV	_	_	25	advmod	_	_
+25	pegaremos	pegar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	15	parataxis	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	armas	arma	NOUN	_	Gender=Fem|Number=Plur	25	obl	_	_
+28	para	para	ADP	_	_	29	mark	_	_
+29	fazer	fazer	VERB	_	VerbForm=Inf	25	advcl	_	_
+30	revolução	revolução	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+31	igual	igual	ADJ	_	Number=Sing	30	amod	_	_
+32	a	a	ADP	_	_	34	case	_	_
+33	59	59	NUM	_	NumType=Card	34	nummod	_	_
+34	anos	ano	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	_
+35	atrás	atrás	ADV	_	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = #lulalivre.
+1	#lulalivre	#lulalivre	NOUN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = internauta:, sra ex candidata a vice presidente, para tempo transcorrido usa-se “há” e não “a” e esse atrás é desnecessário, por favor, antes de pegar em armas, pegue em livros.
+1	internauta	internauta	NOUN	_	Number=Sing	14	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	sra	sra	NOUN	_	Gender=Fem|Number=Sing	6	det	_	_
+5	ex	eo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	candidata	candidato	NOUN	_	Gender=Fem|Number=Sing	14	parataxis	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	vice	vice	NOUN	_	Number=Sing	6	nmod	_	_
+9	presidente	presidente	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	para	para	ADP	_	_	12	case	_	_
+12	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+13	transcorrido	transcorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	amod	_	_
+14-15	usa-se	_	_	_	_	_	_	_	_
+14	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl:impers	_	_
+16	“há”	“há”	NOUN	_	_	14	obj	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	“a”	“a”	NOUN	_	_	14	conj	_	_
+20	e	e	CCONJ	_	_	24	cc	_	_
+21	esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	24	nsubj	_	_
+22	atrás	atrás	ADV	_	_	21	advmod	_	_
+23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	desnecessário	desnecessário	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	por	por	ADP	_	_	27	case	_	_
+27	favor	favor	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	antes	antes	ADV	_	_	14	advmod	_	_
+30	de	de	ADP	_	_	31	mark	_	_
+31	pegar	pegar	VERB	_	VerbForm=Inf	29	acl	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	armas	arma	NOUN	_	Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	29	punct	_	_
+35	pegue	pegar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	14	conj	_	_
+36	em	em	ADP	_	_	37	case	_	_
+37	livros	livro	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	14	punct	_	_
+

@@ -1,0 +1,176 @@
+# sent_id = S0001
+# text = Senadores em Brasília surpreendem ao reverter afastamento de Aécio Neves em votação histórica.
+1	Senadores	senador	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	Brasília	Brasília	PROPN	_	_	1	nmod	_	_
+4	surpreendem	surpreender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	ExtPos=SCONJ	7	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
+7	reverter	reverter	VERB	_	VerbForm=Inf	4	advcl	_	_
+8	afastamento	afastamento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Aécio	Aécio	PROPN	_	_	8	nmod	_	_
+11	Neves	Neves	PROPN	_	_	10	flat:name	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	votação	votação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+14	histórica	histórico	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Com 52 votos a 18, o plenário decidiu que a decisão da Primeira Turma do Supremo Tribunal Federal (STF) era "excessiva".
+1	Com	com	ADP	_	_	3	case	_	_
+2	52	52	NUM	_	NumType=Card	3	nummod	_	_
+3	votos	voto	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	18	18	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	27	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Primeira	Primeira	PROPN	_	_	12	nmod	_	_
+16	Turma	Turma	PROPN	_	_	15	flat:name	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Supremo	Supremo	PROPN	_	_	15	nmod	_	_
+20	Tribunal	Tribunal	PROPN	_	_	19	flat:name	_	_
+21	Federal	Federal	PROPN	_	_	19	flat:name	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	STF	STF	PROPN	_	_	15	appos	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	excessiva	excessivo	ADJ	_	Gender=Fem|Number=Sing	9	ccomp	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = Aécio, que enfrentava graves acusações, recebeu apoio massivo de colegas e pode reassumir seu cargo imediatamente.
+1	Aécio	Aécio	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	enfrentava	enfrentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+5	graves	grave	ADJ	_	Number=Plur	6	amod	_	_
+6	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	massivo	massivo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	colegas	colega	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	reassumir	reassumir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	imediatamente	imediatamente	ADV	_	_	15	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0007
+# text = A votação, que contou com uma presença recorde, revela uma suposta articulação entre líderes partidários para proteger o senador do PSDB.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	votação	votação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	presença	presença	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	recorde	recorde	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	14	amod	_	_
+14	articulação	articulação	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+15	entre	entre	ADP	_	_	16	case	_	_
+16	líderes	líder	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	partidários	partidário	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	proteger	proteger	VERB	_	VerbForm=Inf	14	acl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	senador	senador	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	PSDB	PSDB	PROPN	_	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = Segundo fontes anônimas, houve promessas de cargos e benefícios em troca dos votos a favor de Aécio.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+3	anônimas	anônimo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	promessas	promessa	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	cargos	cargo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	troca	troca	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	votos	voto	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	favor	favor	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Aécio	Aécio	PROPN	_	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = Eunício Oliveira, presidente do Senado, teria influenciado diretamente a decisão, apesar de não votar oficialmente.
+1	Eunício	Eunício	PROPN	_	_	10	nsubj	_	_
+2	Oliveira	Oliveira	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Senado	Senado	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+10	influenciado	influenciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+11	diretamente	diretamente	ADV	_	_	10	advmod	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	apesar	apesar	ADV	_	_	10	advmod	_	_
+16	de	de	ADP	_	_	18	mark	_	_
+17	não	não	ADV	_	_	18	advmod	_	_
+18	votar	votar	VERB	_	VerbForm=Inf	15	acl	_	_
+19	oficialmente	oficialmente	ADV	_	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Detalhes da suposta negociação estão sendo mantidos em sigilo, mas a oposição promete investigar profundamente estas alegações.
+1	Detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	suposta	suposto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	5	amod	_	_
+5	negociação	negociação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	sendo	ser	AUX	_	VerbForm=Ger	8	aux:pass	_	_
+8	mantidos	manter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	sigilo	sigilo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	mas	mas	CCONJ	_	_	15	cc	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	investigar	investigar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	profundamente	profundamente	ADV	_	_	16	advmod	_	_
+18	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	alegações	alegação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+

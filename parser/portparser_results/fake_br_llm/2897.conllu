@@ -1,0 +1,189 @@
+# sent_id = S0001
+# text = Assembleia Legislativa do RN ignora STF e devolve mandato a deputado acusado de corrupção!
+1	Assembleia	Assembleia	PROPN	_	_	6	nsubj	_	_
+2	Legislativa	Legislativa	PROPN	_	_	1	flat:name	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	RN	RN	PROPN	_	_	1	nmod	_	_
+6	ignora	ignorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	STF	STF	PROPN	_	_	6	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	devolve	devolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	mandato	mandato	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0003
+# text = Ricardo Motta, suspeito de desviar R$ 19 milhões do Idema/RN, é reintegrado em manobra polêmica.
+1	Ricardo	Ricardo	PROPN	_	_	15	nsubj:pass	_	_
+2	Motta	Motta	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	suspeito	suspeito	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	desviar	desviar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	R$	R$	SYM	_	_	9	nmod	_	_
+8	19	19	NUM	_	NumType=Card	9	nummod	_	_
+9	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Idema/RN	Idema/RN	PROPN	_	_	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	reintegrado	reintegrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	manobra	manobra	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+18	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0005
+# text = A Procuradora-Geral da República, Raquel Dodge, em ação inédita, pede ao Supremo que anule decisão e afaste o deputado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Procuradora-Geral	Procuradora-Geral	PROPN	_	_	14	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	República	República	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Raquel	Raquel	PROPN	_	_	2	appos	_	_
+8	Dodge	Dodge	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	ação	ação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+12	inédita	inédito	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Supremo	Supremo	PROPN	_	_	14	obl	_	_
+18	que	que	SCONJ	_	_	19	mark	_	_
+19	anule	anular	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+20	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	afaste	afastar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = Alega-se que a Assembleia agiu de forma autônoma, sem qualquer provocação judicial, desafiando a autoridade do STF.
+1-2	Alega-se	_	_	_	_	_	_	_	_
+1	Alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl:impers	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Assembleia	Assembleia	PROPN	_	_	6	nsubj	_	_
+6	agiu	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	forma	forma	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9	autônoma	autônomo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	sem	sem	ADP	_	_	13	case	_	_
+12	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	13	det	_	_
+13	provocação	provocação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+14	judicial	judicial	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	desafiando	desafiar	VERB	_	VerbForm=Ger	6	advcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	autoridade	autoridade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	STF	STF	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = O caso, que envolve lavagem de dinheiro e peculato, ganha novos contornos com a defesa de Motta afirmando que a medida visa apenas garantir seus direitos constitucionais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	peculato	peculato	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	ganha	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	novos	novo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	contornos	contorno	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Motta	Motta	PROPN	_	_	17	nmod	_	_
+20	afirmando	afirmar	VERB	_	VerbForm=Ger	17	acl	_	_
+21	que	que	SCONJ	_	_	24	mark	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	medida	medida	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+24	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+25	apenas	apenas	ADV	_	_	26	advmod	_	_
+26	garantir	garantir	VERB	_	VerbForm=Inf	24	xcomp	_	_
+27	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+29	constitucionais	constitucional	ADJ	_	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Enquanto isso, fontes internas indicam que a pressão política para o retorno do deputado veio de aliados poderosos, temendo uma onda de delações que poderia comprometer outros nomes influentes no estado.
+1	Enquanto	enquanto	ADV	_	ExtPos=ADV	6	advmod	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	internas	interno	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	17	mark	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+10	política	político	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+20	poderosos	poderoso	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	temendo	temer	VERB	_	VerbForm=Ger	17	advcl	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	onda	onda	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	delações	delação	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
+27	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+28	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	24	acl:relcl	_	_
+29	comprometer	comprometer	VERB	_	VerbForm=Inf	28	xcomp	_	_
+30	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	31	det	_	_
+31	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
+32	influentes	influente	ADJ	_	Number=Plur	31	amod	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	estado	estado	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0013
+# text = O STF ainda não se manifestou oficialmente sobre essa reviravolta surpreendente.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	STF	STF	PROPN	_	_	6	nsubj	_	_
+3	ainda	ainda	ADV	_	_	6	advmod	_	_
+4	não	não	ADV	_	_	6	advmod	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	manifestou	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	oficialmente	oficialmente	ADV	_	_	6	advmod	_	_
+8	sobre	sobre	ADP	_	_	10	case	_	_
+9	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	reviravolta	reviravolta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	surpreendente	surpreendente	ADJ	_	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+

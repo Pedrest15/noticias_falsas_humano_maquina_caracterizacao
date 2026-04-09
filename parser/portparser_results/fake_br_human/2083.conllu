@@ -1,0 +1,107 @@
+# sent_id = S0001
+# text = Senhora de 60 anos corre atrás de Eduardo Cunha no aeroporto Santos Dumont.
+1	Senhora	senhor	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	60	60	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	corre	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	atrás	atrás	ADV	_	_	5	advmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Eduardo	Eduardo	PROPN	_	_	6	obl	_	_
+9	Cunha	Cunha	PROPN	_	_	8	flat:name	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+13	Santos	Santos	PROPN	_	_	12	nmod	_	_
+14	Dumont	Dumont	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O ex-deputado Eduardo Cunha (PMDB-RJ) levou uma sova de uma sra. no aeroporto Santos Dumont, RJ.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	Eduardo	Eduardo	PROPN	_	_	2	nmod	_	_
+4	Cunha	Cunha	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PMDB-RJ	PMDB-RJ	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sova	sova	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sra.	senhora	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+17	Santos	Santos	PROPN	_	_	16	nmod	_	_
+18	Dumont	Dumont	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	RJ	RJ	PROPN	_	_	16	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Cunha foi hostilizado por pessoas aos gritos de "ladrão" e "Fora, Cunha".
+1	Cunha	Cunha	PROPN	_	_	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	hostilizado	hostilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	3	obl:agent	_	_
+6-7	aos	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	gritos	grito	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	ladrão	ladrão	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Fora	fora	ADV	_	_	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Cunha	Cunha	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = No vídeo, dá pra ver o exato momento em que a senhora corre atrás do ex-deputado.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	pra	para	ADP	_	_	7	mark	_	_
+7	ver	ver	VERB	_	VerbForm=Inf	5	csubj	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	exato	exato	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	momento	momento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	que	que	PRON	_	PronType=Rel	15	obl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	senhora	senhor	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	corre	correr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	atrás	atrás	ADV	_	_	15	advmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0008
+# text = preste atenção aos 35 segundos da filmagem.
+1	preste	prestar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3-4	aos	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	6	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	35	35	NUM	_	NumType=Card	6	nummod	_	_
+6	segundos	segundo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	filmagem	filmagem	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+

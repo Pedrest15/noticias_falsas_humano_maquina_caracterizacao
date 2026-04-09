@@ -1,0 +1,279 @@
+# sent_id = S0001
+# text = Fardo Olímpico: Travestis atacam equipe de TV australiana no Rio.
+1	Fardo	Fardo	PROPN	_	_	5	nsubj	_	_
+2	Olímpico	Olímpico	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Travestis	travesti	NOUN	_	Number=Plur	5	nsubj	_	_
+5	atacam	atacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	6	nmod	_	_
+9	australiana	australiano	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Rio	Rio	PROPN	_	_	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Eles queriam roubar a câmera.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	queriam	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	roubar	roubar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	câmera	câmera	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = A informação é do jornal "Daily Telegraph".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Daily	Daily	PROPN	_	_	6	nmod	_	_
+9	Telegraph	Telegraph	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = A matéria informa que a equipe de TV do canal 9 foi atacada por um grupo de travestis.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	informa	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	14	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	canal	canal	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+12	9	9	NUM	_	NumType=Card	11	nmod	_	_
+13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	atacada	atacar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	14	obl:agent	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	travestis	travesti	NOUN	_	Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Christine Ahern, jornalista do canal, disse que "um deles portava uma bolsa rosa com o que parecia ser um tijolo dentro", que foi usada na tentativa de assalto.
+1	Christine	Christine	PROPN	_	_	9	nsubj	_	_
+2	Ahern	Ahern	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	jornalista	jornalista	NOUN	_	Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	canal	canal	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	15	mark	_	_
+11	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+12	um	um	NUM	_	Gender=Masc|NumType=Card	15	nsubj	_	_
+13-14	deles	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+15	portava	portar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	rosa	rosa	ADJ	_	Number=Sing	17	amod	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nmod	_	_
+21	que	que	PRON	_	PronType=Rel	22	nsubj	_	_
+22	parecia	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+23	ser	ser	AUX	_	VerbForm=Inf	25	cop	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	tijolo	tijolo	NOUN	_	Gender=Masc|Number=Sing	22	xcomp	_	_
+26	dentro	dentro	ADV	_	_	25	advmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	que	que	PRON	_	PronType=Rel	31	nsubj:pass	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	assalto	assalto	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0011
+# text = Os travestis queriam levar a câmera do cinegrafista australiano.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	travestis	travesti	NOUN	_	Number=Plur	3	nsubj	_	_
+3	queriam	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	levar	levar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	câmera	câmera	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cinegrafista	cinegrafista	NOUN	_	Number=Sing	6	nmod	_	_
+10	australiano	australiano	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = "Tudo aconteceu muito rápido" relatou Christine.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Tudo	tudo	PRON	_	PronType=Ind	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp:speech	_	_
+4	muito	muito	ADV	_	_	5	advmod	_	_
+5	rápido	rápido	ADJ	_	Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	3	punct	_	_
+7	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Christine	Christine	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0015
+# text = Um segurança da equipe de TV foi atingido na cabeça pela bolsa rosa pesada.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segurança	segurança	NOUN	_	Number=Sing	9	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	TV	televisão	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	5	nmod	_	_
+8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	atingido	atingir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	_
+16	rosa	rosa	ADJ	_	Number=Sing	15	amod	_	_
+17	pesada	pesado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0017
+# text = Tínhamos acabado de chegar ao Rio.
+1	Tínhamos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	acabado	acabar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+3	de	de	ADP	_	_	4	mark	_	_
+4	chegar	chegar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Rio	Rio	PROPN	_	_	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = Fomos direto para a praia de Copacabana.
+1	Fomos	ir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	direto	direto	ADV	_	_	1	advmod	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	praia	praia	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Copacabana	Copacabana	PROPN	_	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Precisávamos de imagens.
+1	Precisávamos	prear	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0023
+# text = Havia um grupo de travestis e tudo aconteceu muito rápido.
+1	Havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	travestis	travesti	NOUN	_	Number=Plur	3	nmod	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	tudo	tudo	PRON	_	PronType=Ind	8	nsubj	_	_
+8	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+9	muito	muito	ADV	_	_	10	advmod	_	_
+10	rápido	rápido	ADJ	_	Gender=Masc|Number=Sing	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Um deles foi direto em direção ao Glen (cinegrafista) e então um dos seguranças interviu, mas ele foi atingido na cabeça com a bolsa pesada.
+1	Um	um	NUM	_	Gender=Masc|NumType=Card	4	nsubj	_	_
+2-3	deles	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	direto	direto	ADV	_	_	4	advmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	direção	direção	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Glen	Glen	PROPN	_	_	7	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	cinegrafista	cinegrafista	NOUN	_	Number=Sing	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	e	e	CCONJ	_	_	20	cc	_	_
+15	então	então	ADV	_	_	16	advmod	_	_
+16	um	um	NUM	_	Gender=Masc|NumType=Card	20	nsubj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	seguranças	segurança	NOUN	_	Number=Plur	16	nmod	_	_
+20	interviu	interver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	mas	mas	CCONJ	_	_	25	cc	_	_
+23	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj:pass	_	_
+24	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+25	atingido	atingir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	conj	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+32	pesada	pesado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0027
+# text = Eu estava bem segura até isso acontecer, disse a repórter.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	bem	bem	ADV	_	_	4	advmod	_	_
+4	segura	seguro	ADJ	_	Gender=Fem|Number=Sing	9	ccomp:speech	_	_
+5	até	até	ADP	_	_	7	mark	_	_
+6	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+7	acontecer	acontecer	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	repórter	repórter	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0029
+# text = Fui alertada antes de vir para cá: Você terá sorte se não for roubada desabafou Christine.
+1	Fui	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	alertada	alertar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	ccomp:speech	_	_
+3	antes	antes	ADV	_	_	2	advmod	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	vir	vir	VERB	_	VerbForm=Inf	3	acl	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	cá	cá	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	10	punct	_	_
+9	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+10	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	_
+11	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	se	se	SCONJ	_	_	15	mark	_	_
+13	não	não	ADV	_	_	15	advmod	_	_
+14	for	for	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+15	roubada	roubar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl	_	_
+16	desabafou	desabafar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Christine	Christine	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+

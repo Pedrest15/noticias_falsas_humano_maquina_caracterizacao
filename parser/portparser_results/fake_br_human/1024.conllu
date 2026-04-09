@@ -1,0 +1,147 @@
+# sent_id = S0001
+# text = TV Record promete desmascarar a Globo: "Sonegação fiscal, leis encomendadas e empréstimos bilionários".
+1	TV	TV	PROPN	_	_	3	nsubj	_	_
+2	Record	Record	PROPN	_	_	1	flat:name	_	_
+3	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	desmascarar	desmascarar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Globo	Globo	PROPN	_	_	4	obj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	9	punct	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Sonegação	sonegação	NOUN	_	Gender=Fem|Number=Sing	3	parataxis	_	_
+10	fiscal	fiscal	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	leis	lei	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
+13	encomendadas	encomendar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	empréstimos	empréstimo	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
+16	bilionários	bilionário	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O Programa Domingo Espetacular, apresentado pelo "petista de carteirinha" Paulo Henrique Amorim, prometeu soltar uma reportagem "bomba" na noite deste domingo (16).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Programa	Programa	PROPN	_	_	18	nsubj	_	_
+3	Domingo	Domingo	PROPN	_	_	2	flat:name	_	_
+4	Espetacular	Espetacular	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	petista	petista	NOUN	_	Number=Sing	6	obl:agent	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	carteirinha	carteirinha	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	10	punct	_	_
+14	Paulo	Paulo	PROPN	_	_	10	nmod	_	_
+15	Henrique	Henrique	PROPN	_	_	14	flat:name	_	_
+16	Amorim	Amorim	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	6	punct	_	_
+18	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	soltar	soltar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	noite	noite	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+28-29	deste	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
+30	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	16	16	NUM	_	NumType=Card	30	appos	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0005
+# text = A matéria em questão envolve a delação do ex-ministro Antônio Palocci e a Rede Globo de televisão.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	questão	questão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	delação	delação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	Antônio	Antônio	PROPN	_	_	10	nmod	_	_
+12	Palocci	Palocci	PROPN	_	_	11	flat:name	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Rede	Rede	PROPN	_	_	7	conj	_	_
+16	Globo	Globo	PROPN	_	_	15	flat:name	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = PHA alertou que a Globo pode estar envolvida no escândalo da Lava Jato, em casos que envolvem sonegação fiscal, leis encomendadas e empréstimos bilionários através de bancos públicos.
+1	PHA	PHA	PROPN	_	_	2	nsubj	_	_
+2	alertou	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Globo	Globo	PROPN	_	_	6	nsubj	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	estar	estar	AUX	_	VerbForm=Inf	8	cop	_	_
+8	envolvida	envolvido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	6	xcomp	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	escândalo	escândalo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Lava	Lava	PROPN	_	_	11	nmod	_	_
+15	Jato	Jato	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	casos	caso	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	envolvem	envolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	sonegação	sonegação	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+22	fiscal	fiscal	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	leis	lei	NOUN	_	Gender=Fem|Number=Plur	21	conj	_	_
+25	encomendadas	encomendar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	empréstimos	empréstimo	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
+28	bilionários	bilionário	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
+29	através	através	ADV	_	_	27	advmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	bancos	banco	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	_
+32	públicos	público	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com a chamada da TV Record, o programa será apresentado a partir das 19h30.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	chamada	chamado	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	TV	TV	PROPN	_	_	5	nmod	_	_
+9	Record	Record	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	programa	programa	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+13	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+14	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+15	a	a	ADP	_	_	16	mark	_	_
+16	partir	partir	VERB	_	VerbForm=Inf	14	advcl	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	19h30	19h30	NOUN	_	_	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	14	punct	_	_
+

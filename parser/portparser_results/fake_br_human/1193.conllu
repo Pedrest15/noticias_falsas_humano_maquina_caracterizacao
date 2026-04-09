@@ -1,0 +1,141 @@
+# sent_id = S0001
+# text = Temer convoca Forças Armadas para atuar na capital.
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	convoca	convocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Forças	Forças	PROPN	_	_	2	obj	_	_
+4	Armadas	Armadas	PROPN	_	_	3	flat:name	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	atuar	atuar	VERB	_	VerbForm=Inf	2	advcl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	capital	capital	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O presidente Michel Temer acabou de assinar um decreto convocando as Forças Armadas para reforçar a segurança em Brasília.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	5	nsubj	_	_
+3	Michel	Michel	PROPN	_	_	2	nmod	_	_
+4	Temer	Temer	PROPN	_	_	3	flat:name	_	_
+5	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	assinar	assinar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	convocando	convocar	VERB	_	VerbForm=Ger	9	acl	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Forças	Forças	PROPN	_	_	10	obj	_	_
+13	Armadas	Armadas	PROPN	_	_	12	flat:name	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	reforçar	reforçar	VERB	_	VerbForm=Inf	10	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	segurança	segurança	NOUN	_	Number=Sing	15	obj	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	Brasília	Brasília	PROPN	_	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Após várias depredações que ocorreram na tarde de hoje, Temer decidiu não correr mais riscos.
+1	Após	após	ADP	_	_	3	case	_	_
+2	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	depredações	depredação	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	ocorreram	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	hoje	hoje	ADV	_	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	Temer	Temer	PROPN	_	_	13	nsubj	_	_
+13	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	não	não	ADV	_	_	15	advmod	_	_
+15	correr	correr	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	mais	mais	DET	_	PronType=Ind	17	det	_	_
+17	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = Cerca de 3 prédios na Esplanada foram danificados.
+1	Cerca	cerca	ADV	_	ExtPos=ADV	3	advmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	3	3	NUM	_	NumType=Card	4	nummod	_	_
+4	prédios	prédio	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Esplanada	Esplanada	PROPN	_	_	4	nmod	_	_
+8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	danificados	danificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = O governo federal ainda não fez um balanço do prejuízo material.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	federal	federal	ADJ	_	Number=Sing	2	amod	_	_
+4	ainda	ainda	ADV	_	_	6	advmod	_	_
+5	não	não	ADV	_	_	6	advmod	_	_
+6	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	balanço	balanço	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	prejuízo	prejuízo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	material	material	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = A PM estima que aproximadamente 35 mil pessoas ainda estão na capital.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PM	PM	PROPN	_	_	3	nsubj	_	_
+3	estima	estimar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	aproximadamente	aproximadamente	ADV	_	_	6	advmod	_	_
+6	35	35	NUM	_	NumType=Card	8	nummod	_	_
+7	mil	mil	NUM	_	NumType=Card	6	flat	_	_
+8	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+9	ainda	ainda	ADV	_	_	13	advmod	_	_
+10	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	capital	capital	NOUN	_	Number=Sing	3	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Quem sabe o exército já resolve tudo de uma vez só [...] expulsa os manifestantes e os políticos!
+1	Quem	quem	PRON	_	PronType=Ind	6	nsubj	_	_
+2	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	exército	exército	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	já	já	ADV	_	_	6	advmod	_	_
+6	resolve	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	tudo	tudo	PRON	_	PronType=Ind	6	obj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	uma	um	NUM	_	Gender=Fem|NumType=Card	10	det	_	_
+10	vez	vez	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	só	só	ADV	_	_	10	advmod	_	_
+12	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	..	..	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	]	]	PUNCT	_	_	13	punct	_	_
+16	expulsa	expulsar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	manifestantes	manifestante	NOUN	_	Number=Plur	16	obj	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	políticos	político	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+22	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = Sonhar não custa nada!
+1	Sonhar	sonhar	VERB	_	VerbForm=Inf	3	csubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	custa	custar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+

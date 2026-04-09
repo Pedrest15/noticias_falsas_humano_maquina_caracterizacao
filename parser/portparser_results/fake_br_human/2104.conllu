@@ -1,0 +1,147 @@
+# sent_id = S0001
+# text = Encontraram uma planilha da Odebrecht com pagamentos diretos para Lula.
+1	Encontraram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	planilha	planilha	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Odebrecht	Odebrecht	PROPN	_	_	3	nmod	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	pagamentos	pagamento	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+9	diretos	direto	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	Lula	Lula	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = O mentiroso vai ser preso!.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mentiroso	mentiroso	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = O Antagonista informou que Lula tinha uma conta corrente no Setor de Operações Estruturadas "de propinas" da Odebrecht.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Antagonista	Antagonista	PROPN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+6	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	conta	conta	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	corrente	corrente	ADJ	_	Number=Sing	8	amod	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Setor	Setor	PROPN	_	_	8	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Operações	Operações	PROPN	_	_	12	flat:name	_	_
+15	Estruturadas	Estruturadas	PROPN	_	_	12	flat:name	_	_
+16	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	de	de	ADP	_	_	18	case	_	_
+18	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Odebrecht	Odebrecht	PROPN	_	_	12	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Vamos repetir com letras maiúsculas e em negrito: LULA (A ALMA MAIS HONESTA DESTE PAÍS) TINHA UMA CONTA CORRENTE NO SETOR DE OPERAÇÕES ESTRUTURADAS DA ODEBRECHT.
+1	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	repetir	repetir	VERB	_	VerbForm=Inf	0	root	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	letras	letra	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
+5	maiúsculas	maiúsculo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	negrito	negrito	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	20	punct	_	_
+10	LULA	LULA	PROPN	_	_	20	nsubj	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ALMA	ALMA	PROPN	_	_	10	appos	_	_
+14	MAIS	mais	ADV	_	_	15	advmod	_	_
+15	HONESTA	honesto	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+16-17	DESTE	_	_	_	_	_	_	_	_
+16	DE	de	ADP	_	_	18	case	_	_
+17	ESTE	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	PAÍS	PAÍS	PROPN	_	_	13	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	13	punct	_	_
+20	TINHA	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+21	UMA	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	CONTA	CONTA	PROPN	_	_	20	obj	_	_
+23	CORRENTE	corrente	ADJ	_	Number=Sing	22	amod	_	_
+24-25	NO	_	_	_	_	_	_	_	_
+24	EM	em	ADP	_	_	26	case	_	_
+25	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	SETOR	SETOR	PROPN	_	_	22	nmod	_	_
+27	DE	de	ADP	_	_	28	case	_	_
+28	OPERAÇÕES	OPERAÇÕES	PROPN	_	_	26	nmod	_	_
+29	ESTRUTURADAS	estruturado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	28	amod	_	_
+30-31	DA	_	_	_	_	_	_	_	_
+30	DE	de	ADP	_	_	32	case	_	_
+31	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	ODEBRECHT	ODEBRECHT	PROPN	_	_	26	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com informações, há uma planilha com todos os pagamentos feitos pela empreiteira a Lula a tal planilha (segundo o Antagonista) se chama "Amigo".
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	planilha	planilha	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	com	com	ADP	_	_	12	case	_	_
+10	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	pagamentos	pagamento	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+13	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	_
+14-15	pela	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	empreiteira	empreiteiro	NOUN	_	Gender=Fem|Number=Sing	13	obl:agent	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	Lula	Lula	PROPN	_	_	13	obl	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	tal	tal	DET	_	Number=Sing|PronType=Dem	21	det	_	_
+21	planilha	planilha	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
+22	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+23	segundo	segundo	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Antagonista	Antagonista	PROPN	_	_	28	obl	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	28	expl	_	_
+28	chama	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	root	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Amigo	Amigo	PROPN	_	_	28	obj	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Lula vai ser preso.
+1	Lula	Lula	PROPN	_	_	4	nsubj:pass	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = E vai ser ainda essa semana!
+1	E	e	CCONJ	_	_	6	cc	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	6	cop	_	_
+4	ainda	ainda	ADV	_	_	6	advmod	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	semana	semana	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	6	punct	_	_
+

@@ -1,0 +1,294 @@
+# sent_id = S0001
+# text = Ex-governador João Doria decreta lockdown total em São Paulo: Veículos de serviços essenciais também são proibidos de circular!
+1	Ex-governador	ex-governador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	João	João	PROPN	_	_	1	nmod	_	_
+3	Doria	Doria	PROPN	_	_	2	flat:name	_	_
+4	decreta	decretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	lockdown	lockdown	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	4	obj	_	_
+6	total	total	ADJ	_	Number=Sing	5	amod	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	São	São	PROPN	_	_	4	obl	_	_
+9	Paulo	Paulo	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	17	punct	_	_
+11	Veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	essenciais	essencial	ADJ	_	Number=Plur	13	amod	_	_
+15	também	também	ADV	_	_	17	advmod	_	_
+16	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	proibidos	proibir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	conj	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	circular	circular	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = O ex-governador de São Paulo, João Doria, surpreendeu a população com um decreto de lockdown total, afirmando que medidas mais severas são necessárias para conter o avanço da pandemia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-governador	ex-governador	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	São	São	PROPN	_	_	2	nmod	_	_
+5	Paulo	Paulo	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	João	João	PROPN	_	_	2	appos	_	_
+8	Doria	Doria	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	população	população	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	lockdown	lockdown	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	total	total	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	afirmando	afirmar	VERB	_	VerbForm=Ger	10	advcl	_	_
+21	que	que	SCONJ	_	_	26	mark	_	_
+22	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	severas	severo	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+25	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	necessárias	necessário	ADJ	_	Gender=Fem|Number=Plur	20	ccomp	_	_
+27	para	para	ADP	_	_	28	mark	_	_
+28	conter	conter	VERB	_	VerbForm=Inf	26	advcl	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = A decisão teria sido tomada após um aumento alarmante de casos e falta de leitos nos hospitais.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	após	após	ADP	_	_	8	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	alarmante	alarmante	ADJ	_	Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	casos	caso	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	falta	falta	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	leitos	leito	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16-17	nos	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	hospitais	hospital	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com a mensagem divulgada em várias redes sociais, o decreto inclui a proibição de circulação de todos os veículos, inclusive os vinculados a serviços essenciais, a partir de amanhã.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	redes	rede	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+10	sociais	social	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	proibição	proibição	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	circulação	circulação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	de	de	ADP	_	_	22	case	_	_
+20	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	inclusive	inclusive	ADV	_	_	25	advmod	_	_
+25	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	22	nmod	_	_
+26	vinculados	vinculado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	25	amod	_	_
+27	a	a	ADP	_	_	28	case	_	_
+28	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+29	essenciais	essencial	ADJ	_	Number=Plur	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	25	punct	_	_
+31	a	a	ADP	_	_	32	mark	_	_
+32	partir	partir	VERB	_	VerbForm=Inf	14	advcl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	amanhã	amanhã	ADV	_	_	32	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0009
+# text = Esse lockdown radical teria sido aprovado em uma sessão emergencial da Assembleia Legislativa de São Paulo, com votos unânimes.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	lockdown	lockdown	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	radical	radical	ADJ	_	Number=Sing	2	amod	_	_
+4	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+5	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	6	aux:pass	_	_
+6	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	emergencial	emergencial	ADJ	_	Number=Sing	9	amod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Assembleia	Assembleia	PROPN	_	_	9	nmod	_	_
+14	Legislativa	Legislativa	PROPN	_	_	13	flat:name	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	São	São	PROPN	_	_	13	flat:name	_	_
+17	Paulo	Paulo	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	votos	voto	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+21	unânimes	unânime	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Além disso, uma nova onda de rumores indica que o Hospital de Campanha do Ibirapuera estaria fechado, com vídeos supostamente comprovando a situação.
+1	Além	além	ADV	_	_	10	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nova	novo	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	onda	onda	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	rumores	rumor	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	20	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Hospital	Hospital	PROPN	_	_	20	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Campanha	Campanha	PROPN	_	_	13	flat:name	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Ibirapuera	Ibirapuera	PROPN	_	_	13	flat:name	_	_
+19	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	20	cop	_	_
+20	fechado	fechado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	ccomp	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	vídeos	vídeo	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+24	supostamente	supostamente	ADV	_	_	25	advmod	_	_
+25	comprovando	comprovar	VERB	_	VerbForm=Ger	23	acl	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	situação	situação	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = As imagens mostram corredores vazios, sugerindo uma má gestão dos recursos destinados ao combate da pandemia.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	corredores	corredor	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	vazios	vazio	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	sugerindo	sugerir	VERB	_	VerbForm=Ger	3	advcl	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	má	má	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	destinados	destinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	combate	combate	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Doria teria se pronunciado, alegando que essas imagens são antigas e fora de contexto, mas a população permanece cética.
+1	Doria	Doria	PROPN	_	_	4	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	pronunciado	pronunciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	alegando	alegar	VERB	_	VerbForm=Ger	4	advcl	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	antigas	antigo	ADJ	_	Gender=Fem|Number=Plur	6	ccomp	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	fora	fora	ADV	_	_	11	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	contexto	contexto	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	mas	mas	CCONJ	_	_	20	cc	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	população	população	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	cética	cético	ADJ	_	Gender=Fem|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0017
+# text = Até 31 de maio, ninguém poderá sair de casa, nem mesmo para atividades essenciais, a menos que possua uma permissão especial que ainda será detalhada pelo governo.
+1	Até	até	ADP	_	_	2	case	_	_
+2	31	31	NUM	_	NumType=Card	7	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	maio	maio	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	7	nsubj	_	_
+7	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	sair	sair	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	casa	casa	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	nem	nem	ADV	_	_	15	advmod	_	_
+13	mesmo	mesmo	ADV	_	_	12	advmod	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+16	essenciais	essencial	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	a	a	ADP	_	ExtPos=SCONJ	21	mark	_	_
+19	menos	menos	ADV	_	_	18	fixed	_	_
+20	que	que	SCONJ	_	_	18	fixed	_	_
+21	possua	possuir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	permissão	permissão	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	especial	especial	ADJ	_	Number=Sing	23	amod	_	_
+25	que	que	PRON	_	PronType=Rel	28	nsubj:pass	_	_
+26	ainda	ainda	ADV	_	_	28	advmod	_	_
+27	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	aux:pass	_	_
+28	detalhada	detalhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+29-30	pelo	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	governo	governo	NOUN	_	Gender=Masc|Number=Sing	28	obl:agent	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0019
+# text = A medida severa visa reduzir a taxa de contágio e aliviar a sobrecarga nos hospitais do estado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	severa	severo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	reduzir	reduzir	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	contágio	contágio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	aliviar	aliviar	VERB	_	VerbForm=Inf	5	conj	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sobrecarga	sobrecarga	NOUN	_	Number=Sing	11	obj	_	_
+14-15	nos	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	hospitais	hospital	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	estado	estado	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+

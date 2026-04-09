@@ -1,0 +1,149 @@
+# sent_id = S0001
+# text = Em vídeo, deputado derruba o discurso de que Dilma "é honesta".
+1	Em	em	ADP	_	_	2	case	_	_
+2	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	derruba	derrubar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ExtPos=SCONJ	13	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	Dilma	Dilma	PROPN	_	_	13	nsubj	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	honesta	honesto	ADJ	_	Gender=Fem|Number=Sing	7	acl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = O deputado e jornalista Paulo Martins (PSDB/PR) publicou um vídeo derrubando o "mito" de que DILMA É HONESTA.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	jornalista	jornalista	NOUN	_	Number=Sing	2	conj	_	_
+5	Paulo	Paulo	PROPN	_	_	2	nmod	_	_
+6	Martins	Martins	PROPN	_	_	5	flat:name	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	PSDB/PR	PSDB/PR	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	derrubando	derrubar	VERB	_	VerbForm=Ger	12	acl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	mito	mito	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	de	de	ADP	_	ExtPos=SCONJ	22	mark	_	_
+19	que	que	SCONJ	_	_	18	fixed	_	_
+20	DILMA	DILMA	PROPN	_	_	22	nsubj	_	_
+21	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	HONESTA	HONESTA	PROPN	_	_	16	acl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = O Fernando Henrique Cardoso [que é do meu partido] está errado!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fernando	Fernando	PROPN	_	_	14	nsubj	_	_
+3	Henrique	Henrique	PROPN	_	_	2	flat:name	_	_
+4	Cardoso	Cardoso	PROPN	_	_	2	flat:name	_	_
+5	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+6	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	partido	partido	NOUN	_	Gender=Masc|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	11	punct	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	errado	errado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0007
+# text = Dilma Rousseff é corrupta disse o deputado.
+1	Dilma	Dilma	PROPN	_	_	4	nsubj	_	_
+2	Rousseff	Rousseff	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	corrupta	corrupto	ADJ	_	Gender=Fem|Number=Sing	5	ccomp:speech	_	_
+5	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = Ela é corrupta e criminosa [no sentido administrativo].
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	corrupta	corrupto	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	_
+6	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+10	administrativo	administrativo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	]	]	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = Ela faz parte de uma organização montada para ocupar e assaltar a Petrobras.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	parte	parte	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	organização	organização	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+7	montada	montar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	para	para	ADP	_	_	9	mark	_	_
+9	ocupar	ocupar	VERB	_	VerbForm=Inf	7	advcl	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	assaltar	assaltar	VERB	_	VerbForm=Inf	9	conj	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Petrobras	Petrobras	PROPN	_	_	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A dona Dilma ocupou o cargo de presidente do conselho da Petrobras, que é por onde todos os grandes negócios passam continuou Martins confira o vídeo que está viralizando na web:
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	dona	dona	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Dilma	Dilma	PROPN	_	_	2	nmod	_	_
+4	ocupou	ocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	6	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	conselho	conselho	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Petrobras	Petrobras	PROPN	_	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	24	punct	_	_
+16	que	que	PRON	_	PronType=Rel	24	nsubj	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	onde	onde	ADV	_	_	24	advmod	_	_
+20	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	grandes	grande	ADJ	_	Number=Plur	23	amod	_	_
+23	negócios	negócio	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+24	passam	passar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+25	continuou	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+26	Martins	Martins	PROPN	_	_	27	nsubj	_	_
+27	confira	conferir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+30	que	que	PRON	_	PronType=Rel	32	nsubj	_	_
+31	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	viralizando	viralizar	VERB	_	VerbForm=Ger	29	acl:relcl	_	_
+33-34	na	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	web	web	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	4	punct	_	_
+

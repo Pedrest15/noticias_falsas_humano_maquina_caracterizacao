@@ -1,0 +1,486 @@
+# sent_id = S0001
+# text = Bolsonaro é o único presidenciável que não está envolvido em escândalos.
+1	Bolsonaro	Bolsonaro	PROPN	_	_	5	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	único	único	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	presidenciável	presidenciável	NOUN	_	Number=Sing	0	root	_	_
+6	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+7	não	não	ADV	_	_	9	advmod	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	envolvido	envolvido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl:relcl	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	escândalos	escândalo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0003
+# text = Candidato do PSC concorrerá com políticos cujos nomes estão envolvidos em escândalos milionários.
+1	Candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	PSC	PSC	PROPN	_	_	1	nmod	_	_
+5	concorrerá	concorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	políticos	político	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+8	cujos	cujo	DET	_	Gender=Masc|Number=Plur|PronType=Rel	9	det	_	_
+9	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	envolvidos	envolvido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	7	acl:relcl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	escândalos	escândalo	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+14	milionários	milionário	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Veja os crimes que os adversários de Bolsonaro são acusados.
+1	Veja	ver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	que	que	PRON	_	PronType=Rel	10	obj	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	adversários	adversário	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Bolsonaro	Bolsonaro	PROPN	_	_	6	nmod	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	acusados	acusar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Nesta segunda (12), o Instituto Datafolha divulgou mais uma pesquisa de intenção de votos para o pleito de 2018.
+1-2	Nesta	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	segunda	segundo	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	11	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	12	12	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Instituto	Instituto	PROPN	_	_	11	nsubj	_	_
+10	Datafolha	Datafolha	PROPN	_	_	9	flat:name	_	_
+11	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	uma	um	NUM	_	Gender=Fem|NumType=Card	14	nummod	_	_
+14	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	votos	voto	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+19	para	para	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pleito	pleito	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	2018	2018	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = Entre os principais candidatos à presidência, o deputado federal Jair Bolsonaro (PSC) é o único a não ter o seu nome envolvido em escândalos políticos nenhum dos adversários, porém, foi condenado até o momento.
+1	Entre	entre	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	principais	principal	ADJ	_	Number=Plur	4	amod	_	_
+4	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+11	federal	federal	ADJ	_	Number=Sing	10	amod	_	_
+12	Jair	Jair	PROPN	_	_	10	nmod	_	_
+13	Bolsonaro	Bolsonaro	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	PSC	PSC	PROPN	_	_	10	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+19	único	único	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	a	a	ADP	_	_	22	mark	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	ter	ter	VERB	_	VerbForm=Inf	19	acl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	nome	nome	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+26	envolvido	envolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	xcomp	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	escândalos	escândalo	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+29	políticos	político	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	nenhum	nenhum	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	28	nsubj	_	_
+31-32	dos	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	adversários	adversário	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	porém	porém	CCONJ	_	_	38	cc	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux:pass	_	_
+38	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	conj	_	_
+39	até	até	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	momento	momento	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0011
+# text = Adversários de Bolsonaro: Marina Silva (Rede), Lula (PT), Aécio Neves (PSDB), Geraldo Alckmin (PSDB), José Serra (PSDB) e Ciro Gomes (PDT) têm seus nomes envolvidos em escândalos políticos.
+1	Adversários	adversário	NOUN	_	Gender=Masc|Number=Plur	39	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Bolsonaro	Bolsonaro	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	Marina	Marina	PROPN	_	_	1	appos	_	_
+6	Silva	Silva	PROPN	_	_	5	flat:name	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Rede	Rede	PROPN	_	_	5	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	Lula	Lula	PROPN	_	_	5	conj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	PT	PT	PROPN	_	_	5	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	Aécio	Aécio	PROPN	_	_	5	conj	_	_
+17	Neves	Neves	PROPN	_	_	22	flat:name	_	_
+18	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+19	PSDB	PSDB	PROPN	_	_	16	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Geraldo	Geraldo	PROPN	_	_	5	conj	_	_
+23	Alckmin	Alckmin	PROPN	_	_	28	flat:name	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	PSDB	PSDB	PROPN	_	_	22	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	José	José	PROPN	_	_	5	conj	_	_
+29	Serra	Serra	PROPN	_	_	28	flat:name	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	PSDB	PSDB	PROPN	_	_	28	parataxis	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	Ciro	Ciro	PROPN	_	_	5	conj	_	_
+35	Gomes	Gomes	PROPN	_	_	34	flat:name	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	PDT	PDT	PROPN	_	_	34	parataxis	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	_
+39	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+40	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	det	_	_
+41	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	39	obj	_	_
+42	envolvidos	envolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	39	xcomp	_	_
+43	em	em	ADP	_	_	44	case	_	_
+44	escândalos	escândalo	NOUN	_	Gender=Masc|Number=Plur	42	obl	_	_
+45	políticos	político	ADJ	_	Gender=Masc|Number=Plur	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = S0013
+# text = Em junho deste ano, Marina Silva foi acusada de ter recebido dinheiro de caixa dois, em delação premiada feita pelo ex-presidente da OAS, Léo Pinheiro, na campanha para as eleições de 2010.
+1	Em	em	ADP	_	_	2	case	_	_
+2	junho	junho	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3-4	deste	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	ano	ano	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	Marina	Marina	PROPN	_	_	10	nsubj:pass	_	_
+8	Silva	Silva	PROPN	_	_	7	flat:name	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	acusada	acusar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	de	de	ADP	_	_	13	mark	_	_
+12	ter	ter	AUX	_	VerbForm=Inf	13	aux	_	_
+13	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	xcomp	_	_
+14	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	caixa	caixa	NOUN	_	Number=Sing	14	nmod	_	_
+17	dois	dois	NUM	_	Gender=Masc|NumType=Card	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	delação	delação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+21	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	20	amod	_	_
+22	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
+23-24	pelo	_	_	_	_	_	_	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ex-presidente	ex-presidente	NOUN	_	Number=Sing	22	obl:agent	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	OAS	OAS	PROPN	_	_	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	Léo	Léo	PROPN	_	_	25	appos	_	_
+31	Pinheiro	Pinheiro	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	30	punct	_	_
+33-34	na	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+36	para	para	ADP	_	_	38	case	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	2010	2010	NUM	_	NumType=Card	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0015
+# text = Marina negou que sua campanha tenha recebido dinheiro ilícito.
+1	Marina	Marina	PROPN	_	_	2	nsubj	_	_
+2	negou	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+8	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	ilícito	ilícito	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = Entre os candidatos das eleições de 2018, Lula é quem está mais enrolado com a justiça.
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+4-5	das	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	2018	2018	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	Lula	Lula	PROPN	_	_	12	nsubj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	quem	quem	PRON	_	PronType=Rel	0	root	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	mais	mais	ADV	_	_	15	advmod	_	_
+15	enrolado	enrolado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl:relcl	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0019
+# text = Há inúmeras denúncias contra o ex-presidente e ele é réu em três processos da Operação Lava Jato.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	inúmeras	inúmero	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+3	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+4	contra	contra	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ex-presidente	ex-presidente	NOUN	_	Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	_	_	10	cc	_	_
+8	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	réu	réu	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	três	três	NUM	_	NumType=Card	13	nummod	_	_
+13	processos	processo	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Operação	Operação	PROPN	_	_	13	nmod	_	_
+17	Lava	Lava	PROPN	_	_	16	flat:name	_	_
+18	Jato	Jato	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Aécio Neves, derrotado nas eleições de 2014, foi citado em delação do ex-diretor de Relações Institucionais da Odebrecht, Claudio Melo Filho.
+1	Aécio	Aécio	PROPN	_	_	12	nsubj:pass	_	_
+2	Neves	Neves	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	derrotado	derrotar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
+5-6	nas	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	2014	2014	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	delação	delação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ex-diretor	ex-diretor	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Relações	Relações	PROPN	_	_	17	nmod	_	_
+20	Institucionais	Institucionais	PROPN	_	_	19	flat:name	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Odebrecht	Odebrecht	PROPN	_	_	17	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	Claudio	Claudio	PROPN	_	_	17	appos	_	_
+26	Melo	Melo	PROPN	_	_	25	flat:name	_	_
+27	Filho	Filho	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0023
+# text = O senador teria recebido R$ 15 milhões da empresa.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_
+4	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	R$	R$	SYM	_	_	7	nmod	_	_
+6	15	15	NUM	_	NumType=Card	7	nummod	_	_
+7	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0025
+# text = O governo de São Paulo, Geraldo Alckmin, foi delatado pela Odebrecht.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	São	São	PROPN	_	_	2	nmod	_	_
+5	Paulo	Paulo	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Geraldo	Geraldo	PROPN	_	_	2	appos	_	_
+8	Alckmin	Alckmin	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	delatado	delatar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12-13	pela	_	_	_	_	_	_	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Odebrecht	Odebrecht	PROPN	_	_	11	obl:agent	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0027
+# text = Ele teria recebido dinheiro vivo para caixa dois nas duas últimas disputas pelo governo do maior estado do Brasil.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	_
+3	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	vivo	vivo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	caixa	caixa	NOUN	_	Number=Sing	4	nmod	_	_
+8	dois	dois	NUM	_	Gender=Masc|NumType=Card	7	nmod	_	_
+9-10	nas	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	13	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+11	duas	dois	NUM	_	Gender=Fem|NumType=Card	13	nummod	_	_
+12	últimas	último	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+13	disputas	disputa	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+14-15	pelo	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	maior	maior	ADJ	_	Number=Sing	20	amod	_	_
+20	estado	estado	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Brasil	Brasil	PROPN	_	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0029
+# text = Em 2010, o candidato tucano à presidência, José Serra, teria recebido R$ 23 milhões via caixa dois da Odebrecht.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2010	2010	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+6	tucano	tucano	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	José	José	PROPN	_	_	5	appos	_	_
+12	Serra	Serra	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	15	aux	_	_
+15	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+16	R$	R$	SYM	_	_	18	nmod	_	_
+17	23	23	NUM	_	NumType=Card	18	nummod	_	_
+18	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+19	via	via	ADP	_	_	20	case	_	_
+20	caixa	caixa	NOUN	_	Number=Sing	15	obl	_	_
+21	dois	dois	NUM	_	Gender=Masc|NumType=Card	20	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Odebrecht	Odebrecht	PROPN	_	_	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0031
+# text = Ciro Gomes, candidato do PDT, tem ação de improbidade administrativa aberta pelo Ministério Público Federal (MPF) quando era secretário de saúde do estado do Ceará.
+1	Ciro	Ciro	PROPN	_	_	9	nsubj	_	_
+2	Gomes	Gomes	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PDT	PDT	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ação	ação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	improbidade	improbidade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	administrativa	administrativo	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Ministério	Ministério	PROPN	_	_	14	obl:agent	_	_
+18	Público	Público	PROPN	_	_	17	flat:name	_	_
+19	Federal	Federal	PROPN	_	_	17	flat:name	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	MPF	MPF	PROPN	_	_	17	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	quando	quando	SCONJ	_	_	25	mark	_	_
+24	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	secretário	secretário	NOUN	_	Gender=Masc|Number=Sing	14	advcl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	estado	estado	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Ceará	Ceará	PROPN	_	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0033
+# text = Somente Bolsonaro, entre os candidatos que alcançaram mais de 5% na pesquisa de intenção de votos do Datafolha, não tem o nome envolvido em escândalos milionários.
+1	Somente	somente	ADV	_	_	2	advmod	_	_
+2	Bolsonaro	Bolsonaro	PROPN	_	_	25	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	entre	entre	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	alcançaram	alcançar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	mais	mais	ADV	_	ExtPos=ADV	11	advmod	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	5	5	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	_	_	8	obj	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	votos	voto	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Datafolha	Datafolha	PROPN	_	_	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	6	punct	_	_
+24	não	não	ADV	_	_	25	advmod	_	_
+25	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	nome	nome	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	envolvido	envolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	xcomp	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	escândalos	escândalo	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
+31	milionários	milionário	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	25	punct	_	_
+

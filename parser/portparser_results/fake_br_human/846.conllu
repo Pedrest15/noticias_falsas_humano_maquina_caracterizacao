@@ -1,0 +1,719 @@
+# sent_id = S0001
+# text = Nós avisamos.
+1	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	avisamos	avisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Até a Folha pediu desculpas.
+1	Até	até	ADV	_	_	3	advmod	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Folha	Folha	PROPN	_	_	4	nsubj	_	_
+4	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	desculpas	desculpa	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Joesley poupou Lula e o PT em suas delações.
+1	Joesley	Joesley	PROPN	_	_	2	nsubj	_	_
+2	poupou	poupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Lula	Lula	PROPN	_	_	2	obj	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	PT	PT	PROPN	_	_	3	conj	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	delações	delação	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = A Folha de São Paulo, um dos jornais de maior circulação no país, admitiu que errou ao seguir os passos da Rede Globo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Folha	Folha	PROPN	_	_	18	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	São	São	PROPN	_	_	2	flat:name	_	_
+5	Paulo	Paulo	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	um	um	NUM	_	Gender=Masc|NumType=Card	2	appos	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	jornais	jornal	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	maior	maior	ADJ	_	Number=Sing	13	amod	_	_
+13	circulação	circulação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	admitiu	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	que	que	SCONJ	_	_	20	mark	_	_
+20	errou	errar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	ExtPos=SCONJ	23	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	fixed	_	_
+23	seguir	seguir	VERB	_	VerbForm=Inf	20	advcl	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	passos	passo	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Rede	Rede	PROPN	_	_	25	nmod	_	_
+29	Globo	Globo	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0009
+# text = (Amanda Nunes Brückner para o DB) O fato diz respeito ao grampo que o empresário Joesley Batista fez no presidente Michel Temer na tentativa de derrubar o governo.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Amanda	Amanda	PROPN	_	_	11	nsubj	_	_
+3	Nunes	Nunes	PROPN	_	_	2	flat:name	_	_
+4	Brückner	Brückner	PROPN	_	_	2	flat:name	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	DB	DB	PROPN	_	_	2	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	2	punct	_	_
+9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fato	fato	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	grampo	grampo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	que	que	PRON	_	PronType=Rel	21	obj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	Joesley	Joesley	PROPN	_	_	18	nmod	_	_
+20	Batista	Batista	PROPN	_	_	19	flat:name	_	_
+21	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	presidente	presidente	NOUN	_	Number=Sing	21	obl	_	_
+25	Michel	Michel	PROPN	_	_	24	nmod	_	_
+26	Temer	Temer	PROPN	_	_	25	flat:name	_	_
+27-28	na	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+30	de	de	ADP	_	_	31	mark	_	_
+31	derrubar	derrubar	VERB	_	VerbForm=Inf	29	acl	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	governo	governo	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = No texto abaixo, a Folha sugere que foi induzida ao erro através de um vazamento feito pelo colunista Lauro Jardim, do jornal "O Globo".
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	texto	texto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	abaixo	abaixo	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Folha	Folha	PROPN	_	_	8	nsubj	_	_
+8	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	11	mark	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	induzida	induzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	erro	erro	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	através	através	ADV	_	_	11	advmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	vazamento	vazamento	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	colunista	colunista	NOUN	_	Number=Sing	19	obl:agent	_	_
+23	Lauro	Lauro	PROPN	_	_	22	nmod	_	_
+24	Jardim	Jardim	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	O	O	PROPN	_	_	28	nmod	_	_
+31	Globo	Globo	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = O fato foi amplamente explorado pela emissora dos Marinho e a conversa "grampeada" de Temer e Joesley se tornou um dos assuntos mais comentados nos últimos meses.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	amplamente	amplamente	ADV	_	_	5	advmod	_	_
+5	explorado	explorar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Marinho	Marinho	PROPN	_	_	8	nmod	_	_
+12	e	e	CCONJ	_	_	23	cc	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	grampeada	grampeado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	14	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Temer	Temer	PROPN	_	_	14	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	Joesley	Joesley	PROPN	_	_	19	conj	_	_
+22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	_	_
+23	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+24	um	um	NUM	_	Gender=Masc|NumType=Card	23	xcomp	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	assuntos	assunto	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+28	mais	mais	ADV	_	_	29	advmod	_	_
+29	comentados	comentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	27	acl	_	_
+30-31	nos	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	33	case	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	últimos	último	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	_
+33	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = A Folha errou ao afirmar que Joesley Batista gravou conversa com o presidente Michel Temer em que relatou a compra do silêncio do ex-deputado Eduardo Cunha na prisão e recebeu aval à operação.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Folha	Folha	PROPN	_	_	3	nsubj	_	_
+3	errou	errar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	ExtPos=SCONJ	6	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	afirmar	afirmar	VERB	_	VerbForm=Inf	3	advcl	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	Joesley	Joesley	PROPN	_	_	10	nsubj	_	_
+9	Batista	Batista	PROPN	_	_	8	flat:name	_	_
+10	gravou	gravar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+11	conversa	conversa	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	presidente	presidente	NOUN	_	Number=Sing	11	nmod	_	_
+15	Michel	Michel	PROPN	_	_	14	nmod	_	_
+16	Temer	Temer	PROPN	_	_	15	flat:name	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	que	que	PRON	_	PronType=Rel	19	obl	_	_
+19	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	compra	compra	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ex-deputado	ex-deputado	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	Eduardo	Eduardo	PROPN	_	_	27	nmod	_	_
+29	Cunha	Cunha	PROPN	_	_	28	flat:name	_	_
+30-31	na	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+35	aval	aval	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
+36-37	à	_	_	_	_	_	_	_	_
+36	a	a	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	operação	operação	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0017
+# text = A afirmação, foi creditada ao colunista Lauro Jardim, de "O Globo", e depois confirmada pela Folha.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	afirmação	afirmação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	creditada	creditar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	colunista	colunista	NOUN	_	Number=Sing	5	obl	_	_
+9	Lauro	Lauro	PROPN	_	_	8	nmod	_	_
+10	Jardim	Jardim	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	O	O	PROPN	_	_	8	nmod	_	_
+15	Globo	Globo	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	depois	depois	ADV	_	_	20	advmod	_	_
+20	confirmada	confirmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Folha	Folha	PROPN	_	_	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = Naquele momento, nenhum dos dois jornais tinha tido acesso às gravações que só foram tornadas públicas no dia seguinte, 18 de maio.
+1-2	Naquele	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	nenhum	nenhum	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	dois	dois	NUM	_	Gender=Masc|NumType=Card	9	nummod	_	_
+9	jornais	jornal	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+10	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	tido	ter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+12	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13-14	às	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	gravações	gravação	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+16	que	que	PRON	_	PronType=Rel	19	nsubj:pass	_	_
+17	só	só	ADV	_	_	19	advmod	_	_
+18	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	tornadas	tornar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+20	públicas	público	ADJ	_	Gender=Fem|Number=Plur	19	xcomp	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	dia	dia	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+24	seguinte	seguinte	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	18	18	NUM	_	NumType=Card	23	appos	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	maio	maio	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0021
+# text = Nesse dia, a Folha publicou reportagem dizendo que o áudio, na verdade, é inconclusivo a respeito da compra do silêncio de Cunha.
+1-2	Nesse	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	dia	dia	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Folha	Folha	PROPN	_	_	7	nsubj	_	_
+7	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	reportagem	reportagem	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	dizendo	dizer	VERB	_	VerbForm=Ger	8	acl	_	_
+10	que	que	SCONJ	_	_	19	mark	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	áudio	áudio	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	inconclusivo	inconclusivo	ADJ	_	Gender=Masc|Number=Sing	9	ccomp	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	compra	compra	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Cunha	Cunha	PROPN	_	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0023
+# text = A correção de erros é característica da Folha, reforçada na última versão de seu Projeto Editorial... (1) Temer pode ter cometido alguns crimes de responsabilidade sim, porém os fatos devem ser calmamente analisados e julgados pelos órgãos competentes, assim como ocorreu com a ex-presidente Dilma Rousseff.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	correção	correção	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	erros	erro	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	característica	característica	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Folha	Folha	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	reforçada	reforçar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	última	último	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	versão	versão	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	Projeto	Projeto	PROPN	_	_	15	nmod	_	_
+19	Editorial	Editorial	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	...	...	PUNCT	_	_	6	punct	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	1	1	NUM	_	NumType=Card	6	parataxis	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	Temer	Temer	PROPN	_	_	25	nsubj	_	_
+25	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	root	_	_
+26	ter	ter	AUX	_	VerbForm=Inf	27	aux	_	_
+27	cometido	cometer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	xcomp	_	_
+28	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	sim	sim	ADV	_	_	25	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	37	punct	_	_
+34	porém	porém	CCONJ	_	_	37	cc	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	fatos	fato	NOUN	_	Gender=Masc|Number=Plur	37	nsubj	_	_
+37	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+38	ser	ser	AUX	_	VerbForm=Inf	40	aux:pass	_	_
+39	calmamente	calmamente	ADV	_	_	40	advmod	_	_
+40	analisados	analisar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	37	xcomp	_	_
+41	e	e	CCONJ	_	_	42	cc	_	_
+42	julgados	julgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	40	conj	_	_
+43-44	pelos	_	_	_	_	_	_	_	_
+43	por	por	ADP	_	_	45	case	_	_
+44	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	órgãos	órgão	NOUN	_	Gender=Masc|Number=Plur	40	obl:agent	_	_
+46	competentes	competente	ADJ	_	Number=Plur	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	50	punct	_	_
+48	assim	assim	ADV	_	ExtPos=SCONJ	50	mark	_	_
+49	como	como	SCONJ	_	_	48	fixed	_	_
+50	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	advcl	_	_
+51	com	com	ADP	_	_	53	case	_	_
+52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	ex-presidente	ex-presidente	NOUN	_	Number=Sing	50	obl	_	_
+54	Dilma	Dilma	PROPN	_	_	53	nmod	_	_
+55	Rousseff	Rousseff	PROPN	_	_	54	flat:name	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = (2) O PT está se aproveitando da "bagunça política" para traçar uma estratégia desonesta de recolocar Lula no poder.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	2	2	NUM	_	NumType=Card	8	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	PT	PT	PROPN	_	_	8	nsubj	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+8	aproveitando	aproveitar	VERB	_	VerbForm=Ger	0	root	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	bagunça	bagunça	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+13	política	político	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	12	punct	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	traçar	traçar	VERB	_	VerbForm=Inf	8	advcl	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	desonesta	desonesto	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	21	mark	_	_
+21	recolocar	recolocar	VERB	_	VerbForm=Inf	18	acl	_	_
+22	Lula	Lula	PROPN	_	_	21	obj	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	poder	poder	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0027
+# text = (3) O boato de que Lulinha seria um dos donos da Friboi volta a rondar nossos pensamentos.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	3	3	NUM	_	NumType=Card	17	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	boato	boato	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+6	de	de	ADP	_	ExtPos=SCONJ	10	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	Lulinha	Lulinha	PROPN	_	_	10	nsubj	_	_
+9	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	cop	_	_
+10	um	um	NUM	_	Gender=Masc|NumType=Card	5	acl	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	donos	dono	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Friboi	Friboi	PROPN	_	_	13	nmod	_	_
+17	volta	voltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	_	_	19	mark	_	_
+19	rondar	rondar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	det	_	_
+21	pensamentos	pensamento	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0029
+# text = Porque justamente a Friboi tenta derrubar o presidente da República sabendo que o maior beneficiário em uma possível eleição direta seria Lula?
+1	Porque	porque	CCONJ	_	_	5	cc	_	_
+2	justamente	justamente	ADV	_	_	5	advmod	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Friboi	Friboi	PROPN	_	_	5	nsubj	_	_
+5	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	derrubar	derrubar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	_	Number=Sing	6	obj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	República	República	PROPN	_	_	8	nmod	_	_
+12	sabendo	saber	VERB	_	VerbForm=Ger	6	advcl	_	_
+13	que	que	SCONJ	_	_	23	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	maior	maior	ADJ	_	Number=Sing	16	amod	_	_
+16	beneficiário	beneficiário	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	possível	possível	ADJ	_	Number=Sing	20	amod	_	_
+20	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+21	direta	direto	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	23	cop	_	_
+23	Lula	Lula	PROPN	_	_	12	ccomp	_	SpaceAfter=No
+24	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0031
+# text = É muita coincidência.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	muita	muito	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	coincidência	coincidência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0033
+# text = (4) Porque somente o colunista do Globo teve acesso a essas informações sigilosas?
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	4	4	NUM	_	NumType=Card	11	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Porque	porque	CCONJ	_	_	11	cc	_	_
+5	somente	somente	ADV	_	_	7	advmod	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	colunista	colunista	NOUN	_	Number=Sing	11	nsubj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Globo	Globo	PROPN	_	_	7	nmod	_	_
+11	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	informações	informação	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+16	sigilosas	sigiloso	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0035
+# text = Será que ele (Lauro Jardim) recebeu alguma mala (cheia de picanhas) para provocar um alarde no país?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	discourse	_	_
+2	que	que	SCONJ	_	_	8	discourse	_	_
+3	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Lauro	Lauro	PROPN	_	_	3	appos	_	_
+6	Jardim	Jardim	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	5	punct	_	_
+8	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	mala	mala	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	cheia	cheio	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	picanhas	picanha	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	12	punct	_	_
+16	para	para	ADP	_	_	17	mark	_	_
+17	provocar	provocar	VERB	_	VerbForm=Inf	8	advcl	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	alarde	alarde	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	país	país	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0037
+# text = Será que essas informações vieram dos órgãos de investigação ou do próprio Joesley Batista?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+2	que	que	SCONJ	_	_	5	discourse	_	_
+3	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	informações	informação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	vieram	vir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	órgãos	órgão	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	ou	ou	CCONJ	_	_	15	cc	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	Joesley	Joesley	PROPN	_	_	8	conj	_	_
+16	Batista	Batista	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0039
+# text = (5) O fato de Joesley ter delatado Lula e Dilma pode ter sido uma jogada combinada.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	5	5	NUM	_	NumType=Card	13	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fato	fato	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+6	de	de	ADP	_	_	9	mark	_	_
+7	Joesley	Joesley	PROPN	_	_	9	nsubj	_	_
+8	ter	ter	AUX	_	VerbForm=Inf	9	aux	_	_
+9	delatado	delatar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
+10	Lula	Lula	PROPN	_	_	9	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Dilma	Dilma	PROPN	_	_	10	conj	_	_
+13	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ter	ter	AUX	_	VerbForm=Inf	17	aux	_	_
+15	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	17	cop	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	jogada	jogada	NOUN	_	Gender=Fem|Number=Sing	13	xcomp	_	_
+18	combinada	combinado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0041
+# text = Lula quer voltar à presidência e colocar panos quentes no assunto, assim como fez em seus dois mandatos [...] não se espante se você ver o ex-presidente petista xingando Joesley de canalha ou qualquer outro adjetivo parecido: É tudo cena!
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	voltar	voltar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	colocar	colocar	VERB	_	VerbForm=Inf	3	conj	_	_
+9	panos	pano	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	quentes	quente	ADJ	_	Number=Plur	9	amod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	assim	assim	ADV	_	ExtPos=SCONJ	17	mark	_	_
+16	como	como	SCONJ	_	_	15	fixed	_	_
+17	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	advcl	_	_
+18	em	em	ADP	_	_	21	case	_	_
+19	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+20	dois	dois	NUM	_	Gender=Masc|NumType=Card	21	nummod	_	_
+21	mandatos	mandato	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+22	[	[	PUNCT	_	_	28	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
+24	..	..	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	23	punct	_	_
+26	não	não	ADV	_	_	28	advmod	_	_
+27	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	28	expl	_	_
+28	espante	espantar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+29	se	se	SCONJ	_	_	31	mark	_	_
+30	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	_	_
+31	ver	ver	VERB	_	VerbForm=Inf	28	csubj	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ex-presidente	ex-presidente	NOUN	_	Number=Sing	31	obj	_	_
+34	petista	petista	ADJ	_	Number=Sing	33	amod	_	_
+35	xingando	xingar	VERB	_	VerbForm=Ger	31	xcomp	_	_
+36	Joesley	Joesley	PROPN	_	_	35	obj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	canalha	canalha	NOUN	_	Number=Sing	35	obl	_	_
+39	ou	ou	CCONJ	_	_	42	cc	_	_
+40	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	42	det	_	_
+41	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	42	det	_	_
+42	adjetivo	adjetivo	NOUN	_	Gender=Masc|Number=Sing	38	conj	_	_
+43	parecido	parecido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	42	amod	_	SpaceAfter=No
+44	:	:	PUNCT	_	_	46	punct	_	_
+45	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+46	tudo	tudo	PRON	_	PronType=Ind	47	parataxis	_	_
+47	cena	cena	NOUN	_	Gender=Fem|Number=Sing	28	parataxis	_	SpaceAfter=No
+48	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0043
+# text = (6) O pedido de desculpas da Folha de SP (em uma matéria de capa) é sinal de que algo sinistro paira no ar.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	6	6	NUM	_	NumType=Card	21	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	desculpas	desculpa	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Folha	Folha	PROPN	_	_	5	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	SP	SP	PROPN	_	_	10	flat:name	_	_
+13	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	em	em	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	capa	capa	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	16	punct	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+22	de	de	ADP	_	ExtPos=SCONJ	26	mark	_	_
+23	que	que	SCONJ	_	_	22	fixed	_	_
+24	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	26	nsubj	_	_
+25	sinistro	sinistro	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	paira	pairar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ar	ar	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0045
+# text = (7) Não há como não imaginar que a JBS e o PT façam parte da mesma organização criminosa.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	7	7	NUM	_	NumType=Card	5	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Não	não	ADV	_	_	5	advmod	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	como	como	ADV	_	_	8	advmod	_	_
+7	não	não	ADV	_	_	8	advmod	_	_
+8	imaginar	imaginar	VERB	_	VerbForm=Inf	5	ccomp	_	_
+9	que	que	SCONJ	_	_	15	mark	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	JBS	JBS	PROPN	_	_	15	nsubj	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	PT	PT	PROPN	_	_	11	conj	_	_
+15	façam	façzer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+16	parte	parte	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	organização	organização	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+21	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0047
+# text = Após a delação de Joesley, Lula subiu nas pesquisas presidenciais.
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	delação	delação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Joesley	Joesley	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Lula	Lula	PROPN	_	_	8	nsubj	_	_
+8	subiu	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	nas	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	pesquisas	pesquisa	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+12	presidenciais	presidencial	ADJ	_	Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0048
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

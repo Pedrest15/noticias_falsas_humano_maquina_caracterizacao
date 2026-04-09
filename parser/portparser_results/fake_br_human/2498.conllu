@@ -1,0 +1,296 @@
+# sent_id = S0001
+# text = Tchau querido!
+1	Tchau	tchau	INTJ	_	_	0	root	_	_
+2	querido	querido	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Defensor ferrenho de Dilma poderá perder o emprego na Record.
+1	Defensor	defensor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ferrenho	ferrenho	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Dilma	Dilma	PROPN	_	_	1	nmod	_	_
+5	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	perder	perder	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Record	Record	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Paulo Henrique Amorim é um dos jornalistas mais processados em todo o Brasil.
+1	Paulo	Paulo	PROPN	_	_	5	nsubj	_	_
+2	Henrique	Henrique	PROPN	_	_	1	flat:name	_	_
+3	Amorim	Amorim	PROPN	_	_	1	flat:name	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	um	um	NUM	_	Gender=Masc|NumType=Card	0	root	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	jornalistas	jornalista	NOUN	_	Number=Plur	5	nmod	_	_
+9	mais	mais	ADV	_	_	10	advmod	_	_
+10	processados	processar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Brasil	Brasil	PROPN	_	_	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0007
+# text = PHA não tem medo de polêmicas e a ausência desse medo pode complicar o jornalista mais uma vez.
+1	PHA	PHA	PROPN	_	_	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	medo	medo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	polêmicas	polêmica	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	e	e	CCONJ	_	_	13	cc	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10-11	desse	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	medo	medo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	complicar	complicar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	jornalista	jornalista	NOUN	_	Number=Sing	14	obj	_	_
+17	mais	mais	ADV	_	_	19	advmod	_	_
+18	uma	um	NUM	_	Gender=Fem|NumType=Card	19	nummod	_	_
+19	vez	vez	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Dono do blog "Conversa Afiada", o jornalista é um "petista roxo" e defensor ferrenho de Lula e Dilma.
+1	Dono	dono	NOUN	_	Gender=Masc|Number=Sing	15	dislocated	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	blog	blog	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	1	nmod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Conversa	Conversa	PROPN	_	_	4	nmod	_	_
+7	Afiada	Afiada	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	jornalista	jornalista	NOUN	_	Number=Sing	15	nsubj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	petista	petista	NOUN	_	Number=Sing	0	root	_	_
+16	roxo	roxo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	15	punct	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	defensor	defensor	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+20	ferrenho	ferrenho	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Lula	Lula	PROPN	_	_	19	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	Dilma	Dilma	PROPN	_	_	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = Em seus vídeos, PHA não poupa absolutamente ninguém que cruze o caminho do PT.
+1	Em	em	ADP	_	_	3	case	_	_
+2	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	vídeos	vídeo	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	PHA	PHA	PROPN	_	_	7	nsubj	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	poupa	poupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	absolutamente	absolutamente	ADV	_	_	9	advmod	_	_
+9	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	7	obj	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	cruze	cruzar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	PT	PT	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0013
+# text = Ele já bateu pesado até no juiz federal Sérgio Moro!
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	já	já	ADV	_	_	3	advmod	_	_
+3	bateu	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	pesado	pesado	ADV	_	_	3	advmod	_	_
+5	até	até	ADV	_	_	8	advmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+9	federal	federal	ADJ	_	Number=Sing	8	amod	_	_
+10	Sérgio	Sérgio	PROPN	_	_	8	nmod	_	_
+11	Moro	Moro	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Uma informação publicada no último dia 09 pelo jornalista Flávio Ricco (UOL) diz que Amorim poderá ser afastado do programa jornalístico "Domingo Espetacular", carro-chefe de audiência na emissora do Bispo Macedo.
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+3	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	último	último	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	dia	dia	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8	09	09	NUM	_	NumType=Card	7	nmod	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	jornalista	jornalista	NOUN	_	Number=Sing	3	obl:agent	_	_
+12	Flávio	Flávio	PROPN	_	_	11	nmod	_	_
+13	Ricco	Ricco	PROPN	_	_	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	UOL	UOL	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	que	que	SCONJ	_	_	20	mark	_	_
+19	Amorim	Amorim	PROPN	_	_	20	nsubj	_	_
+20	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
+21	ser	ser	AUX	_	VerbForm=Inf	22	aux:pass	_	_
+22	afastado	afastar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	programa	programa	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+26	jornalístico	jornalístico	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Domingo	Domingo	PROPN	_	_	25	nmod	_	_
+29	Espetacular	Espetacular	PROPN	_	_	28	flat:name	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	carro-chefe	carro-chefe	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+35-36	na	_	_	_	_	_	_	_	_
+35	em	em	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Bispo	Bispo	PROPN	_	_	37	nmod	_	_
+41	Macedo	Macedo	PROPN	_	_	40	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0017
+# text = A troca de apresentadores deverá acontecer entre os meses de agosto e setembro.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	troca	troca	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	apresentadores	apresentador	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	deverá	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	acontecer	acontecer	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	entre	entre	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	meses	mÃªs	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = A última substituição da emissora no programa Domingo Espetacular aconteceu há dois anos, quando Talita Oliveira assumiu o posto de Fabiana Scaranzi.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	substituição	substituição	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	emissora	emissor	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	programa	programa	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+10	Domingo	Domingo	PROPN	_	_	9	nmod	_	_
+11	Espetacular	Espetacular	PROPN	_	_	10	flat:name	_	_
+12	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+14	dois	dois	NUM	_	Gender=Masc|NumType=Card	15	nummod	_	_
+15	anos	ano	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	quando	quando	ADV	_	_	20	advmod	_	_
+18	Talita	Talita	PROPN	_	_	20	nsubj	_	_
+19	Oliveira	Oliveira	PROPN	_	_	18	flat:name	_	_
+20	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	posto	posto	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Fabiana	Fabiana	PROPN	_	_	22	nmod	_	_
+25	Scaranzi	Scaranzi	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0021
+# text = Ultimamente PHA voltou a ser manchete dos principais sites do país.
+1	Ultimamente	ultimamente	ADV	_	_	3	advmod	_	_
+2	PHA	PHA	PROPN	_	_	3	nsubj	_	_
+3	voltou	voltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	6	mark	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	6	cop	_	_
+6	manchete	manchete	NOUN	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	principais	principal	ADJ	_	Number=Plur	10	amod	_	_
+10	sites	site	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	país	país	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0023
+# text = Ele foi condenado por ofensas realizadas contra o apresentador Heraldo Pereira, do do Jornal da Globo.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	ofensas	ofensa	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+6	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	contra	contra	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	Heraldo	Heraldo	PROPN	_	_	9	nmod	_	_
+11	Pereira	Pereira	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Jornal	Jornal	PROPN	_	_	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Globo	Globo	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Amorim chamou Heraldo de "negro com alma de branco".
+1	Amorim	Amorim	PROPN	_	_	2	nsubj	_	_
+2	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Heraldo	Heraldo	PROPN	_	_	2	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	negro	negro	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	alma	alma	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	branco	branco	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0026
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

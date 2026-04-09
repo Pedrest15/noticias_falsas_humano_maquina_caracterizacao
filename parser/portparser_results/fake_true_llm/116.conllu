@@ -1,0 +1,275 @@
+# sent_id = S0001
+# text = Atenção, Policiais e Familiares! Urgente: Ministro da Justiça, Flávio Dino, aprova decreto que acaba com o porte de armas para PMs inativos em todo o Brasil! 🚨.
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	Policiais	Policiais	PROPN	_	_	1	conj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	Familiares	Familiares	PROPN	_	_	3	conj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	1	punct	_	_
+7	Urgente	urgente	ADJ	_	Number=Sing	1	parataxis	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	17	punct	_	_
+9	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Justiça	Justiça	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Flávio	Flávio	PROPN	_	_	9	appos	_	_
+15	Dino	Dino	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	aprova	aprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+18	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+19	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
+20	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	porte	porte	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	armas	arma	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+26	para	para	ADP	_	_	27	case	_	_
+27	PMs	PMs	PROPN	_	_	23	nmod	_	_
+28	inativos	inativo	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
+29	em	em	ADP	_	_	32	case	_	_
+30	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Brasil	Brasil	PROPN	_	_	20	obl	_	SpaceAfter=No
+33	!	!	PUNCT	_	_	34	punct	_	_
+34	🚨	🚨	ADJ	_	_	17	parataxis	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = É com pesar que informamos: a partir de 23 de novembro, o porte de armas será retirado dos policiais militares inativos.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	discourse	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	pesar	pesar	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+4	que	que	SCONJ	_	_	5	discourse	_	_
+5	informamos	informar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	19	punct	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	partir	partir	VERB	_	VerbForm=Inf	19	advcl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	23	23	NUM	_	NumType=Card	8	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	porte	porte	NOUN	_	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	armas	arma	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux:pass	_	_
+19	retirado	retirar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	policiais	policial	NOUN	_	Number=Plur	19	obl	_	_
+23	militares	militar	ADJ	_	Number=Plur	22	amod	_	_
+24	inativos	inativo	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = E mais, o decreto limita o porte apenas ao serviço para os ativos! 🚔🚫.
+1	E	e	CCONJ	_	_	6	cc	_	_
+2	mais	mais	ADV	_	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	limita	limitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	porte	porte	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	apenas	apenas	ADV	_	_	12	advmod	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+13	para	para	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	ativos	ativo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	6	punct	_	_
+17	🚔🚫	🚔🚫	ADJ	_	_	6	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0007
+# text = Esse decreto, segundo fontes, abrirá precedentes para a retirada do porte também das polícias civil e federal.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	segundo	segundo	ADP	_	_	5	case	_	_
+5	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	abrirá	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	precedentes	precedente	NOUN	_	Number=Plur	7	obj	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	retirada	retirada	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	porte	porte	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	também	também	ADV	_	_	18	advmod	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	polícias	polícia	NOUN	_	Number=Plur	14	nmod	_	_
+19	civil	civil	ADJ	_	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	federal	federal	ADJ	_	Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0009
+# text = Um verdadeiro ataque à segurança dos nossos bravos defensores! 😤.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	segurança	segurança	NOUN	_	Number=Sing	3	nmod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	11	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+10	bravos	bravo	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+11	defensores	defensor	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	3	punct	_	_
+13	😤	😤	ADJ	_	_	3	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A medida, assinada pelo Presidente Lula e pelo Ministro Flávio Dino, pretende enfraquecer a segurança pública.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	assinada	assinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Presidente	Presidente	PROPN	_	_	4	obl:agent	_	_
+8	Lula	Lula	PROPN	_	_	7	flat:name	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Ministro	Ministro	PROPN	_	_	7	conj	_	_
+13	Flávio	Flávio	PROPN	_	_	12	flat:name	_	_
+14	Dino	Dino	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	pretende	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	enfraquecer	enfraquecer	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	segurança	segurança	NOUN	_	Number=Sing	17	obj	_	_
+20	pública	público	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0013
+# text = É o fim da linha para PMs! 🏚️💔.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fim	fim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	linha	linha	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	PMs	PMs	PROPN	_	_	6	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	3	punct	_	_
+10	🏚️💔	🏚️💔	ADJ	_	_	3	discourse	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Não fiquem calados! É hora do Conselho de Comandantes Gerais das Polícias Militares do Brasil se unir e exigir esclarecimentos.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	fiquem	ficar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	calados	calado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	2	xcomp	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	6	punct	_	_
+5	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	hora	hora	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	21	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Conselho	Conselho	PROPN	_	_	21	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Comandantes	Comandantes	PROPN	_	_	9	flat:name	_	_
+12	Gerais	Gerais	PROPN	_	_	9	flat:name	_	_
+13-14	das	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	Polícias	Polícias	PROPN	_	_	9	flat:name	_	_
+16	Militares	Militares	PROPN	_	_	15	flat:name	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Brasil	Brasil	PROPN	_	_	15	flat:name	_	_
+20	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	21	expl	_	_
+21	unir	unir	VERB	_	Number=Sing|Person=3|VerbForm=Inf	6	acl	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	exigir	exigir	VERB	_	VerbForm=Inf	21	conj	_	_
+24	esclarecimentos	esclarecimento	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = A proibição do porte em folga é uma sentença de morte.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	proibição	proibição	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	porte	porte	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	folga	folga	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sentença	sentença	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	morte	morte	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0021
+# text = Entidades como o Clube dos Oficiais, Associação dos Subtenentes e Sargentos, e outras, devem defender seus associados contra essa omissão criminosa.
+1	Entidades	entidade	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
+2	como	como	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Clube	Clube	PROPN	_	_	1	nmod	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Oficiais	Oficiais	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Associação	Associação	PROPN	_	_	4	conj	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Subtenentes	Subtenentes	PROPN	_	_	9	flat:name	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	Sargentos	Sargentos	PROPN	_	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	outras	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	defender	defender	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	associados	associado	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+23	contra	contra	ADP	_	_	25	case	_	_
+24	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	omissão	omissão	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+26	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = S0025
+# text = Lutemos juntos! Compartilhe essa mensagem para que todos os policiais brasileiros estejam informados.
+1	Lutemos	lutar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	juntos	junto	ADJ	_	Gender=Masc|Number=Plur	1	advcl	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+4	Compartilhe	compartilhar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	1	root	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	para	para	ADP	_	ExtPos=SCONJ	14	mark	_	_
+8	que	que	SCONJ	_	_	7	fixed	_	_
+9	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	policiais	policial	NOUN	_	Number=Plur	14	nsubj	_	_
+12	brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	informados	informado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	4	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+

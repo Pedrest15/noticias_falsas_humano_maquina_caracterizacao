@@ -1,0 +1,240 @@
+# sent_id = S0001
+# text = A PF trabalha arduamente e investiga.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PF	PF	PROPN	_	_	3	nsubj	_	_
+3	trabalha	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	arduamente	arduamente	ADV	_	_	3	advmod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	investiga	investigar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O juiz manda prender!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	prender	prender	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Aí vem Dias Toffoli e manda soltar.
+1	Aí	aí	ADV	_	_	2	advmod	_	_
+2	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Dias	Dias	PROPN	_	_	2	nsubj	_	_
+4	Toffoli	Toffoli	PROPN	_	_	3	flat:name	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	soltar	soltar	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = O juiz Paulo Bueno de Azevedo [que mandou prender 11 pessoas por tempo indeterminado, entre elas o ex-ministro Paulo Bernardo (PT)] disse discordar sobre a decisão do ministro do STF, Dias Toffoli De acordo com o juiz Azevedo, se prevalecer a tese de Dias Toffoli, a prisão preventiva só será aplicada "aos pobres".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+3	Paulo	Paulo	PROPN	_	_	2	nmod	_	_
+4	Bueno	Bueno	PROPN	_	_	3	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Azevedo	Azevedo	PROPN	_	_	3	flat:name	_	_
+7	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	mandou	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+10	prender	prender	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	11	11	NUM	_	NumType=Card	12	nummod	_	_
+12	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+15	indeterminado	indeterminado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	entre	entre	ADP	_	_	18	case	_	_
+18	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nmod	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+21	Paulo	Paulo	PROPN	_	_	20	nmod	_	_
+22	Bernardo	Bernardo	PROPN	_	_	21	flat:name	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	PT	PT	PROPN	_	_	20	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	]	]	PUNCT	_	_	20	punct	_	_
+27	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	discordar	discordar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	sobre	sobre	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	STF	STF	PROPN	_	_	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	Dias	Dias	PROPN	_	_	34	appos	_	_
+40	Toffoli	Toffoli	PROPN	_	_	39	flat:name	_	_
+41	De	de	ADP	_	_	42	case	_	_
+42	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+43	com	com	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+46	Azevedo	Azevedo	PROPN	_	_	45	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	49	punct	_	_
+48	se	se	SCONJ	_	_	49	mark	_	_
+49	prevalecer	prevalecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	61	advcl	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	tese	tese	NOUN	_	Gender=Fem|Number=Sing	49	nsubj	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	Dias	Dias	PROPN	_	_	51	nmod	_	_
+54	Toffoli	Toffoli	PROPN	_	_	53	flat:name	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	49	punct	_	_
+56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	61	nsubj:pass	_	_
+58	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	57	amod	_	_
+59	só	só	ADV	_	_	61	advmod	_	_
+60	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	61	aux:pass	_	_
+61	aplicada	aplicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	27	ccomp:speech	_	_
+62	"	"	PUNCT	_	_	65	punct	_	SpaceAfter=No
+63-64	aos	_	_	_	_	_	_	_	_
+63	a	a	ADP	_	_	65	case	_	_
+64	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	65	det	_	_
+65	pobres	pobre	NOUN	_	Number=Plur	61	obl	_	SpaceAfter=No
+66	"	"	PUNCT	_	_	65	punct	_	SpaceAfter=No
+67	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = S0009
+# text = No despacho, Bueno de Azevedo disse que não concorda com a decisão de Dias Toffoli, porém é obrigado a acatá-la.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	despacho	despacho	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Bueno	Bueno	PROPN	_	_	8	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Azevedo	Azevedo	PROPN	_	_	5	flat:name	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	11	mark	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	concorda	concordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Dias	Dias	PROPN	_	_	14	nmod	_	_
+17	Toffoli	Toffoli	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	porém	porém	CCONJ	_	_	21	cc	_	_
+20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	obrigado	obrigar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	_
+22	a	a	ADP	_	_	23	mark	_	_
+23-24	acatá-la	_	_	_	_	_	_	_	_
+23	acatar	acatar	VERB	_	VerbForm=Inf	21	xcomp	_	_
+24	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Obviamente irei acatar, porém respeitosamente discordo, continuando a achar que a expressiva quantia de dinheiro não localizado pode sofrer novos esquemas de lavagem, ao menos por ora.
+1	Obviamente	obviamente	ADV	_	_	2	advmod	_	_
+2	irei	ir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	acatar	acatar	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	porém	porém	CCONJ	_	_	7	cc	_	_
+6	respeitosamente	respeitosamente	ADV	_	_	7	advmod	_	_
+7	discordo	discordar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	continuando	continuar	VERB	_	VerbForm=Ger	3	advcl	_	_
+10	a	a	ADP	_	_	11	mark	_	_
+11	achar	achar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	que	que	SCONJ	_	_	20	mark	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	expressiva	expressivo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	quantia	quantia	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	localizado	localizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	amod	_	_
+20	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+21	sofrer	sofrer	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	novos	novo	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
+23	esquemas	esquema	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	lavagem	lavagem	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	31	punct	_	_
+27-28	ao	_	_	_	_	_	_	_	_
+27	a	a	ADP	_	ExtPos=ADV	31	advmod	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	_
+29	menos	menos	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	_
+30	por	por	ADP	_	_	31	case	_	_
+31	ora	ora	ADV	_	_	20	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Azevedo também faz uma crítica discreta à "doutrina" invocada por Dias Toffoli de que a prisão preventiva só seria aplicável em caso de "crimes violentos, no mais das vezes cometidos apenas por acusados pobres".
+1	Azevedo	Azevedo	PROPN	_	_	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	crítica	crítica	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	discreta	discreto	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	10	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	doutrina	doutrina	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	invocada	invocar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	Dias	Dias	PROPN	_	_	12	obl:agent	_	_
+15	Toffoli	Toffoli	PROPN	_	_	14	flat:name	_	_
+16	de	de	ADP	_	ExtPos=SCONJ	23	mark	_	_
+17	que	que	SCONJ	_	_	16	fixed	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	prisão	prisão	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+20	preventiva	preventivo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	só	só	ADV	_	_	23	advmod	_	_
+22	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	23	cop	_	_
+23	aplicável	aplicável	ADJ	_	Number=Sing	10	acl	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	caso	caso	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29	violentos	violento	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	37	punct	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	37	advmod	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	fixed	_	_
+33	mais	mais	ADV	_	ExtPos=ADV	32	advmod	_	_
+34-35	das	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	33	fixed	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	fixed	_	_
+36	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	33	fixed	_	_
+37	cometidos	cometer	VERB	_	ExtPos=VERB|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	28	acl	_	_
+38	apenas	apenas	ADV	_	_	40	advmod	_	_
+39	por	por	ADP	_	_	40	case	_	_
+40	acusados	acusado	NOUN	_	Gender=Masc|Number=Plur	37	obl:agent	_	_
+41	pobres	pobre	ADJ	_	Number=Plur	40	amod	_	SpaceAfter=No
+42	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Resguardo, pois, o meu posicionamento pessoal, aqui manifestado em homenagem à minha independência judicial.
+1	Resguardo	resguardar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	pois	pois	ADV	_	_	1	cc	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	meu	meu	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	posicionamento	posicionamento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+8	pessoal	pessoal	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	aqui	aqui	ADV	_	_	11	advmod	_	_
+11	manifestado	manifestar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	homenagem	homenagem	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	minha	meu	DET	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	independência	independência	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+18	judicial	judicial	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+

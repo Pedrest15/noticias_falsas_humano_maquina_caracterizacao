@@ -1,0 +1,80 @@
+# sent_id = S0001
+# text = Lula debocha, chama procuradora de "querida" e leva um "fumo" histórico.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	debocha	debochar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	chama	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	procuradora	procurador	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	querida	querido	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	leva	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	fumo	fumo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	histórico	histórico	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Em primeiro lugar, gostaríamos de destacar a educação e o comportamento da procuradora, que se refere a Lula como senhor ex-presidente.
+1	Em	em	ADP	_	_	3	case	_	_
+2	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	gostaríamos	gostar	VERB	_	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	destacar	destacar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	educação	educação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	procuradora	procurador	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	Lula	Lula	PROPN	_	_	19	obl	_	_
+22	como	como	ADP	_	_	24	case	_	_
+23	senhor	senhor	NOUN	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	ex-presidente	ex-presidente	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = Já Lula, com aquela educação de berço e sarcasmo que lhe é peculiar, faz deboche quando se refere a terceiros.
+1	Já	já	CCONJ	_	_	16	cc	_	_
+2	Lula	Lula	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	educação	educação	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	berço	berço	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	sarcasmo	sarcasmo	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+11	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+12	lhe	lhe	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	peculiar	peculiar	ADJ	_	Number=Sing	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	6	punct	_	_
+16	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	deboche	deboche	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+18	quando	quando	SCONJ	_	_	20	mark	_	_
+19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	_	_
+20	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	terceiros	terceiro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0006
+# text = confira:
+1	confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,219 @@
+# sent_id = S0001
+# text = Ana Maria Braga: "Mulher é igual vaca, todas têm leite!".
+1	Ana	Ana	PROPN	_	_	9	nsubj	_	_
+2	Maria	Maria	PROPN	_	_	1	flat:name	_	_
+3	Braga	Braga	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	9	punct	_	_
+5	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+6	Mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	igual	igual	ADJ	_	Number=Sing	9	amod	_	_
+9	vaca	vaca	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	todas	todo	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	12	nsubj	_	_
+12	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+13	leite	leite	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0003
+# text = Mais uma declaração da apresentadora Ana Maria Braga acabou "colocando fogo" nas redes sociais.
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	uma	um	NUM	_	Gender=Fem|NumType=Card	3	nummod	_	_
+3	declaração	declaração	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	apresentadora	apresentador	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	Ana	Ana	PROPN	_	_	6	nmod	_	_
+8	Maria	Maria	PROPN	_	_	7	flat:name	_	_
+9	Braga	Braga	PROPN	_	_	7	flat:name	_	_
+10	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	colocando	colocar	VERB	_	VerbForm=Ger	10	xcomp	_	_
+13	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	12	punct	_	_
+15-16	nas	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	redes	rede	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+18	sociais	social	ADJ	_	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0005
+# text = No último sábado (23), Ana participava do programa Altas Horas, da TV Globo, quando fez uma análise um tanto quanto polêmica.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	último	último	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	23	23	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	Ana	Ana	PROPN	_	_	10	nsubj	_	_
+10	participava	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	programa	programa	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	Altas	Altas	PROPN	_	_	13	nmod	_	_
+15	Horas	Horas	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	TV	TV	PROPN	_	_	13	nmod	_	_
+20	Globo	Globo	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	quando	quando	SCONJ	_	_	23	mark	_	_
+23	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
+24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	análise	análise	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	um	um	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	29	advmod	_	_
+27	tanto	tanto	NOUN	_	Gender=Masc|Number=Sing	26	fixed	_	_
+28	quanto	quanto	ADV	_	_	26	fixed	_	_
+29	polêmica	polêmico	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Ana falava sobre a importância do leite materno e soltou a pérola: Toda mulher que pare tem leite.
+1	Ana	Ana	PROPN	_	_	2	nsubj	_	_
+2	falava	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sobre	sobre	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	importância	importância	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	leite	leite	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	materno	materno	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	soltou	soltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pérola	pérola	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	19	punct	_	_
+15	Toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+16	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	pare	parar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+20	leite	leite	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = É igual a vaca , resumiu.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	igual	igual	ADJ	_	Number=Sing	6	ccomp:speech	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vaca	vaca	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	resumiu	resumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = O organismo é inteligente [...] Toda mulher que pare tem leite, né?
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	organismo	organismo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	inteligente	inteligente	ADJ	_	Number=Sing	0	root	_	_
+5	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	parataxis	_	SpaceAfter=No
+7	..	..	PUNCT	_	_	6	parataxis	_	SpaceAfter=No
+8	]	]	PUNCT	_	_	6	punct	_	_
+9	Toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	pare	parar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	leite	leite	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	né	né	INTJ	_	_	13	discourse	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = É igual vaca, é igualzinho.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	igual	igual	ADJ	_	Number=Sing	3	amod	_	_
+3	vaca	vaca	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	igualzinho	igualzinho	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O organismo se prepara porque tem uma cria que precisa ser alimentada.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	organismo	organismo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	prepara	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	porque	porque	SCONJ	_	_	6	mark	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cria	cria	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	alimentada	alimentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0016
+# text = filosofou.
+1	filosofou	filosofar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0018
+# text = Angélica Huck, que também participava do programa, ironizou Ana Maria.
+1	Angélica	Angélica	PROPN	_	_	11	nsubj	_	_
+2	Huck	Huck	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+5	também	também	ADV	_	_	6	advmod	_	_
+6	participava	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	programa	programa	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	ironizou	ironizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Ana	Ana	PROPN	_	_	11	obj	_	_
+13	Maria	Maria	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0020
+# text = "Adorei [a parte do] "todas nós somos vacas", não é isso?", brincou.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Adorei	adorar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	ccomp:speech	_	_
+3	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parte	parte	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	]	]	PUNCT	_	_	5	punct	_	_
+9	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+10	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	somos	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	vacas	vaca	NOUN	_	Gender=Fem|Number=Plur	5	parataxis	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	não	não	ADV	_	_	18	advmod	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	parataxis	_	SpaceAfter=No
+19	?	?	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	2	punct	_	_
+22	brincou	brincar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0022
+# text = Assista ao momento:
+1	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+

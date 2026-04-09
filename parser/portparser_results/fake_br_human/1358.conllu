@@ -1,0 +1,106 @@
+# sent_id = S0001
+# text = Mainardi publica vídeo e acaba com jornalista: "Bandido, vou te processar e fechar essa joça".
+1	Mainardi	Mainardi	PROPN	_	_	2	nsubj	_	_
+2	publica	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	jornalista	jornalista	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	14	punct	_	_
+9	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+10	Bandido	bandido	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	te	te	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	obj	_	_
+14	processar	processar	VERB	_	VerbForm=Inf	2	parataxis	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	fechar	fechar	VERB	_	VerbForm=Inf	14	conj	_	_
+17	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	joça	joça	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Diogo Mainardi teve seu nome citado pelo delator Henrique Valladares.
+1	Diogo	Diogo	PROPN	_	_	3	nsubj	_	_
+2	Mainardi	Mainardi	PROPN	_	_	1	flat:name	_	_
+3	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	nome	nome	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	delator	delator	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	Henrique	Henrique	PROPN	_	_	9	nmod	_	_
+11	Valladares	Valladares	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = O executivo disse que Diogo foi visto jantando no restaurante Gero, RJ, junto Aécio Neves e o empresário Alexandre Accioly.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	executivo	executivo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	Diogo	Diogo	PROPN	_	_	7	nsubj:pass	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+8	jantando	jantar	VERB	_	VerbForm=Ger	7	xcomp	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	restaurante	restaurante	NOUN	_	Number=Sing	8	obl	_	_
+12	Gero	Gero	PROPN	_	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	RJ	RJ	PROPN	_	_	11	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	junto	junto	ADV	_	_	8	advcl	_	_
+17	Aécio	Aécio	PROPN	_	_	16	obl	_	_
+18	Neves	Neves	PROPN	_	_	17	flat:name	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+22	Alexandre	Alexandre	PROPN	_	_	21	nmod	_	_
+23	Accioly	Accioly	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Mainardi se defendeu e publicou uma postagem em seu site dizendo que Valladares é mentiroso.
+1	Mainardi	Mainardi	PROPN	_	_	3	nsubj	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
+3	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	postagem	postagem	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	site	site	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	dizendo	dizer	VERB	_	VerbForm=Ger	7	acl	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	Valladares	Valladares	PROPN	_	_	15	nsubj	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	mentiroso	mentiroso	ADJ	_	Gender=Masc|Number=Sing	11	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Ele soltou os cachorros no jornalista Renato Rovai.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	soltou	soltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cachorros	cachorro	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	jornalista	jornalista	NOUN	_	Number=Sing	2	obl	_	_
+8	Renato	Renato	PROPN	_	_	7	nmod	_	_
+9	Rovai	Rovai	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0010
+# text = leia mais...
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mais	mais	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	...	...	PUNCT	_	_	1	punct	_	_
+

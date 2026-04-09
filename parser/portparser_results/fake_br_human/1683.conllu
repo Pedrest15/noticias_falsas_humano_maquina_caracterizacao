@@ -1,0 +1,202 @@
+# sent_id = S0001
+# text = Tem algo podre no ar!.
+1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+3	podre	podre	ADJ	_	Number=Sing	2	amod	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ar	ar	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = O Diário do Brasil publicou ontem (19) uma matéria (original da Revista Veja ) que dizia o seguinte.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Diário	Diário	PROPN	_	_	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	_	2	flat:name	_	_
+6	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ontem	ontem	ADV	_	_	6	advmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	19	19	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	original	original	ADJ	_	Number=Sing	12	appos	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Revista	Revista	PROPN	_	_	14	nmod	_	_
+18	Veja	Veja	PROPN	_	_	17	flat:name	_	_
+19	)	)	PUNCT	_	_	14	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	dizia	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+22	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	obj	_	_
+23	seguinte	seguinte	ADJ	_	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0005
+# text = A aeronave que transportava o ministro do STF não possuía caixa preta.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	que	que	PRON	_	PronType=Rel	4	nsubj	_	_
+4	transportava	transportar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	STF	STF	PROPN	_	_	6	nmod	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	possuía	possuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	caixa	caixa	NOUN	_	Number=Sing	11	obj	_	_
+13	preta	preto	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0007
+# text = A informação foi passada pela Veja através da Assessoria de Imprensa da Força Aérea Brasileira.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	passada	passar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Veja	Veja	PROPN	_	_	4	obl:agent	_	_
+8	através	através	ADV	_	_	4	advmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Assessoria	Assessoria	PROPN	_	_	8	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Imprensa	Imprensa	PROPN	_	_	11	flat:name	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Força	Força	PROPN	_	_	11	nmod	_	_
+17	Aérea	Aérea	PROPN	_	_	16	flat:name	_	_
+18	Brasileira	Brasileira	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Agora pouco, a mesma Revista soltou a seguinte informação: A caixa-preta do avião que caiu em Paraty e vitimou fatalmente o ministro Teori Zavascki foi encontrada e será encaminhada ao Cenipa Centro de Investigação e Prevenção de Acidentes para avaliação.
+1	Agora	agora	ADV	_	_	2	advmod	_	_
+2	pouco	pouco	ADV	_	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Revista	Revista	PROPN	_	_	7	nsubj	_	_
+7	soltou	soltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	seguinte	seguinte	ADJ	_	Number=Sing	10	amod	_	_
+10	informação	informação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	29	punct	_	_
+12	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	caixa-preta	caixa-preta	NOUN	_	Gender=Fem|Number=Sing	29	nsubj:pass	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	avião	avião	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	Paraty	Paraty	PROPN	_	_	18	obl	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	vitimou	vitimar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+23	fatalmente	fatalmente	ADV	_	_	22	advmod	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+26	Teori	Teori	PROPN	_	_	25	nmod	_	_
+27	Zavascki	Zavascki	PROPN	_	_	26	flat:name	_	_
+28	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux:pass	_	_
+29	encontrada	encontrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+30	e	e	CCONJ	_	_	32	cc	_	_
+31	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	aux:pass	_	_
+32	encaminhada	encaminhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	29	conj	_	_
+33-34	ao	_	_	_	_	_	_	_	_
+33	a	a	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Cenipa	Cenipa	PROPN	_	_	32	obl	_	_
+36	Centro	Centro	PROPN	_	_	35	flat:name	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	Investigação	Investigação	PROPN	_	_	36	flat:name	_	_
+39	e	e	CCONJ	_	_	40	cc	_	_
+40	Prevenção	Prevenção	PROPN	_	_	36	flat:name	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	Acidentes	Acidentes	PROPN	_	_	36	flat:name	_	_
+43	para	para	ADP	_	_	44	case	_	_
+44	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = De acordo com a Veja, a confirmação foi feita pela Força Aérea Brasileira (FAB).
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Veja	Veja	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	confirmação	confirmação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11-12	pela	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Força	Força	PROPN	_	_	10	obl:agent	_	_
+14	Aérea	Aérea	PROPN	_	_	13	flat:name	_	_
+15	Brasileira	Brasileira	PROPN	_	_	13	flat:name	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	FAB	FAB	PROPN	_	_	13	appos	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0013
+# text = Quem será que está brincando com a cara da população?
+1	Quem	quem	PRON	_	PronType=Int	5	nsubj	_	_
+2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+3	que	que	SCONJ	_	_	5	discourse	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	brincando	brincar	VERB	_	VerbForm=Ger	0	root	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cara	cara	NOUN	_	Number=Sing	5	obl	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	população	população	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0015
+# text = O governo?
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0017
+# text = A Veja?
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Veja	Veja	PROPN	_	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0019
+# text = A FAB?
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	FAB	FAB	PROPN	_	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0021
+# text = Tem algo podre no ar...
+1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+3	podre	podre	ADJ	_	Number=Sing	2	amod	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ar	ar	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+7	...	...	PUNCT	_	_	1	punct	_	_
+

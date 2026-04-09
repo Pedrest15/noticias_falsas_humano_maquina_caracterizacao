@@ -1,0 +1,167 @@
+# sent_id = S0001
+# text = De acordo com o artigo 330 do cód.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	330	330	NUM	_	NumType=Card	5	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cód	cód	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0002
+# text = penal, Ministro Marco Aurélio pode mandar prender Renan por até 15 dias.
+1	penal	penal	ADJ	_	Number=Sing	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Ministro	Ministro	PROPN	_	_	6	nsubj	_	_
+4	Marco	Marco	PROPN	_	_	3	flat:name	_	_
+5	Aurélio	Aurélio	PROPN	_	_	3	flat:name	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mandar	mandar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	prender	prender	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	Renan	Renan	PROPN	_	_	8	obj	_	_
+10	por	por	ADP	_	_	13	case	_	_
+11	até	até	ADP	_	_	12	case	_	_
+12	15	15	NUM	_	NumType=Card	13	nummod	_	_
+13	dias	dia	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0004
+# text = O ato de Renan (avalizado pela mesa diretora do senado) em descumprir uma ordem da instância máxima jurídica no país é algo inédito.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ato	ato	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Renan	Renan	PROPN	_	_	2	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	avalizado	avalizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mesa	mesa	NOUN	_	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10	diretora	diretor	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	senado	senado	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	6	punct	_	_
+15	em	em	ADP	_	_	16	mark	_	_
+16	descumprir	descumprir	VERB	_	VerbForm=Inf	2	acl	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	instância	instância	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	máxima	máximo	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	jurídica	jurídico	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	país	país	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+29	inédito	inédito	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = S0006
+# text = Renan pode ser processado e até preso por ato ilícito penal, além de quebra de decoro parlamentar.
+1	Renan	Renan	PROPN	_	_	2	nsubj	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	processado	processar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	até	até	ADV	_	_	7	advmod	_	_
+7	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	ato	ato	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10	ilícito	ilícito	NOUN	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	penal	penal	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	além	além	ADV	_	_	4	advmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	quebra	quebra	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	decoro	decoro	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	parlamentar	parlamentar	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0008
+# text = Com base no artigo 330 do código penal, o ministro Marco Aurélio Mello, pode até mandar prender Renan por 15 dias pelo crime de desobediência.
+1	Com	com	ADP	_	_	2	case	_	_
+2	base	base	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	330	330	NUM	_	NumType=Card	5	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	código	código	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	penal	penal	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+14	Marco	Marco	PROPN	_	_	13	nmod	_	_
+15	Aurélio	Aurélio	PROPN	_	_	14	flat:name	_	_
+16	Mello	Mello	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	2	punct	_	_
+18	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	até	até	ADV	_	_	20	advmod	_	_
+20	mandar	mandar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+21	prender	prender	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	Renan	Renan	PROPN	_	_	21	obj	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	15	15	NUM	_	NumType=Card	25	nummod	_	_
+25	dias	dia	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
+26-27	pelo	_	_	_	_	_	_	_	_
+26	por	por	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	crime	crime	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	desobediência	desobediência	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = S0010
+# text = Resta saber se o ministro tomará essa decisão.
+1	Resta	restar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	saber	saber	VERB	_	VerbForm=Inf	1	csubj	_	_
+3	se	se	SCONJ	_	_	6	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	tomará	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+7	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0012
+# text = Todos são iguais perante a Lei.
+1	Todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	iguais	igual	ADJ	_	Number=Plur	0	root	_	_
+4	perante	perante	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Lei	Lei	PROPN	_	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0014
+# text = Se o nobre senador pode afrontar a justiça, qualquer cidadão comum também pode!
+1	Se	se	SCONJ	_	_	5	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nobre	nobre	ADJ	_	Number=Sing	4	amod	_	_
+4	senador	senador	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+6	afrontar	afrontar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	11	det	_	_
+11	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	comum	comum	ADJ	_	Number=Sing	11	amod	_	_
+13	também	também	ADV	_	_	14	advmod	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	14	punct	_	_
+

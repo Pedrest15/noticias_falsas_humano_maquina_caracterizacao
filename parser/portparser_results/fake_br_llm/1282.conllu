@@ -1,0 +1,218 @@
+# sent_id = S0001
+# text = Supremo Tribunal Federal (STF) surpreende ao manter Renan Calheiros na presidência do Senado, desafiando a crise política.
+1	Supremo	Supremo	PROPN	_	_	7	nsubj	_	_
+2	Tribunal	Tribunal	PROPN	_	_	1	flat:name	_	_
+3	Federal	Federal	PROPN	_	_	1	flat:name	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	STF	STF	PROPN	_	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	surpreende	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	ExtPos=SCONJ	10	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	fixed	_	_
+10	manter	manter	VERB	_	VerbForm=Inf	7	advcl	_	_
+11	Renan	Renan	PROPN	_	_	10	obj	_	_
+12	Calheiros	Calheiros	PROPN	_	_	11	flat:name	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Senado	Senado	PROPN	_	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	desafiando	desafiar	VERB	_	VerbForm=Ger	10	advcl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	crise	crise	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	política	político	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Em decisão acirrada, por seis votos a três, os ministros rejeitaram o afastamento de Renan, ignorando a liminar de Marco Aurélio Mello que o afastava.
+1	Em	em	ADP	_	_	2	case	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+3	acirrada	acirrado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	seis	seis	NUM	_	NumType=Card	7	nummod	_	_
+7	votos	voto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	três	três	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	rejeitaram	rejeitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	afastamento	afastamento	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Renan	Renan	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	ignorando	ignorar	VERB	_	VerbForm=Ger	13	advcl	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	liminar	liminar	NOUN	_	Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Marco	Marco	PROPN	_	_	21	nmod	_	_
+24	Aurélio	Aurélio	PROPN	_	_	23	flat:name	_	_
+25	Mello	Mello	PROPN	_	_	23	flat:name	_	_
+26	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+27	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	afastava	afastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0005
+# text = A decisão permite que Renan continue a substituir o presidente da República, Michel Temer, em caso de ausência.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	Renan	Renan	PROPN	_	_	6	nsubj	_	_
+6	continue	continuar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	substituir	substituir	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	presidente	presidente	NOUN	_	Number=Sing	8	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	República	República	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Michel	Michel	PROPN	_	_	10	appos	_	_
+16	Temer	Temer	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	caso	caso	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Celso de Mello liderou a votação, argumentando que a exclusão da linha sucessória seria suficiente, sem necessidade de afastamento do cargo.
+1	Celso	Celso	PROPN	_	_	4	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Mello	Mello	PROPN	_	_	1	flat:name	_	_
+4	liderou	liderar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	votação	votação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	argumentando	argumentar	VERB	_	VerbForm=Ger	4	advcl	_	_
+9	que	que	SCONJ	_	_	17	mark	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	exclusão	exclusão	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	linha	linha	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	sucessória	sucessório	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	17	cop	_	_
+17	suficiente	suficiente	ADJ	_	Number=Sing	8	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	sem	sem	ADP	_	_	20	case	_	_
+20	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	afastamento	afastamento	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = A decisão gerou reações intensas, com o procurador-geral Rodrigo Janot e o advogado Daniel Sarmento criticando duramente o descumprimento da notificação judicial por Renan.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	gerou	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	reações	reação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	intensas	intenso	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	procurador-geral	procurador-geral	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+10	Rodrigo	Rodrigo	PROPN	_	_	9	nmod	_	_
+11	Janot	Janot	PROPN	_	_	10	flat:name	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+15	Daniel	Daniel	PROPN	_	_	14	nmod	_	_
+16	Sarmento	Sarmento	PROPN	_	_	15	flat:name	_	_
+17	criticando	criticar	VERB	_	VerbForm=Ger	9	acl	_	_
+18	duramente	duramente	ADV	_	_	17	advmod	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	descumprimento	descumprimento	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	notificação	notificação	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	judicial	judicial	ADJ	_	Number=Sing	23	amod	_	_
+25	por	por	ADP	_	_	26	case	_	_
+26	Renan	Renan	PROPN	_	_	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = A presidente do STF, Cármen Lúcia, também condenou a atitude de Renan, mas a decisão prevaleceu, sendo vista como um alívio para o governo de Temer.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	11	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Cármen	Cármen	PROPN	_	_	2	appos	_	_
+8	Lúcia	Lúcia	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	condenou	condenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	atitude	atitude	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Renan	Renan	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	mas	mas	CCONJ	_	_	20	cc	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	prevaleceu	prevalecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	sendo	ser	AUX	_	VerbForm=Ger	23	aux:pass	_	_
+23	vista	ver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	advcl	_	_
+24	como	como	ADP	_	_	26	case	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	alívio	alívio	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+27	para	para	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	governo	governo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	Temer	Temer	PROPN	_	_	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = Políticos influentes, incluindo Marconi Perillo e Antonio Imbahassy, celebraram a decisão do Supremo como uma vitória para a estabilidade política do país.
+1	Políticos	político	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+2	influentes	influente	ADJ	_	Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	incluindo	incluir	VERB	_	VerbForm=Ger	1	acl	_	_
+5	Marconi	Marconi	PROPN	_	_	4	obj	_	_
+6	Perillo	Perillo	PROPN	_	_	5	flat:name	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	Antonio	Antonio	PROPN	_	_	5	conj	_	_
+9	Imbahassy	Imbahassy	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	celebraram	celebrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Supremo	Supremo	PROPN	_	_	13	nmod	_	_
+17	como	como	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vitória	vitória	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+20	para	para	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	política	político	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	país	país	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	_
+

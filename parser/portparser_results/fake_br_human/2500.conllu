@@ -1,0 +1,338 @@
+# sent_id = S0001
+# text = O xeque-mate que Sérgio Moro deu no ministro Ricardo Lewandowski.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	xeque-mate	xeque-mate	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	PRON	_	PronType=Rel	6	obj	_	_
+4	Sérgio	Sérgio	PROPN	_	_	6	nsubj	_	_
+5	Moro	Moro	PROPN	_	_	4	flat:name	_	_
+6	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	Ricardo	Ricardo	PROPN	_	_	9	nmod	_	_
+11	Lewandowski	Lewandowski	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = O presidente do STF, ministro Ricardo Lewandowski, tentou arranjar um modo para constranger o juiz federal Sérgio Moro e deu com os burros nágua.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	11	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	STF	STF	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+8	Ricardo	Ricardo	PROPN	_	_	7	nmod	_	_
+9	Lewandowski	Lewandowski	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	arranjar	arranjar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	modo	modo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	constranger	constranger	VERB	_	VerbForm=Inf	14	acl	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	federal	federal	ADJ	_	Number=Sing	18	amod	_	_
+20	Sérgio	Sérgio	PROPN	_	_	18	nmod	_	_
+21	Moro	Moro	PROPN	_	_	20	flat:name	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+24	com	com	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	burros	burro	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+27	nágua	nágua	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0005
+# text = (Patrícia Carvalho para o Diário do Brasil) Na última quarta (6) um despacho do presidente do STF deu a Sérgio Moro um prazo de 48 horas para esclarecer a decisão de ter autorizado a divulgação de conversas gravadas envolvendo o ex-presidente Lula.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Patrícia	Patrícia	PROPN	_	_	26	nsubj	_	_
+3	Carvalho	Carvalho	PROPN	_	_	2	flat:name	_	_
+4	para	para	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Diário	Diário	PROPN	_	_	2	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Brasil	Brasil	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	14	punct	_	_
+11-12	Na	_	_	_	_	_	_	_	_
+11	Em	em	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	última	último	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	quarta	quarto	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	26	obl	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	6	6	NUM	_	NumType=Card	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	despacho	despacho	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	presidente	presidente	NOUN	_	Number=Sing	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	STF	STF	PROPN	_	_	22	nmod	_	_
+26	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	a	a	ADP	_	_	28	case	_	_
+28	Sérgio	Sérgio	PROPN	_	_	26	obl	_	_
+29	Moro	Moro	PROPN	_	_	28	flat:name	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	48	48	NUM	_	NumType=Card	34	nummod	_	_
+34	horas	hora	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
+35	para	para	ADP	_	_	36	mark	_	_
+36	esclarecer	esclarecer	VERB	_	VerbForm=Inf	26	advcl	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
+39	de	de	ADP	_	_	41	mark	_	_
+40	ter	ter	AUX	_	VerbForm=Inf	41	aux	_	_
+41	autorizado	autorizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	38	acl	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	divulgação	divulgação	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	43	nmod	_	_
+46	gravadas	gravar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	45	acl	_	_
+47	envolvendo	envolver	VERB	_	VerbForm=Ger	45	acl	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	ex-presidente	ex-presidente	NOUN	_	Number=Sing	47	obj	_	_
+50	Lula	Lula	PROPN	_	_	49	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = S0007
+# text = A decisão atende a defesa de Lula que tenta suspender as investigações da Lava Jato em primeira instância.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	atende	atender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Lula	Lula	PROPN	_	_	5	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	suspender	suspender	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Lava	Lava	PROPN	_	_	12	nmod	_	_
+16	Jato	Jato	PROPN	_	_	15	flat:name	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	instância	instância	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = O "pixuleco" quer se dar ao luxo de ser julgado pelo STF, mesmo não possuindo foro para tal.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	pixuleco	pixuleco	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	7	expl	_	_
+7	dar	dar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	luxo	luxo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	_	13	mark	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	13	aux:pass	_	_
+13	julgado	julgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+14-15	pelo	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	STF	STF	PROPN	_	_	13	obl:agent	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	mesmo	mesmo	ADV	_	_	20	advmod	_	_
+19	não	não	ADV	_	_	20	advmod	_	_
+20	possuindo	possuir	VERB	_	VerbForm=Ger	13	advcl	_	_
+21	foro	foro	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	para	para	ADP	_	_	23	case	_	_
+23	tal	tal	PRON	_	Number=Sing|PronType=Dem	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0011
+# text = O doutor Lewandowski caiu do cavalo!
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	doutor	doutor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Lewandowski	Lewandowski	PROPN	_	_	2	nmod	_	_
+4	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cavalo	cavalo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Mesmo que as interceptações telefônicas feitas na investigação sejam derrubadas (o que fatalmente acabará acontecendo), isso não terá efeito diante das denúncias que o MPF tem contra o petista.
+1	Mesmo	mesmo	ADV	_	ExtPos=SCONJ	11	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	interceptações	interceptação	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+5	telefônicas	telefônico	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	derrubadas	derrubar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	22	advcl	_	_
+12	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+13	o	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
+14	que	que	PRON	_	PronType=Rel	13	fixed	_	_
+15	fatalmente	fatalmente	ADV	_	_	16	advmod	_	_
+16	acabará	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	parataxis	_	_
+17	acontecendo	acontecer	VERB	_	VerbForm=Ger	16	xcomp	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	11	punct	_	_
+20	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	22	nsubj	_	_
+21	não	não	ADV	_	_	22	advmod	_	_
+22	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+23	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+24	diante	diante	ADV	_	_	22	advmod	_	_
+25-26	das	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
+28	que	que	PRON	_	PronType=Rel	31	obj	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	MPF	MPF	PROPN	_	_	31	nsubj	_	_
+31	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+32	contra	contra	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	petista	petista	NOUN	_	Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0015
+# text = Em momento algum os grampos telefônicos foram utilizados para instruir os processos da Lava Jato.
+1	Em	em	ADP	_	_	2	case	_	_
+2	momento	momento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	grampos	grampo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+6	telefônicos	telefônico	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	instruir	instruir	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	processos	processo	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Lava	Lava	PROPN	_	_	12	nmod	_	_
+16	Jato	Jato	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = As conversas inadequadas e criminosas de Lula tiveram a consequência que Moro pretendia: Mostrar para os brasileiros como Luís Inácio, Dilma e cia agiam no submundo da política.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+3	inadequadas	inadequado	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	criminosas	criminoso	ADJ	_	Gender=Fem|Number=Plur	3	conj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Lula	Lula	PROPN	_	_	2	nmod	_	_
+8	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	consequência	consequência	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	que	que	PRON	_	PronType=Rel	13	obj	_	_
+12	Moro	Moro	PROPN	_	_	13	nsubj	_	_
+13	pretendia	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	15	punct	_	_
+15	Mostrar	mostrar	VERB	_	VerbForm=Inf	8	parataxis	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+19	como	como	ADV	_	_	26	advmod	_	_
+20	Luís	Luís	PROPN	_	_	26	nsubj	_	_
+21	Inácio	Inácio	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	Dilma	Dilma	PROPN	_	_	20	conj	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	cia	cia	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
+26	agiam	agir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	submundo	submundo	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	política	política	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Nada foi feito com base nas gravações.
+1	Nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj:pass	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	base	base	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	nas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	gravações	gravação	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Lula pode até conseguir anular as interceptações, mas não poderá usar essa estratégia para escapar da República de Curitiba.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	até	até	ADV	_	_	4	advmod	_	_
+4	conseguir	conseguir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	anular	anular	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	interceptações	interceptação	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	mas	mas	CCONJ	_	_	11	cc	_	_
+10	não	não	ADV	_	_	11	advmod	_	_
+11	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+12	usar	usar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	escapar	escapar	VERB	_	VerbForm=Inf	12	advcl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	República	República	PROPN	_	_	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Curitiba	Curitiba	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Sérgio Moro é um fenômeno em termos de estratégia [...] já Lewandowski... deixa pra lá!
+1	Sérgio	Sérgio	PROPN	_	_	5	nsubj	_	_
+2	Moro	Moro	PROPN	_	_	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	termos	termo	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+12	..	..	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	]	]	PUNCT	_	_	11	punct	_	_
+14	já	já	CCONJ	_	_	17	cc	_	_
+15	Lewandowski	Lewandowski	PROPN	_	_	17	nsubj	_	SpaceAfter=No
+16	...	...	PUNCT	_	_	17	punct	_	_
+17	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+18	pra	para	ADP	_	_	19	case	_	_
+19	lá	lá	ADV	_	_	17	advmod	_	SpaceAfter=No
+20	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0024
+# text = leia também:
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+

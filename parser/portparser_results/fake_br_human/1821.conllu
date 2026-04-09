@@ -1,0 +1,233 @@
+# sent_id = S0001
+# text = Temer tenta acelerar Lava-Jato e recebe resposta da PGR: Temos nosso próprio tempo.
+1	Temer	Temer	PROPN	_	_	2	nsubj	_	_
+2	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	acelerar	acelerar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	Lava-Jato	Lava-Jato	PROPN	_	_	3	obj	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	recebe	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	PGR	PGR	PROPN	_	_	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	12	punct	_	_
+12	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	det	_	_
+14	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Não dependemos de política.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	dependemos	depender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	política	política	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = O presidente Temer pediu ontem (12) ao PGR, Rodrigo Janot, que acelere os depoimentos dos políticos que estão sendo investigados junto ao MPF e finalize o mais rápido possível os processos das colaborações premiadas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	4	nsubj	_	_
+3	Temer	Temer	PROPN	_	_	2	nmod	_	_
+4	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ontem	ontem	ADV	_	_	4	advmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	12	12	NUM	_	NumType=Card	11	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PGR	PGR	PROPN	_	_	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Rodrigo	Rodrigo	PROPN	_	_	11	appos	_	_
+14	Janot	Janot	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	acelere	acelerar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	depoimentos	depoimento	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	políticos	político	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+23	que	que	PRON	_	PronType=Rel	26	nsubj:pass	_	_
+24	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	sendo	ser	AUX	_	VerbForm=Ger	26	aux:pass	_	_
+26	investigados	investigar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
+27	junto	junto	ADV	_	_	26	advmod	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	MPF	MPF	PROPN	_	_	27	obl	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	finalize	finalizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+33	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	obj	_	_
+34	mais	mais	ADV	_	_	35	advmod	_	_
+35	rápido	rápido	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
+36	possível	possível	ADJ	_	Number=Sing	33	amod	_	_
+37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	processos	processo	NOUN	_	Gender=Masc|Number=Plur	32	obj	_	_
+39-40	das	_	_	_	_	_	_	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	colaborações	colaboração	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	_
+42	premiadas	premiado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0007
+# text = Porque a pressa Temer?
+1	Porque	porque	CCONJ	_	_	3	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pressa	pressa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	Temer	Temer	PROPN	_	_	3	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = Calma presidente, seu partido (incluindo vossa excelência) vai implodir aos poucos.
+1	Calma	calma	INTJ	_	Gender=Fem|Number=Sing	12	discourse	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	12	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	partido	partido	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	incluindo	incluir	VERB	_	VerbForm=Ger	5	acl	_	_
+8	vossa	vosso	DET	_	Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	det	_	_
+9	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
+11	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	implodir	implodir	VERB	_	VerbForm=Inf	0	root	_	_
+13-14	aos	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	poucos	pouco	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0011
+# text = Ainda faltam 76 delações da Odebrecht que irão mostrar ao povo a verdadeira face dos corruptos que administram nosso país.
+1	Ainda	ainda	ADV	_	_	2	advmod	_	_
+2	faltam	faltar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	76	76	NUM	_	NumType=Card	4	nummod	_	_
+4	delações	delação	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Odebrecht	Odebrecht	PROPN	_	_	4	nmod	_	_
+8	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+9	irão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10	mostrar	mostrar	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	povo	povo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	verdadeira	verdadeiro	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	face	face	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	corruptos	corrupto	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	administram	administrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	país	país	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = A PGR divulgou uma nota em resposta ao pedido do Presidente: As investigações e o desenvolvimento da Operação Lava Jato obedecem tempo próprio, independente da agenda política do país.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PGR	PGR	PROPN	_	_	3	nsubj	_	_
+3	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nota	nota	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Presidente	Presidente	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	25	punct	_	_
+15	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Operação	Operação	PROPN	_	_	19	nmod	_	_
+23	Lava	Lava	PROPN	_	_	22	flat:name	_	_
+24	Jato	Jato	PROPN	_	_	22	flat:name	_	_
+25	obedecem	obedecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+26	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+27	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	independente	independente	ADV	_	_	25	advmod	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	agenda	agenda	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
+33	política	político	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	país	país	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = O Ministério Público Federal exerce sua função de apurar indícios de crimes citados por colaboradores com responsabilidade e profissionalismo.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministério	Ministério	PROPN	_	_	5	nsubj	_	_
+3	Público	Público	PROPN	_	_	2	flat:name	_	_
+4	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+5	exerce	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	apurar	apurar	VERB	_	VerbForm=Inf	7	acl	_	_
+10	indícios	indício	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	citados	citar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	colaboradores	colaborador	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	responsabilidade	responsabilidade	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	profissionalismo	profissionalismo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0017
+# text = A PGR foi clara com Temer: Fique na sua a faça seu trabalho.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PGR	PGR	PROPN	_	_	4	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	clara	claro	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	Temer	Temer	PROPN	_	_	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	Fique	ficar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	4	parataxis	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sua	seu	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	obl	_	_
+12	a	a	ADP	_	_	13	cc	_	_
+13	faça	fazer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Aqui quem manda somos nós.
+1	Aqui	aqui	ADV	_	_	5	advmod	_	_
+2	quem	quem	PRON	_	PronType=Rel	5	nsubj	_	_
+3	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	somos	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+

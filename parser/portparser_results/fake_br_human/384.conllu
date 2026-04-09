@@ -1,0 +1,317 @@
+# sent_id = S0001
+# text = "Norte-coreanos praticam canibalismo para sobreviver" diz documentário espanhol.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Norte-coreanos	norte-coreano	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	praticam	praticar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
+4	canibalismo	canibalismo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	sobreviver	sobreviver	VERB	_	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	3	punct	_	_
+8	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	documentário	documentário	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	espanhol	espanhol	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Nos mercados, quase não há comida.
+1-2	Nos	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	mercados	mercado	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	quase	quase	ADV	_	_	7	advmod	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	comida	comida	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0005
+# text = Em 2012, uma análise da ONU mostrou que cerca de 1/3 das crianças norte-coreanas estavam subnutridas.
+1	Em	em	ADP	_	_	2	case	_	_
+2	2012	2012	NUM	_	NumType=Card	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	análise	análise	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ONU	ONU	PROPN	_	_	5	nmod	_	_
+9	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	19	mark	_	_
+11	cerca	cerca	ADV	_	ExtPos=ADV	13	advmod	_	_
+12	de	de	ADP	_	_	11	fixed	_	_
+13	1/3	1/3	NUM	_	NumType=Card	19	nsubj	_	_
+14-15	das	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	norte-coreanas	norte-coreanas	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	subnutridas	subnutrido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	9	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Estima-se que, desde a década de 90, mais de 3 milhões de cidadãos norte-coreanos tenham morrido de fome.
+1-2	Estima-se	_	_	_	_	_	_	_	_
+1	Estima	estimar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl:impers	_	_
+3	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	desde	desde	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	década	década	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	90	90	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	mais	mais	ADV	_	ExtPos=ADV	13	advmod	_	_
+12	de	de	ADP	_	_	11	fixed	_	_
+13	3	3	NUM	_	NumType=Card	14	nummod	_	_
+14	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	norte-coreanos	norte-coreano	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+18	tenham	ter	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	morrido	morrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	fome	fome	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0009
+# text = Um relatório da Asia Press publicou testemunhos chocantes: "A fome chegou a tal ponto que muitas pessoas ficaram loucas e cometeram atos de canibalismo para se alimentar".
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Asia	Asia	PROPN	_	_	2	nmod	_	_
+6	Press	Press	PROPN	_	_	5	flat:name	_	_
+7	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	chocantes	chocante	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	14	punct	_	_
+11	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+12	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fome	fome	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	tal	tal	DET	_	Number=Sing|PronType=Dem	17	det	_	_
+17	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	que	que	SCONJ	_	_	21	mark	_	_
+19	muitas	muito	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+20	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+21	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	advcl	_	_
+22	loucas	louco	ADJ	_	Gender=Fem|Number=Plur	21	xcomp	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	cometeram	cometer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+25	atos	ato	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	canibalismo	canibalismo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	para	para	ADP	_	_	30	mark	_	_
+29	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	30	expl	_	_
+30	alimentar	alimentar	VERB	_	VerbForm=Inf	24	advcl	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0011
+# text = Há alguns anos, nas províncias rurais do norte e su Hwanghae, 10 mil pessoas foram mortas por canibalismo [...] enquanto o governo assassino da família de Kim Jon-un gastava todos os recursos do governo desenvolvendo armas nucleares para mostrar seu poderio militar ao mundo.
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+2	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5-6	nas	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	províncias	província	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+8	rurais	rural	ADJ	_	Number=Plur	7	amod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	norte	norte	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	su	su	DET	_	PronType=Art	11	conj	_	_
+14	Hwanghae	Hwanghae	PROPN	_	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	7	punct	_	_
+16	10	10	NUM	_	NumType=Card	18	nummod	_	_
+17	mil	mil	NUM	_	NumType=Card	16	flat	_	_
+18	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+19	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	mortas	mortas	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	canibalismo	canibalismo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+23	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	20	parataxis	_	SpaceAfter=No
+25	..	..	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	]	]	PUNCT	_	_	24	punct	_	_
+27	enquanto	enquanto	SCONJ	_	_	37	mark	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	governo	governo	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
+30	assassino	assassino	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	família	família	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	Kim	Kim	PROPN	_	_	33	nmod	_	_
+36	Jon-un	Jon-un	PROPN	_	_	35	flat:name	_	_
+37	gastava	gastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	advcl	_	_
+38	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	40	det	_	_
+39	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	37	obj	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	governo	governo	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+44	desenvolvendo	desenvolver	VERB	_	VerbForm=Ger	37	advcl	_	_
+45	armas	arma	NOUN	_	Gender=Fem|Number=Plur	44	obj	_	_
+46	nucleares	nuclear	ADJ	_	Number=Plur	45	amod	_	_
+47	para	para	ADP	_	_	48	mark	_	_
+48	mostrar	mostrar	VERB	_	VerbForm=Inf	44	advcl	_	_
+49	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	det	_	_
+50	poderio	poderio	NOUN	_	Gender=Masc|Number=Sing	48	obj	_	_
+51	militar	militar	ADJ	_	Number=Sing	50	amod	_	_
+52-53	ao	_	_	_	_	_	_	_	_
+52	a	a	ADP	_	_	54	case	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	48	obl	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = S0013
+# text = Em maio de 2014, o Instituto de Unificação da Coreia do Sul divulgou a notícia de que um homem teria sido executado por ter comido parte do corpo de um amigo.
+1	Em	em	ADP	_	_	2	case	_	_
+2	maio	maio	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	2014	2014	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Instituto	Instituto	PROPN	_	_	16	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Unificação	Unificação	PROPN	_	_	7	flat:name	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Coreia	Coreia	PROPN	_	_	7	flat:name	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Sul	Sul	PROPN	_	_	7	flat:name	_	_
+16	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	ExtPos=SCONJ	25	mark	_	_
+20	que	que	SCONJ	_	_	19	fixed	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	homem	homem	NOUN	_	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+23	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	25	aux	_	_
+24	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	25	aux:pass	_	_
+25	executado	executar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+26	por	por	ADP	_	_	28	mark	_	_
+27	ter	ter	AUX	_	VerbForm=Inf	28	aux	_	_
+28	comido	comer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	advcl	_	_
+29	parte	parte	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0015
+# text = Em seguida, ele teria tentado vender o resto do corpo como se fosse carne animal.
+1	Em	em	ADP	_	_	2	case	_	_
+2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+6	tentado	tentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+7	vender	vender	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	resto	resto	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	como	como	SCONJ	_	ExtPos=SCONJ	16	mark	_	_
+14	se	se	SCONJ	_	_	13	fixed	_	_
+15	fosse	fosse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	carne	carne	NOUN	_	Gender=Fem|Number=Sing	7	advcl	_	_
+17	animal	animal	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = O relatório também divulgou o caso de outro cidadão que foi fuzilado por matar 11 pessoas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caso	caso	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	que	que	PRON	_	PronType=Rel	12	nsubj:pass	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	fuzilado	fuzilar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+13	por	por	ADP	_	_	14	mark	_	_
+14	matar	matar	VERB	_	VerbForm=Inf	12	advcl	_	_
+15	11	11	NUM	_	NumType=Card	16	nummod	_	_
+16	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Eles estava vendendo os corpos como se fossem carne de porco.
+1	Eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	vendendo	vender	VERB	_	VerbForm=Ger	0	root	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	como	como	SCONJ	_	ExtPos=SCONJ	9	mark	_	_
+7	se	se	SCONJ	_	_	6	fixed	_	_
+8	fossem	fossem	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	carne	carne	NOUN	_	Gender=Fem|Number=Sing	3	advcl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	porco	porco	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0021
+# text = Casos de canibalismo em campos de detenção também foram relatados.
+1	Casos	caso	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	canibalismo	canibalismo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	campos	campo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	detenção	detenção	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	também	também	ADV	_	_	10	advmod	_	_
+9	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	relatados	relatar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = O programa espanhol La Película, apresentado por Verónica Ayllón, fez uma matéria chocante sobre esse assunto.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programa	programa	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	espanhol	espanhol	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	La	La	PROPN	_	_	2	nmod	_	_
+5	Película	Película	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	Verónica	Verónica	PROPN	_	_	7	obl:agent	_	_
+10	Ayllón	Ayllón	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	chocante	chocante	ADJ	_	Number=Sing	14	amod	_	_
+16	sobre	sobre	ADP	_	_	18	case	_	_
+17	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0025
+# text = Confira:
+1	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+

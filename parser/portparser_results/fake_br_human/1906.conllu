@@ -1,0 +1,288 @@
+# sent_id = S0001
+# text = O que foi que o ex-presidente levou para a Itália?
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	discourse	_	_
+4	que	que	SCONJ	_	_	7	discourse	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ex-presidente	ex-presidente	NOUN	_	Number=Sing	7	nsubj	_	_
+7	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Itália	Itália	PROPN	_	_	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = S0003
+# text = Porque ele estava tão nervoso dentro do avião?.
+1	Porque	porque	CCONJ	_	_	5	cc	_	_
+2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	tão	tão	ADV	_	_	5	advmod	_	_
+5	nervoso	nervoso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	dentro	dentro	ADV	_	_	5	advmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	avião	avião	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	5	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0005
+# text = A Veja publicou hoje (26) que Lula embarcou para Roma portando doze malas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Veja	Veja	PROPN	_	_	3	nsubj	_	_
+3	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	hoje	hoje	ADV	_	_	3	advmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	26	26	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	Lula	Lula	PROPN	_	_	10	nsubj	_	_
+10	embarcou	embarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+11	para	para	ADP	_	_	12	case	_	_
+12	Roma	Roma	PROPN	_	_	10	obl	_	_
+13	portando	portar	VERB	_	VerbForm=Ger	10	advcl	_	_
+14	doze	doze	NUM	_	NumType=Card	15	nummod	_	_
+15	malas	mala	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = A viagem aconteceu no dia 3 de junho com um jato particular.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dia	dia	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	3	3	NUM	_	NumType=Card	6	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	junho	junho	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	jato	jato	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+13	particular	particular	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0009
+# text = De acordo com a revista, apenas cinco (das doze) malas passaram pelo raio-x e o petista aparentava um nervosismo constante.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	revista	revista	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	apenas	apenas	ADV	_	_	8	advmod	_	_
+8	cinco	cinco	NUM	_	NumType=Card	14	nummod	_	_
+9	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10-11	das	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	doze	doze	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	malas	mala	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	passaram	passar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16-17	pelo	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	raio-x	raio-x	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	e	e	CCONJ	_	_	22	cc	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	petista	petista	NOUN	_	Number=Sing	22	nsubj	_	_
+22	aparentava	aparentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	nervosismo	nervosismo	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	constante	constante	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = A Receita Federal não conseguiu vistoriar o jatinho particular porque um delegado da PF que estava de plantão impediu a vistoria.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Receita	Receita	PROPN	_	_	5	nsubj	_	_
+3	Federal	Federal	PROPN	_	_	2	flat:name	_	_
+4	não	não	ADV	_	_	5	advmod	_	_
+5	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	vistoriar	vistoriar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	jatinho	jatinho	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	particular	particular	ADJ	_	Number=Sing	8	amod	_	_
+10	porque	porque	SCONJ	_	_	20	mark	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	PF	PF	PROPN	_	_	12	nmod	_	_
+16	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+17	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	plantão	plantão	NOUN	_	Gender=Masc|Number=Sing	12	acl:relcl	_	_
+20	impediu	impedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vistoria	vistoria	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Um agente da PF denunciou o delegado ao Ministério Público Federal.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	agente	agente	NOUN	_	Number=Sing	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	PF	PF	PROPN	_	_	2	nmod	_	_
+6	denunciou	denunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Ministério	Ministério	PROPN	_	_	6	obl	_	_
+12	Público	Público	PROPN	_	_	11	flat:name	_	_
+13	Federal	Federal	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = No relato, ele disse: "O delegado aparentava retardar a ação da Receita e conseguiu impedir que a bagagem passasse por uma vistoria" E mais... "O ex-presidente estava muito nervoso, entrou na cabine de comando e se manteve lá" relatou.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	relato	relato	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	50	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	11	punct	_	_
+8	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	aparentava	aparentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp:speech	_	_
+12	retardar	retardar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	ação	ação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Receita	Receita	PROPN	_	_	14	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+20	impedir	impedir	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	que	que	SCONJ	_	_	24	mark	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	bagagem	bagagem	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+24	passasse	passar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	ccomp	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	vistoria	vistoria	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	37	punct	_	_
+29	E	e	CCONJ	_	_	19	cc	_	_
+30	mais	mais	ADV	_	_	37	discourse	_	SpaceAfter=No
+31	...	...	PUNCT	_	_	37	punct	_	_
+32	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+33	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	ex-presidente	ex-presidente	NOUN	_	Number=Sing	37	nsubj	_	_
+35	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	cop	_	_
+36	muito	muito	ADV	_	_	37	advmod	_	_
+37	nervoso	nervoso	ADJ	_	Gender=Masc|Number=Sing	6	ccomp:speech	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	conj	_	_
+40-41	na	_	_	_	_	_	_	_	_
+40	em	em	ADP	_	_	42	case	_	_
+41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	cabine	cabine	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	comando	comando	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+45	e	e	CCONJ	_	_	47	cc	_	_
+46	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	47	expl	_	_
+47	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	conj	_	_
+48	lá	lá	ADV	_	_	47	xcomp	_	SpaceAfter=No
+49	"	"	PUNCT	_	_	37	punct	_	_
+50	relatou	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = S0017
+# text = O que será que tinha nessas malas?
+1	O	o	PRON	_	ExtPos=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
+2	que	que	PRON	_	PronType=Int	1	fixed	_	_
+3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	discourse	_	_
+4	que	que	SCONJ	_	_	5	discourse	_	_
+5	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	nessas	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	malas	mala	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0019
+# text = Acervo da Presidência?
+1	Acervo	acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Presidência	Presidência	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0021
+# text = Dinheiro vivo?
+1	Dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	vivo	vivo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0023
+# text = Explosivos?
+1	Explosivos	explosivo	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = Documentos?
+1	Documentos	documento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0027
+# text = "Coisas" ilícitas?
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	ilícitas	ilícito	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0029
+# text = Cachaça?
+1	Cachaça	cachaça	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0031
+# text = Pamonha?
+1	Pamonha	pamonha	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0033
+# text = Charutos cubanos?
+1	Charutos	charuto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	cubanos	cubano	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0035
+# text = Doce de leite para o Papa?
+1	Doce	doce	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	leite	leite	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	para	para	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Papa	Papa	PROPN	_	_	1	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0037
+# text = Isso ninguém sabe, somente o tal delegado que atrasou a operação.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+2	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	3	nsubj	_	_
+3	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	somente	somente	ADV	_	_	8	advmod	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	tal	tal	DET	_	Number=Sing|PronType=Dem	8	det	_	_
+8	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	3	parataxis	_	_
+9	que	que	PRON	_	PronType=Rel	10	nsubj	_	_
+10	atrasou	atrasar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	operação	operação	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+

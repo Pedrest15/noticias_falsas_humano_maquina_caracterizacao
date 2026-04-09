@@ -1,0 +1,151 @@
+# sent_id = S0001
+# text = Cortella sobre o muro de Trump: Injustiça histórica.
+1	Cortella	Cortella	PROPN	_	_	0	root	_	_
+2	sobre	sobre	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	muro	muro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Trump	Trump	PROPN	_	_	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	Injustiça	injustiça	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+9	histórica	histórico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Muro da vergonha!.
+1	Muro	muro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vergonha	vergonha	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = "É claro que um país tem que fazer suas fronteiras, mas há uma questão de injustiça histórica neste assunto" disse Cortella.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	claro	claro	ADJ	_	Gender=Masc|Number=Sing	24	ccomp:speech	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	país	país	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+8	que	que	ADP	_	_	9	mark	_	_
+9	fazer	fazer	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	fronteiras	fronteira	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	mas	mas	CCONJ	_	_	14	cc	_	_
+14	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	questão	questão	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	injustiça	injustiça	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	histórica	histórico	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	neste	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	3	punct	_	_
+24	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	Cortella	Cortella	PROPN	_	_	24	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = S0007
+# text = Em 1846, houve uma guerra que durou 2 anos.
+1	Em	em	ADP	_	_	2	case	_	_
+2	1846	1846	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	durou	durar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	2	2	NUM	_	NumType=Card	10	nummod	_	_
+10	anos	ano	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0009
+# text = Quando a guerra terminou, com a vitória dos EUA, o México perdeu cerca de 50% de seu território e os EUA aumentaram em 1/4 o tamanho de suas terras.
+1	Quando	quando	SCONJ	_	_	4	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	terminou	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vitória	vitória	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	EUA	EUA	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	México	México	PROPN	_	_	15	nsubj	_	_
+15	perdeu	perder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	cerca	cerca	ADV	_	ExtPos=ADV	18	advmod	_	_
+17	de	de	ADP	_	_	16	fixed	_	_
+18	50	50	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
+19	%	%	SYM	_	_	15	obj	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	território	território	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	e	e	CCONJ	_	_	26	cc	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	EUA	EUA	PROPN	_	_	26	nsubj	_	_
+26	aumentaram	aumentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	1/4	1/4	NUM	_	NumType=Card	26	obl	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	terras	terra	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0011
+# text = O México foi forçado a ceder regiões como Califórnia, Nevada, Texas, Utah, Novo México, Arizona, Colorado e Wyoming para os EUA.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	México	México	PROPN	_	_	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	forçado	forçar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	ceder	ceder	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	regiões	região	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	Califórnia	Califórnia	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	Nevada	Nevada	PROPN	_	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Texas	Texas	PROPN	_	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Utah	Utah	PROPN	_	_	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Novo	Novo	PROPN	_	_	9	conj	_	_
+18	México	México	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Arizona	Arizona	PROPN	_	_	9	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Colorado	Colorado	PROPN	_	_	9	conj	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	Wyoming	Wyoming	PROPN	_	_	9	conj	_	_
+25	para	para	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	EUA	EUA	PROPN	_	_	6	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0013
+# text = Ouça abaixo o comentário do filósofo Mário Sérgio Cortella:
+1	Ouça	our	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	abaixo	abaixo	ADV	_	_	1	advmod	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	comentário	comentário	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	filósofo	filósofo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Mário	Mário	PROPN	_	_	7	nmod	_	_
+9	Sérgio	Sérgio	PROPN	_	_	8	flat:name	_	_
+10	Cortella	Cortella	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,243 @@
+# sent_id = S0001
+# text = Lula é uma piada pronta!
+1	Lula	Lula	PROPN	_	_	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	piada	piada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	pronta	pronto	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0003
+# text = Ele sugeriu que Rodrigo Janot investigue o juiz federal Sérgio Moro.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sugeriu	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	Rodrigo	Rodrigo	PROPN	_	_	6	nsubj	_	_
+5	Janot	Janot	PROPN	_	_	4	flat:name	_	_
+6	investigue	investigar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	federal	federal	ADJ	_	Number=Sing	8	amod	_	_
+10	Sérgio	Sérgio	PROPN	_	_	8	nmod	_	_
+11	Moro	Moro	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = Lula comentou hoje (16) o pedido do ministro Teori Zavascki, do STF, para abertura de inquérito para investigá-lo por tentativa de obstrução da Operação Lava Jato.
+1	Lula	Lula	PROPN	_	_	2	nsubj	_	_
+2	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	hoje	hoje	ADV	_	_	2	advmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	16	16	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	Teori	Teori	PROPN	_	_	11	nmod	_	_
+13	Zavascki	Zavascki	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	STF	STF	PROPN	_	_	11	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	inquérito	inquérito	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	para	para	ADP	_	_	24	mark	_	_
+24-25	investigá-lo	_	_	_	_	_	_	_	_
+24	investigar	investigar	VERB	_	VerbForm=Inf	22	acl	_	_
+25	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	por	por	ADP	_	_	27	case	_	_
+27	tentativa	tentativa	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	obstrução	obstrução	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Operação	Operação	PROPN	_	_	29	nmod	_	_
+33	Lava	Lava	PROPN	_	_	32	flat:name	_	_
+34	Jato	Jato	PROPN	_	_	32	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Em nota, o petista disse que que jamais praticou qualquer ato que possa configurar crime de obstrução à Justiça.
+1	Em	em	ADP	_	_	2	case	_	_
+2	nota	nota	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	petista	petista	NOUN	_	Number=Sing	6	nsubj	_	_
+6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	jamais	jamais	ADV	_	_	10	advmod	_	_
+10	praticou	praticar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+11	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	12	det	_	_
+12	ato	ato	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	configurar	configurar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	crime	crime	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	obstrução	obstrução	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19-20	à	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Justiça	Justiça	PROPN	_	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0009
+# text = Claro!
+1	Claro	claro	ADV	_	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0011
+# text = Ele apenas quis se valer de um "carguinho" de ministro para obter foro privilegiado.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	apenas	apenas	ADV	_	_	3	advmod	_	_
+3	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	_	_
+5	valer	valer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	carguinho	carguinho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	obter	obter	VERB	_	VerbForm=Inf	5	advcl	_	_
+15	foro	foro	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16	privilegiado	privilegiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0013
+# text = Coisa à toa, não é seu Lula?
+1	Coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	à	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	toa	toa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	não	não	ADV	_	_	9	advmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Lula	Lula	PROPN	_	_	1	parataxis	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0015
+# text = Pois bem, o ex- presidente diz que não se opõe a qualquer investigação, desde que observado o devido processo legal e as garantias fundamentais.
+1	Pois	pois	CCONJ	_	_	2	cc	_	_
+2	bem	bem	ADV	_	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	ex	ex	NOUN	_	Number=Sing	7	nsubj	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	det	_	_
+7	presidente	presidente	NOUN	_	Number=Sing	8	nsubj	_	_
+8	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	não	não	ADV	_	_	12	advmod	_	_
+11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	_	_
+12	opõe	opor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	15	det	_	_
+15	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	desde	desde	ADP	_	ExtPos=SCONJ	19	mark	_	_
+18	que	que	SCONJ	_	_	17	fixed	_	_
+19	observado	observar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	advcl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	devido	devido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	22	amod	_	_
+22	processo	processo	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+23	legal	legal	ADJ	_	Number=Sing	22	amod	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	garantias	garantia	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	_
+27	fundamentais	fundamental	ADJ	_	Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = Opa!
+1	Opa	opa	INTJ	_	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0019
+# text = Ele não se opõe desde que as investigações não sejam contra ele, não é seu Lula?
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	não	não	ADV	_	_	4	advmod	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	opõe	opor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	desde	desde	ADP	_	ExtPos=SCONJ	12	mark	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	investigações	investigação	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+9	não	não	ADV	_	_	12	advmod	_	_
+10	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	contra	contra	ADP	_	_	12	case	_	_
+12	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	não	não	ADV	_	_	17	advmod	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	Lula	Lula	PROPN	_	_	4	parataxis	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0021
+# text = Agora vem o mais interessante: "Se o PGR quer investigar o ex-Presidente pelo teor de conversas telefônicas, deveria, também tomar providências em relação à atuação do Juiz da Lava Jato que deu publicidade a essas interceptações" declarou Lula.
+1	Agora	agora	ADV	_	_	2	advmod	_	_
+2	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	ccomp:speech	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+4	mais	mais	ADV	_	_	5	advmod	_	_
+5	interessante	interessante	ADJ	_	Number=Sing	3	amod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	22	punct	_	_
+7	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+8	Se	se	SCONJ	_	_	11	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	PGR	PGR	PROPN	_	_	11	nsubj	_	_
+11	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+12	investigar	investigar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ex-Presidente	ex-Presidente	PROPN	_	_	12	obj	_	_
+15-16	pelo	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	teor	teor	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	conversas	conversa	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20	telefônicas	telefônico	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	11	punct	_	_
+22	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	46	ccomp:speech	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	também	também	ADV	_	_	25	advmod	_	_
+25	tomar	tomar	VERB	_	VerbForm=Inf	22	xcomp	_	_
+26	providências	providência	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	relação	relação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29-30	à	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Juiz	Juiz	PROPN	_	_	31	nmod	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Lava	Lava	PROPN	_	_	34	nmod	_	_
+38	Jato	Jato	PROPN	_	_	37	flat:name	_	_
+39	que	que	PRON	_	PronType=Rel	40	nsubj	_	_
+40	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	acl:relcl	_	_
+41	publicidade	publicidade	NOUN	_	Gender=Fem|Number=Sing	40	obj	_	_
+42	a	a	ADP	_	_	44	case	_	_
+43	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	44	det	_	_
+44	interceptações	interceptação	NOUN	_	Gender=Fem|Number=Plur	40	obl	_	SpaceAfter=No
+45	"	"	PUNCT	_	_	22	punct	_	_
+46	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+47	Lula	Lula	PROPN	_	_	46	nsubj	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	46	punct	_	_
+

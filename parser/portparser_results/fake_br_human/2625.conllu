@@ -1,0 +1,243 @@
+# sent_id = S0001
+# text = Telemar comprou a Brasil Telecom.Telemar virou sócia de Lulinha.
+1	Telemar	Telemar	PROPN	_	_	2	nsubj	_	_
+2	comprou	comprar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Brasil	Brasil	PROPN	_	_	2	obj	_	_
+5	Telecom.Telemar	Telecom.Telemar	PROPN	_	_	4	flat:name	_	_
+6	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	sócia	sócio	NOUN	_	Gender=Fem|Number=Sing	6	xcomp	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Lulinha	Lulinha	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Telemar virou OI.
+1	Telemar	Telemar	PROPN	_	_	2	nsubj	_	_
+2	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	OI	OI	PROPN	_	_	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0005
+# text = A OI quebrou!.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	OI	OI	PROPN	_	_	3	nsubj	_	_
+3	quebrou	quebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0007
+# text = Oi informou ajuizou um pedido de recuperação judicial hoje [20] A empresa declarou uma dívida de R$ 65, 4 bilhões.
+1	Oi	Oi	PROPN	_	_	2	nsubj	_	_
+2	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ajuizou	ajuizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	judicial	judicial	ADJ	_	Number=Sing	7	amod	_	_
+9	hoje	hoje	ADV	_	_	3	advmod	_	_
+10	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	20	20	NUM	_	NumType=Card	9	parataxis	_	SpaceAfter=No
+12	]	]	PUNCT	_	_	11	punct	_	_
+13	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	R$	R$	SYM	_	_	23	nmod	_	_
+20	65	65	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	4	4	NUM	_	NumType=Card	23	nummod	_	_
+23	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = O comunicado da empresa afirma que o pedido de recuperação judicial será submetido à deliberação da Assembleia Geral da Companhia.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	14	mark	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	judicial	judicial	ADJ	_	Number=Sing	11	amod	_	_
+13	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+14	submetido	submeter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	deliberação	deliberação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Assembleia	Assembleia	PROPN	_	_	17	nmod	_	_
+21	Geral	Geral	PROPN	_	_	20	flat:name	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Companhia	Companhia	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = A informação é de que a empresa manterá sua atuação, com suas atividades comerciais, operacionais e administrativas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:outer	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	de	de	ADP	_	ExtPos=SCONJ	8	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	manterá	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	atuação	atuação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+15	comerciais	comercial	ADJ	_	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	operacionais	operacional	ADJ	_	Number=Plur	15	conj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	administrativas	administrativo	ADJ	_	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0013
+# text = A Oi passou a ter esse nome após a Telemar comprar a Brasil Telecom.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Oi	Oi	PROPN	_	_	3	nsubj	_	_
+3	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	mark	_	_
+5	ter	ter	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	nome	nome	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	após	após	ADP	_	_	11	mark	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Telemar	Telemar	PROPN	_	_	11	nsubj	_	_
+11	comprar	comprar	VERB	_	VerbForm=Inf	3	advcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Brasil	Brasil	PROPN	_	_	11	obj	_	_
+14	Telecom	Telecom	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = Ainda com o antigo nome, a Telemar resolveu ser sócia de Fábio Luiz da Silva, o Lulinha, na Gamecorp.
+1	Ainda	ainda	ADV	_	_	5	advmod	_	_
+2	com	com	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	antigo	antigo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	nome	nome	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Telemar	Telemar	PROPN	_	_	9	nsubj	_	_
+9	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	ser	ser	AUX	_	VerbForm=Inf	11	cop	_	_
+11	sócia	sócio	NOUN	_	Gender=Fem|Number=Sing	9	xcomp	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Fábio	Fábio	PROPN	_	_	11	nmod	_	_
+14	Luiz	Luiz	PROPN	_	_	13	flat:name	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Silva	Silva	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Lulinha	Lulinha	PROPN	_	_	13	appos	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Gamecorp	Gamecorp	PROPN	_	_	11	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0016
+# text = leia abaixo o que diz o colunista Lauro Jardim: Desde que se tornou sócia da Gamecorp, em 2005, a Oi já contratou R$ 77.836.731, 00 em serviços da empresa, que tem entre seus sócios Fabio Luis Lula da Silva.
+1	leia	ler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	abaixo	abaixo	ADV	_	_	1	advmod	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	obj	_	_
+4	que	que	PRON	_	PronType=Rel	5	obj	_	_
+5	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	colunista	colunista	NOUN	_	Number=Sing	5	nsubj	_	_
+8	Lauro	Lauro	PROPN	_	_	7	nmod	_	_
+9	Jardim	Jardim	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	14	punct	_	_
+11	Desde	desde	ADP	_	ExtPos=SCONJ	14	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	_	_
+14	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	_
+15	sócia	sócio	NOUN	_	Gender=Fem|Number=Sing	14	xcomp	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Gamecorp	Gamecorp	PROPN	_	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	2005	2005	NUM	_	NumType=Card	14	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	14	punct	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Oi	Oi	PROPN	_	_	26	nsubj	_	_
+25	já	já	ADV	_	_	26	advmod	_	_
+26	contratou	contratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	root	_	_
+27	R$	R$	SYM	_	_	26	obj	_	_
+28	77.836.731	77.836.731	NUM	_	NumType=Card	27	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	00	00	NUM	_	NumType=Card	27	nummod	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	que	que	PRON	_	PronType=Rel	38	nsubj	_	_
+38	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+39	entre	entre	ADP	_	_	41	case	_	_
+40	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	det	_	_
+41	sócios	sócio	NOUN	_	Gender=Masc|Number=Plur	38	obl	_	_
+42	Fabio	Fabio	PROPN	_	_	41	nmod	_	_
+43	Luis	Luis	PROPN	_	_	42	flat:name	_	_
+44	Lula	Lula	PROPN	_	_	42	flat:name	_	_
+45-46	da	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	Silva	Silva	PROPN	_	_	42	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0018
+# text = Este é o valor exato até abril.
+1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	valor	valor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	exato	exato	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	até	até	ADP	_	_	7	case	_	_
+7	abril	abril	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0020
+# text = Dá uma média de R$ 7 milhões anuais.
+1	Dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	média	média	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	R$	R$	SYM	_	_	7	nmod	_	_
+6	7	7	NUM	_	NumType=Card	7	nummod	_	_
+7	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+8	anuais	anual	ADJ	_	Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0022
+# text = ACABOU A MAMATA LULINHA!
+1	ACABOU	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	MAMATA	MAMATA	PROPN	_	_	1	nsubj	_	_
+4	LULINHA	lulinha	ADJ	_	_	3	amod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	_
+

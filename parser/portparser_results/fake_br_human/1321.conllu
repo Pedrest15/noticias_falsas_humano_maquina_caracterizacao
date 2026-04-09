@@ -1,0 +1,308 @@
+# sent_id = S0001
+# text = O discurso tocante de Renan: "O MPF quer desmoralizar homens públicos de bem".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	tocante	tocante	ADJ	_	Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Renan	Renan	PROPN	_	_	2	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	10	punct	_	_
+7	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	MPF	MPF	PROPN	_	_	10	nsubj	_	_
+10	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	desmoralizar	desmoralizar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	homens	homem	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+13	públicos	público	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	bem	bem	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Renan Calheiros falou na sessão do senado hoje e tentou esculhambar o Ministério Público Federal.
+1	Renan	Renan	PROPN	_	_	3	nsubj	_	_
+2	Calheiros	Calheiros	PROPN	_	_	1	flat:name	_	_
+3	falou	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	senado	senado	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	hoje	hoje	ADV	_	_	3	advmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	esculhambar	esculhambar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Ministério	Ministério	PROPN	_	_	13	obj	_	_
+16	Público	Público	PROPN	_	_	15	flat:name	_	_
+17	Federal	Federal	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = É deletério chamar tudo genericamente de propina, por dar a entender, mesmo sem provas concretas, que todo mundo envolvido nessas doações é culpado.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	deletério	deletério	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	chamar	chamar	VERB	_	VerbForm=Inf	2	csubj	_	_
+4	tudo	tudo	PRON	_	PronType=Ind	3	obj	_	_
+5	genericamente	genericamente	ADV	_	_	3	advmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	propina	propina	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	por	por	ADP	_	_	10	mark	_	_
+10	dar	dar	VERB	_	VerbForm=Inf	2	advcl	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	entender	entender	VERB	_	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	mesmo	mesmo	ADV	_	_	16	advmod	_	_
+15	sem	sem	ADP	_	_	16	case	_	_
+16	provas	prova	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+17	concretas	concreto	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	que	que	SCONJ	_	_	27	mark	_	_
+20	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+22	envolvido	envolvido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_
+23-24	nessas	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+25	doações	doação	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	_
+26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	culpado	culpado	NOUN	_	Gender=Masc|Number=Sing	12	ccomp	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Esse modo de proceder fere o princípio da presunção de inocência.
+1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	modo	modo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	mark	_	_
+4	proceder	proceder	VERB	_	VerbForm=Inf	2	acl	_	_
+5	fere	ferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	presunção	presunção	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	inocência	inocência	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0009
+# text = O arrastão urdido para desmoralizar homens públicos serve-se da insinuação maliciosa, das inculpações precárias e de acusações débeis.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	arrastão	arrastão	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	urdido	urdir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4	para	para	ADP	_	_	5	mark	_	_
+5	desmoralizar	desmoralizar	VERB	_	VerbForm=Inf	3	advcl	_	_
+6	homens	homem	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+7	públicos	público	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+8-9	serve-se	_	_	_	_	_	_	_	_
+8	serve	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	insinuação	insinuação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+13	maliciosa	malicioso	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15-16	das	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	inculpações	inculpação	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
+18	precárias	precário	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
+22	débeis	débel	ADJ	_	Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0011
+# text = Daí, pela força da repetição, adquirem um verniz de verdade, ressuscitando uma prática batizada de fabricação do consentimento.
+1-2	Daí	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	2	case	_	_
+2	aí	aí	ADV	_	_	11	advmod	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	força	força	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	repetição	repetição	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	adquirem	adquirir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	verniz	verniz	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	ressuscitando	ressuscitar	VERB	_	VerbForm=Ger	11	advcl	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	prática	prática	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	batizada	batizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	fabricação	fabricação	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	consentimento	consentimento	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0013
+# text = Traduzindo o nobre parlamentar, que faz questão de usar uma linguagem ao estilo "Rolando Lero" para tentar confundir a cabeça do povo brasileiro: Renan disse que é prejudicial acusar os parlamentares de receberem propinas sem apresentar provas [...] algo que o MPF e a PF não têm feito.
+1	Traduzindo	traduzir	VERB	_	VerbForm=Ger	31	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nobre	nobre	ADJ	_	Number=Sing	4	amod	_	_
+4	parlamentar	parlamentar	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
+7	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	questão	questão	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	usar	usar	VERB	_	VerbForm=Inf	8	acl	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	linguagem	linguagem	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Rolando	Rolando	PROPN	_	_	15	nmod	_	_
+18	Lero	Lero	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	17	punct	_	_
+20	para	para	ADP	_	_	21	mark	_	_
+21	tentar	tentar	VERB	_	VerbForm=Inf	10	advcl	_	_
+22	confundir	confundir	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	povo	povo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	:	:	PUNCT	_	_	7	punct	_	_
+30	Renan	Renan	PROPN	_	_	31	nsubj	_	_
+31	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+32	que	que	SCONJ	_	_	34	mark	_	_
+33	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	prejudicial	prejudicial	ADJ	_	Number=Sing	31	ccomp	_	_
+35	acusar	acusar	VERB	_	VerbForm=Inf	34	csubj	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	_
+38	de	de	ADP	_	_	39	mark	_	_
+39	receberem	receber	VERB	_	Number=Plur|Person=3|VerbForm=Inf	35	xcomp	_	_
+40	propinas	propina	NOUN	_	Gender=Fem|Number=Plur	39	obj	_	_
+41	sem	sem	ADP	_	_	42	mark	_	_
+42	apresentar	apresentar	VERB	_	VerbForm=Inf	35	advcl	_	_
+43	provas	prova	NOUN	_	Gender=Fem|Number=Plur	42	obj	_	_
+44	[	[	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	48	parataxis	_	SpaceAfter=No
+46	..	..	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	]	]	PUNCT	_	_	45	punct	_	_
+48	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	35	obj	_	_
+49	que	que	PRON	_	PronType=Rel	57	obj	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	MPF	MPF	PROPN	_	_	57	nsubj	_	_
+52	e	e	CCONJ	_	_	54	cc	_	_
+53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	PF	PF	PROPN	_	_	51	conj	_	_
+55	não	não	ADV	_	_	57	advmod	_	_
+56	têm	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
+57	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	48	acl:relcl	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = S0015
+# text = Já o segundo parágrafo se resume ao seguinte: Renan diz que o MPF está sendo malicioso e fazendo acusações sem sentido com o intuito de desmoralizar homens públicos de bem.
+1	Já	já	CCONJ	_	_	6	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	parágrafo	parágrafo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	resume	resumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
+9	seguinte	seguinte	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	12	punct	_	_
+11	Renan	Renan	PROPN	_	_	12	nsubj	_	_
+12	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+13	que	que	SCONJ	_	_	18	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	MPF	MPF	PROPN	_	_	18	nsubj	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	sendo	ser	AUX	_	VerbForm=Ger	18	cop	_	_
+18	malicioso	malicioso	ADJ	_	Gender=Masc|Number=Sing	12	ccomp	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	fazendo	fazer	VERB	_	VerbForm=Ger	18	conj	_	_
+21	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+22	sem	sem	ADP	_	_	23	case	_	_
+23	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	com	com	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+27	de	de	ADP	_	_	28	mark	_	_
+28	desmoralizar	desmoralizar	VERB	_	VerbForm=Inf	26	acl	_	_
+29	homens	homem	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+30	públicos	público	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	bem	bem	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = O cinismo do senador chega a doer nos brasileiros de boa índole.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cinismo	cinismo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	senador	senador	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	_	_	8	mark	_	_
+8	doer	doer	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9-10	nos	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	brasileiros	brasileiro	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	boa	bom	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	índole	índole	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Quando Renan citou homens públicos de bem, a quem será que ele estava se referindo?
+1	Quando	quando	SCONJ	_	_	3	mark	_	_
+2	Renan	Renan	PROPN	_	_	3	nsubj	_	_
+3	citou	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+4	homens	homem	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	públicos	público	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	bem	bem	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	quem	quem	PRON	_	PronType=Int	16	obl	_	_
+11	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	discourse	_	_
+12	que	que	SCONJ	_	_	16	discourse	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	_	_
+16	referindo	referir	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0021
+# text = A ele mesmo?
+1	A	a	ADP	_	_	2	case	_	_
+2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Não é possível!
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	possível	possível	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+

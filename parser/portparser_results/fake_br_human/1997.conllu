@@ -1,0 +1,265 @@
+# sent_id = S0001
+# text = Não é piada!
+1	Não	não	ADV	_	_	3	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	piada	piada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Cientistas britânicos descobrem que cheirar "pum" previne câncer, AVC, infarto e demência.
+1	Cientistas	cientista	NOUN	_	Number=Plur	3	nsubj	_	_
+2	britânicos	britânico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	descobrem	descobrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	9	mark	_	_
+5	cheirar	cheirar	VERB	_	VerbForm=Inf	9	csubj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	pum	pum	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	previne	previner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	AVC	AVC	PROPN	_	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	infarto	infarto	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	demência	demência	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Cientistas da Universidade de Exeter, no Reino Unido, divulgaram uma informação que parece piada [...] mas não é!.
+1	Cientistas	cientista	NOUN	_	Number=Plur	13	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Universidade	Universidade	PROPN	_	_	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Exeter	Exeter	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Reino	Reino	PROPN	_	_	4	nmod	_	_
+11	Unido	Unido	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	divulgaram	divulgar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	informação	informação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
+17	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	piada	piada	NOUN	_	Gender=Fem|Number=Sing	17	xcomp	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	..	..	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	]	]	PUNCT	_	_	20	punct	_	_
+23	mas	mas	CCONJ	_	_	25	cc	_	_
+24	não	não	ADV	_	_	25	advmod	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	SpaceAfter=No
+26	!	!	PUNCT	_	_	13	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0007
+# text = De acordo com estudos realizados sob o comando do Doutor Mark Wood, cheirar pum pode prevenir várias doenças, entre elas o câncer.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+6	sob	sob	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	comando	comando	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Doutor	Doutor	PROPN	_	_	8	nmod	_	_
+12	Mark	Mark	PROPN	_	_	11	flat:name	_	_
+13	Wood	Wood	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	cheirar	cheirar	VERB	_	VerbForm=Inf	17	csubj	_	_
+16	pum	pum	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+17	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	prevenir	prevenir	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	várias	vários	DET	_	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	entre	entre	ADP	_	_	23	case	_	_
+23	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nmod	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = S0009
+# text = A notícia foi divulgada na revista "Time".
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	revista	revista	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Time	Time	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0011
+# text = Apesar dos gases serem nocivos quando inalados em maiores quantidades, os cientistas afirmam que uma cheirada aqui e outra acolá possui o poder de reduzir riscos de câncer, AVC, infartos, artrite e até demência.
+1	Apesar	apesar	ADV	_	_	15	advmod	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	6	mark	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	gases	gÃ¡s	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	6	cop	_	_
+6	nocivos	nocivo	ADJ	_	Gender=Masc|Number=Plur	1	acl	_	_
+7	quando	quando	SCONJ	_	_	8	mark	_	_
+8	inalados	inalar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	advcl	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	maiores	maior	ADJ	_	Number=Plur	11	amod	_	_
+11	quantidades	quantidade	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cientistas	cientista	NOUN	_	Number=Plur	15	nsubj	_	_
+15	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	que	que	SCONJ	_	_	23	mark	_	_
+17	uma	um	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	23	nsubj	_	_
+18	cheirada	cheirar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
+19	aqui	aqui	ADV	_	_	18	advmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	outra	outro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	18	conj	_	_
+22	acolá	acolá	ADV	_	_	21	advmod	_	_
+23	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	poder	poder	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	de	de	ADP	_	_	27	mark	_	_
+27	reduzir	reduzir	VERB	_	VerbForm=Inf	25	acl	_	_
+28	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	câncer	câncer	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	AVC	AVC	PROPN	_	_	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	infartos	infarto	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	artrite	artrite	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+37	e	e	CCONJ	_	_	39	cc	_	_
+38	até	até	ADV	_	_	39	case	_	_
+39	demência	demência	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0013
+# text = Os cientistas criaram em laboratório um composto capaz de reproduzir os benefícios do pum: O sulfeto de hidrogênio é produzido enquanto as bactérias da alimentação se decompõem no corpo.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	cientistas	cientista	NOUN	_	Number=Plur	3	nsubj	_	_
+3	criaram	criar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	laboratório	laboratório	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	composto	composto	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+8	capaz	capaz	ADJ	_	Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	reproduzir	reproduzir	VERB	_	VerbForm=Inf	8	acl	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pum	pum	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	22	punct	_	_
+17	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sulfeto	sulfeto	NOUN	_	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	produzido	produzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+23	enquanto	enquanto	SCONJ	_	_	30	mark	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	30	nsubj	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+29	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	30	expl	_	_
+30	decompõem	decompor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0015
+# text = A inalação desse gás resulta em terapias para uma série de doenças , afirmou o dr. Wood.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	inalação	inalação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	desse	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	gás	gás	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	resulta	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp:speech	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	terapias	terapia	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	série	série	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	doenças	doença	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+14	,	,	PUNCT	_	_	6	punct	_	_
+15	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dr.	dr.	NOUN	_	_	15	nsubj	_	_
+18	Wood	Wood	PROPN	_	_	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0017
+# text = O "pum de laboratório" foi batizado de AP39: e tem sido aplicado em pequenas doses às mitocôndrias.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	pum	pum	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	laboratório	laboratório	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	3	punct	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	batizado	batizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	AP39	AP39	NUM	_	NumType=Card	8	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	15	punct	_	_
+12	e	e	CCONJ	_	_	15	cc	_	_
+13	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	15	aux:pass	_	_
+15	aplicado	aplicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	conj	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	pequenas	pequeno	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+18	doses	dose	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+19-20	às	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	mitocôndrias	mitocôndria	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0019
+# text = Matt Whiteman, que trabalhou nos estudos, confirmou que a pesquisa será publicada na "Medicinal Chemistry Communications".
+1	Matt	Matt	PROPN	_	_	10	nsubj	_	_
+2	Whiteman	Whiteman	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
+5	trabalhou	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+6-7	nos	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+14	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+15	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	19	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Medicinal	Medicinal	PROPN	_	_	15	obl	_	_
+20	Chemistry	Chemistry	PROPN	_	_	19	flat:name	_	_
+21	Communications	Communications	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+

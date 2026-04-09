@@ -1,0 +1,238 @@
+# sent_id = S0001
+# text = Urgente: Saque Imediato do Fundo Previdenciário! O Governo Federal acaba de anunciar uma novidade na reforma da previdência.
+1	Urgente	urgente	ADJ	_	Number=Sing	13	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Saque	Saque	PROPN	_	_	1	parataxis	_	_
+4	Imediato	Imediato	PROPN	_	_	3	flat:name	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Fundo	Fundo	PROPN	_	_	3	nmod	_	_
+8	Previdenciário	Previdenciário	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	3	punct	_	_
+10	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Governo	Governo	PROPN	_	_	13	nsubj	_	_
+12	Federal	Federal	PROPN	_	_	11	flat:name	_	_
+13	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	anunciar	anunciar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	novidade	novidade	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	previdência	previdência	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0003
+# text = Todos os beneficiários têm agora a oportunidade única de sacar valores do "Fundo de Reserva Previdenciária" que variam entre R$ 500 e R$ 15.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	beneficiários	beneficiário	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	agora	agora	ADV	_	_	4	advmod	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8	única	único	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	sacar	sacar	VERB	_	VerbForm=Inf	7	acl	_	_
+11	valores	valor	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Fundo	Fundo	PROPN	_	_	11	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Reserva	Reserva	PROPN	_	_	15	flat:name	_	_
+18	Previdenciária	Previdenciária	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	15	punct	_	_
+20	que	que	PRON	_	PronType=Rel	21	nsubj	_	_
+21	variam	variar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+22	entre	entre	ADP	_	_	23	case	_	_
+23	R$	R$	SYM	_	_	21	obl	_	_
+24	500	500	NUM	_	NumType=Card	23	nummod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	R$	R$	SYM	_	_	23	conj	_	_
+27	15	15	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = 000! Atenção: o prazo para realizar o saque é até 31 de dezembro de 2023.
+1	000	000	NUM	_	NumType=Card	13	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	3	punct	_	_
+3	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	13	parataxis	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	realizar	realizar	VERB	_	VerbForm=Inf	6	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	saque	saque	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	até	até	ADP	_	_	13	case	_	_
+13	31	31	NUM	_	NumType=Card	0	root	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	2023	2023	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0007
+# text = Após essa data, o direito será automaticamente cancelado.
+1	Após	após	ADP	_	_	3	case	_	_
+2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	data	data	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	direito	direito	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+7	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+8	automaticamente	automaticamente	ADV	_	_	9	advmod	_	_
+9	cancelado	cancelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0009
+# text = Para verificar se você tem direito ao benefício, acesse este link exclusivo e confirme com seus dados pessoais.
+1	Para	para	ADP	_	_	2	mark	_	_
+2	verificar	verificar	VERB	_	VerbForm=Inf	11	advcl	_	_
+3	se	se	SCONJ	_	_	5	mark	_	_
+4	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	direito	direito	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	benefício	benefício	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	acesse	acessar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+12	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	link	link	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	exclusivo	exclusivo	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	confirme	confirmar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	11	conj	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	dados	dado	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+20	pessoais	pessoal	ADJ	_	Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0011
+# text = Não perca essa chance!
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	perca	perder	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = **Nota:** Segundo fontes internas, essa medida visa aliviar a pressão nos cofres públicos antes do fechamento do ano fiscal.
+1	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:outer	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	*	*	PUNCT	_	_	3	punct	_	_
+7	Segundo	segundo	ADP	_	_	8	case	_	_
+8	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+9	internas	interno	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	medida	medida	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	aliviar	aliviar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	nos	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	cofres	cofre	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	públicos	público	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	antes	antes	ADV	_	_	14	advmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fechamento	fechamento	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ano	ano	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	fiscal	fiscal	ADJ	_	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = S0015
+# text = O presidente da comissão de direito previdenciário da OAB de São Paulo, José Roberto Sodero Vitório, teria afirmado que essa é uma "oportunidade sem precedentes".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Number=Sing	22	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	comissão	comissão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	direito	direito	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	previdenciário	previdenciário	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	OAB	OAB	PROPN	_	_	5	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	São	São	PROPN	_	_	11	nmod	_	_
+14	Paulo	Paulo	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	José	José	PROPN	_	_	11	appos	_	_
+17	Roberto	Roberto	PROPN	_	_	16	flat:name	_	_
+18	Sodero	Sodero	PROPN	_	_	16	flat:name	_	_
+19	Vitório	Vitório	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	22	aux	_	_
+22	afirmado	afirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+23	que	que	SCONJ	_	_	28	mark	_	_
+24	essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	28	nsubj	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	22	ccomp	_	_
+29	sem	sem	ADP	_	_	30	case	_	_
+30	precedentes	precedente	NOUN	_	Number=Plur	28	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = S0017
+# text = A advogada Sara Quental também destacou a importância de agir rápido para garantir o saque.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	advogada	advogado	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Sara	Sara	PROPN	_	_	2	nmod	_	_
+4	Quental	Quental	PROPN	_	_	3	flat:name	_	_
+5	também	também	ADV	_	_	6	advmod	_	_
+6	destacou	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	importância	importância	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	agir	agir	VERB	_	VerbForm=Inf	8	acl	_	_
+11	rápido	rápido	ADV	_	_	10	advmod	_	_
+12	para	para	ADP	_	_	13	mark	_	_
+13	garantir	garantir	VERB	_	VerbForm=Inf	10	advcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	saque	saque	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0019
+# text = Lembre-se, os detalhes estão disponíveis apenas no site mencionado.
+1-2	Lembre-se	_	_	_	_	_	_	_	_
+1	Lembre	lembrar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	disponíveis	disponível	ADJ	_	Number=Plur	1	ccomp	_	_
+8	apenas	apenas	ADV	_	_	11	advmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	site	site	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+12	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+

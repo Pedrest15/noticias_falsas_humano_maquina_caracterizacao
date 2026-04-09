@@ -1,0 +1,403 @@
+# sent_id = S0001
+# text = Senador é acusado de violência doméstica e se defende: "Ela é louca, passou sangue em mim".
+1	Senador	senador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	violência	violência	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	doméstica	doméstico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	_	_
+9	defende	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	14	punct	_	_
+11	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+12	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	louca	louco	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+17	sangue	sangue	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = O senador Lasier Martins (PSD/RS) parece que entrou numa encrenca daquelas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	Lasier	Lasier	PROPN	_	_	2	nmod	_	_
+4	Martins	Martins	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	PSD/RS	PSD/RS	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+11-12	numa	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	encrenca	encrenca	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	daquelas	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	aquelas	aquele	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	13	nmod	_	_
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0005
+# text = Acusado de agressão pela esposa, o político nega as acusações e chama a jornalista Janice Santos de "louca".
+1	Acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	agressão	agressão	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	1	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	político	político	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	nega	negar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	acusações	acusação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	chama	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	jornalista	jornalista	NOUN	_	Number=Sing	14	obj	_	_
+17	Janice	Janice	PROPN	_	_	16	nmod	_	_
+18	Santos	Santos	PROPN	_	_	17	flat:name	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	louca	louco	ADJ	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0007
+# text = Na última terça-feira, Janice (38 anos) prestou queixa na Delegacia Especial da Mulher (em Brasília) com algumas lesões aparentes no corpo.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Janice	Janice	PROPN	_	_	11	nsubj	_	_
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	38	38	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	prestou	prestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	queixa	queixa	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Delegacia	Delegacia	PROPN	_	_	11	obl	_	_
+16	Especial	Especial	PROPN	_	_	15	flat:name	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Mulher	Mulher	PROPN	_	_	15	flat:name	_	_
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	em	em	ADP	_	_	22	case	_	_
+22	Brasília	Brasília	PROPN	_	_	15	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	com	com	ADP	_	_	26	case	_	_
+25	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	26	det	_	_
+26	lesões	lesão	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+27	aparentes	aparente	ADJ	_	Number=Plur	26	amod	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0009
+# text = Ela passou pelo IML onde fez exame de corpo de delito e declarou que não foi a primeira vez que as agressões aconteceram.
+1	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	IML	IML	PROPN	_	_	2	obl	_	_
+6	onde	onde	ADV	_	_	7	advmod	_	_
+7	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	exame	exame	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	delito	delito	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	que	que	SCONJ	_	_	20	mark	_	_
+16	não	não	ADV	_	_	20	advmod	_	_
+17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	vez	vez	NOUN	_	Gender=Fem|Number=Sing	14	ccomp	_	_
+21	que	que	PRON	_	PronType=Rel	24	obl	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	agressões	agressão	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
+24	aconteceram	acontecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0011
+# text = O senador está sendo acusado de lesão corporal e injúria.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	acusado	acusar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	lesão	lesão	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	corporal	corporal	ADJ	_	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	injúria	injúria	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0013
+# text = Lasier (74 anos) contesta a queixa e diz que "reagiu para se defender".
+1	Lasier	Lasier	PROPN	_	_	6	nsubj	_	_
+2	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	74	74	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	contesta	contestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	queixa	queixa	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	que	que	SCONJ	_	_	13	mark	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+14	para	para	ADP	_	_	16	mark	_	_
+15	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	16	expl	_	_
+16	defender	defender	VERB	_	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = Segundo o senador, a esposa o agrediu com um objeto de metal e depois ela própria se feriu com a intenção de forjar a situação: Ela partiu para cima de mim [...] apenas reagi sem agredi-la [...] ela se cortou e depois passou sangue em mim.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	senador	senador	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	agrediu	agredir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	objeto	objeto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	metal	metal	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	19	cc	_	_
+15	depois	depois	ADV	_	_	19	advmod	_	_
+16	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+17	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	_	_
+19	feriu	ferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+20	com	com	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+23	de	de	ADP	_	_	24	mark	_	_
+24	forjar	forjar	VERB	_	VerbForm=Inf	22	acl	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	situação	situação	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	:	:	PUNCT	_	_	29	punct	_	_
+28	Ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	partiu	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+30	para	para	ADP	_	ExtPos=ADP	33	case	_	_
+31	cima	cima	NOUN	_	Gender=Fem|Number=Sing	30	fixed	_	_
+32	de	de	ADP	_	_	33	fixed	_	_
+33	mim	mim	PRON	_	Case=Dat|ExtPos=PRON|Number=Sing|Person=1|PronType=Prs	29	obl	_	_
+34	[	[	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	39	parataxis	_	SpaceAfter=No
+36	..	..	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	]	]	PUNCT	_	_	35	punct	_	_
+38	apenas	apenas	ADV	_	_	39	advmod	_	_
+39	reagi	reagir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	29	parataxis	_	_
+40	sem	sem	ADP	_	_	41	mark	_	_
+41-42	agredi-la	_	_	_	_	_	_	_	_
+41	agredi	agredir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	advcl	_	_
+42	la	lo	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
+43	[	[	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	49	parataxis	_	SpaceAfter=No
+45	..	..	PUNCT	_	_	44	parataxis	_	SpaceAfter=No
+46	]	]	PUNCT	_	_	44	punct	_	_
+47	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	_
+48	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	49	expl	_	_
+49	cortou	cortar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	parataxis	_	_
+50	e	e	CCONJ	_	_	52	cc	_	_
+51	depois	depois	ADV	_	_	52	advmod	_	_
+52	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	conj	_	_
+53	sangue	sangue	NOUN	_	Gender=Masc|Number=Sing	52	obj	_	_
+54	em	em	ADP	_	_	55	case	_	_
+55	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	52	obl	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0017
+# text = É louca disse.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	louca	louco	ADJ	_	Gender=Fem|Number=Sing	3	ccomp:speech	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0019
+# text = Em processo de separação há cinco anos, a jornalista compareceu na delegacia junto com sua "secretária do lar" para servir de testemunha, já que ela presenciou toda a briga.
+1	Em	em	ADP	_	_	2	case	_	_
+2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	separação	separação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	cinco	cinco	NUM	_	NumType=Card	7	nummod	_	_
+7	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	jornalista	jornalista	NOUN	_	Number=Sing	11	nsubj	_	_
+11	compareceu	comparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	delegacia	delegacia	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	junto	junto	ADV	_	_	11	advmod	_	_
+16	com	com	ADP	_	_	19	case	_	_
+17	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	secretária	secretária	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	lar	lar	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	19	punct	_	_
+24	para	para	ADP	_	_	25	mark	_	_
+25	servir	servir	VERB	_	VerbForm=Inf	11	advcl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	testemunha	testemunha	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	32	punct	_	_
+29	já	já	ADV	_	ExtPos=SCONJ	32	mark	_	_
+30	que	que	SCONJ	_	_	29	fixed	_	_
+31	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	presenciou	presenciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	_
+33	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	35	det	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	briga	briga	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0021
+# text = A esposa também alegou que não foi a primeira agressão sofrida e nas outras brigas decidiu não comunicar a a polícia: É um homem violento e agressivo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	esposa	esposo	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	alegou	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	10	mark	_	_
+6	não	não	ADV	_	_	10	advmod	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	agressão	agressão	NOUN	_	Gender=Fem|Number=Sing	4	ccomp	_	_
+11	sofrida	sofrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+12	e	e	CCONJ	_	_	17	cc	_	_
+13-14	nas	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	brigas	briga	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+17	decidiu	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+18	não	não	ADV	_	_	19	advmod	_	_
+19	comunicar	comunicar	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	polícia	polícia	NOUN	_	Number=Sing	19	obl	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	26	punct	_	_
+24	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	homem	homem	NOUN	_	Gender=Masc|Number=Sing	4	parataxis	_	_
+27	violento	violento	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	agressivo	agressivo	ADJ	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0023
+# text = Sempre fui xingada e humilhada.
+1	Sempre	sempre	ADV	_	_	3	advmod	_	_
+2	fui	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	xingada	xingar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	humilhada	humilhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0025
+# text = Ele me chamava de burra [...] falava que eu não entendia nada de política [...] além de me xingar de chantagista e paranoica Na denúncia, a jornalista também conta que, em outra ocasião, após passar por uma cirurgia na barriga, o senador a teria chutado a região operada.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	chamava	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	ccomp	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	burra	burro	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+8	..	..	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	]	]	PUNCT	_	_	7	punct	_	_
+10	falava	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	não	não	ADV	_	_	14	advmod	_	_
+14	entendia	entender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	ccomp	_	_
+15	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	política	política	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+20	..	..	PUNCT	_	_	19	parataxis	_	SpaceAfter=No
+21	]	]	PUNCT	_	_	20	punct	_	_
+22	além	além	ADV	_	_	10	advmod	_	_
+23	de	de	ADP	_	_	25	mark	_	_
+24	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	obj	_	_
+25	xingar	xingar	VERB	_	VerbForm=Inf	22	acl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	chantagista	chantagista	NOUN	_	Number=Sing	25	obl	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	paranoica	paranoico	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	_
+30-31	Na	_	_	_	_	_	_	_	_
+30	Em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	jornalista	jornalista	NOUN	_	Number=Sing	37	nsubj	_	_
+36	também	também	ADV	_	_	37	advmod	_	_
+37	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+38	que	que	SCONJ	_	_	57	mark	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	42	punct	_	_
+40	em	em	ADP	_	_	42	case	_	_
+41	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	42	det	_	_
+42	ocasião	ocasião	NOUN	_	Gender=Fem|Number=Sing	57	obl	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	após	após	ADP	_	_	45	mark	_	_
+45	passar	passar	VERB	_	VerbForm=Inf	22	acl	_	_
+46	por	por	ADP	_	_	48	case	_	_
+47	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	cirurgia	cirurgia	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	_
+49-50	na	_	_	_	_	_	_	_	_
+49	em	em	ADP	_	_	51	case	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	barriga	barriga	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	45	punct	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	senador	senador	NOUN	_	Gender=Masc|Number=Sing	57	nsubj	_	_
+55	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	57	obj	_	_
+56	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	57	aux	_	_
+57	chutado	chutar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	37	ccomp	_	_
+58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	região	região	NOUN	_	Gender=Fem|Number=Sing	57	obj	_	_
+60	operada	operar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	59	acl	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = S0027
+# text = As informações são do Correio Brasiliense.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Correio	Correio	PROPN	_	_	0	root	_	_
+7	Brasiliense	Brasiliense	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+

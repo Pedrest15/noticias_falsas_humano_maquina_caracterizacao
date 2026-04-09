@@ -1,0 +1,139 @@
+# sent_id = S0001
+# text = Tá confuso?
+1	Tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	confuso	confuso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0003
+# text = Seus problemas se acabaram!
+1	Seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+4	acabaram	acabar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0005
+# text = Site mostra em tempo real se Lula "é" ou "não é" ministro.
+1	Site	site	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+5	real	real	ADJ	_	Number=Sing	4	amod	_	_
+6	se	se	SCONJ	_	_	16	mark	_	_
+7	Lula	Lula	PROPN	_	_	16	nsubj	_	_
+8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	16	punct	_	_
+11	ou	ou	CCONJ	_	_	16	cc	_	_
+12	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+13	não	não	ADV	_	_	16	advmod	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	16	punct	_	_
+16	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0007
+# text = Com tantas liminares sendo concedidas e derrubadas em tempo recorde, o povo já não sabe se Lula é ou não é ministro.
+1	Com	com	ADP	_	_	3	case	_	_
+2	tantas	tanto	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	liminares	liminar	NOUN	_	Number=Plur	16	obl	_	_
+4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
+5	concedidas	conceder	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	derrubadas	derrubar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	conj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+10	recorde	recorde	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	povo	povo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	já	já	ADV	_	_	16	advmod	_	_
+15	não	não	ADV	_	_	16	advmod	_	_
+16	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	se	se	SCONJ	_	_	23	mark	_	_
+18	Lula	Lula	PROPN	_	_	23	nsubj	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	ou	ou	CCONJ	_	_	21	cc	_	_
+21	não	não	ADV	_	_	23	advmod	_	_
+22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	16	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = S0009
+# text = Um publicitário inovou em termos de criatividade e lançou um portal que informa [em tempo real] se Lula "está" ou "não está" ministro.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	publicitário	publicitário	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	inovou	inovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	termos	termo	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	criatividade	criatividade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	lançou	lançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	portal	portal	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+13	informa	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	[	[	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	em	em	ADP	_	_	16	case	_	_
+16	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	real	real	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
+18	]	]	PUNCT	_	_	16	punct	_	_
+19	se	se	SCONJ	_	_	29	mark	_	_
+20	Lula	Lula	PROPN	_	_	29	nsubj	_	_
+21	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+22	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	16	punct	_	_
+24	ou	ou	CCONJ	_	_	29	cc	_	_
+25	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	não	não	ADV	_	_	29	advmod	_	_
+27	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	29	punct	_	_
+29	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0011
+# text = É claro que se trata de uma brincadeira, mas uma brincadeira muito útil em tempos tão turbulentos na política brasileira.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl:impers	_	_
+5	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	brincadeira	brincadeira	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	mas	mas	CCONJ	_	_	12	cc	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	brincadeira	brincadeira	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+13	muito	muito	ADV	_	_	14	advmod	_	_
+14	útil	útil	ADJ	_	Number=Sing	12	amod	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+17	tão	tão	ADV	_	_	18	advmod	_	_
+18	turbulentos	turbulento	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	política	política	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+22	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0013
+# text = Nota 10 pela criatividade.
+1	Nota	nota	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	10	10	NUM	_	NumType=Card	1	nmod	_	_
+3-4	pela	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	criatividade	criatividade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0014
+# text = acesse o site aqui.
+1	acesse	acessar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	site	site	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	aqui	aqui	ADV	_	_	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+

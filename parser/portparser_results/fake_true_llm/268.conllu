@@ -1,0 +1,427 @@
+# sent_id = S0001
+# text = Exército Brasileiro anuncia intervenção: "Fraudes confirmadas nas urnas eletrônicas, eleições serão anuladas e refeitas no papel"!
+1	Exército	Exército	PROPN	_	_	3	nsubj	_	_
+2	Brasileiro	Brasileiro	PROPN	_	_	1	flat:name	_	_
+3	anuncia	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	intervenção	intervenção	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	16	punct	_	_
+6	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+7	Fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+8	confirmadas	confirmar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	_
+9-10	nas	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+12	eletrônicas	eletrônico	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+15	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
+16	anuladas	anular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	refeitas	refazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	16	conj	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	papel	papel	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0003
+# text = Em um pronunciamento surpresa, o Exército Brasileiro declarou que, diante de evidências contundentes de fraudes nas urnas eletrônicas, as eleições serão anuladas e realizadas novamente utilizando cédulas de papel.
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pronunciamento	pronunciamento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	surpresa	surpreso	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Exército	Exército	PROPN	_	_	9	nsubj	_	_
+8	Brasileiro	Brasileiro	PROPN	_	_	7	flat:name	_	_
+9	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	26	mark	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	diante	diante	ADV	_	_	26	advmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+15	contundentes	contundente	ADJ	_	Number=Plur	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+18-19	nas	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	eletrônicas	eletrônico	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	12	punct	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	26	nsubj:pass	_	_
+25	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	aux:pass	_	_
+26	anuladas	anular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	26	conj	_	_
+29	novamente	novamente	ADV	_	_	30	advmod	_	_
+30	utilizando	utilizar	VERB	_	VerbForm=Ger	26	advcl	_	_
+31	cédulas	cédula	NOUN	_	Gender=Fem|Number=Plur	30	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	papel	papel	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0005
+# text = O General Villas Bôas, ex-comandante do Exército, teria afirmado em suas redes sociais que "a integridade do processo eleitoral é inegociável".
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	General	General	PROPN	_	_	12	nsubj	_	_
+3	Villas	Villas	PROPN	_	_	2	flat:name	_	_
+4	Bôas	Bôas	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	ex-comandante	ex-comandante	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Exército	Exército	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	12	aux	_	_
+12	afirmado	afirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	suas	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	redes	rede	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+16	sociais	social	ADJ	_	Number=Plur	15	amod	_	_
+17	que	que	SCONJ	_	_	26	mark	_	_
+18	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	processo	processo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	eleitoral	eleitoral	ADJ	_	Number=Sing	23	amod	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	inegociável	inegociável	ADJ	_	Number=Sing	12	ccomp	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = S0007
+# text = A nota oficial divulgada pelo Exército indica que a decisão visa assegurar a transparência e a confiança do eleitorado.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nota	nota	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	oficial	oficial	ADJ	_	Number=Sing	2	amod	_	_
+4	divulgada	divulgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Exército	Exército	PROPN	_	_	4	obl:agent	_	_
+8	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	assegurar	assegurar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	transparência	transparência	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	confiança	confiança	NOUN	_	Number=Sing	15	conj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	eleitorado	eleitorado	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0009
+# text = Após uma análise detalhada e independente, o Exército constatou irregularidades significativas que comprometem a veracidade dos resultados eleitorais.
+1	Após	após	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	detalhada	detalhado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	3	amod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	independente	independente	ADJ	_	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Exército	Exército	PROPN	_	_	10	nsubj	_	_
+10	constatou	constatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	irregularidades	irregularidade	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+12	significativas	significativo	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
+14	comprometem	comprometer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	veracidade	veracidade	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	eleitorais	eleitoral	ADJ	_	Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0011
+# text = Em cumprimento ao nosso dever constitucional e para preservar a soberania nacional, anularemos as eleições atuais e implementaremos um sistema de votação em papel, supervisionado pelas Forças Armadas, afirmou a nota.
+1	Em	em	ADP	_	_	2	case	_	_
+2	cumprimento	cumprimento	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	_	_	6	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nosso	nosso	DET	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	dever	dever	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	constitucional	constitucional	ADJ	_	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	preservar	preservar	VERB	_	VerbForm=Inf	2	conj	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	soberania	soberania	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	nacional	nacional	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	anularemos	anular	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	34	ccomp:speech	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+18	atuais	atual	ADJ	_	Number=Plur	17	amod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	implementaremos	implementar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	15	conj	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	votação	votação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	papel	papel	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	supervisionado	supervisionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+29-30	pelas	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	Forças	Forças	PROPN	_	_	28	obl:agent	_	_
+32	Armadas	Armadas	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	15	punct	_	_
+34	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	nota	nota	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = S0013
+# text = O Ministério da Defesa reforçou que as Forças Armadas têm a missão de garantir a normalidade do pleito e que, em situações excepcionais como esta, podem atuar para assegurar a realização de novas eleições.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministério	Ministério	PROPN	_	_	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Defesa	Defesa	PROPN	_	_	2	flat:name	_	_
+6	reforçou	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Forças	Forças	PROPN	_	_	11	nsubj	_	_
+10	Armadas	Armadas	PROPN	_	_	9	flat:name	_	_
+11	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	missão	missão	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	garantir	garantir	VERB	_	VerbForm=Inf	13	acl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	normalidade	normalidade	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pleito	pleito	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	e	e	CCONJ	_	_	30	cc	_	_
+22	que	que	SCONJ	_	_	30	mark	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	situações	situação	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	_
+26	excepcionais	excepcional	ADJ	_	Number=Plur	25	amod	_	_
+27	como	como	ADP	_	_	28	case	_	_
+28	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	25	punct	_	_
+30	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+31	atuar	atuar	VERB	_	VerbForm=Inf	30	xcomp	_	_
+32	para	para	ADP	_	_	33	mark	_	_
+33	assegurar	assegurar	VERB	_	VerbForm=Inf	31	advcl	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	realização	realização	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	novas	novo	ADJ	_	Gender=Fem|Number=Plur	38	amod	_	_
+38	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0015
+# text = A segurança e a integridade do processo eleitoral são prioridades.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	segurança	segurança	NOUN	_	Number=Sing	11	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	integridade	integridade	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	eleitoral	eleitoral	ADJ	_	Number=Sing	8	amod	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	prioridades	prioridade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = S0017
+# text = Estamos preparados para conduzir uma votação justa e transparente com cédulas de papel, declarou o Ministério.
+1	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	preparados	preparado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	15	ccomp:speech	_	_
+3	para	para	ADP	_	_	4	mark	_	_
+4	conduzir	conduzir	VERB	_	VerbForm=Inf	2	acl	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	votação	votação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	justa	justo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	transparente	transparente	ADJ	_	Number=Sing	7	conj	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	cédulas	cédula	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	papel	papel	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	declarou	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Ministério	Ministério	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = S0019
+# text = A decisão teria sido tomada com base no artigo 224 do Código Eleitoral, que prevê novas eleições em caso de nulidade que atinja mais da metade dos votos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+4	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	_
+5	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	base	base	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	224	224	NUM	_	NumType=Card	10	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Código	Código	PROPN	_	_	10	nmod	_	_
+15	Eleitoral	Eleitoral	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	prevê	prever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+19	novas	novo	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+20	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	caso	caso	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	nulidade	nulidade	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
+26	atinja	atingir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+27	mais	mais	ADV	_	ExtPos=ADV	30	advmod	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	27	fixed	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	metade	metade	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+31-32	dos	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	votos	voto	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = S0021
+# text = A Justiça Eleitoral, embora inicialmente resistente, teria concordado com a intervenção do Exército para restabelecer a credibilidade do processo.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Justiça	Justiça	PROPN	_	_	10	nsubj	_	_
+3	Eleitoral	Eleitoral	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	embora	embora	SCONJ	_	_	7	mark	_	_
+6	inicialmente	inicialmente	ADV	_	_	7	advmod	_	_
+7	resistente	resistente	ADJ	_	Number=Sing	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+10	concordado	concordar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	intervenção	intervenção	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Exército	Exército	PROPN	_	_	13	nmod	_	_
+17	para	para	ADP	_	_	18	mark	_	_
+18	restabelecer	restabelecer	VERB	_	VerbForm=Inf	10	advcl	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	credibilidade	credibilidade	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	processo	processo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = S0023
+# text = Importante ressaltar que a anulação se deve a fraudes comprovadas e não a votos nulos.
+1	Importante	importante	ADJ	_	Number=Sing	0	root	_	_
+2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	csubj	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	anulação	anulação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	_	_
+7	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	fraudes	fraude	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+10	comprovadas	comprovar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	e	e	CCONJ	_	_	14	cc	_	_
+12	não	não	ADV	_	_	14	advmod	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	votos	voto	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
+15	nulos	nulo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0025
+# text = A medida visa inibir qualquer perturbação futura e garantir a soberania popular.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	inibir	inibir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	6	det	_	_
+6	perturbação	perturbação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	futura	futuro	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	garantir	garantir	VERB	_	VerbForm=Inf	4	conj	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	soberania	soberania	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	popular	popular	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0027
+# text = Atualizações recentes na legislação eleitoral, ainda não amplamente divulgadas, permitem a utilização de cédulas de papel em casos de emergência ou suspeita de fraude, conforme interpretação do Exército e do Ministério da Defesa.
+1	Atualizações	atualização	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+2	recentes	recente	ADJ	_	Number=Plur	1	amod	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	legislação	legislação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	eleitoral	eleitoral	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	ainda	ainda	ADV	_	_	11	advmod	_	_
+9	não	não	ADV	_	_	11	advmod	_	_
+10	amplamente	amplamente	ADV	_	_	11	advmod	_	_
+11	divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	permitem	permitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	cédulas	cédula	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	papel	papel	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	casos	caso	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	emergência	emergência	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	ou	ou	CCONJ	_	_	25	cc	_	_
+25	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	fraude	fraude	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	conforme	conforme	ADP	_	_	30	case	_	_
+30	interpretação	interpretação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Exército	Exército	PROPN	_	_	30	nmod	_	_
+34	e	e	CCONJ	_	_	37	cc	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Ministério	Ministério	PROPN	_	_	33	conj	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Defesa	Defesa	PROPN	_	_	37	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	13	punct	_	_
+

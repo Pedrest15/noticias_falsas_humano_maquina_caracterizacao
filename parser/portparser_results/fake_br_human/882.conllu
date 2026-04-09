@@ -1,0 +1,118 @@
+# sent_id = S0001
+# text = Em 2006, presidente da Câmara pediu ajuda do exército para retirar Lula da presidência: "Esses anarquistas...".
+1	Em	em	ADP	_	_	2	case	_	_
+2	2006	2006	NUM	_	NumType=Card	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	presidente	presidente	NOUN	_	Number=Sing	8	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Câmara	Câmara	PROPN	_	_	4	nmod	_	_
+8	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	exército	exército	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	para	para	ADP	_	_	14	mark	_	_
+14	retirar	retirar	VERB	_	VerbForm=Inf	8	advcl	_	_
+15	Lula	Lula	PROPN	_	_	14	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	22	punct	_	_
+20	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
+22	anarquistas	anarquista	NOUN	_	Number=Plur	8	parataxis	_	SpaceAfter=No
+23	...	...	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = S0003
+# text = Discurso de Antônio Carlos Magalhães no Senado Federal, no dia 6 de junho de 2006.
+1	Discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Antônio	Antônio	PROPN	_	_	1	nmod	_	_
+4	Carlos	Carlos	PROPN	_	_	3	flat:name	_	_
+5	Magalhães	Magalhães	PROPN	_	_	3	flat:name	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Senado	Senado	PROPN	_	_	1	nmod	_	_
+9	Federal	Federal	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	dia	dia	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+14	6	6	NUM	_	NumType=Card	13	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	junho	junho	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	2006	2006	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0005
+# text = Na época, radicais de esquerda, chamados de MLST (Movimento de Libertação dos Sem Terra) invadiram e depredaram a Câmara dos Deputados.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	época	época	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	radicais	radical	NOUN	_	Number=Plur	21	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	chamados	chamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	MLST	MLST	PROPN	_	_	9	obl	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Movimento	Movimento	PROPN	_	_	11	appos	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Libertação	Libertação	PROPN	_	_	13	flat:name	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Sem	Sem	PROPN	_	_	13	flat:name	_	_
+19	Terra	Terra	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	13	punct	_	_
+21	invadiram	invadir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	depredaram	depredar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Câmara	Câmara	PROPN	_	_	23	obj	_	_
+26-27	dos	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	Deputados	Deputados	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = S0007
+# text = Magalhães chama a atenção sobre o papel de Lula (na época Presidente da República) no episódio.
+1	Magalhães	Magalhães	PROPN	_	_	2	nsubj	_	_
+2	chama	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	sobre	sobre	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	papel	papel	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Lula	Lula	PROPN	_	_	7	nmod	_	_
+10	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	época	época	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+14	Presidente	Presidente	PROPN	_	_	9	nmod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	República	República	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	14	punct	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	episódio	episódio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+

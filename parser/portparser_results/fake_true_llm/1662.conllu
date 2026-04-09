@@ -1,0 +1,325 @@
+# sent_id = S0001
+# text = Atenção: Novo Estudo Revela Métodos Eficazes Contra o Vírus!
+1	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	5	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Novo	Novo	PROPN	_	_	5	nsubj	_	_
+4	Estudo	Estudo	PROPN	_	_	5	flat:name	_	_
+5	Revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Métodos	Métodos	PROPN	_	_	5	obj	_	_
+7	Eficazes	Eficazes	PROPN	_	_	6	flat:name	_	_
+8	Contra	contra	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Vírus	Vírus	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = S0003
+# text = Pesquisadores renomados acabam de divulgar descobertas surpreendentes sobre o vírus que tem preocupado o mundo.
+1	Pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	renomados	renomado	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	acabam	acabar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	divulgar	divulgar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	descobertas	descoberto	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	surpreendentes	surpreendente	ADJ	_	Number=Plur	6	amod	_	_
+8	sobre	sobre	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vírus	vírus	NOUN	_	Gender=Masc	6	nmod	_	_
+11	que	que	PRON	_	PronType=Rel	13	nsubj	_	_
+12	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	preocupado	preocupar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl:relcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = S0005
+# text = Segundo o estudo, o vírus é extremamente sensível ao calor e temperaturas acima de 26° C são suficientes para destruí-lo.
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vírus	vírus	NOUN	_	Gender=Masc	9	nsubj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	extremamente	extremamente	ADV	_	_	9	advmod	_	_
+9	sensível	sensível	ADJ	_	Number=Sing	0	root	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	calor	calor	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	e	e	CCONJ	_	_	20	cc	_	_
+14	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+15	acima	acima	ADV	_	_	20	advmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	26°	26°	SYM	_	_	15	obl	_	_
+18	C	C	PROPN	_	_	17	nmod	_	_
+19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	suficientes	suficiente	ADJ	_	Number=Plur	9	conj	_	_
+21	para	para	ADP	_	_	22	mark	_	_
+22-23	destruí-lo	_	_	_	_	_	_	_	_
+22	destruir	destruir	VERB	_	VerbForm=Inf	20	acl	_	_
+23	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0007
+# text = Isso significa que países tropicais podem ter uma vantagem natural!
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	países	país	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	tropicais	tropical	ADJ	_	Number=Plur	4	amod	_	_
+6	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	ter	ter	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	natural	natural	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0009
+# text = Além disso, especialistas afirmam que a tosse seca é um sinal crucial da primeira fase da doença.
+1	Além	além	ADV	_	_	6	advmod	_	_
+2-3	disso	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	especialistas	especialista	NOUN	_	Number=Plur	6	nsubj	_	_
+6	afirmam	afirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	13	mark	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tosse	tosse	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	seca	seco	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	_
+14	crucial	crucial	ADJ	_	Number=Sing	13	amod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	18	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	18	amod	_	_
+18	fase	fase	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	doença	doença	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0011
+# text = Durante 3 a 4 dias, o vírus permanece na garganta, e gargarejos frequentes com água morna e sal podem reduzir significativamente a gravidade dos sintomas.
+1	Durante	durante	ADP	_	_	5	case	_	_
+2	3	3	NUM	_	NumType=Card	5	nummod	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	4	4	NUM	_	NumType=Card	5	nummod	_	_
+5	dias	dia	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vírus	vírus	NOUN	_	Gender=Masc	9	nsubj	_	_
+9	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	garganta	garganta	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	22	punct	_	_
+14	e	e	CCONJ	_	_	22	cc	_	_
+15	gargarejos	gargarejo	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
+16	frequentes	frequente	ADJ	_	Number=Plur	15	amod	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	água	água	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	morna	morno	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	sal	sal	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
+22	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+23	reduzir	reduzir	VERB	_	VerbForm=Inf	22	xcomp	_	_
+24	significativamente	significativamente	ADV	_	_	23	advmod	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+27-28	dos	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	sintomas	sintoma	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = S0013
+# text = A fase subsequente, que afeta os pulmões e pode causar pneumonia, dura apenas 5 a 6 dias.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	subsequente	subsequente	ADJ	_	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	afeta	afetar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	pulmões	pulmõe	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	causar	causar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	pneumonia	pneumonia	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	dura	durar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	apenas	apenas	ADV	_	_	16	advmod	_	_
+16	5	5	NUM	_	NumType=Card	19	nummod	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	6	6	NUM	_	NumType=Card	16	nummod	_	_
+19	dias	dia	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = S0015
+# text = Superar esses primeiros dias é crucial para evitar complicações fatais, como a sensação de respirar debaixo dágua.
+1	Superar	superar	VERB	_	VerbForm=Inf	6	csubj	_	_
+2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	dias	dia	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	crucial	crucial	ADJ	_	Number=Sing	0	root	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	evitar	evitar	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	complicações	complicação	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	fatais	fatal	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	como	como	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sensação	sensação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	respirar	respirar	VERB	_	VerbForm=Inf	14	acl	_	_
+17	debaixo	debaixo	ADV	_	_	16	advmod	_	_
+18	dágua	dágua	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0017
+# text = O estudo também destaca que o vírus sobrevive por apenas 10 minutos nas mãos, mas alerta: lavar as mãos com água e sabão é vital, especialmente porque o vírus se espalha rapidamente se você tocar nos olhos ou no nariz.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vírus	vírus	NOUN	_	Gender=Masc	8	nsubj	_	_
+8	sobrevive	sobreviver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	por	por	ADP	_	_	12	case	_	_
+10	apenas	apenas	ADV	_	_	11	advmod	_	_
+11	10	10	NUM	_	NumType=Card	12	nummod	_	_
+12	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+13-14	nas	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	mas	mas	CCONJ	_	_	18	cc	_	_
+18	alerta	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	28	punct	_	_
+20	lavar	lavar	VERB	_	VerbForm=Inf	28	csubj	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	água	água	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	sabão	sabão	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	vital	vital	ADJ	_	Number=Sing	18	ccomp	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	35	punct	_	_
+30	especialmente	especialmente	ADV	_	_	35	advmod	_	_
+31	porque	porque	SCONJ	_	_	35	mark	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	vírus	vírus	NOUN	_	Gender=Masc	35	nsubj	_	_
+34	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	35	expl	_	_
+35	espalha	espalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+36	rapidamente	rapidamente	ADV	_	_	35	advmod	_	_
+37	se	se	SCONJ	_	_	39	mark	_	_
+38	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	39	nsubj	_	_
+39	tocar	tocar	VERB	_	VerbForm=Inf	28	advcl	_	_
+40-41	nos	_	_	_	_	_	_	_	_
+40	em	em	ADP	_	_	42	case	_	_
+41	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	olhos	olho	NOUN	_	Gender=Masc|Number=Plur	39	obl	_	_
+43	ou	ou	CCONJ	_	_	46	cc	_	_
+44-45	no	_	_	_	_	_	_	_	_
+44	em	em	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	nariz	nariz	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = S0019
+# text = Outro ponto importante é a resistência do vírus em superfícies metálicas.
+1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	importante	importante	ADJ	_	Number=Sing	2	amod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vírus	vírus	NOUN	_	Gender=Masc	6	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	superfícies	superfície	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+12	metálicas	metálico	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0021
+# text = Ele pode persistir por até 12 horas nesses materiais, tornando essencial evitar contato desnecessário com corrimãos e superfícies similares.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	persistir	persistir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	por	por	ADP	_	_	7	case	_	_
+5	até	até	ADP	_	_	6	case	_	_
+6	12	12	NUM	_	NumType=Card	7	nummod	_	_
+7	horas	hora	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+8-9	nesses	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	materiais	material	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	tornando	tornar	VERB	_	VerbForm=Ger	2	advcl	_	_
+13	essencial	essencial	ADJ	_	Number=Sing	12	xcomp	_	_
+14	evitar	evitar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	contato	contato	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+16	desnecessário	desnecessário	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	corrimãos	corrimão	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	superfícies	superfície	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	_
+21	similares	similar	ADJ	_	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = S0023
+# text = Por fim, os cientistas recomendam enfaticamente o consumo de água quente e chás para eliminar o vírus do corpo.
+1	Por	por	ADP	_	_	2	case	_	_
+2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cientistas	cientista	NOUN	_	Number=Plur	6	nsubj	_	_
+6	recomendam	recomendar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	enfaticamente	enfaticamente	ADV	_	_	6	advmod	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	água	água	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	quente	quente	ADJ	_	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	chás	chá	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+15	para	para	ADP	_	_	16	mark	_	_
+16	eliminar	eliminar	VERB	_	VerbForm=Inf	9	advcl	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	vírus	vírus	NOUN	_	Gender=Masc	16	obj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = S0025
+# text = Essa simples medida pode ser um escudo poderoso na luta contra a doença.
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	simples	simples	ADJ	_	_	3	amod	_	_
+3	medida	medida	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	7	cop	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	escudo	escudo	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+8	poderoso	poderoso	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	luta	luta	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+12	contra	contra	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	doença	doença	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
