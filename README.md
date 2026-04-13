@@ -21,7 +21,26 @@ Notícias falsas são um grande problema para a sociedade. Com a Inteligência A
 
 ## Citação (BibTeX)
 
-Em breve.
+@inproceedings{andrade-etal-2026-caracterizacao,
+    title = "Caracteriza{\c{c}}{\~a}o lexical e sint{\'a}tica de not{\'i}cias falsas em portugu{\^e}s produzidas por humanos e por m{\'a}quinas",
+    author = "Andrade, Pedro Lucas Castro de  and
+      Silva, Renato  and
+      Pardo, Thiago Alexandre Salgueiro",
+    editor = "Souza, Marlo  and
+      de-Dios-Flores, Iria  and
+      Santos, Diana  and
+      Freitas, Larissa  and
+      Souza, Jackson Wilke da Cruz  and
+      Ribeiro, Eug{\'e}nio",
+    booktitle = "Proceedings of the 17th International Conference on Computational Processing of {P}ortuguese ({PROPOR} 2026) - Vol. 2",
+    month = apr,
+    year = "2026",
+    address = "Salvador, Brazil",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.propor-2.22/",
+    pages = "148--158",
+    ISBN = "979-8-89176-387-6",
+}
 
 ## Agradecimentos
 
